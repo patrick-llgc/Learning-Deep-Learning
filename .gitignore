@@ -1,3 +1,4 @@
 # ignore numpy data file
 *.npy
-
+# ignore Desktop Service Store in Mac OSX
+.DS_Store
