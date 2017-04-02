@@ -13,9 +13,32 @@ This documents records the main takeaways during my learning of Deep Learning.
 - All data in Tensorflow are represented by a data type Tensor, with a static type, a rank and a shape. However its values have to be evaluated through tf.Session().run().
 - Once a graph is defined, it has to be deployed with a session to get the output. A session is an environment that supports the execution of the operations. If two or more tensors needs to be evaluated, put them in a list and pass to run().
 
-###
 
-### Breaking changes to Tensorflow's API
+### Train a model
+- Define a loss. A loss node has to be defined if we want to train the model. It is very common to use op like `tf.reduce_sum()` to sum across a certain axis.
+	
+	```
+	pred = tf.nn.softmax() # prediction model
+	label = tf.placeholder(tf.float32, [n_batch, n_class])
+	loss = -tf.reduce_sum(label * tf.log(pred), axis=1) # cross entropy
+	```
+
+- Compute gradients. 
+
+	```
+	optimizer = tf.train.GradientDescentOptimizer(lr)
+	train_step = optimizer.minimize(loss)
+	```
+- Train the model.
+
+	```
+	batch_x, batch_label = data.next_batch()
+	with tf.Session() as sess:
+		sess.run(tf.global_variables_initializer())
+		sess.run(train_step, feed_dict={x: batch_x, label: batch_label})
+	```
+
+### Breaking changes to Tensorflow's API (since early 2017)
 Tensorflow has been evolving fast. When running code snippet online, especially those written in 2016, before many changes was implemented in API r1.0 in early 2017, we may encounter various syntax errors. See most updated list of API changes [here](https://github.com/tensorflow/tensorflow/blob/64edd34ce69b4a8033af5d217cb8894105297d8a/RELEASE.md). Among them, the most common ones are:
 
 - `tf.multiply()` replaced `tf.mul()`
