@@ -62,3 +62,11 @@ z = tf.placeholder(tf.float32, shape=[128, 32])     # 128x32-element matrix
 In general `shape=[None, 32]` is the most common way as to put some constraint to feature dimension but also be able to accommodate different batch sizes. 
 
 In contrast, the learnable `Variable` generally has a known static shape. 
+
+### Resources:
+- Coursera course by Hinton [link](https://www.coursera.org/learn/neural-networks/home/week/12)
+- Kaggle Data Bowl [link](https://www.kaggle.com/gzuidhof/data-science-bowl-2017/full-preprocessing-tutorial/notebook)
+- Blogs
+	- [lab41](https://gab41.lab41.org/lab41-reading-group-deep-networks-with-stochastic-depth-564321956729)
+	- [codesachin](https://codesachin.wordpress.com/2017/02/19/residual-neural-networks-as-ensembles/)
+	- d
