@@ -114,8 +114,19 @@ print(sess.run(a))
 b = tf.random_normal([1], 0, 1)
 print(sess.run(b))
 ```
+- There is no `tf.sum()` method. Instead, `tf.reduce_sum(keep_dims=False)` is very similar to `np.sum(keepdims=False)`. Pay special attention to the broadcasting rule.
+- `np.random.normal()` **does not** take any `dtype` argument. It has to be explicitly defined as, for example, `np.random.normal().astype(np.float32)`.
+- Best practice of `import`: 
+
+```
+from package.subpackage1.subpackage2 import subpackage3
+subpackage3.name
+```
+- placeholder (NxD) Hidden layer 1 weight (DxH1) Hidden layer 2 weight (H1xH2). y = X * W + b
+
 
 ### Resources:
+- Debugging tips in TF [link](https://wookayin.github.io/tensorflow-talk-debugging/#9)
 - Coursera course by Hinton [link](https://www.coursera.org/learn/neural-networks/home/week/12)
 - Kaggle Data Bowl [link](https://www.kaggle.com/gzuidhof/data-science-bowl-2017/full-preprocessing-tutorial/notebook)
 - Blogs
