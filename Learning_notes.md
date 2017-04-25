@@ -125,6 +125,72 @@ subpackage3.name
 - placeholder (NxD) Hidden layer 1 weight (DxH1) Hidden layer 2 weight (H1xH2). y = X * W + b
 
 
+### Saving models for re-use
+- blog [link](https://nathanbrixius.wordpress.com/2016/05/24/checkpointing-and-reusing-tensorflow-models/)
+- A typical scenario has three steps:
+	1. Creating a Saver and telling the Saver which variables you want to save,
+	2. Save the variables to a file,
+	3. Restore the variables from a file when they are needed.
+- `tf.train.import_meta_graph`[link](https://www.tensorflow.org/api_docs/python/tf/train/import_meta_graph)
+- [link](http://stackoverflow.com/questions/36195454/what-is-the-tensorflow-checkpoint-meta-file) Checkpoint file only saves the weights, and the graph itself can be recovered from the meta file.
+
+```
+import tensorflow as tf
+
+def save(checkpoint_file='/tmp/mnist/hello.chk'):
+    with tf.Session() as session:
+        x = tf.Variable([42.0, 42.1, 42.3], name='x')
+        y = tf.Variable([[1.0, 2.0], [3.0, 4.0]], name='y')
+        not_saved = tf.Variable([-1, -2], name='not_saved')
+        session.run(tf.global_variables_initializer())
+
+        print(session.run(tf.global_variables()))
+	    # saver = tf.train.Saver([x, y])
+        saver = tf.train.Saver()
+        saver.save(session, checkpoint_file)
+
+def restore(checkpoint_file='/tmp/mnist/hello.chk'):
+    x = tf.Variable(-1.0, validate_shape=False, name='x')
+    y = tf.Variable(-1.0, validate_shape=False, name='y')
+    with tf.Session() as session:
+        saver = tf.train.Saver()
+        saver.restore(session, checkpoint_file)
+        print(session.run(tf.global_variables()))
+
+def restore2(checkpoint_file='/tmp/mnist/hello.chk'):
+    with tf.Session() as session:
+        saver = tf.train.import_meta_graph(checkpoint_file + ".meta")
+        saver.restore(session, checkpoint_file)
+        session.run(tf.global_variables_initializer()) #needed
+        print(session.run(tf.global_variables()))
+        
+def reset():
+    tf.reset_default_graph() # destroys the graph
+    
+save() # saves [x, y, not_saved]
+reset()
+restore() # loads [x, y]
+reset()
+restore2() # loads [x, y, not_saved]
+```
+
+### Questions：
+
+1. Why do we have to normalize the stddev parameter during initialization?
+2. What does `import_meta_graph` and `restore` do?
+	
+	> `import_meta_graph` loads the graph from the meta file, and `restore` recovers the weights of the trainable variables.
+	
+3. What does `add_to_collection` and `get_collection` do?
+4. How to use [input pipeline](http://web.stanford.edu/class/cs20si/lectures/notes_09.pdf)?
+
+### Tips:
+- Remember to use `tf.reset_default_graph()` before training
+
+### Running on multiple devices
+https://www.tensorflow.org/tutorials/using_gpu
+
+
 ### Resources:
 - Debugging tips in TF [link](https://wookayin.github.io/tensorflow-talk-debugging/#9)
 - Coursera course by Hinton [link](https://www.coursera.org/learn/neural-networks/home/week/12)
