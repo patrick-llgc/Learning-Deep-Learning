@@ -10,8 +10,8 @@ This documents records the main takeaways during my learning of Deep Learning.
 - Nodes in Tensorflow's graph represents operation (op), and the edge represents the data (tensor) that flows between them.
 - All data in Tensorflow are represented by a data type Tensor, with a static type, a rank and a shape. However its values have to be evaluated through tf.Session().run().
 - Once a graph is defined, it has to be deployed with a session to get the output. A session is an environment that supports the execution of the operations. If two or more tensors needs to be evaluated, put them in a list and pass to run().
-
-
+- The role of Python code is therefore to build this external computation graph, and to dictate which parts of the computation graph should be run.
+- In the TensorFlow system, tensors are described by a unit of dimensionality known as **rank**. Tensor rank is **NOT** the same as **matrix rank**.
 
 ### Train a model
 - Define a loss. A loss node has to be defined if we want to train the model. It is very common to use op like `tf.reduce_sum()` to sum across a certain axis.
@@ -64,6 +64,14 @@ In general `shape=[None, 32]` is the most common way as to put some constraint t
 
 In contrast, the learnable `Variable` generally has a known static shape. 
 
+- difference between `tf.shape()` and `Tensor.get_shape()`
+
+```
+a = tf.random_normal([2, 5, 4])
+print(a.get_shape())  # ==> (2, 5, 4)
+print(sess.run(tf.shape(a)))  # ==> [2 5 4]
+```
+
 ### Using GPU
 Use the following code to list all available devices:
 
@@ -101,7 +109,7 @@ When operating on two arrays, NumPy compares their shapes element-wise. It start
 - If both the graph-level and the operation seed are set: Both seeds are used in conjunction to determine the random sequence.
 
 ### Notes on Sherry Moore's tensorflow tutorial
-- Youtube Video [Link](https://www.youtube.com/watch?v=Ejec3ID_h0w&t=2810s)
+- Youtube Video [Link](https://www.youtube.com/watch?v=Ejec3ID_h0w&t=2810s), Detailed [documentation](https://www.tensorflow.org/get_started/mnist/mechanics)
 - Variables have to be explicitly initialized.
 
 ```
@@ -123,6 +131,7 @@ from package.subpackage1.subpackage2 import subpackage3
 subpackage3.name
 ```
 - placeholder (NxD) Hidden layer 1 weight (DxH1) Hidden layer 2 weight (H1xH2). y = X * W + b
+- `sparse_softmax_cross_entropy_with_logits` and `softmax_cross_entropy_with_logits` [link](http://stackoverflow.com/questions/37312421/tensorflow-whats-the-difference-between-sparse-softmax-cross-entropy-with-logi)
 
 
 ### Saving models for re-use
@@ -132,7 +141,36 @@ subpackage3.name
 	2. Save the variables to a file,
 	3. Restore the variables from a file when they are needed.
 - `tf.train.import_meta_graph`[link](https://www.tensorflow.org/api_docs/python/tf/train/import_meta_graph)
-- [link](http://stackoverflow.com/questions/36195454/what-is-the-tensorflow-checkpoint-meta-file) Checkpoint file only saves the weights, and the graph itself can be recovered from the meta file.
+- Checkpoint file only saves the weights, and the graph itself can be recovered from the meta file. ([link](http://stackoverflow.com/questions/36195454/what-is-the-tensorflow-checkpoint-meta-file)) There are two parts to the model, the model definition, saved by Supervisor as graph.pbtxt in the model directory and the numerical values of tensors, saved into checkpoint files like model.ckpt-1003418. ([link2](http://stackoverflow.com/questions/33759623/tensorflow-how-to-save-restore-a-model))
+- How to save model [link](http://stackoverflow.com/documentation/tensorflow/5000/save-and-restore-a-model-in-tensorflow#t=201704251751077840717)
+ 
+	> Note that in this example, while the saver actually saves both the current values of the variables as a checkpoint and the structure of the graph (*.meta), no specific care was taken w.r.t how to retrieve e.g. the placeholders x and y once the model was restored. E.g. if the restoring is done anywhere else than this training script, it can be cumbersome to retrieve x and y from the restored graph (especially in more complicated models). To avoid that, always give names to your variables / placeholders / ops or think about using tf.collections as shown in one of the remarks.
+
+### A minimal example of saving and restoring a model
+```
+import tensorflow as tf
+tf.reset_default_graph()
+w1 = tf.Variable(tf.truncated_normal([10]), name='w1')
+tf.add_to_collection('weights', w1)
+saver = tf.train.Saver()
+
+# save graph
+with tf.Session() as sess:
+    sess.run(tf.global_variables_initializer())
+    saver.save(sess, r'/tmp/mnist/mymodel', global_step=10)
+```
+From a different station
+
+```
+import tensorflow as tf
+# load graph (even from a different station)
+with tf.Session() as sess:
+    new_saver = tf.train.import_meta_graph(r'/tmp/mnist/mymodel-10.meta')
+    new_saver.restore(sess,r'/tmp/mnist/mymodel-10')
+    new_weights = tf.get_collection('weights')[0]
+    print(sess.run(new_weights))
+```
+Another example
 
 ```
 import tensorflow as tf
@@ -174,14 +212,20 @@ reset()
 restore2() # loads [x, y, not_saved]
 ```
 
+### Trainable Variables
+tf.trainable_variables() returns a list of all trainable variables. tf.Variable(trainable=False) will not add variables to this list.
+
 ### Questions：
 
 1. Why do we have to normalize the stddev parameter during initialization?
+
+	> One should generally initialize weights with a small amount of noise for symmetry breaking, and to prevent 0 gradients. Since we're using ReLU neurons, it is also good practice to initialize them with a slightly positive initial bias to avoid "dead neurons". [link](https://www.tensorflow.org/get_started/mnist/pros)
 2. What does `import_meta_graph` and `restore` do?
-	
+
 	> `import_meta_graph` loads the graph from the meta file, and `restore` recovers the weights of the trainable variables.
 	
 3. What does `add_to_collection` and `get_collection` do?
+	> Makes it easier to retrieve variables from restored graph
 4. How to use [input pipeline](http://web.stanford.edu/class/cs20si/lectures/notes_09.pdf)?
 
 ### Tips:
@@ -190,8 +234,9 @@ restore2() # loads [x, y, not_saved]
 ### Running on multiple devices
 https://www.tensorflow.org/tutorials/using_gpu
 
-
 ### Resources:
+- Cross entropy: A great visual [guide](http://colah.github.io/posts/2015-09-Visual-Information/) to cross entropy
+- Visualizing graph using tensorboard[tutorial](http://learningtensorflow.com/Visualisation/)
 - Debugging tips in TF [link](https://wookayin.github.io/tensorflow-talk-debugging/#9)
 - Coursera course by Hinton [link](https://www.coursera.org/learn/neural-networks/home/week/12)
 - Kaggle Data Bowl [link](https://www.kaggle.com/gzuidhof/data-science-bowl-2017/full-preprocessing-tutorial/notebook)
