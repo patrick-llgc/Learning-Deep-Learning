@@ -3,6 +3,10 @@
 This documents records the main takeaways during my learning of Deep Learning.
 
 ## Tensorflow
+
+### FAQ
+First read the [FAQ](https://www.tensorflow.org/programmers_guide/faq#running_a_tensorflow_computation)!
+
 ### Basic Concepts
 - Tensorflow defines a graph (a collection of operations stacked in order) first, and then executes the operations on real data at run time. So when we perform operations in TF, we are [designing the architect](https://blog.metaflow.fr/tensorflow-a-primer-4b3fa0978be3) without running any calculation. The calculation happens inside a Session. So there are two stages in TF's code: the **Graph** level and the **Session** (evaluation) level. 
 - Real data are not needed at definition of the graph. For this, inputs are represented by a datatype named `placeholder`. Only at run time, real data is fed into the `placeholder`s through a mapping dictionary `feed_dict`.
@@ -71,6 +75,38 @@ a = tf.random_normal([2, 5, 4])
 print(a.get_shape())  # ==> (2, 5, 4)
 print(sess.run(tf.shape(a)))  # ==> [2 5 4]
 ```
+
+- Static shape `Tensor.get_shape()` is evaluated at graph construction time, while dynamic shape `tf.shape(Tensor)` is evaluated at runtime. 
+- **N.B.** Static (inferred) shape may be incomplete. Eval dynamic shape in a session. 
+
+	> In TensorFlow, a tensor has both a static (inferred) shape and a dynamic (true) shape. The static shape can be read using the tf.Tensor.get_shape method: this shape is inferred from the operations that were used to create the tensor, and may be partially complete. If the static shape is not fully defined, the dynamic shape of a Tensor t can be determined by evaluating tf.shape(t).
+	
+### x.set_shape() vs x = tf.reshape(x)
+`set_shape` specifies undefined information, no copy involved. tf.reshape does a **shallow** copy (not expensive either). [link](http://stackoverflow.com/questions/35451948/clarification-on-tf-tensor-set-shape)
+
+```
+a = tf.placeholder(tf.float32, (None, 10))
+print('{} initial'.format(a.get_shape()))
+a.set_shape((5, 10))
+print('{} after set shape'.format(a.get_shape()))
+try:
+    a.set_shape((1, 5, 10))
+except:
+    print('cannot set_shape to (1, 5, 10) shape incompatible!')
+a = tf.reshape(a, [1, 5,-1])
+print('{} reshaped (copied)'.format(a.get_shape()))
+
+# ==>
+"""
+(?, 10) initial
+(5, 10) after set shape
+cannot set_shape to (1, 5, 10) shape incompatible!
+(1, 5, 10) reshaped (copied)
+"""
+```
+
+### NCHW (faster on cuDNN) vs NHWC (faster on CPU)
+The current recommendation is that users support both formats in their models. In the long term, we plan to rewrite graphs to make switching between the formats transparent. [link](https://www.tensorflow.org/performance/performance_guide#use_nchw_image_data_format)
 
 ### Using GPU
 Use the following code to list all available devices:
@@ -145,6 +181,27 @@ subpackage3.name
 - How to save model [link](http://stackoverflow.com/documentation/tensorflow/5000/save-and-restore-a-model-in-tensorflow#t=201704251751077840717)
  
 	> Note that in this example, while the saver actually saves both the current values of the variables as a checkpoint and the structure of the graph (*.meta), no specific care was taken w.r.t how to retrieve e.g. the placeholders x and y once the model was restored. E.g. if the restoring is done anywhere else than this training script, it can be cumbersome to retrieve x and y from the restored graph (especially in more complicated models). To avoid that, always give names to your variables / placeholders / ops or think about using tf.collections as shown in one of the remarks.
+
+### Reading data
+Three ways to load data [link](https://www.tensorflow.org/programmers_guide/reading_data)
+
+1. Feeding: using `feed_dict` when running each step.
+
+	A placeholder exists solely to serve as the target of feeds. It is not initialized and contains no data. A placeholder generates an error if it is executed without a feed, so you won't forget to feed it.
+
+	This is the easiest way, but parsing could be a bottleneck. In that case, build **input pipelines**. 
+	
+	Unless for a special circumstance or for example code, **DO NOT** feed data into the session from Python variables, e.g. dictionary. ([link](https://www.tensorflow.org/performance/performance_guide))
+
+	```
+	# This will result in poor performance.
+	sess.run(train_step, feed_dict={x: batch_xs, y_: batch_ys})
+	```
+
+2. Reading from files: input pipeline read from file at the beginning of a TF graph
+3. Preloaded data: a constant or Variable in the graph holds all the data (for small datasets)
+
+
 
 ### A minimal example of saving and restoring a model
 ```
@@ -230,9 +287,13 @@ tf.trainable_variables() returns a list of all trainable variables. tf.Variable(
 
 ### Tips:
 - Remember to use `tf.reset_default_graph()` before training
+- Use fused batch norm in DNN.
 
 ### Running on multiple devices
 https://www.tensorflow.org/tutorials/using_gpu
+https://www.tensorflow.org/tutorials/deep_cnn
+
+- Buying [guide](http://timdettmers.com/2017/04/09/which-gpu-for-deep-learning/#tldr)
 
 ### Resources:
 - Cross entropy: A great visual [guide](http://colah.github.io/posts/2015-09-Visual-Information/) to cross entropy
