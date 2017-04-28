@@ -298,10 +298,13 @@ tf.trainable_variables() returns a list of all trainable variables. tf.Variable(
 - Use fused batch norm in DNN.
 
 ### Running on multiple devices
-https://www.tensorflow.org/tutorials/using_gpu
-https://www.tensorflow.org/tutorials/deep_cnn
-
+- https://www.tensorflow.org/tutorials/using_gpu
+- https://www.tensorflow.org/tutorials/deep_cnn
+- Using GPU [guide](http://learningtensorflow.com/lesson10/)
 - Buying [guide](http://timdettmers.com/2017/04/09/which-gpu-for-deep-learning/#tldr)
+- Guide Lines:
+	1. FP32 runs much faster than FP64 on GPU. Theoretically FP32 should be twice as fast as FP64, but most GPU's don't have as many FP64 units and FP32 operations can be 32 times faster than FP64. This ratio depends on GPU architecture. However if the operation is memory bounded such as matrix transposition, this ideal number can be achieved. ([link](http://arrayfire.com/explaining-fp64-performance-on-gpus/)) 
+	2. Use FP32 as default for float point calculations. It has enough precision for most deep learning cases.
 
 ### Resources:
 - Cross entropy: A great visual [guide](http://colah.github.io/posts/2015-09-Visual-Information/) to cross entropy
