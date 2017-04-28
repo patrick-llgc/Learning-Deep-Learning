@@ -272,6 +272,14 @@ restore2() # loads [x, y, not_saved]
 ### Trainable Variables
 tf.trainable_variables() returns a list of all trainable variables. tf.Variable(trainable=False) will not add variables to this list.
 
+### Sharing variables
+- [TF how-to](https://www.tensorflow.org/programmers_guide/variable_scope)
+- iPython [Notebook](./ipynb/sherrym_tf_tutorial/Sharing_variables.ipynb)
+- `v = tf.get_variable(name, shape, dtype, initializer)` retrieves variable, and creates one if not existed yet.
+1. Case 1: the scope is set for creating new variables, as evidenced by tf.get_variable_scope().reuse == False.
+2. Case 2: the scope is set for reusing variables, as evidenced by tf.get_variable_scope().reuse == True.
+- `tf.variable_scope()` carries a prefix name and a reuse flag. `reuse` parameter is inherited in all sub-scopes.
+- name scope vs variable scope: name scope is ignored by tf.get_variable().
 ### Questions：
 
 1. Why do we have to normalize the stddev parameter during initialization?
