@@ -169,6 +169,8 @@ subpackage3.name
 - placeholder (NxD) Hidden layer 1 weight (DxH1) Hidden layer 2 weight (H1xH2). y = X * W + b
 - `sparse_softmax_cross_entropy_with_logits` and `softmax_cross_entropy_with_logits` [link](http://stackoverflow.com/questions/37312421/tensorflow-whats-the-difference-between-sparse-softmax-cross-entropy-with-logi)
 
+### Epochs vs steps
+An epoch usually means one iteration over all of the training data. For instance if you have 20,000 images and a batch size of 100 then the epoch should contain 20,000 / 100 = 200 steps. [link](http://stackoverflow.com/questions/38340311/what-is-the-difference-between-steps-and-epochs)
 
 ### Saving models for re-use
 - blog [link](https://nathanbrixius.wordpress.com/2016/05/24/checkpointing-and-reusing-tensorflow-models/)
@@ -294,8 +296,17 @@ tf.trainable_variables() returns a list of all trainable variables. tf.Variable(
 4. How to use [input pipeline](http://web.stanford.edu/class/cs20si/lectures/notes_09.pdf)?
 
 ### Tips:
-- Remember to use `tf.reset_default_graph()` before training
+- Remember to use `tf.reset_default_graph()` to clear before training, especially during interactive development.
 - Use fused batch norm in DNN.
+- Use placeholder to hold the dropout probability during training and evaluation.
+- Adam uses a adaptive learning rate.
+- Use xentropy during training and accuracy during evaluation
+
+```
+correct_prediction = tf.equal(tf.argmax(y_, 1), tf.argmax(y_conv, 1))
+accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
+```
+
 
 ### Running on multiple devices
 - https://www.tensorflow.org/tutorials/using_gpu
