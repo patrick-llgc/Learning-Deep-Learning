@@ -136,6 +136,22 @@ When operating on two arrays, NumPy compares their shapes element-wise. It start
 - they are equal, or
 - one of them is 1
 
+### Memory requirements imposed by conv layers
+- An example taken from O'Reilly's *Hands-on machine learning with scikit-learn and tensorflow*: input 150x100 RGB image, one conv layer with 200 5x5 filters, 1x1 stride and `SAME` padding. The output parameters would be 200 feature maps of size 150x100, with a total number of parameters of (5x5x3+1)x200 = 15200 parameters. 
+- Computation: Each of the 200 feature maps contains 150x100 neurons, and the each neuron needs to make weighted sum of 5x5x3 inputs, that is (5x5x3)x150x100x200=225 million multiplications. Including the same amount of addition, this requires 450 million flops.
+- Storage: if each weight is stored in 32-bit float (double), then the output features takes 200x150x100x32/8~11.4 MB of RAM per instance. If a training batch contains 100 instance, the this layer would take up 1 GB of RAM!
+- During training, every layer computed during the forward pass needs to be preserved for back-propagation, so the RAM needed is at least the total amount of RAM needed. 
+- During inference, the RAM occupied by one layer can be released as soon as the next layer has been completed, so only as much RAM as required by two consecutive layers are needed.
+
+### Pooling layers
+- Pooling reduces the input image size and also makes the NN tolerate a bit more image shift (location invariance).
+- Pooling works on every input channel independently. Generally you can pool over the height and width in each channel, or pool over the channels. You can not do both currently in tensorflow.
+
+### CNN architecture
+- Typical CNN architectures stack a few convolutional layers (each one followed by a ReLU layer) and a pooling layer. The image gets smaller and smaller but gets deeper and deeper as well.
+- Common mistake is to make kernels too large. We can get the same effect as 9x9 kernels by stacking two 3x3 kernels. 
+- Cross entropy cost function is preferred as it penalizes bad predictions much more, producing larger gradients and thus converging faster.
+
 ### Random seed (graph level and op level)
 `tf.set_random_seed(seed)`'s interactions with operation-level seeds is as follows: [docstring](https://www.tensorflow.org/api_docs/python/tf/set_random_seed)
 
@@ -306,6 +322,8 @@ tf.trainable_variables() returns a list of all trainable variables. tf.Variable(
 correct_prediction = tf.equal(tf.argmax(y_, 1), tf.argmax(y_conv, 1))
 accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 ```
+- For simple classification tasks, it generally is OK to **down-sample** the image first and then do the classification using CNN.
+- Deep learning is usually good at bring up sensitivity, then afterwards use conventional computer vision or machine learning techniques to bring up specificity (filtering out false positives).
 
 
 ### Running on multiple devices
@@ -326,3 +344,33 @@ accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 - Blogs
 	- [lab41](https://gab41.lab41.org/lab41-reading-group-deep-networks-with-stochastic-depth-564321956729)
 	- [codesachin](https://codesachin.wordpress.com/2017/02/19/residual-neural-networks-as-ensembles/)
+
+### Talks
+#### Andrew Ng: Nuts and Bolts of Applying Deep Learning
+- The video is available on [youtube](https://www.youtube.com/watch?v=F1ka6a13S9I&t=4279s).
+- Decision making flowchart in tuning DL
+![](images/Decision Making in Applying Deep Learning - Page 1.svg)
+- Make sure dev and test are from the same distribution. 
+	- Dev is the benchmark of tuning.
+- Bias vs Variance tradeoff
+	- In the era of deep learning, the bias and variance are not as closely coupled as traditional machine learning.
+- Human level performance
+	- It provides feasibility, data and insights.
+	- Why improving after beating human level performance becomes harder? 
+	- Human level performance gives guidance on which gap to focus on before hitting human level performance (e.g., are we doing good enough on training data error?).
+	- Afterwards, it becomes unclear which area to focus on (e.g., hard to tell if is it a bias or variance problem).
+	- What to do? Focus on sub-areas still lagging behind human level performance.
+- Why it is increasingly important now? 
+	- Since we are approaching human level performance now, and knowing human level performance is very useful information to drive decision making.
+- How to define human level performance in order to drive algorithm development?
+	- Given that human level performance are often used as proxy for theoretical optimal error rate (and measure the noise level of the data), it is most useful to get the best possible human level performance. 
+	- Medical example of making diagnosis of a certain disease. Among the error rate results from a) average person 3%, b) average doctor 1%, c) expert doctor 0.8%, d) group of expert doctors 0.5%, d) is most useful. However, considering the difficulty of obtaining the labels, b) is most often used.
+- What can AI/DL do? How can we put AI into our product?
+	- Heuristic: Anything that a person can perform with < 1s of thought.
+	- Predicting outcome of next in sequence of events.
+- How to become a good DL researcher?
+	- ML + DL basics
+	- PhD student process: 
+		- Read a lot of (20~50 at least) papers
+		- replicate the result.
+	- Dig into dirty work (but not only that)
