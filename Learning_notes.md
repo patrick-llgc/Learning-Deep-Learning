@@ -345,7 +345,10 @@ accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 	- [lab41](https://gab41.lab41.org/lab41-reading-group-deep-networks-with-stochastic-depth-564321956729)
 	- [codesachin](https://codesachin.wordpress.com/2017/02/19/residual-neural-networks-as-ensembles/)
 
-### Talks
+> I've read a lot of research papers (DeepMind, Google Brain, Facebook, NYU, Stanford, etc.), blogs (Nervana Systems, Indico, Colah, Otoro's Blog, etc.), lecture notes (Stanford cs231n, cs224d, cs229), and tutorials (Quoc Le's tutorial, TensorFlow, etc.), and have watched a lot of videos (Hugo Larochelle's tutorials, Stanford cs229, TedTalks, lectures by Yann LeCun <3, etc.) [link](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618/ref=pd_sim_14_1?_encoding=UTF8&pd_rd_i=0262035618&pd_rd_r=ZB5XTPQHEMADR1H4VZ5Q&pd_rd_w=b08ty&pd_rd_wg=kNTBU&psc=1&refRID=ZB5XTPQHEMADR1H4VZ5Q)
+
+
+## Talks
 #### Andrew Ng: Nuts and Bolts of Applying Deep Learning
 - The video is available on [youtube](https://www.youtube.com/watch?v=F1ka6a13S9I&t=4279s).
 - Decision making flowchart in tuning DL
@@ -379,3 +382,4 @@ accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 - [link](https://www.youtube.com/watch?v=nFTQ7kHQWtc)
 - Beautiful simplicity of backpropagation: every local gradient is a LOCAL worker in a GLOBAL chase for smaller loss function. 
 - The gradient of sigmoid function $\frac{d\sigma(x)}{dx} = \sigma(x) (1-\sigma(x))$.
+
