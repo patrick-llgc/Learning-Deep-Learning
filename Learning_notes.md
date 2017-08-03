@@ -374,3 +374,8 @@ accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 		- Read a lot of (20~50 at least) papers
 		- replicate the result.
 	- Dig into dirty work (but not only that)
+
+### Recurrent Neural Networks (RNN)
+- [link](https://www.youtube.com/watch?v=nFTQ7kHQWtc)
+- Beautiful simplicity of backpropagation: every local gradient is a LOCAL worker in a GLOBAL chase for smaller loss function. 
+- The gradient of sigmoid function $\frac{d\sigma(x)}{dx} = \sigma(x) (1-\sigma(x))$.
