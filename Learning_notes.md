@@ -378,8 +378,15 @@ accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 		- replicate the result.
 	- Dig into dirty work (but not only that)
 
+
+
 ### Recurrent Neural Networks (RNN)
 - [link](https://www.youtube.com/watch?v=nFTQ7kHQWtc)
 - Beautiful simplicity of backpropagation: every local gradient is a LOCAL worker in a GLOBAL chase for smaller loss function. 
 - The gradient of sigmoid function $\frac{d\sigma(x)}{dx} = \sigma(x) (1-\sigma(x))$.
 
+## General ML topics
+### PR curve vs ROC curve
+- Precision-Recall curve plots precision (percentage of true positives in the percentage of predicted positives, $\frac{TP}{TP+FN}$) vs recall (percentage of predicted true positives in all true positives, $\frac{TP}{TP+FP}$). 
+- ROC (receiver operating curve) plots recall (sensitivity, true positive rate) vs specificity (1 - false positive rate, $\frac{TN}{TN+FP}$). 
+- When data is highly skewed (imbalanced, such as rare disease detection, $P/N \to 0$), ROC curve is not very useful as specificity cannot be differentiated clearly. In this regard, PR curve works better.
