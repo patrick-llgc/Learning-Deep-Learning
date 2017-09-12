@@ -25,6 +25,40 @@
 	- Localization in 6D
 		- GPS is not reliable or accurate in urban canyons
 
+		
+### Fully Convolutinal Networks for Semantic Segmentation (FCN)
+- [link](https://arxiv.org/abs/1605.06211)
+- FCN adapts the classification networks for dense prediction, making it capable of localizatio tasks as well. Both learning and inference are performed whole-image-at-a-time.
+- Architecture
+	- Typical classifier nets take fixed-sized inputs.
+	- **KEY STEP**: Fully connected (FC) layers can also be viewed as convolutions with kernels that cover their entire input regions. Doing so cast the classification nets to fully convolutional networks (FCN) that take **input of any size** and make spatial output maps. 
+	- Although resulting maps are equivalent to the evaluation of original net on particular input image patches, the computation is **highly amortized** over the overlapping regions of those patches.
+	- Although casting the nets to a fully convolutional manner will provide some localization information, the resulting image will be one with lower resolution due to max-pooling layers.
+	- Addition of **skip connections** helps with the coarse prediction limited by the stride (due to **max-pooling**) of the convolution layers. This combines *where* (localizatino information from shallower layers) and *what* (classification information from deeper layers) of the network.
+- Skip connections:
+![](images/fcn_arch.png)
+	- FCN-32s: Start with VGG-16 and convolutionalize the fully connected layer, perform 32x upscaling from the final stride-32 layer.
+	- FCN-16s: Start with FCN-32s, concatenate stride-16 with 2x upscaled stride32 layers first, then perform a 16x upscaling. 
+	- FCN-8s: Start with FCN-8s, concatenate stride-8 with 2x upscaled stride-16 layers and 4x upscaled stride-8 layers.
+	- The 2x interpolation layers is initialized to bilinear interpolation
+- Training
+	- **Fine-tuning** only the final classification layer only yields 73% of the the full fine-tuning performance. 
+	- Training all-at-once yeilds similar results to training in stages (FCN-32 first, then FCN-16, finally FCN-8) yields very similar results but only takes about half the time. However each stream needs to be scaled by a fixed constant to avoid divergence.
+	- Class balancing: by weight or sampling the loss. ^(c.f. 3D U-net, ==need more investigation==) Mildly unlablanced datasets (1:3, e.g.) do not need rebalancing.
+	- **Upsampling** needs to be defined as convolution for end-to-end training and inference. See details in this [blog](http://warmspringwinds.github.io/tensorflow/tf-slim/2016/11/22/upsampling-and-image-segmentation-with-tensorflow-and-tf-slim/).^(==need to read==)
+- Evaluation
+	- $n_{ij}$ is the number of pixels of class i predicted to be class j.
+	- $t_i = \sum_j n_{ij}$ is the total number of pixels of class i.
+	- pixel accuracy: $\sum_i n_{ii} / \sum_i t_i = \sum_i n_{ii} / \sum_{ij} n_{ij}$
+	- mean accuracy: $(1/n_{cl}) \sum_i n_{ii}/t_i$
+	- mean IU: $(1/n_{cl}) \sum_i n_{ii}/(t_i + \sum_j n_{ji} - n_{ii})$
+- Momentum
+	- Higher momentum is needed for batch size. $p^{1/k} = p'^{1/k'}$. For example, for momentun 0.9 and a batch size of 20, an equivalent training regime may be a momentum of $0.9^{1/20} \approx 0.99$ and a batch size of one, which is equivalent of **online learning**. In general, online learning yields better FCN models in less wall clock time.
+	
+- Extensions
+	- [DIGITS 5 from Nvidia](https://devblogs.nvidia.com/parallelforall/image-segmentation-using-digits-5/)^(==need to read==)
+
+
 
 ### U-net: Convolutional Networks for Biomedical Image Segmentation
 - [Link](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/)
@@ -85,45 +119,44 @@
 	- Number of slices: diminishing return after a few slices (a couple of percentage of total number)
 
 
+
 ### V-Net: fully Convolutional Neural Network for Volumentric Medical Image Segmentation
+- [Link](https://arxiv.org/abs/1606.04797)
+- V-net improves upon U-net in two aspects:
+	- Capable of performing 3D operations (like 3D U-net)
+	- Added residual connections between the first and last steps of each stage of convolution layers (between pooling operatios)
+		- redisual connections lead to faster convergence
+	- Replaced pooling operations with convolutinal ones
+		- cf: the all convolutional net (arXiv:1412:6806)^(==to read==)
+		- smaller memory footprint (no switches mapping the poutput of pooling layers back to the inouts are needed for backprob)^(==why? How does backprob work in pooling layers?==)
+![](images/vnet_arch.png)
 - Objective function based on Dice coefficient
 	- [Dice coefficient](https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient): a statistic used for comparing the similarity of two samples
 	- $S={\frac {2|X\cap Y|}{|X|+|Y|}}$, which is related to Jaccard index (IoU), $J=\frac{|X \cap Y|}{|X \cup Y|}$, in that $S = 2J/(1+J)$ and both $S, J \in (0, 1)$.
-
-	
-	
-		
-### Fully Convolutinal Networks for Semantic Segmentation (FCN)
-- [link](https://arxiv.org/abs/1605.06211)
-- FCN adapts the classification networks for dense prediction, making it capable of localizatio tasks as well. Both learning and inference are performed whole-image-at-a-time.
-- Architecture
-	- Typical classifier nets take fixed-sized inputs.
-	- **KEY STEP**: Fully connected (FC) layers can also be viewed as convolutions with kernels that cover their entire input regions. Doing so cast the classification nets to fully convolutional networks (FCN) that take **input of any size** and make spatial output maps. 
-	- Although resulting maps are equivalent to the evaluation of original net on particular input image patches, the computation is **highly amortized** over the overlapping regions of those patches.
-	- Although casting the nets to a fully convolutional manner will provide some localization information, the resulting image will be one with lower resolution due to max-pooling layers.
-	- Addition of **skip connections** helps with the coarse prediction limited by the stride (due to **max-pooling**) of the convolution layers. This combines *where* (localizatino information from shallower layers) and *what* (classification information from deeper layers) of the network.
-- Skip connections:
-![](images/fcn_arch.png)
-	- FCN-32s: Start with VGG-16 and convolutionalize the fully connected layer, perform 32x upscaling from the final stride-32 layer.
-	- FCN-16s: Start with FCN-32s, concatenate stride-16 with 2x upscaled stride32 layers first, then perform a 16x upscaling. 
-	- FCN-8s: Start with FCN-8s, concatenate stride-8 with 2x upscaled stride-16 layers and 4x upscaled stride-8 layers.
-	- The 2x interpolation layers is initialized to bilinear interpolation
+	- The improved loss function is:
+	$$
+	D = \frac{2\sum_i^N p_i g_i}
+			  {\sum_i^N p_i^2 + \sum_i^N g_i^2},
+	$$ where predicted binary segmentation $p_i \in P$ and ground truth binary volume $g_i \in G$. This Dice coefficient can be differntiated $\partial D/\partial p_j$ with respect to the $j$-th voxel of prediction.
+	- The authors *claimed* that using this loss function eliminates the need to adjust the weight of loss for different classes to address class imblancement.^(==Why?==)
 - Training
-	- **Fine-tuning** only the final classification layer only yields 73% of the the full fine-tuning performance. 
-	- Training all-at-once yeilds similar results to training in stages (FCN-32 first, then FCN-16, finally FCN-8) yields very similar results but only takes about half the time. However each stream needs to be scaled by a fixed constant to avoid divergence.
-	- Class balancing: by weight or sampling the loss. ^(c.f. 3D U-net, ==need more investigation==) Mildly unlablanced datasets (1:3, e.g.) do not need rebalancing.
-	- **Upsampling** needs to be defined as convolution for end-to-end training and inference. See details in this [blog](http://warmspringwinds.github.io/tensorflow/tf-slim/2016/11/22/upsampling-and-image-segmentation-with-tensorflow-and-tf-slim/).^(==need to read==)
-- Evaluation
-	- $n_{ij}$ is the number of pixels of class i predicted to be class j.
-	- $t_i = \sum_j n_{ij}$ is the total number of pixels of class i.
-	- pixel accuracy: $\sum_i n_{ii} / \sum_i t_i = \sum_i n_{ii} / \sum_{ij} n_{ij}$
-	- mean accuracy: $(1/n_{cl}) \sum_i n_{ii}/t_i$
-	- mean IU: $(1/n_{cl}) \sum_i n_{ii}/(t_i + \sum_j n_{ji} - n_{ii})$
-- Momentum
-	- Higher momentum is needed for batch size. $p^{1/k} = p'^{1/k'}$. For example, for momentun 0.9 and a batch size of 20, an equivalent training regime may be a momentum of $0.9^{1/20} \approx 0.99$ and a batch size of one, which is equivalent of **online learning**. In general, online learning yields better FCN models in less wall clock time.
-	
-- Extensions
-	- [DIGITS 5 from Nvidia](https://devblogs.nvidia.com/parallelforall/image-segmentation-using-digits-5/)^(==need to read==)
+	- Data augmentation performed on-the-fly to avoid the othewise excessive storage requirement. 2x2x2 control points and B-spline interpolation
+	- High momentum of 0.99, following U-net.
+- Inference
+	- The input images are **resampled** to a common resolution of the input images. This should be necessary for preprocessing of input data as well.
+- Additional notes:
+	- The main capability of CNN is to learn a hierarchical representation of raw input data, without replying on handcrafted features. 
+	- The naive solution to segmentation uses patchwise classification but only considers local context and suffers from efficiency issues too.
+	- To avoid information bottleneck, the number of channels doubles when the resolution of the images halves.
+
+
+
+## R-CNN: From Classification to Detection to Segmentation
+The evolvement from R-CNN (regional CNN), Fast R-CNN, Faster R-CNN and Mask R-CNN.
+
+### R-CNN: Rich feature hierarchies for acurate object detection and semantic segmentation, Tech Report v5
+- [Link](https://arxiv.org/abs/1311.2524), [link ppt](https://courses.cs.washington.edu/courses/cse590v/14au/cse590v_wk1_rcnn.pdf)
+
 
 
 ## Blogs, Websites, slides, etc
