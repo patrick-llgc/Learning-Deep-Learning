@@ -197,6 +197,8 @@ The evolvement from R-CNN (regions with CNN-features), Fast R-CNN, Faster R-CNN 
 - Bounding box regression
 	- It was found that the localization error was the main contribution to mAP error so a linear regressor based on the extracted features from pool_5 (last layer before FC layers) was used to transform the proposed bounding box $P$ to ground truth bounding box $G$. Only closely located (P, G) pairs were used for training (IoU > 0.6).
 - Relation with [OverFeat](#overfeat)
+	- OverFeat uses multiscale pyramid of sliding window.
+	- OverFeat is faster than R-CNN (to be improved by fast and faster R-CNN)
 - R-CNN is "efficient" in two ways:
 	- CNN parameters shared across all categories
 	- feature vectors extracted by CNN are low-dimensional compared to conventional CV algorithms.
@@ -204,13 +206,39 @@ The evolvement from R-CNN (regions with CNN-features), Fast R-CNN, Faster R-CNN 
 
 
 ### <a name="overfeat">OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks</a>
-- First publication on explaining how to use CNN to perform localization and detection. (AlexNet paper was focused on classification)
-- Proposed a aggregation method to combine many localization predictions. This eliminates the need to train on background samples.
-- Segmentation preprocessing or object proposal steps (e.g., selective search) drastically reduce unlikely object regions hence reducing false postives (e.g., R-CNN). 
-	- Overfeat was able to win ILSVRC2013 localization using aggregation of localization predictions without resorting to object proposal step, but it was overtaken by R-CNN by a large margin.
+- Overview
+	- First publication on explaining how to use CNN to perform localization and detection. (AlexNet paper was focused on classification)
+	- Proposed a aggregation method to combine many localization predictions. This eliminates the need to train on background samples.
+	- Segmentation preprocessing or object proposal steps (e.g., selective search) drastically reduce unlikely object regions hence reducing false postives (e.g., R-CNN). 
+		- Overfeat was able to win ILSVRC2013 localization using aggregation of localization predictions without resorting to object proposal step, but it was overtaken by R-CNN by a large margin.
 - Detection vs localization
 	- Largely the same
 	- Detection dataset is more challenging as it contains many small objects while classification/localization typically contain a single large object. It can contain any number of objects (including 0) and thus false positives are penalized.
+- Multiscale Classification (6 sizes of input images were used)
+	- 3 steps:
+		1. A spatial feature map is generated for each scale. The spatial max was selected.
+		2. This leads to a C-dim (# of classes) vector at each scale. All vectors were averaged into a mean class vector
+		3. from which top element(s) were selected. 
+	- Note that this multiscale does not lead to huge improvement in classification. However, there are two interesting concepts.
+	- A **shift-and-stitch** method were used to enhance the image resolution after convolution. 
+![](images/overfeat_shift_and_stich.png)
+	- Sliding window is generally computationally intensive but it **inherently efficient** with CNN due to heavily amortized computation over overlaped windows. 
+![](images/overfeat_efficient_sliding_window.png)
+- Localization
+	- Use pool_5 features to train a regressor network, 256 -> 4096 -> 1024 -> 4.
+![](images/overfeat_bb_regressor.png)
+	- Each scale (6) and offset (3x3) generate a bounding box prediction, so there are a max of 54 bounding boxes for a single object. A **greedy merge strategy** are used to merge these bounding boxes together:
+		1. $ (b'_1, b'_2) = \underset{b_1 \ne b_2 \in B}{argmin} \texttt{ match_score}(b_1, b_2) $
+		2. 	If $\texttt{match_score}(b'_1, b'_2) > t$, stop
+		3. Otherwise, set $B \leftarrow B\backslash {b'_1, b'_2} \cup \texttt{box_merge} (b'_1, b'_2)$
+	- Compute `match_score` using sum of distance between centers of bounding boxes to the intersection of the boxes. `box_merge` compute the average of the bounding boxes coordinates.
+	- This method is very robust to false positive than non-maximum suppresion by rewarding bounding box coherence.
+- Detection
+	- Very similar to localization except the necessity to predict a background class when no object is present.
+	- **Bootstrapping** is used in training on negative examples^(==hard negative mining?==) 
+- Limitations to be improved
+	- Layers up to pool_5 are used as a blackbox feature extractor in localization. Fine-tuning (backprop all the way back) in localizaiton may give better result.
+
 
 ## Blogs, Websites, slides, etc
 - DeepLearningJP2016 [@SlideShares](https://www.slideshare.net/DeepLearningJP2016/presentations)
