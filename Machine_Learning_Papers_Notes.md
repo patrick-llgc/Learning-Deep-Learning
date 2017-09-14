@@ -217,6 +217,35 @@ The evolvement from R-CNN (regions with CNN-features), Fast R-CNN, Faster R-CNN 
 - Limitations to be improved
 	- Layers up to pool_5 are used as a blackbox feature extractor in localization. Fine-tuning (backprop all the way back) in localizaiton may give better result.
 
+### Fast R-CNN
+- [Link](https://arxiv.org/abs/1504.08083)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Others
 ### Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation
@@ -234,24 +263,17 @@ The evolvement from R-CNN (regions with CNN-features), Fast R-CNN, Faster R-CNN 
 - TBC
 
 
-### DeepEM3D: Approaching human-level performance on 3D anisotropic EM image segmentation [link](https://academic.oup.com/bioinformatics/article-abstract/33/16/2555/3096435/DeepEM3D-approaching-human-level-performance-on-3D?redirectedFrom=fulltext)
-
-
-### Sensor fusion [link](https://www.youtube.com/watch?v=xDDN8Q0hJos)
-- 2 approchaes to sensor fusion
-	- fuse input data from sensors before analysis
-	- fuse analysis output data
-- Prerequisites of sensor fusion
-	- sensor synchronization using GPS
-	- Localization in 6D
-		- GPS is not reliable or accurate in urban canyons
-
-
 ## Blogs, Websites, slides, etc
 - DeepLearningJP2016 [@SlideShares](https://www.slideshare.net/DeepLearningJP2016/presentations)
+- DeepEM3D: Approaching human-level performance on 3D anisotropic EM image segmentation [link](https://academic.oup.com/bioinformatics/article-abstract/33/16/2555/3096435/DeepEM3D-approaching-human-level-performance-on-3D?redirectedFrom=fulltext)
+- Sensor fusion [link](https://www.youtube.com/watch?v=xDDN8Q0hJos)
+	- 2 approchaes to sensor fusion
+		- fuse input data from sensors before analysis
+		- fuse analysis output data
+	- Prerequisites of sensor fusion
+		- sensor synchronization using GPS
+		- Localization in 6D. GPS is not reliable or accurate in urban canyons
 
-	
-	
 	
 	
 	
