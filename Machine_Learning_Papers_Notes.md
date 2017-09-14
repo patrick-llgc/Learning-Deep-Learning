@@ -1,48 +1,8 @@
 # Machine Learning Papers Notes
 
+[toc]
 
-Table of Contents
-===
-
-   * [Machine Learning Papers Notes](#machine-learning-papers-notes)
-         * [Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation (<a href="https://arxiv.org/pdf/1609.08144.pdf">link</a>)](#googles-neural-machine-translation-system-bridging-the-gap-between-human-and-machine-translation-link)
-         * [DeepEM3D: Approaching human-level performance on 3D anisotropic EM image segmentation <a href="https://academic.oup.com/bioinformatics/article-abstract/33/16/2555/3096435/DeepEM3D-approaching-human-level-performance-on-3D?redirectedFrom=fulltext">link</a>](#deepem3d-approaching-human-level-performance-on-3d-anisotropic-em-image-segmentation-link)
-         * [Sensor fusion <a href="https://www.youtube.com/watch?v=xDDN8Q0hJos">link</a>](#sensor-fusion-link)
-         * [Fully Convolutinal Networks for Semantic Segmentation (FCN)](#fully-convolutinal-networks-for-semantic-segmentation-fcn)
-         * [U-net: Convolutional Networks for Biomedical Image Segmentation](#u-net-convolutional-networks-for-biomedical-image-segmentation)
-         * [3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation](#3d-u-net-learning-dense-volumetric-segmentation-from-sparse-annotation)
-         * [V-Net: fully Convolutional Neural Network for Volumentric Medical Image Segmentation](#v-net-fully-convolutional-neural-network-for-volumentric-medical-image-segmentation)
-      * [R-CNN: From Classification to Detection to Segmentation](#r-cnn-from-classification-to-detection-to-segmentation)
-         * [R-CNN: Rich feature hierarchies for acurate object detection and semantic segmentation, Tech Report v5](#r-cnn-rich-feature-hierarchies-for-acurate-object-detection-and-semantic-segmentation-tech-report-v5)
-         * [<a name="user-content-overfeat">OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks</a>](#overfeat-integrated-recognition-localization-and-detection-using-convolutional-networks)
-      * [Blogs, Websites, slides, etc](#blogs-websites-slides-etc)
-	
-### Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation ([link](https://arxiv.org/pdf/1609.08144.pdf)) 
-- Three inherent weaknesses of Neural Machine Translation (that prohibited NMT to overtake phrase based machine translation):
-	1. Slower training and inference speed;
-		- To improve training time: GNMT is based on LSTM RNNs, which have 8 layers with residual connections between the layers to encourage gradient flow. To improve inference time, low-precision arithmetic are used, further accelerated by google's TPU.
-	2. ineffectiveness in dealing with rare words;  
-		- To effectively deal with rare words: sub-word units ("wordpieces") were used for inputs and outputs.
-	3. failure to translate all words in the source.
-		- To translate all of the provided input, a beam search technique and a coverage penalty are used.
-- Phrase-based machine translation (PBMT), as a type pf statistical machine translation method, has dominated machine translation for decades. NMT has been used as part of the PBMT and achieve promising results, but end-to-end learning based on NMT for machine translation has only started to surpass PBMT recently.
-	- attention mechanism, character decoder, character encoder, subword units have been proposed to deal with rare words.
-- GNMT is a sequence-to-sequence learning framework with attention. In order to achieve high accuracy, GNMT has to have deep enough encoder and decoder to capture subtle irregularities in the source and target.
-- TBC
-
-
-### DeepEM3D: Approaching human-level performance on 3D anisotropic EM image segmentation [link](https://academic.oup.com/bioinformatics/article-abstract/33/16/2555/3096435/DeepEM3D-approaching-human-level-performance-on-3D?redirectedFrom=fulltext)
-
-
-### Sensor fusion [link](https://www.youtube.com/watch?v=xDDN8Q0hJos)
-- 2 approchaes to sensor fusion
-	- fuse input data from sensors before analysis
-	- fuse analysis output data
-- Prerequisites of sensor fusion
-	- sensor synchronization using GPS
-	- Localization in 6D
-		- GPS is not reliable or accurate in urban canyons
-
+## CNN
 		
 ### Fully Convolutinal Networks for Semantic Segmentation (FCN)
 - [link](https://arxiv.org/abs/1605.06211)
@@ -214,7 +174,7 @@ The evolvement from R-CNN (regions with CNN-features), Fast R-CNN, Faster R-CNN 
 	- Again, this is region based but not pixel based.
 - Bounding box regression
 	- It was found that the localization error was the main contribution to mAP error so a linear regressor based on the extracted features from pool_5 (last layer before FC layers) was used to transform the proposed bounding box $P$ to ground truth bounding box $G$. Only closely located (P, G) pairs were used for training (IoU > 0.6).
-- Relation with [OverFeat](#overfeat)
+- Relation with [OverFeat](#overfeat-integrated-recognition-localization-and-detection-using-convolutional-networks)
 	- OverFeat uses multiscale pyramid of sliding window.
 	- OverFeat is faster than R-CNN (to be improved by fast and faster R-CNN)
 - R-CNN is "efficient" in two ways:
@@ -223,7 +183,7 @@ The evolvement from R-CNN (regions with CNN-features), Fast R-CNN, Faster R-CNN 
 	- However, compuation is still **inefficient** due to possible large overlaps among proposed regions.
 
 
-### <a name="overfeat">OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks</a>
+### OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks
 - Overview
 	- First publication on explaining how to use CNN to perform localization and detection. (AlexNet paper was focused on classification)
 	- Proposed a aggregation method to combine many localization predictions. This eliminates the need to train on background samples.
@@ -256,6 +216,35 @@ The evolvement from R-CNN (regions with CNN-features), Fast R-CNN, Faster R-CNN 
 	- **Bootstrapping** is used in training on negative examples^(==hard negative mining?==) 
 - Limitations to be improved
 	- Layers up to pool_5 are used as a blackbox feature extractor in localization. Fine-tuning (backprop all the way back) in localizaiton may give better result.
+
+
+## Others
+### Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation
+- [link](https://arxiv.org/pdf/1609.08144.pdf)
+- Three inherent weaknesses of Neural Machine Translation (that prohibited NMT to overtake phrase based machine translation):
+	1. Slower training and inference speed;
+		- To improve training time: GNMT is based on LSTM RNNs, which have 8 layers with residual connections between the layers to encourage gradient flow. To improve inference time, low-precision arithmetic are used, further accelerated by google's TPU.
+	2. ineffectiveness in dealing with rare words;  
+		- To effectively deal with rare words: sub-word units ("wordpieces") were used for inputs and outputs.
+	3. failure to translate all words in the source.
+		- To translate all of the provided input, a beam search technique and a coverage penalty are used.
+- Phrase-based machine translation (PBMT), as a type pf statistical machine translation method, has dominated machine translation for decades. NMT has been used as part of the PBMT and achieve promising results, but end-to-end learning based on NMT for machine translation has only started to surpass PBMT recently.
+	- attention mechanism, character decoder, character encoder, subword units have been proposed to deal with rare words.
+- GNMT is a sequence-to-sequence learning framework with attention. In order to achieve high accuracy, GNMT has to have deep enough encoder and decoder to capture subtle irregularities in the source and target.
+- TBC
+
+
+### DeepEM3D: Approaching human-level performance on 3D anisotropic EM image segmentation [link](https://academic.oup.com/bioinformatics/article-abstract/33/16/2555/3096435/DeepEM3D-approaching-human-level-performance-on-3D?redirectedFrom=fulltext)
+
+
+### Sensor fusion [link](https://www.youtube.com/watch?v=xDDN8Q0hJos)
+- 2 approchaes to sensor fusion
+	- fuse input data from sensors before analysis
+	- fuse analysis output data
+- Prerequisites of sensor fusion
+	- sensor synchronization using GPS
+	- Localization in 6D
+		- GPS is not reliable or accurate in urban canyons
 
 
 ## Blogs, Websites, slides, etc
