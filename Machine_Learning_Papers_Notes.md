@@ -1,4 +1,21 @@
 # Machine Learning Papers Notes
+
+**Table of Contents** 
+
+- [Machine Learning Papers Notes](#)
+		- [Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation (link)](#)
+		- [DeepEM3D: Approaching human-level performance on 3D anisotropic EM image segmentation link](#)
+		- [Sensor fusion link](#)
+		- [Fully Convolutinal Networks for Semantic Segmentation (FCN)](#)
+		- [U-net: Convolutional Networks for Biomedical Image Segmentation](#)
+		- [3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation](#)
+		- [V-Net: fully Convolutional Neural Network for Volumentric Medical Image Segmentation](#)
+	- [R-CNN: From Classification to Detection to Segmentation](#)
+		- [R-CNN: Rich feature hierarchies for acurate object detection and semantic segmentation, Tech Report v5](#)
+		- [OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks](#)
+	- [Blogs, Websites, slides, etc](#)
+
+	
 ### Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation ([link](https://arxiv.org/pdf/1609.08144.pdf)) 
 - Three inherent weaknesses of Neural Machine Translation (that prohibited NMT to overtake phrase based machine translation):
 	1. Slower training and inference speed;
