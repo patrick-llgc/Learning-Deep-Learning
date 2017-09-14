@@ -1,20 +1,21 @@
 # Machine Learning Papers Notes
 
-**Table of Contents** 
 
-- [Machine Learning Papers Notes](#)
-		- [Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation (link)](#)
-		- [DeepEM3D: Approaching human-level performance on 3D anisotropic EM image segmentation link](#)
-		- [Sensor fusion link](#)
-		- [Fully Convolutinal Networks for Semantic Segmentation (FCN)](#)
-		- [U-net: Convolutional Networks for Biomedical Image Segmentation](#)
-		- [3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation](#)
-		- [V-Net: fully Convolutional Neural Network for Volumentric Medical Image Segmentation](#)
-	- [R-CNN: From Classification to Detection to Segmentation](#)
-		- [R-CNN: Rich feature hierarchies for acurate object detection and semantic segmentation, Tech Report v5](#)
-		- [OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks](#)
-	- [Blogs, Websites, slides, etc](#)
+Table of Contents
+===
 
+   * [Machine Learning Papers Notes](#machine-learning-papers-notes)
+         * [Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation (<a href="https://arxiv.org/pdf/1609.08144.pdf">link</a>)](#googles-neural-machine-translation-system-bridging-the-gap-between-human-and-machine-translation-link)
+         * [DeepEM3D: Approaching human-level performance on 3D anisotropic EM image segmentation <a href="https://academic.oup.com/bioinformatics/article-abstract/33/16/2555/3096435/DeepEM3D-approaching-human-level-performance-on-3D?redirectedFrom=fulltext">link</a>](#deepem3d-approaching-human-level-performance-on-3d-anisotropic-em-image-segmentation-link)
+         * [Sensor fusion <a href="https://www.youtube.com/watch?v=xDDN8Q0hJos">link</a>](#sensor-fusion-link)
+         * [Fully Convolutinal Networks for Semantic Segmentation (FCN)](#fully-convolutinal-networks-for-semantic-segmentation-fcn)
+         * [U-net: Convolutional Networks for Biomedical Image Segmentation](#u-net-convolutional-networks-for-biomedical-image-segmentation)
+         * [3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation](#3d-u-net-learning-dense-volumetric-segmentation-from-sparse-annotation)
+         * [V-Net: fully Convolutional Neural Network for Volumentric Medical Image Segmentation](#v-net-fully-convolutional-neural-network-for-volumentric-medical-image-segmentation)
+      * [R-CNN: From Classification to Detection to Segmentation](#r-cnn-from-classification-to-detection-to-segmentation)
+         * [R-CNN: Rich feature hierarchies for acurate object detection and semantic segmentation, Tech Report v5](#r-cnn-rich-feature-hierarchies-for-acurate-object-detection-and-semantic-segmentation-tech-report-v5)
+         * [<a name="user-content-overfeat">OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks</a>](#overfeat-integrated-recognition-localization-and-detection-using-convolutional-networks)
+      * [Blogs, Websites, slides, etc](#blogs-websites-slides-etc)
 	
 ### Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation ([link](https://arxiv.org/pdf/1609.08144.pdf)) 
 - Three inherent weaknesses of Neural Machine Translation (that prohibited NMT to overtake phrase based machine translation):
