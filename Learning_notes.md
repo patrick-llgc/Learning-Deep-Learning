@@ -390,3 +390,17 @@ accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 - Precision-Recall curve plots precision (percentage of true positives in the percentage of predicted positives, $\frac{TP}{TP+FN}$) vs recall (percentage of predicted true positives in all true positives, $\frac{TP}{TP+FP}$). 
 - ROC (receiver operating curve) plots recall (sensitivity, true positive rate) vs specificity (1 - false positive rate, $\frac{TN}{TN+FP}$). 
 - When data is highly skewed (imbalanced, such as rare disease detection, $P/N \to 0$), ROC curve is not very useful as specificity cannot be differentiated clearly. In this regard, PR curve works better.
+
+
+## Blogs, Websites, slides, etc
+- DeepLearningJP2016 [@SlideShares](https://www.slideshare.net/DeepLearningJP2016/presentations)
+- DeepEM3D: Approaching human-level performance on 3D anisotropic EM image segmentation [link](https://academic.oup.com/bioinformatics/article-abstract/33/16/2555/3096435/DeepEM3D-approaching-human-level-performance-on-3D?redirectedFrom=fulltext)
+- Sensor fusion [link](https://www.youtube.com/watch?v=xDDN8Q0hJos)
+	- 2 approchaes to sensor fusion
+		- fuse input data from sensors before analysis
+		- fuse analysis output data
+	- Prerequisites of sensor fusion
+		- sensor synchronization using GPS
+		- Localization in 6D. GPS is not reliable or accurate in urban canyons
+
+	
