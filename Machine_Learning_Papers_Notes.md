@@ -312,6 +312,13 @@ using Convolutional Networks](https://arxiv.org/pdf/1312.6229.pdf)
 - RPN's 2-stage proposal + detection scheme beats the 1-stage detection proposed by OverFeat. It is also the building block for many top-performing detection systems in 2015.
 
 
+### YOLO
+- [You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640)
+- Architecture
+![](images/yolo_arch.png)
+![](images/yolo_arch2.png)
+
+
 ## Others
 ### Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation
 - [link](https://arxiv.org/pdf/1609.08144.pdf)
