@@ -3,3 +3,4 @@
 # ignore Desktop Service Store in Mac OSX
 .DS_Store
 */.DS_Store
+*.html

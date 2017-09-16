@@ -1,8 +1,8 @@
 # Machine Learning Papers Notes
 
-		
-### Fully Convolutinal Networks for Semantic Segmentation (FCN)
-- [link](https://arxiv.org/abs/1605.06211)
+## FCN, U-net, V-net, etc		
+### Fully Convolutinal Networks (FCN)
+- [Fully Convolutinal Networks for Semantic Segmentation](https://arxiv.org/abs/1605.06211)
 - FCN adapts the classification networks for dense prediction, making it capable of localizatio tasks as well. Both learning and inference are performed whole-image-at-a-time.
 - Architecture
 	- Typical classifier nets take fixed-sized inputs.
@@ -35,8 +35,8 @@
 
 
 
-### U-net: Convolutional Networks for Biomedical Image Segmentation
-- [Link](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/)
+### U-net
+- [U-net: Convolutional Networks for Biomedical Image Segmentation](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/)
 - From classification to localization (a class label is supposed to be assigned to each pixel)
 - Ciresan trained a network in a sliding window setup to predict the label of each pixel by providing an image patch surrdounding it. 
 	- Pros: 
@@ -80,8 +80,8 @@
 		Generally $\alpha = 0.5$, which weighs split and merge errors equally. The Rand score is closely related to the Rand index.
 		
 		
-### 3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation
-- [Link](https://arxiv.org/abs/1606.06650)
+### 3D U-Net
+- [3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation](https://arxiv.org/abs/1606.06650)
 - 3D U-net is an end-to-end training scheme for 3D (biomedical) image segmentation based on the 2D counterpart U-net. It also has the analysis (contracting) and synthesis (expanding) paths, connected with skip (shortcut) connections.
 ![](images/3dunet_arch.png)
 - 3D U-net takes 3D volumes as input and process them with 3D operations (3D convolution, 3D max pooling, 3D up-convolution). 
@@ -95,8 +95,8 @@
 
 
 
-### V-Net: fully Convolutional Neural Network for Volumentric Medical Image Segmentation
-- [Link](https://arxiv.org/abs/1606.04797)
+### V-Net
+- [V-Net: fully Convolutional Neural Network for Volumentric Medical Image Segmentation](https://arxiv.org/abs/1606.04797)
 - V-net improves upon U-net in two aspects:
 	- Capable of performing 3D operations (like 3D U-net)
 	- Added residual connections between the first and last steps of each stage of convolution layers (between pooling operatios)
@@ -126,16 +126,16 @@
 
 
 
-## R-CNN: From Classification to Detection to Segmentation
-The evolvement from R-CNN (regions with CNN-features), Fast R-CNN, Faster R-CNN and Mask R-CNN.
+## R-CNN, Fast R-CNN, Faster R-CNN, etc
+From Classification to Detection to Segmentation. The evolvement from R-CNN (regions with CNN-features), Fast R-CNN, Faster R-CNN and Mask R-CNN.
 
-### R-CNN: Rich feature hierarchies for acurate object detection and semantic segmentation, Tech Report v5
-- [Link](https://arxiv.org/abs/1311.2524), [link ppt](https://courses.cs.washington.edu/courses/cse590v/14au/cse590v_wk1_rcnn.pdf)
+### R-CNN
+- [R-CNN: Rich feature hierarchies for acurate object detection and semantic segmentation, Tech Report v5](https://arxiv.org/abs/1311.2524), [link ppt](https://courses.cs.washington.edu/courses/cse590v/14au/cse590v_wk1_rcnn.pdf)
 - Two ways to alleviate the problem of limited availability of annotated data: 
 	- data augmentation
 	- **supervised** pre-training prior to domain specific fine-tuning (transfer learning).
-- [General] Before CNN dominates ILSVRC, ensemble systems that combine multiple low-level image features (HOG-like, e.g.) with high-level context were taking the lead. In retrospect, this also generates hierarchical features, the same as CNN.
-- [General] AlexNet's twists on top of LeCun's CNN: use of ReLu activation function and dropout regularization.
+- [Tidbits] Before CNN dominates ILSVRC, ensemble systems that combine multiple low-level image features (HOG-like, e.g.) with high-level context were taking the lead. In retrospect, this also generates hierarchical features, the same as CNN.
+- [Tidbits] AlexNet's twists on top of LeCun's CNN: use of ReLu activation function and dropout regularization.
 - R-CNN explores the question of how to transfer CNN classification results to object detection.
 - Architecture:
 	- Region proposal: ~2000 (rectangular) category-independent regions for each input image are proposed on the fly by **selective search**.
@@ -183,7 +183,10 @@ The evolvement from R-CNN (regions with CNN-features), Fast R-CNN, Faster R-CNN 
 
 
 
-### OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks
+### OverFeat
+- [OverFeat:
+Integrated Recognition, Localization and Detection
+using Convolutional Networks](https://arxiv.org/pdf/1312.6229.pdf)
 - Overview
 	- First publication on explaining how to use CNN to perform localization and detection. (AlexNet paper was focused on classification)
 	- Proposed a aggregation method to combine many localization predictions. This eliminates the need to train on background samples.
@@ -236,7 +239,7 @@ The evolvement from R-CNN (regions with CNN-features), Fast R-CNN, Faster R-CNN 
 	\\[
 	L(p, u, t^u, v) = L_{cls} (p, u) + \lambda [u \ge 1] L_{loc} (t^u, v)
 	\\]
-		- $L_{cls}(p, u) = -\log p_u$
+		- $L_{cls}(p, u) = -\log p_u$ (log loss function, [special case of cross entropy](https://jamesmccaffrey.wordpress.com/2016/09/25/log-loss-and-cross-entropy-are-almost-the-same/))
 		- $[statement]$ is the Iverson bracket which evaluates to 1 when statement is true. There is no loss for the catch-all background class ($u=0$).
 		- $L_{loc} = \underset{i \in {x, y, w, h}}{\sum} \text{smooth}_{L_1}(t_i^u - v_i)$ in which $\text{smooth}_{L_1}$ is the Huber function. This is more robust against outliers in the penalized $L_2$ loss in R-CNN. (cf scikit-learn topic of [Huber vs Ridge](http://scikit-learn.org/stable/auto_examples/linear_model/plot_huber_vs_ridge.html))
 		- $\lambda$ controls the balance between the two task losses. Set to 1 in this study with normalized input. 
@@ -265,6 +268,50 @@ The evolvement from R-CNN (regions with CNN-features), Fast R-CNN, Faster R-CNN 
 		- A FC layer parameterized by $u \times v$ matrix $W$ can be approximated by SVD $W \approx U \Sigma_t V^T$. $\Sigma_t$ is a $t \times t$ matrix. The cutoff threshold t can be tuned. This gives good speedup during inference (not that this is not used to speed up training) as parameter count reduces from $uv$ to $t(u+v)$.
 
 
+### Faster R-CNN
+- [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://arxiv.org/abs/1506.01497)
+- Architecture
+	- **Region Proposal Network (RPN)** is trained for region proposal
+	- RPN is merged with Fast R-CNN with "attention" mechanism
+![](images/faster_rcnn_arch.png)
+- RPN history and properties
+	- Region proposal became the **bottleneck** of real-time detection (proposal takes almost the same time as detection)
+	- Reimplementing selective search on GPU may speed up calculation, but inefficient as it misses important opportunties to share computation
+	- Features extracted by CNN can also be used for region proposal
+	- RPN is fast (given features extracted by CNN) as the effective (incremental) time for regional proposal is ~ 10 msec
+	- RPN can benefit from deeper networks, unlike SS which is predefined. RPN + VGG surpasses
+- RPN architecture
+	- Slide a $n \times n$ spatial window over extracted feature map.
+	 	- At each location, k = 9 (3 scales x 3 aspect ratios) reference boxes (**anchors**) are initially proposed
+	- Each window is mapped to a lower dim feature (256-d for ZF and 512 for VGG)
+	- The feature is fed into two sibling FC layers, one for **cls** and the other for **reg**
+		- The reg network performs bounding box regression from an anchor to a nearby groundtruth box
+		- The cls network predicts the probabilities of the box being an object and background
+- Anchors
+	- Translation-invariant: this helps to reduce network size. For VGG, the parameter count is 512 x (4+2) x 9.
+	- Multi-scale: the design of multiscale anchors is a key component for sharing features without etra cost for addressig scales
+- Training
+	- Generating training data: anchors are assigned 1 if IoU > 0.7 or highest IoU with a given groundtruth box.
+	- Loss function: multitask (cls+reg)
+	\\[
+		L({p_i}, {t_i}) = \frac{1}{N_{cls}} \sum_i L_{cls}(p_i, p_i^*) \		+ \lambda \frac{1}{N_{reg}} \sum_i p_i^* L_{reg}(t_i, t_i^*)
+	\\]
+	where groundtruth label $p_i^*$ = 1 if anchor is positive, 0 othewise. $p_i$ is the predicted probability of anchor i being an object, $t_i$ is the parameterized coordinates of predicted bounding box (transformation from anchor), and $t_i^*$ is the corresponding groundtruth. $L_{cls}$ is log loss ($-\log p_i$, object vs background). $L_{reg} = R(t_i - t_i^*)$ where $R$ is the robust loss function (smooth $L_1$, Huber).
+	- Fine-tuning VGG (13 conv + 3 FC) from conv3_1 and up as the shallower layers are very generic. Fine-tuning whole network for ZF (5 + 3).
+	- 4-step Alternating training:
+		0. Fine-tune a ImageNet-pretrained model for RPN.
+		1. Fine-tune a ImageNet-pretrained model for Fast R-CNN with RPN proposal. No sharing up to this point.
+		2. Fix detector network conv layers (now shared layers) and fine-tune unique RPN layers
+		3. Fix conv layers and fine-tune unique R-CNN layers
+	- Joint training by combining loss from two networks. This leads to close reults but up to 50% faster than alternating training.
+	- Ignore cross-boundary anchors during training but enable during testing.
+- Number of region proposal by NMS
+	- Non-maximum suppression (NMS) on proposal regions. This leads to ~2000 regions for an IOU threshold of 0.7 during NMS.
+	- However only up to 300 is used for RPN. Ablation studies showed RPN performs good even when proposal count drops from 2000 to 300 due to cls term of RPN. This proves the high quality of RPN region proposals. Also, fewer region proposals means faster detection.
+	- 3 scales x 3 aspect ratios (AR) per feature map location were used to define anchors. 3 scales x 1 AR yields as good results, so AR is not as important. 
+- RPN's 2-stage proposal + detection scheme beats the 1-stage detection proposed by OverFeat. It is also the building block for many top-performing detection systems in 2015.
+
+
 ## Others
 ### Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation
 - [link](https://arxiv.org/pdf/1609.08144.pdf)
@@ -280,3 +327,4 @@ The evolvement from R-CNN (regions with CNN-features), Fast R-CNN, Faster R-CNN 
 - GNMT is a sequence-to-sequence learning framework with attention. In order to achieve high accuracy, GNMT has to have deep enough encoder and decoder to capture subtle irregularities in the source and target.
 - TBC
 	
+
