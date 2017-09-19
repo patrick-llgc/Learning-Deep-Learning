@@ -340,13 +340,14 @@ using Convolutional Networks](https://arxiv.org/pdf/1312.6229.pdf)
 	- Added 4 conv layers + 2 FC layers on the classification network to improve performance.
 	- **Leaky ReLU** was used
 		- trying to fix the "dying ReLU" problem but the benefits has been inconclusive, according to [cs231n](http://cs231n.github.io/neural-networks-1/).
-	- Loss function is modified **sum-squared error** (same as mean squared error, MSE) across all elements of the 7 x 7 x 30 output tensor, with the following modification
+	- Loss function is modified **sum-squared error** (same as mean squared error, MSE) across all elements of the 7 x 7 x 30 output tensor, with the following modification (**note that the notation is floppy, all subscripts should start from 1**)
+	![](images/yolo_loss.png)
 		- MSE weighs localization error the same as classification error. A $\lambda_{coord}=5$ was used to emphasize the bounding box loss. 
 		- For grid that does not contain any object, the regression target is assigned to 0, often leading to overwhelming gradients. Thus $\lambda_{noobj}=0.5$ is used for better balance.
 		- MSE penalizes big boxes the same as small boxes. This is **only partially** addressed by using sqrt of h and w. 
 	- Heavy data augmentation (random scaling, translation, exposure and saturation in HSV)
 - Limitations of YOLO
-	- Strong spatial constraints on bounding box prediction due to the limited number (2) of bounding boxes per grid cell. Fails to detect small objects that appear in groups. 
+	- Strong spatial constraints on bounding box prediction due to the limited number (2) of bounding boxes per grid cell, leaving YOLO vulnerable to detect small objects in flocks. 
 	- Predicts bounding box from data, and thus fails to generalize to new/unusual aspect ratio.
 	- Penalizes small bb and large bb the same way (same displacement more benign for large bb). This lead to incorrect localization, the main source of error of YOLO.
 
