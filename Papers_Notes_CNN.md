@@ -1,4 +1,4 @@
-# Machine Learning Papers Notes
+# Machine Learning Papers Notes (CNN)
 
 ## FCN, U-net, V-net, etc		
 ### Fully Convolutinal Networks (FCN)
@@ -310,28 +310,43 @@ using Convolutional Networks](https://arxiv.org/pdf/1312.6229.pdf)
 	- However only up to 300 is used for RPN. Ablation studies showed RPN performs good even when proposal count drops from 2000 to 300 due to cls term of RPN. This proves the high quality of RPN region proposals. Also, fewer region proposals means faster detection.
 	- 3 scales x 3 aspect ratios (AR) per feature map location were used to define anchors. 3 scales x 1 AR yields as good results, so AR is not as important. 
 - RPN's 2-stage proposal + detection scheme beats the 1-stage detection proposed by OverFeat. It is also the building block for many top-performing detection systems in 2015.
-
-
+	
 ### YOLO
 - [You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640)
-- Architecture
-![](images/yolo_arch.png)
+- YOLO treats object detection as an end-to-end regression problem. This is different from previous methods (e.g. R-CNN and variants) which repurposes classifier networks for detection. YOLO trains on full images and optimizes a loss function directly related to detection performance (bounding box and object class). 
+	- R-CNN starts with image **pre-processing** (region proposal), performs classification, followed by **post-processing** to refine bounding boxes and eliminate duplicate detections. 
+- Characteristics of YOLO
+	- Very fast running at 45 fps, thus a true real-time (> 30 fps) detector. Able to process streaming video in real-time.
+	- Reasons globally about the image (thus makes less background errors than R-CNN). This leads to a strong ensemble with R-CNN and YOLO. 
+	- Generalizes better when applied to a new domain (e.g., natural images -> art work) 
+- Intended Workflow
+	- Divides image to $S \times S$ grid
+	- For each grid cell predicts $B$ bounding boxes and corresponding confidence, and $C$ class probabilities. 
+		- Confidence of bounding box is defined as $\text{Pr(Object)} \times \text{IOU}_{pred}^{truth}$. If no object appears in the bb^(==how to decide? IOU threshold?==), the confidence should be 0; otherwise it should be the IOU with groundtruth. (this is implicitly reflected in the training by assigning label).
+		- Each $C$ class probability is defined as $\text{Pr(Class}_{\textit i}\text{ | Object)}$. These is one set of probability for one gird cell, regardless of number of bb $B$.
+		- At test time, the two numbers are multiplied, 
+		\\[
+		Pr(Class_i | Object) \times Pr(Object) \times \text{IOU}_{pred}^{truth} = Pr(Class_i) \times \text{IOU}_{pred}^{truth}
+		\\]
+		which gives the class-specific confidence score for each box. 
+	- All predictions are encoded as an $S \times S \times (B \times 5 + C)$ tensor. For VOC, S=7, B=2, C=20, thus output dimension is 7 x 7 x 30.
 ![](images/yolo_arch2.png)
-
-
-## Others
-### Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation
-- [link](https://arxiv.org/pdf/1609.08144.pdf)
-- Three inherent weaknesses of Neural Machine Translation (that prohibited NMT to overtake phrase based machine translation):
-	1. Slower training and inference speed;
-		- To improve training time: GNMT is based on LSTM RNNs, which have 8 layers with residual connections between the layers to encourage gradient flow. To improve inference time, low-precision arithmetic are used, further accelerated by google's TPU.
-	2. ineffectiveness in dealing with rare words;  
-		- To effectively deal with rare words: sub-word units ("wordpieces") were used for inputs and outputs.
-	3. failure to translate all words in the source.
-		- To translate all of the provided input, a beam search technique and a coverage penalty are used.
-- Phrase-based machine translation (PBMT), as a type pf statistical machine translation method, has dominated machine translation for decades. NMT has been used as part of the PBMT and achieve promising results, but end-to-end learning based on NMT for machine translation has only started to surpass PBMT recently.
-	- attention mechanism, character decoder, character encoder, subword units have been proposed to deal with rare words.
-- GNMT is a sequence-to-sequence learning framework with attention. In order to achieve high accuracy, GNMT has to have deep enough encoder and decoder to capture subtle irregularities in the source and target.
-- TBC
-	
+- Architecture
+	- 24 conv layers + 2 FC layers
+	- 1x1 reduction layers followed by 3x3 convolutional layers (instead of parallel inception module)
+![](images/yolo_arch.png)
+- Training 
+	- First 20 layers (+ average pooling layer and 1 FC layer) pre-trained on ImageNet data
+	- Added 4 conv layers + 2 FC layers on the classification network to improve performance.
+	- **Leaky ReLU** was used
+		- trying to fix the "dying ReLU" problem but the benefits has been inconclusive, according to [cs231n](http://cs231n.github.io/neural-networks-1/).
+	- Loss function is modified **sum-squared error** (same as mean squared error, MSE) across all elements of the 7 x 7 x 30 output tensor, with the following modification
+		- MSE weighs localization error the same as classification error. A $\lambda_{coord}=5$ was used to emphasize the bounding box loss. 
+		- For grid that does not contain any object, the regression target is assigned to 0, often leading to overwhelming gradients. Thus $\lambda_{noobj}=0.5$ is used for better balance.
+		- MSE penalizes big boxes the same as small boxes. This is **only partially** addressed by using sqrt of h and w. 
+	- Heavy data augmentation (random scaling, translation, exposure and saturation in HSV)
+- Limitations of YOLO
+	- Strong spatial constraints on bounding box prediction due to the limited number (2) of bounding boxes per grid cell. Fails to detect small objects that appear in groups. 
+	- Predicts bounding box from data, and thus fails to generalize to new/unusual aspect ratio.
+	- Penalizes small bb and large bb the same way (same displacement more benign for large bb). This lead to incorrect localization, the main source of error of YOLO.
 
