@@ -3,4 +3,5 @@ This repository contains my learning notes and the code snippets (in iPython Not
 
 - [Learning notes on Deep Learning](Learning_notes.md)
 - [List of Papers on Machine Learning](List_of_Machine_Learning_Papers.md)
-- [Notes of Literature Review](Machine_Learning_Papers_Notes.md)
+- [Notes of Literature Review (CNN)](Papers_Notes_CNN.md)
+- [Notes of Literature Review (Others)](Papers_Notes_others.md)
