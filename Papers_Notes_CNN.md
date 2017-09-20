@@ -367,22 +367,40 @@ using Convolutional Networks](https://arxiv.org/pdf/1312.6229.pdf)
 	- Predicts bounding box from data, and thus fails to generalize to new/unusual aspect ratio.
 	- Penalizes small bb and large  bb the same way (same displacement more benign for large bb). This lead to incorrect localization, the main source of error of YOLO.
 
-### YOLO9000
+### YOLOv2 and YOLO9000
 - [YOLO9000: Better, Faster, Stronger](https://arxiv.org/abs/1612.08242)
 - YOLO9000 detects over 9000 categories. YOLO predicts detections for object classes that don't have labelled detection data. 
 - Background: 
 	- General purpose object detection should be fast, accurate and able to recognize a wide variety of objects.
 	- Labelling images for detection is more expensive than labelling for classification (often user-supplied for free).
-- YOLO leverages labeled detection images to learn to precisely localize objects while uses classification images to increase its vocabulary and robustness.
+- YOLO leverages labeled detection images to learn to precisely localize objects and uses classification images to increase its vocabulary and robustness.
 - Architecture 
 	- Similar to YOLO, trains a classifier on ImageNet first
 	- Resize network from 214 to 428, fine-tune on ImageNet (this fine tuning +3.5% mAP)
 	- Fine-tune on detection: replaces FC layers with more conv layers and FC layers. 
-	- **Anchor boxes (from faster R-CNN and SSD):** Easier for network to learn the offset to anchor boxes rather than directly predicting bb. Based on the feature map ((input# / 32)^2), each of the cell in the map 
-		- k-means clustering on the **training set** to automatically find good priors of the anchor boxes. This improves upon the hand-picked anchor boxes in faster R-CNN and SDD. $k=5$ is selected. This +5% mAP.
-	- Multi-scale training (varying input by multiples of 32, the downscaling factor of the network). This +1.5% mAP. This is akin to data augmentation. It keeps the same network architecture and weighting as the whole network is convolutional (no FC layers). This allows detection of differently scaled images, a smooth tradeoff between speed and accuracy.
-- Speed is not just FLOPs. Speed can also be bottlenecked by data manipulation in memory. 
-- WordTree
+	- Use anchor boxes to improve YOLO's recall. YOLO only predicts 7x7x2=98 boxes, but YOLOv2 predicts 13x13x5=845 boxes.
+	- Fine grained features: add passthrough layers which brings features in the 26x26 resolution layer to 13x13 layer. It stacks adjacent features into different channels instead of spatial locations. 26x26x512 -> 13x13x2048 feature map.
+	- **Multi-scale training **(varying input by multiples of 32, the downscaling factor of the network). This +1.5% mAP. This is akin to data augmentation. It keeps the same network architecture and weighting as the whole network is convolutional (no FC layers). This allows detection of differently scaled images, a smooth tradeoff between speed and accuracy.
+- **Anchor boxes (from faster R-CNN and SSD):** Easier for network to learn the offset to anchor boxes rather than directly predicting bb. Based on the feature map with the size (input# / 32)^2, each of the cell in the map predicts (offsets wrt) $k$ anchor boxes. This +5% mAP.
+	- YOLOv2 uses k-means clustering on the box dimensions of the **training set** to automatically find good priors of the anchor boxes (improves upon the hand-picked anchor boxes in faster R-CNN and SDD). $k=5$ is selected as it achieves good average IOU with relatively small k. 
+	- k-means clustering metric
+	\\[
+	d(box, centroid) = 1 - IOU (box, centroid)
+	\\]
+	instead of Euclidean distance (which would bias against large boxes).
+	- Predicts location coordinates relative to the location of the grid cell. This bounds the ground truth to (0, 1). This improves upon predicting offset wrt anchor boxes. ^(==why?==)
+- [tidbits] Speed is not just FLOPs. Speed can also be bottlenecked by data manipulation in memory. 
+- From YOLOv2 to YOLO9000 
+	- YOLO9000 is jointly trained on classification and detection. 
+	- Labels in different datasets are not mutually exclusive, resolved by a  **multi-label model** method.
+- WordTree and hierarchical classification
 	- Combining the COCO detection data (both classification and location data) with ImageNet classification data into a hierarchical training dataset. 
+	- Performing softmax over siblings on each level, which are cascading conditional probabilities. 
+	- WordTree does not help (surprisingly) with classification task alone, but slightly hurt performance. 
 	- During training, backprop loss normally for detection data, but backprop only classification loss. Note that for classification loss, it is only backprop'ed  at or above the corresponding level of the label. 
 ![](images/yolo9000_wordtree.png)
+	- Performance degrades gracefully on new or unknown object categories.
+- [Youtube lecture](https://www.youtube.com/watch?v=GBu2jofRJtk)
+
+### SSD
+- [SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325)
