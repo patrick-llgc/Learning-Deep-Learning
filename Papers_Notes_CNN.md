@@ -1,5 +1,5 @@
 # Machine Learning Papers Notes (CNN)
-
+Compiled by Patrick Liu 
 <!-- vim-markdown-toc GFM -->
 
 * [FCN, U-net, V-net, etc](#fcn-u-net-v-net-etc)
@@ -353,7 +353,7 @@ using Convolutional Networks](https://arxiv.org/pdf/1312.6229.pdf)
 ![](images/yolo_arch.png)
 - Training 
 	- First 20 layers (+ average pooling layer and 1 FC layer) pre-trained on ImageNet data
-	- Added 4 conv layers + 2 FC layers on the classification network to improve performance.
+	- Added 4 conv layers + 2 FC layers on top of the first 20 layers in the classification network to improve performance.
 	- **Leaky ReLU** was used
 		- trying to fix the "dying ReLU" problem but the benefits has been inconclusive, according to [cs231n](http://cs231n.github.io/neural-networks-1/).
 	- Loss function is modified **sum-squared error** (same as mean squared error, MSE) across all elements of the 7 x 7 x 30 output tensor, with the following modification (**note that the notation is floppy, all subscripts should start from 1**)
@@ -365,9 +365,24 @@ using Convolutional Networks](https://arxiv.org/pdf/1312.6229.pdf)
 - Limitations of YOLO
 	- Strong spatial constraints on bounding box prediction due to the limited number (2) of bounding boxes per grid cell, leaving YOLO vulnerable to detect small objects in flocks. 
 	- Predicts bounding box from data, and thus fails to generalize to new/unusual aspect ratio.
-	- Penalizes small bb and large bb the same way (same displacement more benign for large bb). This lead to incorrect localization, the main source of error of YOLO.
+	- Penalizes small bb and large  bb the same way (same displacement more benign for large bb). This lead to incorrect localization, the main source of error of YOLO.
 
 ### YOLO9000
 - [YOLO9000: Better, Faster, Stronger](https://arxiv.org/abs/1612.08242)
-- YOLO9000 detects over 9000 categories. 
-- Architecture
+- YOLO9000 detects over 9000 categories. YOLO predicts detections for object classes that don't have labelled detection data. 
+- Background: 
+	- General purpose object detection should be fast, accurate and able to recognize a wide variety of objects.
+	- Labelling images for detection is more expensive than labelling for classification (often user-supplied for free).
+- YOLO leverages labeled detection images to learn to precisely localize objects while uses classification images to increase its vocabulary and robustness.
+- Architecture 
+	- Similar to YOLO, trains a classifier on ImageNet first
+	- Resize network from 214 to 428, fine-tune on ImageNet (this fine tuning +3.5% mAP)
+	- Fine-tune on detection: replaces FC layers with more conv layers and FC layers. 
+	- **Anchor boxes (from faster R-CNN and SSD):** Easier for network to learn the offset to anchor boxes rather than directly predicting bb. Based on the feature map ((input# / 32)^2), each of the cell in the map 
+		- k-means clustering on the **training set** to automatically find good priors of the anchor boxes. This improves upon the hand-picked anchor boxes in faster R-CNN and SDD. $k=5$ is selected. This +5% mAP.
+	- Multi-scale training (varying input by multiples of 32, the downscaling factor of the network). This +1.5% mAP. This is akin to data augmentation. It keeps the same network architecture and weighting as the whole network is convolutional (no FC layers). This allows detection of differently scaled images, a smooth tradeoff between speed and accuracy.
+- Speed is not just FLOPs. Speed can also be bottlenecked by data manipulation in memory. 
+- WordTree
+	- Combining the COCO detection data (both classification and location data) with ImageNet classification data into a hierarchical training dataset. 
+	- During training, backprop loss normally for detection data, but backprop only classification loss. Note that for classification loss, it is only backprop'ed  at or above the corresponding level of the label. 
+![](images/yolo9000_wordtree.png)
