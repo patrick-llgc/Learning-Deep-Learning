@@ -13,7 +13,8 @@ Compiled by Patrick Liu
     * [Fast R-CNN](#fast-r-cnn)
     * [Faster R-CNN](#faster-r-cnn)
     * [YOLO](#yolo)
-    * [YOLO9000](#yolo9000)
+    * [YOLOv2 and YOLO9000](#yolov2-and-yolo9000)
+    * [SSD](#ssd)
 
 <!-- vim-markdown-toc -->
 ## FCN, U-net, V-net, etc		
@@ -380,7 +381,7 @@ using Convolutional Networks](https://arxiv.org/pdf/1312.6229.pdf)
 	- Fine-tune on detection: replaces FC layers with more conv layers and FC layers. 
 	- Use anchor boxes to improve YOLO's recall. YOLO only predicts 7x7x2=98 boxes, but YOLOv2 predicts 13x13x5=845 boxes.
 	- Fine grained features: add passthrough layers which brings features in the 26x26 resolution layer to 13x13 layer. It stacks adjacent features into different channels instead of spatial locations. 26x26x512 -> 13x13x2048 feature map.
-	- **Multi-scale training **(varying input by multiples of 32, the downscaling factor of the network). This +1.5% mAP. This is akin to data augmentation. It keeps the same network architecture and weighting as the whole network is convolutional (no FC layers). This allows detection of differently scaled images, a smooth tradeoff between speed and accuracy.
+	- **Multi-scale training** takes in images with varying image size during training (varying input size by multiples of 32, the downscaling factor of the network). This +1.5% mAP. This is akin to data augmentation. It keeps the same network architecture and weighting as the whole network is convolutional (no FC layers). This allows detection of differently scaled images, a smooth tradeoff between speed and accuracy.
 - **Anchor boxes (from faster R-CNN and SSD):** Easier for network to learn the offset to anchor boxes rather than directly predicting bb. Based on the feature map with the size (input# / 32)^2, each of the cell in the map predicts (offsets wrt) $k$ anchor boxes. This +5% mAP.
 	- YOLOv2 uses k-means clustering on the box dimensions of the **training set** to automatically find good priors of the anchor boxes (improves upon the hand-picked anchor boxes in faster R-CNN and SDD). $k=5$ is selected as it achieves good average IOU with relatively small k. 
 	- k-means clustering metric
@@ -404,3 +405,33 @@ using Convolutional Networks](https://arxiv.org/pdf/1312.6229.pdf)
 
 ### SSD
 - [SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325)
+- Architecture
+	- Replaces the FC layers in YOLO with convolutional (3x3) predictors. This makes it faster than YOLO.
+	- Predictions of different scales from feature maps of different scales (increasingly larger scale prediction from coarser feature maps).
+	- Uses anchor boxes to regress bb locations.
+	- Base network is VGG16, but adapted similarly to DeepLab with atrous algorithm to gain speed. 
+![](images/ssd_arch.png)
+- Prediction
+	- $c$ classes and 4 offsets, with $k$ anchor boxes per location in feature map.
+	- Anchor boxes number $k$ is set to 6, with aspect ratios of 1/3, 1/2, 1, 1, 2, 3.
+	- Total output $(c+4)kmn$ for a $m \times n$ feature map.
+- Training
+	- Ground truth information needs to be assigned to the outputs. 
+	\\[
+	x_{ij}^p=[\text{IOU}(\text{AnchorBox}_i, \text{GT}_j) >0.7]
+	\\]
+	- Loss function (training objective) is a weighted sum of localization loss (loc) and confidence loss (conf).
+	\\[
+	L(x, c, l, g) = \frac{1}{N} (L_{conf}(x, c) + \alpha L_{loc}(x, l, g))
+	\\]
+	following $L_{loc}$ of faster R-CNN, and confidence is a [softmax (corss-entropy) loss](http://cs231n.github.io/linear-classify/#softmax).
+	- Balancing pos/neg data: sort negative training examples by confidence loss till pos/neg = 1/3. This leads to faster and more stable training.
+	- Data augmentation by heavily padding original image before cropping. This creates "zoom-out" effect. 
+- Review of object detectors: R-CNN is improved in different ways
+	- Improve post-classification: SPPnet -> Fast R-CNN
+	- Improve region proposal: Faster R-CNN (RPN) uses CNN for region proposal, but need to merge two CNNs by alternating training.
+	- Merge the whole pipeline: OverFeat, YOLO (and YOLOv2, YOLO9000) and SSD. 
+		- OverFeat only looks at one bounding box per location
+		- YOLO only looks at the top feature map, uses FC layer for prediction, do not consider aspect ratio directly
+		- SSD looks at multiple feature maps, uses a conv layer for prediction, and uses anchor boxes (proposed by Faster R-CNN)
+		- YOLOv2 looks at the top feature, but uses multi-scale training (with varying input size), and with k-mean clustered anchor boxes
