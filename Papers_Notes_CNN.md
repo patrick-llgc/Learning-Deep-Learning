@@ -1,13 +1,11 @@
 # Machine Learning Papers Notes (CNN)
 Compiled by Patrick Liu 
+
+This note covers advancement in computer vision/image processing powered by convolutional neural network (CNN) in increasingly more challenging topics from **Image Classification** to **Object Detection** to **Segmentation**. 
 <!-- vim-markdown-toc GFM -->
 
-* [FCN, U-net, V-net, etc](#fcn-u-net-v-net-etc)
-    * [Fully Convolutinal Networks (FCN)](#fully-convolutinal-networks-fcn)
-    * [U-net](#u-net)
-    * [3D U-Net](#3d-u-net)
-    * [V-Net](#v-net)
-* [R-CNN, Fast R-CNN, Faster R-CNN, etc](#r-cnn-fast-r-cnn-faster-r-cnn-etc)
+* [Image Classification](#image-classification)
+* [Object Detection](#object-detection)
     * [R-CNN](#r-cnn)
     * [OverFeat](#overfeat)
     * [Fast R-CNN](#fast-r-cnn)
@@ -15,136 +13,27 @@ Compiled by Patrick Liu
     * [YOLO](#yolo)
     * [YOLOv2 and YOLO9000](#yolov2-and-yolo9000)
     * [SSD](#ssd)
+    * [Extended reading](#extended-reading)
+* [Segmentation](#segmentation)
+    * [Fully Convolutinal Networks (FCN)](#fully-convolutinal-networks-fcn)
+    * [U-net](#u-net)
+    * [3D U-Net](#3d-u-net)
+    * [V-Net](#v-net)
+    * [Mask R-CNN](#mask-r-cnn)
 
 <!-- vim-markdown-toc -->
-## FCN, U-net, V-net, etc		
-### Fully Convolutinal Networks (FCN)
-- [Fully Convolutinal Networks for Semantic Segmentation](https://arxiv.org/abs/1605.06211)
-- FCN adapts the classification networks for dense prediction, making it capable of localizatio tasks as well. Both learning and inference are performed whole-image-at-a-time.
-- Architecture
-	- Typical classifier nets take fixed-sized inputs.
-	- **KEY STEP**: Fully connected (FC) layers can also be viewed as convolutions with kernels that cover their entire input regions. Doing so cast the classification nets to fully convolutional networks (FCN) that take **input of any size** and make spatial output maps. 
-	- Although resulting maps are equivalent to the evaluation of original net on particular input image patches, the computation is **highly amortized** over the overlapping regions of those patches.
-	- Although casting the nets to a fully convolutional manner will provide some localization information, the resulting image will be one with lower resolution due to max-pooling layers.
-	- Addition of **skip connections** helps with the coarse prediction limited by the stride (due to **max-pooling**) of the convolution layers. This combines *where* (localizatino information from shallower layers) and *what* (classification information from deeper layers) of the network.
-- Skip connections:
-![](images/fcn_arch.png)
-	- FCN-32s: Start with VGG-16 and convolutionalize the fully connected layer, perform 32x upscaling from the final stride-32 layer.
-	- FCN-16s: Start with FCN-32s, concatenate stride-16 with 2x upscaled stride32 layers first, then perform a 16x upscaling. 
-	- FCN-8s: Start with FCN-8s, concatenate stride-8 with 2x upscaled stride-16 layers and 4x upscaled stride-8 layers.
-	- The 2x interpolation layers is initialized to bilinear interpolation
-- Training
-	- **Fine-tuning** only the final classification layer only yields 73% of the the full fine-tuning performance. 
-	- Training all-at-once yeilds similar results to training in stages (FCN-32 first, then FCN-16, finally FCN-8) yields very similar results but only takes about half the time. However each stream needs to be scaled by a fixed constant to avoid divergence.
-	- Class balancing: by weight or sampling the loss. ^(c.f. 3D U-net, ==need more investigation==) Mildly unlablanced datasets (1:3, e.g.) do not need rebalancing.
-	- **Upsampling** needs to be defined as convolution for end-to-end training and inference. See details in this [blog](http://warmspringwinds.github.io/tensorflow/tf-slim/2016/11/22/upsampling-and-image-segmentation-with-tensorflow-and-tf-slim/).^(==need to read==)
-- Evaluation
-	- $n_{ij}$ is the number of pixels of class i predicted to be class j.
-	- $t_i = \sum_j n_{ij}$ is the total number of pixels of class i.
-	- pixel accuracy: $\sum_i n_{ii} / \sum_i t_i = \sum_i n_{ii} / \sum_{ij} n_{ij}$
-	- mean accuracy: $(1/n_{cl}) \sum_i n_{ii}/t_i$
-	- mean IU: $(1/n_{cl}) \sum_i n_{ii}/(t_i + \sum_j n_{ji} - n_{ii})$
-- Momentum
-	- Higher momentum is needed for batch size. $p^{1/k} = p'^{1/k'}$. For example, for momentun 0.9 and a batch size of 20, an equivalent training regime may be a momentum of $0.9^{1/20} \approx 0.99$ and a batch size of one, which is equivalent of **online learning**. In general, online learning yields better FCN models in less wall clock time.
-	
-- Extensions
-	- [DIGITS 5 from Nvidia](https://devblogs.nvidia.com/parallelforall/image-segmentation-using-digits-5/)^(==need to read==)
+
+## Image Classification
+Goal: Predict a label with confidence to an entire image.
+
+Evolution from AlexNet, VGGNet, GoogLeNet (Inception) to ResNet.
 
 
 
-### U-net
-- [U-net: Convolutional Networks for Biomedical Image Segmentation](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/)
-- From classification to localization (a class label is supposed to be assigned to each pixel)
-- Ciresan trained a network in a sliding window setup to predict the label of each pixel by providing an image patch surrdounding it. 
-	- Pros: 
-		- able to localize
-		- training data is much larger than the number of training images
-	- Cons:
-		- inefficient due to redundancies
-		- tradeoff between localization accuracy (small image patches and the less use of pooling layer) and the use of context (large image patches)
-- U-net is based on **fully convolutional netwowrk**.
-- Architecture
-	- Contracting layers + expanding (upsampling) layers
-	- Concatenation with the correspondingly cropped feature map from the contracting path
-![](images/unet_arch.png)
-- Data handling
-	- Extrapolation by mirroring is used with valid padding on the boarder where data is missing.
-	- Overlap-tile strategy is used to allow segmentation of arbitrarily large input.
-	- Excessive data augmentation by applying **elastic deformation** for the network to learn such invariances. This is the key to train a segmentation network with very few (~30) annotated images.
-	- Output is a series of map, each representing the probability of a pixel belonging to a certain class.
-- Training
-	- A large **momentum** (0.99) is used due to smaller batch size used (=1 image patch)
-	- Deep neural networks usually has an objective with the form of a long shallow ravine leading to the optimum with steep walls on the sides. Standard SGD has very slow convergence rate after the initial steep gains. Momentum can be used to push the objective more quickly along the shallow ravine. [link](http://ufldl.stanford.edu/tutorial/supervised/OptimizationStochasticGradientDescent/) Therfore momentum update is almost always better than vanilla SGD. [CS231n](http://cs231n.github.io/neural-networks-3/#sgd)
-	- Momentum is particularly important when using small batches because it allows derivatives to be integrated across batches. The smaller the batch size, the greater the momentum you may want to use. [link](http://tedlab.mit.edu/~dr/Lens/thumb.html)
-- Evaluation
-	- Review section in the summary of [ISBI-2012](http://journal.frontiersin.org/article/10.3389/fnana.2015.00142/full)
-	- As segmentation algorithms are generally embedded in semiautomatic systems that enables human experts to correct the mistakes of the algorithms, it is useful to define a "nuisance metric", but it is highly subjective.
-	- Human effort is required to correct **split errors** and **merge errors**, which can be used as proxies for the nuisance metric.
-	- Pixrl error: the easiest measure of segmentation performance, but does not reflect the human effort involved to correct split or mergr error, thus inadequate.
-	- **IOU** (IoU, intersection over union, or [Jaccard index](https://en.wikipedia.org/wiki/Jaccard_index)) is a widely used pixel error metric to evaluate segmenation algorithms (~90% is pretty good)
-	- **Rand error**: non-local, region based method. More robust and best matches qualitative human judgement.
-		- Define $p_{ij}$ as the probability that a pixel belonging to segment i in S (predicted segmentation) and segment j in T (ground truth segmentation). The joint probability distribution satisfies $\sum_{ij} p_{ij} = 1$ by definittion.
-		- $s_i = \sum_j p_{ij}$ is the probability of a randomly chosen pixel belonging to segment i in S.
-		$$
-		V^{Rand}_{split} = \frac{\sum_{ij}p_{ij}^2}{\sum_k t_k^2}, \quad\quad V^{Rand}_{merge} = \frac{\sum_{ij}p_{ij}^2}{\sum_k s_k^2}.
-		$$
-		- The merge score $V^{Rand}_{merge}$ is the probability that two randomly chosen voxels belong to the same segment in T, given that they belong to the same segment in S. The merge score is higher when there are fewer merge errors. The split score is defined similarly.
-		- The Rand F-score is defined as the weighted harmonic mean
-		$$
-		V_\alpha^{Rand} = \frac {\sum_{ij} p^2_{ij}} 
-		{\alpha \sum_k s_k^2 + (1-\alpha) \sum_k t_k^2}
-		$$
-		Generally $\alpha = 0.5$, which weighs split and merge errors equally. The Rand score is closely related to the Rand index.
-		
-		
-### 3D U-Net
-- [3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation](https://arxiv.org/abs/1606.06650)
-- 3D U-net is an end-to-end training scheme for 3D (biomedical) image segmentation based on the 2D counterpart U-net. It also has the analysis (contracting) and synthesis (expanding) paths, connected with skip (shortcut) connections.
-![](images/3dunet_arch.png)
-- 3D U-net takes 3D volumes as input and process them with 3D operations (3D convolution, 3D max pooling, 3D up-convolution). 
-- Biomedical images has the special advantage that properly applied rigid transformations and slight elastic deformations still yield **biologically plausible** images. In addition, each image already comprise repetitive structures with corresponding variations. Combined they allow efficient training of neural networks on sparsely annotated data. (In 3D, 2 volumes are enough to train a network from scratch and perform segmentation on the 3rd volume.)
-- Batch normalization (BN) is used in preference to previously used He initialization (Gaussian distribution with $\sigma=\sqrt{2/N}$) for faster convergence.
-- Weighted softmax loss function (0 for unlabled regions as they do not contribute to loss function, reduced weighting for frequently seen background, and increased weighting for rare classes, in the interest of more balanced influence from different classes on loss function)
-- Results
-	- BN: better accuracy (IoU) is achieved with BN
-	- 3D context: contributes positively to the segmentation accuracy (compared with treating each slice independently).
-	- Number of slices: diminishing return after a few slices (a couple of percentage of total number)
+## Object Detection
+Goal: Predict a label with confidence, as well as the coordinates of a box bounding each object in an image.
 
-
-
-### V-Net
-- [V-Net: fully Convolutional Neural Network for Volumentric Medical Image Segmentation](https://arxiv.org/abs/1606.04797)
-- V-net improves upon U-net in two aspects:
-	- Capable of performing 3D operations (like 3D U-net)
-	- Added residual connections between the first and last steps of each stage of convolution layers (between pooling operatios)
-		- redisual connections lead to faster convergence
-	- Replaced pooling operations with convolutinal ones
-		- cf: the all convolutional net (arXiv:1412:6806)^(==to read==)
-		- smaller memory footprint (no switches mapping the poutput of pooling layers back to the inouts are needed for backprob)^(==why? How does backprob work in pooling layers?==)
-![](images/vnet_arch.png)
-- Objective function based on Dice coefficient
-	- [Dice coefficient](https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient): a statistic used for comparing the similarity of two samples
-	- $S={\frac {2|X\cap Y|}{|X|+|Y|}}$, which is related to Jaccard index (IoU), $J=\frac{|X \cap Y|}{|X \cup Y|}$, in that $S = 2J/(1+J)$ and both $S, J \in (0, 1)$.
-	- The improved loss function is:
-	$$
-	D = \frac{2\sum_i^N p_i g_i}
-			  {\sum_i^N p_i^2 + \sum_i^N g_i^2},
-	$$ where predicted binary segmentation $p_i \in P$ and ground truth binary volume $g_i \in G$. This Dice coefficient can be differntiated $\partial D/\partial p_j$ with respect to the $j$-th voxel of prediction.
-	- The authors *claimed* that using this loss function eliminates the need to adjust the weight of loss for different classes to address class imblancement.^(==Why?==)
-- Training
-	- Data augmentation performed on-the-fly to avoid the othewise excessive storage requirement. 2x2x2 control points and B-spline interpolation
-	- High momentum of 0.99, following U-net.
-- Inference
-	- The input images are **resampled** to a common resolution of the input images. This should be necessary for preprocessing of input data as well.
-- Additional notes:
-	- The main capability of CNN is to learn a hierarchical representation of raw input data, without replying on handcrafted features. 
-	- The naive solution to segmentation uses patchwise classification but only considers local context and suffers from efficiency issues too.
-	- To avoid information bottleneck, the number of channels doubles when the resolution of the images halves.
-
-
-
-## R-CNN, Fast R-CNN, Faster R-CNN, etc
-From Classification to Detection to Segmentation. The evolvement from R-CNN (regions with CNN-features), Fast R-CNN, Faster R-CNN and Mask R-CNN.
+The evolution from R-CNN (regions with CNN-features), Fast R-CNN, Faster R-CNN, YOLO (YOLOv2 and YOLO9000) and SSD.
 
 ### R-CNN
 - [R-CNN: Rich feature hierarchies for acurate object detection and semantic segmentation, Tech Report v5](https://arxiv.org/abs/1311.2524), [link ppt](https://courses.cs.washington.edu/courses/cse590v/14au/cse590v_wk1_rcnn.pdf)
@@ -435,3 +324,139 @@ using Convolutional Networks](https://arxiv.org/pdf/1312.6229.pdf)
 		- YOLO only looks at the top feature map, uses FC layer for prediction, do not consider aspect ratio directly
 		- SSD looks at multiple feature maps, uses a conv layer for prediction, and uses anchor boxes (proposed by Faster R-CNN)
 		- YOLOv2 looks at the top feature, but uses multi-scale training (with varying input size), and with k-mean clustered anchor boxes
+
+### Extended reading
+- Multibox
+- [R-FCN: Object Detection via Region-based Fully Convolutional Networks](https://arxiv.org/abs/1605.06409)
+
+
+
+
+## Segmentation
+Goal: Pixel-wise segmentation predict a label with confidence for each pixel in the image.
+
+### Fully Convolutinal Networks (FCN)
+- [Fully Convolutinal Networks for Semantic Segmentation](https://arxiv.org/abs/1605.06211)
+- FCN adapts the classification networks for dense prediction, making it capable of localizatio tasks as well. Both learning and inference are performed whole-image-at-a-time.
+- Architecture
+	- Typical classifier nets take fixed-sized inputs.
+	- **KEY STEP**: Fully connected (FC) layers can also be viewed as convolutions with kernels that cover their entire input regions. Doing so cast the classification nets to fully convolutional networks (FCN) that take **input of any size** and make spatial output maps. 
+	- Although resulting maps are equivalent to the evaluation of original net on particular input image patches, the computation is **highly amortized** over the overlapping regions of those patches.
+	- Although casting the nets to a fully convolutional manner will provide some localization information, the resulting image will be one with lower resolution due to max-pooling layers.
+	- Addition of **skip connections** helps with the coarse prediction limited by the stride (due to **max-pooling**) of the convolution layers. This combines *where* (localizatino information from shallower layers) and *what* (classification information from deeper layers) of the network.
+- Skip connections:
+![](images/fcn_arch.png)
+	- FCN-32s: Start with VGG-16 and convolutionalize the fully connected layer, perform 32x upscaling from the final stride-32 layer.
+	- FCN-16s: Start with FCN-32s, concatenate stride-16 with 2x upscaled stride32 layers first, then perform a 16x upscaling. 
+	- FCN-8s: Start with FCN-8s, concatenate stride-8 with 2x upscaled stride-16 layers and 4x upscaled stride-8 layers.
+	- The 2x interpolation layers is initialized to bilinear interpolation
+- Training
+	- **Fine-tuning** only the final classification layer only yields 73% of the the full fine-tuning performance. 
+	- Training all-at-once yeilds similar results to training in stages (FCN-32 first, then FCN-16, finally FCN-8) yields very similar results but only takes about half the time. However each stream needs to be scaled by a fixed constant to avoid divergence.
+	- Class balancing: by weight or sampling the loss. ^(c.f. 3D U-net, ==need more investigation==) Mildly unlablanced datasets (1:3, e.g.) do not need rebalancing.
+	- **Upsampling** needs to be defined as convolution for end-to-end training and inference. See details in this [blog](http://warmspringwinds.github.io/tensorflow/tf-slim/2016/11/22/upsampling-and-image-segmentation-with-tensorflow-and-tf-slim/).^(==need to read==)
+- Evaluation
+	- $n_{ij}$ is the number of pixels of class i predicted to be class j.
+	- $t_i = \sum_j n_{ij}$ is the total number of pixels of class i.
+	- pixel accuracy: $\sum_i n_{ii} / \sum_i t_i = \sum_i n_{ii} / \sum_{ij} n_{ij}$
+	- mean accuracy: $(1/n_{cl}) \sum_i n_{ii}/t_i$
+	- mean IU: $(1/n_{cl}) \sum_i n_{ii}/(t_i + \sum_j n_{ji} - n_{ii})$
+- Momentum
+	- Higher momentum is needed for batch size. $p^{1/k} = p'^{1/k'}$. For example, for momentun 0.9 and a batch size of 20, an equivalent training regime may be a momentum of $0.9^{1/20} \approx 0.99$ and a batch size of one, which is equivalent of **online learning**. In general, online learning yields better FCN models in less wall clock time.
+	
+- Extensions
+	- [DIGITS 5 from Nvidia](https://devblogs.nvidia.com/parallelforall/image-segmentation-using-digits-5/)^(==need to read==)
+
+
+
+### U-net
+- [U-net: Convolutional Networks for Biomedical Image Segmentation](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/)
+- From classification to localization (a class label is supposed to be assigned to each pixel)
+- Ciresan trained a network in a sliding window setup to predict the label of each pixel by providing an image patch surrdounding it. 
+	- Pros: 
+		- able to localize
+		- training data is much larger than the number of training images
+	- Cons:
+		- inefficient due to redundancies
+		- tradeoff between localization accuracy (small image patches and the less use of pooling layer) and the use of context (large image patches)
+- U-net is based on **fully convolutional netwowrk**.
+- Architecture
+	- Contracting layers + expanding (upsampling) layers
+	- Concatenation with the correspondingly cropped feature map from the contracting path
+![](images/unet_arch.png)
+- Data handling
+	- Extrapolation by mirroring is used with valid padding on the boarder where data is missing.
+	- Overlap-tile strategy is used to allow segmentation of arbitrarily large input.
+	- Excessive data augmentation by applying **elastic deformation** for the network to learn such invariances. This is the key to train a segmentation network with very few (~30) annotated images.
+	- Output is a series of map, each representing the probability of a pixel belonging to a certain class.
+- Training
+	- A large **momentum** (0.99) is used due to smaller batch size used (=1 image patch)
+	- Deep neural networks usually has an objective with the form of a long shallow ravine leading to the optimum with steep walls on the sides. Standard SGD has very slow convergence rate after the initial steep gains. Momentum can be used to push the objective more quickly along the shallow ravine. [link](http://ufldl.stanford.edu/tutorial/supervised/OptimizationStochasticGradientDescent/) Therfore momentum update is almost always better than vanilla SGD. [CS231n](http://cs231n.github.io/neural-networks-3/#sgd)
+	- Momentum is particularly important when using small batches because it allows derivatives to be integrated across batches. The smaller the batch size, the greater the momentum you may want to use. [link](http://tedlab.mit.edu/~dr/Lens/thumb.html)
+- Evaluation
+	- Review section in the summary of [ISBI-2012](http://journal.frontiersin.org/article/10.3389/fnana.2015.00142/full)
+	- As segmentation algorithms are generally embedded in semiautomatic systems that enables human experts to correct the mistakes of the algorithms, it is useful to define a "nuisance metric", but it is highly subjective.
+	- Human effort is required to correct **split errors** and **merge errors**, which can be used as proxies for the nuisance metric.
+	- Pixrl error: the easiest measure of segmentation performance, but does not reflect the human effort involved to correct split or mergr error, thus inadequate.
+	- **IOU** (IoU, intersection over union, or [Jaccard index](https://en.wikipedia.org/wiki/Jaccard_index)) is a widely used pixel error metric to evaluate segmenation algorithms (~90% is pretty good)
+	- **Rand error**: non-local, region based method. More robust and best matches qualitative human judgement.
+		- Define $p_{ij}$ as the probability that a pixel belonging to segment i in S (predicted segmentation) and segment j in T (ground truth segmentation). The joint probability distribution satisfies $\sum_{ij} p_{ij} = 1$ by definittion.
+		- $s_i = \sum_j p_{ij}$ is the probability of a randomly chosen pixel belonging to segment i in S.
+		$$
+		V^{Rand}_{split} = \frac{\sum_{ij}p_{ij}^2}{\sum_k t_k^2}, \quad\quad V^{Rand}_{merge} = \frac{\sum_{ij}p_{ij}^2}{\sum_k s_k^2}.
+		$$
+		- The merge score $V^{Rand}_{merge}$ is the probability that two randomly chosen voxels belong to the same segment in T, given that they belong to the same segment in S. The merge score is higher when there are fewer merge errors. The split score is defined similarly.
+		- The Rand F-score is defined as the weighted harmonic mean
+		$$
+		V_\alpha^{Rand} = \frac {\sum_{ij} p^2_{ij}} 
+		{\alpha \sum_k s_k^2 + (1-\alpha) \sum_k t_k^2}
+		$$
+		Generally $\alpha = 0.5$, which weighs split and merge errors equally. The Rand score is closely related to the Rand index.
+		
+		
+### 3D U-Net
+- [3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation](https://arxiv.org/abs/1606.06650)
+- 3D U-net is an end-to-end training scheme for 3D (biomedical) image segmentation based on the 2D counterpart U-net. It also has the analysis (contracting) and synthesis (expanding) paths, connected with skip (shortcut) connections.
+![](images/3dunet_arch.png)
+- 3D U-net takes 3D volumes as input and process them with 3D operations (3D convolution, 3D max pooling, 3D up-convolution). 
+- Biomedical images has the special advantage that properly applied rigid transformations and slight elastic deformations still yield **biologically plausible** images. In addition, each image already comprise repetitive structures with corresponding variations. Combined they allow efficient training of neural networks on sparsely annotated data. (In 3D, 2 volumes are enough to train a network from scratch and perform segmentation on the 3rd volume.)
+- Batch normalization (BN) is used in preference to previously used He initialization (Gaussian distribution with $\sigma=\sqrt{2/N}$) for faster convergence.
+- Weighted softmax loss function (0 for unlabled regions as they do not contribute to loss function, reduced weighting for frequently seen background, and increased weighting for rare classes, in the interest of more balanced influence from different classes on loss function)
+- Results
+	- BN: better accuracy (IoU) is achieved with BN
+	- 3D context: contributes positively to the segmentation accuracy (compared with treating each slice independently).
+	- Number of slices: diminishing return after a few slices (a couple of percentage of total number)
+
+
+
+### V-Net
+- [V-Net: fully Convolutional Neural Network for Volumentric Medical Image Segmentation](https://arxiv.org/abs/1606.04797)
+- V-net improves upon U-net in two aspects:
+	- Capable of performing 3D operations (like 3D U-net)
+	- Added residual connections between the first and last steps of each stage of convolution layers (between pooling operatios)
+		- redisual connections lead to faster convergence
+	- Replaced pooling operations with convolutinal ones
+		- cf: the all convolutional net (arXiv:1412:6806)^(==to read==)
+		- smaller memory footprint (no switches mapping the poutput of pooling layers back to the inouts are needed for backprob)^(==why? How does backprob work in pooling layers?==)
+![](images/vnet_arch.png)
+- Objective function based on Dice coefficient
+	- [Dice coefficient](https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient): a statistic used for comparing the similarity of two samples
+	- $S={\frac {2|X\cap Y|}{|X|+|Y|}}$, which is related to Jaccard index (IoU), $J=\frac{|X \cap Y|}{|X \cup Y|}$, in that $S = 2J/(1+J)$ and both $S, J \in (0, 1)$.
+	- The improved loss function is:
+	$$
+	D = \frac{2\sum_i^N p_i g_i}
+			  {\sum_i^N p_i^2 + \sum_i^N g_i^2},
+	$$ where predicted binary segmentation $p_i \in P$ and ground truth binary volume $g_i \in G$. This Dice coefficient can be differntiated $\partial D/\partial p_j$ with respect to the $j$-th voxel of prediction.
+	- The authors *claimed* that using this loss function eliminates the need to adjust the weight of loss for different classes to address class imblancement.^(==Why?==)
+- Training
+	- Data augmentation performed on-the-fly to avoid the othewise excessive storage requirement. 2x2x2 control points and B-spline interpolation
+	- High momentum of 0.99, following U-net.
+- Inference
+	- The input images are **resampled** to a common resolution of the input images. This should be necessary for preprocessing of input data as well.
+- Additional notes:
+	- The main capability of CNN is to learn a hierarchical representation of raw input data, without replying on handcrafted features. 
+	- The naive solution to segmentation uses patchwise classification but only considers local context and suffers from efficiency issues too.
+	- To avoid information bottleneck, the number of channels doubles when the resolution of the images halves.
+
+
+### Mask R-CNN
