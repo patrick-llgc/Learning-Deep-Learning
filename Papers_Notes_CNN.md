@@ -15,11 +15,13 @@ This note covers advancement in computer vision/image processing powered by conv
     * [SSD](#ssd)
     * [Extended reading](#extended-reading)
 * [Segmentation](#segmentation)
-    * [Fully Convolutinal Networks (FCN)](#fully-convolutinal-networks-fcn)
+    * [Review blogs](#review-blogs)
+    * [FCN (Fully connected networks)](#fcn-fully-connected-networks)
     * [U-net](#u-net)
     * [3D U-Net](#3d-u-net)
     * [V-Net](#v-net)
     * [Mask R-CNN](#mask-r-cnn)
+    * [FPN (Feature pyramid network)](#fpn-feature-pyramid-network)
 
 <!-- vim-markdown-toc -->
 
@@ -44,7 +46,7 @@ The evolution from R-CNN (regions with CNN-features), Fast R-CNN, Faster R-CNN, 
 - [Tidbits] AlexNet's twists on top of LeCun's CNN: use of ReLu activation function and dropout regularization.
 - R-CNN explores the question of how to transfer CNN classification results to object detection.
 - Architecture:
-	- Region proposal: ~2000 (rectangular) category-independent regions for each input image are proposed on the fly by **selective search**.
+	- Region proposal: ~2000 (rectangular) category-independent regions for each input image are proposed on the fly by **selective search** (see [implementation in Python here](http://www.learnopencv.com/selective-search-for-object-detection-cpp-python/)).
 	- **Affine warping** each region into the input size of CNN (e.g., 227x227 for AlexNet). This generates a fixed length feature (4096-dimensional for AlexNet).
 	- Category-specific **SVM** to classify each region.
 ![](images/RCNN_arch.png)
@@ -326,16 +328,26 @@ using Convolutional Networks](https://arxiv.org/pdf/1312.6229.pdf)
 		- YOLOv2 looks at the top feature, but uses multi-scale training (with varying input size), and with k-mean clustered anchor boxes
 
 ### Extended reading
-- Multibox
+- [**Review**: Speed/accuracy trade-offs for modern convolutional object detectors](https://arxiv.org/abs/1611.10012)
 - [R-FCN: Object Detection via Region-based Fully Convolutional Networks](https://arxiv.org/abs/1605.06409)
-
+- [ION: Inside-Outside Net: Detecting Objects in Context with Skip Pooling and Recurrent Neural Networks](https://arxiv.org/abs/1512.04143)
+- [Multibox: Scalable Object Detection using Deep Neural Networks](https://arxiv.org/abs/1312.2249)
+- DSSD: Deconvolutional Single Shot Detector
+- TDM: Beyond Skip Connections: Top-Down Modulation for Object Detectio
 
 
 
 ## Segmentation
-Goal: Pixel-wise segmentation predict a label with confidence for each pixel in the image.
+Goal: **Semantic segmentation** aims at grouping pixels in a semantically meaningful way and are, therefore, pixel-wise segmentation. It predicts a label with confidence for each pixel in the image.
 
-### Fully Convolutinal Networks (FCN)
+**Instance classification** is more challenging in that it include object detection. See [illustration below](http://cs.nyu.edu/~silberman/projects/instance_segmentation.html) for an example.
+
+![](images/segmentation_tasks_example.png)
+
+### Review blogs
+- [Semantic Segmentation using Fully Convolutional Networks over the years](https://meetshah1995.github.io/semantic-segmentation/deep-learning/pytorch/visdom/2017/06/01/semantic-segmentation-over-the-years.html)
+
+### FCN (Fully connected networks)
 - [Fully Convolutinal Networks for Semantic Segmentation](https://arxiv.org/abs/1605.06211)
 - FCN adapts the classification networks for dense prediction, making it capable of localizatio tasks as well. Both learning and inference are performed whole-image-at-a-time.
 - Architecture
@@ -460,3 +472,40 @@ Goal: Pixel-wise segmentation predict a label with confidence for each pixel in 
 
 
 ### Mask R-CNN
+- [Mask R-CNN](https://arxiv.org/abs/1703.06870)
+- Mask R-CNN tackles the challenging problem of **instance segmentation**. It combines **in parallel** Fast/Faster R-CNN for object detection + FCN for semantic segmentation (deconvolution layers to upsample images)
+- Architecture
+	- Extended faster R-CNN with a branch for predicting segmentation mask 
+	- **backbone** network used for feature extraction + multitask network **head** used for bounding box regression/classification and mask prediction. The different tasks in the network head work in parallel.
+	- All convs are 3x3 and deconvs are 2x2-s-2. Conv maintains spatial resolution while deconv increases it.
+![](images/mask_rcnn_arch.png)
+![](images/mask_rcnn_arch2.png)
+- **RoIAlign layer** eliminates the harsh quantization of RoIPool which leads to minor translation and misalignment. Instead it calculates the exact value of the input features at four regularly sampled locations in each RoI bin, and aggregate the result (using max or average which turned out to be largely the same)
+- Loss function
+	- Multi-task loss on each sampled RoI 
+	\\[
+	L = L_{cls} + L_{box} + L_{mask}
+	\\]
+	- For each ROI, a binary object mask for each class independently. This allows the network to generate mask for each class without competition with other classes and thus **decouples** mask and class prediction.
+	- This is in stark contrast with FCN which generally predicts per-pixel multi-class categorization. The latter approach performs poorly in instance segmentation.
+	- $L_{mask}$ is defined as the average binary cross-entropy loss after applying a per-pixel sigmoid on each class. 
+	- The mask branch predicts an $m \times m$ mask from each ROI using an FCN. Compared to FC layers to predict mask, it requires fewer parameters and is more accurate. 
+	- For RoI associated with GT class-k, $L_{mask}$ is only defined on k-th mask.
+- Inference
+	- The $m \times m$ mask is resized to ROI size and binarized at a threshold of 0.5.
+- Benchmark
+	- COCO dataset and Cityscape dataset
+ 	- Mask R-CNN can be minimally modified for human pose estimation (each human key point as a one-hot mask)
+ 	- Cityscape dataset is more limited and thus demonstrates prediction models' *low shot* learning performance (the ability to learn from very few examples). The study also suggest a *domain shift* (mismatch of distribution) between the val and test datasets. 
+- **Ablation test** demonstrate the robustness and analyzes the effects of core factors
+	- More powerful backbone leads to better performance. **ResNeXt 101 + FPN** is the most effective network architecture for instance segmentation
+	- Class-specific independent masks with sigmoid is more effective as multinomial masks. This decouples classification with segmentation.
+	- A single class-agnostic mask is nearly as effective as class-specific masks. Again this demonstrates the effective decoupling of classification and segmentation.
+	- RoIAlign layer is critical for successful pixel level localization, including masks and keypoints.
+	- Training on a multi-task loss function generally helps all tasks. This means the system can leverage labeled information from multiple tasks. Learning jointly enables a unified system to efficiently predict all outputs simultaneously.
+- [Tidbits] 
+	- Mask R-CNN system can be quickly prototyped within a day
+	- Multi-scale training (on randomly resized images) to reduce overfitting (pre-training backbone also helps) but inference is only on the original scale.
+	- Use [Juxtapose JS](https://juxtapose.knightlab.com/) to showcase image segmentation results on websites.
+
+### FPN (Feature pyramid network)
