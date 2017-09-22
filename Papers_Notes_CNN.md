@@ -6,6 +6,7 @@ This note covers advancement in computer vision/image processing powered by conv
 
 * [Image Classification](#image-classification)
 * [Object Detection](#object-detection)
+    * [Review blogs](#review-blogs)
     * [R-CNN](#r-cnn)
     * [OverFeat](#overfeat)
     * [Fast R-CNN](#fast-r-cnn)
@@ -15,7 +16,7 @@ This note covers advancement in computer vision/image processing powered by conv
     * [SSD](#ssd)
     * [Extended reading](#extended-reading)
 * [Segmentation](#segmentation)
-    * [Review blogs](#review-blogs)
+    * [Review blogs](#review-blogs-1)
     * [FCN (Fully connected networks)](#fcn-fully-connected-networks)
     * [U-net](#u-net)
     * [3D U-Net](#3d-u-net)
@@ -36,6 +37,9 @@ Evolution from AlexNet, VGGNet, GoogLeNet (Inception) to ResNet.
 Goal: Predict a label with confidence, as well as the coordinates of a box bounding each object in an image.
 
 The evolution from R-CNN (regions with CNN-features), Fast R-CNN, Faster R-CNN, YOLO (YOLOv2 and YOLO9000) and SSD.
+
+### Review blogs
+[A Brief History of CNNs in Image Segmentation: From R-CNN to Mask R-CNN](https://blog.athelas.com/a-brief-history-of-cnns-in-image-segmentation-from-r-cnn-to-mask-r-cnn-34ea83205de4)
 
 ### R-CNN
 - [R-CNN: Rich feature hierarchies for acurate object detection and semantic segmentation, Tech Report v5](https://arxiv.org/abs/1311.2524), [link ppt](https://courses.cs.washington.edu/courses/cse590v/14au/cse590v_wk1_rcnn.pdf)
@@ -509,3 +513,10 @@ Goal: **Semantic segmentation** aims at grouping pixels in a semantically meanin
 	- Use [Juxtapose JS](https://juxtapose.knightlab.com/) to showcase image segmentation results on websites.
 
 ### FPN (Feature pyramid network)
+- [Feature Pyramid Networks for Object Detection](https://arxiv.org/abs/1612.03144)
+- FPN proposes a clean and systematic way to leverage features at different scales
+- Architecture
+	- (d) is FPN, a top-down architecture with skip connections, which predicts independently at all levels,
+![](images/fpn_arch.png)
+<!--![](images/fpn_arch2.png)-->
+<!--![](images/fpn_arch3.png)-->
