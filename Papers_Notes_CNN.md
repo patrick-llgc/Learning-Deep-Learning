@@ -2,6 +2,7 @@
 Compiled by Patrick Liu 
 
 This note covers advancement in computer vision/image processing powered by convolutional neural network (CNN) in increasingly more challenging topics from **Image Classification** to **Object Detection** to **Segmentation**. 
+
 <!-- vim-markdown-toc GFM -->
 
 * [Image Classification](#image-classification)
@@ -24,6 +25,7 @@ This note covers advancement in computer vision/image processing powered by conv
     * [Mask R-CNN](#mask-r-cnn)
     * [FPN (Feature pyramid network)](#fpn-feature-pyramid-network)
     * [Polygon RNN (2017 CVPR)](#polygon-rnn-2017-cvpr)
+    * [DeepMask](#deepmask)
 
 <!-- vim-markdown-toc -->
 
@@ -535,8 +537,8 @@ Goal: **Semantic segmentation** aims at grouping pixels in a semantically meanin
 	- The architecture of the RNN is a **Convolutional LSTM**, used as a decoder. ConvLSTM operates in 2D to preserve the spatial information from CNN. It uses convolutions to replace a FC RNN, reducing the parameter count and calculation cost.
 ![](images/polygon_rnn_arch.png)
 - LSTM
-	- Each cell has **3 states**: a cell state $c_t$, input state $x_t$, output value $h_t$ (also called hidden value), and **3 gates**: the input gate $i_t$, forget gate $f_i$, output gate $o_t$, and **1 candidate value**: a candidate cell state $g_t$.
-	- For detailed introduction, refer to [this blog post](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+	- Each cell has **3 gates**: the input gate $i_t$, forget gate $f_i$, output gate $o_t$, and **3 states**: a cell state $c_t$, input state $x_t$, output value $h_t$ (also called hidden state), and **1 (intermediate) block input value**: new info to update cell state $g_t$.
+	- For detailed introduction, refer to [Chris Olah's blog post](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) and [this review](https://arxiv.org/pdf/1503.04069.pdf)
 ![](images/lstm_arch.png)
 ![](images/lstm_calc.png)
 	- The input at any time t is the output from two previous time steps ($y_{t-1}$ and $y_{t-2}$) and the first time step ($y_1$). The past two points to follow a particular orientation of the polygon, and the first vertex to help decide when to close the polygon.
@@ -554,4 +556,5 @@ Goal: **Semantic segmentation** aims at grouping pixels in a semantically meanin
 	- Limitation: the simulated annotator always feeds GT to the polygon RNN, i.e., the ideal situation, which a real annotator may not achieve.
 - [tidbits] How to use deconv to represent bilinear upsampling?
 
+### DeepMask
 
