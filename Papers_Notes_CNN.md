@@ -23,6 +23,7 @@ This note covers advancement in computer vision/image processing powered by conv
     * [V-Net](#v-net)
     * [Mask R-CNN](#mask-r-cnn)
     * [FPN (Feature pyramid network)](#fpn-feature-pyramid-network)
+    * [Polygon RNN (2017 CVPR)](#polygon-rnn-2017-cvpr)
 
 <!-- vim-markdown-toc -->
 
@@ -301,7 +302,7 @@ using Convolutional Networks](https://arxiv.org/pdf/1312.6229.pdf)
 ### SSD
 - [SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325)
 - Architecture
-	- Replaces the FC layers in YOLO with convolutional (3x3) predictors. This makes it faster than YOLO.
+	- Replaces the FC layers in YOLO with convolutional (3x3) predictors. This makes it faster tdsfhan YOLO.
 	- Predictions of different scales from feature maps of different scales (increasingly larger scale prediction from coarser feature maps).
 	- Uses anchor boxes to regress bb locations.
 	- Base network is VGG16, but adapted similarly to DeepLab with atrous algorithm to gain speed. 
@@ -514,9 +515,43 @@ Goal: **Semantic segmentation** aims at grouping pixels in a semantically meanin
 
 ### FPN (Feature pyramid network)
 - [Feature Pyramid Networks for Object Detection](https://arxiv.org/abs/1612.03144)
-- FPN proposes a clean and systematic way to leverage features at different scales
+- Blogs:
+	- http://www.cnblogs.com/everyday-haoguo/p/Note-FPN.html
+- FPN proposes a clean and systematic way to leverage features at different scales. This helps to address the difficulty in detecting small items. 
 - Architecture
 	- (d) is FPN, a top-down architecture with skip connections, which predicts independently at all levels,
 ![](images/fpn_arch.png)
-<!--![](images/fpn_arch2.png)-->
-<!--![](images/fpn_arch3.png)-->
+
+
+### Polygon RNN (2017 CVPR)
+- [Annotating Object Instances with a Polygon-RNN](https://arxiv.org/abs/1704.05548)
+- Polygon RNN treats segmentation not as a **pixel-classification** problem but rather a **polygon prediction** task, mimicking how most of current datasets have been labelled. 
+	- Semi-automated image annotation system, allowing human to interfere at anytime to correct a vertex if needed.
+	- It helps to reduce the cost of the expensive data labeling for instance segmentation.
+- Architecture:
+	- CNN + RNN
+	- CNN backbone is VGG with skip connections (similar to SharpMask). Input is the bounding box around an object. Add 3x3 conv layers (with necessary bilinear upscaling or max-pooling) on top of the skip layers to form a concatenated feature (28 x 28 x 512 as shown)
+	- RNN is used to process the sequence of 2D polygon vertices (clockwise order) as time-series data. 
+	- The architecture of the RNN is a **Convolutional LSTM**, used as a decoder. ConvLSTM operates in 2D to preserve the spatial information from CNN. It uses convolutions to replace a FC RNN, reducing the parameter count and calculation cost.
+![](images/polygon_rnn_arch.png)
+- LSTM
+	- Each cell has **3 states**: a cell state $c_t$, input state $x_t$, output value $h_t$ (also called hidden value), and **3 gates**: the input gate $i_t$, forget gate $f_i$, output gate $o_t$, and **1 candidate value**: a candidate cell state $g_t$.
+	- For detailed introduction, refer to [this blog post](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+![](images/lstm_arch.png)
+![](images/lstm_calc.png)
+	- The input at any time t is the output from two previous time steps ($y_{t-1}$ and $y_{t-2}$) and the first time step ($y_1$). The past two points to follow a particular orientation of the polygon, and the first vertex to help decide when to close the polygon.
+	- The output at any time t is a $D \times D + 1$ grid, $D \times D$ is the one-hot encoded 2D position of the vertex, and one additional value is the end-of-sequence token.
+- Training
+	- End-to-end training of CNN + RNN
+	- Cross-entropy loss summed over 2D space, with target distribution smoothed.
+	- Beyond normal data augmentation, randomly select the starting vertex of the polygon annotation.
+	- The **first vertex** is predicted differently by purely training a CNN (backbone VGG + two additional layer), on a multitask loss (is the pixel on the border, is it a vertex).
+- Inference (with annotators in the loop)
+	- Taking the vertex with the highest log prob
+	- The model can run on a prediction mode without any input from the annotator. It can also accept online correction from a **simulated annotator** when the prediction deviates from the GT more than a preset threshold.  
+- Benchmark:
+	- The speedup benchmark is based on the number of clicks required to generate the polygon mask.
+	- Limitation: the simulated annotator always feeds GT to the polygon RNN, i.e., the ideal situation, which a real annotator may not achieve.
+- [tidbits] How to use deconv to represent bilinear upsampling?
+
+
