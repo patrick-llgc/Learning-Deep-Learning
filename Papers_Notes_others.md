@@ -9,6 +9,21 @@
 	- Backprop uses dynamic programming trick to share computation among different paths. It gets results for all inputs simultaneously. It is much faster when the input count is much larger than the output count, which is generally the case with DNN.
 	- Forward-mode differentiation could be much faster when the number of output is much larger than the input. 
 - [Michael Nielsen's blog chapter on backpropagation](http://neuralnetworksanddeeplearning.com/chap2.html)
+	- Define $a^l = \sigma(w^l a^{l-1} + b^l) \equiv \sigma (z^l)$, then 
+	- Cost function needs to meet two requirements: it has to be written as average/aggregation of cost for individual training examples; it has to be written in forms of the network output (predictions).
+	- Hadamard product $s \odot t$ is element wise operation, i.e., $(s \odot t)_i = s_i t_i$. It is almost the same as the dot product, skipping the final summation step.
+	- The weight connecting two layers will learn slowly if either the input neuron is low-activation, or if the output neuron has saturated, i.e., is either high- or low-activation. The saturation statement is only for a sigmoid activation function. 
+	\\[
+		\delta^L = \nabla_a C \odot \sigma'(z^L)
+	\\]
+	\\[
+		\delta^l = ((w^{l+1})^T \delta^{l+1}) \odot \sigma'(z^l)
+	\\]
+	\\[
+		\frac{\partial C}{\partial w^l_{jk}} = a_k^{l-1} \delta_j^l, \quad \frac{\partial C}{\partial b_j^l} = \delta_j^l
+	\\]
+
+
 
 ## RNN
 ### [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
