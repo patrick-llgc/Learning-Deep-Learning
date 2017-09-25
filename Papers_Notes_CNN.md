@@ -557,4 +557,29 @@ Goal: **Semantic segmentation** aims at grouping pixels in a semantically meanin
 - [tidbits] How to use deconv to represent bilinear upsampling?
 
 ### DeepMask
-
+- DeepMask tackles the problem of **instance segmentation** with a pure CNN approach. 
+- Deep mask generates class-agnostic segmentation mask with object score (whether the input patch **fully** contains a **centered** object) from fixed-size image patches (3x224x224).
+	- This is in contrast with the RPN (region proposal network) from faster R-CNN and MultiBox. DeepMask generates segmentation masks instead of the less informative bounding box proposal. 
+	- The segmentation mask can also be used to generate **bounding boxes** by taking the bounding box enclosing the segmentation mask.
+	- DeepMask can be used for **region proposal** as well, and it increases recall at a much small number of proposals. 
+- Architecture
+	- DeepMask uses VGG as backbone CNN
+	- Two parallel paths predicting both the mask and the object score. The network is trained jointly on a multi-task loss function.
+	- The mask has $h \times w$ pixel classifiers each predicting whehter a given pixel blongs to the object in the **center** of the input path. This is **unlike semantic segmentation** when multiple objects are present. 
+	- The upsampling layer in the mask path is fixed (non-trainable) bilinear filter, not learned.
+![](images/deepmask_arch.png)
+- Loss function
+	\\[
+	L(\theta) = \sum_k \left[\frac{1+y_k}{2 w^o h^o} \sum_{ij} \log(1+e^{m_k^{ij} f_{seg}^{ij}(x_k)}) + \lambda \log(1+e^{-y_k f_{score}(x_k)}) \right]
+	\\]
+	- Binary logistic regression loss.
+	- The object score $y_k \in {+1, -1}$ indicates whether the input path fully contains a centered object. Thus the loss function does not penalize over negative examples. This is critical in generalizing beyond the object categories seen during training (otherwise the unseen object would be inadvertently penalized).
+	- Note that $y_k = -1$ even if an object is partially present. 
+- Training
+	- Object score $y_k$ take on binary values. This may be improved by using IOU with ground truth?
+	- The $y_k$ is assigned to +1 for patches which fully contains a centered object with some tolerance to increase the robustness of the model.
+- Inference
+	- The model is applied densely at multiple locations, with a constant stride but different scales, but the input patch is always fixed-sized. 
+	- The predicted mask is binarized with a global threshold (0.1 or 0.2 for different datasets).
+	- The accuracy of the model is benchmarked on the metric of IoU, for mask and for bounding boxes. Note that the model is not trained directly on the accuracy.
+- [tidbits] selective search uses superpixel merging for region proposal. See [review by Hosang et al](https://arxiv.org/abs/1502.05082). 
