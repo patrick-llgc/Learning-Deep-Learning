@@ -583,3 +583,8 @@ Goal: **Semantic segmentation** aims at grouping pixels in a semantically meanin
 	- The predicted mask is binarized with a global threshold (0.1 or 0.2 for different datasets).
 	- The accuracy of the model is benchmarked on the metric of IoU, for mask and for bounding boxes. Note that the model is not trained directly on the accuracy.
 - [tidbits] selective search uses superpixel merging for region proposal. See [review by Hosang et al](https://arxiv.org/abs/1502.05082). 
+
+### SharpMask
+- [Learning to Refine Object Segments](https://arxiv.org/abs/1603.08695)
+- Architecture
+![](images/sharpmask_arch.png)
