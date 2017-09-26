@@ -22,10 +22,12 @@ This note covers advancement in computer vision/image processing powered by conv
     * [U-net](#u-net)
     * [3D U-Net](#3d-u-net)
     * [V-Net](#v-net)
-    * [Mask R-CNN](#mask-r-cnn)
     * [FPN (Feature pyramid network)](#fpn-feature-pyramid-network)
-    * [Polygon RNN (2017 CVPR)](#polygon-rnn-2017-cvpr)
+* [Instance/Object segmentation](#instanceobject-segmentation)
     * [DeepMask](#deepmask)
+    * [SharpMask](#sharpmask)
+    * [Mask R-CNN](#mask-r-cnn)
+    * [Polygon RNN (2017 CVPR)](#polygon-rnn-2017-cvpr)
 
 <!-- vim-markdown-toc -->
 
@@ -477,6 +479,72 @@ Goal: **Semantic segmentation** aims at grouping pixels in a semantically meanin
 	- The naive solution to segmentation uses patchwise classification but only considers local context and suffers from efficiency issues too.
 	- To avoid information bottleneck, the number of channels doubles when the resolution of the images halves.
 
+### FPN (Feature pyramid network)
+- [Feature Pyramid Networks for Object Detection](https://arxiv.org/abs/1612.03144)
+- Blogs:
+	- http://www.cnblogs.com/everyday-haoguo/p/Note-FPN.html
+- FPN proposes a clean and systematic way to leverage features at different scales. This helps to address the difficulty in detecting small items. 
+- Architecture
+	- (d) is FPN, a top-down architecture with skip connections, which predicts independently at all levels,
+![](images/fpn_arch.png)
+
+
+
+## Instance/Object segmentation
+Instance segmentation involves challenges from object detection with bounding boxes and semantic segmentation.
+
+### DeepMask
+- DeepMask tackles the problem of **instance segmentation** with a pure CNN approach. 
+- Deep mask generates class-agnostic segmentation mask with object score (whether the input patch **fully** contains a **centered** object) from fixed-size image patches (3x224x224).
+	- This is in contrast with the RPN (region proposal network) from faster R-CNN and MultiBox. DeepMask generates segmentation masks instead of the less informative bounding box proposal. 
+	- The segmentation mask can also be used to generate **bounding boxes** by taking the bounding box enclosing the segmentation mask.
+	- DeepMask can be used for **region proposal** as well, and it increases recall at a much small number of proposals. 
+- Architecture
+	- DeepMask uses VGG as backbone CNN
+	- Two parallel paths predicting both the mask and the object score. The network is trained jointly on a multi-task loss function.
+	- The mask has $h \times w$ pixel classifiers each predicting whehter a given pixel blongs to the object in the **center** of the input path. This is **unlike semantic segmentation** when multiple objects are present. 
+	- The upsampling layer in the mask path is fixed (non-trainable) bilinear filter, not learned.
+![](images/deepmask_arch.png)
+- Loss function
+	\\[
+	L(\theta) = \sum_k \left[\frac{1+y_k}{2 w^o h^o} \sum_{ij} \log(1+e^{m_k^{ij} f_{seg}^{ij}(x_k)}) + \lambda \log(1+e^{-y_k f_{score}(x_k)}) \right]
+	\\]
+	- Binary logistic regression loss.
+	- The object score $y_k \in {+1, -1}$ indicates whether the input path fully contains a centered object. Thus the loss function does not penalize over negative examples. This is critical in generalizing beyond the object categories seen during training (otherwise the unseen object would be inadvertently penalized).
+	- Note that $y_k = -1$ even if an object is partially present. 
+- Training
+	- Object score $y_k$ take on binary values. This may be improved by using IOU with ground truth?
+	- The $y_k$ is assigned to +1 for patches which fully contains a centered object with some tolerance to increase the robustness of the model.
+- Inference
+	- The model is applied densely at multiple locations, with a constant stride but different scales, but the input patch is always fixed-sized. 
+	- The predicted mask is binarized with a global threshold (0.1 or 0.2 for different datasets).
+	- The accuracy of the model is benchmarked on the metric of IoU, for mask and for bounding boxes. Note that the model is not trained directly on the accuracy.
+- [tidbits] selective search uses superpixel merging for region proposal. See [review by Hosang et al](https://arxiv.org/abs/1502.05082). 
+
+### SharpMask
+- [Learning to Refine Object Segments](https://arxiv.org/abs/1603.08695)
+- SharpMask improves upon DeepMask by adding a top-down architecture to capture higher resolution features from earlier layers. 
+- Architecture
+	- Bottom-up / top-down architecture. It is **very much like U-Net**, but note that the top/bottom definition is reversed. 
+	- The refinement module inverts the effect of pooling. It uses a bilinear upsampling by a factor of 2 to increase the spatial resolution of the feature maps. 
+	- $k_m^l > 1$ allows the system to capture more than a mere segmentation mask, and is **key** for obtaining good accuracy. This means the feedforward + skip architecture (see fig1b) averages features from different layers and is effective for semantic segmentation, but is inadequate for instance segmentation as local receptive fields are insufficient to differentiate  between object instances. (i.e., skip network itself is not effective)
+	- The horizontal skip connections are also critical for effectively incorporating the higher spatial resolution features (i.e., deconv network itself is not effective). 
+	- Directly concatenating F with M poses two challenges: $k_f^i >> k_m^i$ so the contracting path may drown the expanding path; the computation burden is large. Therefore skip features $S^i$ are created. 
+![](images/sharpmask_arch.png)
+
+- Efficient computation
+	- Network head for DeepMask can be progressively simplified with increased efficiency (reduced inference time) without hurting effectiveness. Both the objectiveness score and the mask can be predicted from a single compact 512 dimensional vector. 
+![](images/sharpmask_head_arch.png)
+	- Skip features are shared by overlapping image patches and can be computed efficiently. There are new ways to refactor the refinement module (swapping 3x3 conv on S and M respectively first and then concatenate) for even more efficient computation.
+![](images/sharpmask_refinement_arch.png)
+- Training 
+	- Two stage training: train feedforward (DeepMask), freeze it, then train refinement module.
+	- Reflective padding (instead of 0-padding) to keep the original image size after convolution. 
+- SharpMask, like DeepMask can be used as object proposal methods and coupled with Fast R-CNN for object detection. 
+- Performance Metrics
+	- Object proposal: AR, average recall.
+	- Object detection: AP, average precision.
+
 
 ### Mask R-CNN
 - [Mask R-CNN](https://arxiv.org/abs/1703.06870)
@@ -515,16 +583,6 @@ Goal: **Semantic segmentation** aims at grouping pixels in a semantically meanin
 	- Multi-scale training (on randomly resized images) to reduce overfitting (pre-training backbone also helps) but inference is only on the original scale.
 	- Use [Juxtapose JS](https://juxtapose.knightlab.com/) to showcase image segmentation results on websites.
 
-### FPN (Feature pyramid network)
-- [Feature Pyramid Networks for Object Detection](https://arxiv.org/abs/1612.03144)
-- Blogs:
-	- http://www.cnblogs.com/everyday-haoguo/p/Note-FPN.html
-- FPN proposes a clean and systematic way to leverage features at different scales. This helps to address the difficulty in detecting small items. 
-- Architecture
-	- (d) is FPN, a top-down architecture with skip connections, which predicts independently at all levels,
-![](images/fpn_arch.png)
-
-
 ### Polygon RNN (2017 CVPR)
 - [Annotating Object Instances with a Polygon-RNN](https://arxiv.org/abs/1704.05548)
 - Polygon RNN treats segmentation not as a **pixel-classification** problem but rather a **polygon prediction** task, mimicking how most of current datasets have been labelled. 
@@ -555,36 +613,3 @@ Goal: **Semantic segmentation** aims at grouping pixels in a semantically meanin
 	- The speedup benchmark is based on the number of clicks required to generate the polygon mask.
 	- Limitation: the simulated annotator always feeds GT to the polygon RNN, i.e., the ideal situation, which a real annotator may not achieve.
 - [tidbits] How to use deconv to represent bilinear upsampling?
-
-### DeepMask
-- DeepMask tackles the problem of **instance segmentation** with a pure CNN approach. 
-- Deep mask generates class-agnostic segmentation mask with object score (whether the input patch **fully** contains a **centered** object) from fixed-size image patches (3x224x224).
-	- This is in contrast with the RPN (region proposal network) from faster R-CNN and MultiBox. DeepMask generates segmentation masks instead of the less informative bounding box proposal. 
-	- The segmentation mask can also be used to generate **bounding boxes** by taking the bounding box enclosing the segmentation mask.
-	- DeepMask can be used for **region proposal** as well, and it increases recall at a much small number of proposals. 
-- Architecture
-	- DeepMask uses VGG as backbone CNN
-	- Two parallel paths predicting both the mask and the object score. The network is trained jointly on a multi-task loss function.
-	- The mask has $h \times w$ pixel classifiers each predicting whehter a given pixel blongs to the object in the **center** of the input path. This is **unlike semantic segmentation** when multiple objects are present. 
-	- The upsampling layer in the mask path is fixed (non-trainable) bilinear filter, not learned.
-![](images/deepmask_arch.png)
-- Loss function
-	\\[
-	L(\theta) = \sum_k \left[\frac{1+y_k}{2 w^o h^o} \sum_{ij} \log(1+e^{m_k^{ij} f_{seg}^{ij}(x_k)}) + \lambda \log(1+e^{-y_k f_{score}(x_k)}) \right]
-	\\]
-	- Binary logistic regression loss.
-	- The object score $y_k \in {+1, -1}$ indicates whether the input path fully contains a centered object. Thus the loss function does not penalize over negative examples. This is critical in generalizing beyond the object categories seen during training (otherwise the unseen object would be inadvertently penalized).
-	- Note that $y_k = -1$ even if an object is partially present. 
-- Training
-	- Object score $y_k$ take on binary values. This may be improved by using IOU with ground truth?
-	- The $y_k$ is assigned to +1 for patches which fully contains a centered object with some tolerance to increase the robustness of the model.
-- Inference
-	- The model is applied densely at multiple locations, with a constant stride but different scales, but the input patch is always fixed-sized. 
-	- The predicted mask is binarized with a global threshold (0.1 or 0.2 for different datasets).
-	- The accuracy of the model is benchmarked on the metric of IoU, for mask and for bounding boxes. Note that the model is not trained directly on the accuracy.
-- [tidbits] selective search uses superpixel merging for region proposal. See [review by Hosang et al](https://arxiv.org/abs/1502.05082). 
-
-### SharpMask
-- [Learning to Refine Object Segments](https://arxiv.org/abs/1603.08695)
-- Architecture
-![](images/sharpmask_arch.png)
