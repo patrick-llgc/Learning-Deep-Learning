@@ -26,6 +26,7 @@ This note covers advancement in computer vision/image processing powered by conv
 * [Instance/Object segmentation](#instanceobject-segmentation)
     * [DeepMask](#deepmask)
     * [SharpMask](#sharpmask)
+    * [MultiPath Network](#multipath-network)
     * [Mask R-CNN](#mask-r-cnn)
     * [Polygon RNN (2017 CVPR)](#polygon-rnn-2017-cvpr)
 
@@ -498,7 +499,7 @@ Instance segmentation involves challenges from object detection with bounding bo
 - Deep mask generates class-agnostic segmentation mask with object score (whether the input patch **fully** contains a **centered** object) from fixed-size image patches (3x224x224).
 	- This is in contrast with the RPN (region proposal network) from faster R-CNN and MultiBox. DeepMask generates segmentation masks instead of the less informative bounding box proposal. 
 	- The segmentation mask can also be used to generate **bounding boxes** by taking the bounding box enclosing the segmentation mask.
-	- DeepMask can be used for **region proposal** as well, and it increases recall at a much small number of proposals. 
+	- DeepMask can be used for **region proposal** as well, and it increases recall at a much small number of proposals. See MultiPath Network.
 - Architecture
 	- DeepMask uses VGG as backbone CNN
 	- Two parallel paths predicting both the mask and the object score. The network is trained jointly on a multi-task loss function.
@@ -545,6 +546,29 @@ Instance segmentation involves challenges from object detection with bounding bo
 	- Object proposal: AR, average recall.
 	- Object detection: AP, average precision.
 
+
+### MultiPath Network
+- [A MultiPath Network for Object Detection](https://arxiv.org/abs/1604.02135)
+- Multipath improves upon standard Fast R-CNN
+	- Skip connections gives the detector access to features at multiple resolution
+	- "Foveal" structure (concentric ring) exploits object context at multiple scales
+	- integral loss function favors better localization
+	- Uses DeepMask for object proposal (to replace selective search which is based on low level grouping of superpixels)
+- Architecture
+	- Skip connection: ROI pooled normalized features from different conv layers are concatenated (following Inside Out Network, ION). **Multiple feature maps.**
+	- Foveal field of view: 1x, 1.5x, 2x, 4x of the original proposal box all centered on the object proposal. For each FOV, ROI pooling is used to generate the fixed sized feature maps. (the architecture diagram is a bit misleading). **Multiple ROI for pooling.**
+	- Integral loss: 
+		- PASCAL and ImageNet only considers if the bb has over 0.5 IOU with the GT, while COCO averages AP cross IOU threshold between .50 and .95. **COCO incentivizes better object localization.**
+		- Ideally proposals with higher overlap to the GT should be scored more highly. Therefore, instead of a single $L_{cls}(p, k^*) = -\log p(k^*)$, classification loss for the GT class $k^*$ at IOU threshold $u=0.5$, 
+	\\[
+	\int_{50}^{100} L_{cls}(p, k_u^*) du
+	\\]
+	In this formulation better localized objects are counted more times. For practical reasons (very few positive training samples when u>0.75), the integration is approximated as summation $\sum_u$ where $u \in \{50, 55, ..., 75\}$. 
+	- Each object proposal has n GT labels $k_u^*$, one per threshold $u$. Each term $p_u$ is predicted by a separate classifier head.
+![](images/multipath_arch.png)
+- DeepMask performs object proposal with higher quality than selective search, so that the bb regression in Fast R-CNN only gives marginally better results. 
+- [tidbits] Dropout and weight decay only one is needed to achieve good regularization. 
+- [tidbits] Data and model parallelism. 4 GPU machines help motivate the design of 4 foveal regions due to the ease of implementation.
 
 ### Mask R-CNN
 - [Mask R-CNN](https://arxiv.org/abs/1703.06870)
@@ -613,3 +637,4 @@ Instance segmentation involves challenges from object detection with bounding bo
 	- The speedup benchmark is based on the number of clicks required to generate the polygon mask.
 	- Limitation: the simulated annotator always feeds GT to the polygon RNN, i.e., the ideal situation, which a real annotator may not achieve.
 - [tidbits] How to use deconv to represent bilinear upsampling?
+
