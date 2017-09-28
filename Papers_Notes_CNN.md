@@ -490,12 +490,13 @@ Goal: **Semantic segmentation** aims at grouping pixels in a semantically meanin
 ![](images/fpn_arch.png)
 
 
-
 ## Instance/Object segmentation
 Instance segmentation involves challenges from object detection with bounding boxes and semantic segmentation.
+Facebook AI Research (FAIR) has a series of progressive research on on DeepMask, SharpMask and MultiPath Network. Here is a [blog post review by Piotr Dollar](https://research.fb.com/learning-to-segment/), and here is [another one](https://adeshpande3.github.io/Analyzing-the-Papers-Behind-Facebook%27s-Computer-Vision-Approach/)
+
 
 ### DeepMask
-- DeepMask tackles the problem of **instance segmentation** with a pure CNN approach. 
+- DeepMask tackles the problem of **instance segmentation** with a pure CNN approach. Note that **DeepMask and SharpMask do not perform object classification.**
 - Deep mask generates class-agnostic segmentation mask with object score (whether the input patch **fully** contains a **centered** object) from fixed-size image patches (3x224x224).
 	- This is in contrast with the RPN (region proposal network) from faster R-CNN and MultiBox. DeepMask generates segmentation masks instead of the less informative bounding box proposal. 
 	- The segmentation mask can also be used to generate **bounding boxes** by taking the bounding box enclosing the segmentation mask.
@@ -514,7 +515,7 @@ Instance segmentation involves challenges from object detection with bounding bo
 	- The object score $y_k \in {+1, -1}$ indicates whether the input path fully contains a centered object. Thus the loss function does not penalize over negative examples. This is critical in generalizing beyond the object categories seen during training (otherwise the unseen object would be inadvertently penalized).
 	- Note that $y_k = -1$ even if an object is partially present. 
 - Training
-	- Object score $y_k$ take on binary values. This may be improved by using IOU with ground truth?
+	- Object score $y_k$ take on binary values. ==This may be improved by using IOU with ground truth?==
 	- The $y_k$ is assigned to +1 for patches which fully contains a centered object with some tolerance to increase the robustness of the model.
 - Inference
 	- The model is applied densely at multiple locations, with a constant stride but different scales, but the input patch is always fixed-sized. 
@@ -637,4 +638,5 @@ Instance segmentation involves challenges from object detection with bounding bo
 	- The speedup benchmark is based on the number of clicks required to generate the polygon mask.
 	- Limitation: the simulated annotator always feeds GT to the polygon RNN, i.e., the ideal situation, which a real annotator may not achieve.
 - [tidbits] How to use deconv to represent bilinear upsampling?
+
 
