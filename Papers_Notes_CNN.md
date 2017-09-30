@@ -6,29 +6,30 @@ This note covers advancement in computer vision/image processing powered by conv
 <!-- vim-markdown-toc GFM -->
 
 * [Image Classification](#image-classification)
+	* [AlexNet (NIPS 2012)](#alexnet-nips-2012)
 * [Object Detection](#object-detection)
-    * [Review blogs](#review-blogs)
-    * [R-CNN](#r-cnn)
-    * [OverFeat](#overfeat)
-    * [Fast R-CNN](#fast-r-cnn)
-    * [Faster R-CNN](#faster-r-cnn)
-    * [YOLO](#yolo)
-    * [YOLOv2 and YOLO9000](#yolov2-and-yolo9000)
-    * [SSD](#ssd)
-    * [Extended reading](#extended-reading)
+	* [Review blogs](#review-blogs)
+	* [R-CNN](#r-cnn)
+	* [OverFeat](#overfeat)
+	* [Fast R-CNN](#fast-r-cnn)
+	* [Faster R-CNN](#faster-r-cnn)
+	* [YOLO](#yolo)
+	* [YOLOv2 and YOLO9000](#yolov2-and-yolo9000)
+	* [SSD](#ssd)
+	* [Extended reading](#extended-reading)
 * [Segmentation](#segmentation)
-    * [Review blogs](#review-blogs-1)
-    * [FCN (Fully connected networks)](#fcn-fully-connected-networks)
-    * [U-net](#u-net)
-    * [3D U-Net](#3d-u-net)
-    * [V-Net](#v-net)
-    * [FPN (Feature pyramid network)](#fpn-feature-pyramid-network)
+	* [Review blogs](#review-blogs-1)
+	* [FCN (Fully connected networks)](#fcn-fully-connected-networks)
+	* [U-net](#u-net)
+	* [3D U-Net](#3d-u-net)
+	* [V-Net](#v-net)
+	* [FPN (Feature pyramid network)](#fpn-feature-pyramid-network)
 * [Instance/Object segmentation](#instanceobject-segmentation)
-    * [DeepMask](#deepmask)
-    * [SharpMask](#sharpmask)
-    * [MultiPath Network](#multipath-network)
-    * [Mask R-CNN](#mask-r-cnn)
-    * [Polygon RNN (2017 CVPR)](#polygon-rnn-2017-cvpr)
+	* [DeepMask](#deepmask)
+	* [SharpMask](#sharpmask)
+	* [MultiPath Network](#multipath-network)
+	* [Mask R-CNN](#mask-r-cnn)
+	* [Polygon RNN (2017 CVPR)](#polygon-rnn-2017-cvpr)
 
 <!-- vim-markdown-toc -->
 
@@ -36,7 +37,37 @@ This note covers advancement in computer vision/image processing powered by conv
 Goal: Predict a label with confidence to an entire image.
 
 Evolution from AlexNet, VGGNet, GoogLeNet (Inception) to ResNet.
-
+### AlexNet (NIPS 2012)
+- [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks)
+- Main contributions:
+	- ReLU: non-saturating neurons significantly speeds up training.
+	- Efficient multi-GPU implementation: cross GPU parallelization in that GPUs can read from and write to one another's memory without going through host machine memory.
+	- LRN (local response normalization): this was reported as largely ineffective per VGG
+- Architecture
+	- 8 layers: 5 conv + 3 fully connected (FC)
+	- Fixed input size: 224 x 224 x 3
+	- 2 GPU, 2 branches
+	- Inter-GPU data sharing only in certain layers
+	- Note that the overall size of block is that of images, and inner blocks are conv filters (neurons)
+![](images/alexnet_arch.png)
+- Training
+	- Images are resized to 256x256, and randomly cropped to 224x224 for data augmentation.
+	- 2 techniques to provide overfitting: 
+		- **Data augmentation**: label-preserving transformation
+		- **Dropout**: neurons that are dropped out do not contribute to forward pass nor back-propagation. This reduces complex co-adaptations of neurons, as a neuron cannot reply on the presence of particular other neurons. It roughly doubles the training time when dropout probability p=0.5. 
+	- Loss function: multinomial logistic regression objective (softmax)
+	- Learning update with momentum 0.9 and weight decay 0.0005
+		1. $v_{i+1} := 0.9 v_i - 0.0005 \cdot \epsilon \cdot w_i - \epsilon \left< \frac{\partial L}{\partial w} |_{w_i} \right>_{D_i} $
+		2. $	w_{i+1} := w_i + v_{i+1}$
+	- Learning schedule: divide learning rate by 10 when validation error rate stopped improving 
+- Results:
+	- 1st conv layers learned a variety of frequency- and orientation-selective kernels and colored blobs
+	- Specialization of filters on two GPUs due to restricted connectivity
+	- Feature activations in the last hidden layer (4096-dimensional vectors) provide a good representation of image similarities in the image. 
+	- **Efficient image retrieval** can be realized through this vector, or even compressed short binary code using autoencoders. This is better than grouping low level features in the image domain as similar patterns of edges does not mean *semantic* similarity.
+- [tidbits] 
+	- ImageNet's labels were gathered using Amazon's mechanical turk.
+	- Due to genuine ambiguity of the intended focus of the images, **top-5 error rate** is more representative than **top-1 error rate**.
 
 
 ## Object Detection
