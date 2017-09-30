@@ -7,6 +7,7 @@ This note covers advancement in computer vision/image processing powered by conv
 
 * [Image Classification](#image-classification)
 	* [AlexNet (NIPS 2012)](#alexnet-nips-2012)
+	* [VGG16 (ICLR 2015, 09/2014)](#vgg16-iclr-2015-092014)
 * [Object Detection](#object-detection)
 	* [Review blogs](#review-blogs)
 	* [R-CNN](#r-cnn)
