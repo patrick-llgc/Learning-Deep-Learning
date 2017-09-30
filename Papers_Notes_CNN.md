@@ -57,7 +57,7 @@ Evolution from AlexNet, VGGNet, GoogLeNet (Inception) to ResNet.
 		- **Dropout**: neurons that are dropped out do not contribute to forward pass nor back-propagation. This reduces complex co-adaptations of neurons, as a neuron cannot reply on the presence of particular other neurons. It roughly doubles the training time when dropout probability p=0.5. 
 	- Loss function: multinomial logistic regression objective (softmax)
 	- Learning update with momentum 0.9 and weight decay 0.0005
-		1. $v_{i+1} := 0.9 v_i - 0.0005 \cdot \epsilon \cdot w_i - \epsilon \left< \frac{\partial L}{\partial w} |_{w_i} \right>_{D_i} $
+		1. $v_{i+1} := 0.9 v_i - 0.0005 \cdot \epsilon \cdot w_i - \epsilon \left< \frac{\partial L}{\partial w} \mid _{w_i} \right>_{D_i} $
 		2. $	w_{i+1} := w_i + v_{i+1}$
 	- Learning schedule: divide learning rate by 10 when validation error rate stopped improving 
 - Results:
@@ -69,6 +69,31 @@ Evolution from AlexNet, VGGNet, GoogLeNet (Inception) to ResNet.
 	- ImageNet's labels were gathered using Amazon's mechanical turk.
 	- Due to genuine ambiguity of the intended focus of the images, **top-5 error rate** is more representative than **top-1 error rate**.
 
+### VGG16 (ICLR 2015, 09/2014)
+- [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556)
+- This study investigate the importance of depth in CNN. VGG has very simple architecture design by stacking layers of small filters with only 3x3 receptive field.
+	- Stacking small (3x3) filters can be used to approximate larger filters. It decreases the number of parameters and are thus easier to train and less prone to overfit.
+- Architecture
+	- 16 or 19 
+	- Fixed input size: 224 x 224 x 3
+![](images/vgg_arch.png)
+- Parameter count
+	- ~140M (cf [cs231n](http://cs231n.github.io/convolutional-networks/#case)), larger than AlexNet but smaller than contemporary networks due to simple 3x3 filters.
+- Training
+	- $S$ is the training scale, the size of image from which the 224x224 training patches are cropped from.
+	- Training was performed on the shallowest network first, and then the first conv layers and the FC layers are used to initialize deeper networks.
+	- **Single scale training**: $S \in \{256, 384\}$.
+	- **Multiple scale (jittered) training**: $S \in [S_{min}, S_{max}]= [256, 512]$ 
+- Testing
+	- $Q$ is the test scale, defined similarly to $S$. Using several Q's for each S leads to better results. 
+	- Change VGG to **Fully convolutional network (FCN)** by changing FC layers to convolutional layers, and apply to rescaled test data densely (in a convolutional manner). The result is a class score map (instead of a single score), which is then spatially averaged (sum-pooled) to obtain a fixed size vector. This implementation is computationally **efficient** as it avoids redundant computation over overlapping crops.
+	- **Single scale evaluation**: Q=S for fixed S, and $Q = (S_{min} + S_{max})/2$ for jittered S. Scale jittering at training leads to significantly better results, as it helps to capture multi-scale image statistics.
+	- **Multi-scale evaluation**: $Q \in \{S-32, S, S+32\}$ for fixed S, and $Q \in \{S_{min}, (S_{min} + S_{max})/2, S_{max}\}$ for jittered S. 
+ 	- **Multi-crop evaluation**: takes more time
+ 	- Fusion of the above two: ensemble leads to better results. 
+- CNN can be used as a black-box feature extractor for various other tasks. 
+	- CNN features + SVN for classification on PASCAL VOC and CALTECH datasets
+	- CNN features for human action classification
 
 ## Object Detection
 Goal: Predict a label with confidence, as well as the coordinates of a box bounding each object in an image.
