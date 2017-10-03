@@ -5,3 +5,4 @@ This repository contains my learning notes and the code snippets (in iPython Not
 - [List of Papers on Machine Learning](List_of_Machine_Learning_Papers.md)
 - [Notes of Literature Review (CNN)](Papers_Notes_CNN.md)
 - [Notes of Literature Review (Others)](Papers_Notes_others.md)
+- [Notes on how to set up DL/ML environment](ML_DL_environment_Setup.md)
