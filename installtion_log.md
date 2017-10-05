@@ -19,4 +19,39 @@ PS1="[ \[$(tput sgr0)\]\[\033[38;5;10m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] @ \[
 
 - Install `XMing`
 
+- ```
+  # https://joshpeng.github.io/post/wsl/
+  sudo apt-get update
+  sudo apt-get upgrade
+  wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh
+  bash Anaconda3-4.2.0-Linux-x86_64.sh
+  conda update --all --y
+
+  # update conda to fix multi-user install 
+  conda update conda
+  conda create -n py27 python=2.7 anaconda
+  apt-get install firefox
+  sudo apt-get install zsh git libqtgui4 xserver-xorg-video-dummy
+  echo "export DISPLAY=localhost:0.0" >> ~/.bashrc
+
+  # install sublime
+  sudo add-apt-repository ppa:webupd8team/sublime-text-3
+  sudo apt-get update
+  sudo apt-get install sublime-text-installer
+  subl
+
+  # optional below
+  conda install matplotlib=1.5.1
+  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  echo "export DISPLAY=localhost:0.0" >> ~/.bashrc
+  echo "export KMP_AFFINITY=disabled" >> ~/.bashrc
+  echo "zsh" >> ~/.bashrc
+  sudo sed -i 's$<listen>.*</listen>$<listen>tcp:host=localhost,port=0</listen>$' /etc/dbus-1/session.conf
+  sudo apt-get install python-software-properties
+  curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+  sudo apt-get install nodejs
+  ```
+
+- ​
+
   ​
