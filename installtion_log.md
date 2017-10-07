@@ -30,6 +30,8 @@ PS1="[ \[$(tput sgr0)\]\[\033[38;5;10m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] @ \[
   # update conda to fix multi-user install 
   conda update conda
   conda create -n py27 python=2.7 anaconda
+  # use `conda env list` to check which env is it under
+
   apt-get install firefox
   sudo apt-get install zsh git libqtgui4 xserver-xorg-video-dummy
   echo "export DISPLAY=localhost:0.0" >> ~/.bashrc
@@ -39,6 +41,18 @@ PS1="[ \[$(tput sgr0)\]\[\033[38;5;10m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] @ \[
   sudo apt-get update
   sudo apt-get install sublime-text-installer
   subl
+
+  # install virtualenv 
+  # http://docs.python-guide.org/en/latest/dev/virtualenvs/
+  pip install virtualenvwrapper
+  export WORKON_HOME=~/Envs
+  export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+  source /usr/local/bin/virtualenvwrapper.sh
+
+  # install tensorflow
+  # Do not use `pip3 install --upgrade tensorflow-gpu`
+  # Note that tf 1.3 requires libcudnn.so.6
+  pip3 install tensorflow-gpu==1.1
 
   # optional below
   conda install matplotlib=1.5.1
@@ -52,6 +66,28 @@ PS1="[ \[$(tput sgr0)\]\[\033[38;5;10m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] @ \[
   sudo apt-get install nodejs
   ```
 
+### In WSL
+
+- Mount network drive in WSL
+
+  ```
+  # This is not available until windows 10 build 16299
+  # sudo mkdir /media/Users
+  ```
+
+- Download and install pycharm 
+
+  `https://confluence.jetbrains.com/display/PYH/Installing+PyCharm+on+Linux+according+to+FHS`
+
 - ​
 
-  ​
+
+
+### Random tricks and notes
+
+- use `np.close` to check if two images are nearly the same
+- `tf.op_scope` is DEPRECATED. Same as `tf.name_scope` , just different argument order.
+- `tf.image_summary` is replaced by `tf.summary.image`
+- `tf.sub` is replaced by `tf.subtract`
+- `tf.mul` is replaced by `tf.multiply`
+- ​
