@@ -90,4 +90,5 @@ PS1="[ \[$(tput sgr0)\]\[\033[38;5;10m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] @ \[
 - `tf.image_summary` is replaced by `tf.summary.image`
 - `tf.sub` is replaced by `tf.subtract`
 - `tf.mul` is replaced by `tf.multiply`
+- training speed is not only limited by GPU, but also with file I/O.
 - ​
