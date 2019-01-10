@@ -1,8 +1,13 @@
-# Learning-Deep-Learning
-This repository contains my learning notes and the code snippets (in iPython Notebook or Python script format). The iPython notebook files are initially forked from [this repo](git@github.com:jessicayung/self-driving-car-nd.git) based on the Udacity course, but was heavily adopted with new notes and necessary changes to accommodate new API changes.
+# Paper notes
+This repository contains my paper reading notes on deep learning and machine learning. **New year resolution for 2019: read at least one paper a week!**
 
+## 2019-01
+- Human-level control through deep reinforcement learning (Nature DQN paper) [[Link](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf)][[Notes](paper_notes/nature_dqn_paper.md)]
+
+## Before 2019
 - [Learning notes on Deep Learning](Learning_notes.md)
 - [List of Papers on Machine Learning](List_of_Machine_Learning_Papers.md)
-- [Notes of Literature Review (CNN)](Papers_Notes_CNN.md)
-- [Notes of Literature Review (Others)](Papers_Notes_others.md)
+- [Notes of Literature Review (CNN)](cnn_papers.md)
+- [Notes of Literature Review (Others)](misc.md)
 - [Notes on how to set up DL/ML environment](ML_DL_environment_Setup.md)
+- [Useful setup notes](installation_log.md)
