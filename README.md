@@ -29,3 +29,8 @@ This repository contains my paper reading notes on deep learning and machine lea
 - [Non-local Neural Networks](https://arxiv.org/pdf/1711.07971.pdf)
 - [SlowFast Networks for Video Recognition](https://arxiv.org/pdf/1812.03982.pdf)
 - [Long-Term Feature Banks for Detailed Video Understanding](https://arxiv.org/pdf/1812.05038.pdf)
+
+### Orthoganal architecture improvements
+- [Non-local Neural Networks](https://arxiv.org/pdf/1711.07971.pdf)
+- [Squeeze-and-Excitation Networks](https://arxiv.org/pdf/1709.01507)
+
