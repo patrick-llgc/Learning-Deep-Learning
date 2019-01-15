@@ -25,7 +25,12 @@ This repository contains my paper reading notes on deep learning and machine lea
 - [Panoptic Feature Pyramid Networks](https://arxiv.org/pdf/1901.02446.pdf)
 - [Attention-guided Unified Network for Panoptic Segmentation](https://arxiv.org/pdf/1812.03904.pdf)
 
-### Viedeo Understanding
+### Video Understanding
 - [Non-local Neural Networks](https://arxiv.org/pdf/1711.07971.pdf)
 - [SlowFast Networks for Video Recognition](https://arxiv.org/pdf/1812.03982.pdf)
 - [Long-Term Feature Banks for Detailed Video Understanding](https://arxiv.org/pdf/1812.05038.pdf)
+
+### Medical Imaging
+- [DeepMedic for Brain Tumor Segmentation](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/02/kamnitsas2016brats.pdf)
+- [Attention U-Net: Learning Where to Look for the Pancreas](https://arxiv.org/pdf/1804.03999.pdf)
+- [Attention-Gated Networks for Improving Ultrasound Scan Plane Detection](https://arxiv.org/pdf/1804.05338.pdf)
