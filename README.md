@@ -3,6 +3,7 @@ This repository contains my paper reading notes on deep learning and machine lea
 
 ## 2019-01
 - [Human-level control through deep reinforcement learning (Nature DQN paper)](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) [[Notes](paper_notes/nature_dqn_paper.md)]
+- [Panoptic Segmentation](https://arxiv.org/pdf/1801.00868.pdf) [[Notes](paper_notes/panoptic_segmentation.md)]
 - [Panoptic Feature Pyramid Networks](https://arxiv.org/pdf/1901.02446.pdf) [[Notes](paper_notes/panoptic_fpn.md)]
 
 ## Before 2019
@@ -22,7 +23,6 @@ This repository contains my paper reading notes on deep learning and machine lea
 - [CBAM: Convolutional Block Attention Module](https://arxiv.org/pdf/1807.06521.pdf)
 
 ### Panoptic Segmentation
-- [Panoptic Segmentation](https://arxiv.org/pdf/1801.00868.pdf)
 - [Attention-guided Unified Network for Panoptic Segmentation](https://arxiv.org/pdf/1812.03904.pdf)
 
 ### Video Understanding
