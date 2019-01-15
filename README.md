@@ -2,7 +2,8 @@
 This repository contains my paper reading notes on deep learning and machine learning. **New year resolution for 2019: read at least one paper a week!**
 
 ## 2019-01
-- Human-level control through deep reinforcement learning (Nature DQN paper) [[Link](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf)][[Notes](paper_notes/nature_dqn_paper.md)]
+- [Human-level control through deep reinforcement learning (Nature DQN paper)](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) [[Notes](paper_notes/nature_dqn_paper.md)]
+- [Panoptic Feature Pyramid Networks](https://arxiv.org/pdf/1901.02446.pdf) [[Notes](paper_notes/panoptic_fpn.md)]
 
 ## Before 2019
 - [Learning notes on Deep Learning](Learning_notes.md)
@@ -22,7 +23,6 @@ This repository contains my paper reading notes on deep learning and machine lea
 
 ### Panoptic Segmentation
 - [Panoptic Segmentation](https://arxiv.org/pdf/1801.00868.pdf)
-- [Panoptic Feature Pyramid Networks](https://arxiv.org/pdf/1901.02446.pdf)
 - [Attention-guided Unified Network for Panoptic Segmentation](https://arxiv.org/pdf/1812.03904.pdf)
 
 ### Video Understanding
@@ -34,3 +34,9 @@ This repository contains my paper reading notes on deep learning and machine lea
 - [DeepMedic for Brain Tumor Segmentation](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/02/kamnitsas2016brats.pdf)
 - [Attention U-Net: Learning Where to Look for the Pancreas](https://arxiv.org/pdf/1804.03999.pdf)
 - [Attention-Gated Networks for Improving Ultrasound Scan Plane Detection](https://arxiv.org/pdf/1804.05338.pdf)
+
+### Orthoganal architecture improvements
+- [Non-local Neural Networks](https://arxiv.org/pdf/1711.07971.pdf)
+- [Squeeze-and-Excitation Networks](https://arxiv.org/pdf/1709.01507)
+
+
