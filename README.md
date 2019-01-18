@@ -5,6 +5,7 @@ This repository contains my paper reading notes on deep learning and machine lea
 - [Human-level control through deep reinforcement learning (Nature DQN paper)](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) [[Notes](paper_notes/nature_dqn_paper.md)]
 - [Panoptic Segmentation](https://arxiv.org/pdf/1801.00868.pdf) [[Notes](paper_notes/panoptic_segmentation.md)]
 - [Panoptic Feature Pyramid Networks](https://arxiv.org/pdf/1901.02446.pdf) [[Notes](paper_notes/panoptic_fpn.md)]
+- [Attention-guided Unified Network for Panoptic Segmentation](https://arxiv.org/pdf/1812.03904.pdf) [[Notes](paper_notes/AUNet_panoptic.md)]
 
 ## Before 2019
 - [Learning notes on Deep Learning](Learning_notes.md)
@@ -18,12 +19,11 @@ This repository contains my paper reading notes on deep learning and machine lea
 
 ### Image classification / object detection
 - [Bag of Tricks for Image Classification with Convolutional Neural Networks](https://arxiv.org/pdf/1812.01187.pdf)
-- [Squeeze-and-Excitation Networks](https://arxiv.org/pdf/1709.01507.pdf)
 - [Concurrent Spatial and Channel Squeeze & Excitation in Fully Convolutional Networks](https://arxiv.org/pdf/1803.02579.pdf)
 - [CBAM: Convolutional Block Attention Module](https://arxiv.org/pdf/1807.06521.pdf)
 
 ### Panoptic Segmentation
-- [Attention-guided Unified Network for Panoptic Segmentation](https://arxiv.org/pdf/1812.03904.pdf)
+
 
 ### Video Understanding
 - [Non-local Neural Networks](https://arxiv.org/pdf/1711.07971.pdf)
