@@ -3,11 +3,21 @@ This repository contains my paper reading notes on deep learning and machine lea
 
 ## 2019-01
 - [Human-level control through deep reinforcement learning (Nature DQN paper)](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) [[Notes](paper_notes/nature_dqn_paper.md)]
+- [Retina U-Net: Embarrassingly Simple Exploitation of Segmentation Supervision for Medical Object Detection](https://arxiv.org/pdf/1811.08661.pdf) [[Notes](paper_notes/retina_unet.md)]
 - [Panoptic Segmentation](https://arxiv.org/pdf/1801.00868.pdf) [[Notes](paper_notes/panoptic_segmentation.md)]
 - [Panoptic Feature Pyramid Networks](https://arxiv.org/pdf/1901.02446.pdf) [[Notes](paper_notes/panoptic_fpn.md)]
 - [Attention-guided Unified Network for Panoptic Segmentation](https://arxiv.org/pdf/1812.03904.pdf) [[Notes](paper_notes/AUNet_panoptic.md)]
 
-## Before 2019
+## 2018
+- [Mask R-CNN](https://arxiv.org/pdf/1703.06870.pdf)
+- [Cascade R-CNN: Delving into High Quality Object Detection](https://arxiv.org/pdf/1712.00726.pdf)
+- [Focal Loss for Dense Object Detection](https://arxiv.org/pdf/1708.02002.pdf)
+- [Squeeze-and-Excitation Networks](https://arxiv.org/pdf/1709.01507)
+- [Progressive Growing of GANs for Improved Quality, Stability, and Variation](https://arxiv.org/pdf/1710.10196.pdf)
+- [Deformable Convolutional Networks](https://arxiv.org/pdf/1703.06211.pdf)
+- [Learning Region Features for Object Detection](https://arxiv.org/pdf/1803.07066.pdf)
+
+## 2017 and before
 - [Learning notes on Deep Learning](Learning_notes.md)
 - [List of Papers on Machine Learning](List_of_Machine_Learning_Papers.md)
 - [Notes of Literature Review (CNN)](cnn_papers.md)
@@ -17,13 +27,11 @@ This repository contains my paper reading notes on deep learning and machine lea
 
 ## papers to read
 
-### Image classification / object detection
+### Deep Learning in general
 - [Bag of Tricks for Image Classification with Convolutional Neural Networks](https://arxiv.org/pdf/1812.01187.pdf)
-- [Concurrent Spatial and Channel Squeeze & Excitation in Fully Convolutional Networks](https://arxiv.org/pdf/1803.02579.pdf)
-- [CBAM: Convolutional Block Attention Module](https://arxiv.org/pdf/1807.06521.pdf)
 
-### Panoptic Segmentation
-
+### Instance and Panoptic Segmentation
+- [Path Aggregation Network for Instance Segmentation](https://arxiv.org/pdf/1803.01534.pdf)
 
 ### Video Understanding
 - [Non-local Neural Networks](https://arxiv.org/pdf/1711.07971.pdf)
@@ -36,7 +44,10 @@ This repository contains my paper reading notes on deep learning and machine lea
 - [Attention-Gated Networks for Improving Ultrasound Scan Plane Detection](https://arxiv.org/pdf/1804.05338.pdf)
 
 ### Orthoganal architecture improvements
-- [Non-local Neural Networks](https://arxiv.org/pdf/1711.07971.pdf)
-- [Squeeze-and-Excitation Networks](https://arxiv.org/pdf/1709.01507)
+- [Concurrent Spatial and Channel Squeeze & Excitation in Fully Convolutional Networks](https://arxiv.org/pdf/1803.02579.pdf)
+- [CBAM: Convolutional Block Attention Module](https://arxiv.org/pdf/1807.06521.pdf)
 
+### GAN
+
+### Reinforcement Learning
 
