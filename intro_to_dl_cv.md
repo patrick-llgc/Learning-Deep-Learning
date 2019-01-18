@@ -1,4 +1,6 @@
 # List of papers on Deep Learning in Computer Vision
+This list of papers provide a good introduction to deep learning in computer vision field.
+
 ## Most popular network architectures
 - AlexNet https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks
 - VGG16 https://arxiv.org/abs/1409.1556
@@ -27,8 +29,7 @@
 - DeepMask https://arxiv.org/abs/1506.06204
 - SharpMask https://arxiv.org/abs/1603.08695
  
- 
-## New book on deep learning
+## Books on deep learning and machine learning
 - Deep Learning ("the Bible")
 	- An MIT Press book
 	- Ian Goodfellow and Yoshua Bengio and Aaron Courville
