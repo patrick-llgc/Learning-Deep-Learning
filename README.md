@@ -7,6 +7,7 @@ This repository contains my paper reading notes on deep learning and machine lea
 - [Panoptic Segmentation](https://arxiv.org/pdf/1801.00868.pdf) [[Notes](paper_notes/panoptic_segmentation.md)]
 - [Panoptic Feature Pyramid Networks](https://arxiv.org/pdf/1901.02446.pdf) [[Notes](paper_notes/panoptic_fpn.md)]
 - [Attention-guided Unified Network for Panoptic Segmentation](https://arxiv.org/pdf/1812.03904.pdf) [[Notes](paper_notes/AUNet_panoptic.md)]
+- [Bag of Tricks for Image Classification with Convolutional Neural Networks](https://arxiv.org/pdf/1812.01187.pdf) [[Notes](paper_notes/bag_of_tricks_cnn.md)]
 
 ## 2018
 - [Mask R-CNN](https://arxiv.org/pdf/1703.06870.pdf)
@@ -28,7 +29,6 @@ This repository contains my paper reading notes on deep learning and machine lea
 ## papers to read
 
 ### Deep Learning in general
-- [Bag of Tricks for Image Classification with Convolutional Neural Networks](https://arxiv.org/pdf/1812.01187.pdf)
 
 ### Instance and Panoptic Segmentation
 - [Path Aggregation Network for Instance Segmentation](https://arxiv.org/pdf/1803.01534.pdf)
