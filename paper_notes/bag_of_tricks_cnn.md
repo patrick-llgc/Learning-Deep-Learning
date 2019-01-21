@@ -15,15 +15,15 @@ The paper summarizes the CNN training tricks scattered in the papers published i
 - Training refinement
   - **Cosine decay** schedule (optionally with warmup) generally improves the training speed and final performance.
   - **Label smoothing**. Cross entropy loss encourages the output scores dramatically distinctive which potentially leads to overfitting. 
-    \[
+    $$
     q_i = 
       \begin{cases} 
        1-\epsilon & \text{if } i=y \text{ (1 class)} \\
        \epsilon/(K-1)       & \text{otherwise (K-1 classes)} 
       \end{cases}
-    \]
+    $$
     - Another way to curb overfitting with cross entropy is to clip gradient. 
-  - Mixup training. Randomly sample two images and linearly blend images and labels. $ \hat{x}= \lambda x_i + (1-\lambda$) x_j$ for both image and labels. $\lambda$ is usually sampled in a Beta(a, a) distribution centered around 0.5.
+  - Mixup training. Randomly sample two images and linearly blend images and labels. $ \hat{x}= \lambda x_i + (1-\lambda) x_j$ for both image and labels. $\lambda$ is usually sampled in a Beta(a, a) distribution centered around 0.5.
 - Large batch training may slow down the training process (see [Notes](#notes) section).
   - Linear scaling learning rate.
   - Learning rate warmup.
