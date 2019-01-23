@@ -37,5 +37,6 @@ It is quite impressive that the paper is a project paper from a stanford undergr
 
 ##### Code Notes
 - The training code is heavily based on [this repo](https://github.com/asrivat1/DeepLearningVideoGames) to train DQN on Atari pong or tetris. However the main difference is that in previous code is the **frame skipping strategy**. The Atari code picks an action and [repeats the action](https://github.com/asrivat1/DeepLearningVideoGames/blob/master/deep_q_network.py#L133-L139) for the next K-1 frames, the flappy bird code [keeps idle](https://github.com/yenchenlin/DeepLearningFlappyBird/blob/master/deep_q_network.py#L122-L131) for the next K-1 frames. This is due to the nature of the game. Too much flap causes the bird to go too high and crash.
+- Another difference is that the Atari code uses random play to initialize experience replay buffer, but the flappy bird repo uses the $\epsilon$-greedy training routine. This should not be a huge difference. 
 - This repo does not implement the target network. In order to copy one network to another, use `target_net_param = tf.assign(net_param)`, as shown in [this repo](https://github.com/initial-h/FlappyBird_DQN_with_target_network/blob/master/DQN_with_target_network.py#L321) and [this one](https://github.com/dennybritz/reinforcement-learning/blob/master/DQN/dqn.py#L150-L169).
 
