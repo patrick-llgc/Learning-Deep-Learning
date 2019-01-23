@@ -1,6 +1,18 @@
 # Paper notes
 This repository contains my paper reading notes on deep learning and machine learning. **New year resolution for 2019: read at least one paper a week!**
 
+## Summary of Labels
+
+| Label                                                        | Full Name                   |
+| ------------------------------------------------------------ | --------------------------- |
+| <kbd>DRL</kbd>                                               | Deep Reinforcement Learning |
+| <kbd>CLS</kbd>                                                | Classification               |
+| <kbd>OD</kbd>                                                | Object Detection            |
+| <kbd>InsSeg</kbd>, <kbd>SemSeg</kbd>, <kbd>PanSeg</kbd> | Instance/Semantic/Panoptic Segmentation |
+| <kbd>GAN</kbd> | Generative Adversarial Network |
+| <kbd>NIPS</kbd>, <kbd>CVPR</kbd>, <kbd>ICCV</kbd>, <kbd>ECCV</kbd>, etc | Conference papers           |
+
+
 ## 2019-01
 - [Human-level control through deep reinforcement learning (Nature DQN paper)](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) [[Notes](paper_notes/nature_dqn_paper.md)]
 - [Retina U-Net: Embarrassingly Simple Exploitation of Segmentation Supervision for Medical Object Detection](https://arxiv.org/pdf/1811.08661.pdf) [[Notes](paper_notes/retina_unet.md)]
@@ -9,6 +21,8 @@ This repository contains my paper reading notes on deep learning and machine lea
 - [Attention-guided Unified Network for Panoptic Segmentation](https://arxiv.org/pdf/1812.03904.pdf) [[Notes](paper_notes/AUNet_panoptic.md)]
 - [Bag of Tricks for Image Classification with Convolutional Neural Networks](https://arxiv.org/pdf/1812.01187.pdf) [[Notes](paper_notes/bag_of_tricks_cnn.md)]
 - [Deep Reinforcement Learning for Vessel Centerline Tracing in Multi-modality 3D Volumes](https://link.springer.com/chapter/10.1007/978-3-030-00937-3_86) [[Notes](paper_notes/drl_vessel_centerline.md)]
+- [Deep Reinforcement Learning for Flappy Bird](http://cs229.stanford.edu/proj2015/362_report.pdf) <kbd>DRL</kbd>
+
 
 ## 2018
 - [Mask R-CNN](https://arxiv.org/pdf/1703.06870.pdf)
@@ -52,6 +66,5 @@ This repository contains my paper reading notes on deep learning and machine lea
 
 ### Reinforcement Learning
 - [Playing Atari with Deep Reinforcement Learning](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf) <kbd> NIPS 2013 </kbd>
-- [Deep Reinforcement Learning for Flappy Bird](http://cs229.stanford.edu/proj2015/362_report.pdf)
 - [Multi-Scale Deep Reinforcement Learning for Real-Time 3D-Landmark Detection in CT Scan](http://comaniciu.net/Papers/MultiscaleDeepReinforcementLearning_PAMI18.pdf)
 - [An Artificial Agent for Robust Image Registration](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14751/14296)
