@@ -1,9 +1,9 @@
 # Paper notes
 This repository contains my paper reading notes on deep learning and machine learning. **New year resolution for 2019: read at least one paper a week!**
 
-## Summary of Labels
+## Summary of Topics
 
-| Label                                                        | Full Name                   |
+| Topics                                                  | Description                 |
 | ------------------------------------------------------------ | --------------------------- |
 | <kbd>DRL</kbd>                                               | Deep Reinforcement Learning |
 | <kbd>CLS</kbd>                                                | Classification               |
