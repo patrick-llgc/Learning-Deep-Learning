@@ -20,11 +20,12 @@ The paper builds on top of existing work of video understanding (Non-local net) 
 - The input of the FBO is not the entire feature bank $L$ but only a window $\widetilde{L}$ of $2w+1$. The output of the FBO is channel-wise concatenated with local features into a classifier. 
 
 - One implementation of FBO Non-local blocks:
-  $$
-  S_t^{(1)} = NL'_{\theta_1} (S_t, \tilde{L_t}) \\
-  S_t^{(2)} = NL'_{\theta_2} (S_t^{(1)}, \tilde{L_t}) \\
-  \vdots
-  $$
+
+$$
+S_t^{(1)} = NL'_{\theta_1} (S_t, \tilde{L_t}) \\
+S_t^{(2)} = NL'_{\theta_2} (S_t^{(1)}, \tilde{L_t}) \\
+\vdots
+$$
 
   - The output of the non-local blocks are 512 and then are concatenated with the short term features 2048. 
 
