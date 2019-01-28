@@ -26,7 +26,6 @@ S_t^{(1)} = NL'_{\theta_1} (S_t, \tilde{L_t}) \\
 S_t^{(2)} = NL'_{\theta_2} (S_t^{(1)}, \tilde{L_t}) \\
 \vdots
 $$
-
   - The output of the non-local blocks are 512 and then are concatenated with the short term features 2048. 
 
 - Another implementation of FBO is through avg/max pooling through time dimension, yielding 2048 long term dimensions to be concatenated with short term features 2048.
