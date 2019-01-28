@@ -22,6 +22,7 @@ This repository contains my paper reading notes on deep learning and machine lea
 - [Bag of Tricks for Image Classification with Convolutional Neural Networks](https://arxiv.org/pdf/1812.01187.pdf) [[Notes](paper_notes/bag_of_tricks_cnn.md)]
 - [Deep Reinforcement Learning for Vessel Centerline Tracing in Multi-modality 3D Volumes](https://link.springer.com/chapter/10.1007/978-3-030-00937-3_86) [[Notes](paper_notes/drl_vessel_centerline.md)]
 - [Deep Reinforcement Learning for Flappy Bird](http://cs229.stanford.edu/proj2015/362_report.pdf) [[Notes](paper_notes/drl_flappy.md)] <kbd>DRL</kbd>
+- [Long-Term Feature Banks for Detailed Video Understanding](https://arxiv.org/pdf/1812.05038.pdf) [[Notes](paper_notes/long_term_feat_bank.md)]
 
 
 ## 2018
@@ -51,7 +52,6 @@ This repository contains my paper reading notes on deep learning and machine lea
 ### Video Understanding
 - [Non-local Neural Networks](https://arxiv.org/pdf/1711.07971.pdf)
 - [SlowFast Networks for Video Recognition](https://arxiv.org/pdf/1812.03982.pdf)
-- [Long-Term Feature Banks for Detailed Video Understanding](https://arxiv.org/pdf/1812.05038.pdf)
 
 ### Medical Imaging
 - [DeepMedic for Brain Tumor Segmentation](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/02/kamnitsas2016brats.pdf)
