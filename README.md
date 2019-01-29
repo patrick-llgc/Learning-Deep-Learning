@@ -54,8 +54,9 @@ This repository contains my paper reading notes on deep learning and machine lea
 
 ### Video Understanding
 - [SlowFast Networks for Video Recognition](https://arxiv.org/pdf/1812.03982.pdf)
-- [Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset](https://arxiv.org/pdf/1705.07750.pdf) (I3D) <kbd> Video </kbd>
-- [Learning Spatiotemporal Features with 3D Convolutional Networks](https://arxiv.org/pdf/1412.0767.pdf) (C3D) <kbd> ICCV 2015 </kbd> <kbd> Video </kbd>
+- [Learning Spatiotemporal Features with 3D Convolutional Networks](https://arxiv.org/pdf/1412.0767.pdf) (C3D)  <kbd> Video </kbd><kbd> ICCV 2015 </kbd>
+- [Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset](https://arxiv.org/pdf/1705.07750.pdf) (I3D) <kbd> Video </kbd> <kbd> CVPR 2017 </kbd>
+- [Learning Spatio-Temporal Representation with Pseudo-3D Residual Networks](https://arxiv.org/pdf/1711.10305.pdf) (P3D) <kbd> ICCV 2017 </kbd>
 
 ### Medical Imaging
 - [DeepMedic for Brain Tumor Segmentation](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/02/kamnitsas2016brats.pdf)
