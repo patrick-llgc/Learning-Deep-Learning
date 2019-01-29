@@ -12,8 +12,8 @@ The design of non-local module is modular, which does not change the input shape
 - The **formulation** of non-local operation is as follows, where the output feature z has the same shape as the input feature x to ensure a modular design. $\hat{x}_j$ can be the original or subsampled $x_j$ or some other features (such as in [long term feature bank](long_term_feat_bank.md))
 
 $$
-\bold y_i = \frac{1}{C(\bold x)}\sum_{\forall{j}} f(\bold x_i, \hat{\bold x}_j) g(\hat{\bold x}_j) \\
-\bold z_i = \text{BatchNorm}(W_z \bold y_i) + \bold x_i
+y_i = \frac{1}{C(x)}\sum_{\forall{j}} f(x_i, \hat{x}_j) g(\hat{x}_j) \\
+z_i = \text{BatchNorm}(W_z y_i) + x_i
 $$
 
 - The non-local operation is different from a fully connected (fc) layer. Non-local is more flexible in that the output size matches the input size and can be inserted anywhere inside a network and keep spatialtime information.
@@ -25,8 +25,8 @@ $$
 - The **instantiation** of non-local net can take on many forms, but the most common/generic form is as follows. $F(x)$ can be a gaussian or identify function, leading to embedded gaussian or dot product. The gaussian is the dot product plus a softmax.
 
 $$
-g(\bold x_j) = W_g \bold x_j \\
-f(\bold x_i, \bold x_j) = F(\theta(\bold x_i)^T \phi(\bold x_j)) \\
+g(x_j) = W_g x_j \\
+f(x_i, x_j) = F(\theta(x_i)^T \phi(x_j)) \\
 $$
 
 - There is a batch-norm layer before residual sum with original x, initiated with zero weight to ensure smooth fine-tuning process.
