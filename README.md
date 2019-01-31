@@ -49,6 +49,9 @@ This repository contains my paper reading notes on deep learning and machine lea
 
 ### Deep Learning in general
 
+### Object detection
+- [Training Region-based Object Detectors with Online Hard Example Mining](https://arxiv.org/pdf/1604.03540.pdf)
+
 ### Instance and Panoptic Segmentation
 - [Path Aggregation Network for Instance Segmentation](https://arxiv.org/pdf/1803.01534.pdf)
 
