@@ -27,6 +27,11 @@ This repository contains my paper reading notes on deep learning and machine lea
 - [Long-Term Feature Banks for Detailed Video Understanding](https://arxiv.org/pdf/1812.05038.pdf) [[Notes](paper_notes/long_term_feat_bank.md)] <kbd>Video</kbd> 
 - [Non-local Neural Networks](https://arxiv.org/pdf/1711.07971.pdf) [[Notes](paper_notes/non_local_net.md)] <kbd>Video</kbd> <kbd>CVPR 2018</kbd>
 
+## 2019-02
+- [Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset](https://arxiv.org/pdf/1705.07750.pdf) (I3D) [[Notes](paper_notes/quo_vadis_i3d.md)]<kbd> Video </kbd> <kbd> CVPR 2017 </kbd>
+- [Initialization Strategies of Spatio-Temporal Convolutional Neural Networks](https://arxiv.org/pdf/1503.07274.pdf) [[Notes](paper_notes/quo_vadis_i3d.md)]
+- [Detect-and-Track: Efficient Pose Estimation in Videos](https://arxiv.org/pdf/1712.09184.pdf) [[Notes](paper_notes/quo_vadis_i3d.md)] <kbd>ICCV 2017</kbd>
+
 
 ## 2018
 - [Mask R-CNN](https://arxiv.org/pdf/1703.06870.pdf)
@@ -58,7 +63,6 @@ This repository contains my paper reading notes on deep learning and machine lea
 ### Video Understanding
 - [SlowFast Networks for Video Recognition](https://arxiv.org/pdf/1812.03982.pdf)
 - [Learning Spatiotemporal Features with 3D Convolutional Networks](https://arxiv.org/pdf/1412.0767.pdf) (C3D)  <kbd> Video </kbd><kbd> ICCV 2015 </kbd>
-- [Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset](https://arxiv.org/pdf/1705.07750.pdf) (I3D) <kbd> Video </kbd> <kbd> CVPR 2017 </kbd>
 - [Learning Spatio-Temporal Representation with Pseudo-3D Residual Networks](https://arxiv.org/pdf/1711.10305.pdf) (P3D) <kbd> ICCV 2017 </kbd>
 
 ### Medical Imaging
