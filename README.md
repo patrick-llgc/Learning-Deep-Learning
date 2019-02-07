@@ -19,6 +19,7 @@ This repository contains my paper reading notes on deep learning and machine lea
 - [Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset](https://arxiv.org/pdf/1705.07750.pdf) (I3D) [[Notes](paper_notes/quo_vadis_i3d.md)]<kbd>Video</kbd> <kbd>CVPR 2017</kbd>
 - [Initialization Strategies of Spatio-Temporal Convolutional Neural Networks](https://arxiv.org/pdf/1503.07274.pdf) [[Notes](paper_notes/quo_vadis_i3d.md)]
 - [Detect-and-Track: Efficient Pose Estimation in Videos](https://arxiv.org/pdf/1712.09184.pdf) [[Notes](paper_notes/quo_vadis_i3d.md)] <kbd>ICCV 2017</kbd>
+- [Deep Learning Based Rib Centerline Extraction and Labeling](https://arxiv.org/pdf/1809.07082) [[Notes](paper_notes/rib_centerline_philips.md)] <kbd>MI</kbd> <kbd>MICCAI 2018</kbd>
 
 
 ## 2019-01
@@ -67,6 +68,9 @@ Here is the list of papers waiting to be read.
 - [Learning Spatio-Temporal Representation with Pseudo-3D Residual Networks](https://arxiv.org/pdf/1711.10305.pdf) (P3D) <kbd> ICCV 2017 </kbd>
 
 ### Medical Imaging
+- [nnU-Net: Self-adapting Framework for U-Net-Based Medical Image Segmentation](https://arxiv.org/pdf/1809.10486.pdf)
+- [Foveal fully convolutional nets for multi-organ segmentation](https://www.dropbox.com/s/zcmqheb0cbwsxq0/Foveal%20fully%20convolutional%20nets%20for%20multi-organ%20segmentation.pdf?dl=0)
+- [Evaluation of deep learning methods for parotid gland segmentation from CT images](https://www.spiedigitallibrary.org/journals/Journal-of-Medical-Imaging/volume-6/issue-1/011005/Evaluation-of-deep-learning-methods-for-parotid-gland-segmentation-from/10.1117/1.JMI.6.1.011005.pdf)
 - [DeepMedic for Brain Tumor Segmentation](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/02/kamnitsas2016brats.pdf)
 - [Attention U-Net: Learning Where to Look for the Pancreas](https://arxiv.org/pdf/1804.03999.pdf)
 - [Attention-Gated Networks for Improving Ultrasound Scan Plane Detection](https://arxiv.org/pdf/1804.05338.pdf)
