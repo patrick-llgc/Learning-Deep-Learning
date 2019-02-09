@@ -47,7 +47,7 @@ This repository contains my paper reading notes on deep learning and machine lea
 ## 2017 and before
 - [Learning notes on Deep Learning](Learning_notes.md)
 - [List of Papers on Machine Learning](List_of_Machine_Learning_Papers.md)
-- [Notes of Literature Review on CNN in CV](paper_notes/cnn_papers.md)
+- [Notes of Literature Review on CNN in CV](paper_notes/cnn_papers.md) This is the notes for all the papers in the recommended list [here](papers_and_books_to_start.md)
 - [Notes of Literature Review (Others)](misc.md)
 - [Notes on how to set up DL/ML environment](ML_DL_environment_Setup.md)
 - [Useful setup notes](installation_log.md)
