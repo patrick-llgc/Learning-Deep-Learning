@@ -1,5 +1,9 @@
 # installtion log
 
+This log serves to help you migrate from one linux work station to the next smoothly.
+**TODO: make all of this into an automatic process.**
+
+Use pycharm for code editing. 
 - Install Pycharm
 - Use `nvidia-smi` in linux terminal to show how many GPUs are installed
 
@@ -22,7 +26,7 @@ alias ipy="python -c 'import IPython; IPython.terminal.ipapp.launch_new_instance
 ### Change tmux config
 
 Change the key binding from ctrl + b to ctrl + a
-```
+```bash
 # remap prefix to Control + a
 set -g prefix C-a
 unbind C-b
@@ -139,11 +143,11 @@ list_new_or_modified_files | check_file_size
 
 ### Install various tools
 
-- ```
+```bash
   # https://joshpeng.github.io/post/wsl/
   sudo apt-get update
   sudo apt-get upgrade
-  
+
   apt-get install firefox
   sudo apt-get install zsh git libqtgui4 xserver-xorg-video-dummy
   echo "export DISPLAY=localhost:0.0" >> ~/.bashrc
@@ -191,19 +195,11 @@ list_new_or_modified_files | check_file_size
   # install tkinter to run matplotlib properly
   sudo apt-get install python3-tk
   
-  ```
+```
 
 ### In WSL
 
-- Mount network drive in WSL
-
-  ```bash
-  # This is not available until windows 10 build 16299
-  # sudo mkdir /media/Users
-  ```
-
 - Download and install pycharm 
-
   `https://confluence.jetbrains.com/display/PYH/Installing+PyCharm+on+Linux+according+to+FHS`​
 
 ### Conda vs pip
@@ -226,13 +222,13 @@ If you like to use anaconda vs pip, then do the following.
 We can install multiple version of CUDA on the same machine, and link it against different vrittualenv. Here I document the steps to install CUDA 8 and CUDA 9 (required for TF 1.5+) on the same machine.
 
 1. Suppose we have cuda 8.0 installed. 
-  ```bash
+```bash
   $ nvcc --version
   nvcc: NVIDIA (R) Cuda compiler driver
   Copyright (c) 2005-2016 NVIDIA Corporation
   Built on Tue_Jan_10_13:22:03_CST_2017
   Cuda compilation tools, release 8.0, V8.0.61
-  ```
+```
 
 2. Note that CUDA 9 requires Ubuntu16.04 LTS. Please update OS to 16.04 LTS before proceeding
 
@@ -242,11 +238,15 @@ We can install multiple version of CUDA on the same machine, and link it against
     https://stackoverflow.com/a/11134336/5304522
 
 
+### Git
 
-### Git commit message guideline
+#### general guidelines
+- [git - the simple guide](http://rogerdudler.github.io/git-guide/)
+- [GIT: FETCH AND MERGE, DON’T PULL](https://longair.net/blog/2009/04/16/git-fetch-and-merge/)
+
+#### Git commit message guideline
 
 [This](https://chris.beams.io/posts/git-commit/) is a good blog about how to write good commit messages.
-
 - Separate subject from body with a blank line
 - Limit the subject line to 50 characters
 - Capitalize the subject line
@@ -255,9 +255,7 @@ We can install multiple version of CUDA on the same machine, and link it against
 - Wrap the body at 72 characters
 - Use the body to explain what and why vs. how
 
-
-### Recommended git workflow
-
+#### Recommended git workflow
 Please follow the git workflow as follows
 
 1) git 
@@ -274,16 +272,16 @@ $ git clone your_repo_url
 
 4) Make changes and commit.
 
-   ```bash
+```bash
 $ git diff theFileYouChanged (Make sure the changes are what you want)
 $ git add theFileYouChanged (Only add the files you know you have changed)
 $ git commit -m “PROJ-001 #Initial commit” (for research team, no need to prepend commit messages with JIRA numbers. Start each commit message with a verb. See Git commit standard for details.)
 $ git push
-   ```
+```
 
 5) When job is finished on this branch, merge latest changes from “master” branch into this branch and issue pull request.
 
-   ```bash
+```bash
 $ git checkout master (goes to master branch)
 $ git fetch
 $ git diff master origin/master (know what has changed on master)
@@ -291,6 +289,31 @@ $ git pull
 $ git checkout new_branch
 $ git merge master (Note that there may be a merge conflict. In that case, fix the conflict in conflicted files, then git committhen git commit)
 $ git push
-   ```
+```
 
 6) Go to github.com and issue a pull request. Remember to assign a reviewer that knows about your project.
+
+#### ML/DL Environment Setup Guide
+- [My Deep Learning Dev Environment
+  Tensorflow + Docker + PyCharm + OSX Fuse + Tensorboard](http://killianlevacher.github.io/blog/posts/post-2016-07-22/post.html)
+- [[Part 1] How to setup your own environment for deep learning - Locally](http://tuatini.me/part-1-how-to-setup-your-own-environment-for-deep-learning/)
+- [[Part 2] How to setup your own environment for deep learning - For remote access](http://tuatini.me/part-2-how-to-setup-your-own-environment-for-deep-learning-for-remote/)
+- [Get started with Docker for Windows](https://docs.docker.com/docker-for-windows/)
+- [Run Linux and Windows Containers on Windows 10](https://stefanscherer.github.io/run-linux-and-windows-containers-on-windows-10/)
+- [Work remotely with PyCharm, TensorFlow and SSH](https://medium.com/@erikhallstrm/work-remotely-with-pycharm-tensorflow-and-ssh-c60564be862d)
+- [Windows for Data Science? A Setup Guide](https://joshpeng.github.io/post/wsl/)
+
+#### Jekyll/Github pages/LaTeX
+- [LaTeX Math Magic](https://cwoebker.com/posts/latex-math-magic)
+- [How to enable mathjax/latex in github pages](https://zishuaiz.github.io/blog/how-to-enable-mathjax-in-github-pages)
+- [Using MathJax with Jekyll on StackOverflow](https://stackoverflow.com/questions/10987992/using-mathjax-with-jekyll)
+- [How to use MathJax in Jekyll generated Github pages](http://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/) The github.io page is a good blog template!
+- [Publishing with GitHub Pages, now as easy as 1, 2, 3](https://github.com/blog/2289-publishing-with-github-pages-now-as-easy-as-1-2-3)
+- [A great blog repo](https://github.com/physiophile/adeshpande3.github.io)
+
+
+
+
+
+
+
