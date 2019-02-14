@@ -20,6 +20,7 @@ This repository contains my paper reading notes on deep learning and machine lea
 - [Initialization Strategies of Spatio-Temporal Convolutional Neural Networks](https://arxiv.org/pdf/1503.07274.pdf) [[Notes](paper_notes/quo_vadis_i3d.md)]
 - [Detect-and-Track: Efficient Pose Estimation in Videos](https://arxiv.org/pdf/1712.09184.pdf) [[Notes](paper_notes/quo_vadis_i3d.md)] <kbd>ICCV 2017</kbd>
 - [Deep Learning Based Rib Centerline Extraction and Labeling](https://arxiv.org/pdf/1809.07082) [[Notes](paper_notes/rib_centerline_philips.md)] <kbd>MI</kbd> <kbd>MICCAI 2018</kbd>
+- [SlowFast Networks for Video Recognition](https://arxiv.org/pdf/1812.03982.pdf) [[Notes](paper_notes/slowfast.md)]
 
 
 ## 2019-01
@@ -55,6 +56,8 @@ This repository contains my paper reading notes on deep learning and machine lea
 ## Papers to Read
 Here is the list of papers waiting to be read. 
 ### Deep Learning in general
+- [Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/pdf/1611.05431.pdf) (ResNeXt)
+- [Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour](https://arxiv.org/pdf/1706.02677.pdf)
 
 ### Object detection
 - [Training Region-based Object Detectors with Online Hard Example Mining](https://arxiv.org/pdf/1604.03540.pdf)
@@ -63,9 +66,11 @@ Here is the list of papers waiting to be read.
 - [Path Aggregation Network for Instance Segmentation](https://arxiv.org/pdf/1803.01534.pdf)
 
 ### Video Understanding
-- [SlowFast Networks for Video Recognition](https://arxiv.org/pdf/1812.03982.pdf)
 - [Learning Spatiotemporal Features with 3D Convolutional Networks](https://arxiv.org/pdf/1412.0767.pdf) (C3D)  <kbd> Video </kbd><kbd> ICCV 2015 </kbd>
+- [Spatiotemporal Residual Networks for Video Action Recognition](https://arxiv.org/pdf/1611.02155.pdf) <kbd>NIPS 2016</kbd>
 - [Learning Spatio-Temporal Representation with Pseudo-3D Residual Networks](https://arxiv.org/pdf/1711.10305.pdf) (P3D) <kbd> ICCV 2017 </kbd>
+- [AVA: A Video Dataset of Spatio-temporally Localized Atomic Visual Actions](https://arxiv.org/pdf/1705.08421.pdf)
+- [A Closer Look at Spatiotemporal Convolutions for Action Recognition](https://arxiv.org/pdf/1711.11248.pdf) <kbd>CVPR2018</kbd>
 
 ### Medical Imaging
 - [nnU-Net: Self-adapting Framework for U-Net-Based Medical Image Segmentation](https://arxiv.org/pdf/1809.10486.pdf)
