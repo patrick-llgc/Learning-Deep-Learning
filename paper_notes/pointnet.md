@@ -36,3 +36,4 @@ In the implementation of PointNet, h is a MLP that embed D-dim input into higher
 - PointNet can approximate any continuous set function to any precision. 
 - Hausdorff Distance measures how far two subsets of a metric space are from each other.
 - Sup vs max: Supremum (least upper bound) needs not be attained while maximum is. When maximum exist, maximum=supremum.
+- The CVPR presentation is [here](https://www.youtube.com/watch?v=Cge-hot0Oc0). There is an [overview of PointNet, PointNet++ and Frustrum PointNet from the author](https://www.youtube.com/watch?v=Ew24Rac8eYE) Charles Qi 祁芮中台. 
