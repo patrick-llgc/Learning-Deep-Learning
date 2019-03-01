@@ -26,7 +26,8 @@ This repository contains my paper reading notes on deep learning and machine lea
 - [VoxNet: A 3D Convolutional Neural Network for Real-Time Object Recognition](https://www.ri.cmu.edu/pub_files/2015/9/voxnet_maturana_scherer_iros15.pdf) (VoxNet) [[Notes](paper_notes/voxnet.md)]
 - [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://arxiv.org/pdf/1612.00593.pdf) <kbd>CVPR 2017</kbd> [[Notes](paper_notes/pointnet.md)]
 - [PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space](https://arxiv.org/pdf/1706.02413.pdf) <kbd>NIPS 2017</kbd> [[Notes](paper_notes/pointnet++.md)]
-- [Geometric deep learning 几何深度学习前沿](https://zhuanlan.zhihu.com/p/36888114)
+- [Review of Geometric deep learning 几何深度学习前沿 (from 知乎)](https://zhuanlan.zhihu.com/p/36888114) (Up to CVPR 2018)
+
 
 
 
@@ -113,7 +114,7 @@ Here is the list of papers waiting to be read.
 - [Generative and Discriminative Voxel Modeling with Convolutional Neural Networks](https://arxiv.org/pdf/1608.04236.pdf)
 - [Orientation-boosted Voxel Nets for 3D Object Recognition](https://arxiv.org/pdf/1604.03351.pdf) (ORION) <BMVC 2017>
 - [GIFT: A Real-time and Scalable 3D Shape Search Engine](https://arxiv.org/pdf/1604.01879.pdf) <kbd>CVPR 2016</kbd>
-- [** Multi-view Convolutional Neural Networks for 3D Shape Recognition](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Su_Multi-View_Convolutional_Neural_ICCV_2015_paper.pdf) (MVCNN) <kbd>ICCV 2015</kbd>
+- [** Multi-view Convolutional Neural Networks for 3D Shape Recognition](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Su_Multi-View_Convolutional_Neural_ICCV_2015_paper.pdf) (MVCNN) <kbd>ICCV 2015</kbd> Does doing CNN on RGBD work?
 - [3D Shape Segmentation with Projective Convolutional Networks](https://people.cs.umass.edu/~kalo/papers/shapepfcn/) (ShapePFCN)<kbd>CVPR 2017</kbd>
 - [** Volumetric and Multi-View CNNs for Object Classification on 3D Data](https://arxiv.org/pdf/1604.03265.pdf) <kbd>CVPR 2016</kbd>
 - [Learning Local Shape Descriptors from Part Correspondences With Multi-view Convolutional Networks](https://arxiv.org/pdf/1706.04496.pdf)
@@ -128,3 +129,4 @@ Here is the list of papers waiting to be read.
 - [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/pdf/1609.02907.pdf) <kbd>ICLR 2017</kbd>
 - [Geometric Matrix Completion with Recurrent Multi-Graph Neural Networks](https://arxiv.org/pdf/1704.06803.pdf) <kbd>NIPS 2017</kbd>
 - [Graph Attention Networks](https://arxiv.org/pdf/1710.10903.pdf) <kbd>ICLR 2018</kbd>
+- [3D-SSD: Learning Hierarchical Features from RGB-D Images for Amodal 3D Object Detection](https://arxiv.org/pdf/1711.00238.pdf) (3D SSD)
