@@ -72,6 +72,8 @@ Here is the list of papers waiting to be read.
 - [ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness](https://openreview.net/forum?id=Bygh9j09KX) <kbd>ICML 2019</kbd>
 - [Approximating CNNs with Bag-of-local-Features models works surprisingly well on ImageNet](https://openreview.net/forum?id=SkfMWhAqYQ) (BagNet) [blog](https://blog.evjang.com/2019/02/bagnet.html) <kbd>ICML 2019</kbd>
 - [Spatial Transformer Networks](https://arxiv.org/pdf/1506.02025.pdf) <kbd>NIPS 2015</kbd>
+- [A disciplined approach to neural network hyper-parameters: Part 1 -- learning rate, batch size, momentum, and weight decay](https://arxiv.org/pdf/1803.09820v2.pdf)
+- [mixup: Beyond Empirical Risk Minimization](https://arxiv.org/pdf/1710.09412.pdf)
 
 ### Object detection
 - [Training Region-based Object Detectors with Online Hard Example Mining](https://arxiv.org/pdf/1604.03540.pdf)
@@ -109,17 +111,18 @@ Here is the list of papers waiting to be read.
 - [An Artificial Agent for Robust Image Registration](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14751/14296)
 
 ### 3D Perception
-- [** 3D ShapeNets: A Deep Representation for Volumetric Shapes](http://3dshapenets.cs.princeton.edu/paper.pdf)
-- [** 3D-CNN：3D Convolutional Neural Networks for Landing Zone Detection from LiDAR](https://www.ri.cmu.edu/pub_files/2015/3/maturana-root.pdf)
+- [** 3D ShapeNets: A Deep Representation for Volumetric Shapes**](http://3dshapenets.cs.princeton.edu/paper.pdf)
+- [** 3D-CNN：3D Convolutional Neural Networks for Landing Zone Detection from LiDAR**](https://www.ri.cmu.edu/pub_files/2015/3/maturana-root.pdf)
 - [Generative and Discriminative Voxel Modeling with Convolutional Neural Networks](https://arxiv.org/pdf/1608.04236.pdf)
 - [Orientation-boosted Voxel Nets for 3D Object Recognition](https://arxiv.org/pdf/1604.03351.pdf) (ORION) <BMVC 2017>
 - [GIFT: A Real-time and Scalable 3D Shape Search Engine](https://arxiv.org/pdf/1604.01879.pdf) <kbd>CVPR 2016</kbd>
-- [** Multi-view Convolutional Neural Networks for 3D Shape Recognition](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Su_Multi-View_Convolutional_Neural_ICCV_2015_paper.pdf) (MVCNN) <kbd>ICCV 2015</kbd> Does doing CNN on RGBD work?
+- [** Multi-view Convolutional Neural Networks for 3D Shape Recognition**](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Su_Multi-View_Convolutional_Neural_ICCV_2015_paper.pdf) (MVCNN) <kbd>ICCV 2015</kbd> Does doing CNN on RGBD work?
 - [3D Shape Segmentation with Projective Convolutional Networks](https://people.cs.umass.edu/~kalo/papers/shapepfcn/) (ShapePFCN)<kbd>CVPR 2017</kbd>
-- [** Volumetric and Multi-View CNNs for Object Classification on 3D Data](https://arxiv.org/pdf/1604.03265.pdf) <kbd>CVPR 2016</kbd>
+- [** Volumetric and Multi-View CNNs for Object Classification on 3D Data**](https://arxiv.org/pdf/1604.03265.pdf) <kbd>CVPR 2016</kbd>
 - [Learning Local Shape Descriptors from Part Correspondences With Multi-view Convolutional Networks](https://arxiv.org/pdf/1706.04496.pdf)
 - [Open3D: A Modern Library for 3D Data Processing](http://www.open3d.org/wordpress/wp-content/paper.pdf)
-- [** Frustum PointNets for 3D Object Detection from RGB-D Data](https://arxiv.org/pdf/1711.08488.pdf)
+- [** Frustum PointNets for 3D Object Detection from RGB-D Data**](https://arxiv.org/pdf/1711.08488.pdf)
+- [** FlowNet3D: Learning Scene Flow in 3D Point Clouds](https://arxiv.org/pdf/1806.01411.pdf) <kbd>CVPR 2019</kbd>
 - [Mining Point Cloud Local Structures by Kernel Correlation and Graph Pooling](https://arxiv.org/pdf/1712.06760.pdf) <kbd>CVPR 2018</kbd>
 - [PU-Net: Point Cloud Upsampling Network](https://arxiv.org/pdf/1801.06761.pdf) <kbd>CVPR 2018</kbd>
 - [Recurrent Slice Networks for 3D Segmentation of Point Clouds](https://arxiv.org/pdf/1802.04402.pdf) <kbd>CVPR 2018</kbd>
@@ -130,3 +133,6 @@ Here is the list of papers waiting to be read.
 - [Geometric Matrix Completion with Recurrent Multi-Graph Neural Networks](https://arxiv.org/pdf/1704.06803.pdf) <kbd>NIPS 2017</kbd>
 - [Graph Attention Networks](https://arxiv.org/pdf/1710.10903.pdf) <kbd>ICLR 2018</kbd>
 - [3D-SSD: Learning Hierarchical Features from RGB-D Images for Amodal 3D Object Detection](https://arxiv.org/pdf/1711.00238.pdf) (3D SSD)
+- [Escape from Cells: Deep Kd-Networks for the Recognition of 3D Point Cloud Models](https://arxiv.org/pdf/1704.01222.pdf) <kbd>ICCV 2017</kbd>
+- [PointCNN: Convolution On X-Transformed Points](https://arxiv.org/pdf/1801.07791.pdf) <kbd>NIPS 2018</kbd>
+- [PointSIFT: A SIFT-like Network Module for 3D Point Cloud Semantic Segmentation](https://arxiv.org/pdf/1807.00652.pdf)

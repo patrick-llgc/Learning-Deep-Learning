@@ -24,10 +24,10 @@ The paper is an excellent piece of scientific writing full of insightul and conc
 #### Technical details
 - Math formulation: PointNet or PointNet++ learns set functions f that take a descrete metric space $\mathcal{X} = (M, d)$ as the input and produce semantic information regarding $\mathcal{X}$. The set funciton f can be calssificaiton or sementic segmentation.
 - PointNet++ has a series of **set abstraction** levels. Each set abstraction level has Sampling Layer, Grouping Layer and PointNet Layer. 
-  - Sampling Layer: Use iterative fartherst point sampling (FPS) to find centroid points. $$N \times (d+C) \rightarrow N' \times d $$, where N' is the number of centroids
-  - Grouping Layer: $$N \times (d+C) \rightarrow N' \times K \times (d +C)​$$. Note that K varies for different centroid. 
+  - Sampling Layer: Use iterative fartherst point sampling (FPS) to find centroid points. $N \times (d+C) \rightarrow N' \times d $, where N' is the number of centroids
+  - Grouping Layer: $N \times (d+C) \rightarrow N' \times K \times (d +C)​$. Note that K varies for different centroid. 
     - Manhattan distance in CNN vs metric distance in PointNet. Ball query finds all points within a certain distance to a given centroid. Comared with kNN, ball query guarantees a fixed region scale and thus is more robust and general.
-  - PointNet Layer: convert flexible number of points into a fixed length local region feature vector. $$N' \times K \times (d +C) \rightarrow N' \times (d+C')$$. **Note that the features extracted from the centroids neighborhoods are assigned to the centroids.** 
+  - PointNet Layer: convert flexible number of points into a fixed length local region feature vector. $N' \times K \times (d +C) \rightarrow N' \times (d+C')$. **Note that the features extracted from the centroids neighborhoods are assigned to the centroids.** 
     - The coordinates of points in a local region are firstly translated into a local frame relative to the centroid point. This allows the PointNet to learn more generalized local features.
     - Note that the PointNet Layer in each set abstraction level learns on different scales. The first PointNet Layer learns more about local features and later PointNet Layers learns more global features.
 - Robust feature learning through multi-scale and multi-resolution
@@ -47,9 +47,9 @@ The paper is an excellent piece of scientific writing full of insightul and conc
 
 - This paper introduces many concepts with the help of metric space. Metric space: **把metric function或distance function的共性提取出来，在一个任意的集合上规定：**
 
-  **度量空间是一个有序对，记作(X,d)，其中 X 是一个集合，d是 X 上的metric function:** $$X \times X \to [0,\infty) $$ ，它把 X 中的每一对点 x，y 映射到一个非负实数，**并且满足如下四条公理：**
+  **度量空间是一个有序对，记作(X,d)，其中 X 是一个集合，d是 X 上的metric function:** $X \times X \to [0,\infty) $ ，它把 X 中的每一对点 x，y 映射到一个非负实数，**并且满足如下四条公理：**
 
-  1. 非负性： $$ \displaystyle d(x,y)\geq 0$$ 
-  2. 唯一性： $$ \displaystyle d(x,y)=0\Leftrightarrow x=y$$
-  3. 对称性： $$d(x,y)=d(y,x)$$
-  4. 三角不等式： $$ x,y,z\in X$$ ，$$\displaystyle d(x,z)\leq d(x,y)+d(y,z)$$ 
+  1. 非负性： $d(x,y)\geq 0$
+  2. 唯一性： $d(x,y)=0\Leftrightarrow x=y$
+  3. 对称性： $d(x,y)=d(y,x)$
+  4. 三角不等式： $ x,y,z\in X$$ ，$$d(x,z)\leq d(x,y)+d(y,z)$
