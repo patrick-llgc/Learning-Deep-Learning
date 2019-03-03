@@ -24,4 +24,6 @@ where K is the num of classes.
 
 #### Notes
 - [目标检测任务的优化策略tricks](https://zhuanlan.zhihu.com/p/56792817)
-- Why Mixup works?
+- Why Mixup works? 
+	- Discussion on [fast.ai](https://forums.fast.ai/t/mixup-data-augmentation/22764/14) 
+	- paper notes on [mixup](mixup.md)
