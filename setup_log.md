@@ -1,4 +1,4 @@
-# installtion log
+# setup log
 
 This log serves to help you migrate from one linux work station to the next smoothly.
 **TODO: make all of this into an automatic process.**
@@ -21,6 +21,12 @@ PS1="[ \[$(tput sgr0)\]\[\033[38;5;10m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] @ \[
 ### Invoke iPython
 ```bash
 alias ipy="python -c 'import IPython; IPython.terminal.ipapp.launch_new_instance()'"
+```
+
+### Speed up ssh X-forwarding
+If your connection is too slow to use ipython notebook over chrome or firefox, try changing the encryption setting ([source](https://unix.stackexchange.com/questions/187415/why-is-firefox-so-slow-over-ssh)).
+```
+ssh -YC4c arcfour,blowfish-cbc user@hostname firefox -no-remote
 ```
 
 ### Change tmux config
