@@ -37,3 +37,7 @@ In the implementation of PointNet, h is a MLP that embed D-dim input into higher
 - Hausdorff Distance measures how far two subsets of a metric space are from each other.
 - Sup vs max: Supremum (least upper bound) needs not be attained while maximum is. When maximum exist, maximum=supremum.
 - The CVPR presentation is [here](https://www.youtube.com/watch?v=Cge-hot0Oc0). There is an [overview of PointNet, PointNet++ and Frustrum PointNet from the author](https://www.youtube.com/watch?v=Ew24Rac8eYE) Charles Qi 祁芮中台. 
+
+#### Notes on code
+- [The source code](https://github.com/charlesq34/pointnet) is cleanly written in tf.
+- Each object (instance) has data of shape num_point x 3, and overall shape batch x num_point x 3. (num_point default to 1024 sampled point per object) The label is of size (1,) per sample, thus overall shape (batch,). 
