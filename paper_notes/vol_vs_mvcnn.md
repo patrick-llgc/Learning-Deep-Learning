@@ -15,7 +15,7 @@ The paper starts with one hypothesis: the performance gap of volumetric and mult
 	- Anisotropic probing (AniProbing): use an anisotropic kernel to mimic 2D projection of a 3D input. 
 - Use of orientation-pooling with multi-orientation (MO) input augmentation to boost the performance of SubvolSup.
 	- As expected, AniProbing benefits more from the augmentation. In other words, AniProbing is inspired by MVCNN and is supposed to use with multi-orientation augmentation.
-- Another way to boost the performance of volumetric CNN is to use a [spatial transformation network](paper_notes/stn.md). STN tends to align all 3D volumes to a canonical viewpoint.
+- Another way to boost the performance of volumetric CNN is to use a [spatial transformation network](stn.md). STN tends to align all 3D volumes to a canonical viewpoint.
 
 #### Technical details
 - AniProbing is different from 2D rendering of a 3D object with computer graphics in two ways: it "sees through" the 3D object and provides an x-ray like scanning capacity; it saves computation time. 
