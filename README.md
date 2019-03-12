@@ -60,7 +60,7 @@ This repository contains my paper reading notes on deep learning and machine lea
 ## 2018
 - [Mask R-CNN](https://arxiv.org/pdf/1703.06870.pdf)
 - [Cascade R-CNN: Delving into High Quality Object Detection](https://arxiv.org/pdf/1712.00726.pdf)
-- [Focal Loss for Dense Object Detection](https://arxiv.org/pdf/1708.02002.pdf) (RetinaNet)
+- [Focal Loss for Dense Object Detection](https://arxiv.org/pdf/1708.02002.pdf) (RetinaNet) [[Notes](paper_notes/focal_loss.md)]
 - [Squeeze-and-Excitation Networks](https://arxiv.org/pdf/1709.01507)
 - [Progressive Growing of GANs for Improved Quality, Stability, and Variation](https://arxiv.org/pdf/1710.10196.pdf)
 - [Deformable Convolutional Networks](https://arxiv.org/pdf/1703.06211.pdf)
