@@ -6,3 +6,5 @@
 *.html
 # ignore ipynb checkpoints
 .ipynb_checkpoints
+# ignore ide
+.idea
