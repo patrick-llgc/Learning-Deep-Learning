@@ -18,11 +18,12 @@ This repository contains my paper reading notes on deep learning and machine lea
 ## 2019-03
 - [Bag of Freebies for Training Object Detection Neural Networks](https://arxiv.org/pdf/1902.04103.pdf) [[Notes](paper_notes/bag_of_freebies_object_detection.md)]
 - [mixup: Beyond Empirical Risk Minimization](https://arxiv.org/pdf/1710.09412.pdf) [[Notes](paper_notes/mixup.md)] <kbd>ICLR 2018</kbd>
-- [Multi-view Convolutional Neural Networks for 3D Shape Recognition](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Su_Multi-View_Convolutional_Neural_ICCV_2015_paper.pdf) (MVCNN) [[Notes](paper_notes/mvcnn.md)] <kbd>ICCV 2015</kbd> Does doing CNN on RGBD work?
+- [Multi-view Convolutional Neural Networks for 3D Shape Recognition](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Su_Multi-View_Convolutional_Neural_ICCV_2015_paper.pdf) (MVCNN) [[Notes](paper_notes/mvcnn.md)] <kbd>ICCV 2015</kbd> 
 - [3D ShapeNets: A Deep Representation for Volumetric Shapes](http://3dshapenets.cs.princeton.edu/paper.pdf) [[Notes](paper_notes/3d_shapenets.md)] <kbd>CVPR 2015</kbd>
 - [Volumetric and Multi-View CNNs for Object Classification on 3D Data](https://arxiv.org/pdf/1604.03265.pdf) [[Notes](paper_notes/vol_vs_mvcnn.md)] <kbd>CVPR 2016</kbd>
 - [Group Normalization](https://arxiv.org/pdf/1803.08494.pdf) [[Notes](paper_notes/groupnorm.md)] <kbd>ECCV 2018</kbd>
-- [Spatial Transformer Networks](https://arxiv.org/pdf/1506.02025.pdf) [[Notes](paper_notes/stn.md)]<kbd>NIPS 2015</kbd>
+- [Spatial Transformer Networks](https://arxiv.org/pdf/1506.02025.pdf) [[Notes](paper_notes/stn.md)] <kbd>NIPS 2015</kbd>
+- [Frustum PointNets for 3D Object Detection from RGB-D Data](https://arxiv.org/pdf/1711.08488.pdf) (F-PointNet) [[Notes](paper_notes/frustum_pointnet.md)] <kbd>CVPR 2018</kbd> 
 
 ## 2019-02
 - [Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset](https://arxiv.org/pdf/1705.07750.pdf) (I3D) [[Notes](paper_notes/quo_vadis_i3d.md)]<kbd>Video</kbd> <kbd>CVPR 2017</kbd>
@@ -82,7 +83,21 @@ Here is the list of papers waiting to be read.
 - [A disciplined approach to neural network hyper-parameters: Part 1 -- learning rate, batch size, momentum, and weight decay](https://arxiv.org/pdf/1803.09820v2.pdf)
 - [Understanding deep learning requires rethinking generalization](https://arxiv.org/pdf/1611.03530.pdf)
 
-### Object detection
+
+### 3D Object detection
+Estimates oriented 3D bounding boxes.
+
+- [IPOD: Intensive Point-based Object Detector for Point Cloud](https://arxiv.org/pdf/1812.05276.pdf)
+
+Treating RGBD data as diff channels of 2D images
+
+- [Amodal Detection of 3D Objects: Inferring 3D Bounding Boxes from 2D Ones in RGB-Depth Images](https://cis.temple.edu/~latecki/Papers/DengCVPR2017.pdf) <kbd>CVPR 2017</kbd>
+- [Vehicle Detection from 3D Lidar Using Fully Convolutional Network](https://arxiv.org/pdf/1608.07916.pdf)
+- [2D-Driven 3D Object Detection in RGB-D Images](http://openaccess.thecvf.com/content_ICCV_2017/papers/Lahoud_2D-Driven_3D_Object_ICCV_2017_paper.pdf)
+- [3D-SSD: Learning Hierarchical Features from RGB-D Images for Amodal 3D Object Detection](https://arxiv.org/pdf/1711.00238.pdf)
+
+### 2D Object detection
+- [Mask Scoring R-CNN](https://arxiv.org/pdf/1903.00241.pdf) <kbd>CVPR 2019</kbd>
 - [Training Region-based Object Detectors with Online Hard Example Mining](https://arxiv.org/pdf/1604.03540.pdf)
 
 ### Instance and Panoptic Segmentation
@@ -126,7 +141,6 @@ Here is the list of papers waiting to be read.
 - [Learning Local Shape Descriptors from Part Correspondences With Multi-view Convolutional Networks](https://arxiv.org/pdf/1706.04496.pdf)
 - [Open3D: A Modern Library for 3D Data Processing](http://www.open3d.org/wordpress/wp-content/paper.pdf)
 - [Multimodal Deep Learning for Robust RGB-D Object Recognition](https://arxiv.org/pdf/1507.06821.pdf) <kbd>IROS 2015</kbd>
-- [** Frustum PointNets for 3D Object Detection from RGB-D Data**](https://arxiv.org/pdf/1711.08488.pdf)
 - [** FlowNet3D: Learning Scene Flow in 3D Point Clouds](https://arxiv.org/pdf/1806.01411.pdf) <kbd>CVPR 2019</kbd>
 - [Mining Point Cloud Local Structures by Kernel Correlation and Graph Pooling](https://arxiv.org/pdf/1712.06760.pdf) <kbd>CVPR 2018</kbd>
 - [PU-Net: Point Cloud Upsampling Network](https://arxiv.org/pdf/1801.06761.pdf) <kbd>CVPR 2018</kbd>
