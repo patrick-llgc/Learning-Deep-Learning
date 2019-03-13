@@ -5,7 +5,7 @@ _Feb 2019_
 tl;dr: Use multistage PointNet to enable hierarchical learning.
 
 #### Overall impression
-The paper is an excellent piece of scientific writing full of insightul and concise statements. The paper extends the work of PointNet from multi-stage/hierarchical viewpoint. PointNet++ applies PointNet recursively on a nested partioning of the input data. It is impressive to see the authors uses multi-scale technique to address the loss of robustness in vanilla PointNet++.
+The paper is an excellent piece of scientific writing full of insightul and concise statements. The paper extends the work of PointNet from multi-stage/hierarchical viewpoint. PointNet++ applies PointNet recursively on a nested partioning of the input data. It is impressive to see the authors uses multi-scale technique to address the loss of robustness in vanilla PointNet++. That said, the idea of using farthest point sampling does not seem to be a "clean" solution. Besides, the computation cost is quite high compared to the vanilla pointnet. See [EdgeConv](edgeconv.md) for more details.
 
 #### Key ideas
 - The original PointNet does not capture local features as the features of each point is extracted and aggregated into global signature directly (though a single maxpooling operation). This is like using a fully connected layer. This paper introduced hierarchical learning of features, resembling the learning process of CNNs.
