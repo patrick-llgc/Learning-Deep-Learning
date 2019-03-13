@@ -29,9 +29,10 @@ This paper builds on top of the seminal [pointnet](pointnet.md) for segmentation
 - Q: How to calculate the IoU of oriented 3D bbox?
     - Intersection of rotated 2D bbox ([visualization](https://stackoverflow.com/questions/11670028/area-of-intersection-of-two-rotated-rectangles/11672022)). Here is [the exact solution](https://stackoverflow.com/a/45268241). You can perform [sequential cutting technique](https://stackoverflow.com/a/11672022). Or you can find the vertices of the resulting polygon (they can only be the existing vertices of the rectangles or from intersections of the edge line segments). The area of the resulting polygon can be calculated with cross product.
     - A faster but less accurate way to do this is through rasterization.
-    - code is [here](https://github.com/kujason/wavedata/blob/c4b5aabd9eb3b74fad777349f75161032d3460fa/wavedata/tools/obj_detection/evaluation.py) using rasterization.
+    - Example implementation is [here](https://github.com/kujason/wavedata/blob/c4b5aabd9eb3b74fad777349f75161032d3460fa/wavedata/tools/obj_detection/evaluation.py) using rasterization.
 - Resolution of depth image is still lower than RGB image from commodity cameras
 - Camera projection matrix needed to register 3D point cloud with 2D RGB image and to extract a 3D frustum from the point cloud.
 - Q: The paper combines the estimated 3D bbox from RGB image and BV image with 3D NMS. How about perform intersection of the frustum and BV cuboids before segmentation?
 - Q: If T-Net regresses the residual from centroid of the segmented point cloud points to the true amodal bbox center, what does box-net regress? In particular, how to define their loss?
+    -A: according to the [official implementation](https://github.com/charlesq34/frustum-pointnets/blob/889c277144/models/model_util.py), it uses a "deep supervison" approach. After T-Net regression and after box-net regression, the estimated accumulated bbox center (not the residual) is supervised by the GT true center.
 - KITTI provides synchronized RGB images and LiDAR point clouds. The model are trained on each frame assuming independence among frames.
