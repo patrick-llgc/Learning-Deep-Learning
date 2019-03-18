@@ -25,11 +25,18 @@ This repository contains my paper reading notes on deep learning and machine lea
 - [Spatial Transformer Networks](https://arxiv.org/pdf/1506.02025.pdf) [[Notes](paper_notes/stn.md)] <kbd>NIPS 2015</kbd>
 - [Frustum PointNets for 3D Object Detection from RGB-D Data](https://arxiv.org/pdf/1711.08488.pdf) (F-PointNet) [[Notes](paper_notes/frustum_pointnet.md)] <kbd>CVPR 2018</kbd> 
 - [Dynamic Graph CNN for Learning on Point Clouds](https://arxiv.org/pdf/1801.07829.pdf) [[Notes](paper_notes/edgeconv.md)]
+- [PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud](https://arxiv.org/pdf/1812.04244v1.pdf) (current SOTA for 3D object detection) [[Notes](paper_notes/point_rcnn.md)]
 - [Multi-View 3D Object Detection Network for Autonomous Driving](https://arxiv.org/pdf/1611.07759.pdf) (MV3D) <kbd>CVPR 2017</kbd>
 - [Joint 3D Proposal Generation and Object Detection from View Aggregation](https://arxiv.org/pdf/1712.02294.pdf) (AVOD) <kbd>IROS 2018</kbd>
+- [DeLS-3D: Deep Localization and Segmentation with a 3D Semantic Map
+](https://arxiv.org/pdf/1805.04949.pdf) <kbd>CVPR 2018</kbd>
+- [The ApolloScape Open Dataset for Autonomous Driving and its Application](https://arxiv.org/pdf/1803.06184.pdf)
 - [2D-Driven 3D Object Detection in RGB-D Images](http://openaccess.thecvf.com/content_ICCV_2017/papers/Lahoud_2D-Driven_3D_Object_ICCV_2017_paper.pdf) <kbd>ICCV 2017</kbd>
-- [PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud](https://arxiv.org/pdf/1812.04244v1.pdf) (current SOTA for 3D object detection)
-- [3D Deep Learning Tutorial at CVPR 2017](https://www.youtube.com/watch?v=8CenT_4HWyY) [[Notes](paper_notes/3ddl_cvpr2017.md)]
+- [3D Deep Learning Tutorial at CVPR 2017](https://www.youtube.com/watch?v=8CenT_4HWyY) [[Notes](paper_notes/3ddl_cvpr2017.md)] - (WIP)
+- [A Multi-Sensor Fusion System for Moving Object Detection and Tracking in Urban Driving Environments](http://www.cs.cmu.edu/~youngwoo/doc/icra-14-sensor-fusion.pdf) <kbd>ICRA 2014</kbd>
+- [Intro：Sensor Fusion for Adas 无人驾驶中的数据融合 (from 知乎)](https://zhuanlan.zhihu.com/p/40967227) (Up to CVPR 2018)
+- [Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving](https://arxiv.org/pdf/1812.07179.pdf) <kbd>CVPR 2019</kbd>
+
 
 ## 2019-02
 - [Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset](https://arxiv.org/pdf/1705.07750.pdf) (I3D) [[Notes](paper_notes/quo_vadis_i3d.md)]<kbd>Video</kbd> <kbd>CVPR 2017</kbd>
