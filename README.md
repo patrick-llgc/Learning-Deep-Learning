@@ -3,13 +3,13 @@ This repository contains my paper reading notes on deep learning and machine lea
 
 ## Summary of Topics
 
-| Topics                                                  | Description                 |
-| ------------------------------------------------------------ | --------------------------- |
-| <kbd>DRL</kbd>                                               | Deep Reinforcement Learning |
-| <kbd>CLS</kbd>                                                | Classification               |
-| <kbd>OD</kbd>                                                | Object Detection            |
+| Topics                       | Description                 |
+| ---------------------------- | --------------------------- |
+| <kbd>DRL</kbd>               | Deep Reinforcement Learning |
+| <kbd>CLS</kbd>               | Classification              |
+| <kbd>OD</kbd>                | Object Detection            |
 | <kbd>InsSeg</kbd>, <kbd>SemSeg</kbd>, <kbd>PanSeg</kbd> | Instance/Semantic/Panoptic Segmentation |
-| <kbd>Video</kbd> | Video understanding |
+| <kbd>Video</kbd>| Video understanding |
 | <kbd>MI</kbd> | Medical Imaging |
 | <kbd>GAN</kbd> | Generative Adversarial Network |
 | <kbd>NIPS</kbd>, <kbd>CVPR</kbd>, <kbd>ICCV</kbd>, <kbd>ECCV</kbd>, etc | Conference papers           |
