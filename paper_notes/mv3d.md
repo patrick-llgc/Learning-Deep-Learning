@@ -8,7 +8,7 @@ tl;dr: sensor fusion framework to take in lidar point cloud and RGB images as in
 The paper is one of the pioneering work to integrate RGB and lidar point cloud data. It sets a good baseline in the task of 3D proposal geenration, 3D detection and 3D localization. Its performance is surpassed by [AVOD](avod.md), [F-pointnet](frustum_pointnet.md), [edgeconv](edgeconv.md), [point RCNN](point_rcnn.md) etc.
 
 #### Key ideas
-- Data preprocessing: lidar point cloud --> BV image with (M+2) channels, unrolled panorama FV image with 3 channels.
+- Data preprocessing: lidar point cloud --> BV image with (M+2) channels, unrolled panorama FV image (projection on to a cylinder) with 3 channels. The point cloud encoding into a 2D pseudo image is hand-crafted fixed encoding scheme.
 - The 3D object detector largely follows Faster RCNN pipeline: region proposal and second-stage refinement with fused features, each ROI-pooled from different modals.
 - Bbox proposal generation from birds eye view of lidar point cloud. The 3D proposals are quite crude, axis-aligned 2D proposals with fixed height. Input is M+2 channels BV image, discretized with 0.1 m resolution.
 	- Why birds eye view for region proposal? Preservation of physical sizes, and avoidance of occlusion.
