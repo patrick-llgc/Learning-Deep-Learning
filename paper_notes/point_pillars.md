@@ -29,6 +29,7 @@ This paper follows the line of work of [VoxelNet](voxelnet.md) and [SECOND](seco
 - Lidars are usually mounted on top of a car and the mass center of z is ~0.6 m.
 - TensorRT gives about 50% speedup from PyTorch.
 - KITTI lidar image is 40m x 80m.
+- Adding the off-center offset xp and yp would actually boost AP. So yes, **representation matters**.
 
  
 #### Notes

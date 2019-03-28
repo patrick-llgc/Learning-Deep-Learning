@@ -17,6 +17,7 @@ This paper opens up a brand new field for camera perception. It points out that 
 #### Technical details
 - Error of depth estimation grows quadratically with the depth of an object for stereo-based approaches, whereas it scales almost linearly for time of flight approaches.
 - The best monocular depth estimator is [DORN](https://arxiv.org/pdf/1806.02446.pdf), and the best stereo depth estimator is [PSMNet](https://arxiv.org/pdf/1803.08669.pdf).
+- [MLF](mlf.md) also estimates a depth map, but it is just concatenated to the RGB image as a depth map and is not as effective as projecting depth map to 3D maps. So yes, **representation matters**.
 
 #### Notes
 - Instead of stereo camera, we can use a cheap lidar (maybe one or two lines) or a radar sensor.
