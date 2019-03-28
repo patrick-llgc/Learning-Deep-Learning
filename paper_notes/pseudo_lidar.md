@@ -5,7 +5,7 @@ _Mar 2019_
 tl;dr: Estimate depth map from RGB image (mono/stereo) and use it to lift RGB to point cloud. The point cloud representation uses depth information more efficiently and steps toward bridging the gap between camera based approach and lidar based approach.
 
 #### Overall impression
-This paper opens up a brand new field for camera perception. It points out that the current inefficiency in 3D object detection based on RGB/D image. This idea is highly thought provoking and we can build upon this idea for new types of hardware setup for autonomous driving.
+This paper opens up a brand new field for camera perception. It points out that the current inefficiency in 3D object detection based on RGB/D image. This idea is highly thought-provoking and we can build upon this idea for new types of hardware setup for autonomous driving. This work seems to be inspired by [MLF](mlf.md) based on mono images.
 
 #### Key ideas
 - Use cheaper monocular or stereo image data to reconstruct expensive lidar data. It would be a good idea to have something to fall back onto in case of an outage.
@@ -23,3 +23,7 @@ This paper opens up a brand new field for camera perception. It points out that 
 - Instead of stereo camera, we can use a cheap lidar (maybe one or two lines) or a radar sensor.
 - There are > 100,000 points in a lidar scene, but the points are distributed along a few horizontal beams, sparsely occupying the 3D space. The pseudo-lidar is generally more dense than lidar data.
 - For hard examples (generally farther away), the performance gap between camera-based approach and lidar-based approach is huge. **Note**: This calls for more accurate depth estimation from lidar or radar data. In particular, in the pseudo-lidar image from mono images in Fig. 7, there are a lot of missing detections.
+- The conversion from depth map to pseudo-lidar is very fast, and the main task of his work and future work seems to be how to get an accurate estimation of depth map. Using radar or cheap lidar will definitely help.
+- The current work can be **improved** in the following ways:
+	- Mono image performance lags behind stereo, and intro of lidar/radar will boost mono performnace.
+	- Even for stereo, objects further than 30m will have large errors. Objects out of this range is arguably not as important as those in this "strong-interaction zone", but it would be of interest to improve the detection performance in the difficult (farthest) strata.
