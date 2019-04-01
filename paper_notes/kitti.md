@@ -28,17 +28,26 @@ The KITTI dataset underwent quite a lot of preprocessing, including rectificatio
 
 
 #### Notes
-- Camera calibration
-	- Intrinsic camera calibration: mainly find the **Lens distortion**.
+- Uber has visualization tool [**AVS**](https://eng.uber.com/avs-autonomous-vehicle-visualization/), Open Standard for Autonomous Vehicle Visualization.
+
+
+### Camera calibration
+- **Pinhole camera model** is described in [openCV documentation](https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html) and [P371 of Learning OpenCV by Gary Bradski](http://www-cs.ccny.cuny.edu/~wolberg/capstone/opencv/LearningOpenCV.pdf). 
+	- Note how the image plane (projective plane) is mathematically (though not physically manufacturable) reformulated to be in front of the camera. The pinhole (usually the center of the lens) is reinterpreted as the center of projection.
 	- Principal point in a pinhole camera model: intersection of optical axis on the image plane. Lens distortion calibration: may be separated from remaining calibration processes.
-	- Radial lens distortion (simplified rule). Pu = f(Pd, rd), where rd is the distance of Pd to the principal point. 
-	- Generally we use more points than equations for calibration, thus overdetermined. 
+- Homogeneous coordinates (齐次坐标, or projective coordinates 投影坐标) is an extension of Euclidean coordinates and used in projective geometry. Any points whose coordinates are proportional are equivalent.
+- **Lens Distortions** corrects for the deviation caused by the introduction of lens to the pinhole model. It consist of mostly radial distortion (from the shape of the lens) and slight tangential distortion (form assembly of the lens).  It is usually determined by a [distortion coefficient matrix](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_calib3d/py_calibration/py_calibration.html) of shape (1x5), k1, k2, p1, p2, k3. ki characterizes radial distortion (typically k1 and k2 are enough for non-fisheye lens) and pi characterizes tangential distortion. This is the simplified rule where Pu = f(Pd, rd), and rd is the distance of Pd to the principal point. [Radial Distortion](https://en.wikipedia.org/wiki/Distortion_(optics)) can take on different forms: barrel (for wide angle lens), pincushion (for telephoto lens), or complex mixture of the two. 
+- **Intrinsic** parameters have 4 DoF, principal points (cx, cy) and focal length (fx, fy). We need to know the location of principal points as it is usually not in the center of the image. We also need fx and fy as the pixel size in a cheap sensor is not necessarily the same. The matrix of intrinsic parameters does not depend on the scene viewed. So, once estimated, it can be re-used. Usually it is written in a 3x3 camera matrix. In some context, intrinsic parameters also include distortion.
+- **Extrinsic** parameters have only 6 DoF, but usually uses 12 parameters in a 3x4 matrix [R|t].
+- OpenCV calibration works with a predefined pattern on a plane (a chessborad pattern). Without lack of generality, we set Z = 0 for the object plane, then [x, y, 1]^T = M [r1, r2, t] [X, Y, 1]^T = H [X, Y, 1]^T. The H is a 3x3 matrix that maps coordinates in the object plane to image plane. The **homography matrix** describes the transformation from a coordinate in object plane to a coordinate in image plane. 
+- Generally we use more points than equations for calibration, thus overdetermined. 
+
+### Projection and 3D vision
+- Affine and perspective transformation transforms a list of points (or a whole image) from 2D to another 2D. (This is to be differentiated from perspective projection which projects a 3D point into 2D, along a set of projection lines which all meet at a point named the center of projection).
+- The perspective transformation, which is a specific kind of **homography**, relates two different images that are alternative projections of the same three-dimensional object onto two different projective planes.
 - A 3D rigid body transformation has 6DoF and is called a pose. A pose belongs to special euclidean group SE(3). For common representations of a pose, see review paper [here](http://ingmec.ual.es/~jlblanco/papers/jlblanco2010geometry3D_techrep.pdf).
 - [Image rectification](https://en.wikipedia.org/wiki/Image_rectification): image processing so that the epipolar lines are horizontal (i.e., the corresponding points can only be in the same row in the other image). After rectification, the images are as if taken from two co-planar cameras. See [example image](https://images.slideplayer.com/32/9802393/slides/slide_14.jpg).
 	- Epipolar line: in stereo vision, the corresponding point in the other image can only lie in a line, this line is named epipolar line. If two images are coplanar, i.e. they were taken such that the right camera is only offset horizontally compared to the left camera (not being moved towards the object or rotated), then each pixel's epipolar line is horizontal and at the same vertical position as that pixel. However, in general settings (the camera did move towards the object or rotate) the epipolar lines are slanted.
 
-- [Pinhole camera model](https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html). 
-	- **Distortions** consist of mostly radial distortion and slight tangential distortion.  It is usually determined by a [distortion coefficient matrix](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_calib3d/py_calibration/py_calibration.html) of shape (1x5), k1, k2, p1, p2, k3. ki characterizes radial distortion (typically k1 and k2 are enough for non-fisheye lens) and pi characterizes tangential distortion. [Radial Distortion](https://en.wikipedia.org/wiki/Distortion_(optics)) can take on different forms: barrel (for wide angle lens), pincushion (for telephoto lens), or complex mixture of the two.
-	- **Intrinsic** parameters have 4 DoF, principal points (cx, cy) and focal length (fx, fy). The matrix of intrinsic parameters does not depend on the scene viewed. So, once estimated, it can be re-used. Usually it is written in a 3x3 camera matrix. 
-	- **Extrinsic** parameters have only 6 DoF, but usually uses 12 parameters in a 3x4 matrix [R|t].
-- Uber has visualization tool [**AVS**](https://eng.uber.com/avs-autonomous-vehicle-visualization/), Open Standard for Autonomous Vehicle Visualization.
+
+
