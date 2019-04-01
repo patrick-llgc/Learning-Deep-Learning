@@ -43,11 +43,14 @@ The KITTI dataset underwent quite a lot of preprocessing, including rectificatio
 - Generally we use more points than equations for calibration, thus overdetermined. 
 
 ### Projection and 3D vision
-- Affine and perspective transformation transforms a list of points (or a whole image) from 2D to another 2D. (This is to be differentiated from perspective projection which projects a 3D point into 2D, along a set of projection lines which all meet at a point named the center of projection).
-- The perspective transformation, which is a specific kind of **homography**, relates two different images that are alternative projections of the same three-dimensional object onto two different projective planes.
+- Affine and perspective transformation transforms a list of points (or a whole image) from 2D to another 2D. (This is to be differentiated from perspective projection which projects a 3D point into 2D, along a set of projection lines which all meet at a point named the center of projection). The perspective transformation, which is a specific kind of **homography**, relates two different images that are alternative projections of the same three-dimensional object onto two different projective planes.
 - A 3D rigid body transformation has 6DoF and is called a pose. A pose belongs to special euclidean group SE(3). For common representations of a pose, see review paper [here](http://ingmec.ual.es/~jlblanco/papers/jlblanco2010geometry3D_techrep.pdf).
 - [Image rectification](https://en.wikipedia.org/wiki/Image_rectification): image processing so that the epipolar lines are horizontal (i.e., the corresponding points can only be in the same row in the other image). After rectification, the images are as if taken from two co-planar cameras. See [example image](https://images.slideplayer.com/32/9802393/slides/slide_14.jpg).
 	- Epipolar line: in stereo vision, the corresponding point in the other image can only lie in a line, this line is named epipolar line. If two images are coplanar, i.e. they were taken such that the right camera is only offset horizontally compared to the left camera (not being moved towards the object or rotated), then each pixel's epipolar line is horizontal and at the same vertical position as that pixel. However, in general settings (the camera did move towards the object or rotate) the epipolar lines are slanted.
-
+- [3D stereo](http://www-cs.ccny.cuny.edu/~wolberg/capstone/opencv/LearningOpenCV.pdf)
+	- Undistortion
+	- Rectification
+	- Correspondence and generation of disparity map.
+	- Depth map
 
 
