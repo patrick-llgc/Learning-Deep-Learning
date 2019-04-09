@@ -15,6 +15,7 @@ The authors provided some intuition behind MobileNetsV2, but the paper is really
 - Difference with V1:
 	- 1x1 convolution in V1 keeps or doubles channel, but in V2 there are two such layers. The first one is the expansion layer. The second one is the projection layer, or bottleneck layer.
 	- V2 has inverted residual block
+- MobileNetV2 can be also used to perform object detection and semantic segmentation. SSDLite may be of interest to autonomous driving.
 
 #### Technical details
 - ReLU6 is essentially a piecewise sigmoid-like activation function with maximum value clipped at 6.
