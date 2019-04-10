@@ -17,8 +17,6 @@ This repository contains my paper reading notes on deep learning and machine lea
 ## 2019-05
 - [The ApolloScape Open Dataset for Autonomous Driving and its Application](https://arxiv.org/pdf/1803.06184.pdf) (dataset, point cloud)
 - [nuScenes: A multimodal dataset for autonomous driving](https://arxiv.org/pdf/1903.11027.pdf) (dataset, point cloud, radar)
-- [A New Performance Measure and Evaluation Benchmark
-for Road Detection Algorithms](http://www.cvlibs.net/publications/Fritsch2013ITSC.pdf) <kbd>ITSC 2013</kbd>
 - [Xception: Deep Learning with Depthwise Separable Convolutions](https://arxiv.org/pdf/1610.02357.pdf) (Xception)
 - [Deep Continuous Fusion for Multi-Sensor 3D Object Detection](http://openaccess.thecvf.com/content_ECCV_2018/papers/Ming_Liang_Deep_Continuous_Fusion_ECCV_2018_paper.pdf) <kbd>ECCV 2018</kbd> (sensor fusion, birds eye view)
 - [Multi-Task Multi-Sensor Fusion for 3D Object Detection]() (TBD from Uber CVPR 2019)
@@ -36,6 +34,9 @@ for Road Detection Algorithms](http://www.cvlibs.net/publications/Fritsch2013ITS
 
 ## 2019-04
 - [MobileNetV2: Inverted Residuals and Linear Bottlenecks](https://arxiv.org/pdf/1801.04381.pdf) (MobileNets v2) [[Notes](paper_notes/mobilenets_v2.md)] <kbd>CVPR 2018</kbd>
+- [A New Performance Measure and Evaluation Benchmark
+for Road Detection Algorithms](http://www.cvlibs.net/publications/Fritsch2013ITSC.pdf) [[Notes](paper_notes/kitti_lane.md)] <kbd>ITSC 2013</kbd>
+
 
 
 ## 2019-03
