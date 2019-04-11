@@ -36,8 +36,11 @@ This repository contains my paper reading notes on deep learning and machine lea
 - [MobileNetV2: Inverted Residuals and Linear Bottlenecks](https://arxiv.org/pdf/1801.04381.pdf) (MobileNets v2) [[Notes](paper_notes/mobilenets_v2.md)] <kbd>CVPR 2018</kbd>
 - [A New Performance Measure and Evaluation Benchmark
 for Road Detection Algorithms](http://www.cvlibs.net/publications/Fritsch2013ITSC.pdf) [[Notes](paper_notes/kitti_lane.md)] <kbd>ITSC 2013</kbd>
-
-
+- [MultiNet: Real-time Joint Semantic Reasoning for Autonomous Driving](https://arxiv.org/pdf/1612.07695.pdf) [[Notes](paper_notes/multinet_raquel.md)]
+- [Light-Head R-CNN: In Defense of Two-Stage Object Detector](https://arxiv.org/pdf/1711.07264.pdf) (Megvii)
+- [FoveaBox: Beyond Anchor-based Object Detector](https://arxiv.org/pdf/1904.03797v1.pdf)
+- [Feature Selective Anchor-Free Module for Single-Shot Object Detection]() <kbd>CVPR 2019</kbd>
+- [YOLOv3: An Incremental Improvement](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
 
 ## 2019-03
 - [Bag of Freebies for Training Object Detection Neural Networks](https://arxiv.org/pdf/1902.04103.pdf) [[Notes](paper_notes/bag_of_freebies_object_detection.md)]
