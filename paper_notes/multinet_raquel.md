@@ -27,4 +27,5 @@ Btw the writing is surprisingly bad with numerous typos.
 
 #### Notes
 - This basically mimics the faster/mask-RCNN framework. The authors did not perform ablation study to reveal why it speeds up the inference. My guess is that it removed the use of bounding box. Are bounding boxes really necessary?
-
+	- Maybe not. See recent studies [Feature Selective Anchor-Free Module for Single-Shot Object Detection](https://arxiv.org/pdf/1903.00621.pdf) and [FoveaBox: Beyond Anchor-based Object Detector](https://arxiv.org/pdf/1904.03797v1.pdf).
+	- The original YOLO paper is extremely easy to read, and there is no anchor box. YOLOv2 introduces anchor box.
