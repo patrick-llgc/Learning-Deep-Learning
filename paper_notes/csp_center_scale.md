@@ -16,7 +16,7 @@ The architecture is surprisingly simple. Previous methods require tedious config
  
 #### Technical details
 - Deconv after stage 5 to keep it 1/16 of original image.
-- *L-2 normalization* to rescale feature maps before concatenation. ([source](https://arxiv.org/pdf/1506.04579.pdf))
+- *L-2 normalization* to rescale feature maps before concatenation. ([source](https://arxiv.org/pdf/1506.04579.pdf)) Alternatively, use a conv layer before concatenation (for scaling), such as is done in FPN. 
 - Log-average Miss Rate over False Positive Per Image ranging [0.01, 1] $MR^{-2}$ KPI for pedestrian detection, at IoU=0.5 and 0.75. This is used in Caltech and Citypersons datasets.
 - Focal loss is used to tackle the extreme class imbalance problem.
 - A gaussian mask surrounding the center of the object is used to weigh the contributions to loss of each pixels surrounding the positive pixel (center pixel). The further away the pixel is from the object center, the less contribution it contributes to the final loss.
