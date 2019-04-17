@@ -2,7 +2,7 @@
 
 _Mar 2019_
 
-tl;dr: an anchor free method to directly predict the center and scale of bounding boxes. It was heavily influenced by CornerNet but reformulate the object detection task to get rid of the data association problem.
+tl;dr: an anchor free method to directly predict the center and scale of bounding boxes. It was heavily influenced by [CornerNet](cornernet.md) but reformulate the object detection task to get rid of the data association problem.
 
 #### Overall impression
 The architecture is surprisingly simple. Previous methods require tedious config in windows or anchors. The method is less prone to occlusion of bbox as it predicts the center of amodal bbox directly. 
@@ -19,7 +19,7 @@ The architecture is surprisingly simple. Previous methods require tedious config
 - *L-2 normalization* to rescale feature maps before concatenation. ([source](https://arxiv.org/pdf/1506.04579.pdf)) Alternatively, use a conv layer before concatenation (for scaling), such as is done in FPN. 
 - Log-average Miss Rate over False Positive Per Image ranging [0.01, 1] $MR^{-2}$ KPI for pedestrian detection, at IoU=0.5 and 0.75. This is used in Caltech and Citypersons datasets.
 - Focal loss is used to tackle the extreme class imbalance problem.
-- A gaussian mask surrounding the center of the object is used to weigh the contributions to loss of each pixels surrounding the positive pixel (center pixel). The further away the pixel is from the object center, the less contribution it contributes to the final loss.
+- A (inverse-) gaussian mask surrounding the center of the object is used to weigh the contributions to loss of each pixels surrounding the positive pixel (center pixel), similar to [CornerNet](cornernet.md). For negative points very close to ground truth, the loss is weighted as 1-gaussian.
 - Citypersons KPI divides object to reasonable, heavy, partial, bare, small, medium, large. This may be useful for vehicle detection as well.
 
 
