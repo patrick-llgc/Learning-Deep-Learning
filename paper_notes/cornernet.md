@@ -2,10 +2,10 @@
 
 _April 2019_
 
-tl;dr: Detect the top-left and bottom-right corner of the bbox, and learn an encoding for data association (associative embedding).
+tl;dr: Detect the top-left and bottom-right corner of the bbox, and learn an encoding for data association (associative embedding). It outperforms even multi-stage detectors such as mask rcnn and cascade rcnn.
 
 #### Overall impression
-The paper is the first anchor-less object detection paper in 2018 and rekindled people's interest in anchor-less object detection framework. 
+The paper is the first anchor-less object detection paper in 2018 and rekindled people's interest in anchor-less object detection framework. The corner pooling operation seems to have draw inspiration from the way humans draw bboxes. I would argue that the existence of corner pooling itself act as a proof that **bbox is a bad representation for object detection**.
 
 #### Key ideas
 - Anchor based methods usually used a large number of anchor boxes (RetinaNet uses 100k). This leads to huge imbalance in the classification problem. Thus we use focal loss.
@@ -22,5 +22,6 @@ The paper is the first anchor-less object detection paper in 2018 and rekindled 
 
 #### Notes
 - The authors argue that detecting corners is easier than detecting center as corners only depend on two sides but center depends on four sides. See [CSP](csp_center_scale.md) and [ExtremeNet](extremenet.md) for comparison.
+- [Presentation at ECCV 2018](https://www.youtube.com/watch?v=aJnvTT1-spc)
 
 
