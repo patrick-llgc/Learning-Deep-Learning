@@ -2,10 +2,10 @@
 
 _April 2019_
 
-tl;dr: an anchor free method to directly predict the center and scale of bounding boxes. It was heavily influenced by [CornerNet](cornernet.md) but reformulate the object detection task to get rid of the data association problem.
+tl;dr: an anchor free method to directly predict the center and scale of pedestrian (single class) bounding boxes. It was heavily influenced by [CornerNet](cornernet.md) but reformulate the object detection task to get rid of the data association problem. 
 
 #### Overall impression
-The architecture is surprisingly simple. Previous methods require tedious config in windows or anchors. The method is less prone to occlusion of bbox as it predicts the center of amodal bbox directly. 
+The architecture is surprisingly simple. Previous methods require tedious config in windows or anchors. The method is less prone to occlusion of bbox as it predicts the center of amodal bbox directly. Also it only focuses on the binary classification problem. How to extend this to general object detection remains to be explored.
 
 #### Key ideas
 - Two classical ways to do object detection: sliding window, and anchor-based prediction in deep learning era.
