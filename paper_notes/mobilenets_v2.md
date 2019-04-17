@@ -1,6 +1,6 @@
 # [MobileNetV2: Inverted Residuals and Linear Bottlenecks](https://arxiv.org/pdf/1801.04381.pdf) (MobileNets v2) 
 
-_Mar 2019_
+_April 2019_
 
 tl;dr: Added linear bottleneck layer to MobileNets module. This adds to the computation per module but requires fewer layers to achieve the same performance, thus saving computation.
 

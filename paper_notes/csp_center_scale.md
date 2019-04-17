@@ -1,6 +1,6 @@
 # [High-level Semantic Feature Detection: A New Perspective for Pedestrian Detection](https://arxiv.org/pdf/1904.02948.pdf) (center and scale prediction)
 
-_Mar 2019_
+_April 2019_
 
 tl;dr: an anchor free method to directly predict the center and scale of bounding boxes. It was heavily influenced by [CornerNet](cornernet.md) but reformulate the object detection task to get rid of the data association problem.
 

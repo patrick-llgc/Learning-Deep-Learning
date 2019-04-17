@@ -1,6 +1,6 @@
 # [MultiNet: Real-time Joint Semantic Reasoning for Autonomous Driving](https://arxiv.org/pdf/1612.07695.pdf)
 
-_Mar 2019_
+_April 2019_
 
 tl;dr: Combines object detection, scene classification and road segmentation into one combined net.
 

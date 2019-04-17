@@ -1,6 +1,6 @@
 # [Light-Head R-CNN: In Defense of Two-Stage Object Detector](https://arxiv.org/pdf/1711.07264.pdf)
 
-_Mar 2019_
+_April 2019_
 
 tl;dr: Faster than two-stage detectors and more accurate than one-stage detectors.
 
