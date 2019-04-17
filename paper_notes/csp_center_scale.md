@@ -2,7 +2,7 @@
 
 _Mar 2019_
 
-tl;dr: an anchor free method to directly predict the center and scale of bounding boxes.
+tl;dr: an anchor free method to directly predict the center and scale of bounding boxes. It was heavily influenced by CornerNet but reformulate the object detection task to get rid of the data association problem.
 
 #### Overall impression
 The architecture is surprisingly simple. Previous methods require tedious config in windows or anchors. The method is less prone to occlusion of bbox as it predicts the center of amodal bbox directly. 
