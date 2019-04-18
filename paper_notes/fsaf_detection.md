@@ -17,7 +17,7 @@ FSAF has two main contribution: FS (online/learned feature selection) training m
 	- IoU loss is used
 	- **Patrick's note**: Each pixel has to be assigned a bbox. If the pixel lies in the effective box of a bbox, then the pixel is assigned to the bbox. If the pixel falls under effective box of multiple bboxes, then the smallest bbox is selected.
 - Online Feature Selection (FS): the loss from each level of the feature map is selected and **the level generating the min loss** is used for backprop. The reason is to pull down the lowerbound as much as possible. In inference, no selection is needed as results from multiple level is aggregated and NMS'ed.
-- It achieves SOTA among single stage object detectors. It is 44 AP on COCO, better than 43 AP [ExtremeNet](extremenet.md) and 42 AP [CornerNet](cornernet.md). This is surpassed by 47 AP [CenterNet](centernet.md).
+- It achieves SOTA among single stage object detectors. It is 44 AP on COCO, better than 43 AP [ExtremeNet](extremenet.md) and 42 AP [CornerNet](cornernet.md). This is surpassed by 47 AP [CenterNet](centernet_cas.md).
 
 #### Technical details
 - If effective box of two instances overlap in one level, then the smaller instance has higher precedence.
