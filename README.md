@@ -15,6 +15,7 @@ This repository contains my paper reading notes on deep learning and machine lea
 | <kbd>NIPS</kbd>, <kbd>CVPR</kbd>, <kbd>ICCV</kbd>, <kbd>ECCV</kbd>, etc | Conference papers           |
 
 ## 2019-05
+- [Deep Radar Detector](assets/papers/deep_radar_detector.pdf) <kbd> RadarCon 2019</kbd>
 - [YUVMultiNet: Real-time YUV multi-task CNN for autonomous driving
 ](https://arxiv.org/pdf/1904.05673.pdf) <kbd>CVPR 2019</kbd> (Real Time, Low Power)
 - [LaserNet: An Efficient Probabilistic 3D Object Detector for Autonomous Driving](https://arxiv.org/pdf/1904.03000.pdf) <kbd>CVPR 2019</kbd>
