@@ -1,6 +1,8 @@
 # [M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network](https://arxiv.org/abs/1811.04533)
 
-_Jan 2019_
+@YuShen1116
+
+_May 2019_ 
 
 tl;dr: Summary of the main idea.
 A new method to produce feature map for object detection.

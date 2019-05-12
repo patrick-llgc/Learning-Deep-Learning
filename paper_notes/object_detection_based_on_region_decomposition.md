@@ -1,9 +1,14 @@
 # [Object Detection based on Region Decomposition and Assembly](https://arxiv.org/pdf/1901.08225.pdf)
 
-_May 2019_
+@YuShen1116
+
+_May 2019_ 
 
 tl;dr: Summary of the main idea.
 This paper propose a region decomposition and assembly(R-DAD) for more accurate object detection.
+the motivation of decomposition object is to tackle occlusion: if your target object is 
+blocked by something, decompose the object would help the network to learn the features from 
+unblocked(valid) parts.
 
 #### Overall impression
 This paper is also working on the feature extraction part of the network to improve detection accuracy.
@@ -27,7 +32,8 @@ and low-overlap ratios. (this step is more like a engineering trick)
     - up-sample each parts by a factor of 2 with bi-linear interpolation before feature extraction. 
     
 #### Notes
-- Questions and notes on how to improve/revise the current work  
+- Questions and notes on how to improve/revise the current work
+- a csdn note: https://blog.csdn.net/qq_30708445/article/details/88182603  
 - This paper used lots of engineering tricks to achieve its performance, it's hard to say if his R-DAD network is really
 working. However, I think decomposing the feature map for object detection is a very interesting approach. In the paper, 
 the author only split the proposed region into four parts without considering their relationship. Maybe we can decompose 
