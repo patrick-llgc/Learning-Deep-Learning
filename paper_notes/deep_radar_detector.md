@@ -21,8 +21,11 @@ With enough data and richer annotation, this work could be extended to detect mu
 #### Key ideas
 - The method takes in complex (real and imaginary) radar directly. 
 - The raw data frame is $N_s \times N_c \times N_{ant}$. $N_s$ is the number of samples, $N_c$ is number of chirps. After 2D FFT on this data frame, you get $N_D \times N_R \times N_{ch}$. Radar data is complex, thus $N_{ch} = 2N_{ant}$. 
-- The study used radar calibration data, and thus need extensive data augmentation. Phase shift is used. --> This will essentially moves the object around in the range-doppler map. This gives more natural appearance to the RD map as opposed to doing conventional 
+- The study used radar calibration data, and thus need extensive data augmentation. Phase shift is used. --> This will essentially moves the object around in the range-doppler map. This gives more natural appearance to the RD map as opposed to doing conventional image augmentation (translation and mirroring, etc).
 - The study only looks at one point per object (or center of the object), so segmentation is used as compared to object detection framework. 
+- For direction of arrival, 3x3xCh local crop is sufficient for the Ang-Net.
+- Metrics are measured by distances between gt and pred bins.
+- Conventional method: RD accuracy~98%, Az accuracy ~90%, El accuracy ~73%.
  
 
 #### Technical details
