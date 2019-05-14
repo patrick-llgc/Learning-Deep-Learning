@@ -15,7 +15,7 @@ This repository contains my paper reading notes on deep learning and machine lea
 | <kbd>NIPS</kbd>, <kbd>CVPR</kbd>, <kbd>ICCV</kbd>, <kbd>ECCV</kbd>, etc | Conference papers           |
 
 ## 2019-05
--[ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst](https://arxiv.org/pdf/1812.03079.pdf) (Waymo)
+- [ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst](https://arxiv.org/pdf/1812.03079.pdf) (Waymo)
 - [Deep Radar Detector](assets/papers/deep_radar_detector.pdf) <kbd> RadarCon 2019</kbd>
 - [Semantic Segmentation on Radar Point Clouds](https://ieeexplore.ieee.org/document/8455344) (from Daimler AG)
 - [YUVMultiNet: Real-time YUV multi-task CNN for autonomous driving
