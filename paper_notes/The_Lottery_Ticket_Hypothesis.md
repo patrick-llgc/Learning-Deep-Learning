@@ -1,5 +1,7 @@
 # [The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks](https://arxiv.org/abs/1803.03635)
 
+@YuShen1116
+
 _May 2019_
 
 tl;dr: The author states the lottery ticket hypothesis: A randomly-initialized, dense neural network contains a 
