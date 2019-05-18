@@ -4,7 +4,7 @@
 
 _May 2019_ 
 
-tl;dr: Summary of the main idea.
+#### tl;dr
 A new method to produce feature map for object detection.
 
 #### Overall impression
@@ -28,3 +28,4 @@ to generate feature maps in different scale(from shallow to deep).
 - Not very easy to train, it costs 3 - more than 10+ days to train the whole pipeline.   
 - I think this idea is interesting because it states that the features from classification backbone is not good enough
 for object detection. Modifying the features for specific task could be a good direction to try. 
+- M2: multi-level, multi-scale features
