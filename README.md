@@ -16,8 +16,8 @@ This repository contains my paper reading notes on deep learning and machine lea
 
 ## 2019-05
 - [ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst](https://arxiv.org/pdf/1812.03079.pdf) (Waymo)
-- [Deep Radar Detector](assets/papers/deep_radar_detector.pdf) <kbd> RadarCon 2019</kbd>
-- [Semantic Segmentation on Radar Point Clouds](https://ieeexplore.ieee.org/document/8455344) (from Daimler AG)
+- [Deep Radar Detector](assets/papers/deep_radar_detector.pdf) [[Notes](paper_notes/deep_radar_detector.md)] <kbd> RadarCon 2019</kbd>
+- [Semantic Segmentation on Radar Point Clouds](https://ieeexplore.ieee.org/document/8455344) [[[Notes](paper_notes/radar_semantic_seg.md)]] (from Daimler AG)
 - [YUVMultiNet: Real-time YUV multi-task CNN for autonomous driving
 ](https://arxiv.org/pdf/1904.05673.pdf) <kbd>CVPR 2019</kbd> (Real Time, Low Power)
 - [LaserNet: An Efficient Probabilistic 3D Object Detector for Autonomous Driving](https://arxiv.org/pdf/1904.03000.pdf) <kbd>CVPR 2019</kbd>

@@ -35,7 +35,7 @@ The paper is an excellent piece of scientific writing full of insightul and conc
   - MRG: multi-resolution grouping not only uses the features calculated with the point set results from the last layer, but also directly on all points in the local region. This allows learning of differnet weighting strategies for different sampling densities. MRG is less computationally intensive as the second half of the computation can be shared by all regions.
 - Point feature propagation with semantic segmentaiton
   - For semantic segmentaion, we can sample all points as centroids (without subsampling), but this is too costly.
-  - Upsampling features from sampled data, and concatenate with previous level. The concatenated features are passed through a **uint PointNet** (similar to a 1x1 conv in CNN) to adjust the feature size. This is quite like the U-Net or FPN structure.
+  - Upsampling features from sampled data, and concatenate with previous level. The concatenated features are passed through a **unit PointNet** (similar to a 1x1 conv in CNN) to adjust the feature size. This is quite like the U-Net or FPN structure.
   - The upsampling used inverse distance weighted average, as compared to bilinear upsampling or transposed convolution in U-Net. **Can we propose a transposed PointNet layer** to learn the best upsampling strategy rather than hand-craft inverse distance weighted average?
 - Ablation results show that DP (random input dropout during training) is a very effective stategy. MRG and MSG helps but only slightly.
 #### Notes
