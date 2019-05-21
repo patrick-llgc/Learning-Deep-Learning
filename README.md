@@ -20,6 +20,9 @@ This repository contains my paper reading notes on deep learning and machine lea
 - [M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network](https://arxiv.org/abs/1811.04533) [[Notes](paper_notes/m2det.md)] <kbd> AAAI 2019 </kbd>
 - [Deep Radar Detector](assets/papers/deep_radar_detector.pdf) [[Notes](paper_notes/deep_radar_detector.md)] <kbd> RadarCon 2019</kbd>
 - [Semantic Segmentation on Radar Point Clouds](https://ieeexplore.ieee.org/document/8455344) [[[Notes](paper_notes/radar_semantic_seg.md)]] (from Daimler AG) <kbd> FUSION 2018 </kbd>
+- [Layer-compensated Pruning for Resource-constrained Convolutional Neural Networks](https://arxiv.org/pdf/1810.00518.pdf) [[Notes](paper_notes/layer_compensated_pruning.md)] <kbd>NIPS 2018 Talk</kbd>
+- [LeGR: Filter Pruning via Learned Global Ranking](https://arxiv.org/pdf/1904.12368.pdf)
+- [Pruning Filters for Efficient ConvNets](https://arxiv.org/pdf/1608.08710.pdf) [[Notes](paper_notes/pruning_filters.md)] <kbd>ICLR 2017</kbd>
 - [ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst](https://arxiv.org/pdf/1812.03079.pdf) (Waymo)
 - [NAS-FPN: Learning Scalable Feature Pyramid Architecture for Object Detection](https://arxiv.org/pdf/1904.07392.pdf) <kbd> CVPR 2019 </kbd>
 - [YUVMultiNet: Real-time YUV multi-task CNN for autonomous driving
@@ -31,8 +34,6 @@ This repository contains my paper reading notes on deep learning and machine lea
 - [Deep Rigid Instance Scene Flow](https://people.csail.mit.edu/weichium/papers/cvpr19-dsisf/paper.pdf) <kbd>CVPR 2019</kbd>
 - [GeoNet: Deep Geodesic Networks for Point Cloud Analysis](https://arxiv.org/pdf/1901.00680.pdf) <kbd>CVPR 2019</kbd> (oral, Megvii)
 - [StixelNet: A Deep Convolutional Network for Obstacle Detection and Road Segmentation](http://www.bmva.org/bmvc/2015/papers/paper109/paper109.pdf)
-- [Layer-compensated Pruning for Resource-constrained Convolutional Neural Networks](https://arxiv.org/pdf/1810.00518.pdf)
-- [LeGR: Filter Pruning via Learned Global Ranking](https://arxiv.org/pdf/1904.12368.pdf)
 - [Rethinking the Value of Network Pruning](https://arxiv.org/pdf/1810.05270.pdf) <kbd>ICLR 2019</kbd>
 - [The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks](https://arxiv.org/pdf/1803.03635.pdf) <kbd> ICLR 2019</kbd>
 - [Objects as points](https://arxiv.org/pdf/1904.07850.pdf) (from ExtremeNet authors) [[Notes](paper_notes/centernet_ut.md)]
