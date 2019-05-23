@@ -64,6 +64,29 @@ git config --global alias.squash '!f(){ git reset --soft HEAD~${1} && git commit
 Now use the following command to combine the last two commits. Do not push before you squash!
 ```git squash 8```
 
+### git config
+Useful git config 
+```bash
+# This is Git's per-user configuration file.
+[alias]
+        st = status
+        ci = commit
+        co = checkout
+        br = branch
+        unstage = reset HEAD --
+        last = log -1 HEAD
+        glop = "log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=short"
+        squash = "!f(){ git reset --soft HEAD~${1} && git commit --edit -m\"$(git log --format=%B --reverse HEAD..HEAD@{1})\"; };f"
+[user]
+        email = patrickl@xsense.ai
+        name = Patrick Liu
+[push]
+        default = simple
+[core]
+        editor = vim
+
+```
+
 ### Useful git hooks
 
 #### remove output cells from ipynb
