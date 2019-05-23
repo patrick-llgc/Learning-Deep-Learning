@@ -34,5 +34,6 @@ First paper to use NAS to search optimal pyramid architecture for object detecti
 - Q: How to guarantee that 7-cell finds features in all 5 scales? 
 	- A: For a 7-cell process, last 5 cells predict the five output scales, but the order is searched and predicted automatically (not predefined).
 - Q: why the anytime prediction (deeply supervised) performs worse?
-- Good review from [知乎](https://www.zhihu.com/question/320662763) on [NAS-FPN](https://zhuanlan.zhihu.com/p/63932921) and [FPN optimization](https://zhuanlan.zhihu.com/p/63047557).
 - SSDLite from [MobieNetV2](mobilenets_v2.md) needs another read. 
+- Good review from [知乎](https://www.zhihu.com/question/320662763) on [NAS-FPN](https://zhuanlan.zhihu.com/p/63932921) and [FPN optimization](https://zhuanlan.zhihu.com/p/63047557).
+- Notes from [deeplearning.jp](https://www.slideshare.net/DeepLearningJP2016/dlnasfpn-learning-scalable-feature-pyramid-architecture-for-object-detection-145224193).
