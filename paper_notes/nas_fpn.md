@@ -7,6 +7,8 @@ tl;dr: Using NAS to search for best cross-scale connection in FPN.
 #### Overall impression
 First paper to use NAS to search optimal pyramid architecture for object detection. NAS-FPN finds scalable design which better benefits from repeating the modules. However it requires quite a lot of computational resource to search and not easily reproducible in small labs. Most manly engineered cross-scale connections are shallow (only connecting neighboring or the same scales) but NAS-FPN can connect non-neighboring scales as well.
 
+NAS has many other usage, such as [Auto Augment](autoaugment.md).
+
 #### Key ideas
 - Stacking vanilla FPN's multiple times does not always leads to improvement (degrading after repeating 3 times).
 - [PANet](panet.md) uses an extra bottom-up pathway to improve OD performance. 
