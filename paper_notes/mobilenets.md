@@ -23,7 +23,7 @@ The way normal 2D conv op handles channel information is almost in a fully conne
 
 #### Technical details
 - MobileNets show that it is more benefit to make the network thinner than shallower. 
-- SqueezeNet (with squeeze and expand Fire modules) uses fewer parameters but more calculations. (In this sense it is like DenseNet?) MobileNets outperforms SqueezeNet on ImageNet, with a comparable number of weights, but a fraction of the computational cost. So MobileNets is preferred most of the time. Here is a good comparison [review](https://aiinpractice.com/squeezenet-mobilenet/).
+- SqueezeNet (with squeeze and expand Fire modules) uses fewer parameters but more calculations. (In this sense it is like DenseNet?) MobileNets outperforms SqueezeNet on ImageNet, with a comparable number of weights, but a fraction of the computational cost. So MobileNets is preferred most of the time. Here is a good comparison [review](https://aiinpractice.com/squeezenet-mobilenet/). **SqueezeNet is designed for reduction in num of parameters and model size, instead of reduction in explicit FLOPS and inference time.**
 
 #### Notes
 - TODO: Need to read mobilenet v2 and shufflenet, and xception.
