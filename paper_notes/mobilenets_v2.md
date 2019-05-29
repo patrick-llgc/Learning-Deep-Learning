@@ -2,7 +2,7 @@
 
 _April 2019_
 
-tl;dr: Added linear bottleneck layer to MobileNets module. This adds to the computation per module but requires fewer layers to achieve the same performance, thus saving computation.
+tl;dr: Added linear bottleneck layer to [MobileNets](mobilenets.md) module. This adds to the computation per module but requires fewer layers to achieve the same performance, thus saving computation.
 
 #### Overall impression
 The authors provided some intuition behind MobileNetsV2, but the paper is really hard to comprehend. Good thing is that the implementation of MobileNetsV2 builds upon and requires only slight change from MobileNetsV1.
