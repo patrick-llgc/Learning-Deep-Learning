@@ -4,7 +4,7 @@
 
 _May 2019_ 
 
-tl;dr: Summary of the main idea.
+#### tl;dr
 This paper propose a region decomposition and assembly(R-DAD) for more accurate object detection.
 the motivation of decomposition object is to tackle occlusion: if your target object is 
 blocked by something, decompose the object would help the network to learn the features from 
