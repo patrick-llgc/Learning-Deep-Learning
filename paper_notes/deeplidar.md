@@ -7,7 +7,7 @@ tl;dr: Depth completion from a single RGB image and sparse depth (from lidar and
 #### Overall impression
 The idea should benefit similar projects for radar+camera sensor fusion. The main idea is **to take a sparse but accurate depth from a low-cost lidar and make it dense with the help of an aligned color image**. However the paper only explored uniform sparsity, not structured sparsity (missing lines of depth completely) which is perhaps more relevant for cheap lidars. 
 
-The paper heavily builds on the [indoor depth completion paper](https://arxiv.org/pdf/1803.09326.pdf). It is in a sense color guided depth impainting.
+The paper heavily builds on the [indoor depth completion paper](deep_depth_completion_rgbd.md). It is in a sense color guided depth impainting.
 
 #### Key ideas
 - Two pathways: color pathway directly regresses the depth, and the normal pathway regresses surface normal first and then convert to depth map. 
@@ -28,15 +28,16 @@ The paper heavily builds on the [indoor depth completion paper](https://arxiv.or
 - Early fusion of feeding sparse depth and camera images directly into CNNs will lead to artifacts (the authors did not specify source). Refer to the [MV3D](mv3d.md) paper for review of early fusion, late fusion and deep fusion.
 - Deep completion unit (DCU) is late fusion, very similar to that proposed in [depth completion and semantic segmentation](https://arxiv.org/abs/1808.00769) paper. The encoder extract features separately and only combines them in the decoder. 
 - Outdoor scenes are more susceptible to noise in surface normals, increasingly so in distant regions. 
-- The paper uses surface normals as intermediate representations (as it is easier to estimate per [the indoor paper](https://arxiv.org/pdf/1803.09326.pdf)).
+- The paper uses surface normals as intermediate representations (as it is easier to estimate per [the indoor depth completion paper](deep_depth_completion_rgbd.md)).
 - Ablation test:
 	- Even without the normal pathway, the results are not bad at all. 
 	- Early fusion also works, but not as good as late fusion.
 	- With more sparcity (as few as 72 points per depth image), the RMSE increased from 0.7m to 2m RMSE, still better than conventional methods with full sparse data. 
 
 #### Notes
-- There is a KITTI depth completion benchmark. How did they get the GT?
+- There is a KITTI depth completion benchmark. How did they get the GT? --> From accumulated 64-line lidar scans and with Semi-global matching with stereo reconstruction to remove bleeding edge and motion streak outliers.
 - Why is surface normal easier to estimate than absolute depth?
 - Maybe convert RGB to point cloud and adjust depth in point cloud space yields better results?
-- How do unsupervised depth estimation evaluate the performance?
-- How was the surface normal GT obtained in KITTI? From GT dense depth map by local plane fitting.
+- How do unsupervised depth estimation evaluate the performance? --> On KITTI where depth GT are available.
+- How was the surface normal GT obtained in KITTI? --> From GT dense depth map by local plane fitting.
+- DeepLidar also converts lidar to image. Maybe we could combine the idea of DeepLidar with [PseudoLidar](pseudo_lidar.md) and perform optimization on 3D point cloud. This idea can be tested on KITTI's depth completion track.
