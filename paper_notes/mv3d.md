@@ -7,6 +7,8 @@ tl;dr: sensor fusion framework to take in lidar point cloud and RGB images as in
 #### Overall impression
 The paper is one of the pioneering work to integrate RGB and lidar point cloud data. It sets a good baseline in the task of 3D proposal geenration, 3D detection and 3D localization. Its performance is surpassed by [AVOD](avod.md), [F-pointnet](frustum_pointnet.md), [edgeconv](edgeconv.md), [point RCNN](point_rcnn.md) etc.
 
+MV3D uses point cloud for 3D proposal generation and uses sensor fusion to refine 3D bbox. AVOD uses fused feature map for proposal generation.
+
 #### Key ideas
 - Data preprocessing: lidar point cloud --> BV image with (M+2) channels, unrolled panorama FV image (projection on to a cylinder) with 3 channels. The point cloud encoding into a 2D pseudo image is hand-crafted fixed encoding scheme.
 - The 3D object detector largely follows Faster RCNN pipeline: region proposal and second-stage refinement with fused features, each ROI-pooled from different modals.
