@@ -26,4 +26,5 @@ Pseudo-lidar bridged half of the gap between RGB-based and lidar based 3D object
 #### Notes
 - Apply this to radar data (single line lidar?) and see if this improves results.
 - Need to read PSMNet. This seems to regress disparity via classification?
+	- This seems to be originating from [PMSNet](https://arxiv.org/pdf/1803.08669.pdf) (CVPR 2018) and [GC-Net: End-to-End Learning of Geometry and Context for Deep Stereo Regression](https://arxiv.org/abs/1703.04309) (ICCV 2017).
 
