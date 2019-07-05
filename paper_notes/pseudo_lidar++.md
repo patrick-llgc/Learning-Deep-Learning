@@ -9,6 +9,8 @@ This is exactly what I wanted to do when I read [pseudo-lidar](pseudo_lidar.md).
 
 Pseudo-lidar bridged half of the gap between RGB-based and lidar based 3D object detection but does not perform well for far-away object. Pseudo-lidar++ uses sparse 3D measurement to de-bias the depth estimation.
 
+The Uber ATG group also publishes several papers ([ContFuse](contfuse.md), [MMF](mmf.md)) on this idea, although not as explicit as the pseudo-lidar paper or this one.
+
 #### Key ideas
 - The depth estimation error from monocular images are not random but rather systematic. 
 - **Idea #1**: SDN (stereo depth network) to address the issue that neural network designed to optimize disparity over-emphasize nearby objects due to reciprocal transformation. $\delta Z \propto Z^2 \delta D$

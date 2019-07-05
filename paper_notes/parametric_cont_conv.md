@@ -5,9 +5,11 @@ _July 2019_
 tl;dr: Generalization of 2d conv to point cloud. Similar idea to [PointNet](pointnet.md) and [PointNet++](pointnet++.md), and [Point CNN](point_cnn.md).
 
 #### Overall impression
-This paper is similar to pointNet in that it aggregates and propagates information directly on point cloud. However one of the advantage is that **the output may be different from the input**. So it could be a fancy interpolation method. 
+From Raquel's group. This paper is similar to pointNet in that it aggregates and propagates information directly on point cloud. However one of the advantage is that **the output may be different from the input**. So it could be a fancy interpolation method. 
 
 Cons: The math is not rigorous at all. Especially for Fig. 2, the dimensions in the architecture is completely wrong and misleading.
+
+The method is used in [ContFuse](contfuse.md) paper to merge features from camera and lidar. ContFuse used MLP to output results directly instead of modeling the weights to sum over features. 
 
 #### Key ideas
 - Use MLP to approximate the point cloud kernel function with full continuous support domain.
