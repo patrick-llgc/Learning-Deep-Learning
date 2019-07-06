@@ -7,6 +7,8 @@ tl;dr: Estimate depth map from RGB image (mono/stereo) and use it to lift RGB to
 #### Overall impression
 This paper opens up a brand new field for camera perception. It points out that the current inefficiency in 3D object detection based on RGB/D image. This idea is highly thought-provoking and we can build upon this idea for new types of hardware setup for autonomous driving. This work seems to be inspired by [MLF](mlf.md) based on mono images.
 
+The Uber ATG group also publishes several papers ([ContFuse](contfuse.md), [MMF](mmf.md)) on this idea, although not as explicit as the pseudo-lidar paper or this one.
+
 #### Key ideas
 - Use cheaper monocular or stereo image data to reconstruct expensive lidar data. It would be a good idea to have something to fall back onto in case of an outage.
 - The depth map from stereo images actually align really well with real lidar, but from mono images are not.

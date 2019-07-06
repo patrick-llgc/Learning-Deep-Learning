@@ -5,7 +5,7 @@ _Mar 2019_
 tl;dr: AVOD is a sensor fusion framework that consumes lidar and RGB images. Use multimodal feature fusion for generating proposal, and multimodal features are ROI-pooled to perform classification and bbox regression.
 
 #### Overall impression
-This work is heavily influenced by [MV3D](mv3d.md). Both work are inspired by Faster RCNN, but AVOD improved MV3D in several ways. One area is the region proposal where MV3D uses only BV for proposal generation while AVOD uses both BV and RGB for region proposal. AVOD also improves MV3D by improving bbox encoding, heading angle regression and using FPN to improve detection of small objects.
+This work is heavily influenced by [MV3D](mv3d.md). Both work are inspired by Faster RCNN, but AVOD improved MV3D in several ways. One area is the region proposal where MV3D uses only BV for proposal generation while **AVOD uses both BV and RGB for region proposal**. AVOD also improves MV3D by improving bbox encoding, heading angle regression and using FPN to improve detection of small objects.
 
 #### Key ideas
 - Same fixed point cloud encoding scheme as MV3D to convert point cloud into pseudo image from bird's eye view.
