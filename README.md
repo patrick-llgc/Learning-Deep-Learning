@@ -1,5 +1,7 @@
 # Paper notes
-This repository contains my paper reading notes on deep learning and machine learning. **New year resolution for 2019: read at least one paper a week!**
+This repository contains my paper reading notes on deep learning and machine learning. It is inspired by [Denny Britz](https://github.com/dennybritz/deeplearning-papernotes) and [Daniel Takeshi](https://github.com/DanielTakeshi/Paper_Notes).
+
+**New year resolution for 2019: read at least one paper a week!**
 
 ## Summary of Topics
 
@@ -13,6 +15,8 @@ This repository contains my paper reading notes on deep learning and machine lea
 | <kbd>MI</kbd> | Medical Imaging |
 | <kbd>GAN</kbd> | Generative Adversarial Network |
 | <kbd>NIPS</kbd>, <kbd>CVPR</kbd>, <kbd>ICCV</kbd>, <kbd>ECCV</kbd>, etc | Conference papers           |
+
+The sections below records paper reading activity in chronological order. See notes organized according to subfields [here](organized.md). 
 
 ## 2019-07
 - [Deep Parametric Continuous Convolutional Neural Networks](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Deep_Parametric_Continuous_CVPR_2018_paper.pdf) [[Notes](paper_notes/parametric_cont_conv.md)] <kbd>CVPR 2018</kbd> (@Uber, sensor fusion)
@@ -71,7 +75,7 @@ This repository contains my paper reading notes on deep learning and machine lea
 - [3D Deep Learning Tutorial at CVPR 2017](https://www.youtube.com/watch?v=8CenT_4HWyY) [[Notes](paper_notes/3ddl_cvpr2017.md)] - (WIP)
 - [Review of Graph Spectrum Theory](paper_notes/graph_spectrum.md) (WIP)
 
-## 2019-06
+## 2019-06 (12)
 - [EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/pdf/1905.11946.pdf) [[Notes](paper_notes/efficientnet.md)] <kbd>ICML 2019</kbd>
 - [What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?](https://arxiv.org/pdf/1703.04977.pdf) [[Notes](paper_notes/uncertainty_bdl.md)] <kbd>NIPS 2017</kbd>
 - [Bayesian SegNet: Model Uncertainty in Deep Convolutional Encoder-Decoder Architectures for Scene Understanding](https://arxiv.org/pdf/1511.02680.pdf) [[Notes](paper_notes/bayesian_segnet.md)]<kbd>BMVC 2017</kbd>
@@ -86,7 +90,7 @@ This repository contains my paper reading notes on deep learning and machine lea
 - [Multi-Task Multi-Sensor Fusion for 3D Object Detection](http://www.cs.toronto.edu/~byang/papers/mmf.pdf) [[Notes](paper_notes/mmf.md)] <kbd>CVPR 2019</kbd> (@Uber, sensor fusion)
 
 
-## 2019-05
+## 2019-05 (18)
 - [CenterNet: Objects as points](https://arxiv.org/pdf/1904.07850.pdf) (from ExtremeNet authors) [[Notes](paper_notes/centernet_ut.md)]
 - [CenterNet: Object Detection with Keypoint Triplets](https://arxiv.org/pdf/1904.08189.pdf) [[Notes](paper_notes/centernet_cas.md)]
 - [Object Detection based on Region Decomposition and Assembly](https://arxiv.org/pdf/1901.08225.pdf) [[Notes](paper_notes/object_detection_region_decomposition.md)] <kbd> AAAI 2019 </kbd>
@@ -106,7 +110,7 @@ This repository contains my paper reading notes on deep learning and machine lea
 - [MnasNet: Platform-Aware Neural Architecture Search for Mobile](https://arxiv.org/pdf/1807.11626.pdf) [[Notes](mnasnet.md)] <kbd>CVPR 2019</kbd> 
 - [Rethinking the Value of Network Pruning](https://arxiv.org/pdf/1810.05270.pdf) <kbd>ICLR 2019</kbd>
 
-## 2019-04
+## 2019-04 (12)
 - [MobileNetV2: Inverted Residuals and Linear Bottlenecks](https://arxiv.org/pdf/1801.04381.pdf) (MobileNets v2) [[Notes](paper_notes/mobilenets_v2.md)] <kbd>CVPR 2018</kbd>
 - [A New Performance Measure and Evaluation Benchmark
 for Road Detection Algorithms](http://www.cvlibs.net/publications/Fritsch2013ITSC.pdf) [[Notes](paper_notes/kitti_lane.md)] <kbd>ITSC 2013</kbd>
@@ -123,7 +127,7 @@ for Road Detection Algorithms](http://www.cvlibs.net/publications/Fritsch2013ITS
 
 
 
-## 2019-03
+## 2019-03 (20)
 - [Bag of Freebies for Training Object Detection Neural Networks](https://arxiv.org/pdf/1902.04103.pdf) [[Notes](paper_notes/bag_of_freebies_object_detection.md)]
 - [mixup: Beyond Empirical Risk Minimization](https://arxiv.org/pdf/1710.09412.pdf) [[Notes](paper_notes/mixup.md)] <kbd>ICLR 2018</kbd>
 - [Multi-view Convolutional Neural Networks for 3D Shape Recognition](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Su_Multi-View_Convolutional_Neural_ICCV_2015_paper.pdf) (MVCNN) [[Notes](paper_notes/mvcnn.md)] <kbd>ICCV 2015</kbd> 
@@ -146,7 +150,7 @@ for Road Detection Algorithms](http://www.cvlibs.net/publications/Fritsch2013ITS
 - [Vision meets Robotics: The KITTI Dataset](http://ww.cvlibs.net/publications/Geiger2013IJRR.pdf) [[Notes](paper_notes/kitti.md)] <kbd>IJRR 2013</kbd>
 
 
-## 2019-02
+## 2019-02 (9)
 - [Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset](https://arxiv.org/pdf/1705.07750.pdf) (I3D) [[Notes](paper_notes/quo_vadis_i3d.md)]<kbd>Video</kbd> <kbd>CVPR 2017</kbd>
 - [Initialization Strategies of Spatio-Temporal Convolutional Neural Networks](https://arxiv.org/pdf/1503.07274.pdf) [[Notes](paper_notes/quo_vadis_i3d.md)] <kbd>Video</kbd>
 - [Detect-and-Track: Efficient Pose Estimation in Videos](https://arxiv.org/pdf/1712.09184.pdf) [[Notes](paper_notes/quo_vadis_i3d.md)] <kbd>ICCV 2017</kbd> <kbd>Video</kbd>
@@ -160,7 +164,7 @@ for Road Detection Algorithms](http://www.cvlibs.net/publications/Fritsch2013ITS
 - [Review of Geometric deep learning 几何深度学习前沿 (from 知乎)](https://zhuanlan.zhihu.com/p/36888114) (Up to CVPR 2018)
 
 
-## 2019-01
+## 2019-01 (10)
 - [Human-level control through deep reinforcement learning (Nature DQN paper)](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) [[Notes](paper_notes/nature_dqn_paper.md)] <kbd>DRL</kbd>
 - [Retina U-Net: Embarrassingly Simple Exploitation of Segmentation Supervision for Medical Object Detection](https://arxiv.org/pdf/1811.08661.pdf) [[Notes](paper_notes/retina_unet.md)] <kbd>MI</kbd>
 - [Panoptic Segmentation](https://arxiv.org/pdf/1801.00868.pdf) [[Notes](paper_notes/panoptic_segmentation.md)] <kbd>PanSeg</kbd>
