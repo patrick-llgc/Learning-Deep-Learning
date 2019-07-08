@@ -18,7 +18,8 @@ More robust to occlusion and sparse data at range. It also runs real-time at 33 
 - **Decodes tracklets from prediction by average pooling.**
 	- Each timestamp will have current detection and n-1 past predictions.
 	- If detection and motion prediction are perfect, we can have perfect decoding of tracklets. When the past's prediction and current detection have overlaps, it is considered to be the same object and bboxes are averaged. 
-- Adding temporal information by taking all 3D points from past n frames. Motion frames need to be ego-motion compensated. 
+- Adding temporal information by taking all 3D points from past n frames. Motion frames need to be ego-motion compensated.
+- The loss involves prediction of each location being a vehicle and the bounding box position for all timestamps. 
 
 #### Technical details
 - BEV representation is metric and thus prior knowledge about cars can be exploited. In total 6 anchors are used at 5 m and 8 m scale. (using anchor boxes reduce the variance of regression target thus making the network easy to train).
