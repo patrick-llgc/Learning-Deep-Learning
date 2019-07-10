@@ -20,3 +20,4 @@ This network regresses depth, ego-motion, object motion and camera intrinsics fr
 
 #### Notes
 - In detail, how was the lens correction regressed?
+- See interview with the CEO of isee [on this paper](https://medium.com/syncedreview/google-ai-unsupervised-depth-estimation-for-arbitrary-videos-51d97ec0d70).

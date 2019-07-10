@@ -14,7 +14,7 @@ Monodepth is on estimating depth using stereo pairs. This paper digs into videos
 - Scale back to original scale then do photometric loss calculation. This helps removing holes in large low-texture region. 
 
 #### Technical details
-- Edge preserving loss with edge-aware L1 loss, as in [monodepth](https://arxiv.org/abs/1609.03677) (2017 CVPR oral).
+- Edge preserving loss with edge-aware L1 loss, as in [monodepth](monodepth.md) (2017 CVPR oral).
 
 	> We encourage disparities to be
 locally smooth with an L1 penalty on the disparity gradients ∂d. As depth discontinuities often occur at image gradients, similar to [21], we weight this cost with an edge-aware term using the image gradients ∂I,
