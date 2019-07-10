@@ -276,3 +276,6 @@ Here is the list of papers waiting to be read.
 ## Technical Debt
 - CRF
 - 3D vision
+- Codebase of STN
+- Codebase of monodepth
+- Codebase of KITTI devkit
