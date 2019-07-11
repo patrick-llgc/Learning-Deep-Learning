@@ -31,7 +31,7 @@ ssh -YC4c arcfour,blowfish-cbc user@hostname firefox -no-remote
 
 ### Change tmux config
 
-Change the key binding from ctrl + b to ctrl + a
+Change the key binding from ctrl + b to ctrl + a in `~/.tmux.conf`
 ```bash
 # remap prefix to Control + a
 set -g prefix C-a
