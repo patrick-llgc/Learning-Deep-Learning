@@ -65,7 +65,7 @@ Now use the following command to combine the last two commits. Do not push befor
 ```git squash 8```
 
 ### git config
-Useful git config 
+Useful git config in `~/.gitconfig`
 ```bash
 # This is Git's per-user configuration file.
 [alias]
