@@ -31,7 +31,7 @@ ssh -YC4c arcfour,blowfish-cbc user@hostname firefox -no-remote
 
 ### Change tmux config
 
-Change the key binding from ctrl + b to ctrl + a
+Change the key binding from ctrl + b to ctrl + a in `~/.tmux.conf`
 ```bash
 # remap prefix to Control + a
 set -g prefix C-a
@@ -65,7 +65,7 @@ Now use the following command to combine the last two commits. Do not push befor
 ```git squash 8```
 
 ### git config
-Useful git config 
+Useful git config in `~/.gitconfig`
 ```bash
 # This is Git's per-user configuration file.
 [alias]
