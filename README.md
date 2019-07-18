@@ -28,7 +28,10 @@ The sections below records paper reading activity in chronological order. See no
 - [Struct2depth: Depth Prediction Without the Sensors: Leveraging Structure for Unsupervised Learning from Monocular Videos](https://arxiv.org/pdf/1811.06152.pdf) [[Notes](paper_notes/struct2depth.md)] <kbd>AAAI 2019</kbd> (monocular depth estimation, estimating movement of dynamic object)
 - [Unsupervised Learning of Geometry with Edge-aware Depth-Normal Consistency](https://arxiv.org/pdf/1711.03665.pdf) [[Notes](paper_notes/edge_aware_depth_normal.md)] <kbd>AAAI 2018</kbd> (monocular depth estimation, static assumption)
 - [LEGO Learning Edge with Geometry all at Once by Watching Videos](https://arxiv.org/pdf/1803.05648.pdf) [[Notes](paper_notes/lego.md)] <kbd>CVPR 2018 Spotlight</kbd> (monocular depth estimation, static assumption)
-- [Object Detection and 3D Estimation via an FMCW Radar Using a Fully Convolutional Network](https://arxiv.org/abs/1902.05394) (radar, DL) [[Notes](paper_notes/radar_3d_od_fcn.md)] 
+- [Object Detection and 3D Estimation via an FMCW Radar Using a Fully Convolutional Network](https://arxiv.org/abs/1902.05394) (radar, RD map, OD) [[Notes](paper_notes/radar_3d_od_fcn.md)]
+- [A study on Radar Target Detection Based on Deep Neural Networks](https://www.researchgate.net/publication/330748053_A_Study_on_Radar_Target_Detection_Based_on_Deep_Neural_Networks) (radar, RD map, OD) [[Notes](paper_notes/radar_target_detection_tsinghua.md)] 
+- [2D Car Detection in Radar Data with PointNets](https://arxiv.org/abs/1904.08414) (radar, point cloud, OD) [[Notes](paper_notes/radar_detection_pointnet.md)] 
+
 
 
 ## 2019-06 (12)
