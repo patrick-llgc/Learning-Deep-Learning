@@ -31,7 +31,9 @@ The sections below records paper reading activity in chronological order. See no
 - [Object Detection and 3D Estimation via an FMCW Radar Using a Fully Convolutional Network](https://arxiv.org/abs/1902.05394) (radar, RD map, OD) [[Notes](paper_notes/radar_3d_od_fcn.md)]
 - [A study on Radar Target Detection Based on Deep Neural Networks](https://www.researchgate.net/publication/330748053_A_Study_on_Radar_Target_Detection_Based_on_Deep_Neural_Networks) (radar, RD map, OD) [[Notes](paper_notes/radar_target_detection_tsinghua.md)] 
 - [2D Car Detection in Radar Data with PointNets](https://arxiv.org/abs/1904.08414) (from Ulm Univ, radar, point cloud, OD) [[Notes](paper_notes/radar_detection_pointnet.md)] 
-
+- [Distant Vehicle Detection Using Radar and Vision](https://arxiv.org/abs/1901.10951)
+- [A Deep Learning Approach to Traffic Lights: Detection, Tracking, and Classification]() <kbd>ICRA 2017</kbd>
+- [Learning Confidence for Out-of-Distribution Detection in Neural Networks](https://arxiv.org/abs/1802.04865) [[Notes](paper_notes/learning_ood_conf.md)]
 
 
 ## 2019-06 (12)
