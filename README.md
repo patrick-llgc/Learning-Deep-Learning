@@ -31,9 +31,9 @@ The sections below records paper reading activity in chronological order. See no
 - [Object Detection and 3D Estimation via an FMCW Radar Using a Fully Convolutional Network](https://arxiv.org/abs/1902.05394) (radar, RD map, OD) [[Notes](paper_notes/radar_3d_od_fcn.md)]
 - [A study on Radar Target Detection Based on Deep Neural Networks](https://www.researchgate.net/publication/330748053_A_Study_on_Radar_Target_Detection_Based_on_Deep_Neural_Networks) (radar, RD map, OD) [[Notes](paper_notes/radar_target_detection_tsinghua.md)] 
 - [2D Car Detection in Radar Data with PointNets](https://arxiv.org/abs/1904.08414) (from Ulm Univ, radar, point cloud, OD) [[Notes](paper_notes/radar_detection_pointnet.md)] 
-- [Distant Vehicle Detection Using Radar and Vision](https://arxiv.org/abs/1901.10951)
-- [A Deep Learning Approach to Traffic Lights: Detection, Tracking, and Classification]() <kbd>ICRA 2017</kbd>
 - [Learning Confidence for Out-of-Distribution Detection in Neural Networks](https://arxiv.org/abs/1802.04865) [[Notes](paper_notes/learning_ood_conf.md)]
+- [Distant Vehicle Detection Using Radar and Vision](https://arxiv.org/abs/1901.10951)
+- [A Deep Learning Approach to Traffic Lights: Detection, Tracking, and Classification](https://doi.org/10.1109/ICRA.2017.7989163) <kbd>ICRA 2017</kbd>
 
 
 ## 2019-06 (12)
@@ -49,7 +49,7 @@ The sections below records paper reading activity in chronological order. See no
 - [DeepSignals: Predicting Intent of Drivers Through Visual Signals](https://arxiv.org/pdf/1905.01333.pdf) [[Notes](paper_notes/deep_signals.md)] <kbd>ICRA2019</kbd> (@Uber, turn signal detection)
 - [FCOS: Fully Convolutional One-Stage Object Detection](https://arxiv.org/pdf/1904.01355.pdf) [[Notes](paper_notes/fcos.md)]
 - [Pseudo-LiDAR++: Accurate Depth for 3D Object Detection in Autonomous Driving](https://arxiv.org/pdf/1906.06310.pdf) [[Notes](paper_notes/pseudo_lidar++.md)]
-- [Multi-Task Multi-Sensor Fusion for 3D Object Detection](http://www.cs.toronto.edu/~byang/papers/mmf.pdf) [[Notes](paper_notes/mmf.md)] <kbd>CVPR 2019</kbd> (@Uber, sensor fusion)
+- [MMF: Multi-Task Multi-Sensor Fusion for 3D Object Detection](http://www.cs.toronto.edu/~byang/papers/mmf.pdf) [[Notes](paper_notes/mmf.md)] <kbd>CVPR 2019</kbd> (@Uber, sensor fusion)
 
 
 ## 2019-05 (18)
