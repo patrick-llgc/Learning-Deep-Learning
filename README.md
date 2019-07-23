@@ -33,7 +33,7 @@ The sections below records paper reading activity in chronological order. See no
 - [2D Car Detection in Radar Data with PointNets](https://arxiv.org/abs/1904.08414) (from Ulm Univ, radar, point cloud, OD) [[Notes](paper_notes/radar_detection_pointnet.md)] 
 - [Learning Confidence for Out-of-Distribution Detection in Neural Networks](https://arxiv.org/abs/1802.04865) [[Notes](paper_notes/learning_ood_conf.md)]
 - [Distant Vehicle Detection Using Radar and Vision](https://arxiv.org/abs/1901.10951)
-- [A Deep Learning Approach to Traffic Lights: Detection, Tracking, and Classification](https://doi.org/10.1109/ICRA.2017.7989163) <kbd>ICRA 2017</kbd>
+- [A Deep Learning Approach to Traffic Lights: Detection, Tracking, and Classification](assets/papers/bosch_traffic_lights.pdf) [[Notes](paper_notes/bosch_traffic_lights.md)] <kbd>ICRA 2017</kbd>
 
 
 ## 2019-06 (12)
