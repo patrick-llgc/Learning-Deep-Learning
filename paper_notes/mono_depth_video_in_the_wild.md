@@ -11,7 +11,7 @@ This network regresses depth, ego-motion, object motion and camera intrinsics fr
 
 #### Key ideas
 - Estimate each of the intrinsics
-- Occlusion aware loss (picking the 
+- Occlusion aware loss (picking the most foreground pixels during photometric loss calculation)
 - Foreground mask to mask out the possible moving objects. 
 - Use a randomized layer optimization (this is quite weird)
 
@@ -21,3 +21,4 @@ This network regresses depth, ego-motion, object motion and camera intrinsics fr
 #### Notes
 - In detail, how was the lens correction regressed?
 - See interview with the CEO of isee [on this paper](https://medium.com/syncedreview/google-ai-unsupervised-depth-estimation-for-arbitrary-videos-51d97ec0d70).
+- Q: Can we project the intermediate representation (3D points) to BEV instead of back to camera plane for loss calculation? This would eliminate the need for using occlusion-aware loss. 
