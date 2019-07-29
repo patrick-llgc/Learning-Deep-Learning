@@ -32,8 +32,15 @@ The sections below records paper reading activity in chronological order. See no
 - [A study on Radar Target Detection Based on Deep Neural Networks](https://www.researchgate.net/publication/330748053_A_Study_on_Radar_Target_Detection_Based_on_Deep_Neural_Networks) (radar, RD map, OD) [[Notes](paper_notes/radar_target_detection_tsinghua.md)] 
 - [2D Car Detection in Radar Data with PointNets](https://arxiv.org/abs/1904.08414) (from Ulm Univ, radar, point cloud, OD) [[Notes](paper_notes/radar_detection_pointnet.md)] 
 - [Learning Confidence for Out-of-Distribution Detection in Neural Networks](https://arxiv.org/abs/1802.04865) [[Notes](paper_notes/learning_ood_conf.md)]
-- [Distant Vehicle Detection Using Radar and Vision](https://arxiv.org/abs/1901.10951)
+
 - [A Deep Learning Approach to Traffic Lights: Detection, Tracking, and Classification](assets/papers/bosch_traffic_lights.pdf) [[Notes](paper_notes/bosch_traffic_lights.md)] <kbd>ICRA 2017</kbd>
+- [How hard can it be? Estimating the difficulty of visual search in an image](https://arxiv.org/abs/1705.08280) [[Notes](paper_notes/how_hard_can_it_be.md)] <kbd>CVPR 2016</kbd>
+- [Deep Multi-modal Object Detection and Semantic Segmentation for Autonomous Driving: Datasets, Methods, and Challenges](https://arxiv.org/pdf/1902.07830.pdf) [[Notes](paper_notes/deep_fusion_review.md)] (review from Bosch)
+- [PointFusion: Deep Sensor Fusion for 3D Bounding Box Estimation](https://arxiv.org/pdf/1711.10871.pdf) <kbd>CVPR 2018</kbd>
+- [Orthographic Feature Transform for Monocular 3D Object Detection](https://arxiv.org/pdf/1811.08188.pdf) (Convert camera to BEV)
+- [A Novel Approach for Detecting Road Based on Two-Stream Fusion Fully Convolutional Network]() (convert camera to BEV)
+- [Classification of Objects in Polarimetric Radar Images Using CNNs at 77 GHz](http://sci-hub.tw/10.1109/APMC.2017.8251453) (Radar, polar)
+- [Distant Vehicle Detection Using Radar and Vision](https://arxiv.org/abs/1901.10951) [[Notes]()] <-- todo!
 
 
 ## 2019-06 (12)
@@ -257,7 +264,6 @@ Here is the list of papers waiting to be read.
 - [PointSIFT: A SIFT-like Network Module for 3D Point Cloud Semantic Segmentation](https://arxiv.org/pdf/1807.00652.pdf) (pointnet alternative, backbone)
 - [Vehicle Detection from 3D Lidar Using Fully Convolutional Network](https://arxiv.org/pdf/1608.07916.pdf) (VeloFCN) <kbd>RSS 2016</kbd> 
 - [3D Bounding Box Estimation Using Deep Learning and Geometry](https://arxiv.org/pdf/1612.00496.pdf) (Deep3dBox) <kbd>CVPR 2017</kbd>
-- [PointFusion: Deep Sensor Fusion for 3D Bounding Box Estimation](https://arxiv.org/pdf/1711.10871.pdf) <kbd>CVPR 2018</kbd>
 - [Intro：Sensor Fusion for Adas 无人驾驶中的数据融合 (from 知乎)](https://zhuanlan.zhihu.com/p/40967227) (Up to CVPR 2018)
 - [Deep Hough Voting for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/1904.09664.pdf) (from Charles Qi)
 - [Efficient Deep Learning Inference based on Model Compression](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w33/Zhang_Efficient_Deep_Learning_CVPR_2018_paper.pdf) (Model Compression)
@@ -278,7 +284,6 @@ Here is the list of papers waiting to be read.
 - [Depth Map Prediction from a Single Image using a Multi-Scale Deep Network](https://arxiv.org/pdf/1406.2283.pdf) <kbd>NIPS 2014</kbd> (Eigen et al)
 - [3D Deep Learning Tutorial at CVPR 2017](https://www.youtube.com/watch?v=8CenT_4HWyY) [[Notes](paper_notes/3ddl_cvpr2017.md)] - (WIP)
 - [Review of Graph Spectrum Theory](paper_notes/graph_spectrum.md) (WIP)
-- [Deep Multi-modal Object Detection and Semantic Segmentation for Autonomous Driving: Datasets, Methods, and Challenges](https://arxiv.org/pdf/1902.07830.pdf) (review from Bosch)
 - [Learning Depth from Monocular Videos using Direct Methods](https://arxiv.org/abs/1712.00175) <kbd>CVPR 2018</kbd> (monocular depth estimation)
 - [Polar Transformer Networks](https://arxiv.org/abs/1709.01889) <kbd>ICLR 2018</kbd>
 - [Circular Object Detection in Polar Coordinates for 2D LIDAR Data](https://www.researchgate.net/publication/309365539_Circular_Object_Detection_in_Polar_Coordinates_for_2D_LIDAR_DataCCPR2016) <kbd>CCPR 2016</kbd>
