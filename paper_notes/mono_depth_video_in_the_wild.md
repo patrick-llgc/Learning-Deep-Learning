@@ -16,7 +16,7 @@ This network regresses depth, ego-motion, object motion and camera intrinsics fr
 - Use a randomized layer optimization (this is quite weird)
 
 #### Technical details
-- Summary of technical details
+- Sometimes an overall supervision signal is given to two tightly coupled parameters and it is not enough to get accurate estimate for both parameters. (cf. [Deep3Dbox](deep3dbox.md))
 
 #### Notes
 - In detail, how was the lens correction regressed?
