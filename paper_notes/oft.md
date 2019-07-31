@@ -7,7 +7,7 @@ tl;dr: Learn a projection of camera image to BEV for 3D object detection.
 #### Overall impression
 This paper is brilliant! It combines several key innovations in the past year: camera to BEV projection (similar to [pseudo-lidar](pseudo_lidar.md)), and anchor-free object detection (similar to [CenterNet](centernet_ut.md)).
 
-However the dumb way of reprojection perhaps limited the performance of the model, which is significantly below that of [MLF](mlf.md) and [pseudo-lidar](pseudo_lidar.md).
+However the way of reprojection without depth estimation perhaps limited the performance of the model, which is significantly below that of [MLF](mlf.md) and [pseudo-lidar](pseudo_lidar.md). For simple depth estimation and 3D reasoning using 2bbox and CV, refer to [Deep3dBox](deep3dbox.md) and [MonoPSR](monopsr.md).
 
 #### Key ideas
 - [CenterNet](centernet_ut.md)-like Detection pipeline. 
@@ -20,7 +20,6 @@ However the dumb way of reprojection perhaps limited the performance of the mode
 - Replace batchnorm with groupnorm.
 - Data augmentation and adjusting intrinsic parameters accordingly (including cx, cy and fx and fy, c.f., [depth in the wild](mono_depth_video_in_the_wild.md) paper).
 - Sum loss instead of averaging to avoid biasing toward examples with few object instances.
- 
 
 #### Notes
 - No occlusion was accounted for during 3D transformation. That means many voxels in 3D space actually share the same features pooled from the 2D feature map. --> This can be improved by estimating depth before reprojection.
