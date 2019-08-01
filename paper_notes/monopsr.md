@@ -12,7 +12,7 @@ This paper is heavily influenced by [deep3dbox](deep3dbox.md), in particular the
 The reconstruction branch regresses a local point cloud of the object and compares with the GT in point cloud and camera (after projection). The paper did not talk about the incremental boost of this branch, and seems to be just a fancy regularization branch (multi-task).
 
 #### Key ideas
-- **Shared feature map** is created by concatenating features ROIPooled from feature map, and features learned from image patches. 
+- **Shared feature map** is created by concatenating features ROIPooled from feature map, and features learned from image patches. (c.f. the two ROI pooling branches, one with tight bbox and the other with dilated bbox in [mono3d](mono3d.md)).
 - Proposal depth initialized from the bbox height and real height of objects. This leads to more accurate depth estimation. It is even possible to regress the residual distance directly from the patch.
 - Proposal stage
 	- estimate the physical dimension (offset from class average) and orientation (mainly the local angle, or observation angle, NOT the yaw)

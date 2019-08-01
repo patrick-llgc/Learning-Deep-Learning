@@ -20,8 +20,8 @@ This repository contains my paper reading notes on deep learning and machine lea
 The sections below records paper reading activity in chronological order. See notes organized according to subfields [here](organized.md) (up to 06-2019). 
 
 
-## 2019-08 (0)
-- [Mono3D: Monocular 3D Object Detection for Autonomous Driving](https://www.cs.toronto.edu/~urtasun/publications/chen_etal_cvpr16.pdf) (Mono3D) <kbd>CVPR2016</kbd>
+## 2019-08 (1)
+- [Mono3D: Monocular 3D Object Detection for Autonomous Driving](https://www.cs.toronto.edu/~urtasun/publications/chen_etal_cvpr16.pdf) [[Notes](paper_notes/mono3d.md)] <kbd>CVPR2016</kbd>
 - [Mono3D++: Monocular 3D Vehicle Detection with Two-Scale 3D Hypotheses and Task Priors](https://arxiv.org/abs/1901.03446) (from Stefano Soatto) <kbd>AAAI 2018</kbd>
 - [3DOP: 3D Object Proposals for Accurate Object Class Detection](https://papers.nips.cc/paper/5644-3d-object-proposals-for-accurate-object-class-detection) <kbd>NIPS 2015</kbd>
 - [Disentangling Monocular 3D Object Detection](https://arxiv.org/abs/1905.12365) <kbd>ICCV 2019</kbd>
