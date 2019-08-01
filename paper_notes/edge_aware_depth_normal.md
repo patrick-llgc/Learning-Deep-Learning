@@ -2,7 +2,7 @@
 
 _July 2019_
 
-tl;dr: Extend [SfM-Learner](sfm_learner.md) by introducing a surface normal presentation.
+tl;dr: Extend [SfM-Learner](sfm_learner.md) by introducing a surface normal presentation. Precursor to [LEGO](lego.md).
 
 #### Overall impression
 The idea is good, that we introduce a surface normal map, which at each point should be perpendicular to the depth estimation. 
