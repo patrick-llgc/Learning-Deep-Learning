@@ -8,6 +8,7 @@ tl;dr: The pioneering paper on monocular 3dod, with tons of hand crafted feature
 The paper is quite innovative at the time being, but looks rather archaic three years later in 2019. In particular, it chose to use Fast (not Faster) RCNN as base net, together with tons of hand crafted features. Many of the cited work are pre-DL era. From industry's standpoint of view, this paper is of little practical use as of 2019.
 
 #### Key ideas
+- **Major drawback**: Requires semantic and instance semantic results as input during inference. 
 - Proposal generation by placing dense proposals (~14K) with prior templates on several proposed ground plane, then score. Heavily influenced by the line of work of faster RCNN. The proposal generation part has the following criterion as scoring function.
 	- Generate location heatmap as prior for proposal generation.
 	- Cross a patch below the car bbox as context. 
