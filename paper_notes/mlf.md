@@ -2,10 +2,10 @@
 
 _Aug 2019_
 
-tl;dr: Estimate depth map from monocular RGB and use the depth info for 3D object detection.
+tl;dr: Estimate depth map from monocular RGB and concat to be RGBD for mono 3DOD.
 
 #### Overall impression
-This paper inspired a more influential paper, [pseudo-lidar](pseudo_lidar.md). Especially, Figure 3 basically has the idea of projecting depth map to point cloud, but it was only used for visualization of the detection results. From Fig. 3 it is quite natural to think about object detection with this pseudo-point cloud.
+This paper inspired a more influential paper, [pseudo-lidar](pseudo_lidar.md). Especially, Figure 3 basically has the idea of projecting depth map to point cloud, but it was only used for visualization of the detection results. From Fig. 3 it is quite natural to think about object detection with this pseudo-point cloud. Unfortunately, the paper just concat the D to RGB and yielded only suboptimal performance (similar to [ROI 10D](roi10d.md)).
 
 The idea of regressing the 3D location through local features and global features is correct, but the formulation (addition of predictions from the two branches) are doubtful. Why not concat the features?
 

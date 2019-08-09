@@ -5,7 +5,7 @@ _August 2019_
 tl;dr: Concat depth map and coord map to RGB features + 2DOD + car shape reconstruction (6d latent space) for mono 3DOD.
 
 #### Overall impression
-The paper also follows the idea of extruding a ROI to 3D.
+Like [MLF](mlf.md), this paper only concat D to RGB, making the performance sub-optimal.
 
 Surprisingly the shape can be approximated pretty well even with 1D (scaling factor). 6D is chosen for this paper to include more details. However this work still concats depth to RGB features instead of lifting RGB into point cloud. This is clearly inferior to other SOTA methods such as [pseudo-lidar](pseudo_lidar.md) and [pseudo-lidar++](pseudo_lidar++.md).
 
