@@ -20,17 +20,17 @@ This repository contains my paper reading notes on deep learning and machine lea
 The sections below records paper reading activity in chronological order. See notes organized according to subfields [here](organized.md) (up to 06-2019). 
 
 
-## 2019-08 (4)
+## 2019-08 (7)
 - [Mono3D: Monocular 3D Object Detection for Autonomous Driving](https://www.cs.toronto.edu/~urtasun/publications/chen_etal_cvpr16.pdf) [[Notes](paper_notes/mono3d.md)] <kbd>CVPR2016</kbd>
 - [MonoDIS: Disentangling Monocular 3D Object Detection](https://arxiv.org/abs/1905.12365) [[Notes](paper_notes/monodis.md)] <kbd>ICCV 2019</kbd>
 - [Pseudo lidar-e2e: Monocular 3D Object Detection with Pseudo-LiDAR Point Cloud](https://arxiv.org/abs/1903.09847) [[Notes](paper_notes/pseudo_lidar_e2e.md)] (pseudo-lidar with 2d and 3d consistency loss, better than PL and worse than PL++, SOTA for pure mono3D)
 - [MonoGRNet: A Geometric Reasoning Network for Monocular 3D Object Localization](https://arxiv.org/pdf/1811.10247.pdf) [[Notes](paper_notes/monogrnet.md)] <kbd>AAAI 2019</kbd> (SOTA of Mono3DOD, MLF < MonoGRNet < Pseudo-lidar)
 - [MLF: Multi-Level Fusion based 3D Object Detection from Monocular Images](http://openaccess.thecvf.com/content_cvpr_2018/papers/Xu_Multi-Level_Fusion_Based_CVPR_2018_paper.pdf) [[Notes](paper_notes/mlf.md)] <kbd>CVPR 2018</kbd> (precursor to pseudo-lidar)
 - [ROI-10D: Monocular Lifting of 2D Detection to 6D Pose and Metric Shape](https://arxiv.org/abs/1812.02781) [[Notes](paper_notes/roi10d.md)] <kbd>CVPR 2019</kbd>
+- [Accurate Monocular 3D Object Detection via Color-Embedded 3D Reconstruction for Autonomous Driving](https://arxiv.org/pdf/1903.11444.pdf) \[[Notes](paper_notes/pseudo_lidar_color.md)] (similar to pseudo-lidar, color-enhanced)
 - [RoarNet: A Robust 3D Object Detection based on RegiOn Approximation Refinement](https://arxiv.org/abs/1811.03818) (3D mono proposal, refined in point cloud)
 - [Mono3D++: Monocular 3D Vehicle Detection with Two-Scale 3D Hypotheses and Task Priors](https://arxiv.org/abs/1901.03446) (from Stefano Soatto) <kbd>AAAI 2018</kbd>
 - [3DOP: 3D Object Proposals for Accurate Object Class Detection](https://papers.nips.cc/paper/5644-3d-object-proposals-for-accurate-object-class-detection) <kbd>NIPS 2015</kbd>
-- [Accurate Monocular 3D Object Detection via Color-Embedded 3D Reconstruction for Autonomous Driving](https://arxiv.org/pdf/1903.11444.pdf) (similar to pseudo-lidar)
 - [3D-RCNN: Instance-level 3D Object Reconstruction via Render-and-Compare](http://openaccess.thecvf.com/content_cvpr_2018/papers/Kundu_3D-RCNN_Instance-Level_3D_CVPR_2018_paper.pdf) (from Uber ATG)
 - [Revisiting Small Batch Training for Deep Neural Networks](https://arxiv.org/abs/1804.07612)
 - [Detect to Track and Track to Detect](https://arxiv.org/abs/1710.03958) <kbd>ICCV 2017</kbd> (from Christoph Feichtenhofer)
