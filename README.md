@@ -30,18 +30,15 @@ The sections below records paper reading activity in chronological order. See no
 - [Accurate Monocular 3D Object Detection via Color-Embedded 3D Reconstruction for Autonomous Driving](https://arxiv.org/pdf/1903.11444.pdf) \[[Notes](paper_notes/pseudo_lidar_color.md)] (similar to pseudo-lidar, color-enhanced)
 - [Deep Metadata Fusion for Traffic Light to Lane Assignment](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8613841) [[Notes](paper_notes/deep_metadata_fusion_tl2la.md)] <kbd>IEEE RA-L 2019</kbd> (traffic lights association)
 - [Automatic Traffic Light to Ego Vehicle Lane Association at Complex Intersections](https://ieeexplore.ieee.org/document/8569421) <kbd>ITSC 2019</kbd> (traffic lights association)
-- [RoarNet: A Robust 3D Object Detection based on RegiOn Approximation Refinement](https://arxiv.org/abs/1811.03818) (3D mono proposal, refined in point cloud)
 - [Mono3D++: Monocular 3D Vehicle Detection with Two-Scale 3D Hypotheses and Task Priors](https://arxiv.org/abs/1901.03446) (from Stefano Soatto) <kbd>AAAI 2018</kbd>
 - [3DOP: 3D Object Proposals for Accurate Object Class Detection](https://papers.nips.cc/paper/5644-3d-object-proposals-for-accurate-object-class-detection) <kbd>NIPS 2015</kbd>
-- [3D-RCNN: Instance-level 3D Object Reconstruction via Render-and-Compare](http://openaccess.thecvf.com/content_cvpr_2018/papers/Kundu_3D-RCNN_Instance-Level_3D_CVPR_2018_paper.pdf) (from Uber ATG)
-- [Revisiting Small Batch Training for Deep Neural Networks](https://arxiv.org/abs/1804.07612)
-- [Detect to Track and Track to Detect](https://arxiv.org/abs/1710.03958) <kbd>ICCV 2017</kbd> (from Christoph Feichtenhofer)
-- [A Novel Approach for Detecting Road Based on Two-Stream Fusion Fully Convolutional Network]() (convert camera to BEV)
-- [Classification of Objects in Polarimetric Radar Images Using CNNs at 77 GHz](http://sci-hub.tw/10.1109/APMC.2017.8251453) (Radar, polar)o
-- [Distant Vehicle Detection Using Radar and Vision](https://arxiv.org/abs/1901.10951) [[Notes]()] <-- todo!
-- [PointFusion: Deep Sensor Fusion for 3D Bounding Box Estimation](https://arxiv.org/pdf/1711.10871.pdf) <kbd>CVPR 2018</kbd>
-- [A Survey on 3D Object Detection Methods for Autonomous Driving Applications](http://wrap.warwick.ac.uk/114314/1/WRAP-survey-3D-object-detection-methods-autonomous-driving-applications-Arnold-2019.pdf) (Survey) <kbd>TITS 2019</kbd>
+- [3D-RCNN: Instance-level 3D Object Reconstruction via Render-and-Compare](http://openaccess.thecvf.com/content_cvpr_2018/papers/Kundu_3D-RCNN_Instance-Level_3D_CVPR_2018_paper.pdf) <kbd>CVPR 2018</kbd> (from Uber ATG)
 - [Eliminating the Blind Spot: Adapting 3D Object Detection and Monocular Depth Estimation to 360° Panoramic Imagery](https://arxiv.org/abs/1808.06253) <kbd>ECCV 2018</kbd> (Monocular 3D object detection and depth estimation)
+- [A Survey on 3D Object Detection Methods for Autonomous Driving Applications](http://wrap.warwick.ac.uk/114314/1/WRAP-survey-3D-object-detection-methods-autonomous-driving-applications-Arnold-2019.pdf) (Survey) <kbd>TITS 2019</kbd>
+- [A Novel Approach for Detecting Road Based on Two-Stream Fusion Fully Convolutional Network]() (convert camera to BEV)
+- [Classification of Objects in Polarimetric Radar Images Using CNNs at 77 GHz](http://sci-hub.tw/10.1109/APMC.2017.8251453) (Radar, polar)
+- [Distant Vehicle Detection Using Radar and Vision](https://arxiv.org/abs/1901.10951) [[Notes]()] <-- todo! (Radar)
+- [PointFusion: Deep Sensor Fusion for 3D Bounding Box Estimation](https://arxiv.org/pdf/1711.10871.pdf) <kbd>CVPR 2018</kbd>
 - [DORN: Deep Ordinal Regression Network for Monocular Depth Estimation](https://arxiv.org/pdf/1806.02446.pdf) <kbd>CVPR 2018</kbd> 
 - [In-Place Activated BatchNorm for Memory-Optimized Training of DNNs](https://arxiv.org/abs/1712.02616) <kbd>CVPR 2018</kbd> (optimized BatchNorm + ReLU)
 - [The DriveU Traffic Light Dataset: Introduction and Comparison with Existing Datasets](https://ieeexplore.ieee.org/document/8460737) <kbd>ICRA 2018</kbd> 
@@ -55,8 +52,12 @@ The sections below records paper reading activity in chronological order. See no
 - [DirectShape: Photometric Alignment of Shape Priors for Visual Vehicle Pose and Shape Estimation](https://arxiv.org/abs/1904.10097)
 - [M3D-RPN: Monocular 3D Region Proposal Network for Object Detection](https://arxiv.org/abs/1907.06038) (Xiaoming Liu)
 - [Learning 2D to 3D Lifting for Object Detection in 3D for Autonomous Vehicles](https://arxiv.org/abs/1904.08494) (BirdGAN)
-- [an intrigging faiing of convolutional neural networks and the cordconv solution]()
+- [An intriguing failing of convolutional neural networks and the CoordConv solution](https://arxiv.org/abs/1807.03247) [[Notes](paper_notes/coord_conv.md)] <kbd>NIPS 2018</kbd>
+- [Vision for Looking at Traffic Lights: Issues, Survey, and Perspectives](http://cvrr.ucsd.edu/publications/2016/trafficSignalsITSTrans2016.pdf) (traffic light survey, UCSD LISA)
 - [Deep Fusion of Heterogeneous Sensor Modalities for the Advancements of ADAS to Autonomous Vehicles](http://sci-hub.tw/10.1109/VLSI-DAT.2018.8373245)
+- [Revisiting Small Batch Training for Deep Neural Networks](https://arxiv.org/abs/1804.07612)
+- [Detect to Track and Track to Detect](https://arxiv.org/abs/1710.03958) <kbd>ICCV 2017</kbd> (from Christoph Feichtenhofer)
+
 
 ## 2019-07 (19)
 - [Deep Parametric Continuous Convolutional Neural Networks](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Deep_Parametric_Continuous_CVPR_2018_paper.pdf) [[Notes](paper_notes/parametric_cont_conv.md)] <kbd>CVPR 2018</kbd> (@Uber, sensor fusion)
@@ -321,6 +322,8 @@ Here is the list of papers waiting to be read.
 - [Learning Depth from Monocular Videos using Direct Methods](https://arxiv.org/abs/1712.00175) <kbd>CVPR 2018</kbd> (monocular depth estimation)
 - [Polar Transformer Networks](https://arxiv.org/abs/1709.01889) <kbd>ICLR 2018</kbd>
 - [Circular Object Detection in Polar Coordinates for 2D LIDAR Data](https://www.researchgate.net/publication/309365539_Circular_Object_Detection_in_Polar_Coordinates_for_2D_LIDAR_DataCCPR2016) <kbd>CCPR 2016</kbd>
+- [RoarNet: A Robust 3D Object Detection based on RegiOn Approximation Refinement](https://arxiv.org/abs/1811.03818) (sensor fusion, 3D mono proposal, refined in point cloud)
+
 
 ## Technical Debt
 - CRF

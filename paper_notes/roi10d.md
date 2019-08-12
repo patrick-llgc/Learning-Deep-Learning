@@ -29,3 +29,4 @@ $$B = q [\pm w/2, \pm h/2, \pm l/2]^T q^{-1} + K^{-1} [xz, yz, z]^T$$
 
 #### Notes
 - The paper mentioned that 3D and 2D NMS matters a lot. --> Can we use center net to do mono 3DOD?
+- How much performance boost is from coord conv is unclear. See [coordconv](coord_conv.md) for an interesting technique.
