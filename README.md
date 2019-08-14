@@ -30,6 +30,7 @@ The sections below records paper reading activity in chronological order. See no
 - [Accurate Monocular 3D Object Detection via Color-Embedded 3D Reconstruction for Autonomous Driving](https://arxiv.org/pdf/1903.11444.pdf) \[[Notes](paper_notes/pseudo_lidar_color.md)] (similar to pseudo-lidar, color-enhanced)
 - [Deep Metadata Fusion for Traffic Light to Lane Assignment](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8613841) [[Notes](paper_notes/deep_metadata_fusion_tl2la.md)] <kbd>IEEE RA-L 2019</kbd> (traffic lights association)
 - [Automatic Traffic Light to Ego Vehicle Lane Association at Complex Intersections](https://ieeexplore.ieee.org/document/8569421) <kbd>ITSC 2019</kbd> (traffic lights association)
+- [Distant Vehicle Detection Using Radar and Vision](https://arxiv.org/abs/1901.10951) \[[Notes](paper_notes/distant_object_radar.md)] (radar, vision, radar tracklets fusion)
 - [Mono3D++: Monocular 3D Vehicle Detection with Two-Scale 3D Hypotheses and Task Priors](https://arxiv.org/abs/1901.03446) (from Stefano Soatto) <kbd>AAAI 2018</kbd>
 - [3DOP: 3D Object Proposals for Accurate Object Class Detection](https://papers.nips.cc/paper/5644-3d-object-proposals-for-accurate-object-class-detection) <kbd>NIPS 2015</kbd>
 - [3D-RCNN: Instance-level 3D Object Reconstruction via Render-and-Compare](http://openaccess.thecvf.com/content_cvpr_2018/papers/Kundu_3D-RCNN_Instance-Level_3D_CVPR_2018_paper.pdf) <kbd>CVPR 2018</kbd> (from Uber ATG)
@@ -37,8 +38,7 @@ The sections below records paper reading activity in chronological order. See no
 - [A Survey on 3D Object Detection Methods for Autonomous Driving Applications](http://wrap.warwick.ac.uk/114314/1/WRAP-survey-3D-object-detection-methods-autonomous-driving-applications-Arnold-2019.pdf) (Survey) <kbd>TITS 2019</kbd>
 - [A Novel Approach for Detecting Road Based on Two-Stream Fusion Fully Convolutional Network]() (convert camera to BEV)
 - [Classification of Objects in Polarimetric Radar Images Using CNNs at 77 GHz](http://sci-hub.tw/10.1109/APMC.2017.8251453) (Radar, polar)
-- [Distant Vehicle Detection Using Radar and Vision](https://arxiv.org/abs/1901.10951) [[Notes]()] <-- todo! (Radar)
-- [PointFusion: Deep Sensor Fusion for 3D Bounding Box Estimation](https://arxiv.org/pdf/1711.10871.pdf) <kbd>CVPR 2018</kbd>
+- [PointFusion: Deep Sensor Fusion for 3D Bounding Box Estimation](https://arxiv.org/pdf/1711.10871.pdf) <kbd>CVPR 2018</kbd> (sensor fusion)
 - [DORN: Deep Ordinal Regression Network for Monocular Depth Estimation](https://arxiv.org/pdf/1806.02446.pdf) <kbd>CVPR 2018</kbd> 
 - [In-Place Activated BatchNorm for Memory-Optimized Training of DNNs](https://arxiv.org/abs/1712.02616) <kbd>CVPR 2018</kbd> (optimized BatchNorm + ReLU)
 - [The DriveU Traffic Light Dataset: Introduction and Comparison with Existing Datasets](https://ieeexplore.ieee.org/document/8460737) <kbd>ICRA 2018</kbd> 

@@ -7,6 +7,8 @@ tl;dr: Use the same network to estimate instance depth, 2D and 3D bbox.
 #### Overall impression
 The authors raises a critical issue in the current depth estimation that the evaluation metrics are not focused on instance level depth estimation. That means all SOTA methods are sub-optimal in terms of estimating instance level depth. This point echoes mine that the pixel wise depth map need finetune for 3D object detection, as opposed to freezing it as done in [pseudo-lidar end2end](pseudo_lidar_e2e.md).
 
+However the depth estimation is instance based sparse depth info. --> There should be a way to marry depth estimation and 3D object detection together.
+
 However the ablation study is a bit insufficient. It did not show what are the main reasons for missed detection. Is it due to the sub-par 2D object detector? 
 
 #### Key ideas

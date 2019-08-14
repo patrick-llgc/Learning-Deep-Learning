@@ -19,3 +19,4 @@ The paper results are very convincing, and the technique is super efficient. Ess
 #### Notes
 - Uber made a [video presenting this paper](https://www.youtube.com/watch?v=8yFQc6elePA).
 - A concurrent paper from VGG has more theoretical analysis [Semi-convolutional Operators for Instance Segmentation](https://arxiv.org/abs/1807.10712) <kbd>ECCV 2018</kbd>.
+- This technique seems to alleviate checkerboard artifacts as well. This is a good alternative to [using bilinear upsampling](https://distill.pub/2016/deconv-checkerboard/).
