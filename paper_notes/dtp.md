@@ -5,6 +5,8 @@ _August 2019_
 tl;dr: Dynamically adjust the weight of tasks during training based on training progress with focal loss.
 
 #### Overall impression
+[GradNorm](gradnorm.md) and [dynamic task prioritization](dtp.md) are very similar. However the weight rate adjustment is exponential as compared to focal loss (essentially also exponential), and the progress signal is loss drop as compared to KPI.
+
 This paper is one important task in **self-paced learning** (automated approach to curriculum learning). Task weights are usually done with extensive grid search, and maintain static throughout time.
 
 Contrary to curriculum learning, the paper proposes that it is important to prioritize difficult task first. Perfecting simple tasks wastes valuable resources.
@@ -34,4 +36,4 @@ This work explored two methods: 1) assign dynamic weights to tasks. 2) structure
 #### Notes
 - This work still manually craft a policy to adjust the relative weights to the tasks --> Can we learn a better policy based on progress signal? Automated curriculum learning via reinforcement learning.
 - Maybe we can design a ZipperNet to learn where to split the tasks head off a common backbone? Looks like a NAS project. 
-- This method can be extended to incorporate with percentile to be more robust to noise. 
+- This method can be extended to incorporate with percentile to be more robust to noise. Also, renormalize the weights so they add up to one.
