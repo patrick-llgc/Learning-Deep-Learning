@@ -7,6 +7,16 @@ tl;dr: Self-paced learning based on homoscedastic uncertainty.
 #### Overall impression
 The paper spent much math details deriving the formulation of mutitask loss function based on the idea of maximizing the Gaussian likelihood with himoscedastic uncertainty. However once implemented, the formulation is extremely straightforward and easy to implement. 
 
+
+| Methods   | Learning Progress Signal      | hyperparameters|
+| ------ | --------- | -------- | 
+| [Uncertainty Weighting](uncertainty_multitask.md)  | Homoscedastic Uncertainty |No hyperparameters |
+| [GradNorm](gradnorm.md)              | Training loss ratio  | 1 exponential weighting factor|
+| [Dynamic Task Prioritization](dtp.md) | KPI |1 focal loss scaling factor|
+
+
+
+
 #### Key ideas
 - Uncertainties (for details refer to [uncertainty in bayesian DL](uncertainty_bdl.md))
 	- Epistemic uncertainty: model uncertainty
@@ -23,4 +33,31 @@ This formulation can be easily generalized to almost any loss function. There is
 
 #### Notes
 - OPTICS clustering algorithm (Ordering points to identify the clustering structure) is similar to DBSCAN, but less sensitive to parameter settings. See tutorial [here](https://pro.arcgis.com/en/pro-app/tool-reference/spatial-statistics/how-density-based-clustering-works.htm) and [coursera video](https://www.coursera.org/lecture/cluster-analysis/5-3-optics-ordering-points-to-identify-clustering-structure-JiYeI).
+- [TF implemenatation](https://github.com/ranandalon/mtl/blob/master/utils/loss_handler.py#L6) and [pytorch implementation](https://github.com/CubiCasa/CubiCasa5k/blob/master/floortrans/losses/uncertainty_loss.py) and [keras implemenation](https://github.com/yaringal/multi-task-learning-example).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

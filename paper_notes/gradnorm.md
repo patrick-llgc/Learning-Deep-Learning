@@ -9,7 +9,13 @@ tl;dr: Dynamically adjust the weight of the tasks based on training progress.
 
 Task imbalance impede proper training because they manifest as imbalances between backpropogated gradients. The balance is struck when tasks are **training at similar rates as measured by the loss ratio L(t)/L(0)**.
 
-Uncertainty weighting uses 1/L to adjust weight. --> this usually leads to weight too large too quickly, without normalization constraints. 
+| Methods   | Learning Progress Signal      | hyperparameters|
+| ------ | --------- | -------- | 
+| [Uncertainty Weighting](uncertainty_multitask.md)  | Homoscedastic Uncertainty |No hyperparameters |
+| [GradNorm](gradnorm.md)              | Training loss ratio  | 1 exponential weighting factor|
+| [Dynamic Task Prioritization](dtp.md) | KPI |1 focal loss scaling factor|
+
+ 
 
 #### Key ideas
 - The tedious grid search of hyperparameter can be efficient searched though a single parameter $\alpha$ to exponentially adjust the relative inverse training rate $r(t)$.
@@ -17,7 +23,8 @@ Uncertainty weighting uses 1/L to adjust weight. --> this usually leads to weigh
 	- Pick the gradient last layer of the backbone to monitor
 	- Get L2 norm of the feat for a task
 	- Get task average of L2 norm for a particular time
-	- The weights are not adjusted directly according to the progress but rather updated according to a GradNorm loss $Loss = \sum_{task}|G(t) - \bar{G}(t) \times [r(t)]^\alpha|$. the weights are renormalized to be 1 to ensure smooth training. 
+	- The weights are not adjusted directly according to the progress but rather updated according to a GradNorm loss 
+$$\text{L}_{grad} = \sum_{task}|G(t) - \bar{G}(t) \times [r(t)]^\alpha|$$ the weights are renormalized to be 1 to ensure smooth training. 
 
 #### Technical details
 - using static weight to retrain the model from scratch. These values lie closely with the optimal grid-searched weights.
@@ -25,4 +32,5 @@ Uncertainty weighting uses 1/L to adjust weight. --> this usually leads to weigh
 
 #### Notes
 - ipython notebook Demo on [github](https://github.com/hosseinshn/GradNorm/blob/master/GradNormv8.ipynb).
+- Uncertainty weighting uses 1/L to adjust weight. --> this usually leads to weight too large too quickly, without normalization constraints (this seems not to be the case?)
 

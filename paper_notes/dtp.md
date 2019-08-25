@@ -15,6 +15,12 @@ This work explored two methods: 1) assign dynamic weights to tasks. 2) structure
 
 ![](https://media.springernature.com/lw785/springer-static/image/chp%3A10.1007%2F978-3-030-01270-0_17/MediaObjects/474218_1_En_17_Fig1_HTML.gif)
 
+| Methods   | Learning Progress Signal      | hyperparameters|
+| ------ | --------- | -------- | 
+| [Uncertainty Weighting](uncertainty_multitask.md)  | Homoscedastic Uncertainty |No hyperparameters |
+| [GradNorm](gradnorm.md)              | Training loss ratio  | 1 exponential weighting factor|
+| [Dynamic Task Prioritization](dtp.md) | KPI |1 focal loss scaling factor|
+
 
 #### Key ideas
 - A critical assumption of curriculum learning is that the underlying distribution across all tasks is the same but the entropy increases over time. --> this is generally not true unless manually curate such tasks.
@@ -29,7 +35,7 @@ This work explored two methods: 1) assign dynamic weights to tasks. 2) structure
 
 #### Technical details
 - The FL weighting term's gradient can be detached.
-- COCO: small (<32^2), medium (32^2 ~ 96^2) and large (> 96^2).
+- COCO: small (< 32^2), medium (32^2 ~ 96^2) and large (> 96^2).
 - key-point tolerance is related to the head-neck length.
 - Pose estimation (keypoints) are harder than detection.
 
