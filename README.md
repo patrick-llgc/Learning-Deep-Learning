@@ -20,6 +20,7 @@ This repository contains my paper reading notes on deep learning and machine lea
 The sections below records paper reading activity in chronological order. See notes organized according to subfields [here](organized.md) (up to 06-2019). 
 
 ## 2019-09 (0)
+- [Review of Kálmán Filter](https://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/) (from Tim Babb, Pixar Animation) [[Notes](paper_notes/kalman_filter.md)]
 - [Adaptive Scheduling for Multi-Task Learning](https://marcpickett.com/cl2018/CL-2018_paper_82.pdf) <kbd>NIPS 2018</kbd> (NMT)
 - [3DOP: 3D Object Proposals for Accurate Object Class Detection](https://papers.nips.cc/paper/5644-3d-object-proposals-for-accurate-object-class-detection) <kbd>NIPS 2015</kbd>
 - [3D-RCNN: Instance-level 3D Object Reconstruction via Render-and-Compare](http://openaccess.thecvf.com/content_cvpr_2018/papers/Kundu_3D-RCNN_Instance-Level_3D_CVPR_2018_paper.pdf) <kbd>CVPR 2018</kbd> (from Uber ATG)
