@@ -24,6 +24,8 @@ The sections below records paper reading activity in chronological order. See no
 - [Universal Slimmable Networks]()
 - [R2CNN: Rotational Region CNN for Orientation Robust Scene Text Detection](https://arxiv.org/abs/1706.09579)
 - [Learning RoI Transformer for Oriented Object Detection in Aerial Images](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ding_Learning_RoI_Transformer_for_Oriented_Object_Detection_in_Aerial_Images_CVPR_2019_paper.pdf) <kbd>CVPR 2019</kbd>
+- [TI white paper: Webinar: mmWave Radar for Automotive and Industrial applications
+](https://training.ti.com/epd-pro-rap-mmwaveradar-adh-tr-webinar-eu) \[[Notes](paper_notes/ti_mmwave_radar_webinar.md)] (TI, radar)
 - [Once for All: Train One Network and Specialize it for Efficient Deployment](https://arxiv.org/pdf/1908.09791.pdf)
 - [Review of Kálmán Filter](https://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/) (from Tim Babb, Pixar Animation) [[Notes](paper_notes/kalman_filter.md)]
 - [Adaptive Scheduling for Multi-Task Learning](https://marcpickett.com/cl2018/CL-2018_paper_82.pdf) <kbd>NIPS 2018</kbd> (NMT)
@@ -119,7 +121,7 @@ The sections below records paper reading activity in chronological order. See no
 - [Object Detection based on Region Decomposition and Assembly](https://arxiv.org/pdf/1901.08225.pdf) [[Notes](paper_notes/object_detection_region_decomposition.md)] <kbd> AAAI 2019 </kbd>
 - [The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks](https://arxiv.org/abs/1803.03635) [[Notes](paper_notes/lottery_ticket_hypothesis.md)] <kbd> ICLR 2019 </kbd>
 - [M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network](https://arxiv.org/abs/1811.04533) [[Notes](paper_notes/m2det.md)] <kbd> AAAI 2019 </kbd>
-- [Deep Radar Detector](assets/papers/deep_radar_detector.pdf) [[Notes](paper_notes/deep_radar_detector.md)] <kbd> RadarCon 2019</kbd>
+- [Deep Radar Detector](https://arxiv.org/abs/1906.12187) [[Notes](paper_notes/deep_radar_detector.md)] <kbd> RadarCon 2019</kbd>
 - [Semantic Segmentation on Radar Point Clouds](https://ieeexplore.ieee.org/document/8455344) [[[Notes](paper_notes/radar_point_semantic_seg.md)]] (from Daimler AG) <kbd> FUSION 2018</kbd>
 - [Pruning Filters for Efficient ConvNets](https://arxiv.org/pdf/1608.08710.pdf) [[Notes](paper_notes/pruning_filters.md)] <kbd>ICLR 2017</kbd>
 - [Layer-compensated Pruning for Resource-constrained Convolutional Neural Networks](https://arxiv.org/pdf/1810.00518.pdf) [[Notes](paper_notes/layer_compensated_pruning.md)] <kbd>NIPS 2018 Talk</kbd>
