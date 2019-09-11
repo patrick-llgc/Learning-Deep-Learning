@@ -33,6 +33,7 @@ The sections below records paper reading activity in chronological order. See no
 - [deep-sort: Simple Online and Realtime Tracking with a Deep Association Metric](https://arxiv.org/abs/1703.07402) [[Notes](paper_notes/deep_sort.md)]
 - [MT-CNN: Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks](https://kpzhang93.github.io/MTCNN_face_detection_alignment/) [[Notes](paper_notes/mtcnn.md)] <kbd>SPL 2016</kbd> (real time, facial landmark)
 - [RetinaFace: Single-stage Dense Face Localisation in the Wild](https://arxiv.org/abs/1905.00641) (joint object and landmark detection)
+- [Unsupervised Scale-consistent Depth and Ego-motion Learning from Monocular Video](https://arxiv.org/abs/1908.10553) [[Notes](paper_notes/sc_sfm_learner.md)] <kbd>NIPS 2019</kbd>
 - [SiamMask: Fast Online Object Tracking and Segmentation: A Unifying Approach](https://arxiv.org/abs/1812.05050) <kbd>CVPR 2019</kbd> (tracking, segmentation, label propagation)
 - [Detect to Track and Track to Detect](https://arxiv.org/abs/1710.03958) <kbd>ICCV 2017</kbd> (from Christoph Feichtenhofer)
 - [Review of Kálmán Filter](https://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/) (from Tim Babb, Pixar Animation) [[Notes](paper_notes/kalman_filter.md)]
@@ -57,14 +58,13 @@ The sections below records paper reading activity in chronological order. See no
 - [DirectShape: Photometric Alignment of Shape Priors for Visual Vehicle Pose and Shape Estimation](https://arxiv.org/abs/1904.10097)
 - [M3D-RPN: Monocular 3D Region Proposal Network for Object Detection](https://arxiv.org/abs/1907.06038) (Xiaoming Liu)
 - [BirdGAN: Learning 2D to 3D Lifting for Object Detection in 3D for Autonomous Vehicles](https://arxiv.org/abs/1904.08494)
-- [An intriguing failing of convolutional neural networks and the CoordConv solution](https://arxiv.org/abs/1807.03247) [[Notes](paper_notes/coord_conv.md)] <kbd>NIPS 2018</kbd>
 - [Vision for Looking at Traffic Lights: Issues, Survey, and Perspectives](http://cvrr.ucsd.edu/publications/2016/trafficSignalsITSTrans2016.pdf) (traffic light survey, UCSD LISA)
 - [Deep Fusion of Heterogeneous Sensor Modalities for the Advancements of ADAS to Autonomous Vehicles](http://sci-hub.tw/10.1109/VLSI-DAT.2018.8373245)
 - [Revisiting Small Batch Training for Deep Neural Networks](https://arxiv.org/abs/1804.07612)
 - [ICML2019 workshop: Adaptive and Multitask Learning: Algorithms & Systems](https://icml.cc/Conferences/2019/ScheduleMultitrack?event=3504) <kbd>ICML 2019</kbd>
 
 
-## 2019-08 (17)
+## 2019-08 (18)
 - [Mono3D: Monocular 3D Object Detection for Autonomous Driving](https://www.cs.toronto.edu/~urtasun/publications/chen_etal_cvpr16.pdf) [[Notes](paper_notes/mono3d.md)] <kbd>CVPR2016</kbd>
 - [MonoDIS: Disentangling Monocular 3D Object Detection](https://arxiv.org/abs/1905.12365) [[Notes](paper_notes/monodis.md)] <kbd>ICCV 2019</kbd>
 - [Pseudo lidar-e2e: Monocular 3D Object Detection with Pseudo-LiDAR Point Cloud](https://arxiv.org/abs/1903.09847) [[Notes](paper_notes/pseudo_lidar_e2e.md)] (pseudo-lidar with 2d and 3d consistency loss, better than PL and worse than PL++, SOTA for pure mono3D)
@@ -83,6 +83,8 @@ The sections below records paper reading activity in chronological order. See no
 - [Will this car change the lane? - Turn signal recognition in the frequency domain](https://ieeexplore.ieee.org/document/6856477/) [[Notes](paper_notes/tsl_frequency.md)] <kbd>2014 IV</kbd>
 - [Complex-YOLO: Real-time 3D Object Detection on Point Clouds](https://arxiv.org/abs/1803.06199) [[Notes](paper_notes/complex_yolo.md)] (BEV detection only)
 - [Complexer-YOLO: Real-Time 3D Object Detection and Tracking on Semantic Point Clouds](https://arxiv.org/abs/1904.07537) <kbd>CVPR 2019</kbd> (sensor fusion and tracking)
+- [An intriguing failing of convolutional neural networks and the CoordConv solution](https://arxiv.org/abs/1807.03247) [[Notes](paper_notes/coord_conv.md)] <kbd>NIPS 2018</kbd>
+
 
 ## 2019-07 (19)
 - [Deep Parametric Continuous Convolutional Neural Networks](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Deep_Parametric_Continuous_CVPR_2018_paper.pdf) [[Notes](paper_notes/parametric_cont_conv.md)] <kbd>CVPR 2018</kbd> (@Uber, sensor fusion)
