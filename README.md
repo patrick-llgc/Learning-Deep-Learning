@@ -26,9 +26,11 @@ The sections below records paper reading activity in chronological order. See no
 - [Learning RoI Transformer for Oriented Object Detection in Aerial Images](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ding_Learning_RoI_Transformer_for_Oriented_Object_Detection_in_Aerial_Images_CVPR_2019_paper.pdf) <kbd>CVPR 2019</kbd>
 - [TI white paper: Webinar: mmWave Radar for Automotive and Industrial applications
 ](https://training.ti.com/epd-pro-rap-mmwaveradar-adh-tr-webinar-eu) \[[Notes](paper_notes/ti_mmwave_radar_webinar.md)] (TI, radar)
-- [Federated Learning: Strategies for Improving Communication Efficiency](https://arxiv.org/abs/1610.05492) <kbd>NIPS 2016</kbd>
+- [Federated Learning: Strategies for Improving Communication Efficiency](https://arxiv.org/abs/1610.05492) [[Notes](paper_notes/federated_learning.md)] <kbd>NIPS 2016</kbd>
 - [sort: Simple Online and Realtime Tracking](https://arxiv.org/abs/1602.00763) [[Notes](paper_notes/sort.md)] <kbd>ICIP 2016</kbd>
+- [deep-sort: Simple Online and Realtime Tracking with a Deep Association Metric](https://arxiv.org/abs/1703.07402) [[Notes](paper_notes/deep_sort.md)]
 - [Once for All: Train One Network and Specialize it for Efficient Deployment](https://arxiv.org/pdf/1908.09791.pdf)
+- [RetinaFace: Single-stage Dense Face Localisation in the Wild](https://arxiv.org/abs/1905.00641) (joint object and landmark detection)
 - [Review of Kálmán Filter](https://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/) (from Tim Babb, Pixar Animation) [[Notes](paper_notes/kalman_filter.md)]
 - [Adaptive Scheduling for Multi-Task Learning](https://marcpickett.com/cl2018/CL-2018_paper_82.pdf) <kbd>NIPS 2018</kbd> (NMT)
 - [3DOP: 3D Object Proposals for Accurate Object Class Detection](https://papers.nips.cc/paper/5644-3d-object-proposals-for-accurate-object-class-detection) <kbd>NIPS 2015</kbd>
