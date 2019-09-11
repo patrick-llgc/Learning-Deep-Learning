@@ -28,4 +28,4 @@ The paper is largely inspired by Hua Gang's paper [cascnn: A Convolutional Neura
 
 #### Notes
 - [new implementation in TF](https://github.com/ipazc/mtcnn) and [original version](https://github.com/davidsandberg/facenet/tree/master/src/align)
-
+- **The method to crop an image and resize is essentially ROI align applied to the original image**. Maybe we can save some computation by cropping the feature map from the first stage. The features from the fourth stage is most likely already too spatially blurred to contain any localization info. 
