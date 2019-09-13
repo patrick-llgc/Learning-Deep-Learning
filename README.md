@@ -32,7 +32,7 @@ The sections below records paper reading activity in chronological order. See no
 - [sort: Simple Online and Realtime Tracking](https://arxiv.org/abs/1602.00763) [[Notes](paper_notes/sort.md)] <kbd>ICIP 2016</kbd>
 - [deep-sort: Simple Online and Realtime Tracking with a Deep Association Metric](https://arxiv.org/abs/1703.07402) [[Notes](paper_notes/deep_sort.md)]
 - [MT-CNN: Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks](https://kpzhang93.github.io/MTCNN_face_detection_alignment/) [[Notes](paper_notes/mtcnn.md)] <kbd>SPL 2016</kbd> (real time, facial landmark)
-- [RetinaFace: Single-stage Dense Face Localisation in the Wild](https://arxiv.org/abs/1905.00641) (joint object and landmark detection)
+- [RetinaFace: Single-stage Dense Face Localisation in the Wild](https://arxiv.org/abs/1905.00641) \[[Notes](paper_notes/retina_face.md)] (joint object and landmark detection)
 - [Unsupervised Scale-consistent Depth and Ego-motion Learning from Monocular Video](https://arxiv.org/abs/1908.10553) [[Notes](paper_notes/sc_sfm_learner.md)] <kbd>NIPS 2019</kbd>
 - [SiamMask: Fast Online Object Tracking and Segmentation: A Unifying Approach](https://arxiv.org/abs/1812.05050) <kbd>CVPR 2019</kbd> (tracking, segmentation, label propagation)
 - [Detect to Track and Track to Detect](https://arxiv.org/abs/1710.03958) <kbd>ICCV 2017</kbd> (from Christoph Feichtenhofer)
