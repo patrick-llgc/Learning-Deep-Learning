@@ -25,7 +25,8 @@ The sections below records paper reading activity in chronological order. See no
 - [AutoSlim: Towards One-Shot Architecture Search for Channel Numbers](https://arxiv.org/abs/1903.11728)
 - [Once for All: Train One Network and Specialize it for Efficient Deployment](https://arxiv.org/pdf/1908.09791.pdf)
 - [R2CNN: Rotational Region CNN for Orientation Robust Scene Text Detection](https://arxiv.org/abs/1706.09579) (rotated bbox)
-- [Learning RoI Transformer for Oriented Object Detection in Aerial Images](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ding_Learning_RoI_Transformer_for_Oriented_Object_Detection_in_Aerial_Images_CVPR_2019_paper.pdf) <kbd>CVPR 2019</kbd> (rotated bbox)
+- [DOTA: A Large-scale Dataset for Object Detection in Aerial Images](https://vision.cornell.edu/se3/wp-content/uploads/2018/03/2666.pdf) [[Notes](paper_notes/dota.md)] <kbd>CVPR 2018</kbd> (rotated bbox)
+- [RoiTransformer: Learning RoI Transformer for Oriented Object Detection in Aerial Images](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ding_Learning_RoI_Transformer_for_Oriented_Object_Detection_in_Aerial_Images_CVPR_2019_paper.pdf) [[Notes](paper_notes/roi_transformer.md)] <kbd>CVPR 2019</kbd> (rotated bbox)
 - [TI white paper: Webinar: mmWave Radar for Automotive and Industrial applications
 ](https://training.ti.com/epd-pro-rap-mmwaveradar-adh-tr-webinar-eu) \[[Notes](paper_notes/ti_mmwave_radar_webinar.md)] (TI, radar)
 - [Federated Learning: Strategies for Improving Communication Efficiency](https://arxiv.org/abs/1610.05492) [[Notes](paper_notes/federated_learning_comm.md)] <kbd>NIPS 2016</kbd>
