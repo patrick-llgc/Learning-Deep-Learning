@@ -9,6 +9,8 @@ The paper analyzed the computation burden in Faster RCNN and R-FCN, and proposes
 
 It is now possible to integrate FPN into R-FCN with the changed architecture of light head RCNN.
 
+The PS RoIPooling is replaced with PS RoIAlign. This RoI Align technique also improved AP by more than 1 point. -->  PS RoIAlign is further extended to rotated PS RoIAlign in [RoI transformer](roi_transformer.md).
+
 #### Key ideas
 - Faster RCNN has a heavy head (with two fc layers), and R-FCN has a heavy score-map. Even if the base network can be reduced, no much improvement will be gained. 
 	- Faster RCNN's computation grows when more proposals are needed. There is a global avg pooling and 2 fc layers. 

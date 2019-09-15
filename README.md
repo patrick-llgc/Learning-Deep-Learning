@@ -218,7 +218,7 @@ for Road Detection Algorithms](http://www.cvlibs.net/publications/Fritsch2013ITS
 - [Focal Loss for Dense Object Detection](https://arxiv.org/pdf/1708.02002.pdf) (RetinaNet) [[Notes](paper_notes/focal_loss.md)]
 - [Squeeze-and-Excitation Networks](https://arxiv.org/pdf/1709.01507) (SENet)
 - [Progressive Growing of GANs for Improved Quality, Stability, and Variation](https://arxiv.org/pdf/1710.10196.pdf)
-- [Deformable Convolutional Networks](https://arxiv.org/pdf/1703.06211.pdf)
+- [Deformable Convolutional Networks](https://arxiv.org/pdf/1703.06211.pdf) (build on R-FCN)
 - [Learning Region Features for Object Detection](https://arxiv.org/pdf/1803.07066.pdf)
 
 ## 2017 and before
