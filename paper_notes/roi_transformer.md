@@ -2,10 +2,12 @@
 
 _September 2019_
 
-tl;dr: Learn parameters for position sensitive 
+tl;dr: Learn parameters for rotated position sensitive pooling.
 
 #### Overall impression
-**Position sensitive (PS) roi pooling**: R-FCN --> light head R-CNN --> Roi Transformer
+**Position sensitive (PS) roi pooling**: R-FCN --> [light head R-CNN](lighthead_rcnn.md) --> Roi Transformer
+
+The [R-FCN](https://arxiv.org/pdf/1605.06409.pdf) paper (2016 NIPS) is worth a revisit.
 
 #### Key ideas
 - Summaries of the key ideas

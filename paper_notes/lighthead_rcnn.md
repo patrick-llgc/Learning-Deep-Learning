@@ -14,7 +14,7 @@ The paper analyzed the computation burden in Faster RCNN and R-FCN, and proposes
 	- R-FCN cannot leverage FPN directly due to large memory consumption, if we want to consume the high resolution feature maps. 
 - Two main modifications:
 	- large kernel separable convolution to convert the feature map from the backbone to a thin score map. We can use C_mid to control the complexity of computation.
-	- Reduced score map channel from #classes x p x p to 10 x p x p. (This only holds when #classes >> 10). As 10 is not necessarily the #classes, so we ned to have a fc layer for final prediction.
+	- Reduced score map channel from #classes x p x p to 10 x p x p. (This reduction only holds when #classes >> 10). As 10 is not necessarily the #classes, so we ned to have a fc layer for final prediction.
 - The pooled feature map has only 10 channels.
 - With light weight backbone such as Xception, it can achieve ~100 fps inference speed.
 
