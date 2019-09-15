@@ -152,7 +152,7 @@ The sections below records paper reading activity in chronological order. See no
 for Road Detection Algorithms](http://www.cvlibs.net/publications/Fritsch2013ITSC.pdf) [[Notes](paper_notes/kitti_lane.md)] <kbd>ITSC 2013</kbd>
 - [MultiNet: Real-time Joint Semantic Reasoning for Autonomous Driving](https://arxiv.org/pdf/1612.07695.pdf) [[Notes](paper_notes/multinet_raquel.md)]
 - [Optimizing the Trade-off between Single-Stage and Two-Stage Object Detectors using Image Difficulty Prediction](https://arxiv.org/pdf/1803.08707.pdf) (Very nice illustration of 1 and 2 stage object detection)
-- [Light-Head R-CNN: In Defense of Two-Stage Object Detector](https://arxiv.org/pdf/1711.07264.pdf) (Megvii) [[Notes](paper_notes/lighthead_rcnn.md)]
+- [Light-Head R-CNN: In Defense of Two-Stage Object Detector](https://arxiv.org/pdf/1711.07264.pdf) [[Notes](paper_notes/lighthead_rcnn.md)] (from Megvii)
 - [CSP: High-level Semantic Feature Detection: A New Perspective for Pedestrian Detection](https://arxiv.org/pdf/1904.02948.pdf) (center and scale prediction) [[Notes](paper_notes/csp_pedestrian.md)] <kbd>CVPR 2019</kbd> 
 - Review of Anchor-free methods (知乎Blog) [目标检测：Anchor-Free时代](https://zhuanlan.zhihu.com/p/62103812) [Anchor free深度学习的目标检测方法](https://zhuanlan.zhihu.com/p/64563186) [My Slides on CSP](https://docs.google.com/presentation/d/1_dUfxv63108bZXUnVYPIOAdEIkRZw5BR9-rOp-Ni0X0/)
 - [DenseBox: Unifying Landmark Localization with End to End Object Detection](https://arxiv.org/pdf/1509.04874.pdf)

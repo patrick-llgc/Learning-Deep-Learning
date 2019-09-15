@@ -7,6 +7,8 @@ tl;dr: Faster than two-stage detectors and more accurate than one-stage detector
 #### Overall impression
 The paper analyzed the computation burden in Faster RCNN and R-FCN, and proposes a more balanced network. The authors fine-tune-fu is amazing.
 
+It is now possible to integrate FPN into R-FCN with the changed architecture of light head RCNN.
+
 #### Key ideas
 - Faster RCNN has a heavy head (with two fc layers), and R-FCN has a heavy score-map. Even if the base network can be reduced, no much improvement will be gained. 
 	- Faster RCNN's computation grows when more proposals are needed. There is a global avg pooling and 2 fc layers. 
@@ -19,7 +21,7 @@ The paper analyzed the computation burden in Faster RCNN and R-FCN, and proposes
 - With light weight backbone such as Xception, it can achieve ~100 fps inference speed.
 
 #### Technical details
-- Summary of technical details
+- The feature map for COCO is reduced from 3969 (7x7x81) to 490 (7x7x10)
 
 #### Notes
 - For special applications like vehicle or pedestrian detection, it perhaps does not save too much as #classes is small (1 or 2).
