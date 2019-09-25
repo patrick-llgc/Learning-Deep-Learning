@@ -42,6 +42,7 @@ The sections below records paper reading activity in chronological order. See no
 - [R-FCN: Object Detection via Region-based Fully Convolutional Networks](https://arxiv.org/abs/1605.06409) [[Notes](paper_notes/rfcn.md)] <kbd>NIPS 2016</kbd>
 - [Guided backprop: Striving for Simplicity: The All Convolutional Net](https://arxiv.org/pdf/1412.6806.pdf) [[Notes](paper_notes/guided_backprop.md)] <kbd>ICLR 2015</kbd>
 - [Occlusion-Net: 2D/3D Occluded Keypoint Localization Using Graph Networks](http://www.cs.cmu.edu/~mvo/index_files/Papers/ONet_19.pdf) [[Notes](paper_notes/occlusion_net.md)] <kbd>CVPR 2019</kbd>
+- [Boxy Vehicle Detection in Large Images](https://boxy-dataset.com/boxy/index) [[Notes](paper_notes/boxy.md)] <kbd>ICCV 2019</kbd>
 - [Adaptive Scheduling for Multi-Task Learning](https://marcpickett.com/cl2018/CL-2018_paper_82.pdf) <kbd>NIPS 2018</kbd> (NMT)
 - [3DOP: 3D Object Proposals for Accurate Object Class Detection](https://papers.nips.cc/paper/5644-3d-object-proposals-for-accurate-object-class-detection) <kbd>NIPS 2015</kbd>
 - [3D-RCNN: Instance-level 3D Object Reconstruction via Render-and-Compare](http://openaccess.thecvf.com/content_cvpr_2018/papers/Kundu_3D-RCNN_Instance-Level_3D_CVPR_2018_paper.pdf) <kbd>CVPR 2018</kbd> (from Uber ATG)
