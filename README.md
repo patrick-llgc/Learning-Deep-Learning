@@ -21,7 +21,7 @@ The sections below records paper reading activity in chronological order. See no
 
 ## 2019-09 (14)
 - [Slimmable Neural Networks](https://arxiv.org/abs/1812.08928) [[Notes](paper_notes/slimmable_networks.md)] <kbd>ICLR 2019</kbd>
-- [Universally Slimmable Networks and Improved Training Techniques](https://arxiv.org/abs/1903.05134) <kbd>ICCV 2019</kbd>
+- [Universally Slimmable Networks and Improved Training Techniques](https://arxiv.org/abs/1903.05134) [[Notes](paper_notes/universal_slimmable.md)] <kbd>ICCV 2019</kbd>
 - [AutoSlim: Towards One-Shot Architecture Search for Channel Numbers](https://arxiv.org/abs/1903.11728)
 - [Once for All: Train One Network and Specialize it for Efficient Deployment](https://arxiv.org/pdf/1908.09791.pdf)
 - [DOTA: A Large-scale Dataset for Object Detection in Aerial Images](https://vision.cornell.edu/se3/wp-content/uploads/2018/03/2666.pdf) [[Notes](paper_notes/dota.md)] <kbd>CVPR 2018</kbd> (rotated bbox)

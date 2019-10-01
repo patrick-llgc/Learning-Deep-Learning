@@ -1,4 +1,4 @@
-# [Slimmable Neural Networks]()
+# [Slimmable Neural Networks](https://arxiv.org/abs/1812.08928)
 
 _September 2019_
 
@@ -12,6 +12,8 @@ In the Slimmable Networks, S-BatchNorm records the different scales and variance
 The training procedure prioritizes the first 25% of channels as compared with later channels. This is quite similar to the idea of the pruning method [LeGR](legr.md). Maybe they can be combined?
 
 The authors also showed that 4-switch and 8-switch variants are actually on the same Pareto Front. 
+
+This work is extended by [universally slimable networks](universal_slimmable.md).
 
 #### Key ideas
 - Why do we need slimmable networks? We may want to train the same network and deploy to different platform. Resources vary even on the same platform. 
