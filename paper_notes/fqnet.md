@@ -18,6 +18,7 @@ The idea is quite clever, but the optimization step to generate the 3D seed loca
 - New contribution: FQNet. 
 	- Intrinsics/extrinsics are necessary for projection
 	- **Project 3D bbox to 2D image as wireframe.** Then pretrain it to classify if the patch contains the artificially painted bounding box or not, and then regress the IoU. 
+- In the appendix, one important finding is that the azimuth angle scales with the center position of the bbox **linearly**. $\theta_{ray} = k (\frac{width}{2} - \frac{x1 + x2}{2})$. This should largely hold true for any lens without large optical distortion (non-fisheye lens).
 
 #### Technical details
 - The use of anchor-based regression breaks down the wide range of regression target into bins, and have a softmax cls loss + regression loss. This is similar to multi-bin loss.
