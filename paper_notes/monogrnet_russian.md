@@ -30,4 +30,4 @@ It follows the Mono3DOD tradition that regresses local yaw and dimension offset 
 
 #### Notes
 - In industry we can afford labeling keypoints and visibility, but this paper assures that the idea of using keypoint for geometric reasoning is valid due to small variations of geometric properties given a vehicle subtype.
-
+- The idea of using the prior size info of some keypoints or vehicle size can be found in early works of [this CVPR 2012 paper](https://ethz.ch/content/dam/ethz/special-interest/baug/igp/photogrammetry-remote-sensing-dam/documents/pdf/wojek12.pdf). This is said to be similar to mobileEye's approach.
