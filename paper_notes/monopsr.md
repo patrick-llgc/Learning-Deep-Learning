@@ -13,7 +13,7 @@ The reconstruction branch regresses a local point cloud of the object and compar
 
 #### Key ideas
 - **Shared feature map** is created by concatenating features ROIPooled from feature map, and features learned from image patches. (c.f. the two ROI pooling branches, one with tight bbox and the other with dilated bbox in [mono3d](mono3d.md)).
-- Proposal depth initialized from the bbox height and real height of objects. This leads to more accurate depth estimation. It is even possible to regress the residual distance directly from the patch.
+- Proposal **depth** initialized from the bbox height and real height of objects. This leads to more accurate depth estimation. It is even possible to regress the residual distance directly from the patch.
 - Proposal stage
 	- estimate the physical dimension (offset from class average) and orientation (mainly the local angle, or observation angle, NOT the yaw)
 	- Estimate depth (from CV, bbox and object height stats)
