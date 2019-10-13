@@ -19,7 +19,7 @@ This repository contains my paper reading notes on deep learning and machine lea
 
 The sections below records paper reading activity in chronological order. See notes organized according to subfields [here](organized.md) (up to 06-2019). 
 
-## 2019-10 (4)
+## 2019-10 (8)
 - [MonoGRNet 2: Monocular 3D Object Detection via Geometric Reasoning on Keypoints](https://arxiv.org/abs/1905.05618) [[Notes](paper_notes/monogrnet_russian.md)] \(estimates depth from keypoints)
 - [Deep MANTA: A Coarse-to-fine Many-Task Network for joint 2D and 3D vehicle analysis from monocular image](https://arxiv.org/abs/1703.07570) [[Notes](paper_notes/deep_manta.md)] <kbd>CVPR 2017</kbd>
 - [SS3D: Monocular 3D Object Detection and Box Fitting Trained End-to-End Using Intersection-over-Union Loss](https://arxiv.org/abs/1906.08070) [[Notes](paper_notes/ss3d.md)] \(rergess distance from images, centernet like)
@@ -28,9 +28,10 @@ The sections below records paper reading activity in chronological order. See no
 - [Triangulation Learning Network: from Monocular to Stereo 3D Object Detection](https://arxiv.org/abs/1906.01193) <kbd>CVPR 2019</kbd>
 - [A Survey on 3D Object Detection Methods for Autonomous Driving Applications](http://wrap.warwick.ac.uk/114314/1/WRAP-survey-3D-object-detection-methods-autonomous-driving-applications-Arnold-2019.pdf) \[[Notes](paper_notes/3dod_review.md)] (Review) <kbd>TITS 2019</kbd>
 - [BEV-IPM: Deep Learning based Vehicle Position and Orientation Estimation via Inverse Perspective Mapping Image](https://ieeexplore.ieee.org/abstract/document/8814050) [[Notes](paper_notes/bev_od_ipm.md)] <kbd>IV 2019</kbd>
+- [ForeSeE: Task-Aware Monocular Depth Estimation for 3D Object Detection](https://arxiv.org/abs/1909.07701) \[[Notes](paper_notes/foresee_mono3dod.md)] (successor to pseudo-lidar)
 - [Learning Object-specific Distance from a Monocular Image](https://arxiv.org/abs/1909.04182) <kbd>ICCV 2019</kbd> (xmotors.ai + NYU)
 - [IoUNet: Acquisition of Localization Confidence for Accurate Object Detection](https://arxiv.org/abs/1807.11590) <kbd>ECCV 2018</kbd>
-- [ForeSeE: Task-Aware Monocular Depth Estimation for 3D Object Detection](https://arxiv.org/abs/1909.07701) [[Notes](paper_notes/foresee_mono3dod.md)]
+- [Enforcing geometric constraints of virtual normal for depth prediction](https://arxiv.org/abs/1907.12209) <kbd>ICCV 2019</kbd>
 - [3DOP: 3D Object Proposals for Accurate Object Class Detection](https://papers.nips.cc/paper/5644-3d-object-proposals-for-accurate-object-class-detection) <kbd>NIPS 2015</kbd>
 - [3D-RCNN: Instance-level 3D Object Reconstruction via Render-and-Compare](http://openaccess.thecvf.com/content_cvpr_2018/papers/Kundu_3D-RCNN_Instance-Level_3D_CVPR_2018_paper.pdf) <kbd>CVPR 2018</kbd> (from Uber ATG)
 - [Shift R-CNN: Deep Monocular 3D Object Detection with Closed-Form Geometric Constraints](https://arxiv.org/abs/1905.09970) <kbd>IEEE ICIP</kbd>
