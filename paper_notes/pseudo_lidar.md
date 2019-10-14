@@ -9,6 +9,12 @@ This paper opens up a brand new field for camera perception. It points out that 
 
 The Uber ATG group also publishes several papers ([ContFuse](contfuse.md), [MMF](mmf.md)) on this idea, although not as explicit as the pseudo-lidar paper or this one.
 
+**Note that DORN's training data overlaps with object detection's validation data, and suffers from overfitting.** Both [pseudo lidar](pseudo_lidar.md) and [pseudo lidar e2e](pseudo_lidar_e2e.md) suffer from this problem. According to the [ForeSeE](foresee_mono3dod.md) paper, if the validation data is excluded from the training of depth map, then PL's performance drops from 18.5 to 5.4 AP_3D at IoU=0.7.
+
+![](../assets/images/pseudo_lidar.png)
+![](../assets/images/foresee.png)
+
+
 #### Key ideas
 - Use cheaper monocular or stereo image data to reconstruct expensive lidar data. It would be a good idea to have something to fall back onto in case of an outage.
 - The depth map from stereo images actually align really well with real lidar, but from mono images are not.

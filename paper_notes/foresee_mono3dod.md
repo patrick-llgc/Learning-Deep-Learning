@@ -11,7 +11,13 @@ Two overall issue with pseudo lidar idea: 1) inaccuracies in depth estimation an
 
 The paper has a good introduction and background session. 
 
-However the model seems to have much lower performance (even lower than pseudo-lidar). Email sent to authors to inquire about this. 
+However the model seems to have much lower performance (even lower than pseudo-lidar). Email sent to authors to inquire about this. --> This turned out to be a game changer for pseudo-lidar:
+
+
+**Note that DORN's training data overlaps with object detection's validation data, and suffers from overfitting.** Both [pseudo lidar](pseudo_lidar.md) and [pseudo lidar e2e](pseudo_lidar_e2e.md) suffer from this problem. According to the [ForeSeE](foresee_mono3dod.md) paper, if the validation data is excluded from the training of depth map, then PL's performance drops from 18.5 to 5.4 AP_3D at IoU=0.7.
+
+![](../assets/images/pseudo_lidar.png)
+![](../assets/images/foresee.png)
 
 #### Key ideas
 - Not all pixels are equal. This is particularly true for 3DOD. 

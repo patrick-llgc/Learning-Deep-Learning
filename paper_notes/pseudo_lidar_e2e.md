@@ -11,6 +11,12 @@ This paper's main idea largely overlaps with that of [pseudo ldiar](pseudo_lidar
 
 [Pseudo-lidar++](pseudo-lidar) tackles this fundamental problem and achieves better performance, but it requires supervision from sparse depth measurements.
 
+
+**Note that DORN's training data overlaps with object detection's validation data, and suffers from overfitting.** Both [pseudo lidar](pseudo_lidar.md) and [pseudo lidar e2e](pseudo_lidar_e2e.md) suffer from this problem. According to the [ForeSeE](foresee_mono3dod.md) paper, if the validation data is excluded from the training of depth map, then PL's performance drops from 18.5 to 5.4 AP_3D at IoU=0.7.
+
+![](../assets/images/pseudo_lidar.png)
+![](../assets/images/foresee.png)
+
 #### Key ideas
 - Limitations with depth sensors 
 	- Stereo cameras: calibration and synchronization
