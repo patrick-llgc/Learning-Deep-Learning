@@ -11,12 +11,12 @@ The paper also demonstrated that the vehicle category is key to the good perform
 
 Dense depth estimation is too costly in both memory footprint and processing time for autonomous driving and object level distance should be good enough.
 
-Refer to [DistNet](distnet.md) for a much simpler way to estimate depth.
+Refer to [DisNet](disnet.md) for a much simpler and practical way to estimate depth.
 
 #### Key ideas
 - RoIAlign features according to bbox and pass through fc layer to predict distance. 
 - Network is trained with auxiliary vehicle type classifier branch.
-- Absolute Relative error is about 0.15. --> 10% error may be too much to ask for?
+- Absolute Relative error is about 0.15. --> 10% error according to [DisNet](disnet.md)
 
 #### Technical details
 - The use of softplus to make sure the target is positive. (The derivative of softplus is sigmoid)
@@ -28,3 +28,5 @@ Refer to [DistNet](distnet.md) for a much simpler way to estimate depth.
 - No specific HW reported for inference. 
 - How about feeding category and bbox size directly into a much shallower regressor?
 - How does this compare with monocular 3D method? The 3D method seems to have better performance.
+- How much noise is in the GT extracted from lidar point cloud? The 15% error may arise from the GT noise.
+- How about performance on non-occluded vehicle? The performance should be better (I expect around or better than 10%) on this more important category.
