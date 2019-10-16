@@ -31,6 +31,7 @@ The sections below records paper reading activity in chronological order. See no
 - [ForeSeE: Task-Aware Monocular Depth Estimation for 3D Object Detection](https://arxiv.org/abs/1909.07701) \[[Notes](paper_notes/foresee_mono3dod.md)] (successor to pseudo-lidar) (mono 3DOD SOTA)
 - [Obj-dist: Learning Object-specific Distance from a Monocular Image](https://arxiv.org/abs/1909.04182) [[Notes](paper_notes/obj_dist_iccv2019.md)] <kbd>ICCV 2019</kbd> (xmotors.ai + NYU)
 - [DisNet: A novel method for distance estimation from monocular camera](https://project.inria.fr/ppniv18/files/2018/10/paper22.pdf) [[Notes](paper_notes/disnet.md)] <kbd>IROS 2018</kbd>
+- [BirdGAN: Learning 2D to 3D Lifting for Object Detection in 3D for Autonomous Vehicles](https://arxiv.org/abs/1904.08494) [[Notes](paper_notes/birdgan.md)] <kbd>IROS 2019</kbd> 
 - [IoUNet: Acquisition of Localization Confidence for Accurate Object Detection](https://arxiv.org/abs/1807.11590) <kbd>ECCV 2018</kbd>
 - [Virtual-Normal: Enforcing geometric constraints of virtual normal for depth prediction](https://arxiv.org/abs/1907.12209) [[Notes](paper_notes/virtual_normal.md)] <kbd>ICCV 2019</kbd> (better generation of PL)
 - [LaserNet: An Efficient Probabilistic 3D Object Detector for Autonomous Driving](https://arxiv.org/abs/1903.08701) <kbd>CVPR 2019</kbd> (uncertainty)
@@ -39,7 +40,6 @@ The sections below records paper reading activity in chronological order. See no
 - [Shift R-CNN: Deep Monocular 3D Object Detection with Closed-Form Geometric Constraints](https://arxiv.org/abs/1905.09970) <kbd>IEEE ICIP</kbd>
 - [Deep Optics for Monocular Depth Estimation and 3D Object Detection](https://arxiv.org/abs/1904.08601)
 - [DirectShape: Photometric Alignment of Shape Priors for Visual Vehicle Pose and Shape Estimation](https://arxiv.org/abs/1904.10097)
-- [BirdGAN: Learning 2D to 3D Lifting for Object Detection in 3D for Autonomous Vehicles](https://arxiv.org/abs/1904.08494)
 - [Eliminating the Blind Spot: Adapting 3D Object Detection and Monocular Depth Estimation to 360° Panoramic Imagery](https://arxiv.org/abs/1808.06253) <kbd>ECCV 2018</kbd> (Monocular 3D object detection and depth estimation)
 - [Adaptive Scheduling for Multi-Task Learning](https://marcpickett.com/cl2018/CL-2018_paper_82.pdf) <kbd>NIPS 2018</kbd> (NMT)
 - [A Novel Approach for Detecting Road Based on Two-Stream Fusion Fully Convolutional Network]() (convert camera to BEV)
