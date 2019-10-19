@@ -11,7 +11,9 @@ This is not end-to-end. NN is used to estimate 2D bbox and dimensions and orient
 
 #### Key ideas
 - **Yaw and observation angle are different!** The observation angle determines the appearance, not the yaw itself.
-- **Multi-Bin loss**. The authors cited anchor box as intuition. First the regression target is discretized into multiple bins. Then the residual angle is regressed as sine and cosine. However the bins are **overlapping**, which seem to be different from what is used in later work. During training, there might be multiple bins corresponding to the same GT angle, but during inference, only the bin with the largest confidence score is picked and the regressed residual is applied. 
+- **Multi-Bin loss**. The authors cited anchor box as intuition. First the regression target is discretized into multiple bins. Then the residual angle is regressed as sine and cosine. However the bins are **overlapping**, which seem to be different from what is used in later work. During training, there might be multiple bins corresponding to the same GT angle, but during inference, only the bin with the largest confidence score is picked and the regressed residual is applied.
+	-  Multi-bin loss can be also found in this earlier [viewpoint estimation paper](https://arxiv.org/pdf/1609.03894.pdf). 
+	-  This can also be modified in inference time to get the weighted average from different bins. See [3D RCNN](3d_rcnn.md).
 - **Representation matters**. 
 	- Regress dimension and orientation first. 
 	- The authors tried regressing dimension and distance at the same time but found it to be highly sensitive to input errors. --> This is understandable as dim and distance are highly correlated in determining the dimension of the bbox. (c.f. [depth in the wild](mono_depth_video_in_the_wild.md) to understand the coupling of estimation parameters. Sometimes an overall supervision signal is given to two tightly coupled parameters and it is not enough to get accurate estimate for both parameters)

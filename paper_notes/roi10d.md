@@ -21,7 +21,7 @@ The paper articulated that depth has to be reasoned globally.
 - Synthetic 3D data augmentation
 
 #### Technical details
-- The 3D extens as deviation from the mean extents over the whole dataset (zero-meaned and normalized). 
+- The 3D extents as deviation from the mean extents over the whole dataset (zero-meaned and normalized). 
 $$B = q [\pm w/2, \pm h/2, \pm l/2]^T q^{-1} + K^{-1} [xz, yz, z]^T$$
 - Ego-centric and allo-centric pose: ego-centric pose can vary according to observation angle, but allo-centric pose always keeps the same for the same type of car (in the local coordinate system of the car). Therefore q is regressed in allocentric coordinate.
 - It is much easier to recognize cars if the yaw is 45 degrees or 135 degrees. --> radar looks the same. Maybe corner radar is easier after all.
