@@ -7,7 +7,7 @@ tl;dr: Regress keypoints in 2D images and use 3D CAD model to infer depth.
 #### Overall impression
 The training is based on 3D CAD model with minimal keypoint annotation. This is valuable as it saves much annotation effort on 2D images, which is inefficient and inaccurate. It only assumes that the intrinsics are given. 
 
-It is related to [deepMANTA](deep_manta.md) that it relies on keypoint regression for monocular 3DOD. It is inspired by [monoGRNet](monogrnet.md) that it uses simple geometric reasoning for Mono3DOD.
+It is related to [deepMANTA](deep_manta.md) that it relies on keypoint regression for monocular 3DOD. It is inspired by [monoGRNet](monogrnet.md) that it uses simple geometric reasoning for Mono3DOD. The idea of using keypoint to estimate depth can also be found in [GS3D](gs3d.md).
 
 It follows the Mono3DOD tradition that regresses local yaw and dimension offset from image patches and infer depth from these results.
 

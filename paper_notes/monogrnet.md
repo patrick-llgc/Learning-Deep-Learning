@@ -27,4 +27,4 @@ However the ablation study is a bit insufficient. It did not show what are the m
 
 
 #### Notes
-- Q: why pick regressing 8 corners? The regressed 8 corners (16 DoF) may not form a 3D bbox anyway. Maybe regressing 7 DoF 3D bbox is a better idea (c.f., [frustum pointnet](frustum_pointnet.md) and (psedudo-lidar end2end)[pseudo_lidar_e2e.md]).
+- Q: why pick regressing 8 corners? The regressed 8 corners (16 DoF) may not form a 3D bbox anyway. Maybe regressing 7 DoF 3D bbox is a better idea (c.f., [frustum pointnet](frustum_pointnet.md) and [psedudo-lidar end2end](pseudo_lidar_e2e.md)).

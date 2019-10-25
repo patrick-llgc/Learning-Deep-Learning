@@ -9,6 +9,8 @@ This paper is brilliant! It combines several key innovations in the past year: c
 
 However the way of reprojection without depth estimation perhaps limited the performance of the model, which is significantly below that of [MLF](mlf.md) and [pseudo-lidar](pseudo_lidar.md). For simple depth estimation and 3D reasoning using 2bbox and CV, refer to [Deep3dBox](deep3dbox.md) and [MonoPSR](monopsr.md).
 
+The network does not require explicit info about intrinsics, but rather learns the constant mapping. That is why extensive augmentation was required to do this. --> why not injecting intrinsics implicitly?
+
 #### Key ideas
 - [CenterNet](centernet_ut.md)-like Detection pipeline. 
 	- regress object center

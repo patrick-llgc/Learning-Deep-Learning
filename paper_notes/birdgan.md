@@ -2,7 +2,7 @@
 
 _October 2019_
 
-tl;dr: Learn to map 2D perspective image to BEV.
+tl;dr: Learn to map 2D perspective image to BEV with GAN.
 
 #### Overall impression
 The performance of BirdGAN on 3D object detection has the SOTA. The AP_3D @ IoU=0.7 is ~60 for easy and ~40 for hard. This is much better than the ~10 for [ForeSeE](foresee_mono3dod.md)
