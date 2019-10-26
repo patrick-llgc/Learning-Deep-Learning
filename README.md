@@ -41,7 +41,8 @@ The sections below records paper reading activity in chronological order. See no
 - [Exploiting temporal consistency for real-time video depth estimation](https://arxiv.org/abs/1908.03706) <kbd>ICCV 2019</kbd> 
 - [LaserNet: An Efficient Probabilistic 3D Object Detector for Autonomous Driving](https://arxiv.org/abs/1903.08701) <kbd>CVPR 2019</kbd> (uncertainty)
 - [3DOP: 3D Object Proposals for Accurate Object Class Detection](https://papers.nips.cc/paper/5644-3d-object-proposals-for-accurate-object-class-detection) <kbd>NIPS 2015</kbd>
-- [Deep Optics for Monocular Depth Estimation and 3D Object Detection](https://arxiv.org/abs/1904.08601) <kbd>ICCV 2019</kbd>
+- [Deep Optics for Monocular Depth Estimation and 3D Object Detection](https://arxiv.org/abs/1904.08601) [[Notes](paper_notes/deep_optics.md)] <kbd>ICCV 2019</kbd>
+- [MonoLoco: Monocular 3D Pedestrian Localization and Uncertainty Estimation](https://arxiv.org/abs/1906.06059) [[Notes](paper_notes/monoloco.md)] <kbd>ICCV 2019</kbd>
 - [DirectShape: Photometric Alignment of Shape Priors for Visual Vehicle Pose and Shape Estimation](https://arxiv.org/abs/1904.10097)
 - [Eliminating the Blind Spot: Adapting 3D Object Detection and Monocular Depth Estimation to 360° Panoramic Imagery](https://arxiv.org/abs/1808.06253) <kbd>ECCV 2018</kbd> (Monocular 3D object detection and depth estimation)
 - [Adaptive Scheduling for Multi-Task Learning](https://marcpickett.com/cl2018/CL-2018_paper_82.pdf) <kbd>NIPS 2018</kbd> (NMT)
@@ -63,7 +64,7 @@ The sections below records paper reading activity in chronological order. See no
 - [Visualization of Convolutional Neural Networks for Monocular Depth Estimation](https://arxiv.org/abs/1904.03380) <kbd>ICCV 2019</kbd>
 - [Gated2Depth: Real-time Dense Lidar from Gated Images](https://arxiv.org/abs/1902.04997) <kbd>ICCV 2019 oral</kbd>
 - [Self-Supervised Monocular Depth Hints](https://arxiv.org/abs/1909.09051) <kbd>ICCV 2019</kbd>
-- [MonoLoco: Monocular 3D Pedestrian Localization and Uncertainty Estimation](https://arxiv.org/abs/1906.06059) <kbd>ICCV 2019</kbd>
+
 
 ## 2019-09 (17)
 - [Slimmable Neural Networks](https://arxiv.org/abs/1812.08928) [[Notes](paper_notes/slimmable_networks.md)] <kbd>ICLR 2019</kbd>
