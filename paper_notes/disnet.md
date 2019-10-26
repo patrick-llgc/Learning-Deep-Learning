@@ -9,6 +9,8 @@ Use bbox H, W, D (diagnal), average size of object h, w, b (breadth, along depth
 
 This method seems much more promising than the one presented in [object distance estimation](obj_dist_iccv2019.md).
 
+This idea is quite similar to the more elaborate ICCV 2019 paper [monoloco](monoloco.md).
+
 #### Key ideas
 - Distance of 1/W (or 1/D, 1/H) are all approximately linear with distance. 
 ![](../assets/images/disnet.png)
