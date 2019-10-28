@@ -37,7 +37,7 @@ The sections below records paper reading activity in chronological order. See no
 - [3D-RCNN: Instance-level 3D Object Reconstruction via Render-and-Compare](http://openaccess.thecvf.com/content_cvpr_2018/papers/Kundu_3D-RCNN_Instance-Level_3D_CVPR_2018_paper.pdf) [[Notes](paper_notes/3d_rcnn.md)] <kbd>CVPR 2018</kbd>
 - [Deep Optics for Monocular Depth Estimation and 3D Object Detection](https://arxiv.org/abs/1904.08601) [[Notes](paper_notes/deep_optics.md)] <kbd>ICCV 2019</kbd>
 - [MonoLoco: Monocular 3D Pedestrian Localization and Uncertainty Estimation](https://arxiv.org/abs/1906.06059) [[Notes](paper_notes/monoloco.md)] <kbd>ICCV 2019</kbd>
-- [Joint Monocular 3D Vehicle Detection and Tracking](https://arxiv.org/abs/1811.10742) <kbd>ICCV 2019</kbd> (Berkeley DeepDrive)
+- [Joint Monocular 3D Vehicle Detection and Tracking](https://arxiv.org/abs/1811.10742) [[Notes](paper_notes/mono_3d_tracking.md)] <kbd>ICCV 2019</kbd> (Berkeley DeepDrive)
 - [3DOP: 3D Object Proposals for Accurate Object Class Detection](https://papers.nips.cc/paper/5644-3d-object-proposals-for-accurate-object-class-detection) <kbd>NIPS 2015</kbd>
 - [DirectShape: Photometric Alignment of Shape Priors for Visual Vehicle Pose and Shape Estimation](https://arxiv.org/abs/1904.10097)
 - [Eliminating the Blind Spot: Adapting 3D Object Detection and Monocular Depth Estimation to 360° Panoramic Imagery](https://arxiv.org/abs/1808.06253) <kbd>ECCV 2018</kbd> (Monocular 3D object detection and depth estimation)
@@ -45,11 +45,13 @@ The sections below records paper reading activity in chronological order. See no
 - [Gaussian YOLOv3: An Accurate and Fast Object Detector Using Localization Uncertainty for Autonomous Driving](https://arxiv.org/abs/1904.04620) <kbd>ICCV 2019</kbd> (Detection with Uncertainty)
 - [LaserNet: An Efficient Probabilistic 3D Object Detector for Autonomous Driving](https://arxiv.org/abs/1903.08701) <kbd>CVPR 2019</kbd> (uncertainty)
 - [Sampling-free Epistemic Uncertainty Estimation Using Approximated Variance Propagation](https://arxiv.org/abs/1908.00598) <kbd>ICCV 2019</kbd> (Uncertainty)
-- [IoUNet: Acquisition of Localization Confidence for Accurate Object Detection](https://arxiv.org/abs/1807.11590) <kbd>ECCV 2018</kbd>
+- [IoUNet: Acquisition of 	Localization Confidence for Accurate Object Detection](https://arxiv.org/abs/1807.11590) <kbd>ECCV 2018</kbd>
 - [Generalized Intersection over Union: A Metric and A Loss for Bounding Box Regression](https://arxiv.org/abs/1902.09630) <kbd>CVPR 2019</kbd>
+- [Bounding Box Regression with Uncertainty for Accurate Object Detection](https://arxiv.org/abs/1809.08545) <kbd>CVPR 2019</kbd>
 - [Classification of Objects in Polarimetric Radar Images Using CNNs at 77 GHz](http://sci-hub.tw/10.1109/APMC.2017.8251453) (Radar, polar) <-- todo
 - [Gated2Depth: Real-time Dense Lidar from Gated Images](https://arxiv.org/abs/1902.04997) <kbd>ICCV 2019 oral</kbd>
 - [PifPaf: Composite Fields for Human Pose Estimation](https://arxiv.org/abs/1903.06593) <kbd>CVPR 2019</kbd>
+- [Uncertainty Guided Multi-Scale Residual Learning-using a Cycle Spinning CNN for Single Image De-Raining](https://arxiv.org/abs/1906.11129) <kbd>CVPR 2019</kbd>
 
 
 
