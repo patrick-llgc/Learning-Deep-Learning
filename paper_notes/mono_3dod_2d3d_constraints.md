@@ -5,7 +5,7 @@ _October 2019_
 tl;dr: Summary of the main idea.
 
 ### Deep 3D Box
-from [Supplementary material](https://cs.gmu.edu/~amousavi/papers/3D-Deepbox-Supplementary.pdf), and [review in 中文](https://blog.csdn.net/qq_29462849/article/details/91314777)
+from [Deep3DBox](https://arxiv.org/pdf/1612.00496.pdf) and its [Supplementary material](https://cs.gmu.edu/~amousavi/papers/3D-Deepbox-Supplementary.pdf), and [review in 中文](https://blog.csdn.net/qq_29462849/article/details/91314777)
 ![](../assets/images/2d3d_deep3dbox_1.png)
 ![](../assets/images/2d3d_deep3dbox_2.png)
 ![](../assets/images/2d3d_deep3dbox.png)
@@ -13,6 +13,7 @@ from [Supplementary material](https://cs.gmu.edu/~amousavi/papers/3D-Deepbox-Sup
 
 #### Code 
 [2d 3d contraint code](https://github.com/lzccccc/3d-bounding-box-estimation-for-autonomous-driving/blob/master/utils/correspondece_constraint.py)
+[64 configuration](https://github.com/skhadem/3D-BoundingBox/blob/master/library/Math.py)
 ![](../assets/images/2d3d_deep3dbox_code.png)
 
 
