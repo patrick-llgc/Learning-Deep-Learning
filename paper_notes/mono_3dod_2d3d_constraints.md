@@ -12,8 +12,8 @@ from [Deep3DBox](https://arxiv.org/pdf/1612.00496.pdf) and its [Supplementary ma
 ![](../assets/images/2d3d_deep3dbox_equivalency.png)
 
 #### Code 
-[2d 3d contraint code](https://github.com/lzccccc/3d-bounding-box-estimation-for-autonomous-driving/blob/master/utils/correspondece_constraint.py)
-[64 configuration](https://github.com/skhadem/3D-BoundingBox/blob/master/library/Math.py)
+- [2d 3d contraint code](https://github.com/lzccccc/3d-bounding-box-estimation-for-autonomous-driving/blob/master/utils/correspondece_constraint.py)
+- [Different implementation](https://github.com/skhadem/3D-BoundingBox/blob/master/library/Math.py)
 ![](../assets/images/2d3d_deep3dbox_code.png)
 
 
