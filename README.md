@@ -25,7 +25,7 @@ The sections below records paper reading activity in chronological order. See no
 - [LaserNet: An Efficient Probabilistic 3D Object Detector for Autonomous Driving](https://arxiv.org/abs/1903.08701) <kbd>CVPR 2019</kbd> (uncertainty)
 - [LaserNet KL: Learning an Uncertainty-Aware Object Detector for Autonomous Driving](https://arxiv.org/abs/1910.11375) \[[Notes](paper_notes/lasernet_kl.md)] (LaserNet++ with KL divergence)
 - [Sampling-free Epistemic Uncertainty Estimation Using Approximated Variance Propagation](https://arxiv.org/abs/1908.00598) <kbd>ICCV 2019</kbd> (Uncertainty)
-- [IoUNet: Acquisition of 	Localization Confidence for Accurate Object Detection](https://arxiv.org/abs/1807.11590) <kbd>ECCV 2018</kbd>
+- [IoUNet: Acquisition of 	Localization Confidence for Accurate Object Detection](https://arxiv.org/abs/1807.11590) [[Notes](paper_notes/iou_net.md)] <kbd>ECCV 2018</kbd>
 - [Generalized Intersection over Union: A Metric and A Loss for Bounding Box Regression](https://arxiv.org/abs/1902.09630) <kbd>CVPR 2019</kbd>
 - [Bounding Box Regression with Uncertainty for Accurate Object Detection](https://arxiv.org/abs/1809.08545) <kbd>CVPR 2019</kbd>
 - [Classification of Objects in Polarimetric Radar Images Using CNNs at 77 GHz](http://sci-hub.tw/10.1109/APMC.2017.8251453) (Radar, polar) <-- todo
