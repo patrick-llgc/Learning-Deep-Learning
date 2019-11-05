@@ -31,4 +31,4 @@ The idea of [shift RCNN](shift_rcnn.md) and [FQNet](fqnet.md) are quite similar.
 #### Notes
 - Instead of generating the 3D seed location from time-consuming optimization. Can we do a coarser guess with IPM?
 - Instead of "passively" generating dense samples, can we directly train a neural network to "actively" adjust the location of the 3D wireframe? --> see [shift rcnn](shift_rcnn.md)
-
+- The active optimization can be done in a similar way to [IoU Net](iou_net.md) by gradient ascent via a differentiable criterion.

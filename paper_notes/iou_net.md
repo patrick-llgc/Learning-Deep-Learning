@@ -7,14 +7,22 @@ tl;dr: Regress a separate branch to estimate the quality of object detection in 
 #### Overall impression
 The vanilla version of IoU-Net (with the prediction of IoU and Precise RoI Pooling) is already better than baseline, most likely due to the regularization effect of the IoU branch. 
 
-The authors then use this IoU score for IoU-guided NMS, and use the score estimator as a judge for iterative optimization.
+> The classification confidence indicates the category of a bbox but cannot be interpreted as the localization accuracy.
+
+It generates better results than SoftNMS (decrease the scores of overlapping ones instead of eliminating the overlapped candidate, see [Review of Soft NMS on Zhihu](https://zhuanlan.zhihu.com/p/51654911)), and can be dropped in many object detection frameworks. 
 
 #### Key ideas
-- Summaries of the key ideas
+- Conventional NMS is ignorant of the localization accuracy, while the classification scores are typically used as the metric for ranking proposals.
+- localization quality is non-monotonic in iterative bounding box regression.
+- **IoU-guided NMS**: keep the box with the highest IoU prediction, rather than cls confidence.
+- **PrRoIPooling**: Use integration to make the pooling operation continuous wrt bin locations. This is an improvement over RoIAligna and RoIPool. RoIAlign only considers 2x2 point inside the bbox for calculating the feature map, but PrRoI Pooling removes this quantization altogether.
+- **iterative optimization** using the score estimator as a judge. Precise RoIPooling to make the backpropagation possible. 
+
 
 #### Technical details
-- Summary of technical details
+- The IoU prediction branch is trained with random jittering online data aug.
 
 #### Notes
 - The idea of using a head to regress the IoU is very much like that of [FQNet](fqnet.md), although FQNet aims to regress the 3D IoU from overlaid wireframe. 
-
+- Iterative optimization solved the problem raised by Cascade RCNN that iterative bbox regression does not improve beyond 2 stages. 
+- Also iterative optimization should be able to apply to [FQNet](fqnet.md) as it has a predictor to tell the 3D IoU.
