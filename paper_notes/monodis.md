@@ -17,7 +17,7 @@ The paper proposes a **disentangling transformation** to split the original comb
 #### Technical details
 - In place ABN to replace BatchNorm + ReLU.
 - Postprocess for 2D obeject detection: filter by thresh + topk --> NMS --> topk.
-- Signed IoU loss to prevent vanishing gradient. If two bbox are disjoint, then sIoU is negative. Overall sIoU is in [-1, 1].
+- **Signed IoU (sIoU)** loss to prevent vanishing gradient. If two bbox are disjoint, then sIoU is negative. Overall sIoU is in [-1, 1]. --> compare with [gIoU](giou.md).
 - 3D corner loss: but with 10-dim of vectors all entangled. --> Use disentanglement transformation. The quaternion regression also only regresses the observation angle, or allocentric angle, similar to [deep3dbox](deep3dbox.md) and [monoPSR](monopsr.md).
 - conf = 2d conf * (3D conf | 2D) for inference filtering.
 - The paper has a nice summary of KPIs used in detection track. In particular, nuscense dataset has a overall combined metric called NDS (see [github implementation](https://github.com/nutonomy/nuscenes-devkit/tree/master/python-sdk/nuscenes/eval/detection)).
