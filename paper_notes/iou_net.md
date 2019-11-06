@@ -26,3 +26,4 @@ It generates better results than SoftNMS (decrease the scores of overlapping one
 - The idea of using a head to regress the IoU is very much like that of [FQNet](fqnet.md), although FQNet aims to regress the 3D IoU from overlaid wireframe. 
 - Iterative optimization solved the problem raised by Cascade RCNN that iterative bbox regression does not improve beyond 2 stages. 
 - Also iterative optimization should be able to apply to [FQNet](fqnet.md) as it has a predictor to tell the 3D IoU.
+- [VNet](https://arxiv.org/abs/1606.04797) in 2016 was the first to propose Dice Loss in image segmentation. [Lovasz Softmax](https://arxiv.org/abs/1705.08790) (CVPR 2018) is a high-performing surrogate for IoU loss, but is also used for segmentation.
