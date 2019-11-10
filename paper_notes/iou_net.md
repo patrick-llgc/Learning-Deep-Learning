@@ -21,7 +21,11 @@ It generates better results than SoftNMS (decrease the scores of overlapping one
 - **iterative optimization** using the score estimator as a judge. Precise RoIPooling to make the backpropagation possible. 
 - The regressed iou score correlates with IoU better than cls confidence
 ![](https://blog-1258449291.cos.ap-chengdu.myqcloud.com/Blog/IOU-Net/1547292464564.jpg)
+
 Classification confidence tends to be over-confident and is bipolar. 
+This is similar to the results in [gaussian yolov3](gaussian_yolov3.md).
+
+![](https://storage.googleapis.com/groundai-web-prod/media%2Fusers%2Fuser_225489%2Fproject_350848%2Fimages%2Fx4.png)
 
 #### Technical details
 - The IoU prediction branch is trained with random jittering online data aug.
