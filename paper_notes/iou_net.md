@@ -11,6 +11,8 @@ The vanilla version of IoU-Net (with the prediction of IoU and Precise RoI Pooli
 
 It generates better results than SoftNMS (decrease the scores of overlapping ones instead of eliminating the overlapped candidate, see [Review of Soft NMS on Zhihu](https://zhuanlan.zhihu.com/p/51654911)), and can be dropped in many object detection frameworks. 
 
+[KL Loss](kl_loss.md) and [IoU Net](iou_net.md) are similar, but are different in implmentation. KL loss directly regresses mean and var from the same head, instead of a separate head for IoU prediction in IoU Net. Also Var Voting is one forward pass, not like the IoU Net's iterative optimization.
+
 #### Key ideas
 - Conventional NMS is ignorant of the localization accuracy, while the classification scores are typically used as the metric for ranking proposals.
 - localization quality is non-monotonic in iterative bounding box regression.
@@ -26,4 +28,3 @@ It generates better results than SoftNMS (decrease the scores of overlapping one
 - The idea of using a head to regress the IoU is very much like that of [FQNet](fqnet.md), although FQNet aims to regress the 3D IoU from overlaid wireframe. 
 - Iterative optimization solved the problem raised by Cascade RCNN that iterative bbox regression does not improve beyond 2 stages. 
 - Also iterative optimization should be able to apply to [FQNet](fqnet.md) as it has a predictor to tell the 3D IoU.
-- [VNet](https://arxiv.org/abs/1606.04797) in 2016 was the first to propose Dice Loss in image segmentation. [Lovasz Softmax](https://arxiv.org/abs/1705.08790) (CVPR 2018) is a high-performing surrogate for IoU loss, but is also used for segmentation.
