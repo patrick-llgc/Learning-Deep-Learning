@@ -42,7 +42,7 @@ The sections below records paper reading activity in chronological order. See no
 - [Measuring Calibration in Deep Learning](https://arxiv.org/abs/1904.01685) <kbd>CVPR 2019</kbd>
 - [Can We Trust You? On Calibration of a Probabilistic Object Detector for Autonomous Driving](https://arxiv.org/abs/1909.12358) <kbd>IROS 2019</kbd> (Di Feng)
 - [Leveraging Heteroscedastic Aleatoric Uncertainties for Robust Real-Time LiDAR 3D Object Detection](https://arxiv.org/abs/1809.05590) <kbd>IV 19</kbd> (Di Feng)
-- [Towards Safe Autonomous Driving: Capture Uncertainty in the Deep Neural Network For Lidar 3D Vehicle Detection](https://arxiv.org/abs/1804.05132) <kbd>ITSC 2018</kbd> (Di Feng)
+- [Towards Safe Autonomous Driving: Capture Uncertainty in the Deep Neural Network For Lidar 3D Vehicle Detection](https://arxiv.org/abs/1804.05132) [[Notes](paper_notes/towards_safe_ad.md)] <kbd>ITSC 2018</kbd> (Di Feng)
 - [Calibrating uncertainties in object localization task](https://arxiv.org/abs/1811.11210)
 - [Uncertainty Estimation in One-Stage Object Detection](https://arxiv.org/abs/1905.10296)
 - [Probabilistic Object Detection: Definition and Evaluation](https://arxiv.org/abs/1811.10800)

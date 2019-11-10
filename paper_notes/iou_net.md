@@ -19,7 +19,9 @@ It generates better results than SoftNMS (decrease the scores of overlapping one
 - **IoU-guided NMS**: keep the box with the highest IoU prediction, rather than cls confidence.
 - **PrRoIPooling**: Use integration to make the pooling operation continuous wrt bin locations. This is an improvement over RoIAligna and RoIPool. RoIAlign only considers 2x2 point inside the bbox for calculating the feature map, but PrRoI Pooling removes this quantization altogether.
 - **iterative optimization** using the score estimator as a judge. Precise RoIPooling to make the backpropagation possible. 
-
+- The regressed iou score correlates with IoU better than cls confidence
+![](https://blog-1258449291.cos.ap-chengdu.myqcloud.com/Blog/IOU-Net/1547292464564.jpg)
+Classification confidence tends to be over-confident and is bipolar. 
 
 #### Technical details
 - The IoU prediction branch is trained with random jittering online data aug.
