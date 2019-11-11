@@ -18,7 +18,7 @@ The idea of [shift RCNN](shift_rcnn.md) and [FQNet](fqnet.md) are quite similar.
 - The volume displacement loss is decomposed into 3 sums of 3 terms, each term is $\Delta x \times h \times w$ and alike. w and h are estimated 3D dimension.
 
 #### Technical details
-- Summary of technical details
+- They used best IoU to pick the best configuration. This is a bit different from the previous method of picking one that mininizes residual from least square fitting, such as [FQNet](fqnet.md) or [Deep3DBox](deep3dbox.md). This is also used in [MVRA](mvra.md).
 
 #### Notes
 - Questions and notes on how to improve/revise the current work  
