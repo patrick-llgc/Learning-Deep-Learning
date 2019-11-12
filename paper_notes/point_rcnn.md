@@ -7,6 +7,8 @@ tl;dr: Extend existing point cloud classification and segmentation method to 3D 
 #### Overall impression
 This paper basically extended Faster RCNN and Mask RCNN to point cloud representations, with many tweaks to adapt the representation difference. This work is closely related to other 3D detection framework such as [Frustum PointNet](frustum_pointnet.md), in particular the study in the appendix where proposals are generated from bird's eye view from point cloud. The main contribution is the first stage which generates high quality 3D bbox proposals from point cloud.
 
+The idea of predicting one bbox per point is also used in [LaserNet](lasernet.md).
+
 #### Key ideas
 - Frustum pointnet uses 2D RGB image, but the hard examples it misses may be easy from 3D point cloud.
 - In the first stage, the network performs semantic segmentation first (foreground vs background). This result is fed into the bbox proposal head (instead of independent as mentioned in the paper). Each point in the foreground is responsible of generating one bbox proposal (7 DoF). This eliminates expensive anchor based methods. The bboxes go through NMS before feeding to the 2nd stage.
