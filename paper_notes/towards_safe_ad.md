@@ -9,6 +9,8 @@ This paper has a good level of details regarding how to adapt aleatoric and epis
 
 **Modeling aleatoric uncertainty boosted the performance (by 1-5%). Modeling epistemic uncertainty via monte carlo dropout degrades performance slightly.** --> also observed by [Bayesian yolov3](bayesian_yolov3.md).
 
+This paper only models aleatoric uncertainty in FRH (faster rcnn head) part. This work is extended by [towards safe ad2](towards_safe_ad2.md) by modeling uncertainty in both RPN and FRH.
+
 > Uncertainty can be used to efficiently improve the vehicle detector in an active learning paradigm: the detector actively queries the unseen samples with high epistemic uncertainty.
 
 #### Key ideas

@@ -99,6 +99,8 @@ for Road Detection Algorithms](http://www.cvlibs.net/publications/Fritsch2013ITS
 - [MonoGRNet: A Geometric Reasoning Network for Monocular 3D Object Localization](https://arxiv.org/abs/1811.10247) [[Notes](paper_notes/monogrnet.md)] <kbd>AAAI 2019</kbd> 
 - [MonoGRNet 2: Monocular 3D Object Detection via Geometric Reasoning on Keypoints](https://arxiv.org/abs/1905.05618) [[Notes](paper_notes/monogrnet_russian.md)] \(estimates depth from keypoints)
 - [MonoLoco: Monocular 3D Pedestrian Localization and Uncertainty Estimation](https://arxiv.org/abs/1906.06059) [[Notes](paper_notes/monoloco.md)] <kbd>ICCV 2019</kbd>
+- [GPP: Ground Plane Polling for 6DoF Pose Estimation of Objects on the Road](https://arxiv.org/abs/1811.06666) \[[Notes](paper_notes/gpp.md)] (UCSD, mono 3DOD)
+
 
 ### Distance via 2D/3D constraint
 - [Deep3dBox: 3D Bounding Box Estimation Using Deep Learning and Geometry](https://arxiv.org/abs/1612.00496) \[[Notes](paper_notes/deep3dbox.md)] (from Zoox) <kbd>CVPR 2017</kbd>
@@ -107,6 +109,9 @@ for Road Detection Algorithms](http://www.cvlibs.net/publications/Fritsch2013ITS
 - [Mono3D++: Monocular 3D Vehicle Detection with Two-Scale 3D Hypotheses and Task Priors](https://arxiv.org/abs/1901.03446) [[Notes](paper_notes/mono3d++.md)] (Stefano Soatto) <kbd>AAAI 2019</kbd>
 - [GS3D: An Efficient 3D Object Detection Framework for Autonomous Driving](https://arxiv.org/abs/1903.10955) [[Notes](paper_notes/gs3d.md)] <kbd>CVPR 2019</kbd> (2d bbox height)
 - [MonoPSR: Monocular 3D Object Detection Leveraging Accurate Proposals and Shape Reconstruction](https://arxiv.org/abs/1904.01690) [[Notes](paper_notes/monopsr.md)] <kbd>CVPR 2019</kbd> (2d bbox height)
+- [CasGeo: 3D Bounding Box Estimation for Autonomous Vehicles by Cascaded Geometric Constraints and Depurated 2D Detections Using 3D Results](https://arxiv.org/abs/1909.01867) [[Notes](paper_notes/casgeo.md)]
+- [MVRA: Multi-View Reprojection Architecture for Orientation Estimation](http://openaccess.thecvf.com/content_ICCVW_2019/papers/ADW/Choi_Multi-View_Reprojection_Architecture_for_Orientation_Estimation_ICCVW_2019_paper.pdf) [[Notes](paper_notes/mvra.md)] <kbd>ICCV 2019</kbd>
+
 
 ### Direct generation of 3D proposals
 - [Mono3D: Monocular 3D Object Detection for Autonomous Driving](https://www.cs.toronto.edu/~urtasun/publications/chen_etal_cvpr16.pdf) [[Notes](paper_notes/mono3d.md)] <kbd>CVPR2016</kbd> (lots of 3D anchors)
@@ -116,6 +121,8 @@ for Road Detection Algorithms](http://www.cvlibs.net/publications/Fritsch2013ITS
 - [MonoDIS: Disentangling Monocular 3D Object Detection](https://arxiv.org/abs/1905.12365) [[Notes](paper_notes/monodis.md)] <kbd>ICCV 2019</kbd>
 - [Joint Monocular 3D Vehicle Detection and Tracking](https://arxiv.org/abs/1811.10742) [[Notes](paper_notes/mono_3d_tracking.md)] <kbd>ICCV 2019</kbd> (directly regress 1/d, Berkeley DeepDrive)
 - [CenterNet: Objects as points](https://arxiv.org/pdf/1904.07850.pdf) (from ExtremeNet authors) [[Notes](paper_notes/centernet_ut.md)] (directly regress 1/d)
+- [Joint Monocular 3D Vehicle Detection and Tracking](https://arxiv.org/abs/1811.10742) [[Notes](paper_notes/mono_3d_tracking.md)] <kbd>ICCV 2019</kbd> (Berkeley DeepDrive)
+
 
 ### Others
 - [Deep Optics for Monocular Depth Estimation and 3D Object Detection](https://arxiv.org/abs/1904.08601) [[Notes](paper_notes/deep_optics.md)] <kbd>ICCV 2019</kbd>

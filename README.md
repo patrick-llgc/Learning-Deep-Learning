@@ -26,6 +26,7 @@ The sections below records paper reading activity in chronological order. See no
 - [Gaussian YOLOv3: An Accurate and Fast Object Detector Using Localization Uncertainty for Autonomous Driving](https://arxiv.org/abs/1904.04620) [[Notes](paper_notes/gaussian_yolov3.md)] <kbd>ICCV 2019</kbd> (Detection with Uncertainty)
 - [Bayesian YOLOv3: Uncertainty Estimation in One-Stage Object Detection](https://arxiv.org/abs/1905.10296) \[[Notes](paper_notes/bayesian_yolov3.md)] (DriveU)
 - [Towards Safe Autonomous Driving: Capture Uncertainty in the Deep Neural Network For Lidar 3D Vehicle Detection](https://arxiv.org/abs/1804.05132) [[Notes](paper_notes/towards_safe_ad.md)] <kbd>ITSC 2018</kbd> (DriveU)
+- [Leveraging Heteroscedastic Aleatoric Uncertainties for Robust Real-Time LiDAR 3D Object Detection](https://arxiv.org/abs/1809.05590) [[Notes](paper_notes/towards_safe_ad2.md)] <kbd>IV 2019</kbd> (DriveU)
 - [LaserNet: An Efficient Probabilistic 3D Object Detector for Autonomous Driving](https://arxiv.org/abs/1903.08701) [[Notes](paper_notes/lasernet.md)] <kbd>CVPR 2019</kbd> (uncertainty)
 - [LaserNet KL: Learning an Uncertainty-Aware Object Detector for Autonomous Driving](https://arxiv.org/abs/1910.11375) \[[Notes](paper_notes/lasernet_kl.md)] (LaserNet with KL divergence)
 - [Sampling-free Epistemic Uncertainty Estimation Using Approximated Variance Propagation](https://arxiv.org/abs/1908.00598) <kbd>ICCV 2019</kbd> (Uncertainty)
@@ -43,11 +44,17 @@ The sections below records paper reading activity in chronological order. See no
 - [On Calibration of Modern Neural Networks](https://arxiv.org/abs/1706.04599) <kbd>ICML 2017</kbd> (Weinberger)
 - [Measuring Calibration in Deep Learning](https://arxiv.org/abs/1904.01685) <kbd>CVPR 2019</kbd>
 - [Can We Trust You? On Calibration of a Probabilistic Object Detector for Autonomous Driving](https://arxiv.org/abs/1909.12358) <kbd>IROS 2019</kbd> (DriveU)
-- [Leveraging Heteroscedastic Aleatoric Uncertainties for Robust Real-Time LiDAR 3D Object Detection](https://arxiv.org/abs/1809.05590) <kbd>IV 19</kbd> (DriveU)
 - [Calibrating uncertainties in object localization task](https://arxiv.org/abs/1811.11210)
 - [Probabilistic Object Detection: Definition and Evaluation](https://arxiv.org/abs/1811.10800)
 - [BayesOD: A Bayesian Approach for Uncertainty Estimation in Deep Object Detectors](https://arxiv.org/abs/1903.03838)
 - [Sampling-free Epistemic Uncertainty Estimation Using Approximated Variance Propagation](https://arxiv.org/abs/1908.00598) <kbd>ICCV 2019</kbd> (epistemic uncertainty)
+- [Vehicle Detection With Automotive Radar Using Deep Learning on Range-Azimuth-Doppler Tensors](http://openaccess.thecvf.com/content_ICCVW_2019/papers/CVRSUAD/Major_Vehicle_Detection_With_Automotive_Radar_Using_Deep_Learning_on_Range-Azimuth-Doppler_ICCVW_2019_paper.pdf) <kbd>ICCV 2019</kbd>
+- [Deep Learning Based 3D Object Detection for Automotive Radar and Camera](https://www.astyx.com/fileadmin/redakteur/dokumente/Deep_Learning_Based_3D_Object_Detection_for_Automotive_Radar_and_Camera.PDF) (Astyx)
+- [Automotive Radar Dataset for Deep Learning Based 3D Object Detection](https://www.astyx.com/fileadmin/redakteur/dokumente/Automotive_Radar_Dataset_for_Deep_learning_Based_3D_Object_Detection.PDF) (Astyx)
+- [End-to-end Lane Detection through Differentiable Least-Squares Fitting](https://arxiv.org/abs/1902.00293) <kbd>ICCV 2019</kbd>
+- [CAM-Convs: Camera-Aware Multi-Scale Convolutions for Single-View Depth](https://arxiv.org/abs/1904.02028) <kbd>CVPR 2019</kbd>
+- [Multi-Task Learning of Depth from Tele and Wide Stereo Image Pairs](https://ieeexplore.ieee.org/abstract/document/8803566) <kbd>ICIP 2019</kbd>
+- [TW-SMNet: Deep Multitask Learning of Tele-Wide Stereo Matching](https://arxiv.org/abs/1906.04463) <kbd>ICIP 2019</kbd>
 
 
 ## 2019-10 (18)
