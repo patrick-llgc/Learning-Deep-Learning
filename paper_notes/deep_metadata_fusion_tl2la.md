@@ -7,7 +7,14 @@ tl;dr: Convert metadata to binary masks and use deep metadata fusion to improve 
 #### Overall impression
 This work improves upon the previous [only-vision baseline](https://ieeexplore.ieee.org/document/8569421) (from same authors, without any meta data).
 
-The authors converted all meta data to binary masks, as all the meta data are spatial info. --> This method may not work well if some meta data cannot be spatially encoded.
+The authors converted all meta data to binary masks, as all the meta data are spatial info. --> This method may not work well if some meta data cannot be spatially encoded. 
+
+Embedding meta data info into conv:
+
+- [meta data fusion for TL2LA](deep_metadata_fusion_tl2la.md)
+- [fusing radar pins with camera](distant_object_radar.md)
+- [cam conv](cam_conv.md) to fuse focal length into convs.
+
 
 The traffic lights to lane assignment problem can be solved traditionally using huristics rule-based methods, but not very reliably. Only-vision approach (enhanced with enlarged ROIs), and with meta data, works almost as good as human performance in subjective test. This is because the relevant traffic lights are not always mounted directly above the their associated lane.
 

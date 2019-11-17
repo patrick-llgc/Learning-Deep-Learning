@@ -5,7 +5,13 @@ _August 2019_
 tl;dr: Fuse radar tracklets with camera image. 
 
 #### Overall impression
-Radar as a sensing modality is highly complementary to vision. The paper spatially encoded heterogeneous metadata (radar) as images. This is similar to [meta data fusion for TL2LA](deep_metadata_fusion_tl2la.md).
+Radar as a sensing modality is highly complementary to vision. The paper spatially encoded heterogeneous metadata (radar) as images. 
+
+Embedding meta data info into conv:
+
+- [meta data fusion for TL2LA](deep_metadata_fusion_tl2la.md)
+- [fusing radar pins with camera](distant_object_radar.md)
+- [cam conv](cam_conv.md) to fuse focal length into convs.
 
 #### Key ideas
 - Automated labeling with long focal length camera to label short focal length camera. 

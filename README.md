@@ -34,6 +34,9 @@ The sections below records paper reading activity in chronological order. See no
 - [IoUNet: Acquisition of 	Localization Confidence for Accurate Object Detection](https://arxiv.org/abs/1807.11590) [[Notes](paper_notes/iou_net.md)] <kbd>ECCV 2018</kbd>
 - [gIoU: Generalized Intersection over Union: A Metric and A Loss for Bounding Box Regression](https://arxiv.org/abs/1902.09630) [[Notes](paper_notes/giou.md)] <kbd>CVPR 2019</kbd>
 - [KL Loss: Bounding Box Regression with Uncertainty for Accurate Object Detection](https://arxiv.org/abs/1809.08545) [[Notes](paper_notes/kl_loss.md)] <kbd>CVPR 2019</kbd>
+- [CAM-Convs: Camera-Aware Multi-Scale Convolutions for Single-View Depth](https://arxiv.org/abs/1904.02028) [[Notes](paper_notes/cam_conv.md)] <kbd>CVPR 2019</kbd>
+- [Multi-Task Learning of Depth from Tele and Wide Stereo Image Pairs](https://ieeexplore.ieee.org/abstract/document/8803566) <kbd>ICIP 2019</kbd>
+- [TW-SMNet: Deep Multitask Learning of Tele-Wide Stereo Matching](https://arxiv.org/abs/1906.04463) [[Notes](paper_notes/twsm_net.md)] <kbd>ICIP 2019</kbd>
 - [Classification of Objects in Polarimetric Radar Images Using CNNs at 77 GHz](http://sci-hub.tw/10.1109/APMC.2017.8251453) (Radar, polar) <-- todo
 - [Gated2Depth: Real-time Dense Lidar from Gated Images](https://arxiv.org/abs/1902.04997) <kbd>ICCV 2019 oral</kbd>
 - [PifPaf: Composite Fields for Human Pose Estimation](https://arxiv.org/abs/1903.06593) <kbd>CVPR 2019</kbd>
@@ -52,9 +55,6 @@ The sections below records paper reading activity in chronological order. See no
 - [Deep Learning Based 3D Object Detection for Automotive Radar and Camera](https://www.astyx.com/fileadmin/redakteur/dokumente/Deep_Learning_Based_3D_Object_Detection_for_Automotive_Radar_and_Camera.PDF) (Astyx)
 - [Automotive Radar Dataset for Deep Learning Based 3D Object Detection](https://www.astyx.com/fileadmin/redakteur/dokumente/Automotive_Radar_Dataset_for_Deep_learning_Based_3D_Object_Detection.PDF) (Astyx)
 - [End-to-end Lane Detection through Differentiable Least-Squares Fitting](https://arxiv.org/abs/1902.00293) <kbd>ICCV 2019</kbd>
-- [CAM-Convs: Camera-Aware Multi-Scale Convolutions for Single-View Depth](https://arxiv.org/abs/1904.02028) <kbd>CVPR 2019</kbd>
-- [Multi-Task Learning of Depth from Tele and Wide Stereo Image Pairs](https://ieeexplore.ieee.org/abstract/document/8803566) <kbd>ICIP 2019</kbd>
-- [TW-SMNet: Deep Multitask Learning of Tele-Wide Stereo Matching](https://arxiv.org/abs/1906.04463) <kbd>ICIP 2019</kbd>
 - [Accurate Uncertainties for Deep Learning Using Calibrated Regression](https://arxiv.org/abs/1807.00263) <kbd>ICML 2018</kbd>
 - [Calibrating Uncertainties in Object Localization Task](https://arxiv.org/abs/1811.11210)
 - [Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) (Kaiming He)
