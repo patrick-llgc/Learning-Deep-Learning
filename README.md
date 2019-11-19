@@ -35,6 +35,7 @@ The sections below records paper reading activity in chronological order. See no
 - [gIoU: Generalized Intersection over Union: A Metric and A Loss for Bounding Box Regression](https://arxiv.org/abs/1902.09630) [[Notes](paper_notes/giou.md)] <kbd>CVPR 2019</kbd>
 - [KL Loss: Bounding Box Regression with Uncertainty for Accurate Object Detection](https://arxiv.org/abs/1809.08545) [[Notes](paper_notes/kl_loss.md)] <kbd>CVPR 2019</kbd>
 - [CAM-Convs: Camera-Aware Multi-Scale Convolutions for Single-View Depth](https://arxiv.org/abs/1904.02028) [[Notes](paper_notes/cam_conv.md)] <kbd>CVPR 2019</kbd>
+- [BayesOD: A Bayesian Approach for Uncertainty Estimation in Deep Object Detectors](https://arxiv.org/abs/1903.03838) [[Notes](paper_notes/bayes_od.md)]
 - [Multi-Task Learning of Depth from Tele and Wide Stereo Image Pairs](https://ieeexplore.ieee.org/abstract/document/8803566) <kbd>ICIP 2019</kbd>
 - [TW-SMNet: Deep Multitask Learning of Tele-Wide Stereo Matching](https://arxiv.org/abs/1906.04463) [[Notes](paper_notes/twsm_net.md)] <kbd>ICIP 2019</kbd>
 - [Classification of Objects in Polarimetric Radar Images Using CNNs at 77 GHz](http://sci-hub.tw/10.1109/APMC.2017.8251453) (Radar, polar) <-- todo
@@ -49,7 +50,6 @@ The sections below records paper reading activity in chronological order. See no
 - [Measuring Calibration in Deep Learning](https://arxiv.org/abs/1904.01685) <kbd>CVPR 2019</kbd>
 - [Calibrating uncertainties in object localization task](https://arxiv.org/abs/1811.11210)
 - [Probabilistic Object Detection: Definition and Evaluation](https://arxiv.org/abs/1811.10800)
-- [BayesOD: A Bayesian Approach for Uncertainty Estimation in Deep Object Detectors](https://arxiv.org/abs/1903.03838)
 - [Sampling-free Epistemic Uncertainty Estimation Using Approximated Variance Propagation](https://arxiv.org/abs/1908.00598) <kbd>ICCV 2019</kbd> (epistemic uncertainty)
 - [Vehicle Detection With Automotive Radar Using Deep Learning on Range-Azimuth-Doppler Tensors](http://openaccess.thecvf.com/content_ICCVW_2019/papers/CVRSUAD/Major_Vehicle_Detection_With_Automotive_Radar_Using_Deep_Learning_on_Range-Azimuth-Doppler_ICCVW_2019_paper.pdf) <kbd>ICCV 2019</kbd>
 - [Deep Learning Based 3D Object Detection for Automotive Radar and Camera](https://www.astyx.com/fileadmin/redakteur/dokumente/Deep_Learning_Based_3D_Object_Detection_for_Automotive_Radar_and_Camera.PDF) (Astyx)

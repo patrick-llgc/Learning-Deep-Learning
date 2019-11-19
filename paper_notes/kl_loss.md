@@ -20,7 +20,7 @@ Learning localization confidence in addition to classification confidence can 1)
 $$L_{reg} = \frac{e^{-\alpha}}{2}((x_g - x_e)^2 ) + \frac{1}{2} \alpha, when <1$$
 $$L_{reg} = e^{-\alpha}(|x_g - x_e| - \frac{1}{2}) + \frac{1}{2} \alpha, when >=1$$
 or $$L_{reg} = e^{-\alpha} SL1(x_g - x_e) + \alpha$$
-- **Variance Voting**: all previous NMS scheme does not weight average all bounding box but rather select one and suppress others, including [IoU Guided NMS](iou_net.md) and soft NMS (only changes score). Boxes with higher variance and further away from the bbox of interest is down-weighted. The final bbox position is a weighted average of the bbox. 
+- **Variance Voting**: all previous NMS scheme does not weight average all bounding box but rather select one and suppress others, including [IoU Guided NMS](iou_net.md) and soft NMS (only changes score). Boxes with higher variance and further away from the bbox of interest is down-weighted. The final bbox position is a weighted average of the bbox.  --> this is similar to the bayesian inference scheme in [BayesOD](bayes_od.md).
 
 
 #### Technical details
