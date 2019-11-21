@@ -7,7 +7,7 @@ tl;dr: Calibration of the network for a probabilistic object detector
 #### Overall impression
 The paper extends previous works in the [probabilistic lidar detector](towards_safe_ad.md) and its [successor](towards_safe_ad2.md). It is based on the work of Pixor. 
 
-Calibration: a probabilistic object detector should predict uncertainties that match the natural frequency of correct predictions. 90% of the predictions with 0.9 score from a calibrated detector should be correct. Humans have intuitive notion of probability in a frequentist sense. 
+Calibration: a probabilistic object detector should predict uncertainties that match the natural frequency of correct predictions. 90% of the predictions with 0.9 score from a calibrated detector should be correct. Humans have intuitive notion of probability in a frequentist sense. --> cf [accurate uncertainty via calibrated regression](dl_regression_calib.md).
 
 A calibrated regression is a bit harder to interpret. P(gt < F^{-1}(p)) = p. F^{-1} = F_q is the inverse function of CDF, the quantile function.
 
@@ -26,7 +26,7 @@ The paper also has a very good way to visualize uncertainty in 2D object detecto
 
 $$ECE = \sum_i^M \frac{N_m}{N}|p^m - \hat{p^m}|$$
 
-- Isotonic regression
+- Isotonic regression (保序回归)
 	- During test time, the object detector produced an uncalibrated uncertainty, then corrected by the recalib model g(). In practice, we build a recalib dataset from validation data.
 	- Post-processing, does not guarantee recalibration of individual prediction (only by bins). 
 	- It changes probability distribution, Gaussian --> Non-Gaussian
