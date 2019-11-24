@@ -20,6 +20,7 @@ This repository contains my paper reading notes on deep learning and machine lea
 The sections below records paper reading activity in chronological order. See notes organized according to subfields [here](organized.md) (up to 06-2019). 
 
 ## 2019-11 (15)
+- [Review of Image and Feature Descriptors](paper_notes/review_descriptors.md)
 - [Vehicle Detection With Automotive Radar Using Deep Learning on Range-Azimuth-Doppler Tensors](http://openaccess.thecvf.com/content_ICCVW_2019/papers/CVRSUAD/Major_Vehicle_Detection_With_Automotive_Radar_Using_Deep_Learning_on_Range-Azimuth-Doppler_ICCVW_2019_paper.pdf) [[Notes](paper_notes/radar_iccv.md)] <kbd>ICCV 2019</kbd>
 - [GPP: Ground Plane Polling for 6DoF Pose Estimation of Objects on the Road](https://arxiv.org/abs/1811.06666) \[[Notes](paper_notes/gpp.md)] (UCSD, mono 3DOD)
 - [MVRA: Multi-View Reprojection Architecture for Orientation Estimation](http://openaccess.thecvf.com/content_ICCVW_2019/papers/ADW/Choi_Multi-View_Reprojection_Architecture_for_Orientation_Estimation_ICCVW_2019_paper.pdf) [[Notes](paper_notes/mvra.md)] <kbd>ICCV 2019</kbd>
