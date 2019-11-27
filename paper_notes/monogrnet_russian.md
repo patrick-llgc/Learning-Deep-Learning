@@ -5,9 +5,9 @@ _October 2019_
 tl;dr: Regress keypoints in 2D images and use 3D CAD model to infer depth. 
 
 #### Overall impression
-The training is based on 3D CAD model with minimal keypoint annotation. This is valuable as it saves much annotation effort on 2D images, which is inefficient and inaccurate. It only assumes that the intrinsics are given. 
+The training is based on 3D CAD model with minimal keypoint annotation. This is valuable as it saves much annotation effort on 2D images, which is inefficient and inaccurate. It also seems to use the semi-automatic way to annotate 2D keypoints as in [deep MANTA](deep_manta.md).
 
-It is related to [deepMANTA](deep_manta.md) that it relies on keypoint regression for monocular 3DOD. It is inspired by [monoGRNet](monogrnet.md) that it uses simple geometric reasoning for Mono3DOD. The idea of using keypoint to estimate depth can also be found in [GS3D](gs3d.md).
+It is related to [deepMANTA](deep_manta.md) that it relies on keypoint regression for monocular 3DOD. The idea of using keypoint to estimate depth can also be found in [GS3D](gs3d.md). It is not actually that related to MonoGRNet.
 
 It follows the Mono3DOD tradition that regresses local yaw and dimension offset from image patches and infer depth from these results.
 
@@ -20,7 +20,7 @@ It follows the Mono3DOD tradition that regresses local yaw and dimension offset 
 	- CAD and dimension model: CAD cls + dimension offset. 
 - Scale according to keypoint distance. This idea is valid as the dimension or keypoint distances do not vary much.
 - Regress the local orientation, then convert to global orientation.
-- Reprojection consistency loss: this would need accurate **extrinsic** information. We could get this from localization, but this is better left off to sensor fusion to fuse the info. --> But sensor fusion is better to do a sanity check of the consistency from different methods. Or DL could use a nominal extrinsic information to check the consistency.
+- Reprojection consistency loss to make the results from multiple heads consistent. (e.g., 2D 3D tight constraints, 2D keypoint location)
 
 #### Technical details
 - Dense depth estimation may be redundant in context of 3D object detection. [MonoGRNet](monogrnet.md) only regresses instance level depth. This paper focuses on salient features (keypoints). 

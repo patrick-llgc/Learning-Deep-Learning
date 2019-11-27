@@ -5,7 +5,7 @@ _October 2019_
 tl;dr: Place 3D anchors inside the frustum subtended by 2D object detection as the mono baseline. The stereo branches reweigh feature maps based on their coherence score.
 
 #### Overall impression
-Pixel level depth maps are too expensive for 3DOD. Object level depth should be good enough.
+Pixel level depth maps are too expensive for 3DOD. Object level depth should be good enough. --> this is similar to [MonoGRNet](monogrnet.md).
 
 The paper provides a solid mono baseline. --> this can be perhaps improved by using some huristics such as vehicle size to overcome the dense sampling of 3D anchors.
 

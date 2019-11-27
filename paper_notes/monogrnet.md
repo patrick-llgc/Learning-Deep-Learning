@@ -5,7 +5,9 @@ _August 2019_
 tl;dr: Use the same network to estimate instance depth, 2D and 3D bbox.
 
 #### Overall impression
-The authors raises a critical issue in the current depth estimation that the evaluation metrics are not focused on instance level depth estimation. That means all SOTA methods are sub-optimal in terms of estimating instance level depth. This point echoes mine that the pixel wise depth map need finetune for 3D object detection, as opposed to freezing it as done in [pseudo-lidar end2end](pseudo_lidar_e2e.md).
+The authors raises a critical issue in the current depth estimation that the evaluation metrics are not focused on instance level depth estimation. That means all SOTA methods are sub-optimal in terms of estimating instance level depth. This point echoes mine that the pixel wise depth map need finetune for 3D object detection, as opposed to freezing it as done in [pseudo-lidar end2end](pseudo_lidar_e2e.md). This point is further elaborated in [ForeSeE](foresee_mono3dod.md) which separates FG and BG depth estimation.
+
+It also mentioned that pixel-wise depth is too expensive for mono3dod, and instance depth should be enough. --> similar to [TLNet](tlnet.md).
 
 The depth estimation is instance based sparse depth info. --> There should be a way to marry depth estimation and 3D object detection together. Or is this sparse depth info is already enough? This is the first tunable depth estimation in almost all mono3DOD research. Most just use pretrained depth estimation off the shelf.
 

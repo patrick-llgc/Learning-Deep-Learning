@@ -28,4 +28,7 @@ How to use multiple features per image? Keypoint matching or bag-of-visual-words
 ![](https://docs.opencv.org/3.4/fast_speedtest.jpg)
 - [openCV example](https://docs.opencv.org/3.1.0/df/d0c/tutorial_py_fast.html#gsc.tab=0)
 
+#### Harris
+- Quite fast (although slower than FAST), more accurate
+
 #### SIFT

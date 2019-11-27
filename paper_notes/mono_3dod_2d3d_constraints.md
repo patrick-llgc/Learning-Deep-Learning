@@ -2,7 +2,7 @@
 
 _October 2019_
 
-tl;dr: Summary of the main idea.
+tl;dr: Summary of the main idea. The review is published at [towarddatacience](https://towardsdatascience.com/geometric-reasoning-based-cuboid-generation-in-monocular-3d-object-detection-5ee2996270d1?source=friends_link&sk=ebead4b51a3f75476d308997dd88dd75).
 
 ### Deep 3D Box
 from [Deep3DBox](https://arxiv.org/pdf/1612.00496.pdf) and its [Supplementary material](https://cs.gmu.edu/~amousavi/papers/3D-Deepbox-Supplementary.pdf), and [review in 中文](https://blog.csdn.net/qq_29462849/article/details/91314777)

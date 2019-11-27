@@ -21,4 +21,4 @@ The paper seems to use 3D depth off the shelf but it was not described in detail
 #### Notes
 - Where does the label come from?
 - The wireframe model is fragile and cannot model under-represented cases.
-- 
+- von Mises distribution: circular Gaussian distribution
