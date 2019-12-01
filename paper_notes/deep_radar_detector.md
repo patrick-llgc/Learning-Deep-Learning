@@ -9,6 +9,8 @@ This is a splendid paper with great overall introduction to conventional radar d
 
 With enough data and richer annotation, this work could be extended to detect multiple objects, and maybe even regress the size of the object, if the resolution is sufficiently high. 
 
+This is further enhanced by [Qualcomm's deep radar perception](iccv_radar.md) which directly regresses a bbox from the range-doppler-azimuth tensor.
+
 #### Background
 - The main goal of imaging radars is to create a relatively dense point cloud (less dense than lidar) of the vehicle surrounding at ta lower cost and with a superior weather immunity compared to optical lidars.
 - Radar point cloud is not as dense as lidar point cloud, and it is subject to view point and temporal fluctuation. Two reasons: statistical nature of radar sensor, and conventional radar signal processing techniques.
