@@ -19,28 +19,7 @@ This repository contains my paper reading notes on deep learning and machine lea
 
 The sections below records paper reading activity in chronological order. See notes organized according to subfields [here](organized.md) (up to 06-2019). 
 
-## 2019-11 (19)
-- [Review of Image and Feature Descriptors](paper_notes/review_descriptors.md)
-- [Vehicle Detection With Automotive Radar Using Deep Learning on Range-Azimuth-Doppler Tensors](http://openaccess.thecvf.com/content_ICCVW_2019/papers/CVRSUAD/Major_Vehicle_Detection_With_Automotive_Radar_Using_Deep_Learning_on_Range-Azimuth-Doppler_ICCVW_2019_paper.pdf) [[Notes](paper_notes/radar_iccv.md)] <kbd>ICCV 2019</kbd>
-- [GPP: Ground Plane Polling for 6DoF Pose Estimation of Objects on the Road](https://arxiv.org/abs/1811.06666) \[[Notes](paper_notes/gpp.md)] (UCSD, mono 3DOD)
-- [MVRA: Multi-View Reprojection Architecture for Orientation Estimation](http://openaccess.thecvf.com/content_ICCVW_2019/papers/ADW/Choi_Multi-View_Reprojection_Architecture_for_Orientation_Estimation_ICCVW_2019_paper.pdf) [[Notes](paper_notes/mvra.md)] <kbd>ICCV 2019</kbd>
-- [YOLOv3: An Incremental Improvement](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
-- [Gaussian YOLOv3: An Accurate and Fast Object Detector Using Localization Uncertainty for Autonomous Driving](https://arxiv.org/abs/1904.04620) [[Notes](paper_notes/gaussian_yolov3.md)] <kbd>ICCV 2019</kbd> (Detection with Uncertainty)
-- [Bayesian YOLOv3: Uncertainty Estimation in One-Stage Object Detection](https://arxiv.org/abs/1905.10296) \[[Notes](paper_notes/bayesian_yolov3.md)] (DriveU)
-- [Towards Safe Autonomous Driving: Capture Uncertainty in the Deep Neural Network For Lidar 3D Vehicle Detection](https://arxiv.org/abs/1804.05132) [[Notes](paper_notes/towards_safe_ad.md)] <kbd>ITSC 2018</kbd> (DriveU)
-- [Leveraging Heteroscedastic Aleatoric Uncertainties for Robust Real-Time LiDAR 3D Object Detection](https://arxiv.org/abs/1809.05590) [[Notes](paper_notes/towards_safe_ad2.md)] <kbd>IV 2019</kbd> (DriveU)
-- [Can We Trust You? On Calibration of a Probabilistic Object Detector for Autonomous Driving](https://arxiv.org/abs/1909.12358) [[Notes](paper_notes/towards_safe_ad_calib.md)] <kbd>IROS 2019</kbd> (DriveU)
-- [LaserNet: An Efficient Probabilistic 3D Object Detector for Autonomous Driving](https://arxiv.org/abs/1903.08701) [[Notes](paper_notes/lasernet.md)] <kbd>CVPR 2019</kbd> (uncertainty)
-- [LaserNet KL: Learning an Uncertainty-Aware Object Detector for Autonomous Driving](https://arxiv.org/abs/1910.11375) \[[Notes](paper_notes/lasernet_kl.md)] (LaserNet with KL divergence)
-- [IoUNet: Acquisition of 	Localization Confidence for Accurate Object Detection](https://arxiv.org/abs/1807.11590) [[Notes](paper_notes/iou_net.md)] <kbd>ECCV 2018</kbd>
-- [gIoU: Generalized Intersection over Union: A Metric and A Loss for Bounding Box Regression](https://arxiv.org/abs/1902.09630) [[Notes](paper_notes/giou.md)] <kbd>CVPR 2019</kbd>
-- [KL Loss: Bounding Box Regression with Uncertainty for Accurate Object Detection](https://arxiv.org/abs/1809.08545) [[Notes](paper_notes/kl_loss.md)] <kbd>CVPR 2019</kbd>
-- [CAM-Convs: Camera-Aware Multi-Scale Convolutions for Single-View Depth](https://arxiv.org/abs/1904.02028) [[Notes](paper_notes/cam_conv.md)] <kbd>CVPR 2019</kbd>
-- [BayesOD: A Bayesian Approach for Uncertainty Estimation in Deep Object Detectors](https://arxiv.org/abs/1903.03838) [[Notes](paper_notes/bayes_od.md)]
-- [TW-SMNet: Deep Multitask Learning of Tele-Wide Stereo Matching](https://arxiv.org/abs/1906.04463) [[Notes](paper_notes/twsm_net.md)] <kbd>ICIP 2019</kbd>
-- [Accurate Uncertainties for Deep Learning Using Calibrated Regression](https://arxiv.org/abs/1807.00263) [[Notes](paper_notes/dl_regression_calib.md)] <kbd>ICML 2018</kbd>
-- [Calibrating Uncertainties in Object Localization Task](https://arxiv.org/abs/1811.11210) [[Notes](paper_notes/2dod_calib.md)] <kbd>NIPS 2018</kbd>
-- [SMWA: On the Over-Smoothing Problem of CNN Based Disparity Estimation](http://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_On_the_Over-Smoothing_Problem_of_CNN_Based_Disparity_Estimation_ICCV_2019_paper.pdf) [[Notes](paper_notes/smwa.md)] <kbd>ICCV 2019</kbd> (depth estimation)
+## 2019-12 (0)
 - [Classification of Objects in Polarimetric Radar Images Using CNNs at 77 GHz](http://sci-hub.tw/10.1109/APMC.2017.8251453) (Radar, polar) <-- todo
 - [Gated2Depth: Real-time Dense Lidar from Gated Images](https://arxiv.org/abs/1902.04997) <kbd>ICCV 2019 oral</kbd>
 - [PifPaf: Composite Fields for Human Pose Estimation](https://arxiv.org/abs/1903.06593) <kbd>CVPR 2019</kbd>
@@ -66,9 +45,33 @@ The sections below records paper reading activity in chronological order. See no
 - [GCNet: End-to-End Learning of Geometry and Context for Deep Stereo Regression](https://arxiv.org/abs/1703.04309) <kbd>ICCV 2017</kbd> (disparity estimation)
 - [PSMNet: Pyramid Stereo Matching Network](https://arxiv.org/abs/1803.08669) <kbd>CVPR 2018</kbd> (disparity estimation)
 - [Practical Deep Stereo (PDS): Toward applications-friendly deep stereo matching](https://arxiv.org/abs/1806.01677) <kbd>NIPS 2018</kbd> (disparity estimation)
-- [Sparse-to-Dense: Depth Prediction from Sparse Depth Samples and a Single Image](https://arxiv.org/abs/1709.07492) <kbd>ICRA 2018</kbd>
 - [Self-supervised Sparse-to-Dense: Self-supervised Depth Completion from LiDAR and Monocular Camera](https://arxiv.org/abs/1807.00275) <kbd>ICRA 2019/kbd>
 - [Road Scene Understanding by Occupancy Grid Learning from Sparse Radar Clusters using Semantic Segmentation](https://arxiv.org/abs/1904.00415) <kbd>ICCV 2019</kbd> (radar)
+
+## 2019-11 (20)
+- [Review of Image and Feature Descriptors](paper_notes/review_descriptors.md)
+- [Vehicle Detection With Automotive Radar Using Deep Learning on Range-Azimuth-Doppler Tensors](http://openaccess.thecvf.com/content_ICCVW_2019/papers/CVRSUAD/Major_Vehicle_Detection_With_Automotive_Radar_Using_Deep_Learning_on_Range-Azimuth-Doppler_ICCVW_2019_paper.pdf) [[Notes](paper_notes/radar_iccv.md)] <kbd>ICCV 2019</kbd>
+- [GPP: Ground Plane Polling for 6DoF Pose Estimation of Objects on the Road](https://arxiv.org/abs/1811.06666) \[[Notes](paper_notes/gpp.md)] (UCSD, mono 3DOD)
+- [MVRA: Multi-View Reprojection Architecture for Orientation Estimation](http://openaccess.thecvf.com/content_ICCVW_2019/papers/ADW/Choi_Multi-View_Reprojection_Architecture_for_Orientation_Estimation_ICCVW_2019_paper.pdf) [[Notes](paper_notes/mvra.md)] <kbd>ICCV 2019</kbd>
+- [YOLOv3: An Incremental Improvement](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
+- [Gaussian YOLOv3: An Accurate and Fast Object Detector Using Localization Uncertainty for Autonomous Driving](https://arxiv.org/abs/1904.04620) [[Notes](paper_notes/gaussian_yolov3.md)] <kbd>ICCV 2019</kbd> (Detection with Uncertainty)
+- [Bayesian YOLOv3: Uncertainty Estimation in One-Stage Object Detection](https://arxiv.org/abs/1905.10296) \[[Notes](paper_notes/bayesian_yolov3.md)] (DriveU)
+- [Towards Safe Autonomous Driving: Capture Uncertainty in the Deep Neural Network For Lidar 3D Vehicle Detection](https://arxiv.org/abs/1804.05132) [[Notes](paper_notes/towards_safe_ad.md)] <kbd>ITSC 2018</kbd> (DriveU)
+- [Leveraging Heteroscedastic Aleatoric Uncertainties for Robust Real-Time LiDAR 3D Object Detection](https://arxiv.org/abs/1809.05590) [[Notes](paper_notes/towards_safe_ad2.md)] <kbd>IV 2019</kbd> (DriveU)
+- [Can We Trust You? On Calibration of a Probabilistic Object Detector for Autonomous Driving](https://arxiv.org/abs/1909.12358) [[Notes](paper_notes/towards_safe_ad_calib.md)] <kbd>IROS 2019</kbd> (DriveU)
+- [LaserNet: An Efficient Probabilistic 3D Object Detector for Autonomous Driving](https://arxiv.org/abs/1903.08701) [[Notes](paper_notes/lasernet.md)] <kbd>CVPR 2019</kbd> (uncertainty)
+- [LaserNet KL: Learning an Uncertainty-Aware Object Detector for Autonomous Driving](https://arxiv.org/abs/1910.11375) \[[Notes](paper_notes/lasernet_kl.md)] (LaserNet with KL divergence)
+- [IoUNet: Acquisition of 	Localization Confidence for Accurate Object Detection](https://arxiv.org/abs/1807.11590) [[Notes](paper_notes/iou_net.md)] <kbd>ECCV 2018</kbd>
+- [gIoU: Generalized Intersection over Union: A Metric and A Loss for Bounding Box Regression](https://arxiv.org/abs/1902.09630) [[Notes](paper_notes/giou.md)] <kbd>CVPR 2019</kbd>
+- [KL Loss: Bounding Box Regression with Uncertainty for Accurate Object Detection](https://arxiv.org/abs/1809.08545) [[Notes](paper_notes/kl_loss.md)] <kbd>CVPR 2019</kbd>
+- [CAM-Convs: Camera-Aware Multi-Scale Convolutions for Single-View Depth](https://arxiv.org/abs/1904.02028) [[Notes](paper_notes/cam_conv.md)] <kbd>CVPR 2019</kbd>
+- [BayesOD: A Bayesian Approach for Uncertainty Estimation in Deep Object Detectors](https://arxiv.org/abs/1903.03838) [[Notes](paper_notes/bayes_od.md)]
+- [TW-SMNet: Deep Multitask Learning of Tele-Wide Stereo Matching](https://arxiv.org/abs/1906.04463) [[Notes](paper_notes/twsm_net.md)] <kbd>ICIP 2019</kbd>
+- [Accurate Uncertainties for Deep Learning Using Calibrated Regression](https://arxiv.org/abs/1807.00263) [[Notes](paper_notes/dl_regression_calib.md)] <kbd>ICML 2018</kbd>
+- [Calibrating Uncertainties in Object Localization Task](https://arxiv.org/abs/1811.11210) [[Notes](paper_notes/2dod_calib.md)] <kbd>NIPS 2018</kbd>
+- [SMWA: On the Over-Smoothing Problem of CNN Based Disparity Estimation](http://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_On_the_Over-Smoothing_Problem_of_CNN_Based_Disparity_Estimation_ICCV_2019_paper.pdf) [[Notes](paper_notes/smwa.md)] <kbd>ICCV 2019</kbd> (depth estimation)
+- [Sparse-to-Dense: Depth Prediction from Sparse Depth Samples and a Single Image](https://arxiv.org/abs/1709.07492) [[Notes](paper_notes/sparse_to_dense.md)] <kbd>ICRA 2018</kbd>
+
 
 ## 2019-10 (18)
 - [Review of monocular object detection](paper_notes/review_mono_3dod.md)
