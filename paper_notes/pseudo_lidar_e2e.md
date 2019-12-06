@@ -7,7 +7,7 @@ tl;dr: End-to-end pseudo-lidar training with 2D/3D bbox consistency loss.
 #### Overall impression
 This paper's main idea largely overlaps with that of [pseudo ldiar](pseudo_lidar.md). The main problem with pseudo-lidar is the noise (i.e., depth inaccuracies, long tails) in the reprojected 3d point cloud due to blurry boundaries. [Pseudo lidar ++](pseudo_lidar++.md) proposes to use sparse depth measurement to alleviate this problem, while this study uses 2D and 3D bounding box consistency (similar to [deep3DBox](deep3dbox.md)).
 
-**However there is a major problem with the current approach.** The idea of trying to predict a correct 3d bbox from a noisy point cloud is not optimal and t**he 3d box prediction get even "contaminated" from the 2d-3d bbox consistency**. A better way is to finetune the point cloud generation process as well. This requires propagating the depth gradient to the depth net.
+**However there is a major problem with the current approach.** The idea of trying to predict a correct 3d bbox from a noisy point cloud is not optimal and **the 3d box prediction get even "contaminated" from the 2d-3d bbox consistency**. A better way is to finetune the point cloud generation process as well. This requires propagating the depth gradient to the depth net. --> see [depth coeff](depth_coeff.md) for a solution!
 
 [Pseudo-lidar++](pseudo-lidar) tackles this fundamental problem and achieves better performance, but it requires supervision from sparse depth measurements.
 

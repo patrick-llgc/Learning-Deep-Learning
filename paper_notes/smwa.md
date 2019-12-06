@@ -7,6 +7,11 @@ tl;dr: Use single-modal weighted average (SMWA) instead of full-band weighted av
 #### Overall impression
 Long tail is a typical problem in CNN-based depth estimation, for both monocular and disparity based, supervised or unsupervised methods. This point is echoed in [pseudo lidar](pseudo_lidar.md), [pseudo lidar end to end](pseudo_lidar_e2e.md) and [ForeSeE](foresee_mono3dod.md). The pseudo-lidar point with long tails confuses 3d object detectors.
 
+> [DC](depth_coeff.md) focuses on depth completion while [SMWA](smwa.md) focuses on depth estimation from stereo pairs.
+
+
+This paper seems to be heavily influenced by [DC](depth_coeff.md), including the soft one-hot encoding and cross entropy loss. But it did not acknowledge that.
+
 #### Key ideas
 - The proportion of pixels in a modal in all regions and the edge regions are different. The ones in edge regions are more like a bi-modal distribution.
 - Single Modal Weighted Average (SWMA) in inference 
