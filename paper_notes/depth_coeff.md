@@ -17,6 +17,7 @@ The input and loss modification is based on [sparse-to-dense](sparse_to_dense.md
 
 #### Key ideas
 - One-hot encoding of depth and the use of cross-entropy loss solves the problem of mixed-depth problem.
+- **RMSE favors over-smoothed depth estimation and thus is not a reliable metric.**
 
 #### Technical details
 - Depth reconstruction: either weighted average, or pick the single modal weighted average (eq 7). --> However the paper did not go to details on this.
