@@ -19,11 +19,11 @@ This repository contains my paper reading notes on deep learning and machine lea
 
 The sections below records paper reading activity in chronological order. See notes organized according to subfields [here](organized.md) (up to 06-2019). 
 
-## 2019-12 (2)
+## 2019-12 (3)
 - [How Do Neural Networks See Depth in Single Images?](http://openaccess.thecvf.com/content_ICCV_2019/papers/van_Dijk_How_Do_Neural_Networks_See_Depth_in_Single_Images_ICCV_2019_paper.pdf) [[Notes](paper_notes/what_monodepth_see.md)] <kbd>ICCV 2019</kbd>
 - [Self-supervised Sparse-to-Dense: Self-supervised Depth Completion from LiDAR and Monocular Camera](https://arxiv.org/abs/1807.00275) <kbd>ICRA 2019</kbd>  (depth completion)
 - [DC: Depth Coefficients for Depth Completion](https://arxiv.org/abs/1903.05421) [[Notes](paper_notes/depth_coeff.md)] <kbd>CVPR 2019</kbd> (Xiaoming Liu)
-- [Parse Geometry from a Line: Monocular Depth Estimation with Partial Laser Observation](https://arxiv.org/pdf/1611.02174.pdf) <kbd>ICRA 2017</kbd>
+- [Parse Geometry from a Line: Monocular Depth Estimation with Partial Laser Observation](https://arxiv.org/pdf/1611.02174.pdf) [[Notes](paper_notes/depth_from_one_line.md)] <kbd>ICRA 2017</kbd>
 - [PointPainting: Sequential Fusion for 3D Object Detection](https://arxiv.org/pdf/1911.10150.pdf) (nuscenece)
 - [VO-Monodepth: Enhancing self-supervised monocular depth estimation with traditional visual odometry](https://arxiv.org/abs/1908.03127) [[Notes](paper_notes/vo_monodepth.md)] <kbd>3DV 2019</kbd> (sparse to dense)
 - [Classification of Objects in Polarimetric Radar Images Using CNNs at 77 GHz](http://sci-hub.tw/10.1109/APMC.2017.8251453) (Radar, polar) <-- todo
@@ -52,6 +52,7 @@ The sections below records paper reading activity in chronological order. See no
 - [Road Scene Understanding by Occupancy Grid Learning from Sparse Radar Clusters using Semantic Segmentation](https://arxiv.org/abs/1904.00415) <kbd>ICCV 2019</kbd> (radar)
 - [Towards Scene Understanding: Unsupervised Monocular Depth Estimation with Semantic-aware Representation](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Towards_Scene_Understanding_Unsupervised_Monocular_Depth_Estimation_With_Semantic-Aware_Representation_CVPR_2019_paper.pdf) <kbd>CVPR 2019</kbd>
 - [DDP: Dense Depth Posterior from Single Image and Sparse Range](https://arxiv.org/abs/1901.10034) <kbd>CVPR 2019</kbd>
+- [End-to-End Learning of Geometry and Context for Deep Stereo Regression](https://arxiv.org/abs/1703.04309) <kbd>ICCV 2017</kbd>
 
 ## 2019-11 (20)
 - [Review of Image and Feature Descriptors](paper_notes/review_descriptors.md)

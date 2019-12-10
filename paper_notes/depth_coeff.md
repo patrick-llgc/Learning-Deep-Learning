@@ -17,6 +17,9 @@ The input and loss modification is based on [sparse-to-dense](sparse_to_dense.md
 
 #### Key ideas
 - One-hot encoding of depth and the use of cross-entropy loss solves the problem of mixed-depth problem.
+	- direct one-hot encoding may leads to too sparse depth samples, and thus intentional information leaking by (gaussian) blurring across depth direction increases samples for convolution.
+- Cross entropy loss for depth bin j and pixel i. For each pixel i, only 3 pixels are with non-zero $c_{ij}$. This is similar to the idea of nll loss used in [depth from one line](depth_from_one_line.md).
+	$$L^{ce}(c_{ij}) = -\sum_{j=1}^N c_{ij}\log\tilde{c_{ij}}$$
 - **RMSE favors over-smoothed depth estimation and thus is not a reliable metric.**
 
 #### Technical details
