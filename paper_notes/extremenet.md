@@ -2,10 +2,10 @@
 
 _April 2019_
 
-tl;dr: Detect four extreme corners and the center of an object with an anchor-less framework. This is heavily influenced by [CornetNet](cornernet.md).
+tl;dr: Detect four extreme corners and the center of an object with an anchor-less framework. This is heavily influenced by [CornetNet](cornernet.md), and eventually leads to [CenterNet](centernet.md).
 
 #### Overall impression
-The bottom up 
+The bottom up approach treats object detection as keypoint detection and keypoint grouping. It is related to and inspired by the annotation method in [extreme clicking](extreme_clicking.md).
 
 #### Key ideas
 - Top-down vs bottom-up:

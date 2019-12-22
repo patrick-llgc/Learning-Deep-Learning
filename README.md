@@ -27,6 +27,9 @@ The sections below records paper reading activity in chronological order. See no
 - [PointPainting: Sequential Fusion for 3D Object Detection](https://arxiv.org/pdf/1911.10150.pdf) (nuscenece)
 - [VO-Monodepth: Enhancing self-supervised monocular depth estimation with traditional visual odometry](https://arxiv.org/abs/1908.03127) [[Notes](paper_notes/vo_monodepth.md)] <kbd>3DV 2019</kbd> (sparse to dense)
 - [Probabilistic Object Detection: Definition and Evaluation](https://arxiv.org/abs/1811.10800) [[Notes](paper_notes/pdq.md)]
+- [The Fishyscapes Benchmark: Measuring Blind Spots in Semantic Segmentation](https://arxiv.org/abs/1904.03215) [[Notes](paper_notes/fishyscape.md)] <kbd>ICCV 2019</kbd>
+- [On Calibration of Modern Neural Networks](https://arxiv.org/abs/1706.04599) [[Notes](paper_notes/calib_modern_nn.md)] <kbd>ICML 2017</kbd> (Weinberger)
+- [Extreme clicking for efficient object annotation](https://arxiv.org/abs/1708.02750) [[Notes](paper_notes/extreme_clicking.md)] <kbd>ICCV 2017</kbd>
 - [Classification of Objects in Polarimetric Radar Images Using CNNs at 77 GHz](http://sci-hub.tw/10.1109/APMC.2017.8251453) (Radar, polar) <-- todo
 - [Gated2Depth: Real-time Dense Lidar from Gated Images](https://arxiv.org/abs/1902.04997) <kbd>ICCV 2019 oral</kbd>
 - [PifPaf: Composite Fields for Human Pose Estimation](https://arxiv.org/abs/1903.06593) <kbd>CVPR 2019</kbd>
@@ -35,7 +38,6 @@ The sections below records paper reading activity in chronological order. See no
 - [3DOP: 3D Object Proposals for Accurate Object Class Detection](https://papers.nips.cc/paper/5644-3d-object-proposals-for-accurate-object-class-detection) <kbd>NIPS 2015</kbd>
 - [DirectShape: Photometric Alignment of Shape Priors for Visual Vehicle Pose and Shape Estimation](https://arxiv.org/abs/1904.10097)
 - [Eliminating the Blind Spot: Adapting 3D Object Detection and Monocular Depth Estimation to 360° Panoramic Imagery](https://arxiv.org/abs/1808.06253) <kbd>ECCV 2018</kbd> (Monocular 3D object detection and depth estimation)
-- [On Calibration of Modern Neural Networks](https://arxiv.org/abs/1706.04599) <kbd>ICML 2017</kbd> (Weinberger)
 - [Measuring Calibration in Deep Learning](https://arxiv.org/abs/1904.01685) <kbd>CVPR 2019</kbd>
 - [Sampling-free Epistemic Uncertainty Estimation Using Approximated Variance Propagation](https://arxiv.org/abs/1908.00598) <kbd>ICCV 2019</kbd> (epistemic uncertainty)
 - [Deep Learning Based 3D Object Detection for Automotive Radar and Camera](https://www.astyx.com/fileadmin/redakteur/dokumente/Deep_Learning_Based_3D_Object_Detection_for_Automotive_Radar_and_Camera.PDF) (Astyx)
@@ -53,6 +55,7 @@ The sections below records paper reading activity in chronological order. See no
 - [Towards Scene Understanding: Unsupervised Monocular Depth Estimation with Semantic-aware Representation](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Towards_Scene_Understanding_Unsupervised_Monocular_Depth_Estimation_With_Semantic-Aware_Representation_CVPR_2019_paper.pdf) <kbd>CVPR 2019</kbd>
 - [DDP: Dense Depth Posterior from Single Image and Sparse Range](https://arxiv.org/abs/1901.10034) <kbd>CVPR 2019</kbd>
 - [End-to-End Learning of Geometry and Context for Deep Stereo Regression](https://arxiv.org/abs/1703.04309) <kbd>ICCV 2017</kbd>
+- [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530) <kbd>ICLR 2017</kbd> (best paper)
 
 ## 2019-11 (20)
 - [Review of Image and Feature Descriptors](paper_notes/review_descriptors.md)
