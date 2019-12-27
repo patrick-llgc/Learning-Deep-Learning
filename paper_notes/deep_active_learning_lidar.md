@@ -20,6 +20,7 @@ Active learning is better than random baseline, regardless of the uncertainty ev
 
 #### Technical details
 - One way to evaluate quality of predictive uncertainty is **sparsification plot**. A well-estimated predictive uncertainty should correlate with the true error. And by gradually removing the predictions with high uncertainty, the average error over the rest of the predictions will decrease. 
+	- If correct, the sparsification plot should be monotonically decreasing.
 
 
 #### Notes
