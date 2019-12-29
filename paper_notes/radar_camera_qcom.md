@@ -5,9 +5,9 @@ _December 2019_
 tl;dr: Early fusion of radar and camera via range-azimuth map + IPM feature concatenation.
 
 #### Overall impression
-This is follow up work on Qualcomm's ICCV 2019 paper on [deep radar detection](radar_fft_qcom.md). The dataset still only contains California highway driving. 
+This is follow up work on Qualcomm's ICCV 2019 paper on [radar object detection](radar_fft_qcom.md). The dataset still only contains California highway driving. 
 
-The addition of camera info does not boost the performance of radar a lot (only about 0.05%), and it suffers less if the camera input is set to 0. The camera info did help reducing the lateral error. 
+Radar is acquired under the same technical spec as in [radar object detection](radar_fft_qcom.md). The addition of camera info does not boost the performance of radar a lot (only about 0.05%), and it suffers less if the camera input is set to 0. The camera info did help reducing the lateral error. 
 
 Training the camera branch in advance (similar to [BEV-IPM](bev_od_ipm.md)) and freeze it during joint training yielded the best results. 
 
@@ -29,7 +29,6 @@ Training the camera branch in advance (similar to [BEV-IPM](bev_od_ipm.md)) and 
 - Synchronization: extract one radar frame per 100 ms, get nearest neighbor camera frame, and use interpolated lidar annotation.
 - In lidar, points from objects at the boundary of a frame might have moved significantly. This discontinuityis take care of in lidar processing pipeline.
 - Lidar GT is human corrected, non-causal processing and temporal tracking (both forward and backward?) is used. 
-- 
 
 #### Notes
 - Background
