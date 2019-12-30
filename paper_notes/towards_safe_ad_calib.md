@@ -22,7 +22,7 @@ The paper also has a very good way to visualize uncertainty in 2D object detecto
 	- Bin prediction scores, and count empirical ones to plot the calibration plot
 - Calibration of Regression
 	- Empirical = P(label < F_q (p)) = I(label < F_q(p)) / N = p = Theoretical
-- ECE (expected calibration error) is the weighted area of calibration plot and the diagonal line, N_m is the number of samples in the m-th interval.
+- ECE (expected calibration error) is the weighted area of calibration plot and the diagonal line, N_m is the number of samples in the m-th interval. --> see [calibration of modern NN](calib_modern_nn.md).
 
 $$ECE = \sum_i^M \frac{N_m}{N}|p^m - \hat{p^m}|$$
 
