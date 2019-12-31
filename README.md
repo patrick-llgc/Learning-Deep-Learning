@@ -17,22 +17,10 @@ This repository contains my paper reading notes on deep learning and machine lea
 | <kbd>Mono3DOD</kbd> Monocular 3D Object Detection |
 | <kbd>MonoDepEst</kbd> Monocular Depth Estimation |
 
-The sections below records paper reading activity in chronological order. See notes organized according to subfields [here](organized.md) (up to 06-2019). 
+The sections below records paper reading activity in chronological order. See notes organized according to subfields [here](organized.md) (up to 06-2019).
 
-## 2019-12 (11)
-- [How Do Neural Networks See Depth in Single Images?](http://openaccess.thecvf.com/content_ICCV_2019/papers/van_Dijk_How_Do_Neural_Networks_See_Depth_in_Single_Images_ICCV_2019_paper.pdf) [[Notes](paper_notes/what_monodepth_see.md)] <kbd>ICCV 2019</kbd>
-- [Self-supervised Sparse-to-Dense: Self-supervised Depth Completion from LiDAR and Monocular Camera](https://arxiv.org/abs/1807.00275) <kbd>ICRA 2019</kbd>  (depth completion)
-- [DC: Depth Coefficients for Depth Completion](https://arxiv.org/abs/1903.05421) [[Notes](paper_notes/depth_coeff.md)] <kbd>CVPR 2019</kbd> (Xiaoming Liu)
-- [Parse Geometry from a Line: Monocular Depth Estimation with Partial Laser Observation](https://arxiv.org/pdf/1611.02174.pdf) [[Notes](paper_notes/depth_from_one_line.md)] <kbd>ICRA 2017</kbd>
-- [PointPainting: Sequential Fusion for 3D Object Detection](https://arxiv.org/pdf/1911.10150.pdf) (nuscenece)
-- [VO-Monodepth: Enhancing self-supervised monocular depth estimation with traditional visual odometry](https://arxiv.org/abs/1908.03127) [[Notes](paper_notes/vo_monodepth.md)] <kbd>3DV 2019</kbd> (sparse to dense)
-- [Probabilistic Object Detection: Definition and Evaluation](https://arxiv.org/abs/1811.10800) [[Notes](paper_notes/pdq.md)]
-- [The Fishyscapes Benchmark: Measuring Blind Spots in Semantic Segmentation](https://arxiv.org/abs/1904.03215) [[Notes](paper_notes/fishyscape.md)] <kbd>ICCV 2019</kbd>
-- [On Calibration of Modern Neural Networks](https://arxiv.org/abs/1706.04599) [[Notes](paper_notes/calib_modern_nn.md)] <kbd>ICML 2017</kbd> (Weinberger)
-- [Extreme clicking for efficient object annotation](https://arxiv.org/abs/1708.02750) [[Notes](paper_notes/extreme_clicking.md)] <kbd>ICCV 2017</kbd>
-- [Radar and Camera Early Fusion for Vehicle Detection in Advanced Driver Assistance Systems](https://ml4ad.github.io/files/papers/Radar%20and%20Camera%20Early%20Fusion%20for%20Vehicle%20Detection%20in%20Advanced%20Driver%20Assistance%20Systems.pdf) [[Notes](paper_notes/radar_camera_qcom.md)] <kbd>NeurIPS 2019</kbd> (radar)
-- [Deep Active Learning for Efficient Training of a LiDAR 3D Object Detector](https://arxiv.org/abs/1901.10609) [[Notes](paper_notes/deep_active_learning_lidar.md)] <kbd>IV 2019</kbd>
-- [C3DPO: Canonical 3D Pose Networks for Non-Rigid Structure From Motion](https://arxiv.org/abs/1909.02533) [[Notes](paper_notes/c3dpo.md)] <kbd>ICCV 2019</kbd>
+## 2020-01 (0)
+
 - [Classification of Objects in Polarimetric Radar Images Using CNNs at 77 GHz](http://sci-hub.tw/10.1109/APMC.2017.8251453) (Radar, polar) <-- todo
 - [Gated2Depth: Real-time Dense Lidar from Gated Images](https://arxiv.org/abs/1902.04997) <kbd>ICCV 2019 oral</kbd>
 - [PifPaf: Composite Fields for Human Pose Estimation](https://arxiv.org/abs/1903.06593) <kbd>CVPR 2019</kbd>
@@ -67,6 +55,24 @@ The sections below records paper reading activity in chronological order. See no
 - [Foggy Cityscapes ECCV: Model Adaptation with Synthetic and Real Data for Semantic Dense Foggy Scene Understanding](https://arxiv.org/abs/1808.01265) <kbd>ECCV 2018</kbd>
 - [A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks](https://arxiv.org/abs/1610.02136) <kbd>ICLR 2017</kbd> (NLL score as anomaly score)
 - [Augmented Reality Meets Computer Vision : Efficient Data Generation for Urban Driving Scenes](https://arxiv.org/abs/1708.01566) <kbd>IJCV 2018</kbd> (data augmentation with AR)
+ 
+
+## 2019-12 (12)
+- [How Do Neural Networks See Depth in Single Images?](http://openaccess.thecvf.com/content_ICCV_2019/papers/van_Dijk_How_Do_Neural_Networks_See_Depth_in_Single_Images_ICCV_2019_paper.pdf) [[Notes](paper_notes/what_monodepth_see.md)] <kbd>ICCV 2019</kbd>
+- [Self-supervised Sparse-to-Dense: Self-supervised Depth Completion from LiDAR and Monocular Camera](https://arxiv.org/abs/1807.00275) <kbd>ICRA 2019</kbd>  (depth completion)
+- [DC: Depth Coefficients for Depth Completion](https://arxiv.org/abs/1903.05421) [[Notes](paper_notes/depth_coeff.md)] <kbd>CVPR 2019</kbd> (Xiaoming Liu)
+- [Parse Geometry from a Line: Monocular Depth Estimation with Partial Laser Observation](https://arxiv.org/pdf/1611.02174.pdf) [[Notes](paper_notes/depth_from_one_line.md)] <kbd>ICRA 2017</kbd>
+- [PointPainting: Sequential Fusion for 3D Object Detection](https://arxiv.org/pdf/1911.10150.pdf) (nuscenece)
+- [VO-Monodepth: Enhancing self-supervised monocular depth estimation with traditional visual odometry](https://arxiv.org/abs/1908.03127) [[Notes](paper_notes/vo_monodepth.md)] <kbd>3DV 2019</kbd> (sparse to dense)
+- [Probabilistic Object Detection: Definition and Evaluation](https://arxiv.org/abs/1811.10800) [[Notes](paper_notes/pdq.md)]
+- [The Fishyscapes Benchmark: Measuring Blind Spots in Semantic Segmentation](https://arxiv.org/abs/1904.03215) [[Notes](paper_notes/fishyscape.md)] <kbd>ICCV 2019</kbd>
+- [On Calibration of Modern Neural Networks](https://arxiv.org/abs/1706.04599) [[Notes](paper_notes/calib_modern_nn.md)] <kbd>ICML 2017</kbd> (Weinberger)
+- [Extreme clicking for efficient object annotation](https://arxiv.org/abs/1708.02750) [[Notes](paper_notes/extreme_clicking.md)] <kbd>ICCV 2017</kbd>
+- [Radar and Camera Early Fusion for Vehicle Detection in Advanced Driver Assistance Systems](https://ml4ad.github.io/files/papers/Radar%20and%20Camera%20Early%20Fusion%20for%20Vehicle%20Detection%20in%20Advanced%20Driver%20Assistance%20Systems.pdf) [[Notes](paper_notes/radar_camera_qcom.md)] <kbd>NeurIPS 2019</kbd> (radar)
+- [Deep Active Learning for Efficient Training of a LiDAR 3D Object Detector](https://arxiv.org/abs/1901.10609) [[Notes](paper_notes/deep_active_learning_lidar.md)] <kbd>IV 2019</kbd>
+- [C3DPO: Canonical 3D Pose Networks for Non-Rigid Structure From Motion](https://arxiv.org/abs/1909.02533) [[Notes](paper_notes/c3dpo.md)] <kbd>ICCV 2019</kbd>
+- [YOLACT: Real-time Instance Segmentation](https://arxiv.org/abs/1904.02689) [[Notes](paper_notes/yolact.md)] <kbd>ICCV 2019</kbd>
+- [YOLACT++: Better Real-time Instance Segmentation](https://arxiv.org/abs/1912.06218)
 
 
 ## 2019-11 (20)
