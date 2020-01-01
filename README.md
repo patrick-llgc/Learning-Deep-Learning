@@ -1,7 +1,7 @@
 # Paper notes
 This repository contains my paper reading notes on deep learning and machine learning. It is inspired by [Denny Britz](https://github.com/dennybritz/deeplearning-papernotes) and [Daniel Takeshi](https://github.com/DanielTakeshi/Paper_Notes).
 
-**New year resolution for 2019: read at least one paper a week!**
+**New year resolution for 2020: read at least three paper a week!**
 
 ## Summary of Topics
 
@@ -21,40 +21,6 @@ The sections below records paper reading activity in chronological order. See no
 
 ## 2020-01 (0)
 
-- [Classification of Objects in Polarimetric Radar Images Using CNNs at 77 GHz](http://sci-hub.tw/10.1109/APMC.2017.8251453) (Radar, polar) <-- todo
-- [Gated2Depth: Real-time Dense Lidar from Gated Images](https://arxiv.org/abs/1902.04997) <kbd>ICCV 2019 oral</kbd>
-- [PifPaf: Composite Fields for Human Pose Estimation](https://arxiv.org/abs/1903.06593) <kbd>CVPR 2019</kbd>
-- [Uncertainty Guided Multi-Scale Residual Learning-using a Cycle Spinning CNN for Single Image De-Raining](https://arxiv.org/abs/1906.11129) <kbd>CVPR 2019</kbd>
-- [Hybrid Task Cascade for Instance Segmentation](https://arxiv.org/abs/1901.07518) <kbd>CVPR 2019</kbd> (cascaded mask RCNN)
-- [3DOP: 3D Object Proposals for Accurate Object Class Detection](https://papers.nips.cc/paper/5644-3d-object-proposals-for-accurate-object-class-detection) <kbd>NIPS 2015</kbd>
-- [DirectShape: Photometric Alignment of Shape Priors for Visual Vehicle Pose and Shape Estimation](https://arxiv.org/abs/1904.10097)
-- [Eliminating the Blind Spot: Adapting 3D Object Detection and Monocular Depth Estimation to 360° Panoramic Imagery](https://arxiv.org/abs/1808.06253) <kbd>ECCV 2018</kbd> (Monocular 3D object detection and depth estimation)
-- [Measuring Calibration in Deep Learning](https://arxiv.org/abs/1904.01685) <kbd>CVPR 2019</kbd>
-- [Sampling-free Epistemic Uncertainty Estimation Using Approximated Variance Propagation](https://arxiv.org/abs/1908.00598) <kbd>ICCV 2019</kbd> (epistemic uncertainty)
-- [Deep Learning Based 3D Object Detection for Automotive Radar and Camera](https://www.astyx.com/fileadmin/redakteur/dokumente/Deep_Learning_Based_3D_Object_Detection_for_Automotive_Radar_and_Camera.PDF) (Astyx)
-- [Automotive Radar Dataset for Deep Learning Based 3D Object Detection](https://www.astyx.com/fileadmin/redakteur/dokumente/Automotive_Radar_Dataset_for_Deep_learning_Based_3D_Object_Detection.PDF) (Astyx)
-- [End-to-end Lane Detection through Differentiable Least-Squares Fitting](https://arxiv.org/abs/1902.00293) <kbd>ICCV 2019</kbd>
-- [Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) (Kaiming He)
-- [Frustum ConvNet: Sliding Frustums to Aggregate Local Point-Wise Features for Amodal 3D Object Detection](https://arxiv.org/abs/1903.01864) <kbd>IROS 2019</kbd>
-- [Dropout Sampling for Robust Object Detection in Open-Set Conditions](https://arxiv.org/abs/1710.06677) <kbd>ICRA 2018</kbd> (Niko Sünderhauf)
-- [Evaluating Merging Strategies for Sampling-based Uncertainty Techniques in Object Detection](https://arxiv.org/abs/1809.06006) <kbd>ICRA 2019</kbd> (Niko Sünderhauf)
-- [GCNet: End-to-End Learning of Geometry and Context for Deep Stereo Regression](https://arxiv.org/abs/1703.04309) <kbd>ICCV 2017</kbd> (disparity estimation)
-- [PSMNet: Pyramid Stereo Matching Network](https://arxiv.org/abs/1803.08669) <kbd>CVPR 2018</kbd> (disparity estimation)
-- [Practical Deep Stereo (PDS): Toward applications-friendly deep stereo matching](https://arxiv.org/abs/1806.01677) <kbd>NIPS 2018</kbd> (disparity estimation)
-- [Self-supervised Sparse-to-Dense: Self-supervised Depth Completion from LiDAR and Monocular Camera](https://arxiv.org/abs/1807.00275) <kbd>ICRA 2019/kbd>
-- [Road Scene Understanding by Occupancy Grid Learning from Sparse Radar Clusters using Semantic Segmentation](https://arxiv.org/abs/1904.00415) <kbd>ICCV 2019</kbd> (radar)
-- [Towards Scene Understanding: Unsupervised Monocular Depth Estimation with Semantic-aware Representation](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Towards_Scene_Understanding_Unsupervised_Monocular_Depth_Estimation_With_Semantic-Aware_Representation_CVPR_2019_paper.pdf) <kbd>CVPR 2019</kbd>
-- [DDP: Dense Depth Posterior from Single Image and Sparse Range](https://arxiv.org/abs/1901.10034) <kbd>CVPR 2019</kbd>
-- [End-to-End Learning of Geometry and Context for Deep Stereo Regression](https://arxiv.org/abs/1703.04309) <kbd>ICCV 2017</kbd>
-- [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530) <kbd>ICLR 2017</kbd> (best paper)
-- [PointFusion: Deep Sensor Fusion for 3D Bounding Box Estimation](https://arxiv.org/pdf/1711.10871.pdf) <kbd>CVPR 2018</kbd> (sensor fusion)
-- [CNNs for Interference Mitigation and Denoising in Automotive Radar Using Real-World Data](https://ml4ad.github.io/files/papers/CNNs%20for%20Interference%20Mitigation%20and%20Denoising%20in%20Automotive%20Radar%20Using%20Real-World%20Data.pdf) <kbd>NeurIPS 2019</kbd> (radar)
-- [A Multi-Sensor Fusion System for Moving Object Detection and Tracking in Urban Driving Environments](http://www.cs.cmu.edu/~youngwoo/doc/icra-14-sensor-fusion.pdf) <kbd>ICRA 2014</kbd>
-- [Domain Adaptive Faster R-CNN for Object Detection in the Wild](https://arxiv.org/abs/1803.03243) <kbd>CVPR 2018</kbd>
-- [Foggy Cityscapes: Semantic Foggy Scene Understanding with Synthetic Data](https://arxiv.org/abs/1708.07819) <kbd>IJCV 2018</kbd>
-- [Foggy Cityscapes ECCV: Model Adaptation with Synthetic and Real Data for Semantic Dense Foggy Scene Understanding](https://arxiv.org/abs/1808.01265) <kbd>ECCV 2018</kbd>
-- [A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks](https://arxiv.org/abs/1610.02136) <kbd>ICLR 2017</kbd> (NLL score as anomaly score)
-- [Augmented Reality Meets Computer Vision : Efficient Data Generation for Urban Driving Scenes](https://arxiv.org/abs/1708.01566) <kbd>IJCV 2018</kbd> (data augmentation with AR)
  
 
 ## 2019-12 (12)
@@ -115,7 +81,7 @@ The sections below records paper reading activity in chronological order. See no
 - [Obj-dist: Learning Object-specific Distance from a Monocular Image](https://arxiv.org/abs/1909.04182) [[Notes](paper_notes/obj_dist_iccv2019.md)] <kbd>ICCV 2019</kbd> (xmotors.ai + NYU)
 - [DisNet: A novel method for distance estimation from monocular camera](https://project.inria.fr/ppniv18/files/2018/10/paper22.pdf) [[Notes](paper_notes/disnet.md)] <kbd>IROS 2018</kbd>
 - [BirdGAN: Learning 2D to 3D Lifting for Object Detection in 3D for Autonomous Vehicles](https://arxiv.org/abs/1904.08494) [[Notes](paper_notes/birdgan.md)] <kbd>IROS 2019</kbd> 
-- [Shift R-CNN: Deep Monocular 3D Object Detection with Closed-Form Geometric Constraints](https://arxiv.org/abs/1905.09970) [[Notes](paper_notes/shift_rcnn.md)] <kbd>IEEE ICIP 2019</kbd>
+- [Shift R-CNN: Deep Monocular 3D Object Detection with Closed-Form Geometric Constraints](https://arxiv.org/abs/1905.09970) [[Notes](paper_notes/shift_rcnn.md)] <kbd>ICIP 2019</kbd>
 - [3D-RCNN: Instance-level 3D Object Reconstruction via Render-and-Compare](http://openaccess.thecvf.com/content_cvpr_2018/papers/Kundu_3D-RCNN_Instance-Level_3D_CVPR_2018_paper.pdf) [[Notes](paper_notes/3d_rcnn.md)] <kbd>CVPR 2018</kbd>
 - [Deep Optics for Monocular Depth Estimation and 3D Object Detection](https://arxiv.org/abs/1904.08601) [[Notes](paper_notes/deep_optics.md)] <kbd>ICCV 2019</kbd>
 - [MonoLoco: Monocular 3D Pedestrian Localization and Uncertainty Estimation](https://arxiv.org/abs/1906.06059) [[Notes](paper_notes/monoloco.md)] <kbd>ICCV 2019</kbd>
@@ -168,7 +134,7 @@ The sections below records paper reading activity in chronological order. See no
 - [Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics](https://arxiv.org/abs/1705.07115) [[Notes](paper_notes/uncertainty_multitask.md)] <kbd>CVPR 2018</kbd> (Alex Kendall)
 - [GradNorm: Gradient Normalization for Adaptive Loss Balancing in Deep Multitask Networks](https://arxiv.org/abs/1711.02257) [[Notes](paper_notes/gradnorm.md)] <kbd>ICML 2018</kbd> (multitask)
 - [DTP: Dynamic Task Prioritization for Multitask Learning](http://openaccess.thecvf.com/content_ECCV_2018/papers/Michelle_Guo_Focus_on_the_ECCV_2018_paper.pdf) [[Notes](paper_notes/dtp.md)] <kbd>ECCV 2018</kbd> (multitask)
-- [Will this car change the lane? - Turn signal recognition in the frequency domain](https://ieeexplore.ieee.org/document/6856477/) [[Notes](paper_notes/tsl_frequency.md)] <kbd>2014 IV</kbd>
+- [Will this car change the lane? - Turn signal recognition in the frequency domain](https://ieeexplore.ieee.org/document/6856477/) [[Notes](paper_notes/tsl_frequency.md)] <kbd>IV 2014</kbd>
 - [Complex-YOLO: Real-time 3D Object Detection on Point Clouds](https://arxiv.org/abs/1803.06199) [[Notes](paper_notes/complex_yolo.md)] (BEV detection only)
 - [Complexer-YOLO: Real-Time 3D Object Detection and Tracking on Semantic Point Clouds](https://arxiv.org/abs/1904.07537) <kbd>CVPR 2019</kbd> (sensor fusion and tracking)
 - [An intriguing failing of convolutional neural networks and the CoordConv solution](https://arxiv.org/abs/1807.03247) [[Notes](paper_notes/coord_conv.md)] <kbd>NIPS 2018</kbd>
@@ -182,7 +148,7 @@ The sections below records paper reading activity in chronological order. See no
 - [monodepth: Unsupervised Monocular Depth Estimation with Left-Right Consistency](https://arxiv.org/abs/1609.03677) [[Notes](paper_notes/monodepth.md)] <kbd>CVPR 2017 oral</kbd> (monocular depth estimation, stereo for training)
 - [Struct2depth: Depth Prediction Without the Sensors: Leveraging Structure for Unsupervised Learning from Monocular Videos](https://arxiv.org/pdf/1811.06152.pdf) [[Notes](paper_notes/struct2depth.md)] <kbd>AAAI 2019</kbd> (monocular depth estimation, estimating movement of dynamic object)
 - [Unsupervised Learning of Geometry with Edge-aware Depth-Normal Consistency](https://arxiv.org/pdf/1711.03665.pdf) [[Notes](paper_notes/edge_aware_depth_normal.md)] <kbd>AAAI 2018</kbd> (monocular depth estimation, static assumption, surface normal)
-- [LEGO Learning Edge with Geometry all at Once by Watching Videos](https://arxiv.org/pdf/1803.05648.pdf) [[Notes](paper_notes/lego.md)] <kbd>CVPR 2018 Spotlight</kbd> (monocular depth estimation, static assumption, surface normal)
+- [LEGO Learning Edge with Geometry all at Once by Watching Videos](https://arxiv.org/pdf/1803.05648.pdf) [[Notes](paper_notes/lego.md)] <kbd>CVPR 2018 spotlight</kbd> (monocular depth estimation, static assumption, surface normal)
 - [Object Detection and 3D Estimation via an FMCW Radar Using a Fully Convolutional Network](https://arxiv.org/abs/1902.05394) [[Notes](paper_notes/radar_3d_od_fcn.md)] (radar, RD map, OD, Arxiv 201902) 
 - [A study on Radar Target Detection Based on Deep Neural Networks](https://www.researchgate.net/publication/330748053_A_Study_on_Radar_Target_Detection_Based_on_Deep_Neural_Networks) [[Notes](paper_notes/radar_target_detection_tsinghua.md)] (radar, RD map, OD) 
 - [2D Car Detection in Radar Data with PointNets](https://arxiv.org/abs/1904.08414) [[Notes](paper_notes/radar_detection_pointnet.md)] (from Ulm Univ, radar, point cloud, OD, Arxiv 201904) 
@@ -201,12 +167,12 @@ The sections below records paper reading activity in chronological order. See no
 - [EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/pdf/1905.11946.pdf) [[Notes](paper_notes/efficientnet.md)] <kbd>ICML 2019</kbd>
 - [What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?](https://arxiv.org/pdf/1703.04977.pdf) [[Notes](paper_notes/uncertainty_bdl.md)] <kbd>NIPS 2017</kbd>
 - [Bayesian SegNet: Model Uncertainty in Deep Convolutional Encoder-Decoder Architectures for Scene Understanding](https://arxiv.org/pdf/1511.02680.pdf) [[Notes](paper_notes/bayesian_segnet.md)]<kbd>BMVC 2017</kbd>
-- [TrafficPredict: Trajectory Prediction for Heterogeneous Traffic-Agents](https://arxiv.org/pdf/1811.02146.pdf) [[Notes](paper_notes/trafficpredict.md)] <kbd>AAAI 2019 (oral)</kbd>
+- [TrafficPredict: Trajectory Prediction for Heterogeneous Traffic-Agents](https://arxiv.org/pdf/1811.02146.pdf) [[Notes](paper_notes/trafficpredict.md)] <kbd>AAAI 2019 oral</kbd>
 - [Deep Depth Completion of a Single RGB-D Image](https://arxiv.org/pdf/1803.09326.pdf) [[Notes](paper_notes/deep_depth_completion_rgbd.md)] <kbd>CVPR 2018</kbd> (indoor)
 - [DeepLiDAR: Deep Surface Normal Guided Depth Prediction for Outdoor Scene from Sparse LiDAR Data and Single Color Image](https://arxiv.org/pdf/1812.00488v2.pdf) [[Notes](paper_notes/deeplidar.md)] <kbd>CVPR 2019</kbd> (outdoor)
 - [SfMLearner: Unsupervised Learning of Depth and Ego-Motion from Video](https://people.eecs.berkeley.edu/~tinghuiz/projects/SfMLearner/cvpr17_sfm_final.pdf) [[Notes](paper_notes/sfm_learner.md)] <kbd>CVPR 2017</kbd>
 - [Monodepth2: Digging Into Self-Supervised Monocular Depth Estimation](https://arxiv.org/abs/1806.01260) [[Notes](paper_notes/monodepth2.md)] \(@Niantic) <kbd>ICCV 2019</kbd>
-- [DeepSignals: Predicting Intent of Drivers Through Visual Signals](https://arxiv.org/pdf/1905.01333.pdf) [[Notes](paper_notes/deep_signals.md)] <kbd>ICRA2019</kbd> (@Uber, turn signal detection)
+- [DeepSignals: Predicting Intent of Drivers Through Visual Signals](https://arxiv.org/pdf/1905.01333.pdf) [[Notes](paper_notes/deep_signals.md)] <kbd>ICRA 2019</kbd> (@Uber, turn signal detection)
 - [FCOS: Fully Convolutional One-Stage Object Detection](https://arxiv.org/pdf/1904.01355.pdf) [[Notes](paper_notes/fcos.md)] <kbd>ICCV 2019</kbd>
 - [Pseudo-LiDAR++: Accurate Depth for 3D Object Detection in Autonomous Driving](https://arxiv.org/abs/1906.06310) [[Notes](paper_notes/pseudo_lidar++.md)]
 - [MMF: Multi-Task Multi-Sensor Fusion for 3D Object Detection](http://www.cs.toronto.edu/~byang/papers/mmf.pdf) [[Notes](paper_notes/mmf.md)] <kbd>CVPR 2019</kbd> (@Uber, sensor fusion)
@@ -215,17 +181,17 @@ The sections below records paper reading activity in chronological order. See no
 ## 2019-05 (18)
 - [CenterNet: Objects as points](https://arxiv.org/pdf/1904.07850.pdf) (from ExtremeNet authors) [[Notes](paper_notes/centernet_ut.md)]
 - [CenterNet: Object Detection with Keypoint Triplets](https://arxiv.org/pdf/1904.08189.pdf) [[Notes](paper_notes/centernet_cas.md)]
-- [Object Detection based on Region Decomposition and Assembly](https://arxiv.org/pdf/1901.08225.pdf) [[Notes](paper_notes/object_detection_region_decomposition.md)] <kbd> AAAI 2019 </kbd>
-- [The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks](https://arxiv.org/abs/1803.03635) [[Notes](paper_notes/lottery_ticket_hypothesis.md)] <kbd> ICLR 2019 </kbd>
-- [M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network](https://arxiv.org/abs/1811.04533) [[Notes](paper_notes/m2det.md)] <kbd> AAAI 2019 </kbd>
-- [Deep Radar Detector](https://arxiv.org/abs/1906.12187) [[Notes](paper_notes/deep_radar_detector.md)] <kbd> RadarCon 2019</kbd>
-- [Semantic Segmentation on Radar Point Clouds](https://ieeexplore.ieee.org/document/8455344) [[[Notes](paper_notes/radar_point_semantic_seg.md)]] (from Daimler AG) <kbd> FUSION 2018</kbd>
+- [Object Detection based on Region Decomposition and Assembly](https://arxiv.org/pdf/1901.08225.pdf) [[Notes](paper_notes/object_detection_region_decomposition.md)] <kbd>AAAI 2019 </kbd>
+- [The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks](https://arxiv.org/abs/1803.03635) [[Notes](paper_notes/lottery_ticket_hypothesis.md)] <kbd>ICLR 2019 </kbd>
+- [M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network](https://arxiv.org/abs/1811.04533) [[Notes](paper_notes/m2det.md)] <kbd>AAAI 2019 </kbd>
+- [Deep Radar Detector](https://arxiv.org/abs/1906.12187) [[Notes](paper_notes/deep_radar_detector.md)] <kbd>RadarCon 2019</kbd>
+- [Semantic Segmentation on Radar Point Clouds](https://ieeexplore.ieee.org/document/8455344) [[[Notes](paper_notes/radar_point_semantic_seg.md)]] (from Daimler AG) <kbd>FUSION 2018</kbd>
 - [Pruning Filters for Efficient ConvNets](https://arxiv.org/pdf/1608.08710.pdf) [[Notes](paper_notes/pruning_filters.md)] <kbd>ICLR 2017</kbd>
-- [Layer-compensated Pruning for Resource-constrained Convolutional Neural Networks](https://arxiv.org/pdf/1810.00518.pdf) [[Notes](paper_notes/layer_compensated_pruning.md)] <kbd>NIPS 2018 Talk</kbd>
+- [Layer-compensated Pruning for Resource-constrained Convolutional Neural Networks](https://arxiv.org/pdf/1810.00518.pdf) [[Notes](paper_notes/layer_compensated_pruning.md)] <kbd>NIPS 2018 talk</kbd>
 - [LeGR: Filter Pruning via Learned Global Ranking](https://arxiv.org/pdf/1904.12368.pdf) [[Notes](paper_notes/legr.md)]
-- [NAS-FPN: Learning Scalable Feature Pyramid Architecture for Object Detection](https://arxiv.org/pdf/1904.07392.pdf) [[Notes](paper_notes/nas_fpn.md)] <kbd> CVPR 2019 </kbd>
-- [AutoAugment: Learning Augmentation Policies from Data](https://arxiv.org/abs/1805.09501) [[Notes](paper_notes/autoaugment.md)] <kbd> CVPR 2019 </kbd>
-- [Path Aggregation Network for Instance Segmentation](https://arxiv.org/pdf/1803.01534.pdf) [[Notes](paper_notes/panet.md)] <kbd> CVPR 2018 </kbd>
+- [NAS-FPN: Learning Scalable Feature Pyramid Architecture for Object Detection](https://arxiv.org/pdf/1904.07392.pdf) [[Notes](paper_notes/nas_fpn.md)] <kbd>CVPR 2019 </kbd>
+- [AutoAugment: Learning Augmentation Policies from Data](https://arxiv.org/abs/1805.09501) [[Notes](paper_notes/autoaugment.md)] <kbd>CVPR 2019 </kbd>
+- [Path Aggregation Network for Instance Segmentation](https://arxiv.org/pdf/1803.01534.pdf) [[Notes](paper_notes/panet.md)] <kbd>CVPR 2018 </kbd>
 - [Channel Pruning for Accelerating Very Deep Neural Networks](https://arxiv.org/pdf/1707.06168.pdf) <kbd>ICCV 2017</kbd> (Face++, Yihui He) [[Notes](paper_notes/channel_pruning_megvii.md)]
 - [AMC: AutoML for Model Compression and Acceleration on Mobile Devices](https://arxiv.org/pdf/1802.03494.pdf) <kbd>ECCV 2018</kbd> (Song Han, Yihui He)
 - [MobileNetV3: Searching for MobileNetV3](https://arxiv.org/pdf/1905.02244.pdf) [[Notes](paper_notes/mobilenets_v3.md)]
@@ -240,7 +206,7 @@ for Road Detection Algorithms](http://www.cvlibs.net/publications/Fritsch2013ITS
 - [Optimizing the Trade-off between Single-Stage and Two-Stage Object Detectors using Image Difficulty Prediction](https://arxiv.org/pdf/1803.08707.pdf) (Very nice illustration of 1 and 2 stage object detection)
 - [Light-Head R-CNN: In Defense of Two-Stage Object Detector](https://arxiv.org/pdf/1711.07264.pdf) [[Notes](paper_notes/lighthead_rcnn.md)] (from Megvii)
 - [CSP: High-level Semantic Feature Detection: A New Perspective for Pedestrian Detection](https://arxiv.org/pdf/1904.02948.pdf) (center and scale prediction) [[Notes](paper_notes/csp_pedestrian.md)] <kbd>CVPR 2019</kbd> 
-- Review of Anchor-free methods (知乎Blog) [目标检测：Anchor-Free时代](https://zhuanlan.zhihu.com/p/62103812) [Anchor free深度学习的目标检测方法](https://zhuanlan.zhihu.com/p/64563186) [My Slides on CSP](https://docs.google.com/presentation/d/1_dUfxv63108bZXUnVYPIOAdEIkRZw5BR9-rOp-Ni0X0/)
+- [Review of Anchor-free methods (知乎Blog) 目标检测：Anchor-Free时代](https://zhuanlan.zhihu.com/p/62103812) [Anchor free深度学习的目标检测方法](https://zhuanlan.zhihu.com/p/64563186) [My Slides on CSP](https://docs.google.com/presentation/d/1_dUfxv63108bZXUnVYPIOAdEIkRZw5BR9-rOp-Ni0X0/)
 - [DenseBox: Unifying Landmark Localization with End to End Object Detection](https://arxiv.org/pdf/1509.04874.pdf)
 - [CornerNet: Detecting Objects as Paired Keypoints](https://arxiv.org/pdf/1808.01244.pdf) [[Notes](paper_notes/cornernet.md)] <kbd>ECCV 2018</kbd>
 - [ExtremeNet: Bottom-up Object Detection by Grouping Extreme and Center Points](https://arxiv.org/pdf/1901.08043.pdf) [[Notes](paper_notes/extremenet.md)] <kbd>CVPR 2019</kbd>
@@ -335,7 +301,7 @@ Here is the list of papers waiting to be read.
 
 
 ### Video Understanding
-- [Learning Spatiotemporal Features with 3D Convolutional Networks](https://arxiv.org/pdf/1412.0767.pdf) (C3D)  <kbd> Video </kbd><kbd> ICCV 2015 </kbd>
+- [Learning Spatiotemporal Features with 3D Convolutional Networks](https://arxiv.org/pdf/1412.0767.pdf) (C3D)  <kbd>Video </kbd><kbd>ICCV 2015 </kbd>
 - [AVA: A Video Dataset of Spatio-temporally Localized Atomic Visual Actions](https://arxiv.org/pdf/1705.08421.pdf)
 - [Spatiotemporal Residual Networks for Video Action Recognition](https://arxiv.org/pdf/1611.02155.pdf) (decouple spatiotemporal) <kbd>NIPS 2016</kbd>
 - [Learning Spatio-Temporal Representation with Pseudo-3D Residual Networks](https://arxiv.org/pdf/1711.10305.pdf) (P3D, decouple spatiotemporal) <kbd>ICCV 2017</kbd>
@@ -349,7 +315,7 @@ Here is the list of papers waiting to be read.
 
 
 ### Reinforcement Learning
-- [Playing Atari with Deep Reinforcement Learning](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf) <kbd> NIPS 2013 </kbd>
+- [Playing Atari with Deep Reinforcement Learning](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf) <kbd>NIPS 2013 </kbd>
 - [Multi-Scale Deep Reinforcement Learning for Real-Time 3D-Landmark Detection in CT Scan](http://comaniciu.net/Papers/MultiscaleDeepReinforcementLearning_PAMI18.pdf)
 - [An Artificial Agent for Robust Image Registration](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14751/14296)
 
@@ -458,6 +424,42 @@ Here is the list of papers waiting to be read.
 - [RoarNet: A Robust 3D Object Detection based on RegiOn Approximation Refinement](https://arxiv.org/abs/1811.03818) (sensor fusion, 3D mono proposal, refined in point cloud)
 - [DeLS-3D: Deep Localization and Segmentation with a 3D Semantic Map](https://arxiv.org/pdf/1805.04949.pdf) <kbd>CVPR 2018</kbd>
 
+
+## To be sorted
+- [Classification of Objects in Polarimetric Radar Images Using CNNs at 77 GHz](http://sci-hub.tw/10.1109/APMC.2017.8251453) (Radar, polar) <-- todo
+- [Gated2Depth: Real-time Dense Lidar from Gated Images](https://arxiv.org/abs/1902.04997) <kbd>ICCV 2019 oral</kbd>
+- [PifPaf: Composite Fields for Human Pose Estimation](https://arxiv.org/abs/1903.06593) <kbd>CVPR 2019</kbd>
+- [Uncertainty Guided Multi-Scale Residual Learning-using a Cycle Spinning CNN for Single Image De-Raining](https://arxiv.org/abs/1906.11129) <kbd>CVPR 2019</kbd>
+- [Hybrid Task Cascade for Instance Segmentation](https://arxiv.org/abs/1901.07518) <kbd>CVPR 2019</kbd> (cascaded mask RCNN)
+- [3DOP: 3D Object Proposals for Accurate Object Class Detection](https://papers.nips.cc/paper/5644-3d-object-proposals-for-accurate-object-class-detection) <kbd>NIPS 2015</kbd>
+- [DirectShape: Photometric Alignment of Shape Priors for Visual Vehicle Pose and Shape Estimation](https://arxiv.org/abs/1904.10097)
+- [Eliminating the Blind Spot: Adapting 3D Object Detection and Monocular Depth Estimation to 360° Panoramic Imagery](https://arxiv.org/abs/1808.06253) <kbd>ECCV 2018</kbd> (Monocular 3D object detection and depth estimation)
+- [Measuring Calibration in Deep Learning](https://arxiv.org/abs/1904.01685) <kbd>CVPR 2019</kbd>
+- [Sampling-free Epistemic Uncertainty Estimation Using Approximated Variance Propagation](https://arxiv.org/abs/1908.00598) <kbd>ICCV 2019</kbd> (epistemic uncertainty)
+- [Deep Learning Based 3D Object Detection for Automotive Radar and Camera](https://www.astyx.com/fileadmin/redakteur/dokumente/Deep_Learning_Based_3D_Object_Detection_for_Automotive_Radar_and_Camera.PDF) (Astyx)
+- [Automotive Radar Dataset for Deep Learning Based 3D Object Detection](https://www.astyx.com/fileadmin/redakteur/dokumente/Automotive_Radar_Dataset_for_Deep_learning_Based_3D_Object_Detection.PDF) (Astyx)
+- [End-to-end Lane Detection through Differentiable Least-Squares Fitting](https://arxiv.org/abs/1902.00293) <kbd>ICCV 2019</kbd>
+- [Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) (Kaiming He)
+- [Frustum ConvNet: Sliding Frustums to Aggregate Local Point-Wise Features for Amodal 3D Object Detection](https://arxiv.org/abs/1903.01864) <kbd>IROS 2019</kbd>
+- [Dropout Sampling for Robust Object Detection in Open-Set Conditions](https://arxiv.org/abs/1710.06677) <kbd>ICRA 2018</kbd> (Niko Sünderhauf)
+- [Evaluating Merging Strategies for Sampling-based Uncertainty Techniques in Object Detection](https://arxiv.org/abs/1809.06006) <kbd>ICRA 2019</kbd> (Niko Sünderhauf)
+- [GCNet: End-to-End Learning of Geometry and Context for Deep Stereo Regression](https://arxiv.org/abs/1703.04309) <kbd>ICCV 2017</kbd> (disparity estimation)
+- [PSMNet: Pyramid Stereo Matching Network](https://arxiv.org/abs/1803.08669) <kbd>CVPR 2018</kbd> (disparity estimation)
+- [Practical Deep Stereo (PDS): Toward applications-friendly deep stereo matching](https://arxiv.org/abs/1806.01677) <kbd>NIPS 2018</kbd> (disparity estimation)
+- [Self-supervised Sparse-to-Dense: Self-supervised Depth Completion from LiDAR and Monocular Camera](https://arxiv.org/abs/1807.00275) <kbd>ICRA 2019/kbd>
+- [Road Scene Understanding by Occupancy Grid Learning from Sparse Radar Clusters using Semantic Segmentation](https://arxiv.org/abs/1904.00415) <kbd>ICCV 2019</kbd> (radar)
+- [Towards Scene Understanding: Unsupervised Monocular Depth Estimation with Semantic-aware Representation](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Towards_Scene_Understanding_Unsupervised_Monocular_Depth_Estimation_With_Semantic-Aware_Representation_CVPR_2019_paper.pdf) <kbd>CVPR 2019</kbd>
+- [DDP: Dense Depth Posterior from Single Image and Sparse Range](https://arxiv.org/abs/1901.10034) <kbd>CVPR 2019</kbd>
+- [End-to-End Learning of Geometry and Context for Deep Stereo Regression](https://arxiv.org/abs/1703.04309) <kbd>ICCV 2017</kbd>
+- [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530) <kbd>ICLR 2017</kbd> (best paper)
+- [PointFusion: Deep Sensor Fusion for 3D Bounding Box Estimation](https://arxiv.org/pdf/1711.10871.pdf) <kbd>CVPR 2018</kbd> (sensor fusion)
+- [CNNs for Interference Mitigation and Denoising in Automotive Radar Using Real-World Data](https://ml4ad.github.io/files/papers/CNNs%20for%20Interference%20Mitigation%20and%20Denoising%20in%20Automotive%20Radar%20Using%20Real-World%20Data.pdf) <kbd>NeurIPS 2019</kbd> (radar)
+- [A Multi-Sensor Fusion System for Moving Object Detection and Tracking in Urban Driving Environments](http://www.cs.cmu.edu/~youngwoo/doc/icra-14-sensor-fusion.pdf) <kbd>ICRA 2014</kbd>
+- [Domain Adaptive Faster R-CNN for Object Detection in the Wild](https://arxiv.org/abs/1803.03243) <kbd>CVPR 2018</kbd>
+- [Foggy Cityscapes: Semantic Foggy Scene Understanding with Synthetic Data](https://arxiv.org/abs/1708.07819) <kbd>IJCV 2018</kbd>
+- [Foggy Cityscapes ECCV: Model Adaptation with Synthetic and Real Data for Semantic Dense Foggy Scene Understanding](https://arxiv.org/abs/1808.01265) <kbd>ECCV 2018</kbd>
+- [A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks](https://arxiv.org/abs/1610.02136) <kbd>ICLR 2017</kbd> (NLL score as anomaly score)
+- [Augmented Reality Meets Computer Vision : Efficient Data Generation for Urban Driving Scenes](https://arxiv.org/abs/1708.01566) <kbd>IJCV 2018</kbd> (data augmentation with AR)
 
 
 ## Technical Debt
