@@ -16,6 +16,7 @@ This is a mind-blowing paper. It extends the U-shaped bias-variance trade-off cu
 	- Historically this has been overlooked as most models are relatively small. Regularization of any sort can change effective capacity of function class, thus prevent interpolating (exact fitting) and masking the interpolation peak. **Early stopping** also prevents practitioners to observe the long tail beyond interpolation threshold. 
 - The double descent behavior exhibits in a wide range of models and datasets.
 - The double descent for NN happen within a narrow range of parameters and will lead to observations that increasing size of network improves performance. 
+- There is a growing consensus that **SGD converges to global minima of the training risk in over-parameterized regimes**.
 
 #### Technical details
 - SGD is one example of ERM (empirical risk minimization)
