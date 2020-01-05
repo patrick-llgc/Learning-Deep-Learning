@@ -1,30 +1,25 @@
 # Paper notes
 This repository contains my paper reading notes on deep learning and machine learning. It is inspired by [Denny Britz](https://github.com/dennybritz/deeplearning-papernotes) and [Daniel Takeshi](https://github.com/DanielTakeshi/Paper_Notes).
 
-**New year resolution for 2020: read at least three paper a week!**
+**New year resolution for 2020: read at least three paper a week and a high a high quality github repo a month!**
 
 ## Summary of Topics
-
-| Topics                                      |
-| ------------------------------------------- |
-| <kbd>DRL</kbd>  Deep Reinforcement Learning |
-| <kbd>CLS</kbd>  Classification              |
-| <kbd>OD</kbd>  Object Detection             |
-| <kbd>InsSeg</kbd>, <kbd>SemSeg</kbd>, <kbd>PanSeg</kbd>  Segmentation |
-| <kbd>Video</kbd> Video understanding |
-| <kbd>MI</kbd>  Medical Imaging |
-| <kbd>NIPS</kbd>, <kbd>CVPR</kbd>, <kbd>ICCV</kbd>, <kbd>ECCV</kbd> Conferences |
-| <kbd>Mono3DOD</kbd> Monocular 3D Object Detection |
-| <kbd>MonoDepEst</kbd> Monocular Depth Estimation |
+The summary of the papers read in 2019 can be found [here on Towards Data Science](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3).
 
 The sections below records paper reading activity in chronological order. See notes organized according to subfields [here](organized.md) (up to 06-2019).
 
+## Github repos
+- [simple-faster-rcnn-pytorch](https://github.com/chenyuntc/simple-faster-rcnn-pytorch/) (2.1k star) [[Notes](code_notes/simple_faster_rcnn.md)]
+- [YOLACT/YOLACT++](https://github.com/dbolya/yolact) (2.1k star)
+- [MonoLoco](https://github.com/vita-epfl/monoloco) (131 star)
+
 ## 2020-01 (0)
 - [Double Descent: Reconciling modern machine learning practice and the bias-variance trade-of](https://arxiv.org/abs/1812.11118) [[Notes](paper_notes/double_descent.md)] <kbd>PNAS 2019</kbd>
-- [Deep Double Descent: Where Bigger Models and More Data Hurt](https://arxiv.org/abs/1912.02292) 
+- [Deep Double Descent: Where Bigger Models and More Data Hurt](https://arxiv.org/abs/1912.02292) [[Notes](paper_notes/deep_double_descent.md)]
 - [Visualizing the Loss Landscape of Neural Nets](https://arxiv.org/abs/1712.09913) <kbd>NIPS 2018</kbd>
 - [Theoretical insights into the optimization landscape of over-parameterized shallow neural networks](https://arxiv.org/abs/1707.04926) <kbd>TIP 2018</kbd>
 - [The Power of Interpolation: Understanding the Effectiveness of SGD in Modern Over-parametrized Learning](https://arxiv.org/abs/1712.06559) <kbd>ICML 2018</kbd>
+- [SGD on Neural Networks Learns Functions of Increasing Complexity](https://arxiv.org/abs/1905.11604) <kbd>NIPS 2019</kbd> (SGD learns a linear classifier first)
 
 
 ## 2019-12 (12)
