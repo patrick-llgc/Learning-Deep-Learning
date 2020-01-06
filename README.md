@@ -8,18 +8,27 @@ The summary of the papers read in 2019 can be found [here on Towards Data Scienc
 
 The sections below records paper reading activity in chronological order. See notes organized according to subfields [here](organized.md) (up to 06-2019).
 
+## Source of papers
+Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out of papers to read.
+
 ## Github repos
 - [simple-faster-rcnn-pytorch](https://github.com/chenyuntc/simple-faster-rcnn-pytorch/) (2.1k star) [[Notes](code_notes/simple_faster_rcnn.md)]
 - [YOLACT/YOLACT++](https://github.com/dbolya/yolact) (2.1k star)
 - [MonoLoco](https://github.com/vita-epfl/monoloco) (131 star)
+- [A Baseline for 3D Multi-Object Tracking](https://github.com/xinshuoweng/AB3DMOT) (548 star)
 
-## 2020-01 (0)
+## 2020-01 (2)
 - [Double Descent: Reconciling modern machine learning practice and the bias-variance trade-of](https://arxiv.org/abs/1812.11118) [[Notes](paper_notes/double_descent.md)] <kbd>PNAS 2019</kbd>
 - [Deep Double Descent: Where Bigger Models and More Data Hurt](https://arxiv.org/abs/1912.02292) [[Notes](paper_notes/deep_double_descent.md)]
 - [Visualizing the Loss Landscape of Neural Nets](https://arxiv.org/abs/1712.09913) <kbd>NIPS 2018</kbd>
 - [Theoretical insights into the optimization landscape of over-parameterized shallow neural networks](https://arxiv.org/abs/1707.04926) <kbd>TIP 2018</kbd>
 - [The Power of Interpolation: Understanding the Effectiveness of SGD in Modern Over-parametrized Learning](https://arxiv.org/abs/1712.06559) <kbd>ICML 2018</kbd>
 - [SGD on Neural Networks Learns Functions of Increasing Complexity](https://arxiv.org/abs/1905.11604) <kbd>NIPS 2019</kbd> (SGD learns a linear classifier first)
+- [The ApolloScape Open Dataset for Autonomous Driving and its Application](https://arxiv.org/pdf/1803.06184.pdf) <kbd>CVPR 2018</kbd> (dataset)
+- [ApolloCar3D: A Large 3D Car Instance Understanding Benchmark for Autonomous Driving](https://arxiv.org/abs/1811.12222) <kbd>CVPR 2019</kbd>
+- [Render for CNN: Viewpoint Estimation in Images Using CNNs Trained with Rendered 3D Model Views](https://shapenet.cs.stanford.edu/projects/RenderForCNN/) <kbd>ICCV 2015 Oral</kbd>
+- [Pay attention to the activations: a modular attention mechanism for fine-grained image recognition](https://arxiv.org/abs/1907.13075)
+- [Computer Vision for Autonomous Vehicles: Problems, Datasets and State of the Art](https://arxiv.org/abs/1704.05519v2) (latest update in Dec 2019)
 
 
 ## 2019-12 (12)
@@ -366,7 +375,6 @@ Here is the list of papers waiting to be read.
 - [StixelNet: A Deep Convolutional Network for Obstacle Detection and Road Segmentation](http://www.bmva.org/bmvc/2015/papers/paper109/paper109.pdf)
 - [DenseBox: Unifying Landmark Localization with End to End Object Detection](https://arxiv.org/pdf/1509.04874.pdf)
 - [Calibration of Heterogeneous Sensor Systems](https://arxiv.org/pdf/1812.11445.pdf)
-- [The ApolloScape Open Dataset for Autonomous Driving and its Application](https://arxiv.org/pdf/1803.06184.pdf) (dataset, point cloud)
 - [nuScenes: A multimodal dataset for autonomous driving](https://arxiv.org/pdf/1903.11027.pdf) (dataset, point cloud, radar)
 - [Xception: Deep Learning with Depthwise Separable Convolutions](https://arxiv.org/pdf/1610.02357.pdf) (Xception)
 - [Intro：Sensor Fusion for Adas 无人驾驶中的数据融合 (from 知乎)](https://zhuanlan.zhihu.com/p/40967227) (Up to CVPR 2018)
