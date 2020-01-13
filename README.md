@@ -23,14 +23,15 @@ Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out o
 - [Visualizing the Loss Landscape of Neural Nets](https://arxiv.org/abs/1712.09913) <kbd>NIPS 2018</kbd>
 - [The ApolloScape Open Dataset for Autonomous Driving and its Application](https://arxiv.org/pdf/1803.06184.pdf) <kbd>CVPR 2018</kbd> (dataset)
 - [ApolloCar3D: A Large 3D Car Instance Understanding Benchmark for Autonomous Driving](https://arxiv.org/abs/1811.12222) [[Notes](paper_notes/apollocar3d.md)] <kbd>CVPR 2019</kbd>
+- [Part-level Car Parsing and Reconstruction from a Single Street View](https://arxiv.org/abs/1811.10837) \[[Notes](paper_notes/apollo_car_parts.md)] (Baidu)
 - [6D-VNet: End-to-end 6DoF Vehicle Pose Estimation from Monocular RGB Images](http://openaccess.thecvf.com/content_CVPRW_2019/papers/Autonomous%20Driving/Wu_6D-VNet_End-to-End_6-DoF_Vehicle_Pose_Estimation_From_Monocular_RGB_Images_CVPRW_2019_paper.pdf) [[Notes](paper_notes/6d_vnet.md)] <kbd>CVPR 2019</kbd>
+- [DORN: Deep Ordinal Regression Network for Monocular Depth Estimation](https://arxiv.org/abs/1806.02446) [[Notes](paper_notes/dorn.md)] <kbd>CVPR 2018</kbd> 
 - [Theoretical insights into the optimization landscape of over-parameterized shallow neural networks](https://arxiv.org/abs/1707.04926) <kbd>TIP 2018</kbd>
 - [The Power of Interpolation: Understanding the Effectiveness of SGD in Modern Over-parametrized Learning](https://arxiv.org/abs/1712.06559) <kbd>ICML 2018</kbd>
 - [SGD on Neural Networks Learns Functions of Increasing Complexity](https://arxiv.org/abs/1905.11604) <kbd>NIPS 2019</kbd> (SGD learns a linear classifier first)
 - [Render for CNN: Viewpoint Estimation in Images Using CNNs Trained with Rendered 3D Model Views](https://shapenet.cs.stanford.edu/projects/RenderForCNN/) <kbd>ICCV 2015 Oral</kbd>
 - [Pay attention to the activations: a modular attention mechanism for fine-grained image recognition](https://arxiv.org/abs/1907.13075)
 - [Computer Vision for Autonomous Vehicles: Problems, Datasets and State of the Art](https://arxiv.org/abs/1704.05519v2) (latest update in Dec 2019)
-- [Part-level Car Parsing and Reconstruction from a Single Street View](https://arxiv.org/abs/1811.10837) \[[Notes](paper_notes/apollo_car_parts.md)] (Baidu)
 
 
 ## 2019-12 (12)
@@ -410,7 +411,6 @@ Here is the list of papers waiting to be read.
 - [GNN tutorial at CVPR 2019](https://xiaolonw.github.io/graphnn/)
 
 ### Unsupervised depth estimation
-- [DORN: Deep Ordinal Regression Network for Monocular Depth Estimation](https://arxiv.org/pdf/1806.02446.pdf) <kbd>CVPR 2018</kbd> 
 - [Sparse and Dense Data with CNNs: Depth Completion and Semantic Segmentation](https://arxiv.org/pdf/1808.00769.pdf) <kbd>3DV 2018</kbd>
 - [Depth Map Prediction from a Single Image using a Multi-Scale Deep Network](https://arxiv.org/pdf/1406.2283.pdf) <kbd>NIPS 2014</kbd> (Eigen et al)
 - [Learning Depth from Monocular Videos using Direct Methods](https://arxiv.org/abs/1712.00175) <kbd>CVPR 2018</kbd> (monocular depth estimation)
