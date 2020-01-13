@@ -30,7 +30,7 @@ Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out o
 - [Render for CNN: Viewpoint Estimation in Images Using CNNs Trained with Rendered 3D Model Views](https://shapenet.cs.stanford.edu/projects/RenderForCNN/) <kbd>ICCV 2015 Oral</kbd>
 - [Pay attention to the activations: a modular attention mechanism for fine-grained image recognition](https://arxiv.org/abs/1907.13075)
 - [Computer Vision for Autonomous Vehicles: Problems, Datasets and State of the Art](https://arxiv.org/abs/1704.05519v2) (latest update in Dec 2019)
-- [Part-level Car Parsing and Reconstruction from a Single Street View](https://arxiv.org/abs/1811.10837) (Baidu)
+- [Part-level Car Parsing and Reconstruction from a Single Street View](https://arxiv.org/abs/1811.10837) \[[Notes](paper_notes/apollo_car_parts.md)] (Baidu)
 
 
 ## 2019-12 (12)
