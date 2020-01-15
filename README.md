@@ -25,6 +25,7 @@ Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out o
 - [ApolloCar3D: A Large 3D Car Instance Understanding Benchmark for Autonomous Driving](https://arxiv.org/abs/1811.12222) [[Notes](paper_notes/apollocar3d.md)] <kbd>CVPR 2019</kbd>
 - [Part-level Car Parsing and Reconstruction from a Single Street View](https://arxiv.org/abs/1811.10837) \[[Notes](paper_notes/apollo_car_parts.md)] (Baidu)
 - [6D-VNet: End-to-end 6DoF Vehicle Pose Estimation from Monocular RGB Images](http://openaccess.thecvf.com/content_CVPRW_2019/papers/Autonomous%20Driving/Wu_6D-VNet_End-to-End_6-DoF_Vehicle_Pose_Estimation_From_Monocular_RGB_Images_CVPRW_2019_paper.pdf) [[Notes](paper_notes/6d_vnet.md)] <kbd>CVPR 2019</kbd>
+- [RTM3D: Real-time Monocular 3D Detection from Object Keypoints for Autonomous Driving](https://arxiv.org/abs/2001.03343) [[Notes](paper_notes/rtm3d.md)]
 - [DORN: Deep Ordinal Regression Network for Monocular Depth Estimation](https://arxiv.org/abs/1806.02446) [[Notes](paper_notes/dorn.md)] <kbd>CVPR 2018</kbd> 
 - [Theoretical insights into the optimization landscape of over-parameterized shallow neural networks](https://arxiv.org/abs/1707.04926) <kbd>TIP 2018</kbd>
 - [The Power of Interpolation: Understanding the Effectiveness of SGD in Modern Over-parametrized Learning](https://arxiv.org/abs/1712.06559) <kbd>ICML 2018</kbd>
