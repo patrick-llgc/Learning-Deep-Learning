@@ -9,6 +9,8 @@ This paper proposes to "sculpt" the entire depth image from a reference while th
 
 Monocular depth estimation is an ill-posed problem. Using sparse depth information can be helpful in solving the scale ambiguity. Refer to [Deep Depth Completion of a Single RGB-D Imag](deep_depth_completion_rgbd.md) and [deep lidar](deeplidar.md) and [sparse to dense](sparse_to_dense.md) for depth completion from unstructured sparse data.
 
+Similar idea has been used in [Camera radar fusion Net](crf_net.md).
+
 #### Key ideas
 - For each point in the imputed laser scan, generate a line along the gravity direction in 3D, then projecting back to 2D. --> generating a vertical line directly should largely yield the same results. 
 - Add the reference depth map to the network output to predict depth. This means the network only has to learn the residual depth. 

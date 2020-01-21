@@ -11,9 +11,10 @@ The idea is quite clever in how to embed/encode the sensor size (pixel number fo
 
 Embedding meta data info into conv:
 
-- [meta data fusion for TL2LA](deep_metadata_fusion_tl2la.md)
+- [meta data fusion for TL2LA](deep_lane_association.md)
 - [fusing radar pins with camera](distant_object_radar.md)
 - [cam conv](cam_conv.md) to fuse focal length into convs.
+- [camera radar fusion net](crf_net.md)
 
 The basic idea is to convert meta data into pseudo-images suitable for CNNs. Cam conv precomputes pixel wise coord map and fov maps and concat them to original input.
 

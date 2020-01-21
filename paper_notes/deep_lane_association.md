@@ -11,9 +11,10 @@ The authors converted all meta data to binary masks, as all the meta data are sp
 
 Embedding meta data info into conv:
 
-- [meta data fusion for TL2LA](deep_metadata_fusion_tl2la.md)
+- [meta data fusion for TL2LA](deep_lane_association.md)
 - [fusing radar pins with camera](distant_object_radar.md)
 - [cam conv](cam_conv.md) to fuse focal length into convs.
+- [camera radar fusion net](crf_net.md)
 
 
 The traffic lights to lane assignment problem can be solved traditionally using huristics rule-based methods, but not very reliably. Only-vision approach (enhanced with enlarged ROIs), and with meta data, works almost as good as human performance in subjective test. This is because the relevant traffic lights are not always mounted directly above the their associated lane.
