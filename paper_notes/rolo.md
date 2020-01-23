@@ -5,7 +5,9 @@ _January 2020_
 tl;dr: Summary of the main idea.
 
 #### Overall impression
-Describe the overall impression of the paper. 
+There is a series of paper on recurrent single stage method for object detection 
+
+[Recurrent YOLO]
 
 #### Key ideas
 - Summaries of the key ideas
