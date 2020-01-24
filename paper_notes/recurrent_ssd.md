@@ -16,6 +16,8 @@ Another way to look at feature aggregation over time is data fusion. Instead of 
 
 This is perhaps the best clean solution to video object detection problem. Much cleaner than [ROLO](rolo.md).
 
+K=4 frames
+
 #### Key ideas
 - Augment SSD meta-architecture by conv-recurrent layer (conv-GRU). This maintains the fully-convolutional feature of SSD, keeping it fast.
 - Two ways to integrate information from multiple frames. These two are orthogonal to each other and can be used together. 

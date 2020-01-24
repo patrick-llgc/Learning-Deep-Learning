@@ -7,3 +7,4 @@ tl;dr: Add recurrent LSTM to retinaNet
 #### Overall impression
 This paper is quite similar to [recurrent SSD](recurrent_SSD.md) but much less insightful. They added two layers of recurrent LSTM to the feature map before the detection head. 
 
+K=5 frames

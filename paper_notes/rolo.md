@@ -14,6 +14,8 @@ There is a series of paper on recurrent single stage method for object detection
 
 The conversion of bbox to heatmap is also another example of transforming unstructured information to pseudo-image.
 
+K = 6 frames
+
 #### Key ideas
 - Using historical visual semantics to improve tracking. (Although there is only one object in the image)
 - When assigning detection to tracklet, use IoU distance between the current detection and the mean of its short-term history of validated detections.
@@ -30,7 +32,6 @@ The conversion of bbox to heatmap is also another example of transforming unstru
 	- SRE (spatial robustness evaluation): jittered GT bbox
 - Under the same frames of GT, more video with sparse annotation is more useful than fewer video with dense annotation.
 - YOLO with Kalman filter ([SORT](sort.md)) performs poorly due to fast motions, occlusions, and therefore occasionally poor detections.
-- step size 6
 
 #### Notes
 - [github repo](https://github.com/Guanghan/ROLO)
