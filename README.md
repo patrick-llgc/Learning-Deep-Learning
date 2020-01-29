@@ -36,6 +36,7 @@ Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out o
 - [Recurrent SSD: Recurrent Multi-frame Single Shot Detector for Video Object Detection](https://www.merl.com/publications/docs/TR2018-137.pdf) [[Notes](paper_notes/recurrent_ssd.md)] <kbd>BMVC 2018</kbd> (Mitsubishi)
 - [Recurrent RetinaNet: A Video Object Detection Model Based on Focal Loss](https://doi.org/10.1007/978-3-030-04212-7_44) [[Notes](paper_notes/recurrent_retinanet.md)] <kbd>ICONIP 2018</kbd> (single stage, recurrent)
 - [Actions as Moving Points](https://arxiv.org/abs/2001.04608) [[Notes](paper_notes/moc.md)] (not suitable for online)
+- [The PREVENTION dataset: a novel benchmark for PREdiction of VEhicles iNTentIONs](10.1109/ITSC.2019.8917433) [[Notes](paper_notes/prevention_dataset.md)] <kbd>ITSC 2019</kbd>
 - [Online Video Object Detection using Association LSTM](http://openaccess.thecvf.com/content_ICCV_2017/papers/Lu__Online_Video_ICCV_2017_paper.pdf) (single stage, recurrent)
 - [Towards High Performance Video Object Detection](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhu_Towards_High_Performance_CVPR_2018_paper.pdf) [[Notes](paper_notes/high_performance_video_od.md)] <kbd>CVPR 2018</kbd>
 - [Towards High Performance Video Object Detection for Mobiles](https://arxiv.org/abs/1804.05830) [[Notes](paper_notes/high_performance_video_od_mobile.md)]
