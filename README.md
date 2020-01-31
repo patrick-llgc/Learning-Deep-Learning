@@ -18,7 +18,7 @@ Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out o
 - [A Baseline for 3D Multi-Object Tracking](https://github.com/xinshuoweng/AB3DMOT) (548 star)
 - [rolo](https://github.com/Guanghan/ROLO)
 
-## 2020-01 (14)
+## 2020-01 (18)
 - [Double Descent: Reconciling modern machine learning practice and the bias-variance trade-of](https://arxiv.org/abs/1812.11118) [[Notes](paper_notes/double_descent.md)] <kbd>PNAS 2019</kbd>
 - [Deep Double Descent: Where Bigger Models and More Data Hurt](https://arxiv.org/abs/1912.02292) [[Notes](paper_notes/deep_double_descent.md)]
 - [Visualizing the Loss Landscape of Neural Nets](https://arxiv.org/abs/1712.09913) <kbd>NIPS 2018</kbd>
@@ -31,11 +31,11 @@ Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out o
 - [D&T: Detect to Track and Track to Detect](https://arxiv.org/abs/1710.03958) [[Notes](paper_notes/detect_track.md)] <kbd>ICCV 2017</kbd> (from Feichtenhofer)
 - [CRF-Net: A Deep Learning-based Radar and Camera Sensor Fusion Architecture for Object Detection](https://ieeexplore.ieee.org/abstract/document/8916629/) [[Notes](paper_notes/crf_net.md)] <kbd>SDF 2019</kbd> (radar detection)
 - [RVNet: Deep Sensor Fusion of Monocular Camera and Radar for Image-based Obstacle Detection in Challenging Environments](https://www.researchgate.net/profile/Vijay_John3/publication/335833918_RVNet_Deep_Sensor_Fusion_of_Monocular_Camera_and_Radar_for_Image-based_Obstacle_Detection_in_Challenging_Environments/links/5d7f164e92851c87c38b09f1/RVNet-Deep-Sensor-Fusion-of-Monocular-Camera-and-Radar-for-Image-based-Obstacle-Detection-in-Challenging-Environments.pdf) [[Notes](paper_notes/rvnet.md)] <kbd>PSIVT 2019</kbd>
-- [RRPN: Radar Region Proposal Network for Object Detection in Autonomous Vehicles](https://arxiv.org/abs/1905.00526) <kbd>ICIP 2019</kbd>
+- [RRPN: Radar Region Proposal Network for Object Detection in Autonomous Vehicles](https://arxiv.org/abs/1905.00526) [[Notes](paper_notes/rrpn_radar.md)] <kbd>ICIP 2019</kbd>
 - [ROLO: Spatially Supervised Recurrent Convolutional Neural Networks for Visual Object Tracking](https://arxiv.org/abs/1607.05781) [[Notes](paper_notes/rolo.md)] <kbd>ISCAS 2016</kbd>
 - [Recurrent SSD: Recurrent Multi-frame Single Shot Detector for Video Object Detection](https://www.merl.com/publications/docs/TR2018-137.pdf) [[Notes](paper_notes/recurrent_ssd.md)] <kbd>BMVC 2018</kbd> (Mitsubishi)
 - [Recurrent RetinaNet: A Video Object Detection Model Based on Focal Loss](https://doi.org/10.1007/978-3-030-04212-7_44) [[Notes](paper_notes/recurrent_retinanet.md)] <kbd>ICONIP 2018</kbd> (single stage, recurrent)
-- [Actions as Moving Points](https://arxiv.org/abs/2001.04608) [[Notes](paper_notes/moc.md)] (not suitable for online)
+- [Actions as Moving Points](https://arxiv.org/abs/2001.04608) \[[Notes](paper_notes/moc.md)] (not suitable for online)
 - [The PREVENTION dataset: a novel benchmark for PREdiction of VEhicles iNTentIONs](10.1109/ITSC.2019.8917433) [[Notes](paper_notes/prevention_dataset.md)] <kbd>ITSC 2019</kbd>
 - [Online Video Object Detection using Association LSTM](http://openaccess.thecvf.com/content_ICCV_2017/papers/Lu__Online_Video_ICCV_2017_paper.pdf) (single stage, recurrent)
 - [Towards High Performance Video Object Detection](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhu_Towards_High_Performance_CVPR_2018_paper.pdf) [[Notes](paper_notes/high_performance_video_od.md)] <kbd>CVPR 2018</kbd>
@@ -67,7 +67,6 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Real-Time Seamless Single Shot 6D Object Pose Prediction](https://arxiv.org/abs/1711.08848) <kbd>CVPR 2018</kbd>
 - [Learn to Combine Modalities in Multimodal Deep Learning](https://arxiv.org/abs/1805.11730) (sensor fusion, general DL)
 - [PointRNN: Point Recurrent Neural Network for Moving Point Cloud Processing](https://arxiv.org/abs/1910.08287)
-
 
 
 
