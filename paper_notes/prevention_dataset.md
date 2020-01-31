@@ -5,12 +5,12 @@ _January 2020_
 tl;dr: Dataset for cut-in and other lane-change prediction.
 
 #### Overall impression
-Describe the overall impression of the paper. 
+This dataset includes tracking and sensor fusion annotation.
 
 #### Key ideas
 - High accuracy lateral movement of the vehicles are critical for the lane change prediction task. Symmetrically placed keypoints are traced (like BPE) automatically, with Median Flow. The tracking process is supervised.
 - Relative position of ego-vehicle wrt the road surface is useful to correct BEV pitch or height. The ground plane coefficients are computed with RANSAC with lidar point cloud.
-- Event types: Cut-in/Cut-out/Lane-change/zebra-crossing
+- Event types: Cut-in/Cut-out/Lane-change/zebra-crossing. Note: Cut-in and cut-out are actually not labeled. Only contains left and right lane changes.
 
 #### Technical details
 - Cameras are externally triggered by lidar at 10 Hz.
