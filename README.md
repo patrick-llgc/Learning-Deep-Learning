@@ -16,13 +16,14 @@ Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out o
 - [YOLACT/YOLACT++](https://github.com/dbolya/yolact) (2.1k star)
 - [MonoLoco](https://github.com/vita-epfl/monoloco) (131 star)
 - [A Baseline for 3D Multi-Object Tracking](https://github.com/xinshuoweng/AB3DMOT) (548 star)
-- [rolo](https://github.com/Guanghan/ROLO)
+- [ROLO: recurrent YOLO](https://github.com/Guanghan/ROLO)
 
 
 ## 2020-02 (0)
 - [Social LSTM: Human Trajectory Prediction in Crowded Spaces](http://cvgl.stanford.edu/papers/CVPR16_Social_LSTM.pdf) [[Notes](paper_notes/social_lstm.md)] <kbd>CVPR 2017</kbd> 
 - [Temporally Identity-Aware SSD with Attentional LSTM](https://arxiv.org/abs/1803.00197) [[Notes](paper_notes/tssd_ota.md)] <kbd>TCYB 2019<kbd>
 - [Online Video Object Detection using Association LSTM](http://openaccess.thecvf.com/content_ICCV_2017/papers/Lu__Online_Video_ICCV_2017_paper.pdf) \[[Notes](paper_notes/association_lstm.md)] (single stage, recurrent)
+- [Associative Embedding: End-to-End Learning for Joint Detection and Grouping](https://arxiv.org/abs/1611.05424) [[Notes](paper_notes/associative_embedding.md)] <kbd>NIPS 2017</kbd>
 - [Towards High Performance Video Object Detection](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhu_Towards_High_Performance_CVPR_2018_paper.pdf) [[Notes](paper_notes/high_performance_video_od.md)] <kbd>CVPR 2018</kbd>
 - [Towards High Performance Video Object Detection for Mobiles](https://arxiv.org/abs/1804.05830) [[Notes](paper_notes/high_performance_video_od_mobile.md)]
 - [Theoretical insights into the optimization landscape of over-parameterized shallow neural networks](https://arxiv.org/abs/1707.04926) <kbd>TIP 2018</kbd>
