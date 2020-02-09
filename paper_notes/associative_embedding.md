@@ -7,13 +7,9 @@ tl;dr: Learn keypoints detection and association at the same time.
 #### Overall impression
 This is the foundation of [CornerNet](cornernet.md) which ignited a new wave of anchor less single-stage object detector in 2019.
 
-The figure showcasing the 1D embedded results is really cool. This shows the **trivial task of grouping** after the learning.
-![](https://pic1.zhimg.com/80/v2-71685932ee2ef3cd8da83a11f8de390c_hd.jpg)
-
-The separation between different object in the tagging heatmap is also very impressive.
-![](https://pic2.zhimg.com/80/v2-dc684098a4c31847f99e0c5c67440645_hd.jpg)
-
 It can be also used for instance segmentation (and perhaps for tracking as well). Basically any CV problem that can be viewed as joint detection and grouping can benefit from associative embedding.
+
+[Super Point](super_point.md) learns keypoint detector and embedding at the same time.
 
 
 #### Key ideas
@@ -31,6 +27,13 @@ It can be also used for instance segmentation (and perhaps for tracking as well)
 
 #### Technical details
 - The system works best if objects are about the same scale. The paper used multiple scales during test time. The heatmaps are averaged, and the embedding are concatenated to a vector. Then compare vectors to determine groups.
+- The figure showcasing the 1D embedded results is really cool. This shows the **trivial task of grouping** after the learning.
+![](https://pic1.zhimg.com/80/v2-71685932ee2ef3cd8da83a11f8de390c_hd.jpg)
+
+- The separation between different object in the tagging heatmap is also very impressive.
+![](https://pic2.zhimg.com/80/v2-dc684098a4c31847f99e0c5c67440645_hd.jpg)
+
+
 
 #### Notes
 - [Github code](https://github.com/princeton-vl/pose-ae-train) in pytorch
