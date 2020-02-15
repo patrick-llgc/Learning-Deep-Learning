@@ -60,7 +60,7 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [PointRNN: Point Recurrent Neural Network for Moving Point Cloud Processing](https://arxiv.org/abs/1910.08287)
 - [Using panoramic videos for multi-person localization and tracking in a 3D panoramic coordinate](https://arxiv.org/abs/1911.10535)
 - [PoseNet: Geometric Loss Functions for Camera Pose Regression with Deep Learning](https://arxiv.org/abs/1704.00390) <kbd>CVPR 2017</kbd>
-
+- [UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction](https://arxiv.org/abs/1802.03426) [[Notes](paper_notes/umap.md)] (dimension reduction, better than t-SNE)
 
 
 ## 2020-01 (19)
