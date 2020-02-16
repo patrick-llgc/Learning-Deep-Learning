@@ -11,12 +11,15 @@ The sections below records paper reading activity in chronological order. See no
 ## Source of papers
 Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out of papers to read.
 
+The list of resource in this [link](https://autonomous-driving.org/front/resources/) talks about various topics in Autonomous Driving.
+
 ## Github repos
 - [simple-faster-rcnn-pytorch](https://github.com/chenyuntc/simple-faster-rcnn-pytorch/) (2.1k star) [[Notes](code_notes/simple_faster_rcnn.md)]
 - [YOLACT/YOLACT++](https://github.com/dbolya/yolact) (2.1k star)
 - [MonoLoco](https://github.com/vita-epfl/monoloco) (131 star)
 - [A Baseline for 3D Multi-Object Tracking](https://github.com/xinshuoweng/AB3DMOT) (548 star)
 - [ROLO: recurrent YOLO](https://github.com/Guanghan/ROLO)
+- [detectron2](https://github.com/facebookresearch/detectron2/tree/master/projects/PointRend/point_rend)
 
 
 ## 2020-02 (3)
@@ -30,6 +33,8 @@ Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out o
 - [PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization](https://arxiv.org/abs/1505.07427) <kbd>ICCV 2015</kbd>
 - [PoseNet2: Modelling Uncertainty in Deep Learning for Camera Relocalization](https://arxiv.org/abs/1509.05909) <kbd>ICRA 2016</kbd>
 - [PoseNet3: Geometric Loss Functions for Camera Pose Regression with Deep Learning](https://arxiv.org/abs/1704.00390) <kbd>CVPR 2017</kbd>
+- [Single-Stage Monocular 3D Object Detection with Virtual Cameras](https://arxiv.org/abs/1912.08035) (Mapillary, Mono3D)
+- [Learning Depth-Guided Convolutions for Monocular 3D Object Detection](https://arxiv.org/abs/1912.04799) (Mono3D)
 - [Towards High Performance Video Object Detection](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhu_Towards_High_Performance_CVPR_2018_paper.pdf) [[Notes](paper_notes/high_performance_video_od.md)] <kbd>CVPR 2018</kbd>
 - [Towards High Performance Video Object Detection for Mobiles](https://arxiv.org/abs/1804.05830) [[Notes](paper_notes/high_performance_video_od_mobile.md)]
 - [Theoretical insights into the optimization landscape of over-parameterized shallow neural networks](https://arxiv.org/abs/1707.04926) <kbd>TIP 2018</kbd>
