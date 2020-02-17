@@ -9,6 +9,8 @@ The paper is articulate in specifying the input and output of the network, and i
 
 The paper proposes a **disentangling transformation** to split the original combinational loss (e.g., size and location of bbox at the same time) into different groups, each group only contains the loss of one group of parameters and the rest using the GT. Note that sometimes the loss is already disentangled, such as those originally proposed by YOLO or Faster RCNN. This only applies to losses with complicated transformation such as 3d bbox corner loss and sIOU loss as proposed in this paper. 
 
+The papar is further enhanced by [Virtual Cam](virtual_cam.md) to reach SOTA.
+
 #### Key ideas
 - Architecture: RetinaNet (FPN + Focal loss) + 2D sIoU loss + 3D corner loss.
 - Disentangling transformation of loss. This is only relevant when loss terms are entangles with multiple output of the network.
