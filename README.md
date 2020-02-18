@@ -19,7 +19,8 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [MonoLoco](https://github.com/vita-epfl/monoloco) (131 star)
 - [A Baseline for 3D Multi-Object Tracking](https://github.com/xinshuoweng/AB3DMOT) (548 star)
 - [ROLO: recurrent YOLO](https://github.com/Guanghan/ROLO)
-- [detectron2](https://github.com/facebookresearch/detectron2/tree/master/projects/PointRend/point_rend)
+- [point rend](https://github.com/facebookresearch/detectron2/tree/master/projects/PointRend/point_rend)
+- [Carla data export](https://github.com/Ozzyz/carla-data-export)
 
 
 ## 2020-02 (3)
@@ -35,6 +36,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [PoseNet3: Geometric Loss Functions for Camera Pose Regression with Deep Learning](https://arxiv.org/abs/1704.00390) <kbd>CVPR 2017</kbd>
 - [VirtualCam: Single-Stage Monocular 3D Object Detection with Virtual Cameras](https://arxiv.org/abs/1912.08035) \[[Notes](paper_notes/virtual_cam.md)] (Mapillary, Mono3D)
 - [Learning Depth-Guided Convolutions for Monocular 3D Object Detection](https://arxiv.org/abs/1912.04799) (Mono3D)
+- [Amodal Completion and Size Constancy in Natural Scenes](https://arxiv.org/abs/1509.08147) [[Notes](paper_notes/amodal_completion.md)] <kbd>ICCV 2015</kbd> (Amodal completion)
 - [Towards High Performance Video Object Detection](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhu_Towards_High_Performance_CVPR_2018_paper.pdf) [[Notes](paper_notes/high_performance_video_od.md)] <kbd>CVPR 2018</kbd>
 - [Towards High Performance Video Object Detection for Mobiles](https://arxiv.org/abs/1804.05830) [[Notes](paper_notes/high_performance_video_od_mobile.md)]
 - [Theoretical insights into the optimization landscape of over-parameterized shallow neural networks](https://arxiv.org/abs/1707.04926) <kbd>TIP 2018</kbd>
@@ -67,7 +69,14 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Using panoramic videos for multi-person localization and tracking in a 3D panoramic coordinate](https://arxiv.org/abs/1911.10535)
 - [PoseNet: Geometric Loss Functions for Camera Pose Regression with Deep Learning](https://arxiv.org/abs/1704.00390) <kbd>CVPR 2017</kbd>
 - [UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction](https://arxiv.org/abs/1802.03426) [[Notes](paper_notes/umap.md)] (dimension reduction, better than t-SNE)
-
+- [Deep Cuboid Detection: Beyond 2D Bounding Boxes](https://arxiv.org/abs/1611.10010) (Magic Leap)
+- [Viewpoints and Keypoints](https://arxiv.org/abs/1411.6067) (Malik)
+- [RefinedMPL: Refined Monocular PseudoLiDAR for 3D Object Detection in Autonomous Driving](https://arxiv.org/abs/1911.09712) (mono3D, Huawei)
+- [Lifting Object Detection Datasets into 3D](https://arxiv.org/abs/1503.06465) (PASCAL)
+- [3D Object Class Detection in the Wild](https://arxiv.org/abs/1503.05038) (keypoint based)
+- [Fast Single Shot Detection and Pose Estimation](https://arxiv.org/abs/1609.05590) <kbd>3DV 2016</kbd> (SSD + pose, Wei Liu)
+- [Towards Scene Understanding with Detailed 3D Object Representations](https://arxiv.org/abs/1411.5935) <kbd>IJCV 2014</kbd> (keypoint, 3D bbox annotation)
+- [Virtual KITTI 2](https://arxiv.org/abs/2001.10773)
 
 ## 2020-01 (19)
 - [Double Descent: Reconciling modern machine learning practice and the bias-variance trade-of](https://arxiv.org/abs/1812.11118) [[Notes](paper_notes/double_descent.md)] <kbd>PNAS 2019</kbd>
