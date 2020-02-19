@@ -23,11 +23,11 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Carla data export](https://github.com/Ozzyz/carla-data-export)
 
 
-## 2020-02 (3)
-- [Social LSTM: Human Trajectory Prediction in Crowded Spaces](http://cvgl.stanford.edu/papers/CVPR16_Social_LSTM.pdf) [[Notes](paper_notes/social_lstm.md)] <kbd>CVPR 2017</kbd> 
-- [Temporally Identity-Aware SSD with Attentional LSTM](https://arxiv.org/abs/1803.00197) [[Notes](paper_notes/tssd_ota.md)] <kbd>TCYB 2019<kbd> 
-- [Online Video Object Detection using Association LSTM](http://openaccess.thecvf.com/content_ICCV_2017/papers/Lu__Online_Video_ICCV_2017_paper.pdf) \[[Notes](paper_notes/association_lstm.md)] (single stage, recurrent)
+## 2020-02 (11)
 - [Associative Embedding: End-to-End Learning for Joint Detection and Grouping](https://arxiv.org/abs/1611.05424) [[Notes](paper_notes/associative_embedding.md)] <kbd>NIPS 2017</kbd>
+- [Pixels to Graphs by Associative Embedding](https://arxiv.org/abs/1706.07365) [[Notes](paper_notes/pixels_to_graphs.md)] <kbd>NIPS 2017</kbd>
+- [Social LSTM: Human Trajectory Prediction in Crowded Spaces](http://cvgl.stanford.edu/papers/CVPR16_Social_LSTM.pdf) [[Notes](paper_notes/social_lstm.md)] <kbd>CVPR 2017</kbd> 
+- [Online Video Object Detection using Association LSTM](http://openaccess.thecvf.com/content_ICCV_2017/papers/Lu__Online_Video_ICCV_2017_paper.pdf) \[[Notes](paper_notes/association_lstm.md)] (single stage, recurrent)
 - [SuperPoint: Self-Supervised Interest Point Detection and Description](https://arxiv.org/abs/1712.07629) [[Notes](paper_notes/super_point.md)] <kbd>CVPR 2018</kbd> (channel-to-pixel, deep SLAM, Magic Leap)
 - [Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network](https://arxiv.org/abs/1609.05158) <kbd>CVPR 2016</kbd> (channel-to-pixel)
 - [PointRend: Image Segmentation as Rendering](https://arxiv.org/abs/1912.08193) [[Notes](paper_notes/pointrend.md)] \(FAIR)
@@ -36,13 +36,14 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [PoseNet3: Geometric Loss Functions for Camera Pose Regression with Deep Learning](https://arxiv.org/abs/1704.00390) <kbd>CVPR 2017</kbd>
 - [VirtualCam: Single-Stage Monocular 3D Object Detection with Virtual Cameras](https://arxiv.org/abs/1912.08035) \[[Notes](paper_notes/virtual_cam.md)] (Mapillary, Mono3D)
 - [Learning Depth-Guided Convolutions for Monocular 3D Object Detection](https://arxiv.org/abs/1912.04799) (Mono3D)
+- [RefinedMPL: Refined Monocular PseudoLiDAR for 3D Object Detection in Autonomous Driving](https://arxiv.org/abs/1911.09712) (mono3D, Huawei)
 - [Amodal Completion and Size Constancy in Natural Scenes](https://arxiv.org/abs/1509.08147) [[Notes](paper_notes/amodal_completion.md)] <kbd>ICCV 2015</kbd> (Amodal completion)
+- [Render for CNN: Viewpoint Estimation in Images Using CNNs Trained with Rendered 3D Model Views](https://arxiv.org/abs/1505.05641) <kbd>ICCV 2015 Oral</kbd>
 - [Towards High Performance Video Object Detection](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhu_Towards_High_Performance_CVPR_2018_paper.pdf) [[Notes](paper_notes/high_performance_video_od.md)] <kbd>CVPR 2018</kbd>
 - [Towards High Performance Video Object Detection for Mobiles](https://arxiv.org/abs/1804.05830) [[Notes](paper_notes/high_performance_video_od_mobile.md)]
 - [Theoretical insights into the optimization landscape of over-parameterized shallow neural networks](https://arxiv.org/abs/1707.04926) <kbd>TIP 2018</kbd>
 - [The Power of Interpolation: Understanding the Effectiveness of SGD in Modern Over-parametrized Learning](https://arxiv.org/abs/1712.06559) <kbd>ICML 2018</kbd>
 - [SGD on Neural Networks Learns Functions of Increasing Complexity](https://arxiv.org/abs/1905.11604) <kbd>NIPS 2019</kbd> (SGD learns a linear classifier first)
-- [Render for CNN: Viewpoint Estimation in Images Using CNNs Trained with Rendered 3D Model Views](https://shapenet.cs.stanford.edu/projects/RenderForCNN/) <kbd>ICCV 2015 Oral</kbd>
 - [Pay attention to the activations: a modular attention mechanism for fine-grained image recognition](https://arxiv.org/abs/1907.13075)
 - [Computer Vision for Autonomous Vehicles: Problems, Datasets and State of the Art](https://arxiv.org/abs/1704.05519v2) (latest update in Dec 2019)
 - [Simultaneous Identification and Tracking of Multiple People Using Video and IMUs](http://openaccess.thecvf.com/content_CVPRW_2019/papers/BMTT/Henschel_Simultaneous_Identification_and_Tracking_of_Multiple_People_Using_Video_and_CVPRW_2019_paper.pdf) <kbd>CVPR 2019</kbd>
@@ -71,12 +72,12 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction](https://arxiv.org/abs/1802.03426) [[Notes](paper_notes/umap.md)] (dimension reduction, better than t-SNE)
 - [Deep Cuboid Detection: Beyond 2D Bounding Boxes](https://arxiv.org/abs/1611.10010) (Magic Leap)
 - [Viewpoints and Keypoints](https://arxiv.org/abs/1411.6067) (Malik)
-- [RefinedMPL: Refined Monocular PseudoLiDAR for 3D Object Detection in Autonomous Driving](https://arxiv.org/abs/1911.09712) (mono3D, Huawei)
 - [Lifting Object Detection Datasets into 3D](https://arxiv.org/abs/1503.06465) (PASCAL)
 - [3D Object Class Detection in the Wild](https://arxiv.org/abs/1503.05038) (keypoint based)
 - [Fast Single Shot Detection and Pose Estimation](https://arxiv.org/abs/1609.05590) <kbd>3DV 2016</kbd> (SSD + pose, Wei Liu)
 - [Towards Scene Understanding with Detailed 3D Object Representations](https://arxiv.org/abs/1411.5935) <kbd>IJCV 2014</kbd> (keypoint, 3D bbox annotation)
 - [Virtual KITTI 2](https://arxiv.org/abs/2001.10773)
+- [Deep Supervision with Shape Concepts for Occlusion-Aware 3D Object Parsing](https://arxiv.org/abs/1612.02699) <kbd>CVPR 2017</kbd>
 
 ## 2020-01 (19)
 - [Double Descent: Reconciling modern machine learning practice and the bias-variance trade-of](https://arxiv.org/abs/1812.11118) [[Notes](paper_notes/double_descent.md)] <kbd>PNAS 2019</kbd>

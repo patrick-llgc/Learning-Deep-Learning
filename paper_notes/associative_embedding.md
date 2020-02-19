@@ -37,4 +37,4 @@ It can be also used for instance segmentation (and perhaps for tracking as well)
 
 #### Notes
 - [Github code](https://github.com/princeton-vl/pose-ae-train) in pytorch
-
+- There are other methods for instance embedding such as in the [Review of instance embedding](https://towardsdatascience.com/instance-embedding-instance-segmentation-without-proposals-31946a7c53e1)
