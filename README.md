@@ -38,6 +38,9 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Learning Depth-Guided Convolutions for Monocular 3D Object Detection](https://arxiv.org/abs/1912.04799) (Mono3D)
 - [RefinedMPL: Refined Monocular PseudoLiDAR for 3D Object Detection in Autonomous Driving](https://arxiv.org/abs/1911.09712) (mono3D, Huawei)
 - [Amodal Completion and Size Constancy in Natural Scenes](https://arxiv.org/abs/1509.08147) [[Notes](paper_notes/amodal_completion.md)] <kbd>ICCV 2015</kbd> (Amodal completion)
+- [MoCo: Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) \[[Notes](paper_notes/moco.md)] (Kaiming He)
+- [Unsupervised Feature Learning via Non-Parametric Instance-level Discrimination](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0801.pdf) <kbd>CVPR 2018 spotlight</kbd> (Stella Yu)
+- [Rethinking ImageNet Pre-training](https://arxiv.org/abs/1811.08883) (Kaiming He)
 - [Render for CNN: Viewpoint Estimation in Images Using CNNs Trained with Rendered 3D Model Views](https://arxiv.org/abs/1505.05641) <kbd>ICCV 2015 Oral</kbd>
 - [Towards High Performance Video Object Detection](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhu_Towards_High_Performance_CVPR_2018_paper.pdf) [[Notes](paper_notes/high_performance_video_od.md)] <kbd>CVPR 2018</kbd>
 - [Towards High Performance Video Object Detection for Mobiles](https://arxiv.org/abs/1804.05830) [[Notes](paper_notes/high_performance_video_od_mobile.md)]
@@ -515,7 +518,6 @@ Here is the list of papers waiting to be read.
 - [Sampling-free Epistemic Uncertainty Estimation Using Approximated Variance Propagation](https://arxiv.org/abs/1908.00598) <kbd>ICCV 2019</kbd> (epistemic uncertainty)
 - [Deep Learning Based 3D Object Detection for Automotive Radar and Camera](https://www.astyx.com/fileadmin/redakteur/dokumente/Deep_Learning_Based_3D_Object_Detection_for_Automotive_Radar_and_Camera.PDF) (Astyx)
 - [End-to-end Lane Detection through Differentiable Least-Squares Fitting](https://arxiv.org/abs/1902.00293) <kbd>ICCV 2019</kbd>
-- [Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) (Kaiming He)
 - [Frustum ConvNet: Sliding Frustums to Aggregate Local Point-Wise Features for Amodal 3D Object Detection](https://arxiv.org/abs/1903.01864) <kbd>IROS 2019</kbd>
 - [Dropout Sampling for Robust Object Detection in Open-Set Conditions](https://arxiv.org/abs/1710.06677) <kbd>ICRA 2018</kbd> (Niko Sünderhauf)
 - [Evaluating Merging Strategies for Sampling-based Uncertainty Techniques in Object Detection](https://arxiv.org/abs/1809.06006) <kbd>ICRA 2019</kbd> (Niko Sünderhauf)
