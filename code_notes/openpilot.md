@@ -8,6 +8,7 @@ tl;dr: Open sourced autonomous driving software stack from comma.ai.
 - [Decoding comma.ai/openpilot: the driving model](https://medium.com/@chengyao.shen/decoding-comma-ai-openpilot-the-driving-model-a1ad3b4a3612)
 - [Unhack Openpilot](https://github.com/peter-popov/unhack-openpilot)
 - [A tour through OpenPilot](https://medium.com/@comma_ai/a-tour-through-openpilot-a6589a801ed0)
+- [CARLA with openpilot](https://arxiv.org/pdf/1912.03618.pdf)
 
 
 #### Lane Lines
