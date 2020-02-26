@@ -21,6 +21,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [ROLO: recurrent YOLO](https://github.com/Guanghan/ROLO)
 - [point rend](https://github.com/facebookresearch/detectron2/tree/master/projects/PointRend/point_rend)
 - [Carla data export](https://github.com/Ozzyz/carla-data-export)
+- [openpilot](https://github.com/commaai/openpilot/blob/devel/selfdrive/modeld/models/driving.cc)
 
 
 ## 2020-02 (11)
