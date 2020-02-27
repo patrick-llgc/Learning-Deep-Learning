@@ -9,6 +9,8 @@ The paper is from FAIR and well written, as usual. Lots of experiments, and lots
 
 Recent Video training SOTA: [I3D](quo_vadis_i3d.md), [SlowFast](slowfast.md), [Non-Local](non_local_net.md)
 
+It draws inspiration from [FixRes](fixres.md) that it requires a finetuning stage at the end to match train/test descrepancy.
+
 
 #### Key ideas
 - Use variable mini-batch shapes with different spatial-temporal resolutions that are varied according to schedule. Significant speedup for diff models, diff datasets, diff training settings (w/ or w/o pretraining, 128 vs 1 GPU).

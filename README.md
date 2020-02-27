@@ -35,7 +35,8 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization](https://arxiv.org/abs/1505.07427) <kbd>ICCV 2015</kbd>
 - [PoseNet2: Modelling Uncertainty in Deep Learning for Camera Relocalization](https://arxiv.org/abs/1509.05909) <kbd>ICRA 2016</kbd>
 - [PoseNet3: Geometric Loss Functions for Camera Pose Regression with Deep Learning](https://arxiv.org/abs/1704.00390) <kbd>CVPR 2017</kbd>
-- [A Multigrid Method for Efficiently Training Video Models](https://arxiv.org/abs/1912.00998) [[Notes](paper_notes/multigrid_training.md)] <kbd>CVPR 2020</kbd>
+- [Multigrid: A Multigrid Method for Efficiently Training Video Models](https://arxiv.org/abs/1912.00998) [[Notes](paper_notes/multigrid_training.md)] <kbd>CVPR 2020</kbd> (FAIR)
+- [FixRes: Fixing the train-test resolution discrepancy](https://arxiv.org/abs/1906.06423) [[Notes](paper_notes/fixres.md)] <kbd>NIPS 2019</kbd> (FAIR)
 - [VirtualCam: Single-Stage Monocular 3D Object Detection with Virtual Cameras](https://arxiv.org/abs/1912.08035) \[[Notes](paper_notes/virtual_cam.md)] (Mapillary, Mono3D)
 - [Learning Depth-Guided Convolutions for Monocular 3D Object Detection](https://arxiv.org/abs/1912.04799) (Mono3D)
 - [RefinedMPL: Refined Monocular PseudoLiDAR for 3D Object Detection in Autonomous Driving](https://arxiv.org/abs/1911.09712) (mono3D, Huawei)
