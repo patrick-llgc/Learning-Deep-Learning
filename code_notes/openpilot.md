@@ -45,3 +45,7 @@ tl;dr: Open sourced autonomous driving software stack from comma.ai.
 	- PoseNet Model started appearing in `models` folder starting v0.5.9.
 	- PoseNet start publish starting v0.7.1. [code](https://github.com/commaai/openpilot/blob/v0.7.1/selfdrive/modeld/models/driving.cc#L252)
 	- Supercombo model is also released in v0.7.1. [twitter](https://twitter.com/comma_ai/status/1219752361800790016?s=20)
+	- **TODO** This recovers relative pose. How to recover absolute pose?
+- DL related papers:
+	- [PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization](https://arxiv.org/abs/1505.07427) (ICCV 2015) The original PoseNet paper does camera **relocalization** and cannot adapt to new scenes.
+	- [On-line non-overlapping camera calibration net](https://arxiv.org/abs/2002.08005) (arxiv, 02/2020)
