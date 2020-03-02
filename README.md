@@ -23,30 +23,16 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Carla data export](https://github.com/Ozzyz/carla-data-export)
 - [openpilot](https://github.com/commaai/openpilot/blob/devel/selfdrive/modeld/models/driving.cc)
 
-
-## 2020-02 (11)
-- [Associative Embedding: End-to-End Learning for Joint Detection and Grouping](https://arxiv.org/abs/1611.05424) [[Notes](paper_notes/associative_embedding.md)] <kbd>NIPS 2017</kbd>
-- [Pixels to Graphs by Associative Embedding](https://arxiv.org/abs/1706.07365) [[Notes](paper_notes/pixels_to_graphs.md)] <kbd>NIPS 2017</kbd>
-- [Social LSTM: Human Trajectory Prediction in Crowded Spaces](http://cvgl.stanford.edu/papers/CVPR16_Social_LSTM.pdf) [[Notes](paper_notes/social_lstm.md)] <kbd>CVPR 2017</kbd> 
-- [Online Video Object Detection using Association LSTM](http://openaccess.thecvf.com/content_ICCV_2017/papers/Lu__Online_Video_ICCV_2017_paper.pdf) \[[Notes](paper_notes/association_lstm.md)] (single stage, recurrent)
-- [SuperPoint: Self-Supervised Interest Point Detection and Description](https://arxiv.org/abs/1712.07629) [[Notes](paper_notes/super_point.md)] <kbd>CVPR 2018</kbd> (channel-to-pixel, deep SLAM, Magic Leap)
+## 2020-03 (0)
 - [Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network](https://arxiv.org/abs/1609.05158) <kbd>CVPR 2016</kbd> (channel-to-pixel)
-- [PointRend: Image Segmentation as Rendering](https://arxiv.org/abs/1912.08193) [[Notes](paper_notes/pointrend.md)] \(FAIR)
 - [PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization](https://arxiv.org/abs/1505.07427) <kbd>ICCV 2015</kbd>
 - [PoseNet2: Modelling Uncertainty in Deep Learning for Camera Relocalization](https://arxiv.org/abs/1509.05909) <kbd>ICRA 2016</kbd>
 - [PoseNet3: Geometric Loss Functions for Camera Pose Regression with Deep Learning](https://arxiv.org/abs/1704.00390) <kbd>CVPR 2017</kbd>
-- [GhostNet: More Features from Cheap Operations](https://arxiv.org/abs/1911.11907) [[Notes](paper_notes/ghostnet.md)] <kbd>CVPR 2020</kbd>
-- [Multigrid: A Multigrid Method for Efficiently Training Video Models](https://arxiv.org/abs/1912.00998) [[Notes](paper_notes/multigrid_training.md)] <kbd>CVPR 2020</kbd> (FAIR)
-- [FixRes: Fixing the train-test resolution discrepancy](https://arxiv.org/abs/1906.06423) [[Notes](paper_notes/fixres.md)] <kbd>NIPS 2019</kbd> (FAIR)
-- [VirtualCam: Single-Stage Monocular 3D Object Detection with Virtual Cameras](https://arxiv.org/abs/1912.08035) \[[Notes](paper_notes/virtual_cam.md)] (Mapillary, Mono3D)
 - [Learning Depth-Guided Convolutions for Monocular 3D Object Detection](https://arxiv.org/abs/1912.04799) (Mono3D)
 - [RefinedMPL: Refined Monocular PseudoLiDAR for 3D Object Detection in Autonomous Driving](https://arxiv.org/abs/1911.09712) (mono3D, Huawei)
-- [Amodal Completion and Size Constancy in Natural Scenes](https://arxiv.org/abs/1509.08147) [[Notes](paper_notes/amodal_completion.md)] <kbd>ICCV 2015</kbd> (Amodal completion)
 - [MoCo: Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) \[[Notes](paper_notes/moco.md)] (Kaiming He)
 - [Unsupervised Feature Learning via Non-Parametric Instance-level Discrimination](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0801.pdf) <kbd>CVPR 2018 spotlight</kbd> (Stella Yu)
 - [Rethinking ImageNet Pre-training](https://arxiv.org/abs/1811.08883) (Kaiming He)
-
-
 - [Render for CNN: Viewpoint Estimation in Images Using CNNs Trained with Rendered 3D Model Views](https://arxiv.org/abs/1505.05641) <kbd>ICCV 2015 Oral</kbd>
 - [Towards High Performance Video Object Detection](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhu_Towards_High_Performance_CVPR_2018_paper.pdf) [[Notes](paper_notes/high_performance_video_od.md)] <kbd>CVPR 2018</kbd>
 - [Towards High Performance Video Object Detection for Mobiles](https://arxiv.org/abs/1804.05830) [[Notes](paper_notes/high_performance_video_od_mobile.md)]
@@ -77,7 +63,6 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Learn to Combine Modalities in Multimodal Deep Learning](https://arxiv.org/abs/1805.11730) (sensor fusion, general DL)
 - [PointRNN: Point Recurrent Neural Network for Moving Point Cloud Processing](https://arxiv.org/abs/1910.08287)
 - [Using panoramic videos for multi-person localization and tracking in a 3D panoramic coordinate](https://arxiv.org/abs/1911.10535)
-- [PoseNet: Geometric Loss Functions for Camera Pose Regression with Deep Learning](https://arxiv.org/abs/1704.00390) <kbd>CVPR 2017</kbd>
 - [UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction](https://arxiv.org/abs/1802.03426) [[Notes](paper_notes/umap.md)] (dimension reduction, better than t-SNE)
 - [Deep Cuboid Detection: Beyond 2D Bounding Boxes](https://arxiv.org/abs/1611.10010) (Magic Leap)
 - [Viewpoints and Keypoints](https://arxiv.org/abs/1411.6067) (Malik)
@@ -88,6 +73,19 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Virtual KITTI 2](https://arxiv.org/abs/2001.10773)
 - [Deep Supervision with Shape Concepts for Occlusion-Aware 3D Object Parsing](https://arxiv.org/abs/1612.02699) <kbd>CVPR 2017</kbd>
 - [VPGNet: Vanishing Point Guided Network for Lane and Road Marking Detection and Recognition](https://arxiv.org/abs/1710.06288) <kbd>ICCV 2017</kbd>
+
+## 2020-02 (11)
+- [Associative Embedding: End-to-End Learning for Joint Detection and Grouping](https://arxiv.org/abs/1611.05424) [[Notes](paper_notes/associative_embedding.md)] <kbd>NIPS 2017</kbd>
+- [Pixels to Graphs by Associative Embedding](https://arxiv.org/abs/1706.07365) [[Notes](paper_notes/pixels_to_graphs.md)] <kbd>NIPS 2017</kbd>
+- [Social LSTM: Human Trajectory Prediction in Crowded Spaces](http://cvgl.stanford.edu/papers/CVPR16_Social_LSTM.pdf) [[Notes](paper_notes/social_lstm.md)] <kbd>CVPR 2017</kbd> 
+- [Online Video Object Detection using Association LSTM](http://openaccess.thecvf.com/content_ICCV_2017/papers/Lu__Online_Video_ICCV_2017_paper.pdf) \[[Notes](paper_notes/association_lstm.md)] (single stage, recurrent)
+- [SuperPoint: Self-Supervised Interest Point Detection and Description](https://arxiv.org/abs/1712.07629) [[Notes](paper_notes/super_point.md)] <kbd>CVPR 2018</kbd> (channel-to-pixel, deep SLAM, Magic Leap)
+- [PointRend: Image Segmentation as Rendering](https://arxiv.org/abs/1912.08193) [[Notes](paper_notes/pointrend.md)] \(FAIR)
+- [GhostNet: More Features from Cheap Operations](https://arxiv.org/abs/1911.11907) [[Notes](paper_notes/ghostnet.md)] <kbd>CVPR 2020</kbd>
+- [Multigrid: A Multigrid Method for Efficiently Training Video Models](https://arxiv.org/abs/1912.00998) [[Notes](paper_notes/multigrid_training.md)] <kbd>CVPR 2020</kbd> (FAIR)
+- [FixRes: Fixing the train-test resolution discrepancy](https://arxiv.org/abs/1906.06423) [[Notes](paper_notes/fixres.md)] <kbd>NIPS 2019</kbd> (FAIR)
+- [VirtualCam: Single-Stage Monocular 3D Object Detection with Virtual Cameras](https://arxiv.org/abs/1912.08035) \[[Notes](paper_notes/virtual_cam.md)] (Mapillary, Mono3D)
+- [Amodal Completion and Size Constancy in Natural Scenes](https://arxiv.org/abs/1509.08147) [[Notes](paper_notes/amodal_completion.md)] <kbd>ICCV 2015</kbd> (Amodal completion)
 
 ## 2020-01 (19)
 - [Double Descent: Reconciling modern machine learning practice and the bias-variance trade-of](https://arxiv.org/abs/1812.11118) [[Notes](paper_notes/double_descent.md)] <kbd>PNAS 2019</kbd>
