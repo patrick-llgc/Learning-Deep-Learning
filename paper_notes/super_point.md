@@ -17,13 +17,15 @@ The above three steps largely summarizes the main idea of this paper:
 - Homographic Adaptation: TTA on real images
 - SuperPoint: MagicPoint with descriptors trained with image pairs undergoing known homographic transformation. The descriptor is used for image matching tasks.
 
+The design of catch-all channel dustbin to recalibrate softmax heatmap is interesting, and both [SuperPoint](super_point.md) and [VPGNet](vpgnet.md) used the same trick.
+
 From the point that the keypoint detection and representation are shared across two tasks, SuperPoint is similar to [associative embedding](associative_embedding.md).
  
 #### Key ideas
 - Detecting human body keypoints is semantically well defined, but detecting salient points in an image is semantically ill-defined. Hard to manually label these points.
 - Architecture:
 	- VGG style backbone, downsample by 8x
-	- Keypoint detection branch has 8x8+1=65 channels. The additional channel is a "no-interest point" **dustbin**. It is helpful to recalibrate the keypoint heatmap. The whole flow goes like: 65 ch --> Softmax --> drop dustbin channel --> 64 ch --> reshape to 8x upsampled image. 
+	- Keypoint detection branch has 8x8+1=65 channels. The additional channel is a "no-interest point" catch-all **dustbin**. It is helpful to recalibrate the keypoint heatmap. The whole flow goes like: 65 ch --> Softmax --> drop dustbin channel --> 64 ch --> reshape to 8x upsampled image. 
 	- Descriptor: 256-dim vector for 8x8 downsmpled feature map. Bi-cubic interpolation and then L2 normed. Semi-dense descriptor saves training memory and keeps run time tractable.
 - Loss function: 
 	- point loss: pixel wise cross entropy on original scale
