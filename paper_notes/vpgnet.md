@@ -4,7 +4,7 @@ _March 2020_
 
 tl;dr: Use VP to guide lane and RSM (road surface marking) detection under adverse weather condition.
 
-The design of catch-all channel dustbin to recalibrate softmax heatmap is interesting, and both [SuperPoint](super_point.md) and [VPGNet](vpgnet.md) used the same trick.
+The design of catch-all channel dustbin/absence channel to recalibrate softmax heatmap is interesting, and both [SuperPoint](super_point.md) and [VPGNet](vpgnet.md) used the same trick.
 
 
 #### Overall impression

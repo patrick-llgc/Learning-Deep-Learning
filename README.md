@@ -23,9 +23,14 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Carla data export](https://github.com/Ozzyz/carla-data-export)
 - [openpilot](https://github.com/commaai/openpilot/blob/devel/selfdrive/modeld/models/driving.cc)
 
-## 2020-03 (0)
+## 2020-03 (2)
 - [VPGNet: Vanishing Point Guided Network for Lane and Road Marking Detection and Recognition](https://arxiv.org/abs/1710.06288) [[Notes](paper_notes/vpgnet.md)] <kbd>ICCV 2017</kbd>
+- [Which Tasks Should Be Learned Together in Multi-task Learning?](https://arxiv.org/abs/1905.07553) (Stanford)
+- [Multi-Task Learning as Multi-Objective Optimization](https://arxiv.org/abs/1810.04650) <kbd>NeurIPS 2018</kbd>
+- [Taskonomy: Disentangling Task Transfer Learning](https://arxiv.org/abs/1804.08328) <kbd>CVPR 2018</kbd>
 - [Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network](https://arxiv.org/abs/1609.05158) <kbd>CVPR 2016</kbd> (channel-to-pixel)
+- [UnsuperPoint: End-to-end Unsupervised Interest Point Detector and Descriptor](https://arxiv.org/abs/1907.04011) \[[Notes](paper_notes/unsuperpoint.md)] (superpoint)
+- [Self-Supervised 3D Keypoint Learning for Ego-motion Estimation](https://arxiv.org/abs/1912.03426) (Toyota, superpoint)
 - [PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization](https://arxiv.org/abs/1505.07427) <kbd>ICCV 2015</kbd>
 - [PoseNet2: Modelling Uncertainty in Deep Learning for Camera Relocalization](https://arxiv.org/abs/1509.05909) <kbd>ICRA 2016</kbd>
 - [PoseNet3: Geometric Loss Functions for Camera Pose Regression with Deep Learning](https://arxiv.org/abs/1704.00390) <kbd>CVPR 2017</kbd>
@@ -79,7 +84,7 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Pixels to Graphs by Associative Embedding](https://arxiv.org/abs/1706.07365) [[Notes](paper_notes/pixels_to_graphs.md)] <kbd>NIPS 2017</kbd>
 - [Social LSTM: Human Trajectory Prediction in Crowded Spaces](http://cvgl.stanford.edu/papers/CVPR16_Social_LSTM.pdf) [[Notes](paper_notes/social_lstm.md)] <kbd>CVPR 2017</kbd> 
 - [Online Video Object Detection using Association LSTM](http://openaccess.thecvf.com/content_ICCV_2017/papers/Lu__Online_Video_ICCV_2017_paper.pdf) \[[Notes](paper_notes/association_lstm.md)] (single stage, recurrent)
-- [SuperPoint: Self-Supervised Interest Point Detection and Description](https://arxiv.org/abs/1712.07629) [[Notes](paper_notes/super_point.md)] <kbd>CVPR 2018</kbd> (channel-to-pixel, deep SLAM, Magic Leap)
+- [SuperPoint: Self-Supervised Interest Point Detection and Description](https://arxiv.org/abs/1712.07629) [[Notes](paper_notes/superpoint.md)] <kbd>CVPR 2018</kbd> (channel-to-pixel, deep SLAM, Magic Leap)
 - [PointRend: Image Segmentation as Rendering](https://arxiv.org/abs/1912.08193) [[Notes](paper_notes/pointrend.md)] \(FAIR)
 - [GhostNet: More Features from Cheap Operations](https://arxiv.org/abs/1911.11907) [[Notes](paper_notes/ghostnet.md)] <kbd>CVPR 2020</kbd>
 - [Multigrid: A Multigrid Method for Efficiently Training Video Models](https://arxiv.org/abs/1912.00998) [[Notes](paper_notes/multigrid_training.md)] <kbd>CVPR 2020</kbd> (FAIR)

@@ -20,13 +20,15 @@ The above three steps largely summarizes the main idea of this paper:
 The design of catch-all channel dustbin to recalibrate softmax heatmap is interesting, and both [SuperPoint](super_point.md) and [VPGNet](vpgnet.md) used the same trick.
 
 From the point that the keypoint detection and representation are shared across two tasks, SuperPoint is similar to [associative embedding](associative_embedding.md).
+
+This paper also inspired [unsuperpoint](unsuperpoint.md) which does not require pseudo-GT to train.
  
 #### Key ideas
 - Detecting human body keypoints is semantically well defined, but detecting salient points in an image is semantically ill-defined. Hard to manually label these points.
 - Architecture:
 	- VGG style backbone, downsample by 8x
 	- Keypoint detection branch has 8x8+1=65 channels. The additional channel is a "no-interest point" catch-all **dustbin**. It is helpful to recalibrate the keypoint heatmap. The whole flow goes like: 65 ch --> Softmax --> drop dustbin channel --> 64 ch --> reshape to 8x upsampled image. 
-	- Descriptor: 256-dim vector for 8x8 downsmpled feature map. Bi-cubic interpolation and then L2 normed. Semi-dense descriptor saves training memory and keeps run time tractable.
+	- Descriptor: 256-dim vector for 8x8 downsmpled feature map. Bi-cubic interpolation (to accommodate subpixel locations) and then L2 normed. Semi-dense descriptor saves training memory and keeps run time tractable. --> This is different from [unsuperpoint](unsuperpoint.md) which include interpolation inside the network.
 - Loss function: 
 	- point loss: pixel wise cross entropy on original scale
 	- descriptor loss: hinge loss with positive margin 1 and negative margin 0.2 (zero loss as long as cosine similarity is below 0.2 for non-matching pairs and as high as possible for matching pairs) --> there are O(n^2) terms in this loss! 
