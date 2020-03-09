@@ -23,7 +23,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Carla data export](https://github.com/Ozzyz/carla-data-export)
 - [openpilot](https://github.com/commaai/openpilot/blob/devel/selfdrive/modeld/models/driving.cc)
 
-## 2020-03 (2)
+## 2020-03 (4)
 - [VPGNet: Vanishing Point Guided Network for Lane and Road Marking Detection and Recognition](https://arxiv.org/abs/1710.06288) [[Notes](paper_notes/vpgnet.md)] <kbd>ICCV 2017</kbd>
 - [Which Tasks Should Be Learned Together in Multi-task Learning?](https://arxiv.org/abs/1905.07553) (Stanford)
 - [Multi-Task Learning as Multi-Objective Optimization](https://arxiv.org/abs/1810.04650) <kbd>NeurIPS 2018</kbd>
@@ -202,7 +202,7 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [deep-sort: Simple Online and Realtime Tracking with a Deep Association Metric](https://arxiv.org/abs/1703.07402) [[Notes](paper_notes/deep_sort.md)]
 - [MT-CNN: Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks](https://kpzhang93.github.io/MTCNN_face_detection_alignment/) [[Notes](paper_notes/mtcnn.md)] <kbd>SPL 2016</kbd> (real time, facial landmark)
 - [RetinaFace: Single-stage Dense Face Localisation in the Wild](https://arxiv.org/abs/1905.00641) \[[Notes](paper_notes/retina_face.md)] (joint object and landmark detection)
-- [Unsupervised Scale-consistent Depth and Ego-motion Learning from Monocular Video](https://arxiv.org/abs/1908.10553) [[Notes](paper_notes/sc_sfm_learner.md)] <kbd>NIPS 2019</kbd>
+- [SC-SfM-Learner: Unsupervised Scale-consistent Depth and Ego-motion Learning from Monocular Video](https://arxiv.org/abs/1908.10553) [[Notes](paper_notes/sc_sfm_learner.md)] <kbd>NIPS 2019</kbd>
 - [SiamMask: Fast Online Object Tracking and Segmentation: A Unifying Approach](https://arxiv.org/abs/1812.05050) <kbd>CVPR 2019</kbd> (tracking, segmentation, label propagation)
 - [Review of Kálmán Filter](https://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/) (from Tim Babb, Pixar Animation) [[Notes](paper_notes/kalman_filter.md)]
 - [R-FCN: Object Detection via Region-based Fully Convolutional Networks](https://arxiv.org/abs/1605.06409) [[Notes](paper_notes/rfcn.md)] <kbd>NIPS 2016</kbd>

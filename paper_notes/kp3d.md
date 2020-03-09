@@ -5,7 +5,9 @@ _March 2020_
 tl;dr: Predict keypoints and depth from videos simultaneously and in a unsupervised fashion.
 
 #### Overall impression
-This paper is based on two streams of unsupervised research based on video. The first is depth estimation starting from [sfm Learner](sfm_learner.md) until [depth in the wild](mono_depth_video_in_the_wild.md), and the second is the self-supervised keypoint learning starting from [superpoint](superpoint.md), [unsuperpoint](unsuperpoint.md) and [unsuperpoint with outlier rejection](kp2d.md).
+This paper is based on two streams of unsupervised research based on video. The first is depth estimation starting from [sfm Learner](sfm_learner.md), [depth in the wild](mono_depth_video_in_the_wild.md) and [scale-consistent sfm Learner](sc_sfm_learner.md), and the second is the self-supervised keypoint learning starting from [superpoint](superpoint.md), [unsuperpoint](unsuperpoint.md) and [unsuperpoint with outlier rejection](kp2d.md).
+
+The two major enablers of this research is [scale-consistent sfm Learner](sc_sfm_learner.md) and [unsuperpoint](unsuperpoint.md).
 
 The main idea seems to be using sparse matched keypoint pairs to perform more accurate (relative) pose estimation. Previously the ego motion is directly regressed from This leads to much better ego motion estimation.
 
@@ -27,5 +29,5 @@ The main idea seems to be using sparse matched keypoint pairs to perform more ac
 	- Changing backbone from VGG in [KP2D](kp2d) to ResNet18 in [KP3D](kp3d.md) improves performance.
 
 #### Notes
-- Questions and notes on how to improve/revise the current work  
+
 

@@ -9,6 +9,10 @@ One way to do unsupervised learning is through stereo pairs, and the other way t
 
 The idea is similar to the cycle consistency of cycleGAN as well.
 
+The performance of [sfm-learner](sfm_learner.md) is actually not that good on VO. Scale and rotation drift is large. See [scale consistent sfm-learner](sc_sfm_learner.md) for better VO performance.
+![](https://pic2.zhimg.com/80/v2-7425fdf248804f0c900d455ab0de5d51_1440w.jpg)
+
+
 #### Key ideas
 - Assumption:
 	- No occlusion/dis-occlusion between neighboring frame
