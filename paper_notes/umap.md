@@ -17,3 +17,4 @@ Describe the overall impression of the paper.
 - [video](https://www.youtube.com/watch?time_continue=1557&v=YPJQydzTLwQ&feature=emb_title)
 - [UMAP vs t-SNE](https://jlmelville.github.io/uwot/umap-for-tsne.html)
 - [How UMAP works](https://towardsdatascience.com/how-exactly-umap-works-13e3040e1668)
+- [3D animation: Understanding UMAP](https://pair-code.github.io/understanding-umap/)
