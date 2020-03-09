@@ -19,12 +19,12 @@ The method achieves SOTA **repeatability** and good performance in other metrics
 	- Each keypoint in input image $p_i \in \mathbf{p_s}$ in source image has descriptor $f_i$. Among all warped points $p_i^* \in \mathbf{p_t^*}$ in target image, they have corresponding descriptors $f_i^*$. The positive example $f_{i, +}^*$ is sampled at the warped position, and the negative example $f_{i, -}^*$ is the closest/hardest negative point. 
 	- $L_{desc} = \sum_i \max(0, |f_i - f_{i, +}^* |_2 - |f_i - f_{i, -}^*|_2 + m)$
 - IO-Net: use outlier rejection as auxiliary task during training only
-	- Input is 5 numbers: $p_s$, $p_t^*$, $|f_s - f_t^*|_2$, and output is whether the point-pair is an "inlier" set. 
+	- Input is 5 numbers: $p_s$, $p_t^*$, $|f_s - f_t^*|_2$, and output is whether the point-pair is an "inlier" set. --> Note that the prediction is based on the source and mapped target image, and the corresponding features at those locations.
 	- IO-Net loss compares the prediction of IO-Net and the point-pair based on point-pair keypoint location.
 	- Only keypoints with 300 keypoint pairs with the lowest scores are used for training
 
 #### Technical details
-- Summary of technical details
+- Changing backbone from VGG in [KP2D](kp2d) to ResNet18 in [KP3D](kp3d.md) improves performance.
 
 #### Notes
 - Triplet loss is a relatively new concept, only proposed in [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/abs/1503.03832) <kbd>CVPR 2015</kbd>.

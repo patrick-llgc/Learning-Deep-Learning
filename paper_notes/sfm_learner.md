@@ -16,6 +16,7 @@ The idea is similar to the cycle consistency of cycleGAN as well.
 	- Lambertian (pixel value is similar regardless of angle)
 - The scene is assumed to be static. To tackle with moving objects, explainability map is used. 
 - Use a single frame to estimate depth, with DispNet architecture (similar to Unet).
+- Use two neighboring frames to estimate the relative pose change (R|t) between the frames. This is sometimes referred to as **PoseNet**, to be differed from Alex Kendall's [PoseNet](posenet.md).
 - Use all but one frames to estimate the pose and explainability mask, with the same U-Net architecture. 
 - Loss: 
 	- View synthesis loss is the difference between the synthesized view and the target view, which incorporates the Depth and Pose in the transformation. This loss is modulated by E, explainability mask.
