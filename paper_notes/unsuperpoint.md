@@ -9,6 +9,8 @@ Most previous DL-based interest point detection works focuses on the descriptor 
 
 This paper is inspired by [SuperPoint](superpoint.md). However superpoint requires pseudo-gt generated from synthetic images followed by homographic adapttion (extensive, ~100 TTA to increase recall). Interesting/salient points emerges naturally after training.
 
+This paper has tons of losses! Balancing them is quite a task.
+
 #### Key ideas
 - Multitask training
 	- coarse score heatmap (x8 downsampled): no need to do NMS, and encourages interest points to be more homogenously distributed
@@ -19,7 +21,9 @@ This paper is inspired by [SuperPoint](superpoint.md). However superpoint requir
 	- Direct regression instead of channel wise classification for subpixel location prediction
 	- Interpolation happens inside network. Superpoint does interpolation after inference
 - Training using Siamese network, using known homography transformation to regularize training
-- Loss
+- Loss --> Tons of losses!
+	- Location loss for point-pair
+	- Score loss for point-pair
 	- unsupervised loss: match may not be injective. Iterate through all pairs and find close enough pairs. Position loss + score loss + matching loss. 
 		- the matching loss is $\frac{s_k^a + s_k^b}{2} (d_k - \bar{d})$. When $d < \bar{d}$, the score has to be set higher. This lets the network to output high scores for points which the network believes can be retrieved reliably under the homographic transformation.
 	- **uniform distribution** loss: encourage distribution inside [0, 1] to be uniform. 
