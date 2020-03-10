@@ -20,7 +20,10 @@ The main idea seems to be using sparse matched keypoint pairs to perform more ac
 - In the whole pipeline, calculating $p_t^*$ is the hardest. In Homography Adaptation $p_t^*$ can be calculated trivially, but in multi-view adaptation this is hard and need to project to 3D via $\pi^{-1}(R|t)$.
 - Instead of using CNN directly for pose estimation (PoseNet in [sfm Learner](sfm_learner.md)), KP3D uses matched keypoint to do pose estimation, and this could be the key to the better performance ([superpoint](superpoint.md) and [unsuperpoint](unsuperpoint.md) are known to yield very good HA, homography accuracy).
 - Added depth consistency, as the depth is scale-ambiguous. It is critical for ego-motion estimation. A sparse loss between $p_t$ and $p_t^{MV}$ is used. 
-
+- Pose estimation from matched 2D points:
+	- Conventional method uses epipolar geometry constraint to get R and t
+	- As we have estimated Depth, we can do Epnp. However this is not differentiable and thus can only be used as an initial guess
+	- We can roughly use transformed 3d position (with initial guess) of keypoints to get 3D location of points in new camera coordinate. Then use the SVD based method ([Kabsch algorithm](https://en.wikipedia.org/wiki/Kabsch_algorithm) to get a closed form solution. This is one special case of the ICP algorithm. 
 
 #### Technical details
 - Training process:
@@ -29,5 +32,9 @@ The main idea seems to be using sparse matched keypoint pairs to perform more ac
 	- Changing backbone from VGG in [KP2D](kp2d) to ResNet18 in [KP3D](kp3d.md) improves performance.
 
 #### Notes
+- Both Kabsch algorithm and ICP is solution to the problem of [Orthogonal Procrustes problem 正交普鲁克问题](https://en.wikipedia.org/wiki/Iterative_closest_point). 
+- 普洛克路斯忒斯 (Procrustes) 是希臘神話中海神波塞頓 (Poseidon) 的兒子。他在雅典到埃萊夫西納 (Eleusis) 的神聖之路 (The Sacred Way) 上開設一間黑店，向路過的旅人謊稱店內設有一張適合所有人的鐵床。旅客投宿時，普洛克路斯忒斯將身高者截斷雙足，身矮者則強行拉長，使之與床的長短相同。從來沒有一個人的身長與鐵床的長度相同而免於凌遲，因為他暗地裡準備了兩張床[1]。後人於是以 Procrustean 表示「削足適履，殺頭便冠」，意思是將不同的長度、大小或屬性安裝到一個任意的標準。
+- 正交 Procrustes 问题：给定两个mxn阶实矩阵A和B，求一个nxn阶实正交矩阵$Q^T=Q^{-1}$使得  $|B-AQ|_F$ 具有最小值，其中F是 Frobenius 范数。
+正交 Procrustes 问题是一个最小平方矩阵近似问题，可以这麽解读：A 是旅人，B 是铁床，正交 Procrustean 变换 (包含旋转和镜射) Q 即为施予旅人的肢体酷刑。我们的问题是求出一酷刑使旅人变形后的身长与铁床的长度最为吻合。
 
 

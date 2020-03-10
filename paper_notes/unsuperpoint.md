@@ -24,7 +24,7 @@ This paper has tons of losses! Balancing them is quite a task.
 - Loss --> Tons of losses!
 	- Location loss for point-pair
 	- Score loss for point-pair
-	- unsupervised loss: match may not be injective. Iterate through all pairs and find close enough pairs. Position loss + score loss + matching loss. 
+	- unsupervised loss: match may not be injective (find nearest point in B for each point in A. One point in B may have multiple correspondence in A. **Not Hungarian Matching.**). Iterate through all pairs and find close enough pairs. Position loss + score loss + matching loss. 
 		- the matching loss is $\frac{s_k^a + s_k^b}{2} (d_k - \bar{d})$. When $d < \bar{d}$, the score has to be set higher. This lets the network to output high scores for points which the network believes can be retrieved reliably under the homographic transformation.
 	- **uniform distribution** loss: encourage distribution inside [0, 1] to be uniform. 
 		- Sorting function is differentiable.
