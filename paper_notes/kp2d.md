@@ -30,4 +30,4 @@ The method achieves SOTA **repeatability** and good performance in other metrics
 - Triplet loss is a relatively new concept, only proposed in [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/abs/1503.03832) <kbd>CVPR 2015</kbd>.
 - Contrastive loss is an older idea. It comes from [Dimensionality Reduction by Learning an Invariant Mapping](http://yann.lecun.com/exdb/publis/pdf/hadsell-chopra-lecun-06.pdf) <kbd>CVPR 2006</kbd>.
 - Contrastive loss is two-stream, and Triplet loss is three-stream. [source](http://slazebni.cs.illinois.edu/spring17/lec09_similarity.pdf)
-- Neural Ransac proposes to classify whether each pair is an inlier set. This can be useful for radar-camera deep association.
+- Neural Ransac proposes to classify whether each pair is an inlier set, heavily inspired by [NG-Ransac](ng_ransac.md). This can be useful for radar-camera deep association.
