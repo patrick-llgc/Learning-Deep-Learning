@@ -2,7 +2,7 @@
 
 _March 2020_
 
-tl;dr: Summary of the main idea.
+tl;dr: Improvement of [unsuperpoint](unsuperpoint.md) with better designed loss and one auxiliary outlier detection task.
 
 #### Overall impression
 This paper is inspired by [unsuperpoint](unsuperpoint.md). However it implemented multiple improvement which boosted the performance quite a bit.

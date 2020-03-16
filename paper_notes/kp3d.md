@@ -9,12 +9,12 @@ This paper is based on two streams of unsupervised research based on video. The 
 
 The two major enablers of this research is [scale-consistent sfm Learner](sc_sfm_learner.md) and [unsuperpoint](unsuperpoint.md).
 
-The main idea seems to be using sparse matched keypoint pairs to perform more accurate (relative) pose estimation. Previously the ego motion is directly regressed from This leads to much better ego motion estimation.
+The main idea seems to be using sparse matched keypoint pairs to perform more accurate (relative) pose estimation. Previously the ego motion is directly regressed from two stacked neighboring images. This leads to much better ego motion estimation.
 
 #### Key ideas
 - Some notation convention:
 	- $p_t \in I_t$ keypoints in target image and $p_s \in I_s$ keypoints in source image
-	- $p_t^{MV} \in I_s$ matched keypoints of $p_t$ in source image based on descriptor space. Based on the pair of $p_t \leftrightarrow p_t^{MV}$ we can compute the associated ego motion $x_{t \rightarrow s}$. Descriptor loss is on this. 
+	- $p_t^{MV} \in I_s$ matched keypoints of $p_t$ in source image based on descriptor space. Based on the pair of $p_t \leftrightarrow p_t^{MV}$ we can compute the associated ego motion $x_{t \rightarrow s}$. Descriptor loss is based on this. 
 	- $p_t^* \in I_s$ warped $p_t$ in source image ($\hat{p_t}$ in KP2D ). Sparse keypoint location loss is between $p_t^{MV}$ and $p_t^*$.
 	- Once $x_{t \rightarrow s}$ is known, dense Photometric loss and sparse keypoint location loss are formulated.
 - In the whole pipeline, calculating $p_t^*$ is the hardest. In Homography Adaptation $p_t^*$ can be calculated trivially, but in multi-view adaptation this is hard and need to project to 3D via $\pi^{-1}(R|t)$.
