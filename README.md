@@ -25,7 +25,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 
 ## 2020-03 (4)
 - [VPGNet: Vanishing Point Guided Network for Lane and Road Marking Detection and Recognition](https://arxiv.org/abs/1710.06288) [[Notes](paper_notes/vpgnet.md)] <kbd>ICCV 2017</kbd>
-- [Which Tasks Should Be Learned Together in Multi-task Learning?](https://arxiv.org/abs/1905.07553) (Stanford)
+- [Which Tasks Should Be Learned Together in Multi-task Learning?](https://arxiv.org/abs/1905.07553) [[Notes](paper_notes/task_grouping.md)] (Stanford)
 - [Multi-Task Learning as Multi-Objective Optimization](https://arxiv.org/abs/1810.04650) <kbd>NeurIPS 2018</kbd>
 - [Taskonomy: Disentangling Task Transfer Learning](https://arxiv.org/abs/1804.08328) <kbd>CVPR 2018</kbd>
 - [Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network](https://arxiv.org/abs/1609.05158) <kbd>CVPR 2016</kbd> (channel-to-pixel)
