@@ -2,10 +2,10 @@
 
 _March 2020_
 
-tl;dr: Grouping tasks together may benefit some tasks but hurt others. This paper explores the optimal grouping strategy.
+tl;dr: Answers this question: which tasks are better trained with others?
 
 #### Overall impression
-The paper uses the dataset from CVPR 2018 best paper taskonomy, which studies the task transferability. Task grouping studies the multi-task learnability. The paper founds that they correlate inversely. 
+The paper uses the dataset from CVPR 2018 best paper [taskonomy](taskonomy.md), which studies the task transferability. Task grouping studies the multi-task learnability. The paper founds that they correlate inversely. 
 
 The goal of multitask learning is two-fold.
 

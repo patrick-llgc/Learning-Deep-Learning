@@ -27,7 +27,8 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [VPGNet: Vanishing Point Guided Network for Lane and Road Marking Detection and Recognition](https://arxiv.org/abs/1710.06288) [[Notes](paper_notes/vpgnet.md)] <kbd>ICCV 2017</kbd>
 - [Which Tasks Should Be Learned Together in Multi-task Learning?](https://arxiv.org/abs/1905.07553) [[Notes](paper_notes/task_grouping.md)] (Stanford)
 - [Multi-Task Learning as Multi-Objective Optimization](https://arxiv.org/abs/1810.04650) <kbd>NeurIPS 2018</kbd>
-- [Taskonomy: Disentangling Task Transfer Learning](https://arxiv.org/abs/1804.08328) <kbd>CVPR 2018</kbd>
+- [Taskonomy: Disentangling Task Transfer Learning](https://arxiv.org/abs/1804.08328) [[Notes](paper_notes/taskonomy.md)] <kbd>CVPR 2018</kbd>
+- [Rethinking ImageNet Pre-training](https://arxiv.org/abs/1811.08883) [[Notes](paper_notes/rethinking_pretraining.md)] (Kaiming He)
 - [Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network](https://arxiv.org/abs/1609.05158) <kbd>CVPR 2016</kbd> (channel-to-pixel)
 - [UnsuperPoint: End-to-end Unsupervised Interest Point Detector and Descriptor](https://arxiv.org/abs/1907.04011) \[[Notes](paper_notes/unsuperpoint.md)] (superpoint)
 - [KP2D: Neural Outlier Rejection for Self-Supervised Keypoint Learning](https://arxiv.org/abs/1912.10615) [[Notes](paper_notes/kp2d.md)] <kbd>ICLR 2020</kbd> (pointNet)
@@ -41,7 +42,6 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [RefinedMPL: Refined Monocular PseudoLiDAR for 3D Object Detection in Autonomous Driving](https://arxiv.org/abs/1911.09712) (mono3D, Huawei)
 - [MoCo: Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) \[[Notes](paper_notes/moco.md)] (Kaiming He)
 - [Unsupervised Feature Learning via Non-Parametric Instance-level Discrimination](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0801.pdf) <kbd>CVPR 2018 spotlight</kbd> (Stella Yu)
-- [Rethinking ImageNet Pre-training](https://arxiv.org/abs/1811.08883) (Kaiming He)
 - [Render for CNN: Viewpoint Estimation in Images Using CNNs Trained with Rendered 3D Model Views](https://arxiv.org/abs/1505.05641) <kbd>ICCV 2015 Oral</kbd>
 - [Towards High Performance Video Object Detection](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhu_Towards_High_Performance_CVPR_2018_paper.pdf) [[Notes](paper_notes/high_performance_video_od.md)] <kbd>CVPR 2018</kbd>
 - [Towards High Performance Video Object Detection for Mobiles](https://arxiv.org/abs/1804.05830) [[Notes](paper_notes/high_performance_video_od_mobile.md)]
