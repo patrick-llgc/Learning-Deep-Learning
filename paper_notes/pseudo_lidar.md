@@ -15,6 +15,8 @@ The Uber ATG group also publishes several papers ([ContFuse](contfuse.md), [MMF]
 ![](../assets/images/foresee.png)
 
 
+In [refined Monocular PseudoLidar](refined_mpl.md), the authors sparsified the dense pseudo-lidar point cloud for faster processing, and gained accuracy as well.
+
 #### Key ideas
 - Use cheaper monocular or stereo image data to reconstruct expensive lidar data. It would be a good idea to have something to fall back onto in case of an outage.
 - The depth map from stereo images actually align really well with real lidar, but from mono images are not.

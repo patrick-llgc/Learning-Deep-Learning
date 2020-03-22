@@ -23,7 +23,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Carla data export](https://github.com/Ozzyz/carla-data-export)
 - [openpilot](https://github.com/commaai/openpilot/blob/devel/selfdrive/modeld/models/driving.cc)
 
-## 2020-03 (4)
+## 2020-03 (9)
 - [VPGNet: Vanishing Point Guided Network for Lane and Road Marking Detection and Recognition](https://arxiv.org/abs/1710.06288) [[Notes](paper_notes/vpgnet.md)] <kbd>ICCV 2017</kbd>
 - [Which Tasks Should Be Learned Together in Multi-task Learning?](https://arxiv.org/abs/1905.07553) [[Notes](paper_notes/task_grouping.md)] (Stanford)
 - [Multi-Task Learning as Multi-Objective Optimization](https://arxiv.org/abs/1810.04650) <kbd>NeurIPS 2018</kbd>
@@ -35,11 +35,17 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [KP3D: Self-Supervised 3D Keypoint Learning for Ego-motion Estimation](https://arxiv.org/abs/1912.03426) \[[Notes](paper_notes/kp3d.md)] (Toyota, superpoint)
 - [NG-RANSAC: Neural-Guided RANSAC: Learning Where to Sample Model Hypotheses](https://arxiv.org/abs/1905.04132) [[Notes](paper_notes/ng_ransac.md)] <kbd>ICCV 2019</kbd> (pointNet)
 - [Learning to Find Good Correspondences](https://arxiv.org/abs/1711.05971) [[Notes](paper_notes/learning_correspondence.md)] <kbd>CVPR 2018 Oral</kbd> (pointNet)
+- [Visual Odometry Revisited: What Should Be Learnt?](https://arxiv.org/abs/1909.09803) <kbd>ICRA 2020</kbd>
+- [DSP: Monocular 3D Object Detection with Decoupled Structured Polygon Estimation and Height-Guided Depth Estimation](https://arxiv.org/abs/2002.01619) [[Notes](paper_notes/dsp.md)] <kbd>AAAI 2020</kbd> (SenseTime)
+- [Robust Lane Detection from Continuous Driving Scenes Using Deep Neural Networks](https://arxiv.org/abs/1903.02193) (LLD, LSTM)
+- [3D-LaneNet: End-to-End 3D Multiple Lane Detection](http://openaccess.thecvf.com/content_ICCV_2019/papers/Garnett_3D-LaneNet_End-to-End_3D_Multiple_Lane_Detection_ICCV_2019_paper.pdf) <kbd>ICCV 2019</kbd>
+- [Semi-Local 3D Lane Detection and Uncertainty Estimation](https://arxiv.org/abs/2003.05257) (GM Israel)
+- [Gliding vertex on the horizontal bounding box for multi-oriented object detection](https://arxiv.org/abs/1911.09358)
 - [PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization](https://arxiv.org/abs/1505.07427) [[Notes](paper_notes/posenet.md)] <kbd>ICCV 2015</kbd>
 - [PoseNet2: Modelling Uncertainty in Deep Learning for Camera Relocalization](https://arxiv.org/abs/1509.05909) <kbd>ICRA 2016</kbd>
 - [PoseNet3: Geometric Loss Functions for Camera Pose Regression with Deep Learning](https://arxiv.org/abs/1704.00390) <kbd>CVPR 2017</kbd>
 - [Learning Depth-Guided Convolutions for Monocular 3D Object Detection](https://arxiv.org/abs/1912.04799) (Mono3D)
-- [RefinedMPL: Refined Monocular PseudoLiDAR for 3D Object Detection in Autonomous Driving](https://arxiv.org/abs/1911.09712) (mono3D, Huawei)
+- [RefinedMPL: Refined Monocular PseudoLiDAR for 3D Object Detection in Autonomous Driving](https://arxiv.org/abs/1911.09712) \[[Notes](paper_notes/refined_mpl.md)] (mono3D, Huawei)
 - [Unsupervised Feature Learning via Non-Parametric Instance-level Discrimination](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0801.pdf) <kbd>CVPR 2018 spotlight</kbd> (Stella Yu)
 - [Render for CNN: Viewpoint Estimation in Images Using CNNs Trained with Rendered 3D Model Views](https://arxiv.org/abs/1505.05641) <kbd>ICCV 2015 Oral</kbd>
 - [Towards High Performance Video Object Detection](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhu_Towards_High_Performance_CVPR_2018_paper.pdf) [[Notes](paper_notes/high_performance_video_od.md)] <kbd>CVPR 2018</kbd>
@@ -80,7 +86,6 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Towards Scene Understanding with Detailed 3D Object Representations](https://arxiv.org/abs/1411.5935) <kbd>IJCV 2014</kbd> (keypoint, 3D bbox annotation)
 - [Virtual KITTI 2](https://arxiv.org/abs/2001.10773)
 - [Deep Supervision with Shape Concepts for Occlusion-Aware 3D Object Parsing](https://arxiv.org/abs/1612.02699) <kbd>CVPR 2017</kbd>
-- [Monocular 3D Object Detection with Decoupled Structured Polygon Estimation and Height-Guided Depth Estimation](https://arxiv.org/abs/2002.01619) <kbd>AAAI 2020</kbd>
 
 ## 2020-02 (12)
 - [Associative Embedding: End-to-End Learning for Joint Detection and Grouping](https://arxiv.org/abs/1611.05424) [[Notes](paper_notes/associative_embedding.md)] <kbd>NIPS 2017</kbd>
@@ -175,7 +180,7 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [TLNet: Triangulation Learning Network: from Monocular to Stereo 3D Object Detection](https://arxiv.org/abs/1906.01193) [[Notes](paper_notes/tlnet.md)] <kbd>CVPR 2019</kbd>
 - [A Survey on 3D Object Detection Methods for Autonomous Driving Applications](http://wrap.warwick.ac.uk/114314/1/WRAP-survey-3D-object-detection-methods-autonomous-driving-applications-Arnold-2019.pdf) \[[Notes](paper_notes/3dod_review.md)] (Review) <kbd>TITS 2019</kbd>
 - [BEV-IPM: Deep Learning based Vehicle Position and Orientation Estimation via Inverse Perspective Mapping Image](https://ieeexplore.ieee.org/abstract/document/8814050) [[Notes](paper_notes/bev_od_ipm.md)] <kbd>IV 2019</kbd>
-- [ForeSeE: Task-Aware Monocular Depth Estimation for 3D Object Detection](https://arxiv.org/abs/1909.07701) \[[Notes](paper_notes/foresee_mono3dod.md)] (successor to pseudo-lidar) (mono 3DOD SOTA)
+- [ForeSeE: Task-Aware Monocular Depth Estimation for 3D Object Detection](https://arxiv.org/abs/1909.07701) \[[Notes](paper_notes/foresee_mono3dod.md)] <kbd>AAAI 2020 oral</kbd>(successor to pseudo-lidar) (mono 3DOD SOTA)
 - [Obj-dist: Learning Object-specific Distance from a Monocular Image](https://arxiv.org/abs/1909.04182) [[Notes](paper_notes/obj_dist_iccv2019.md)] <kbd>ICCV 2019</kbd> (xmotors.ai + NYU)
 - [DisNet: A novel method for distance estimation from monocular camera](https://project.inria.fr/ppniv18/files/2018/10/paper22.pdf) [[Notes](paper_notes/disnet.md)] <kbd>IROS 2018</kbd>
 - [BirdGAN: Learning 2D to 3D Lifting for Object Detection in 3D for Autonomous Vehicles](https://arxiv.org/abs/1904.08494) [[Notes](paper_notes/birdgan.md)] <kbd>IROS 2019</kbd> 

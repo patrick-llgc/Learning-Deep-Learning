@@ -11,6 +11,8 @@ The paper proposes a **disentangling transformation** to split the original comb
 
 The papar is further enhanced by [Virtual Cam](virtual_cam.md) to reach SOTA.
 
+[Decoupled structured polygon](dsp.md) formulated the problem of 3d monocular object detection as two decoupled tasks: 2d projection prediction and 1d depth prediction.
+
 #### Key ideas
 - Architecture: RetinaNet (FPN + Focal loss) + 2D sIoU loss + 3D corner loss.
 - Disentangling transformation of loss. This is only relevant when loss terms are entangles with multiple output of the network.
