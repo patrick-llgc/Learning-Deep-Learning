@@ -23,9 +23,9 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Carla data export](https://github.com/Ozzyz/carla-data-export)
 - [openpilot](https://github.com/commaai/openpilot/blob/devel/selfdrive/modeld/models/driving.cc)
 
-## 2020-03 (9)
+## 2020-03 (11)
 - [VPGNet: Vanishing Point Guided Network for Lane and Road Marking Detection and Recognition](https://arxiv.org/abs/1710.06288) [[Notes](paper_notes/vpgnet.md)] <kbd>ICCV 2017</kbd>
-- [Which Tasks Should Be Learned Together in Multi-task Learning?](https://arxiv.org/abs/1905.07553) [[Notes](paper_notes/task_grouping.md)] (Stanford)
+- [Which Tasks Should Be Learned Together in Multi-task Learning?](https://arxiv.org/abs/1905.07553) \[[Notes](paper_notes/task_grouping.md)] (Stanford)
 - [Multi-Task Learning as Multi-Objective Optimization](https://arxiv.org/abs/1810.04650) <kbd>NeurIPS 2018</kbd>
 - [Taskonomy: Disentangling Task Transfer Learning](https://arxiv.org/abs/1804.08328) [[Notes](paper_notes/taskonomy.md)] <kbd>CVPR 2018</kbd>
 - [Rethinking ImageNet Pre-training](https://arxiv.org/abs/1811.08883) [[Notes](paper_notes/rethinking_pretraining.md)] <kbd>ICCV 2019</kbd> (Kaiming He)
@@ -36,7 +36,8 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [NG-RANSAC: Neural-Guided RANSAC: Learning Where to Sample Model Hypotheses](https://arxiv.org/abs/1905.04132) [[Notes](paper_notes/ng_ransac.md)] <kbd>ICCV 2019</kbd> (pointNet)
 - [Learning to Find Good Correspondences](https://arxiv.org/abs/1711.05971) [[Notes](paper_notes/learning_correspondence.md)] <kbd>CVPR 2018 Oral</kbd> (pointNet)
 - [Visual Odometry Revisited: What Should Be Learnt?](https://arxiv.org/abs/1909.09803) <kbd>ICRA 2020</kbd>
-- [DSP: Monocular 3D Object Detection with Decoupled Structured Polygon Estimation and Height-Guided Depth Estimation](https://arxiv.org/abs/2002.01619) [[Notes](paper_notes/dsp.md)] <kbd>AAAI 2020</kbd> (SenseTime)
+- [RefinedMPL: Refined Monocular PseudoLiDAR for 3D Object Detection in Autonomous Driving](https://arxiv.org/abs/1911.09712) \[[Notes](paper_notes/refined_mpl.md)] (Huawei, Mono3D)
+- [DSP: Monocular 3D Object Detection with Decoupled Structured Polygon Estimation and Height-Guided Depth Estimation](https://arxiv.org/abs/2002.01619) [[Notes](paper_notes/dsp.md)] <kbd>AAAI 2020</kbd> (SenseTime, Mono3D)
 - [Robust Lane Detection from Continuous Driving Scenes Using Deep Neural Networks](https://arxiv.org/abs/1903.02193) (LLD, LSTM)
 - [3D-LaneNet: End-to-End 3D Multiple Lane Detection](http://openaccess.thecvf.com/content_ICCV_2019/papers/Garnett_3D-LaneNet_End-to-End_3D_Multiple_Lane_Detection_ICCV_2019_paper.pdf) <kbd>ICCV 2019</kbd>
 - [Semi-Local 3D Lane Detection and Uncertainty Estimation](https://arxiv.org/abs/2003.05257) (GM Israel)
@@ -45,7 +46,6 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [PoseNet2: Modelling Uncertainty in Deep Learning for Camera Relocalization](https://arxiv.org/abs/1509.05909) <kbd>ICRA 2016</kbd>
 - [PoseNet3: Geometric Loss Functions for Camera Pose Regression with Deep Learning](https://arxiv.org/abs/1704.00390) <kbd>CVPR 2017</kbd>
 - [Learning Depth-Guided Convolutions for Monocular 3D Object Detection](https://arxiv.org/abs/1912.04799) (Mono3D)
-- [RefinedMPL: Refined Monocular PseudoLiDAR for 3D Object Detection in Autonomous Driving](https://arxiv.org/abs/1911.09712) \[[Notes](paper_notes/refined_mpl.md)] (mono3D, Huawei)
 - [Unsupervised Feature Learning via Non-Parametric Instance-level Discrimination](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0801.pdf) <kbd>CVPR 2018 spotlight</kbd> (Stella Yu)
 - [Render for CNN: Viewpoint Estimation in Images Using CNNs Trained with Rendered 3D Model Views](https://arxiv.org/abs/1505.05641) <kbd>ICCV 2015 Oral</kbd>
 - [Towards High Performance Video Object Detection](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhu_Towards_High_Performance_CVPR_2018_paper.pdf) [[Notes](paper_notes/high_performance_video_od.md)] <kbd>CVPR 2018</kbd>
