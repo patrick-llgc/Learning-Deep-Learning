@@ -30,4 +30,4 @@ I feel the authors started with a RV-based lidar detector, but only added probab
 	- [Mean shift clustering](https://spin.atomicobject.com/2015/05/26/mean-shift-clustering/) is based on the idea of KDE, and tries to place each point to the nearest peak (mode). It is one of the mode-seeking algorithm. However it is computationally intensive.
 	- In comparison, k-means can be done more efficiently, but it cannot handle non-linear data well.
 	- There is a way to combine the two together, first by doing k-means and then do mean shift. See [this blog post](http://jamesxli.blogspot.com/2012/03/on-mean-shift-and-k-means-clustering.html). It is efficient and can handle non-linear data well. 
-	- In a sense, the paper first quantize into bins of 0.5x0.5, then perform mean shift clustering, very similar to the above method. The paper used a Gaussua
+	- In a sense, the paper first quantize into bins of 0.5x0.5, then perform mean shift clustering, very similar to the above method.

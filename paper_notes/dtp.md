@@ -43,3 +43,4 @@ This work explored two methods: 1) assign dynamic weights to tasks. 2) structure
 - This work still manually craft a policy to adjust the relative weights to the tasks --> Can we learn a better policy based on progress signal? Automated curriculum learning via reinforcement learning.
 - Maybe we can design a ZipperNet to learn where to split the tasks head off a common backbone? Looks like a NAS project. 
 - This method can be extended to incorporate with percentile to be more robust to noise. Also, renormalize the weights so they add up to one.
+- [知乎 Review](https://www.zhihu.com/question/375794498/answer/1050963528)

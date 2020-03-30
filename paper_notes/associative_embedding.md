@@ -11,6 +11,8 @@ It can be also used for instance segmentation (and perhaps for tracking as well)
 
 [Super Point](super_point.md) learns keypoint detector and embedding at the same time.
 
+The associative embedding idea is also used in [Pixels to Graphs](pixels_to_graphs.md).
+
 
 #### Key ideas
 - Many CV task can be seen as joint detection and grouping (including object detection, as demonstrated by ConerNet later on).
@@ -27,7 +29,7 @@ It can be also used for instance segmentation (and perhaps for tracking as well)
 
 #### Technical details
 - The system works best if objects are about the same scale. The paper used multiple scales during test time. The heatmaps are averaged, and the embedding are concatenated to a vector. Then compare vectors to determine groups.
-- The figure showcasing the 1D embedded results is really cool. This shows the **trivial task of grouping** after the learning.
+- The figure showcasing the 1D embedded results is really cool. This shows the **trivial task of grouping** after the learning. The clustering is thus trivial. (Otherwise we would need something like mean-shift algorithm to find cluster center first.)
 ![](https://pic1.zhimg.com/80/v2-71685932ee2ef3cd8da83a11f8de390c_hd.jpg)
 
 - The separation between different object in the tagging heatmap is also very impressive.

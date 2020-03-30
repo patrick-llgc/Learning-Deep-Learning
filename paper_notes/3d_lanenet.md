@@ -33,4 +33,4 @@ The system also works for 2D lane line detection, and reaches near SOTA performa
 
 #### Notes
 - [LLD paper summary](https://github.com/amusi/awesome-lane-detection): updated quite frequently.
-
+- [Review on 知乎](https://zhuanlan.zhihu.com/p/113165034)
