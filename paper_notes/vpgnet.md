@@ -17,6 +17,8 @@ VP prediction only helps:
 - Under adverse weather
 - When trained first then used as pretraining to regress other tasks
 
+The idea of using VP to guide LLD is similar to [LaneNet](lanenet.md).
+
 #### Key ideas
 - VP detection: three levels of difficulty. 
 	- Easy: clear scene

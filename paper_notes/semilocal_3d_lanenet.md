@@ -16,7 +16,7 @@ The paper also introduced uncertainty estimation. How to use this uncertainty an
 #### Key ideas
 - Assumes that one image tile only has one lane going through it, and thus only one embedding. (This may have some limitation, as seen in Fig 5 that some lanes are disconnected.)
 - Different tiles intersecting with the same lane has the same embedding.
-- The paper trained an embedding prediction layer to cluster the tiles for the same lane together. The push-pull loss is on image tiles and have much less computation burden than semantic segmentation. For an image with C lanes, N_c is the number of tiles belonging to that lane:
+- The paper trained an **embedding** prediction layer to cluster the tiles for the same lane together. The push-pull loss is on image tiles and have much less computation burden than semantic segmentation. For an image with C lanes, N_c is the number of tiles belonging to that lane: (this loss is directly borrowed from [LaneNet](lanenet.md) which used it on a pixel level)
 	- Pull: C * Nc items, pulling Nc points within each lane 
 	- Push: C * (C-1) pairs of lanes. 
 - During inference, the clustering is done by the mode-seeking algorithm mean-shift (cf [LaserNet](lasernet.md) for more details) to find the center of each cluster and then set threshold to get cluster members. (In [associative embedding](associative_embedding.md))
