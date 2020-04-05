@@ -29,9 +29,13 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [SLAM by Cyrill Stachniss](https://www.youtube.com/playlist?list=PLgnQpQtFTOGQrZ4O5QzbIHgl3b1JHimN_)
 
 
-## 2020-04 (1)
-- [LaneNet: Towards End-to-End Lane Detection: an Instance Segmentation Approach](https://arxiv.org/abs/1802.05591) [[Notes](paper_notes/lanenet.md)] <kbd>IV 2018</kbd>
+## 2020-04 (0)
+- [ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst](https://arxiv.org/pdf/1812.03079.pdf) [[Notes](paper_notes/chauffeurnet.md)] <kbd>RSS 2019</kbd> [Waymo]
+- [IntentNet: Learning to Predict Intention from Raw Sensor Data](http://www.cs.toronto.edu/~wenjie/papers/intentnet_corl18.pdf) <kbd>CoRL 2018</kbd> [Uber ATG]
+- [Rules of the Road: Predicting Driving Behavior with a Convolutional Model of Semantic
+Interactions](https://arxiv.org/abs/1906.08945) <kbd>CVPR 2019</kbd>
 - [D3VO: Deep Depth, Deep Pose and Deep Uncertainty for Monocular Visual Odometry](https://arxiv.org/abs/2003.01060) <kbd>CVPR 2020</kbd> [Daniel Cremer, TUM]
+- [Visual Odometry Revisited: What Should Be Learnt?](https://arxiv.org/abs/1909.09803) <kbd>ICRA 2020</kbd>
 - [Designing Network Design Spaces](https://arxiv.org/abs/2003.13678) <kbd>CVPR 2020</kbd>
 - [Moco2: Improved Baselines with Momentum Contrastive Learning]()
 - [ONCE: Incremental Few-Shot Object Detection](https://arxiv.org/abs/2003.04668) <kbd>CVPR 2020</kbd>
@@ -85,6 +89,10 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Virtual KITTI 2](https://arxiv.org/abs/2001.10773)
 - [Deep Supervision with Shape Concepts for Occlusion-Aware 3D Object Parsing](https://arxiv.org/abs/1612.02699) <kbd>CVPR 2017</kbd>
 - [A Mixed Classification-Regression Framework for 3D Pose Estimation from 2D Images](https://arxiv.org/abs/1805.03225) <kbd>BMVC 2018</kbd> (multi-bin, what's new?)
+- [Safe Trajectory Generation For Complex Urban Environments Using Spatio-temporal Semantic Corridor]() <kbd>LRA 2019</kbd> [Motion planning]
+- [Efficient Uncertainty-aware Decision-making for Automated Driving Using Guided Branching](https://arxiv.org/abs/2003.02746) <kbd>ICRA 2020</kbd> [Motion planning]
+- [DAgger: Driving Policy Transfer via Modularity and Abstraction](https://arxiv.org/abs/1804.09364) <kbd>CoRL 2018</kbd> [DAgger, Immitation Learning]
+
 
 ## 2020-03 (15)
 - [VPGNet: Vanishing Point Guided Network for Lane and Road Marking Detection and Recognition](https://arxiv.org/abs/1710.06288) [[Notes](paper_notes/vpgnet.md)] <kbd>ICCV 2017</kbd>
@@ -98,7 +106,6 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [KP3D: Self-Supervised 3D Keypoint Learning for Ego-motion Estimation](https://arxiv.org/abs/1912.03426) [[Notes](paper_notes/kp3d.md)] [Toyota, superpoint]
 - [NG-RANSAC: Neural-Guided RANSAC: Learning Where to Sample Model Hypotheses](https://arxiv.org/abs/1905.04132) [[Notes](paper_notes/ng_ransac.md)] <kbd>ICCV 2019</kbd> [pointNet]
 - [Learning to Find Good Correspondences](https://arxiv.org/abs/1711.05971) [[Notes](paper_notes/learning_correspondence.md)] <kbd>CVPR 2018 Oral</kbd> (pointNet)
-- [Visual Odometry Revisited: What Should Be Learnt?](https://arxiv.org/abs/1909.09803) <kbd>ICRA 2020</kbd>
 - [RefinedMPL: Refined Monocular PseudoLiDAR for 3D Object Detection in Autonomous Driving](https://arxiv.org/abs/1911.09712) [[Notes](paper_notes/refined_mpl.md)] [Huawei, Mono3D]
 - [DSP: Monocular 3D Object Detection with Decoupled Structured Polygon Estimation and Height-Guided Depth Estimation](https://arxiv.org/abs/2002.01619) [[Notes](paper_notes/dsp.md)] <kbd>AAAI 2020</kbd> (SenseTime, Mono3D)
 - [Robust Lane Detection from Continuous Driving Scenes Using Deep Neural Networks](https://arxiv.org/abs/1903.02193) (LLD, LSTM)
@@ -483,7 +490,6 @@ Here is the list of papers waiting to be read.
 - [A Unified Panoptic Segmentation Network](https://arxiv.org/pdf/1901.03784.pdf) <kbd>CVPR 2019</kbd> <kbd>PanSeg</kbd>
 - [FastDraw: Addressing the Long Tail of Lane Detection by Adapting a Sequential Prediction Network](https://arxiv.org/abs/1905.04354)
 - [PSMNet: Pyramid Stereo Matching Network](https://arxiv.org/pdf/1803.08669.pdf) <kbd>CVPR 2018</kbd>
-- [ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst](https://arxiv.org/pdf/1812.03079.pdf) (Waymo)
 - [Stereo R-CNN based 3D Object Detection for Autonomous Driving](https://arxiv.org/pdf/1902.09738.pdf) <kbd>CVPR 2019</kbd>
 - [Deep Rigid Instance Scene Flow](https://people.csail.mit.edu/weichium/papers/cvpr19-dsisf/paper.pdf) <kbd>CVPR 2019</kbd>
 - [GeoNet: Deep Geodesic Networks for Point Cloud Analysis](https://arxiv.org/pdf/1901.00680.pdf) <kbd>CVPR 2019</kbd> (oral, Megvii)
