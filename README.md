@@ -29,11 +29,13 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [SLAM by Cyrill Stachniss](https://www.youtube.com/playlist?list=PLgnQpQtFTOGQrZ4O5QzbIHgl3b1JHimN_)
 
 
-## 2020-04 (0)
+## 2020-04 (2)
 - [ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst](https://arxiv.org/pdf/1812.03079.pdf) [[Notes](paper_notes/chauffeurnet.md)] <kbd>RSS 2019</kbd> [Waymo]
-- [IntentNet: Learning to Predict Intention from Raw Sensor Data](http://www.cs.toronto.edu/~wenjie/papers/intentnet_corl18.pdf) <kbd>CoRL 2018</kbd> [Uber ATG]
+- [IntentNet: Learning to Predict Intention from Raw Sensor Data](http://www.cs.toronto.edu/~wenjie/papers/intentnet_corl18.pdf) [[Notes](paper_notes/intentnet.md)] <kbd>CoRL 2018</kbd> [Uber ATG]
 - [Rules of the Road: Predicting Driving Behavior with a Convolutional Model of Semantic
 Interactions](https://arxiv.org/abs/1906.08945) <kbd>CVPR 2019</kbd>
+- [Jointly Learnable Behavior and Trajectory Planning for Self-Driving Vehicles](https://arxiv.org/abs/1910.04586) <kbd>IROS 2019 Oral</kbd>
+- [End-to-end Interpretable Neural Motion Planner](http://www.cs.toronto.edu/~wenjie/papers/cvpr19/nmp.pdf) <kbd>CVPR 2019</kbd>
 - [D3VO: Deep Depth, Deep Pose and Deep Uncertainty for Monocular Visual Odometry](https://arxiv.org/abs/2003.01060) <kbd>CVPR 2020</kbd> [Daniel Cremer, TUM]
 - [Visual Odometry Revisited: What Should Be Learnt?](https://arxiv.org/abs/1909.09803) <kbd>ICRA 2020</kbd>
 - [Designing Network Design Spaces](https://arxiv.org/abs/2003.13678) <kbd>CVPR 2020</kbd>
@@ -92,6 +94,7 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Safe Trajectory Generation For Complex Urban Environments Using Spatio-temporal Semantic Corridor]() <kbd>LRA 2019</kbd> [Motion planning]
 - [Efficient Uncertainty-aware Decision-making for Automated Driving Using Guided Branching](https://arxiv.org/abs/2003.02746) <kbd>ICRA 2020</kbd> [Motion planning]
 - [DAgger: Driving Policy Transfer via Modularity and Abstraction](https://arxiv.org/abs/1804.09364) <kbd>CoRL 2018</kbd> [DAgger, Immitation Learning]
+- [Exploiting Sparse Semantic HD Maps for Self-Driving Vehicle Localization](https://arxiv.org/abs/1908.03274) <kbd>IROS 2019 oral</kbd> [Uber ATG, metadata, localization]
 
 
 ## 2020-03 (15)

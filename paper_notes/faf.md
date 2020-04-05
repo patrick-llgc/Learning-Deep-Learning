@@ -11,6 +11,8 @@ The assumption of the paper is that tracking and prediction can help object dete
 
 More robust to occlusion and sparse data at range. It also runs real-time at 33 FPS.
 
+[IntentNet](intentnet.md) is heavily inspired by [Fast and Furious](faf.md) (also by Uber ATG). Both combines perception, tracking and prediction by generating bbox with waypoints. In comparison, IntentNet extends the horizon from 1s to 3s, predicts discrete high level behaviors, and uses map information.
+
 #### Key ideas
 - Two fusion strategies:
 	- Early fusion: fuse time dimension from the beginning. This is essentially doing a temporal averaging of all frames. 
@@ -28,5 +30,5 @@ More robust to occlusion and sparse data at range. It also runs real-time at 33 
 - Tacking KPIs such as MOTA, MOTP, MT (mostly tracked) and ML (mostly lost).
 
 #### Notes
-- How long in seconds can this predict in future? 10 frames does not mean anything.
+- How long in seconds can this predict in future? 10 frames does not mean anything. --> According to [IntentNet](intentnet.md) this is only 1 second. 
 - Check the KITTI KPI [evaluation criterion on don't care region](http://www.cvlibs.net/datasets/kitti/eval_object.php).
