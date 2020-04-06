@@ -7,7 +7,7 @@ tl;dr: A boosted version of [Fast and Furious](faf.md) that uses map information
 #### Overall impression
 [IntentNet](intentnet.md) is heavily inspired by [Fast and Furious](faf.md) (also by Uber ATG). Both combines perception, tracking and prediction by generating bbox with waypoints. In comparison, IntentNet extends the horizon from 1s to 3s, predicts discrete high level behaviors, and uses map information. Note that both [IntentNet](intentnet.md) and [Fast and Furious](faf.md) do not perform motion planning.
 
-The concatenation of images may hurt the model's real time performance as inferenece time is not reported. FaF uses LSTM 
+The concatenation of images may introduce more compuation than LSTM, but itself does not preclude real-time performance. [Fast and Furious](faf.md) also uses concatenation of input and achieves real-time performance. 
 
 #### Key ideas
 - Map info rendered as 17-channel binary BEV map. 
