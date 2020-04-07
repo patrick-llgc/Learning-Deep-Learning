@@ -29,13 +29,13 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [SLAM by Cyrill Stachniss](https://www.youtube.com/playlist?list=PLgnQpQtFTOGQrZ4O5QzbIHgl3b1JHimN_)
 
 
-## 2020-04 (2)
+## 2020-04 (4)
 - [ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst](https://arxiv.org/pdf/1812.03079.pdf) [[Notes](paper_notes/chauffeurnet.md)] <kbd>RSS 2019</kbd> [Waymo]
 - [IntentNet: Learning to Predict Intention from Raw Sensor Data](http://www.cs.toronto.edu/~wenjie/papers/intentnet_corl18.pdf) [[Notes](paper_notes/intentnet.md)] <kbd>CoRL 2018</kbd> [Uber ATG, perception and prediction, Lidar+Map]
 - [RoR: Rules of the Road: Predicting Driving Behavior with a Convolutional Model of Semantic Interactions](https://arxiv.org/abs/1906.08945) [[Notes](paper_notes/ror.md)] <kbd>CVPR 2019</kbd> [Zoox]
-- [MultiPath: Multiple Probabilistic Anchor Trajectory Hypotheses for Behavior Prediction](https://arxiv.org/abs/1910.05449) <kbd>CoRL 2019</kbd> [Waymo, authors from RoR and ChauffeurNet] 
-- [Jointly Learnable Behavior and Trajectory Planning for Self-Driving Vehicles](https://arxiv.org/abs/1910.04586) <kbd>IROS 2019 Oral</kbd>
-- [End-to-end Interpretable Neural Motion Planner](http://www.cs.toronto.edu/~wenjie/papers/cvpr19/nmp.pdf) <kbd>CVPR 2019</kbd>
+- [MultiPath: Multiple Probabilistic Anchor Trajectory Hypotheses for Behavior Prediction](https://arxiv.org/abs/1910.05449) [[Notes](paper_notes/multipath.md)] <kbd>CoRL 2019</kbd> [Waymo, authors from RoR and ChauffeurNet]
+- [Jointly Learnable Behavior and Trajectory Planning for Self-Driving Vehicles](https://arxiv.org/abs/1910.04586) <kbd>IROS 2019 Oral</kbd> [Uber ATG]
+- [NMP: End-to-end Interpretable Neural Motion Planner](http://www.cs.toronto.edu/~wenjie/papers/cvpr19/nmp.pdf) [[Notes](paper_notes/nmp.md)] <kbd>CVPR 2019 oral</kbd> [Uber ATG]
 - [D3VO: Deep Depth, Deep Pose and Deep Uncertainty for Monocular Visual Odometry](https://arxiv.org/abs/2003.01060) <kbd>CVPR 2020</kbd> [Daniel Cremer, TUM]
 - [Visual Odometry Revisited: What Should Be Learnt?](https://arxiv.org/abs/1909.09803) <kbd>ICRA 2020</kbd>
 - [Designing Network Design Spaces](https://arxiv.org/abs/2003.13678) <kbd>CVPR 2020</kbd>

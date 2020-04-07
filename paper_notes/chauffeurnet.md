@@ -13,7 +13,7 @@ ChauffeurNet takes in the results from perception and directly outputs the plann
 
 Motion planning's hardest part is the need for **closed-loop tests**, which means prediction is feed into the loop for planning the next step. It test the systems's ability to self-correct and recover from adverse scenario. **Open-loop tests** means prediction/planning of next step but without feeding into the loop of next state. The paper showed that a model that performs well on open-loop tests do not necessarily perform well on close-loop test. 
 
-The typical way to address the distributional drift issue in imitation learning is **[Data Aggregation (DAgger)](https://arxiv.org/abs/1011.0686)**. The perturbation method in ChauffeurNet is essentially addressing issues with synthetic Dagger pipeline. 
+In imitation learning, or behavioral cloning, when naively applying supervised learning (which assumed iid input) to MDP, there will be a distributional drift, as the action from the last step may affect observations in the next state. The typical way to address the compounding error/distributional drift issue in imitation learning is **[Data Aggregation (DAgger)](https://arxiv.org/abs/1011.0686)**. (DAgger has humans in the loop and asks expert to label data when observed from following learned policy in closed-loop test. This way you get some supervision on how to correct mistakes.) The perturbation method in ChauffeurNet is essentially addressing issues with synthetic Dagger pipeline. 
 
 
 
@@ -39,7 +39,7 @@ The typical way to address the distributional drift issue in imitation learning 
 
 #### Notes
 - [ICML 2020 workshop](https://slideslive.com/38917927/chauffeurnet-learning-to-drive-by-imitating-the-best-and-synthesizing-the-worst)
-- [CS234](https://youtu.be/V7CY68zH6ps?t=1789)
+- [CS234](https://youtu.be/V7CY68zH6ps?t=1789) on imitation learning and DAgger.
 - Waymo can use their drivers data directly (with possible minor filtering) as most of their drivers are expert (thus "chauffeurs"). Tesla and other OEM may have a harder time harvesting high quality driving segments and thus require some filtering.
 - Not sure what the route planner does.
 - [Driving Policy Transfer via Modularity and Abstraction](https://arxiv.org/abs/1804.09364) <kbd>CoRL 2018</kbd> trains policy with the output from a segmentation network, thereby enabling transfer learning to the real world using a different segmentation network trained on real data. This is very similar to cf [Gen-LaneNet](gen_lanenet.md). However we may need to do some trick to bridge the gap between real results from the last stage and the perfect GT we use to train the next stage. 
