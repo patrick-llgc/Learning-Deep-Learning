@@ -36,6 +36,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [MultiPath: Multiple Probabilistic Anchor Trajectory Hypotheses for Behavior Prediction](https://arxiv.org/abs/1910.05449) [[Notes](paper_notes/multipath.md)] <kbd>CoRL 2019</kbd> [Waymo, authors from RoR and ChauffeurNet]
 - [Jointly Learnable Behavior and Trajectory Planning for Self-Driving Vehicles](https://arxiv.org/abs/1910.04586) <kbd>IROS 2019 Oral</kbd> [Uber ATG]
 - [NMP: End-to-end Interpretable Neural Motion Planner](http://www.cs.toronto.edu/~wenjie/papers/cvpr19/nmp.pdf) [[Notes](paper_notes/nmp.md)] <kbd>CVPR 2019 oral</kbd> [Uber ATG]
+- [Multimodal Trajectory Predictions for Autonomous Driving using Deep Convolutional Networks](https://arxiv.org/abs/1809.10732) [[Notes](paper_notes/multipath_uber.md)] <kbd>ICRA 2019</kbd> [Multimodal]
 - [D3VO: Deep Depth, Deep Pose and Deep Uncertainty for Monocular Visual Odometry](https://arxiv.org/abs/2003.01060) <kbd>CVPR 2020</kbd> [Daniel Cremer, TUM]
 - [Visual Odometry Revisited: What Should Be Learnt?](https://arxiv.org/abs/1909.09803) <kbd>ICRA 2020</kbd>
 - [Designing Network Design Spaces](https://arxiv.org/abs/2003.13678) <kbd>CVPR 2020</kbd>
@@ -161,7 +162,7 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 ## 2019-12 (12)
 - [How Do Neural Networks See Depth in Single Images?](http://openaccess.thecvf.com/content_ICCV_2019/papers/van_Dijk_How_Do_Neural_Networks_See_Depth_in_Single_Images_ICCV_2019_paper.pdf) [[Notes](paper_notes/what_monodepth_see.md)] <kbd>ICCV 2019</kbd>
 - [Self-supervised Sparse-to-Dense: Self-supervised Depth Completion from LiDAR and Monocular Camera](https://arxiv.org/abs/1807.00275) <kbd>ICRA 2019</kbd>  (depth completion)
-- [DC: Depth Coefficients for Depth Completion](https://arxiv.org/abs/1903.05421) [[Notes](paper_notes/depth_coeff.md)] <kbd>CVPR 2019</kbd> (Xiaoming Liu)
+- [DC: Depth Coefficients for Depth Completion](https://arxiv.org/abs/1903.05421) [[Notes](paper_notes/depth_coeff.md)] <kbd>CVPR 2019</kbd> [Xiaoming Liu, Multimodal]
 - [Parse Geometry from a Line: Monocular Depth Estimation with Partial Laser Observation](https://arxiv.org/pdf/1611.02174.pdf) [[Notes](paper_notes/depth_from_one_line.md)] <kbd>ICRA 2017</kbd>
 - [PointPainting: Sequential Fusion for 3D Object Detection](https://arxiv.org/pdf/1911.10150.pdf) (nuscenece)
 - [VO-Monodepth: Enhancing self-supervised monocular depth estimation with traditional visual odometry](https://arxiv.org/abs/1908.03127) [[Notes](paper_notes/vo_monodepth.md)] <kbd>3DV 2019</kbd> (sparse to dense)
@@ -197,7 +198,7 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [TW-SMNet: Deep Multitask Learning of Tele-Wide Stereo Matching](https://arxiv.org/abs/1906.04463) [[Notes](paper_notes/twsm_net.md)] <kbd>ICIP 2019</kbd>
 - [Accurate Uncertainties for Deep Learning Using Calibrated Regression](https://arxiv.org/abs/1807.00263) [[Notes](paper_notes/dl_regression_calib.md)] <kbd>ICML 2018</kbd>
 - [Calibrating Uncertainties in Object Localization Task](https://arxiv.org/abs/1811.11210) [[Notes](paper_notes/2dod_calib.md)] <kbd>NIPS 2018</kbd>
-- [SMWA: On the Over-Smoothing Problem of CNN Based Disparity Estimation](http://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_On_the_Over-Smoothing_Problem_of_CNN_Based_Disparity_Estimation_ICCV_2019_paper.pdf) [[Notes](paper_notes/smwa.md)] <kbd>ICCV 2019</kbd> (depth estimation)
+- [SMWA: On the Over-Smoothing Problem of CNN Based Disparity Estimation](http://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_On_the_Over-Smoothing_Problem_of_CNN_Based_Disparity_Estimation_ICCV_2019_paper.pdf) [[Notes](paper_notes/smwa.md)] <kbd>ICCV 2019</kbd> [Multimodal, depth estimation]
 - [Sparse-to-Dense: Depth Prediction from Sparse Depth Samples and a Single Image](https://arxiv.org/abs/1709.07492) [[Notes](paper_notes/sparse_to_dense.md)] <kbd>ICRA 2018</kbd> (depth completion)
 
 

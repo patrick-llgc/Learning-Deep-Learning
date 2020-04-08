@@ -9,6 +9,8 @@ tl;dr: A boosted version of [Fast and Furious](faf.md) that uses map information
 
 The concatenation of images may introduce more compuation than LSTM, but itself does not preclude real-time performance. [Fast and Furious](faf.md) also uses concatenation of input and achieves real-time performance. 
 
+IntentNet somewhat inspired [MultiPath](multipath.md) but IntentNet's loss only predict one path instead of one path per intent, making IntentNet unsuitable for multimodal prediction.
+
 #### Key ideas
 - Map info rendered as 17-channel binary BEV map. 
 - Architecture: Late fusion of map and lidar (first 3 blocks split, with the last block concatenated)
