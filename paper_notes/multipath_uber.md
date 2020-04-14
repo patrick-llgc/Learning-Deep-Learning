@@ -23,9 +23,10 @@ It is quite interesting to see that a single modal model will just predicting th
 -  Distance metric ADE does not seem to model multimodal behavior well. A better function measures distance by **considering an angle between the last
 points of the two trajectories as seen from the actor position**, which improves handling of the intersection scenarios.
 - The authors tried MDN (the one used by [MultiPath](multipath.md) from Waymo) and it leads to slightly worse performance then MTP. 
+- [Neural motion planner](nmp.md) uses a max margin loss to train a cost volume that is compatible with multimodality.
 
 #### Notes
-- **UKF is usually used for tracking object's trajectory. However it is single modal model. Its prediction at 1 s is reasonable, but at 6 s is not. **
+- **UKF is usually used for tracking object's trajectory. However it is single modal model. Its prediction at 1 s is reasonable, but at 6 s is not.**
 - IRL is used for behavioral prediction. However usually it is not fast enough for real-time inference.
 
 	> One approach would be to create a reward function that captures the desired behavior of a driver, like stopping at red lights, avoiding pedestrians, etc. However, this would require an exhaustive list of every behavior we’d want to consider, as well as a list of weights describing how important each behavior is. 

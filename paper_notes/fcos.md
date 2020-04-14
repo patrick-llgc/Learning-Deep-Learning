@@ -11,10 +11,13 @@ The idea is similar to [CenterNet](centernet_ut.md). CenterNet uses only the poi
 
 I personally feel this paper is better than centernet in the sense that it does not need too much bells and whistles to achieve the same performance. 
 
+It is extended to [PolarMask](polarmask.md) for one-stage instance segmentation.
+
 #### Key ideas
 - Proposal free and anchor free, significantly reduces the number of design parameters.
 - Use multilevel FPN prediction to alleviate overlapping bounding box issue (standard practice with FPN).
 - Use IoU loss for bbox regression loss, focal loss for classification loss. They also used the classification branch to do perform centerness regression.
+- Centerness score = $\sqrt{\frac{\min(l, r) \min(t, b)}{\max(l, r) \max(t, b)}}$
 - Assign regression target to different levels. For central points, use high-res feature map, and for corner points, use low-res feature map. 
 - Regress a centerness score in the classifier branch to filter out FP bboxes far away from center. This bridges the gap between previous SOTA and FCOS.
 - The performance of FCOS is better than RetinaNet at stricter thresholds.

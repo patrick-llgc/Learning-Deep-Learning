@@ -29,23 +29,28 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [SLAM by Cyrill Stachniss](https://www.youtube.com/playlist?list=PLgnQpQtFTOGQrZ4O5QzbIHgl3b1JHimN_)
 
 
-## 2020-04 (4)
+## 2020-04 (6)
 - [ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst](https://arxiv.org/pdf/1812.03079.pdf) [[Notes](paper_notes/chauffeurnet.md)] <kbd>RSS 2019</kbd> [Waymo]
 - [IntentNet: Learning to Predict Intention from Raw Sensor Data](http://www.cs.toronto.edu/~wenjie/papers/intentnet_corl18.pdf) [[Notes](paper_notes/intentnet.md)] <kbd>CoRL 2018</kbd> [Uber ATG, perception and prediction, Lidar+Map]
 - [RoR: Rules of the Road: Predicting Driving Behavior with a Convolutional Model of Semantic Interactions](https://arxiv.org/abs/1906.08945) [[Notes](paper_notes/ror.md)] <kbd>CVPR 2019</kbd> [Zoox]
 - [MultiPath: Multiple Probabilistic Anchor Trajectory Hypotheses for Behavior Prediction](https://arxiv.org/abs/1910.05449) [[Notes](paper_notes/multipath.md)] <kbd>CoRL 2019</kbd> [Waymo, authors from RoR and ChauffeurNet]
-- [Jointly Learnable Behavior and Trajectory Planning for Self-Driving Vehicles](https://arxiv.org/abs/1910.04586) <kbd>IROS 2019 Oral</kbd> [Uber ATG]
 - [NMP: End-to-end Interpretable Neural Motion Planner](http://www.cs.toronto.edu/~wenjie/papers/cvpr19/nmp.pdf) [[Notes](paper_notes/nmp.md)] <kbd>CVPR 2019 oral</kbd> [Uber ATG]
 - [Multimodal Trajectory Predictions for Autonomous Driving using Deep Convolutional Networks](https://arxiv.org/abs/1809.10732) [[Notes](paper_notes/multipath_uber.md)] <kbd>ICRA 2019</kbd> [Multimodal]
+- [Jointly Learnable Behavior and Trajectory Planning for Self-Driving Vehicles](https://arxiv.org/abs/1910.04586) <kbd>IROS 2019 Oral</kbd> [Uber ATG, behavioral planning, motion planning]
+- [Baidu Apollo EM Motion Planner](https://arxiv.org/abs/1807.08048)
 - [D3VO: Deep Depth, Deep Pose and Deep Uncertainty for Monocular Visual Odometry](https://arxiv.org/abs/2003.01060) <kbd>CVPR 2020</kbd> [Daniel Cremer, TUM]
 - [Visual Odometry Revisited: What Should Be Learnt?](https://arxiv.org/abs/1909.09803) <kbd>ICRA 2020</kbd>
 - [Designing Network Design Spaces](https://arxiv.org/abs/2003.13678) <kbd>CVPR 2020</kbd>
-- [Moco2: Improved Baselines with Momentum Contrastive Learning]()
+- [Moco2: Improved Baselines with Momentum Contrastive Learning](https://arxiv.org/abs/2003.04297)
 - [ONCE: Incremental Few-Shot Object Detection](https://arxiv.org/abs/2003.04668) <kbd>CVPR 2020</kbd>
-- [SOLO: Segmenting Objects by Locations](https://arxiv.org/abs/1912.04488)
-- [SOLOv2: Dynamic, Faster and Stronger](https://arxiv.org/abs/2003.10152)
+- [TensorMask: A Foundation for Dense Object Segmentation](https://arxiv.org/abs/1903.12174) <kbd>ICCV 2019</kbd> [single-stage instance seg]
+- [PolarMask: Single Shot Instance Segmentation with Polar Representation](https://arxiv.org/abs/1909.13226) [[Notes](paper_notes/polarmask.md)] <kbd>CVPR 2020 oral</kbd> [single-stage instance seg]
+- [SOLO: Segmenting Objects by Locations](https://arxiv.org/abs/1912.04488) [single-stage instance seg]
+- [SOLOv2: Dynamic, Faster and Stronger](https://arxiv.org/abs/2003.10152) [single-stage instance seg]
+- [Conditional Convolutions for Instance Segmentation]()
 - [EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/abs/1911.09070)
-- [Improved Baselines with Momentum Contrastive Learning](https://arxiv.org/abs/2003.04297)
+- [RetinaTrack: Online Single Stage Joint Detection and Tracking](https://arxiv.org/abs/2003.13870) <kbd>CVPR 2020</kbd>
+- [Reinforced Feature Points: Optimizing Feature Detection and Description for a High-Level Task](https://arxiv.org/abs/1912.00623) <kbd>CVPR 2020 oral</kbd> [Eric Brachmann, ngransac]
 - [Detecting Lane and Road Markings at A Distance with Perspective Transformer Layers](https://arxiv.org/abs/2003.08550)  (3D LLD)
 - [Gliding vertex on the horizontal bounding box for multi-oriented object detection](https://arxiv.org/abs/1911.09358)
 - [PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization](https://arxiv.org/abs/1505.07427) [[Notes](paper_notes/posenet.md)] <kbd>ICCV 2015</kbd>
@@ -173,8 +178,8 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Radar and Camera Early Fusion for Vehicle Detection in Advanced Driver Assistance Systems](https://ml4ad.github.io/files/papers/Radar%20and%20Camera%20Early%20Fusion%20for%20Vehicle%20Detection%20in%20Advanced%20Driver%20Assistance%20Systems.pdf) [[Notes](paper_notes/radar_camera_qcom.md)] <kbd>NeurIPS 2019</kbd> (radar)
 - [Deep Active Learning for Efficient Training of a LiDAR 3D Object Detector](https://arxiv.org/abs/1901.10609) [[Notes](paper_notes/deep_active_learning_lidar.md)] <kbd>IV 2019</kbd>
 - [C3DPO: Canonical 3D Pose Networks for Non-Rigid Structure From Motion](https://arxiv.org/abs/1909.02533) [[Notes](paper_notes/c3dpo.md)] <kbd>ICCV 2019</kbd>
-- [YOLACT: Real-time Instance Segmentation](https://arxiv.org/abs/1904.02689) [[Notes](paper_notes/yolact.md)] <kbd>ICCV 2019</kbd>
-- [YOLACT++: Better Real-time Instance Segmentation](https://arxiv.org/abs/1912.06218)
+- [YOLACT: Real-time Instance Segmentation](https://arxiv.org/abs/1904.02689) [[Notes](paper_notes/yolact.md)] <kbd>ICCV 2019</kbd> [single-stage instance seg]
+- [YOLACT++: Better Real-time Instance Segmentation](https://arxiv.org/abs/1912.06218) [single-stage instance seg]
 
 
 ## 2019-11 (20)
