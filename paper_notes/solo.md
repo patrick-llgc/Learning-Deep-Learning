@@ -14,10 +14,10 @@ The **decoupled SOLO** idea is fabulous and I think is partially inspired by [YO
 This paper can be seen as an extension to the anchor-free object detection, such as [FCOS](fcos.md) and [CenterNet](centernet_ut.md).
 
 #### Key ideas
-- **Assumption**: each cell of the SxS grid must belong to one individual instance. The instance mask branch has $H \times W \times S^2$ dimension.
-- Use FPN for multi-scale prediction. Each feature map is only responsible for predicting masks within a certain scale range. 
-- Use dice loss to balance small and large masks. It leads to better performance than cross entropy or focal loss.
-- Use of coordConv to introduce spatial variance. (But why?)
+- **Grid cell**: assumption is each cell of the SxS grid must belong to one individual instance. The instance mask branch has $H \times W \times S^2$ dimension.
+- **FPN for multi-level prediction**. Each feature map is only responsible for predicting masks within a certain scale range. 
+- **Dice loss** to balance small and large masks. It leads to better performance than cross entropy or focal loss.
+- **CoordConv** to introduce spatial variance. (But why?)
 - Architecture
 	- Center category: similar to [CenterNet](centernet_ut.md) but on a coarser grid.
 	- Mask category: for each positive grid, it corresponds to a channel in the HxW size feature map. 

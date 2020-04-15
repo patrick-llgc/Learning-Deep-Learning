@@ -46,7 +46,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [TensorMask: A Foundation for Dense Object Segmentation](https://arxiv.org/abs/1903.12174) <kbd>ICCV 2019</kbd> [single-stage instance seg]
 - [PolarMask: Single Shot Instance Segmentation with Polar Representation](https://arxiv.org/abs/1909.13226) [[Notes](paper_notes/polarmask.md)] <kbd>CVPR 2020 oral</kbd> [single-stage instance seg]
 - [SOLO: Segmenting Objects by Locations](https://arxiv.org/abs/1912.04488) [[Notes](paper_notes/solo.md)] [single-stage instance seg]
-- [SOLOv2: Dynamic, Faster and Stronger](https://arxiv.org/abs/2003.10152) [single-stage instance seg]
+- [SOLOv2: Dynamic, Faster and Stronger](https://arxiv.org/abs/2003.10152) [[Notes](paper_notes/solov2.md)] [single-stage instance seg]
 - [Conditional Convolutions for Instance Segmentation]()
 - [EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/abs/1911.09070)
 - [RetinaTrack: Online Single Stage Joint Detection and Tracking](https://arxiv.org/abs/2003.13870) <kbd>CVPR 2020</kbd>

@@ -32,7 +32,7 @@ Most previous works (Mask RCNN) depends on feature localization (feature repooli
 - Mask assembly: $M = \sigma(PC^T)$, P is hxwxk and C is nxk. n is number of instances. The masks are probabilistic, thus using a sigmoid.
 - ResNet is not exactly translation variant because of padding.
 - k = 32 is the best. Adding more prototypes usually adds duplicates, and makes learning coefficients harder.
-- Fast NMS performs NMS in parallel, allowing those otherwise be removed bbox to suppress lower bbox scores as well. This hurts 0.3 mAP.
+- **Fast NMS** performs NMS in parallel, allowing those otherwise be removed bbox to suppress lower bbox scores as well. This hurts 0.3 mAP.
 - The performance gap between YOLACt and mask RCNN is 
 
 #### Notes
