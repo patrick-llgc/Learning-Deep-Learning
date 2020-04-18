@@ -5,13 +5,15 @@ _April 2020_
 tl;dr: Single-shot instance segmentation.
 
 #### Overall impression
-The paper proposes a simple frame work for instance segmentation directly. Essentially it is a YOLO architecture predicting additional HxW values at each cell. The HxW values are warped into a mask with the same resolution of the feature map.
+The paper proposes a simple frame work for instance segmentation directly. Essentially it is a YOLO architecture predicting additional HxW values at each cell. The HxW values are warped into a mask with the same resolution of the feature map. <-- **However there is an important trick that reshapes the SxSx(HxW) into HxWx(SxS).**
 
 Semantic segmentation classifies each pixel into a **fixed** number of categories. Instance segmentation has to deal with a **varying** number of instances. That is the biggest challenge. Instance segmentation can be sorted into top down approaches such as Mask RCNN and bottom up approaches such as [Associate Embedding](associative_embedding.md).
 
 The **decoupled SOLO** idea is fabulous and I think is partially inspired by [YOLACT](yolact.md) by predicting prototype 2S masks.
 
-This paper can be seen as an extension to the anchor-free object detection, such as [FCOS](fcos.md) and [CenterNet](centernet_ut.md).
+This paper can be seen as an extension to the anchor-free object detection, such as [FCOS](fcos.md) and [CenterNet](centernet_ut.md), but with the important trick of reshaping the tensor. <-- See discussion in [TensorMask](tensormask.md).
+
+Direct spatial2channel leads to spatial alignment too poor to guarantee good mask quality. (see natural representation in [TensorMask](tensormask.md)). However it should be enough to guarantee the SxS order. 
 
 #### Key ideas
 - **Grid cell**: assumption is each cell of the SxS grid must belong to one individual instance. The instance mask branch has $H \times W \times S^2$ dimension.

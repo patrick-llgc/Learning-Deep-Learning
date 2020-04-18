@@ -43,7 +43,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Designing Network Design Spaces](https://arxiv.org/abs/2003.13678) <kbd>CVPR 2020</kbd>
 - [Moco2: Improved Baselines with Momentum Contrastive Learning](https://arxiv.org/abs/2003.04297)
 - [ONCE: Incremental Few-Shot Object Detection](https://arxiv.org/abs/2003.04668) <kbd>CVPR 2020</kbd>
-- [TensorMask: A Foundation for Dense Object Segmentation](https://arxiv.org/abs/1903.12174) <kbd>ICCV 2019</kbd> [single-stage instance seg]
+- [TensorMask: A Foundation for Dense Object Segmentation](https://arxiv.org/abs/1903.12174) [[Notes](paper_notes/tensormask.md)] <kbd>ICCV 2019</kbd> [single-stage instance seg]
 - [PolarMask: Single Shot Instance Segmentation with Polar Representation](https://arxiv.org/abs/1909.13226) [[Notes](paper_notes/polarmask.md)] <kbd>CVPR 2020 oral</kbd> [single-stage instance seg]
 - [SOLO: Segmenting Objects by Locations](https://arxiv.org/abs/1912.04488) [[Notes](paper_notes/solo.md)] [single-stage instance seg]
 - [SOLOv2: Dynamic, Faster and Stronger](https://arxiv.org/abs/2003.10152) [[Notes](paper_notes/solov2.md)] [single-stage instance seg]
@@ -436,9 +436,6 @@ Here is the list of papers waiting to be read.
 - [Mask Scoring R-CNN](https://arxiv.org/pdf/1903.00241.pdf) <kbd>CVPR 2019</kbd>
 - [Training Region-based Object Detectors with Online Hard Example Mining](https://arxiv.org/pdf/1604.03540.pdf)
 
-### Instance and Panoptic Segmentation
-- [TensorMask: A Foundation for Dense Object Segmentation](https://arxiv.org/pdf/1903.12174.pdf)
-
 
 ### Video Understanding
 - [Learning Spatiotemporal Features with 3D Convolutional Networks](https://arxiv.org/pdf/1412.0767.pdf) (C3D)  <kbd>Video </kbd><kbd>ICCV 2015 </kbd>
@@ -449,10 +446,9 @@ Here is the list of papers waiting to be read.
 - [Rethinking Spatiotemporal Feature Learning: Speed-Accuracy Trade-offs in Video Classification](https://arxiv.org/pdf/1712.04851.pdf) (decouple spatiotemporal) <kbd>ECCV 2018</kbd>
 - [Can Spatiotemporal 3D CNNs Retrace the History of 2D CNNs and ImageNet?](https://arxiv.org/pdf/1711.09577.pdf) <kbd>CVPR 2018</kbd>
 
-### Orthoganal architecture improvements
+### Orthogonal architecture improvements
 - [Concurrent Spatial and Channel Squeeze & Excitation in Fully Convolutional Networks](https://arxiv.org/pdf/1803.02579.pdf)
 - [CBAM: Convolutional Block Attention Module](https://arxiv.org/pdf/1807.06521.pdf)
-
 
 ### Reinforcement Learning
 - [Playing Atari with Deep Reinforcement Learning](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf) <kbd>NIPS 2013 </kbd>
@@ -484,15 +480,6 @@ Here is the list of papers waiting to be read.
 - [Amodal Detection of 3D Objects: Inferring 3D Bounding Boxes from 2D Ones in RGB-Depth Images](https://cis.temple.edu/~latecki/Papers/DengCVPR2017.pdf) <kbd>CVPR 2017</kbd>
 - [2D-Driven 3D Object Detection in RGB-D Images](http://openaccess.thecvf.com/content_ICCV_2017/papers/Lahoud_2D-Driven_3D_Object_ICCV_2017_paper.pdf)
 - [3D-SSD: Learning Hierarchical Features from RGB-D Images for Amodal 3D Object Detection](https://arxiv.org/pdf/1711.00238.pdf)
-
-
-### NLP
-- [A Convolutional Neural Network for Modelling Sentences](https://arxiv.org/pdf/1404.2188.pdf) <kbd>ACL 2014</kbd>
-- [FastText: Bag of Tricks for Efficient Text Classification](https://arxiv.org/pdf/1607.01759.pdf) <kbd>ACL 2017</kbd>
-- [Siamese recurrent architectures for learning sentence similarity](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/12195/12023) <kbd>AAAI 2016</kbd>
-- [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781.pdf) <kbd>ICLR 2013</kbd>
-- [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf) <kbd>ICLR 2015</kbd>
-- [Transformers: Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf) <kbd>NIPS 2017</kbd>
 
 ### Unsorted
 - [Learning Depth with Convolutional Spatial Propagation Network](https://arxiv.org/abs/1810.02695) (Baidu, depth from SPN) <kbd>ECCV 2018</kbd>
@@ -573,7 +560,6 @@ Here is the list of papers waiting to be read.
 - [Eliminating the Blind Spot: Adapting 3D Object Detection and Monocular Depth Estimation to 360° Panoramic Imagery](https://arxiv.org/abs/1808.06253) <kbd>ECCV 2018</kbd> (Monocular 3D object detection and depth estimation)
 - [Measuring Calibration in Deep Learning](https://arxiv.org/abs/1904.01685) <kbd>CVPR 2019</kbd>
 - [Sampling-free Epistemic Uncertainty Estimation Using Approximated Variance Propagation](https://arxiv.org/abs/1908.00598) <kbd>ICCV 2019</kbd> (epistemic uncertainty)
-- [Deep Learning Based 3D Object Detection for Automotive Radar and Camera](https://www.astyx.com/fileadmin/redakteur/dokumente/Deep_Learning_Based_3D_Object_Detection_for_Automotive_Radar_and_Camera.PDF) (Astyx)
 - [End-to-end Lane Detection through Differentiable Least-Squares Fitting](https://arxiv.org/abs/1902.00293) <kbd>ICCV 2019</kbd>
 - [Frustum ConvNet: Sliding Frustums to Aggregate Local Point-Wise Features for Amodal 3D Object Detection](https://arxiv.org/abs/1903.01864) <kbd>IROS 2019</kbd>
 - [Dropout Sampling for Robust Object Detection in Open-Set Conditions](https://arxiv.org/abs/1710.06677) <kbd>ICRA 2018</kbd> (Niko Sünderhauf)
