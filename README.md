@@ -23,6 +23,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Carla data export](https://github.com/Ozzyz/carla-data-export)
 - [openpilot](https://github.com/commaai/openpilot/blob/devel/selfdrive/modeld/models/driving.cc)
 - [3D Lane Dataset](https://github.com/yuliangguo/3D_Lane_Synthetic_Dataset)
+- [MicroGrad](https://github.com/karpathy/micrograd)
 
 ## Youtube channels
 - [Modern C++ for computer vision](https://www.youtube.com/playlist?list=PLgnQpQtFTOGR50iIOtO36nK6aNPtVq98C)
@@ -44,10 +45,13 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Moco2: Improved Baselines with Momentum Contrastive Learning](https://arxiv.org/abs/2003.04297)
 - [ONCE: Incremental Few-Shot Object Detection](https://arxiv.org/abs/2003.04668) <kbd>CVPR 2020</kbd>
 - [TensorMask: A Foundation for Dense Object Segmentation](https://arxiv.org/abs/1903.12174) [[Notes](paper_notes/tensormask.md)] <kbd>ICCV 2019</kbd> [single-stage instance seg]
+- [BlendMask: Top-Down Meets Bottom-Up for Instance Segmentation](https://arxiv.org/abs/2001.00309) <kbd>CVPR 2020</kbd>
+- [Mask Encoding for Single Shot Instance Segmentation](https://arxiv.org/abs/2003.11712) <kbd>CVPR 2020 oral</kbd> [single-stage instance seg, Chunhua Shen]
 - [PolarMask: Single Shot Instance Segmentation with Polar Representation](https://arxiv.org/abs/1909.13226) [[Notes](paper_notes/polarmask.md)] <kbd>CVPR 2020 oral</kbd> [single-stage instance seg]
-- [SOLO: Segmenting Objects by Locations](https://arxiv.org/abs/1912.04488) [[Notes](paper_notes/solo.md)] [single-stage instance seg]
-- [SOLOv2: Dynamic, Faster and Stronger](https://arxiv.org/abs/2003.10152) [[Notes](paper_notes/solov2.md)] [single-stage instance seg]
-- [Conditional Convolutions for Instance Segmentation]()
+- [SOLO: Segmenting Objects by Locations](https://arxiv.org/abs/1912.04488) [[Notes](paper_notes/solo.md)] [single-stage instance seg, Chunhua Shen]
+- [SOLOv2: Dynamic, Faster and Stronger](https://arxiv.org/abs/2003.10152) [[Notes](paper_notes/solov2.md)] [single-stage instance seg, Chunhua Shen]
+- [CondInst: Conditional Convolutions for Instance Segmentation](https://arxiv.org/abs/2003.05664) [[Notes](paper_notes/condinst.md)] [single-stage instance seg, Chunhua Shen]
+- [Making Convolutional Networks Shift-Invariant Again](https://arxiv.org/abs/1904.11486) <kbd>ICML</kbd>
 - [EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/abs/1911.09070)
 - [RetinaTrack: Online Single Stage Joint Detection and Tracking](https://arxiv.org/abs/2003.13870) <kbd>CVPR 2020</kbd>
 - [Reinforced Feature Points: Optimizing Feature Detection and Description for a High-Level Task](https://arxiv.org/abs/1912.00623) <kbd>CVPR 2020 oral</kbd> [Eric Brachmann, ngransac]
@@ -313,7 +317,7 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [SfMLearner: Unsupervised Learning of Depth and Ego-Motion from Video](https://people.eecs.berkeley.edu/~tinghuiz/projects/SfMLearner/cvpr17_sfm_final.pdf) [[Notes](paper_notes/sfm_learner.md)] <kbd>CVPR 2017</kbd>
 - [Monodepth2: Digging Into Self-Supervised Monocular Depth Estimation](https://arxiv.org/abs/1806.01260) [[Notes](paper_notes/monodepth2.md)] <kbd>ICCV 2019</kbd> [Niantic]
 - [DeepSignals: Predicting Intent of Drivers Through Visual Signals](https://arxiv.org/pdf/1905.01333.pdf) [[Notes](paper_notes/deep_signals.md)] <kbd>ICRA 2019</kbd> (@Uber, turn signal detection)
-- [FCOS: Fully Convolutional One-Stage Object Detection](https://arxiv.org/pdf/1904.01355.pdf) [[Notes](paper_notes/fcos.md)] <kbd>ICCV 2019</kbd>
+- [FCOS: Fully Convolutional One-Stage Object Detection](https://arxiv.org/pdf/1904.01355.pdf) [[Notes](paper_notes/fcos.md)] <kbd>ICCV 2019</kbd> [Chunhua Shen]
 - [Pseudo-LiDAR++: Accurate Depth for 3D Object Detection in Autonomous Driving](https://arxiv.org/abs/1906.06310) [[Notes](paper_notes/pseudo_lidar++.md)] <kbd>ICLR 2020</kbd>
 - [MMF: Multi-Task Multi-Sensor Fusion for 3D Object Detection](http://www.cs.toronto.edu/~byang/papers/mmf.pdf) [[Notes](paper_notes/mmf.md)] <kbd>CVPR 2019</kbd> (@Uber, sensor fusion)
 
