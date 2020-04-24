@@ -45,7 +45,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Moco2: Improved Baselines with Momentum Contrastive Learning](https://arxiv.org/abs/2003.04297)
 - [ONCE: Incremental Few-Shot Object Detection](https://arxiv.org/abs/2003.04668) <kbd>CVPR 2020</kbd>
 - [TensorMask: A Foundation for Dense Object Segmentation](https://arxiv.org/abs/1903.12174) [[Notes](paper_notes/tensormask.md)] <kbd>ICCV 2019</kbd> [single-stage instance seg]
-- [BlendMask: Top-Down Meets Bottom-Up for Instance Segmentation](https://arxiv.org/abs/2001.00309) <kbd>CVPR 2020</kbd>
+- [BlendMask: Top-Down Meets Bottom-Up for Instance Segmentation](https://arxiv.org/abs/2001.00309) [[Notes](paper_notes/blendmask.md)] <kbd>CVPR 2020</kbd>
 - [Mask Encoding for Single Shot Instance Segmentation](https://arxiv.org/abs/2003.11712) <kbd>CVPR 2020 oral</kbd> [single-stage instance seg, Chunhua Shen]
 - [PolarMask: Single Shot Instance Segmentation with Polar Representation](https://arxiv.org/abs/1909.13226) [[Notes](paper_notes/polarmask.md)] <kbd>CVPR 2020 oral</kbd> [single-stage instance seg]
 - [SOLO: Segmenting Objects by Locations](https://arxiv.org/abs/1912.04488) [[Notes](paper_notes/solo.md)] [single-stage instance seg, Chunhua Shen]

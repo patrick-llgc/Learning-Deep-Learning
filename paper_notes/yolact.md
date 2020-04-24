@@ -33,7 +33,8 @@ Most previous works (Mask RCNN) depends on feature localization (feature repooli
 - ResNet is not exactly translation variant because of padding.
 - k = 32 is the best. Adding more prototypes usually adds duplicates, and makes learning coefficients harder.
 - **Fast NMS** performs NMS in parallel, allowing those otherwise be removed bbox to suppress lower bbox scores as well. This hurts 0.3 mAP.
-- The performance gap between YOLACt and mask RCNN is 
+- The performance gap between YOLACt and mask RCNN is due to bbox prediction but not mask quality (same AP gap between mask and bbox performance.)
+- Auxiliary task of predicting semantic segmentation map on top of prototype masks. This auxiliary task is only enabled during training and thus do not have speed penalty.
 
 #### Notes
 - [GitHub page](https://github.com/dbolya/yolact) 
