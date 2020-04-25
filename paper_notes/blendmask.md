@@ -18,7 +18,7 @@ The paper improves upon [YOLACT](yolact.md). It is not only using bbox to crop t
 - Compare with Mask RCNN, BlendMask moves computation of R-CNN head before the RoI sampling to generate position sensitive feature map. Repeated RoI-based mask representation learning is avoided. 
 	- increasing mask resolution will lead to quadratic speed penalty
 	- increasing number of object will lead to linear speed penalty
-- The position sensitive feature map is related to [R-FCN](rfcn.md) and [FCIS](fcis.md).
+- The position sensitive feature map is related to [R-FCN](rfcn.md) and [FCIS](fcis.md), but R-FCN has hard-coded position sensitive mapping with more channels. 
 
 #### Technical details
 - Removing anchors enables heavier duties to the head such as predicting an attention map.

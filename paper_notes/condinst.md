@@ -11,6 +11,8 @@ The paper extends the idea of [YOLACT](yolact.md) and [BlendMask](blendmask.md) 
 
 With depth=1 filter, [CondInst](condinst.md) is essentially [YOLACT](yolact.md) in predicting linear combination of the prototype masks. The AP 30.9 is similar to YOLACT's 31.2 as well.
 
+The dynamic filters encodes the masks implicitly. It can be seen as a data dependent decoder. This is to be compared with a fixed decoder in [Mask Encoder Inst.](meinst.md).
+
 The dynamic filter idea is used in SOLOv2. Matrix NMS is also useful to CondInst as well.
 
 #### Key ideas
