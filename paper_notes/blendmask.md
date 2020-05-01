@@ -14,7 +14,7 @@ The paper improves upon [YOLACT](yolact.md). It is not only using bbox to crop t
 #### Key ideas
 - K is the number of bases (prototypes in YOLACT). Each feature map location predicts K x M x M masks, realized by a KMM sized channel. M = 1 for YOLACT. M is typically quite small with max of 14.
 - The feature maps (bases) are RoIAligned with bboxes, before multiplying with attention maps in the blender module. 
-- BlendMask actually works with only L=1 base. K=4 has best tradeoff.
+- BlendMask actually works with only K=1 base. K=4 has best tradeoff.
 - Compare with Mask RCNN, BlendMask moves computation of R-CNN head before the RoI sampling to generate position sensitive feature map. Repeated RoI-based mask representation learning is avoided. 
 	- increasing mask resolution will lead to quadratic speed penalty
 	- increasing number of object will lead to linear speed penalty

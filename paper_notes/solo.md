@@ -5,7 +5,7 @@ _April 2020_
 tl;dr: Single-shot instance segmentation.
 
 #### Overall impression
-The paper proposes a simple frame work for instance segmentation directly. Essentially it is a YOLO architecture predicting additional HxW values at each cell. The HxW values are warped into a mask with the same resolution of the feature map. <-- **However there is an important trick that reshapes the SxSx(HxW) into HxWx(SxS). [MEInst](meinst.md) showed that it is possible to directly predict the high dim vector per region, but for the entire image mask it is perhaps intractable.**
+The paper proposes a simple framework for instance segmentation directly. Essentially it is a YOLO architecture predicting additional HxW values at each cell. The HxW values are warped into a mask with the same resolution of the feature map. <-- **However there is an important trick that reshapes the SxSx(HxW) into HxWx(SxS). [MEInst](meinst.md) showed that it is possible to directly predict the high dim vector per region, but for the entire image mask it is perhaps intractable.**
 
 Semantic segmentation classifies each pixel into a **fixed** number of categories. Instance segmentation has to deal with a **varying** number of instances. That is the biggest challenge. Instance segmentation can be sorted into top down approaches such as Mask RCNN and bottom up approaches such as [Associate Embedding](associative_embedding.md).
 

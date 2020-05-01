@@ -34,5 +34,5 @@ The dynamic filter idea is used in SOLOv2. Matrix NMS is also useful to CondInst
 - Prototype masks are output from C3, thus 1/8 orig resolution. Upsampling by four brings it to half orig resolution. This is critical to good performance. 
 
 #### Notes
-- Questions and notes on how to improve/revise the current work  
+- [Video by Zhi Tian](https://www.techbeat.net/talks/MTU4ODAzMDQ2ODM5NS0zODAtNjk1Mzc=)
 
