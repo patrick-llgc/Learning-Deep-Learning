@@ -29,6 +29,9 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Modern C++ for computer vision](https://www.youtube.com/playlist?list=PLgnQpQtFTOGR50iIOtO36nK6aNPtVq98C)
 - [SLAM by Cyrill Stachniss](https://www.youtube.com/playlist?list=PLgnQpQtFTOGQrZ4O5QzbIHgl3b1JHimN_)
 
+## Talks
+- [Andrej Karpathy's Talks](./talk_notes/andrej.md)
+
 
 ## 2020-05 (0)
 - [Long-Term On-Board Prediction of People in Traffic Scenes under Uncertainty](https://arxiv.org/abs/1711.09026) <kbd>CVPR 2018</kbd> [on-board bbox prediction]
