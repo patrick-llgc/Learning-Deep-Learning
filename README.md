@@ -33,7 +33,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Andrej Karpathy's Talks](./talk_notes/andrej.md)
 
 
-## 2020-05 (0)
+## 2020-05 (2)
 - [Long-Term On-Board Prediction of People in Traffic Scenes under Uncertainty](https://arxiv.org/abs/1711.09026) <kbd>CVPR 2018</kbd> [on-board bbox prediction]
 - [Egocentric Vision-based Future Vehicle Localization for Intelligent Driving Assistance Systems](https://arxiv.org/abs/1809.07408) [[Notes](paper_notes/hevi.md)] [Honda] <kbd>ICRA 2019</kbd>
 - [Unsupervised Traffic Accident Detection in First-Person Videos](https://arxiv.org/abs/1903.00618) <kbd>IROS 2019</kbd> (Honda)
@@ -42,9 +42,12 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Multiple Object Forecasting: Predicting Future Object Locations in Diverse
 Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspective bbox, pedestrian)
 - [PackNet: 3D Packing for Self-Supervised Monocular Depth Estimation](https://arxiv.org/abs/1905.02693) [[Notes](paper_notes/packnet.md)] <kbd>CVPR 2020 oral</kbd>
+- [SpeedNet: Learning the Speediness in Videos](https://arxiv.org/abs/2004.06130) <kbd>CVPR 2020 oral</kbd>
+- [Understanding the Limitations of CNN-based Absolute Camera Pose Regression](https://arxiv.org/abs/1903.07504) [[Notes](paper_notes/understanding_apr.md)] <kbd>CVPR 2019</kbd> [Drawbacks of PoseNet, MapNet]
+- [To Learn or Not to Learn: Visual Localization from Essential Matrices](https://arxiv.org/abs/1908.01293) [[Notes](paper_notes/to_learn_or_not.md)] <kbd>ICRA 2020</kbd>
 - [Towards Better Generalization: Joint Depth-Pose Learning without PoseNet](https://arxiv.org/abs/2004.01314) <kbd>CVPR 2020</kbd>
 - [Semantically-Guided Representation Learning for Self-Supervised Monocular Depth](https://arxiv.org/abs/2002.12319) <kbd>ICLR 2020</kbd> [TRI, infinite-depth problem]
-- [Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty](https://arxiv.org/abs/1906.12340 <kbd>NeurIPS 2019</kbd>
+- [Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty](https://arxiv.org/abs/1906.12340) <kbd>NeurIPS 2019</kbd>
 - [YOLOv4: Optimal Speed and Accuracy of Object Detection](https://arxiv.org/abs/2004.10934)
 - [Stitcher: Feedback-driven Data Provider for Object Detection](https://arxiv.org/abs/2004.12432)
 - [EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/abs/1911.09070) <kbd>CVPR 2020</kbd>
