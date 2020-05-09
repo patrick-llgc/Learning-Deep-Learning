@@ -5,7 +5,7 @@ _May 2020_
 tl;dr: Pose regression algorithm is making interpolation between training data and is still far from being practically relevant.
 
 #### Overall impression
-Previous pose regression algorithms (camera relocalization) can be divided into two categories, APR (absolute pose regression) such as [PoseNet](posenet.md) and MapNet, and RPR (relative pose regression) such as RelocNet, Relative PN, **AnchorNet**. (AnchorNet come closest to structure based approaches). 
+Previous pose regression algorithms (camera relocalization) can be divided into two categories, APR (absolute pose regression) such as [PoseNet](posenet.md) and MapNet, and RPR (relative pose regression) such as RelocNet, Relative PN, **AnchorNet**. (AnchorNet come closest to structure based approaches and lacks generalization). 
 
 Structure based approaches (such as **Active Search**) is still the SOTA for camera relocalization. It uses Root-SIFT features to establish 2D-3D matches. 3D points in a scene and PnP algorithm within a RANSAC loop.
 

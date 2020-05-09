@@ -8,12 +8,13 @@ The summary of the papers read in 2019 can be found [here on Towards Data Scienc
 
 The sections below records paper reading activity in chronological order. See notes organized according to subfields [here](organized.md) (up to 06-2019).
 
-## Source of papers
+## What to read
+### Source of papers
 Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out of papers to read.
 
 The list of resource in this [link](https://autonomous-driving.org/front/resources/) talks about various topics in Autonomous Driving.
 
-## Github repos
+### Github repos
 - [simple-faster-rcnn-pytorch](https://github.com/chenyuntc/simple-faster-rcnn-pytorch/) (2.1k star) [[Notes](code_notes/simple_faster_rcnn.md)]
 - [YOLACT/YOLACT++](https://github.com/dbolya/yolact) (2.1k star)
 - [MonoLoco](https://github.com/vita-epfl/monoloco) (131 star)
@@ -25,12 +26,21 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [3D Lane Dataset](https://github.com/yuliangguo/3D_Lane_Synthetic_Dataset)
 - [MicroGrad](https://github.com/karpathy/micrograd)
 
-## Youtube channels
+### Youtube channels
 - [Modern C++ for computer vision](https://www.youtube.com/playlist?list=PLgnQpQtFTOGR50iIOtO36nK6aNPtVq98C)
 - [SLAM by Cyrill Stachniss](https://www.youtube.com/playlist?list=PLgnQpQtFTOGQrZ4O5QzbIHgl3b1JHimN_)
 
-## Talks
+### Talks
 - [Andrej Karpathy's Talks](./talk_notes/andrej.md)
+
+## My Review Posts by Topics
+- [Monocular 3D Object Detection in Autonomous Driving — A Review](https://towardsdatascience.com/monocular-3d-object-detection-in-autonomous-driving-2476a3c7f57e)
+- [Self-supervised Keypoint Learning — A Review](https://towardsdatascience.com/self-supervised-keypoint-learning-aade18081fc3)
+- [Single Stage Instance Segmentation — A Review](https://towardsdatascience.com/single-stage-instance-segmentation-a-review-1eeb66e0cc49)
+- [Self-paced Multitask Learning — A Review](https://towardsdatascience.com/self-paced-multitask-learning-76c26e9532d0)
+- [Convolutional Neural Networks with Heterogeneous Metadata](https://towardsdatascience.com/convolutional-neural-networks-with-heterogeneous-metadata-2af9241218a9)
+- [Lifting 2D object detection to 3D in autonomous driving](https://towardsdatascience.com/geometric-reasoning-based-cuboid-generation-in-monocular-3d-object-detection-5ee2996270d1)
+- [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 
 
 ## 2020-05 (2)
