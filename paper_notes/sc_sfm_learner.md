@@ -4,6 +4,8 @@ _September 2019_
 
 tl;dr: First paper that demonstrate scale consistency in long video and can achieve better performance than stereo. 
 
+The next step paper is [DF-VO](df_vo.md) which predicts dense optical flow and uses 2D-2D matching to regress ego-motion, achieving even more accurate VO. 
+
 #### Overall impression
 The introduction of depth scale consistency is the key to the good performance on relative pose estimation, and thus enables the VO use. 
 
@@ -11,7 +13,7 @@ The performance of [sfm-learner](sfm_learner.md) is actually not that good on VO
 ![](https://pic2.zhimg.com/80/v2-7425fdf248804f0c900d455ab0de5d51_1440w.jpg)
 
 #### Key ideas
-- Summaries of the key ideas
+- The main idea is simple: to ensure that the depth is consistent across frames. The consistency in depth will lead to scale consistency.
 
 #### Technical details
 - Summary of technical details

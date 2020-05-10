@@ -33,4 +33,5 @@ However, even if we replace the pose regression with 5 pt solver, it still canno
 
 #### Notes
 - 5 pts solver is non-linear. Easier way to do this is using an 8 pts solver which is linear. 
-
+- [EssNet: Convolutional neural network architecture for geometric matching](https://arxiv.org/abs/1703.05593) <kbd>CVPR 2017</kbd>
+- [NC-EssNet: Neighbourhood Consensus Networks](https://arxiv.org/abs/1810.10510) <kbd>NeurIPS 2018</kbd>
