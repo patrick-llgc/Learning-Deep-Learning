@@ -36,7 +36,7 @@ All learning based methods after [SfM-learner](sfm_learner.md) don't explicitly 
 	- leveraging IMU or speedometer ([packnet](packnet.md))
 	- introduce geometric loss ([sc-sfm-learner](sc_sfm_learner.md)).
 - ORB-SLAM2 occasionally suffers from tracking failure or unsuccessful initialization. Thus needs to run 3 times and pick the best one. 
-
+- 36000 training pairs.
 
 #### Notes
 - [Demo video](https://www.youtube.com/watch?v=Nl8mFU4SJKY)
