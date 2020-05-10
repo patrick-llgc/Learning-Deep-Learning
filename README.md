@@ -43,7 +43,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 
 
-## 2020-05 (4)
+## 2020-05 (5)
 - [Egocentric Vision-based Future Vehicle Localization for Intelligent Driving Assistance Systems](https://arxiv.org/abs/1809.07408) [[Notes](paper_notes/hevi.md)] [Honda] <kbd>ICRA 2019</kbd>
 - [Long-Term On-Board Prediction of People in Traffic Scenes under Uncertainty](https://arxiv.org/abs/1711.09026) <kbd>CVPR 2018</kbd> [on-board bbox prediction]
 - [Unsupervised Traffic Accident Detection in First-Person Videos](https://arxiv.org/abs/1903.00618) <kbd>IROS 2019</kbd> (Honda)
@@ -52,11 +52,11 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Multiple Object Forecasting: Predicting Future Object Locations in Diverse
 Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspective bbox, pedestrian)
 - [PackNet: 3D Packing for Self-Supervised Monocular Depth Estimation](https://arxiv.org/abs/1905.02693) [[Notes](paper_notes/packnet.md)] <kbd>CVPR 2020 oral</kbd> [Scale aware]
+- [PackNet-SG: Semantically-Guided Representation Learning for Self-Supervised Monocular Depth](https://arxiv.org/abs/2002.12319) [[Notes](paper_notes/packnet_sg.md)] <kbd>ICLR 2020</kbd> [TRI, infinite-depth problem]
 - [Towards Better Generalization: Joint Depth-Pose Learning without PoseNet](https://arxiv.org/abs/2004.01314) <kbd>CVPR 2020</kbd> [Scale aware]
 - [Understanding the Limitations of CNN-based Absolute Camera Pose Regression](https://arxiv.org/abs/1903.07504) [[Notes](paper_notes/understanding_apr.md)] <kbd>CVPR 2019</kbd> [Drawbacks of PoseNet, MapNet]
 - [To Learn or Not to Learn: Visual Localization from Essential Matrices](https://arxiv.org/abs/1908.01293) [[Notes](paper_notes/to_learn_or_not.md)] <kbd>ICRA 2020</kbd> [SIFT + 5 pt solver]
 - [DF-VO: Visual Odometry Revisited: What Should Be Learnt?](https://arxiv.org/abs/1909.09803) [[Notes](paper_notes/df_vo.md)] <kbd>ICRA 2020</kbd> [Depth and Flow for VO]
-- [Semantically-Guided Representation Learning for Self-Supervised Monocular Depth](https://arxiv.org/abs/2002.12319) <kbd>ICLR 2020</kbd> [TRI, infinite-depth problem]
 - [Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty](https://arxiv.org/abs/1906.12340) <kbd>NeurIPS 2019</kbd>
 - [YOLOv4: Optimal Speed and Accuracy of Object Detection](https://arxiv.org/abs/2004.10934)
 - [Stitcher: Feedback-driven Data Provider for Object Detection](https://arxiv.org/abs/2004.12432)
