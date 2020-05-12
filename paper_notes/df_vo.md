@@ -9,9 +9,9 @@ Solving for relative pose change between frames have two methods: 2D-2D matching
 
 Monocular VO suffer from scale-drift issue, thus VIO. This paper builds on [SC-sfm-learner](sc_sfm_learner.md), which also uses a geometric loss to ensure depth consistency and thus scale consistency.
 
-DL based methods enable camera tracking in challenging conditions but they are not reliable and accurate in favorable conditions where geometry based algorithms is better (such as sufficient illumination and texture, sufficient overlap between frames).
+DL based methods enable camera tracking in challenging conditions but they are not reliable and accurate in favorable conditions where geometry based algorithms is better (such as sufficient illumination and texture, sufficient overlap between frames). 
 
-All learning based methods after [SfM-learner](sfm_learner.md) don't explicitly account for the multiview geometry constraints during inference. 
+All learning based methods after [SfM-learner](sfm_learner.md) don't explicitly account for the multiview geometry constraints during inference. **Hybrid** methods achieves SOTA, such as [DF-VO](df_vo.md) and [D3VO](d3vo.md).
 
 #### Key ideas
 - Optical flow: LiteFlowNet

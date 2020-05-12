@@ -11,6 +11,8 @@ The two major enablers of this research is [scale-consistent sfm Learner](sc_sfm
 
 The main idea seems to be using sparse matched keypoint pairs to perform more accurate (relative) pose estimation. Previously the ego motion is directly regressed from two stacked neighboring images. This leads to much better ego motion estimation.
 
+Both [KP3D](kp3d.md) and [D3VO](d3vo.md) uses DSO as backned, and KP3D reaches on par performance with DVSO while D3VO beats DVSO.
+
 #### Key ideas
 - Some notation convention:
 	- $p_t \in I_t$ keypoints in target image and $p_s \in I_s$ keypoints in source image

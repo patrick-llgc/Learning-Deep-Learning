@@ -5,7 +5,9 @@ _June 2019_
 tl;dr: Three tricks to handle occlusion/dis-occlusion/relatively static objects/static scenes better.
 
 #### Overall impression
-Monodepth is on estimating depth using stereo pairs. This paper digs into videos. It is heavily influenced by the CVPR2017 paper [sfm learner](sfm_learner.md). The changes to losses are surprisingly simple, yet effective. In particular, the selecting of the min of many losses is very similar to the idea in [FSAF](fsaf_detection.md).
+Monodepth is on estimating depth using stereo pairs. This paper digs into videos. It is heavily influenced by the CVPR2017 paper [sfm learner](sfm_learner.md). The changes to losses are surprisingly simple, yet effective. In particular, the selecting of the min of many losses is very similar to the idea in [FSAF](fsaf_detection.md). 
+
+This paper has a very solid code base which has become the foundation of many future works (such as [D3VO](d3vo.md)).
 
 #### Key ideas
 - Per pixel min reprojection loss: at each pixel, instead of averaging the reprojection loss, use the min of loss in all the images. This improves the sharpness of occlusion boundaries.
@@ -20,6 +22,6 @@ Monodepth is on estimating depth using stereo pairs. This paper digs into videos
 locally smooth with an L1 penalty on the disparity gradients ∂d. As depth discontinuities often occur at image gradients, similar to [21], we weight this cost with an edge-aware term using the image gradients ∂I,
 
 #### Notes
-- Using consistency as supervision can be considered to be unsupervised (from the perspective that it does not require manual labels), or self-supervised. This is similar to VAEs.
 - [Codes](https://github.com/nianticlabs/monodepth2)
+- Using consistency as supervision can be considered to be unsupervised (from the perspective that it does not require manual labels), or self-supervised. This is similar to VAEs.
 - Q:  I would expect there are still a lot of pixels in the relatively static object that does not satisfy this requirement and thus are used in the loss. Maybe adding a scaling factor, say, 1.2 (another hyper-parameter) to the RHS of the inequality of Eq. 5 is better in that we are more stringent/conservative in selecting which pixels contribute to the loss. Once we set up the environment we could give it a quick try

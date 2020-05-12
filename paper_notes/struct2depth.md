@@ -11,6 +11,8 @@ The improvement on prediction of depth in dynamic object is amazing. It also pre
 
 The paper's annotation is quite sloppy. I would perhaps need to read the code to understand better.
 
+It directly inspired [depth in the wild](mono_depth_video_in_the_wild.md).
+
 #### Key ideas
 - Segment each dynamic object with Mask RCNN
 - Regress the ego motion of the camera --> essentially visual odometry, Useful to compare with ORB-SLAM
@@ -26,5 +28,4 @@ The paper's annotation is quite sloppy. I would perhaps need to read the code to
 #### Notes
 - Q: Why do they combine the mask of static scenes together to get over all static scene mask V?
 - Q: based on the equation4, $V \cap O_i(S)=\emptyset$ so basically the recombined image should not have any occlusion at all.
-
-
+- [Github code](https://github.com/tensorflow/models/tree/master/research/struct2depth)
