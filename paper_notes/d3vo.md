@@ -20,7 +20,7 @@ VO lacks robustness for low texture area and fast movement. VIO is more robust, 
 Both [KP3D](kp3d.md) and [D3VO](d3vo.md) uses DSO as backned, and KP3D reaches on par performance with DVSO, while D3VO beats DVSO and even achieves comparable to stereo/lidar methods on KITTI odometry. 
 
 #### Key ideas
-- Predicts a **photometric uncertainty map** to capture regions that may violate the brightness constancy assumption (non-lambertian surface, moving objets). This is related to the **flow consistency map** in [DF-VO](df_vo.md) and **explainability mask** in [SfM-learner](sfm_learner.md).
+- Predicts a **photometric uncertainty map** to capture regions that may violate the brightness constancy assumption (non-lambertian surface, moving objets). This is related to the **flow consistency map** in [DF-VO](df_vo.md) and **explainability/occlusion mask** in [SfM-learner](sfm_learner.md).
 - The paper also predicts a brightness transformation parameter (linear scaling) which is critical for some dataset (KITTI is largely stable). 
 - D3VO backend is based on [DSO](dso.md). 
 	- The virtual stereo term optimizes the estimated depth from VO to be consistent with the depth predicted by the proposed deep network.

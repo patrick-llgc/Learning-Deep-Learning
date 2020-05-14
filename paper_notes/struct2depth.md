@@ -18,8 +18,8 @@ It directly inspired [depth in the wild](mono_depth_video_in_the_wild.md).
 - Regress the ego motion of the camera --> essentially visual odometry, Useful to compare with ORB-SLAM
 - Regress motion for every dynamic object --> very nice intermediate result
 - Combines warped and masked 
-- To counter the infinite depth problem, introduce prior size (estimated online) and enforce consistency between estimated depth and calculated with prior.
-- Online refinement method: takes in several frames, improves performance but at some computational cost
+- To counter the infinite depth problem, introduce **prior size (estimated online)** and enforce consistency between estimated depth and calculated with prior.
+- Online refinement method: takes in several frames, improves performance but at some computational cost at the beginning.
 
 
 #### Technical details

@@ -11,7 +11,7 @@ Monocular VO suffer from scale-drift issue, thus VIO. This paper builds on [SC-s
 
 DL based methods enable camera tracking in challenging conditions but they are not reliable and accurate in favorable conditions where geometry based algorithms is better (such as sufficient illumination and texture, sufficient overlap between frames). 
 
-All learning based methods after [SfM-learner](sfm_learner.md) don't explicitly account for the multiview geometry constraints during inference. **Hybrid** methods achieves SOTA, such as [DF-VO](df_vo.md) and [D3VO](d3vo.md).
+All learning based methods after [SfM-learner](sfm_learner.md) don't explicitly account for the multiview geometry constraints during inference. **Hybrid** methods achieves SOTA, such as [DF-VO](df_vo.md) and [D3VO](d3vo.md) and [KP3D](kp3d.md).
 
 #### Key ideas
 - Optical flow: LiteFlowNet
@@ -19,10 +19,11 @@ All learning based methods after [SfM-learner](sfm_learner.md) don't explicitly 
 - Solving essential matrix for camera pose has limitations:
 	- Scale ambiguity
 	- Pure rotation issue and unstable solution under small translation
-- Algorithm framework:
+- Inference framework:
 	- If optical flow >= threshold:
 		- Use dense optical flow and 2D-2D matching to solve for essential matrix. Check cheirality.
 		- Pick points with good bi-directional consistency (forward-backward)
+		- Scale pose to depth. 
 	- Else:
 		- Use depth prediction and solve 2D-3D matching with PnP. 
 - The results outperforms purely DL based methods by a large margin, and even **beat ORB-SLAM2 consistently in relative pose estimation metrics RPE (relative pose error)**.
