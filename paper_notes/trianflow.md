@@ -36,11 +36,13 @@ The knowledge of correspondence (matching) does not have to be learned by PoseNe
 #### Technical details
 - Occlusion map, Mo
 - Flow consistency score map, Ms
+- The recovered pose from optical flow is obtained using [cv2.recoverPose](https://github.com/B1ueber2y/TrianFlow/blob/f8b3e77d172b61b5fb395801f42d2d83e61e3d0d/infer_vo.py#L270) and has [unit length t](https://docs.opencv.org/3.4/d9/d0c/group__calib3d.html#gadb7d2dfcc184c1d2f496d8639f4371c0). 
 - inlier score map, Mr, by computing distance map from each pixel to its corresponding epipolar line. [Implementation of inlier mask in code](https://github.com/B1ueber2y/TrianFlow/blob/f8b3e77d172b61b5fb395801f42d2d83e61e3d0d/core/networks/model_triangulate_pose.py#L54)
 - Angle mask: filter out points close to epipoles. [Implementation of angle mask](https://github.com/B1ueber2y/TrianFlow/blob/f8b3e77d172b61b5fb395801f42d2d83e61e3d0d/core/networks/model_depth_pose.py#L147)
+- During training, the sparse triangulated depth are up to scale, and the depth difference is normalized by the sparse depth value again, and thus **the depth loss is scale invariant**. 
 
 #### Notes
-- Q: the scale normalization is there to ensure a consistent scale between depth and flow, but what ensures a scale consistency across frames? --> This is done in a similar manner to vSLAM?
+- Q: the scale normalization is there to ensure a consistent scale between depth and flow, but what ensures a scale consistency across frames? --> This seems to be learned implicitly by the depth network. Now the depth network only has to focus on learning the relative depth, and the scale consistency seems to be come from the continuity assumption of the network, that a continuous change in image leads to continuous change in depth prediction. But adding the scale consistency loss proposed in [SC-SfM-learner](sc_sfm_learner.md) does not seem to hurt?
 - The paper 
 - During inference, the code actually assumes [depth predictions have consistent scale]() and thus [aligns pose to depth](https://github.com/B1ueber2y/TrianFlow/blob/master/infer_vo.py#L162).	
 
