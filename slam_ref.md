@@ -5,6 +5,10 @@
 - [ORB SLAM简单重构 by 冯兵](https://mp.weixin.qq.com/s?__biz=MzI5MTM1MTQwMw==&mid=2247484455&idx=1&sn=31f7e02cc2761d3a4b5df5514e74c7ad&scene=0#wechat_redirect) and [video on bilibili](https://www.bilibili.com/video/av7102994/)
 - [一个简单的视觉里程计实现(1)](https://web.archive.org/web/20170820141348/http://fengbing.net/2015/07/26/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E8%A7%86%E8%A7%89%E9%87%8C%E7%A8%8B%E8%AE%A1%E5%AE%9E%E7%8E%B01/) and [一个简单的视觉里程计实现(2)](https://web.archive.org/web/20170820141451/http://fengbing.net/2015/07/26/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E8%A7%86%E8%A7%89%E9%87%8C%E7%A8%8B%E8%AE%A1%E5%AE%9E%E7%8E%B02/)
 
+## Python lib for SLAM
+- [g2opy](https://github.com/uoip/g2opy)
+- [pangolin-py](https://github.com/uoip/pangolin)
+
 ## Random lists
 
 （1) orb_slam 官网（网站最后有5篇论文，价值很高）
