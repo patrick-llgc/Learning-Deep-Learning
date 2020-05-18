@@ -65,7 +65,6 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume](https://arxiv.org/abs/1709.02371) <kbd>CVPR 2018 oral</kbd> [Optical flow]
 - [LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation](https://arxiv.org/abs/1805.07036) <kbd>CVPR 2018</kbd> [Optical flow]
 - [FlowNet: Learning Optical Flow With Convolutional Networks](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Dosovitskiy_FlowNet_Learning_Optical_ICCV_2015_paper.pdf) <kbd>ICCV 2015</kbd> [Optical flow]
-- [Key Points and Descriptors](paper_notes/classical_kp.md)
 - [Probabilistic Face Embeddings](https://arxiv.org/abs/1904.09658) <kbd>ICCV 2019</kbd>
 - [Data Uncertainty Learning in Face Recognition](https://arxiv.org/abs/2003.11339) <kbd>CVPR 2020</kbd>
 - [ATSS: Bridging the Gap Between Anchor-based and Anchor-free Detection via Adaptive Training Sample Selection](https://arxiv.org/abs/1912.02424) <kbd>CVPR 2020 oral</kbd>
@@ -627,6 +626,7 @@ Here is the list of papers waiting to be read.
 
 
 ## Technical Debt
+- [Review Notes of Classical Key Points and Descriptors](paper_notes/classical_keypoints.md)
 - CRF
 - [Visual SLAM and Visual Odometry](https://link.springer.com/content/pdf/10.1007%2Fs40903-015-0032-7.pdf)
 - ORB SLAM
