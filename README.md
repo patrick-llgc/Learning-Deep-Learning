@@ -15,16 +15,18 @@ Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out o
 The list of resource in this [link](https://autonomous-driving.org/front/resources/) talks about various topics in Autonomous Driving.
 
 ### Github repos
-- [simple-faster-rcnn-pytorch](https://github.com/chenyuntc/simple-faster-rcnn-pytorch/) (2.1k star) [[Notes](code_notes/simple_faster_rcnn.md)]
-- [YOLACT/YOLACT++](https://github.com/dbolya/yolact) (2.1k star)
-- [MonoLoco](https://github.com/vita-epfl/monoloco) (131 star)
-- [A Baseline for 3D Multi-Object Tracking](https://github.com/xinshuoweng/AB3DMOT) (548 star)
+- [simple-faster-rcnn-pytorch](https://github.com/chenyuntc/simple-faster-rcnn-pytorch/) (2.1k stars) [[Notes](code_notes/simple_faster_rcnn.md)]
+- [YOLACT/YOLACT++](https://github.com/dbolya/yolact) (2.1k stars)
+- [MonoLoco](https://github.com/vita-epfl/monoloco) (131 stars)
+- [A Baseline for 3D Multi-Object Tracking](https://github.com/xinshuoweng/AB3DMOT) (548 stars)
 - [ROLO: recurrent YOLO](https://github.com/Guanghan/ROLO)
 - [point rend](https://github.com/facebookresearch/detectron2/tree/master/projects/PointRend/point_rend)
 - [Carla data export](https://github.com/Ozzyz/carla-data-export)
 - [openpilot](https://github.com/commaai/openpilot/blob/devel/selfdrive/modeld/models/driving.cc)
 - [3D Lane Dataset](https://github.com/yuliangguo/3D_Lane_Synthetic_Dataset)
 - [MicroGrad](https://github.com/karpathy/micrograd)
+- [OpenVSLAM](https://github.com/xdspacelab/openvslam) (2.3k stars)
+- [ORB SLAM2](https://github.com/raulmur/ORB_SLAM2) and [Docker version](https://github.com/yuyou/ORB_SLAM2#build-docker-image)
 
 ### Youtube channels
 - [Modern C++ for computer vision](https://www.youtube.com/playlist?list=PLgnQpQtFTOGR50iIOtO36nK6aNPtVq98C)
@@ -58,10 +60,12 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [To Learn or Not to Learn: Visual Localization from Essential Matrices](https://arxiv.org/abs/1908.01293) [[Notes](paper_notes/to_learn_or_not.md)] <kbd>ICRA 2020</kbd> [SIFT + 5 pt solver >> others for VO]
 - [DF-VO: Visual Odometry Revisited: What Should Be Learnt?](https://arxiv.org/abs/1909.09803) [[Notes](paper_notes/df_vo.md)] <kbd>ICRA 2020</kbd> [Depth and Flow for accurate VO]
 - [D3VO: Deep Depth, Deep Pose and Deep Uncertainty for Monocular Visual Odometry](https://arxiv.org/abs/2003.01060) [[Notes](paper_notes/d3vo.md)] <kbd>CVPR 2020 oral</kbd> [Daniel Cremer, TUM]
+- [Network Slimming: Learning Efficient Convolutional Networks through Network Slimming](https://arxiv.org/abs/1708.06519) [[Notes](paper_notes/network_slimming.md)] <kbd>ICCV 2017</kbd>
 - [Direct Sparse Odometry](https://arxiv.org/abs/1607.02565) <kbd>PAMI 2018</kbd>
 - [PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume](https://arxiv.org/abs/1709.02371) <kbd>CVPR 2018 oral</kbd> [Optical flow]
 - [LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation](https://arxiv.org/abs/1805.07036) <kbd>CVPR 2018</kbd> [Optical flow]
 - [FlowNet: Learning Optical Flow With Convolutional Networks](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Dosovitskiy_FlowNet_Learning_Optical_ICCV_2015_paper.pdf) <kbd>ICCV 2015</kbd> [Optical flow]
+- [Key Points and Descriptors](paper_notes/classical_kp.md)
 - [Probabilistic Face Embeddings](https://arxiv.org/abs/1904.09658) <kbd>ICCV 2019</kbd>
 - [Data Uncertainty Learning in Face Recognition](https://arxiv.org/abs/2003.11339) <kbd>CVPR 2020</kbd>
 - [ATSS: Bridging the Gap Between Anchor-based and Anchor-free Detection via Adaptive Training Sample Selection](https://arxiv.org/abs/1912.02424) <kbd>CVPR 2020 oral</kbd>

@@ -1,11 +1,11 @@
-# [Pruning Filters for Efficient ConvNets](https://arxiv.org/pdf/1608.08710.pdf) 
+# [Pruning Filters for Efficient ConvNets](https://arxiv.org/abs/1608.08710) 
 
 _May 2019_
 
 tl;dr: Pruning filters instead of sparsely pruning weight for efficient inference.
 
 #### Overall impression
-This is one of the first paper in model pruning (with ~400 citation as of 05/21/2019).
+This is one of the first paper in model pruning (with ~400 citation as of 05/21/2019, and ~800 as of 05/17/2020).
 
 #### Key ideas
 - Magnitude based pruning with L1 norm (the authors commented that L2 norm yields similar results).
