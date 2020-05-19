@@ -7,11 +7,13 @@ tl;dr: FCOS leverages all pixels in the bbox for regression, instead of just the
 #### Overall impression
 This paper is littered with hidden gems! Lots of tricks and insights on training neural nets or architecture design. The paper assumes bbox annotation. If mask is also available, then we could use only the pixels in the mask to perform regression.
 
-The idea is similar to [CenterNet](centernet_ut.md). CenterNet uses only the points near the center and regresses the height and width, whereas FCOS uses all the points in the bbox and regresses all distances to four edges.
+The idea is similar to [CenterNet](centernet_ut.md). CenterNet uses only the points near the center and regresses the height and width, whereas FCOS uses all the points in the bbox and regresses all distances to four edges. **FCOS does not predict centers of bbox using keypoints heatmap but rather uses anchor free methods.**
 
 I personally feel this paper is better than centernet in the sense that it does not need too much bells and whistles to achieve the same performance. 
 
 It is extended to [PolarMask](polarmask.md) for one-stage instance segmentation.
+
+The paper inspired [ATSS](atss.md) which explained why FCOS can achieve better performance than RetinaNet.
 
 #### Key ideas
 - Proposal free and anchor free, significantly reduces the number of design parameters.
@@ -24,7 +26,7 @@ It is extended to [PolarMask](polarmask.md) for one-stage instance segmentation.
 
 
 #### Technical details
-- Even for RetinaNet, using GN instead of BN helps a lot
+- Even for RetinaNet, using GN instead of BN helps a lot.
 - For always positive regression target, reparameterize as exp(x) and regress x from neural network. Use exp(x) in the loss function.
 - Use cross entropy loss to regress loss for prediction and target in [0, 1].
 - Share the same head across regions but to align the regression target range, regress exp(sx) instead of x. In the original FPN and RetinaNet paper, this is not an issue as the regression target are all relative to w and h. 
