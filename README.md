@@ -27,6 +27,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [MicroGrad](https://github.com/karpathy/micrograd)
 - [OpenVSLAM](https://github.com/xdspacelab/openvslam) (2.3k stars)
 - [ORB SLAM2](https://github.com/raulmur/ORB_SLAM2) and [Docker version](https://github.com/yuyou/ORB_SLAM2#build-docker-image)
+- [PySLAM v2](https://github.com/luigifreda/pyslam)
 
 ### Youtube channels
 - [Modern C++ for computer vision](https://www.youtube.com/playlist?list=PLgnQpQtFTOGR50iIOtO36nK6aNPtVq98C)
@@ -65,6 +66,8 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume](https://arxiv.org/abs/1709.02371) <kbd>CVPR 2018 oral</kbd> [Optical flow]
 - [LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation](https://arxiv.org/abs/1805.07036) <kbd>CVPR 2018</kbd> [Optical flow]
 - [FlowNet: Learning Optical Flow With Convolutional Networks](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Dosovitskiy_FlowNet_Learning_Optical_ICCV_2015_paper.pdf) <kbd>ICCV 2015</kbd> [Optical flow]
+- [Train in Germany, Test in The USA: Making 3D Object Detectors Generalize](https://arxiv.org/abs/2005.08139) [[Notes](paper_notes/train_in_germany.md)] <kbd>CVPR 2020</kbd>
+- [PseudoLidarV3: End-to-End Pseudo-LiDAR for Image-Based 3D Object Detection](https://arxiv.org/abs/2004.03080) [[Notes](paper_notes/pseudo_lidar_v3.md)] <kbd>CVPR 2020</kbd>
 - [ATSS: Bridging the Gap Between Anchor-based and Anchor-free Detection via Adaptive Training Sample Selection](https://arxiv.org/abs/1912.02424) [[Notes](paper_notes/atss.md)] <kbd>CVPR 2020 oral</kbd>
 - [YOLOv4: Optimal Speed and Accuracy of Object Detection](https://arxiv.org/abs/2004.10934)
 - [Stitcher: Feedback-driven Data Provider for Object Detection](https://arxiv.org/abs/2004.12432)
@@ -128,6 +131,11 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Exploiting Sparse Semantic HD Maps for Self-Driving Vehicle Localization](https://arxiv.org/abs/1908.03274) <kbd>IROS 2019 oral</kbd> [Uber ATG, metadata, localization]
 - [Ad推荐系统方向文章汇总](https://github.com/wzhe06/Ad-papers)
 - [SpeedNet: Learning the Speediness in Videos](https://arxiv.org/abs/2004.06130) <kbd>CVPR 2020 oral</kbd>
+- [End-to-End Lane Marker Detection via Row-wise Classification](https://arxiv.org/abs/2005.08630) [Qualcomm Korea]
+- [Exploring the Capabilities and Limits of 3D Monocular Object Detection -- A Study on Simulation and Real World Data](https://arxiv.org/abs/2005.07424) <kbd>IITS</kbd>
+- [SUPER: A Novel Lane Detection System](https://arxiv.org/abs/2005.07277)
+- [On the uncertainty of self-supervised monocular depth estimation](https://arxiv.org/abs/2005.06209) <kbd>CVPR 2020</kbd>
+- [PSDet: Efficient and Universal Parking Slot Detection](https://arxiv.org/abs/2005.05528) <kbd>IV 2020</kbd>
 
 ## 2020-04 (13)
 - [ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst](https://arxiv.org/pdf/1812.03079.pdf) [[Notes](paper_notes/chauffeurnet.md)] <kbd>RSS 2019</kbd> [Waymo]
