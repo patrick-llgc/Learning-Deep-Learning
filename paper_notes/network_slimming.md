@@ -7,6 +7,8 @@ tl;dr: Channel pruning by learning with L1 sparse constraint on batch norm.
 #### Overall impression
 This paper proposes a simple idea of gamma (channel scaling factor) decay. It adds a L1 sparse constraint on BN scale parameter gamma. During inference time, when gamma is smaller than a global threshold, set the entire channel to zero.
 
+The work is concurrent with [batchnorm pruning](batchnorm_pruning.md) which has a very similar idea.
+
 #### Key ideas
 - Advantages of network slimming:
 	- No need to change architecture. Recycles the parameters in BN. 
