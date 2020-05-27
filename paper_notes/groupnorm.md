@@ -1,11 +1,13 @@
-# [Paper](link)
+# [Group Normalization](https://arxiv.org/pdf/1803.08494.pdf)
 
 _Mar 2019_
 
-tl;dr: Summary of the main idea.
+tl;dr: Improve batch normalization when batch size is small.
 
 #### Overall impression
 Describe the overall impression of the paper. 
+
+![](https://miro.medium.com/max/1067/1*ETvcPhYH1lCfXndMiKW-jQ.png)
 
 #### Key ideas
 - Summaries of the key ideas
