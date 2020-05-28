@@ -16,9 +16,10 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 
 ### Github repos
 - [simple-faster-rcnn-pytorch](https://github.com/chenyuntc/simple-faster-rcnn-pytorch/) (2.1k stars) [[Notes](code_notes/simple_faster_rcnn.md)]
-- [YOLACT/YOLACT++](https://github.com/dbolya/yolact) (2.1k stars)
-- [MonoLoco](https://github.com/vita-epfl/monoloco) (131 stars)
-- [A Baseline for 3D Multi-Object Tracking](https://github.com/xinshuoweng/AB3DMOT) (548 stars)
+- [YOLACT/YOLACT++](https://github.com/dbolya/yolact) [2.1k stars]
+- [Yolov3 ultralytic](https://github.com/ultralytics/yolov3) [4.7k stars]
+- [MonoLoco](https://github.com/vita-epfl/monoloco) [131 stars]
+- [A Baseline for 3D Multi-Object Tracking](https://github.com/xinshuoweng/AB3DMOT) [548 stars]
 - [ROLO: recurrent YOLO](https://github.com/Guanghan/ROLO)
 - [point rend](https://github.com/facebookresearch/detectron2/tree/master/projects/PointRend/point_rend)
 - [Carla data export](https://github.com/Ozzyz/carla-data-export)
@@ -70,6 +71,8 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Train in Germany, Test in The USA: Making 3D Object Detectors Generalize](https://arxiv.org/abs/2005.08139) [[Notes](paper_notes/train_in_germany.md)] <kbd>CVPR 2020</kbd>
 - [PseudoLidarV3: End-to-End Pseudo-LiDAR for Image-Based 3D Object Detection](https://arxiv.org/abs/2004.03080) [[Notes](paper_notes/pseudo_lidar_v3.md)] <kbd>CVPR 2020</kbd>
 - [ATSS: Bridging the Gap Between Anchor-based and Anchor-free Detection via Adaptive Training Sample Selection](https://arxiv.org/abs/1912.02424) [[Notes](paper_notes/atss.md)] <kbd>CVPR 2020 oral</kbd>
+- [Distance-IoU Loss: Faster and Better Learning for Bounding Box Regression](https://arxiv.org/abs/1911.08287) <kbd>AAAI 2020</kbd>
+- [Enhancing Geometric Factors in Model Learning and Inference for Object Detection and Instance Segmentation](https://arxiv.org/abs/2005.03572) [Journal version]
 - [YOLOv4: Optimal Speed and Accuracy of Object Detection](https://arxiv.org/abs/2004.10934) [[Notes](paper_notes/yolov4.md)]
 - [CBN: Cross-Iteration Batch Normalization](https://arxiv.org/abs/2002.05712) [[Notes](paper_notes/cbn.md)]
 - [Stitcher: Feedback-driven Data Provider for Object Detection](https://arxiv.org/abs/2004.12432)
