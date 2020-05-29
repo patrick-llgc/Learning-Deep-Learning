@@ -75,7 +75,7 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Enhancing Geometric Factors in Model Learning and Inference for Object Detection and Instance Segmentation](https://arxiv.org/abs/2005.03572) [Journal version]
 - [YOLOv4: Optimal Speed and Accuracy of Object Detection](https://arxiv.org/abs/2004.10934) [[Notes](paper_notes/yolov4.md)]
 - [CBN: Cross-Iteration Batch Normalization](https://arxiv.org/abs/2002.05712) [[Notes](paper_notes/cbn.md)]
-- [Stitcher: Feedback-driven Data Provider for Object Detection](https://arxiv.org/abs/2004.12432)
+- [Stitcher: Feedback-driven Data Provider for Object Detection](https://arxiv.org/abs/2004.12432) [[Notes](paper_notes/stitcher.md)]
 - [Selective Kernel Networks](https://arxiv.org/abs/1903.06586) <kbd>CVPR 2019</kbd>
 - [CBAM: Convolutional Block Attention Module](https://arxiv.org/abs/1807.06521) [[Notes](paper_notes/cbam.md)] <kbd>ECCV 2018</kbd> 
 - [EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/abs/1911.09070) <kbd>CVPR 2020</kbd>
