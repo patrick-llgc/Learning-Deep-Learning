@@ -76,9 +76,10 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [YOLOv4: Optimal Speed and Accuracy of Object Detection](https://arxiv.org/abs/2004.10934) [[Notes](paper_notes/yolov4.md)]
 - [CBN: Cross-Iteration Batch Normalization](https://arxiv.org/abs/2002.05712) [[Notes](paper_notes/cbn.md)]
 - [Stitcher: Feedback-driven Data Provider for Object Detection](https://arxiv.org/abs/2004.12432)
+- [Selective Kernel Networks](https://arxiv.org/abs/1903.06586) <kbd>CVPR 2019</kbd>
 - [CBAM: Convolutional Block Attention Module](https://arxiv.org/abs/1807.06521) [[Notes](paper_notes/cbam.md)] <kbd>ECCV 2018</kbd> 
 - [EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/abs/1911.09070) <kbd>CVPR 2020</kbd>
-- [ResNeSt: Split-Attention Networks](https://arxiv.org/abs/2004.08955)
+- [ResNeSt: Split-Attention Networks](https://arxiv.org/abs/2004.08955) [[Notes](paper_notes/resnest.md)]
 - [ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks](https://arxiv.org/abs/1908.03930) <kbd>ICCV 2019</kbd>
 - [Probabilistic Face Embeddings](https://arxiv.org/abs/1904.09658) <kbd>ICCV 2019</kbd>
 - [Data Uncertainty Learning in Face Recognition](https://arxiv.org/abs/2003.11339) <kbd>CVPR 2020</kbd>
