@@ -21,5 +21,5 @@ The inclusion of dense optical flow improves results hugely. Incorporation of fu
 - HEVI classifies tracklets as easy and hard. Easy can be predicted with a **constant acceleration** model with lower than average error. 
 
 #### Notes
-- Questions and notes on how to improve/revise the current work  
+- This is quite similar to [Nvidia's demo](https://www.youtube.com/watch?v=OT_MxopvfQ0) (see also [blog here](https://blogs.nvidia.com/blog/2019/05/22/drive-labs-predicting-future-motion/?ncid=so-you-t7-90294)).
 

@@ -48,8 +48,14 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 
 ## 2020-06 (1)
 - [PIE: A Large-Scale Dataset and Models for Pedestrian Intention Estimation and Trajectory Prediction](http://openaccess.thecvf.com/content_ICCV_2019/papers/Rasouli_PIE_A_Large-Scale_Dataset_and_Models_for_Pedestrian_Intention_Estimation_ICCV_2019_paper.pdf) [[Notes](paper_notes/pie.md)] <kbd>ICCV 2019</kbd>
+- [JAAD: Are They Going to Cross? A Benchmark Dataset and Baseline for Pedestrian
+Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w3/Rasouli_Are_They_Going_ICCV_2017_paper.pdf) <kbd>ICCV 2019</kbd>
+- [Pedestrian Action Anticipation using Contextual Feature Fusion in Stacked RNNs](https://bmvc2019.org/wp-content/uploads/papers/0283-paper.pdf) <kbd>BMVC 2019</kbd>
+- [Is the Pedestrian going to Cross? Answering by 2D Pose Estimation](https://arxiv.org/abs/1807.10580) <kbd>IV 2018</kbd>
 - [Attentive Single-Tasking of Multiple Tasks](https://arxiv.org/abs/1904.08918) <kbd>CVPR 2019</kbd>
-- [DETR:End-to-End Object Detection with Transformers](https://arxiv.org/abs/2005.12872) [FAIR]
+- [DETR: End-to-End Object Detection with Transformers](https://arxiv.org/abs/2005.12872) [[Notes](paper_notes/detr.md)] [FAIR]
+- [Transformer: Attention Is All You Need](https://arxiv.org/abs/1706.03762) [[Notes](paper_notes/transformer.md)] <kbd>NIPS 2017</kbd>
+
 
 ## 2020-05 (18)
 - [Egocentric Vision-based Future Vehicle Localization for Intelligent Driving Assistance Systems](https://arxiv.org/abs/1809.07408) [[Notes](paper_notes/hevi.md)] [Honda] <kbd>ICRA 2019</kbd>

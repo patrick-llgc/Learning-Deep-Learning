@@ -21,6 +21,7 @@ The key question is "does this pedestrian **want** to cross the street?"
 - Inter-rater consistency is high. 
 - Humans are good at telling if a pedestrian is going to cross. There are 2/1800 (0.1%) samples that crossed the street but the annotators indicate otherwise. 
 - LSTM is used for intention and trajectory prediction.
+- The trajectory prediction is onboard bbox prediction similar to [hevi](hevi.md) and [Nvidia's demo](https://www.youtube.com/watch?v=OT_MxopvfQ0).
 
 #### Technical details
 - Uses AMT to gather 10 annotations per video clip. 

@@ -1,4 +1,4 @@
-# [An intriguing failing of convolutional neural networks and the CoordConv solution](https://arxiv.org/abs/1807.03247)
+# [CoordConv: An intriguing failing of convolutional neural networks and the CoordConv solution](https://arxiv.org/abs/1807.03247)
 
 _August 2019_
 
