@@ -11,6 +11,8 @@ The concatenation of images may introduce more compuation than LSTM, but itself 
 
 IntentNet somewhat inspired [MultiPath](multipath.md) but IntentNet's loss only predict one path instead of one path per intent, making IntentNet unsuitable for multimodal prediction.
 
+IntentNet uses intention estimation to help trajectory prediction, similar to [pedestrian intention prediction](pie.md).
+
 #### Key ideas
 - Map info rendered as 17-channel binary BEV map. 
 - Architecture: Late fusion of map and lidar (first 3 blocks split, with the last block concatenated)

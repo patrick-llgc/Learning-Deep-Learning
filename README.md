@@ -48,6 +48,8 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 
 ## 2020-06 (1)
 - [PIE: A Large-Scale Dataset and Models for Pedestrian Intention Estimation and Trajectory Prediction](http://openaccess.thecvf.com/content_ICCV_2019/papers/Rasouli_PIE_A_Large-Scale_Dataset_and_Models_for_Pedestrian_Intention_Estimation_ICCV_2019_paper.pdf) [[Notes](paper_notes/pie.md)] <kbd>ICCV 2019</kbd>
+- [Attentive Single-Tasking of Multiple Tasks](https://arxiv.org/abs/1904.08918) <kbd>CVPR 2019</kbd>
+- [DETR:End-to-End Object Detection with Transformers](https://arxiv.org/abs/2005.12872) [FAIR]
 
 ## 2020-05 (18)
 - [Egocentric Vision-based Future Vehicle Localization for Intelligent Driving Assistance Systems](https://arxiv.org/abs/1809.07408) [[Notes](paper_notes/hevi.md)] [Honda] <kbd>ICRA 2019</kbd>
@@ -72,7 +74,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [YOLOv4: Optimal Speed and Accuracy of Object Detection](https://arxiv.org/abs/2004.10934) [[Notes](paper_notes/yolov4.md)]
 - [CBN: Cross-Iteration Batch Normalization](https://arxiv.org/abs/2002.05712) [[Notes](paper_notes/cbn.md)]
 - [Stitcher: Feedback-driven Data Provider for Object Detection](https://arxiv.org/abs/2004.12432) [[Notes](paper_notes/stitcher.md)]
-- [SKNet: Selective Kernel Networks](https://arxiv.org/abs/1903.06586) <kbd>CVPR 2019</kbd>
+- [SKNet: Selective Kernel Networks](https://arxiv.org/abs/1903.06586) [[Notes](paper_notes/sknet.md)] <kbd>CVPR 2019</kbd>
 - [CBAM: Convolutional Block Attention Module](https://arxiv.org/abs/1807.06521) [[Notes](paper_notes/cbam.md)] <kbd>ECCV 2018</kbd> 
 - [EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/abs/1911.09070) <kbd>CVPR 2020</kbd>
 - [ResNeSt: Split-Attention Networks](https://arxiv.org/abs/2004.08955) [[Notes](paper_notes/resnest.md)]
