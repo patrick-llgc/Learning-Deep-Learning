@@ -23,12 +23,13 @@ However, even if we replace the pose regression with 5 pt solver, it still canno
 	- Current SOTA of visual localization is based on 3D information. The representation are scene-specific and do not generalize to unseen scenes. 
 - Indirect approach:
 	- A more flexible way is relative pose estimation based on image retrieval first. This involves building a dataset based on posed images. It is more scalable and generalizable. The image retrieval can be done efficiently with compact image level descriptors (such as [Dense-VLAD](http://openaccess.thecvf.com/content_cvpr_2015/papers/Torii_247_Place_Recognition_2015_CVPR_paper.pdf) <kbd>CVPR 2015</kbd>). 
-- Regressing R and t direclty needs finetuning hyperparameters to balance the two loss terms based on different scenes (outdoor vs indoors). Regressing essential matrix naturally handles this issue. 
+- Regressing R and t direclty needs finetuning hyperparameters to balance the two loss terms based on different scenes (outdoor vs indoors). Regressing essential matrix naturally handles this issue. It is a natural way to weigh the various loss function depending on the final metric. (cf. [SMOKE](smoke.md))
+	- This perhaps can be extended to still regressing the quaternion and translation vectors but construct an essential matrix and compare with gt. This way we don't have to worry about projecting the predicted matrix to the manifold of essential matrix afterwards. d
 
 #### Technical details
-- Interpolating pose based on Nearest neighbor does not have the best results. The scenes have to be a min dist apart to avoid too much correlation. The paper starts with top ranked images and picks images within [3, 50] meters to all previous selected image for *outdoor* scenes. 
+- Interpolating pose based on Nearest neighbor does not have the best results. The scenes have to be a min distance apart to avoid too much correlation. The paper starts with top ranked images and picks images within [3, 50] meters to all previous selected image for *outdoor* scenes. 
 - Autonomous driving is largely planar motion and should be easier than a full blown 6 DoF localization.
-- The essential matrix is regressed with a FC layer and may not be valid. The DLA regressed E matrix is then proejcted to a valid essential matrix space by replacing the first two singlular values by their mean and set the smallest singular value to 0. $\Sigma = diag(\sigma_1, \sigma_2, \sigma_3) \rightarrow diag(1, 1, 0)$. 
+- The essential matrix is regressed with a FC layer and may not be valid. The DLA regressed E matrix is then projected to a valid essential matrix space (manifold) by replacing the first two singular values by their mean and set the smallest singular value to 0. $\Sigma = diag(\sigma_1, \sigma_2, \sigma_3) \rightarrow diag(1, 1, 0)$. 
 - Absolute pose estimation is scene specific as it depends on the coordinate system used. 
 
 #### Notes
