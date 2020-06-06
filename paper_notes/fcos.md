@@ -7,7 +7,7 @@ tl;dr: FCOS leverages all pixels in the bbox for regression, instead of just the
 #### Overall impression
 This paper is littered with hidden gems! Lots of tricks and insights on training neural nets or architecture design. The paper assumes bbox annotation. If mask is also available, then we could use only the pixels in the mask to perform regression.
 
-The idea is similar to [CenterNet](centernet_ut.md). CenterNet uses only the points near the center and regresses the height and width, whereas FCOS uses all the points in the bbox and regresses all distances to four edges. **FCOS does not predict centers of bbox using keypoints heatmap but rather uses anchor free methods.**
+The idea is similar to [CenterNet](centernet.md). CenterNet uses only the points near the center and regresses the height and width, whereas FCOS uses all the points in the bbox and regresses all distances to four edges. **FCOS does not predict centers of bbox using keypoints heatmap but rather uses anchor free methods.**
 
 I personally feel this paper is better than centernet in the sense that it does not need too much bells and whistles to achieve the same performance. 
 

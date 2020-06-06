@@ -5,7 +5,7 @@ _October 2019_
 tl;dr: CenterNet like structure to directly regress 26 attributes per object to fit a 3D bbox. 
 
 #### Overall impression
-The paper uses a [CenterNet](centernet_ut.md) architecture to regress bounding boxes. The support region is like the Gaussian kernel at the center of the object. The donut region surrounding the kernel is "don't care" region.
+The paper uses a [CenterNet](centernet.md) architecture to regress bounding boxes. The support region is like the Gaussian kernel at the center of the object. The donut region surrounding the kernel is "don't care" region.
 
 The algorithm requires 3D GT in the first place, and requires accurate intrinsics. (KITTI 3D bbox GT is given in camera coordinate, thus extrinsics does not matter.)
 

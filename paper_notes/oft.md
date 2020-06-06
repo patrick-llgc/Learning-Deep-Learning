@@ -5,14 +5,14 @@ _July 2019_
 tl;dr: Learn a projection of camera image to BEV for 3D object detection.
 
 #### Overall impression
-This paper is brilliant! It combines several key innovations in the past year: camera to BEV projection (similar to [pseudo-lidar](pseudo_lidar.md)), and anchor-free object detection (similar to [CenterNet](centernet_ut.md)).
+This paper is brilliant! It combines several key innovations in the past year: camera to BEV projection (similar to [pseudo-lidar](pseudo_lidar.md)), and anchor-free object detection (similar to [CenterNet](centernet.md)).
 
 However the way of reprojection without depth estimation perhaps limited the performance of the model, which is significantly below that of [MLF](mlf.md) and [pseudo-lidar](pseudo_lidar.md). For simple depth estimation and 3D reasoning using 2bbox and CV, refer to [Deep3dBox](deep3dbox.md) and [MonoPSR](monopsr.md).
 
 The network does not require explicit info about intrinsics, but rather learns the constant mapping. That is why extensive augmentation was required to do this. --> why not injecting intrinsics implicitly?
 
 #### Key ideas
-- [CenterNet](centernet_ut.md)-like Detection pipeline. 
+- [CenterNet](centernet.md)-like Detection pipeline. 
 	- regress object center
 	- regress center offset, size and orientation (cos and sin)
 - NMS of object center in confidence map to find local maximum. 

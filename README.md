@@ -57,8 +57,10 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [Transformer: Attention Is All You Need](https://arxiv.org/abs/1706.03762) [[Notes](paper_notes/transformer.md)] <kbd>NIPS 2017</kbd>
 - [On the uncertainty of self-supervised monocular depth estimation](https://arxiv.org/abs/2005.06209) <kbd>CVPR 2020</kbd>
 - [MonoPair: Monocular 3D Object Detection Using Pairwise Spatial Relationships](https://arxiv.org/abs/2003.00504) [[Notes](paper_notes/monopair.md)] <kbd>CVPR 2020</kbd> [Mono3D]
-- [SMOKE: Single-Stage Monocular 3D Object Detection via Keypoint Estimation](https://arxiv.org/abs/2002.10111) [Mono3D]
+- [SMOKE: Single-Stage Monocular 3D Object Detection via Keypoint Estimation](https://arxiv.org/abs/2002.10111) [[Notes](paper_notes/smoke.md)] [Mono3D, Zongmu]
+- [PSDet: Efficient and Universal Parking Slot Detection](https://arxiv.org/abs/2005.05528) <kbd>IV 2020</kbd> [Zongmu]
 - [Towards Good Practice for CNN-Based Monocular Depth Estimation](http://openaccess.thecvf.com/content_WACV_2020/papers/Fang_Towards_Good_Practice_for_CNN-Based_Monocular_Depth_Estimation_WACV_2020_paper.pdf) <kbd>WACV 2020</kbd>
+- [ZoomNet: Part-Aware Adaptive Zooming Neural Network for 3D Object Detection](https://arxiv.org/abs/2003.00529) <kbd>AAAI 2020 oral</kbd> [mono3D] 
 
 ## 2020-05 (19)
 - [Egocentric Vision-based Future Vehicle Localization for Intelligent Driving Assistance Systems](https://arxiv.org/abs/1809.07408) [[Notes](paper_notes/hevi.md)] [Honda] <kbd>ICRA 2019</kbd>
@@ -657,7 +659,6 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 
 ### Beyond Perception in Autonomous Driving
 - [Uncertainty Guided Multi-Scale Residual Learning-using a Cycle Spinning CNN for Single Image De-Raining](https://arxiv.org/abs/1906.11129) <kbd>CVPR 2019</kbd>
-- [PSDet: Efficient and Universal Parking Slot Detection](https://arxiv.org/abs/2005.05528) <kbd>IV 2020</kbd>
 - [Learn to Combine Modalities in Multimodal Deep Learning](https://arxiv.org/abs/1805.11730) (sensor fusion, general DL)
 - [Safe Trajectory Generation For Complex Urban Environments Using Spatio-temporal Semantic Corridor](https://arxiv.org/abs/1906.09788) <kbd>LRA 2019</kbd> [Motion planning]
 - [DAgger: Driving Policy Transfer via Modularity and Abstraction](https://arxiv.org/abs/1804.09364) <kbd>CoRL 2018</kbd> [DAgger, Immitation Learning]

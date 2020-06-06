@@ -11,7 +11,7 @@ Semantic segmentation classifies each pixel into a **fixed** number of categorie
 
 The **decoupled SOLO** idea is fabulous and I think is partially inspired by [YOLACT](yolact.md) by predicting prototype 2S masks.
 
-This paper can be seen as an extension to the anchor-free object detection, such as [FCOS](fcos.md) and [CenterNet](centernet_ut.md), but with the important trick of reshaping the tensor. <-- See discussion in [TensorMask](tensormask.md).
+This paper can be seen as an extension to the anchor-free object detection, such as [FCOS](fcos.md) and [CenterNet](centernet.md), but with the important trick of reshaping the tensor. <-- See discussion in [TensorMask](tensormask.md).
 
 Direct spatial2channel leads to spatial alignment too poor to guarantee good mask quality. (see natural representation in [TensorMask](tensormask.md)). However it should be enough to guarantee the SxS order. 
 
@@ -21,7 +21,7 @@ Direct spatial2channel leads to spatial alignment too poor to guarantee good mas
 - **Dice loss** to balance small and large masks. It leads to better performance than cross entropy or focal loss.
 - **CoordConv** to introduce spatial variance. (But why?)
 - Architecture
-	- Center category: similar to [CenterNet](centernet_ut.md) but on a coarser grid.
+	- Center category: similar to [CenterNet](centernet.md) but on a coarser grid.
 	- Mask category: for each positive grid, it corresponds to a channel in the HxW size feature map. 
 - **Decoupled SOLO**: Predicting $S \times S$ mask is heavy. Instead the decoupled SOLO predicts $2 S$masks and use mask = element-wise multiplication of two masks. This yields the same results as vanilla SOLO.
 

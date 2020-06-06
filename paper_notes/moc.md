@@ -5,7 +5,7 @@ _January 2020_
 tl;dr: CenterNet for video object detection.
 
 #### Overall impression
-This extends [CenterNet](centernet_ut.md) as Recurrent SSD extends SSD.
+This extends [CenterNet](centernet.md) as Recurrent SSD extends SSD.
 
 However it is still using box-based method to generate bbox and then link them to action tublets. This is more of a bottom up approach as compared to [recurrent ssd](recurrent_ssd.md).
 

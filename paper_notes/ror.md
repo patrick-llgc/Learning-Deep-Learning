@@ -17,7 +17,7 @@ The rest of the paper is not well written. Lots of details are left out and the 
 
 #### Key ideas
 - Input representation:
-	- Semantic map in RGB image with 3 channels	- Entity representation: ego entity has 7 channels [CenterNet](centernet_ut.md)-like, one heatmap for (x, y), and v, a and covariance matrix norms. Other entities are also encoded in another 7 channels. Only the center of the bboxes have values. 
+	- Semantic map in RGB image with 3 channels	- Entity representation: ego entity has 7 channels [CenterNet](centernet.md)-like, one heatmap for (x, y), and v, a and covariance matrix norms. Other entities are also encoded in another 7 channels. Only the center of the bboxes have values. 
 	- Dynamic contexts: 3-ch RGB image with all oriented bboxes colored by the class. Also contains traffic light by masking out road connections. 
 	- This representation can be easily augmented with additional information, such as TSR or pedestrian guestures. 
 - Multi-model output. To address exchangeability and collapse of modes, a latent variable z is introduced. --> Why can latent variable help? This exchaneability issue can be solved by using a fixed set of anchors, as in [MultiPath](multipath.md).

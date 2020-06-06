@@ -7,7 +7,7 @@ tl;dr: mono3D with pair wise relation and non-linear optimization.
 #### Overall impression
 This work is inspired by [CenterNet](centernet.md). it not only predicts the 3d bbox from the center of the bbox (similar to [RTM3D](RTM3D) but without predicting the eight points directly). It is similar to the popular solutions to the [Kaggle mono3D competition](https://www.kaggle.com/c/pku-autonomous-driving).
 
-The main idea is to predict distance of each instance and relative distance between neighboring pairs, and their corresponding uncertainties, then use nonlinear optimization (with g2o) for joint optimization. It refines the detection results based on spatial relationships
+The main idea is to predict distance of each instance and relative distance between neighboring pairs, and their corresponding uncertainties, then use nonlinear optimization (with g2o) for joint optimization. It refines the detection results based on spatial relationships.
 
 MonoPair improved accuracy dramatically, especially for heavily occluded scenario.
 

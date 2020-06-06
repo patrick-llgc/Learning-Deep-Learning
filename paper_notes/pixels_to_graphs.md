@@ -7,7 +7,7 @@ tl;dr: Generate relationship graphs based on associative embedding.
 #### Overall impression
 This paper is based on and is almost concurrent with [associative embedding](associative_embedding.md).
 
-The heatmap for objects already has some preliminary structure for and may have inspired [CenterNet](centernet_ut.md).
+The heatmap for objects already has some preliminary structure for and may have inspired [CenterNet](centernet.md).
 
 The paper proposed a technique for supervising **an unordered set of network outputs.**
 
