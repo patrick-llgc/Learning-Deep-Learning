@@ -61,6 +61,16 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [PSDet: Efficient and Universal Parking Slot Detection](https://arxiv.org/abs/2005.05528) <kbd>IV 2020</kbd> [Zongmu]
 - [Towards Good Practice for CNN-Based Monocular Depth Estimation](http://openaccess.thecvf.com/content_WACV_2020/papers/Fang_Towards_Good_Practice_for_CNN-Based_Monocular_Depth_Estimation_WACV_2020_paper.pdf) <kbd>WACV 2020</kbd>
 - [ZoomNet: Part-Aware Adaptive Zooming Neural Network for 3D Object Detection](https://arxiv.org/abs/2003.00529) <kbd>AAAI 2020 oral</kbd> [mono3D] 
+- [End-to-End Lane Marker Detection via Row-wise Classification](https://arxiv.org/abs/2005.08630) [[Notes](paper_notes/e2e_lmd.md)] [Qualcomm Korea, LLD as cls]
+- [Reliable multilane detection and classification by utilizing CNN as a regression network](http://openaccess.thecvf.com/content_ECCVW_2018/papers/11133/Chougule_Reliable_multilane_detection_and_classification_by_utilizing_CNN_as_a_ECCVW_2018_paper.pdf) <kbd>ECCV 2018</kbd> [LLD as reg]
+- [SUPER: A Novel Lane Detection System](https://arxiv.org/abs/2005.07277) [[Notes](paper_notes/super.md)]
+- [Learning Lightweight Lane Detection CNNs by Self Attention Distillation](https://arxiv.org/abs/1908.00821) <kbd>ICCV 2019</kbd>
+- [StixelNet: A Deep Convolutional Network for Obstacle Detection and Road Segmentation](http://www.bmva.org/bmvc/2015/papers/paper109/paper109.pdf) <kbd>BMVC 2015</kbd>
+- [StixelNetV2: Real-time category-based and general obstacle detection for autonomous driving](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w3/Garnett_Real-Time_Category-Based_and_ICCV_2017_paper.pdf) [[Notes](paper_notes/stixelnetv2.md)] <kbd>ICCV 2017</kbd> [DS]
+- [Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network](https://arxiv.org/abs/1609.05158) [[Notes](paper_notes/subpixel_conv.md)] <kbd>CVPR 2016</kbd> [channel-to-pixel]
+- [Car Pose in Context: Accurate Pose Estimation with Ground Plane Constraints](https://arxiv.org/abs/1912.04363) [mono3D]
+- [Learning Depth-Guided Convolutions for Monocular 3D Object Detection](https://arxiv.org/abs/1912.04799) <kbd>CVPR 2020</kbd>
+
 
 ## 2020-05 (19)
 - [Egocentric Vision-based Future Vehicle Localization for Intelligent Driving Assistance Systems](https://arxiv.org/abs/1809.07408) [[Notes](paper_notes/hevi.md)] [Honda] <kbd>ICRA 2019</kbd>
@@ -114,7 +124,6 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [Multi-Task Learning as Multi-Objective Optimization](https://arxiv.org/abs/1810.04650) <kbd>NeurIPS 2018</kbd>
 - [Taskonomy: Disentangling Task Transfer Learning](https://arxiv.org/abs/1804.08328) [[Notes](paper_notes/taskonomy.md)] <kbd>CVPR 2018</kbd>
 - [Rethinking ImageNet Pre-training](https://arxiv.org/abs/1811.08883) [[Notes](paper_notes/rethinking_pretraining.md)] <kbd>ICCV 2019</kbd> [Kaiming He]
-- [Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network](https://arxiv.org/abs/1609.05158) <kbd>CVPR 2016</kbd> [channel-to-pixel]
 - [UnsuperPoint: End-to-end Unsupervised Interest Point Detector and Descriptor](https://arxiv.org/abs/1907.04011) [[Notes](paper_notes/unsuperpoint.md)] [superpoint]
 - [KP2D: Neural Outlier Rejection for Self-Supervised Keypoint Learning](https://arxiv.org/abs/1912.10615) [[Notes](paper_notes/kp2d.md)] <kbd>ICLR 2020</kbd> (pointNet)
 - [KP3D: Self-Supervised 3D Keypoint Learning for Ego-motion Estimation](https://arxiv.org/abs/1912.03426) [[Notes](paper_notes/kp3d.md)] [Toyota, superpoint]
@@ -557,8 +566,6 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Using panoramic videos for multi-person localization and tracking in a 3D panoramic coordinate](https://arxiv.org/abs/1911.10535)
 
 ### Lane Detection
-- [End-to-End Lane Marker Detection via Row-wise Classification](https://arxiv.org/abs/2005.08630) [Qualcomm Korea]
-- [SUPER: A Novel Lane Detection System](https://arxiv.org/abs/2005.07277)
 - [End-to-end Lane Detection through Differentiable Least-Squares Fitting](https://arxiv.org/abs/1902.00293) <kbd>ICCV 2019</kbd>
 - [Detecting Lane and Road Markings at A Distance with Perspective Transformer Layers](https://arxiv.org/abs/2003.08550)  (3D LLD)
 - [Ultra Fast Structure-aware Deep Lane Detection](https://arxiv.org/abs/2004.11757) [lane detection]

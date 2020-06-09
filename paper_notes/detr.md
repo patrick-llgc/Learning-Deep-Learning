@@ -31,6 +31,7 @@ The attention mechanism from Transformer is similar to [Non-local Networks](non_
 	- Encoder is able to separate individual objects. 
 	- Decoder typically attends to object extremities.
 	- The visualization of bbox prediction of various output slots in DETR demonstrates that each slot attends to a particular type of objects. This is highly intriguing, similar to the prototype masks in [YOLACT](yolact.md).
+- Uses updated AdamW for training.
 
 #### Notes
 - [Youtube explanation](https://www.youtube.com/watch?v=T35ba_VXkMY)
