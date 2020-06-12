@@ -25,11 +25,10 @@ The architecture is heavily based on [PWC Net](pwc_net.md) for optical flow esti
 - The performance for 2D optical flow is suboptimal but for 3D scene flow the best, as the loss regularizer is in 3D domain. Having a regularizer in the target domain is the best. 
 
 #### Technical details
-- It requires stereo for training and only need monocular at inference time. --> This may be able to be adapted to training with mono only, with the help of a PoseNet.
 - Self supervised, then finetune on 200 annotated images boosted the performance dramatically. --> This means self-supervised approach can boost the performance of data efficiency.
 - This seems to learn a metric scale scene flow nicely.
 
 
 #### Notes
 - [github repo](https://github.com/visinf/self-mono-sf)
-
+- It requires stereo for training and only need monocular at inference time. --> This can be extended to use a mono video only, by changing depth loss from using stereo to using sequence with the help of PoseNet.
