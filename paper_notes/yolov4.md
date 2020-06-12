@@ -13,7 +13,7 @@ Yolov4 is highly practical and focuses on training fast object detectors with on
 - Bag of freebies: Improvements can be made in the training process 
 	- Data augmentation: CutMix and Mosaic
 		- photometric, geometric
-	- DropBlock regularization
+	- DropBlock regularization: more effective than DropOut for CNN. DropOut was initially proposed for fc layers.
 	- Class label smoothing: it actually degrades performance 
 	- cIOU loss function
 	- CmBN
@@ -31,7 +31,7 @@ Yolov4 is highly practical and focuses on training fast object detectors with on
 	- Mosaic data aug: this is very similar to [Sticher](sticher.md) and [Yolov3 Ultralytics](https://github.com/ultralytics/yolov3). This is similar to increase the batch size.
 	- Self-adversarial training: first pass modify original image, then second pass train object detection
 	- Cross minibatch batch norm: improved version of [CBN](cbn.md).
-	- SAM: Spatial Attention Module from [CBAM](cbam.md) modified to point wise attention.
+	- SAM: Spatial Attention Module (channel wise mean/max pooling) from [CBAM](cbam.md) modified to point wise attention.
 	- [PANet](panet.md): concatenation instead of addition.
 - Conclusions:
 	- ResNeXt50 is better for classification, but DarkNet53 is better for detection
@@ -47,7 +47,7 @@ Yolov4 is highly practical and focuses on training fast object detectors with on
 - SqueezeNet, MobileNet and ShuffleNet are more friendly for CPU but not GPU.
 - SPP: in the original paper [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](https://arxiv.org/abs/1406.4729) <kbd>TPAMI 2015</kbd> converts an image to a fixed length one-dimensional feature vector, and SPP is used for object detection. Yolov3 improves it by concatenating the output of max pooling with stride 1. This helps increases the receptive field fast. 
 - FLOPS vs inference time: SE on GPU usually increases inference time by 10%, although flops only increases 2%. SAM from [CBAM](cbam.md) does not increase inference time at all.
-- [CSPNet: A New Backbone that can Enhance Learning Capability of CNN](https://arxiv.org/abs/1911.11929): Cross stage partial network splits features into two groups: one group passes through conv layers and the rest keeps the same. 
+- [CSPNet: A New Backbone that can Enhance Learning Capability of CNN](https://arxiv.org/abs/1911.11929): Cross stage partial network splits feature channels into two groups: one group passes through conv layers and the rest keeps the same. 
 
 #### Notes
 - Why not regressing the position inside the grid [0, 1] directly with L1 loss?
