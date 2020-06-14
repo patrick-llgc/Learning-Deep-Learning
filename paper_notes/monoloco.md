@@ -42,5 +42,5 @@ The paper is quite similar to the idea of [DisNet](disnet.md) of using different
 - Stereo method fails for distance after 30 meters. 
 
 #### Notes
-- Questions and notes on how to improve/revise the current work  
+- [Monoloco's social distancing branch](https://github.com/vita-epfl/monoloco/tree/social-distance) that can predict pose and orientation of pedestrians. See [project page](https://www.epfl.ch/labs/vita/research/perception/monoloco/)
 
