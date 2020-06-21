@@ -35,3 +35,5 @@ Stuff that caught my eye:
 ![](../assets/scaledml_2020/pedestrian_aeb.jpg)
 
 
+## [CVPR 2020](https://www.youtube.com/watch?v=g2R2T631x7k)
+- [link in my Meeting Notes repo](https://github.com/patrick-llgc/MeetingNotes/blob/master/CVPR2020/workshops.md#scalability-in-autonomous-driving-video-on-youtube)

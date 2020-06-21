@@ -16,11 +16,18 @@ APR tend to predict nearest neighbor to the test image in training set, if test 
 Camera relocalization is different from SLAM or SfM method that the 3D scene is known ahead of time. 
 
 #### Key ideas
-- Summaries of the key ideas
+- Pros and cons of APR
+	- Pros
+		- extremely fast, 5 ms vs 100 ms with traditional approch
+		- constant running time
+		- Easy to train/use
+	- Cons:
+		- suboptimal performance
+		- Network must be trained uniquely for each scene
+
 
 #### Technical details
-- Summary of technical details
+- APR is perhaps more useful in industrial setting (warehouse).
 
 #### Notes
 - [Youtube demo](https://www.youtube.com/watch?v=7Efueln55P4)
-

@@ -7,6 +7,8 @@ tl;dr: Annotate extreme points to replace conventional bbox annotation leads to 
 #### Overall impression
 This paper inspired [ExtremeNet](extremenet.md). 
 
+This work is extended to [DEXTR: Deep Extreme Cut: From Extreme Points to Object Segmentation](https://arxiv.org/abs/1711.09081) that extends extreme points to instance segmentation masks.
+
 #### Key ideas
 - Conventional bbox annotation involves clicking on imaginary corners of a right box around the object. This is difficult as these corners are often outside the actual object and several adjustments are required to obtain a tight box.
 - Annotation by extreme point clicking is only **7s per object instance, 5x faster** than the traditional way of drawing bbox.

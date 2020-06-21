@@ -13,9 +13,14 @@ The paper focuses on a single-stage 2D and 3D regression task, and yields less a
 
 The paper is correct that many previous SOTA algorithm uses pretrained component and they sometimes introduce constant noise in training.
 
+It can do mono3D for cyclists and pedestrians. 
+
+The depth aware convolution network is extended further in [learning depth guided conv](d4lcn.md).
+
 #### Key ideas
 - To ease the 3D bbox regression task, the mean stats of depth and 3D size, and theta are precomputed for each anchor size. --> This is clever, but may not be the best way to do this as the theta is quite inaccurate and calls for post-processing as shown by the paper. 
-- Depth aware convolution: The depth is largely correlated with rows in autonomous driving scenes. Thus M3D RPN proposes to use separate conv filters for different row bins.
+	- Whenever the IoU for 2D is > 0.5, then adjust 3D anchors to regress the diff from the GT.
+- **Depth aware convolution**: The depth is largely correlated with rows in autonomous driving scenes. Thus M3D RPN proposes to use separate conv filters for different row bins.
 
 #### Technical details
 - The depth aware conv leads to depth-aware features or local features and are fused with normal conv (global features) by a learned paramter. 
@@ -23,3 +28,4 @@ The paper is correct that many previous SOTA algorithm uses pretrained component
 
 #### Notes
 - Maybe giving yaw angle a larger weight in regression will alleviate the problem.
+- [Review by Xiaoming Liu at CVOR 2020 workshop](https://youtu.be/aOkLGcspoyY?t=28272)

@@ -5,7 +5,7 @@ _June 2020_
 tl;dr: Summary of the main idea.
 
 #### Overall impression
-Describe the overall impression of the paper. 
+The idea of depth aware convolution comes from [M3D RPN](m3d_rpn.md)
 
 #### Key ideas
 - Summaries of the key ideas

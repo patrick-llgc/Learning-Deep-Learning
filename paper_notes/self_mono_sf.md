@@ -11,6 +11,9 @@ Optical flow is the 2D projection of a 3D point and its 3D scene flow. The scene
 
 The architecture is heavily based on [PWC Net](pwc_net.md) for optical flow estimation. 
 
+![](https://cdn-images-1.medium.com/max/1280/1*cspzF2fFO2nhzpl5ivnQgQ.png)
+![](https://cdn-images-1.medium.com/max/1280/1*H17X0-xn34E7gYtauJGrlA.png)
+
 #### Key ideas
 - The main idea is the introduction of the 3D point loss, which penalizes the inconsistency between depth and scene flow estimation. 
 - Data augmentation with [cam conv](cam_conv.md) is better for depth prediction, but does not help with the performance degradation after data aug.
@@ -30,5 +33,6 @@ The architecture is heavily based on [PWC Net](pwc_net.md) for optical flow esti
 
 
 #### Notes
+- [video](https://www.youtube.com/watch?v=1lR6PQO82lc)
 - [github repo](https://github.com/visinf/self-mono-sf)
 - It requires stereo for training and only need monocular at inference time. --> This can be extended to use a mono video only, by changing depth loss from using stereo to using sequence with the help of PoseNet.

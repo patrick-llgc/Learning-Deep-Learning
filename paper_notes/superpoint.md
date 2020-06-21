@@ -2,7 +2,7 @@
 
 _January 2020_
 
-tl;dr: Learn a real-time **feature detector** based on self generated data.
+tl;dr: Learn a real-time **feature detector** based on self generated data. "Super"point as it creates a superset of an early work "magic point".
 
 #### Overall impression
 A **[local feature](https://dsp.stackexchange.com/questions/24346/difference-between-feature-detector-and-descriptor)** consists of an interest point (key point, salient point) and a descriptor. Multiview geometry studies how to recover the transformation between the views and infer the 3D positions of these key points, based on the assumption that the points are **matched** across multiview images. How do we learn a feature detector?
@@ -52,4 +52,4 @@ This paper also inspired [unsuperpoint](unsuperpoint.md) which does not require 
 	$$
 	- MLE: mean localization error (in pixels)
 	- NN mAP: nearest neighbor mAP (measures how discriminative the description is, by varying matching threshold)	
-- In an [earlier work](https://arxiv.org/abs/1707.07410), MagicWarp is used to regress the homographic transform directly and use re-projection error as loss.
+- In an [earlier work](https://arxiv.org/abs/1707.07410), MagicWarp is used to regress the homographic transform directly and use re-projection error as loss. This is called Magic point. Superpoint creates a superset of magic point by using homographic adaptation.
