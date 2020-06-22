@@ -2,7 +2,7 @@
 
 _November 2019_
 
-tl;dr: Extension of coordConv to make DL perception model invariant to cameras.
+tl;dr: Extension of [coordConv](coord_conv.md) to make DL perception model invariant to cameras.
 
 #### Overall impression
 Usually models are **overfitted to a benchmark**, with train/test data from the same camera. The generalization to an unseen camera (with unseen sensor size and intrinsics) is poor. This prevents us from using data taken from other cameras to train the data-hungry deep learning model.

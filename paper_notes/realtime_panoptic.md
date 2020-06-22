@@ -5,7 +5,7 @@ _June 2020_
 tl;dr: Summary of the main idea.
 
 #### Overall impression
-Weakly supervised learning to get instance segmentation is awesome!
+Weakly supervised learning to get instance segmentation is awesome! 
 
 #### Key ideas
 - Summaries of the key ideas

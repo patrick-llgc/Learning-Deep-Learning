@@ -46,7 +46,47 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Lifting 2D object detection to 3D in autonomous driving](https://towardsdatascience.com/geometric-reasoning-based-cuboid-generation-in-monocular-3d-object-detection-5ee2996270d1)
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 
-## 2020-06 (3)
+
+## CVPR 2020
+- [Online Depth Learning against Forgetting in Monocular Videos](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Online_Depth_Learning_Against_Forgetting_in_Monocular_Videos_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd>
+- [Self-supervised Monocular Trained Depth Estimation using Self-attention and Discrete Disparity Volume](http://openaccess.thecvf.com/content_CVPR_2020/papers/Johnston_Self-Supervised_Monocular_Trained_Depth_Estimation_Using_Self-Attention_and_Discrete_Disparity_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd>
+- [GeoNet: Unsupervised Learning of Dense Depth, Optical Flow and Camera Pose](https://arxiv.org/abs/1803.02276) <kbd>CVPR 2018</kbd>
+- [Self-supervised Object Motion and Depth Estimation from Video](https://arxiv.org/abs/1912.04250) <kbd>CVPRW 2020</kbd>
+- [Visual SLAM for Automated Driving: Exploring the Applications of Deep Learning](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/Milz_Visual_SLAM_for_CVPR_2018_paper.pdf)
+- [Just Go with the Flow: Self-Supervised Scene Flow Estimation](https://arxiv.org/abs/1912.00497) <kbd>CVPR 2020 oral</kbd> [Scene flow]
+- [Self-Supervised Deep Visual Odometry with Online Adaptation](https://arxiv.org/abs/2005.06136) <kbd>CVPR 2020 oral</kbd> [DF-VO, TrianFlow]
+- [Self-supervised Monocular Trained Depth Estimation using Self-attention and Discrete Disparity Volume](https://arxiv.org/abs/2003.13951) <kbd>CVPR 2020</kbd>
+- [Visualization of Convolutional Neural Networks for Monocular Depth Estimation](https://arxiv.org/abs/1904.03380) <kbd>ICCV 2019</kbd> [monodepth]
+- [ZoomNet: Part-Aware Adaptive Zooming Neural Network for 3D Object Detection](https://arxiv.org/abs/2003.00529) <kbd>AAAI 2020 oral</kbd> [mono3D] 
+- [Supervising the new with the old: learning SFM from SFM](http://openaccess.thecvf.com/content_ECCV_2018/papers/Maria_Klodt_Supervising_the_new_ECCV_2018_paper.pdf) <kbd>ECCV 2018</kbd>
+- [MB-Net: MergeBoxes for Real-Time 3D Vehicles Detection](https://ieeexplore.ieee.org/document/8500395) <kbd>IV 2018</kbd> [mono3D: Daimler]
+- [Beyond Bounding Boxes: Using Bounding Shapes for Real-Time 3D Vehicle Detection from Monocular RGB Images](https://ieeexplore.ieee.org/abstract/document/8814036/) <kbd>IV 2019</kbd> [mono3D, Daimler]
+- [CoverNet: Multimodal Behavior Prediction using Trajectory Sets](CoverNet: Multimodal Behavior Prediction using Trajectory Sets) <kbd>CVPR 2020</kbd> [prediction, nuScenes]
+- [PnPNet: End-to-End Perception and Prediction with Tracking in the Loop](https://arxiv.org/abs/2005.14711) <kbd>CVPR 2020</kbd> [Uber]
+- [X3D: Expanding Architectures for Efficient Video Recognition](https://arxiv.org/abs/2004.04730) <kbd>CVPR 2020 oral</kbd> [FAIR]
+- [TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383) <kbd>ICCV 2019</kbd> [video, object detection]
+- [Flow-guided feature aggregation for video object detection](https://arxiv.org/abs/1703.10025) <kbd>ICCV 2017</kbd> [video, object detection]
+- [Inferring Distributions Over Depth from a Single Image](http://www.contrib.andrew.cmu.edu/~gengshay/wordpress/wp-content/uploads/2018/11/iros_monodepth_uncertainty.pdf) <kbd>TRO</kbd> [Depth confidence, stitching them together]
+- [The Edge of Depth: Explicit Constraints between Segmentation and Depth](https://arxiv.org/abs/2004.00171) <kbd>CVPR 2020</kbd> [monodepth, Xiaoming Liu]
+- [3D human pose estimation in video with temporal convolutions and
+semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/Pavllo_3D_Human_Pose_Estimation_in_Video_With_Temporal_Convolutions_and_CVPR_2019_paper.pdf) <kbd>CVPR 2019</kbd> [mono3D pose estimation from video]
+- [GNN3DMOT: Graph Neural Network for 3D Multi-Object Tracking with Multi-Feature Learning](https://arxiv.org/abs/2006.07327) <kbd>CVPR 2020 oral</kbd> [3DMOT, CMU, Kris Kitani]
+- [Learning Multi-Object Tracking and Segmentation From Automatic Annotations](http://openaccess.thecvf.com/content_CVPR_2020/html/Porzi_Learning_Multi-Object_Tracking_and_Segmentation_From_Automatic_Annotations_CVPR_2020_paper.html) <kbd>CVPR 2020</kbd> [Autoamatic annotation]
+- [Self-supervised Object Motion and Depth Estimation from Video](https://arxiv.org/abs/1912.04250) <kbd>CVPRW 2020</kbd>
+- [Self-Supervised Learning of Interpretable Keypoints From Unlabelled Videos](http://openaccess.thecvf.com/content_CVPR_2020/html/Jakab_Self-Supervised_Learning_of_Interpretable_Keypoints_From_Unlabelled_Videos_CVPR_2020_paper.html) <kbd>CVPR 2020 oral</kbd> [self-supervised, interpretable]
+- [Rethinking Classification and Localization for Object Detection](https://arxiv.org/abs/1904.06493) <kbd>CVPR 2020</kbd>
+- [PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection](https://arxiv.org/abs/1912.13192) <kbd>CVPR 2020</kbd> [Waymo challenge 2nd place]
+- [Generalized ODIN: Detecting Out-of-Distribution Image Without Learning From Out-of-Distribution Data](https://arxiv.org/abs/2002.11297) <kbd>CVPR 2020</kbd>
+- [Keep it Simple: Image Statistics Matching for Domain Adaptation](https://arxiv.org/abs/2005.12551) <kbd>CVPRW 2020</kbd> [Domain adaptation for 2D mod bbox]
+- [AFDet: Anchor Free One Stage 3D Object Detection](https://drive.google.com/file/d/1qSwVE0FQZiCjfYyH_DM7-oZtEuE91B8K/view) <kbd>CVPRW 2020</kbd> [Horizon robotics, winning for Waymo challenge] 
+- [3D-GCK: Single-Shot 3D Detection of Vehicles from Monocular RGB Images via
+Geometrically Constrained Keypoints in Real-Time](https://drive.google.com/file/d/19wVQ5kl_4MClSaQDKq9-bkQHaxfrNi_Z/view) <kbd>CVPRW 2020</kbd> [Daimler, mono3D]
+- [Cityscapes 3D: Dataset and Benchmark for 9 DoF Vehicle Detection](https://arxiv.org/abs/2006.07864) <kbd>CVPRW 2020</kbd> [dataset, Daimler, mono3D]
+- [BEV-Seg: Bird’s Eye View Semantic Segmentation Using Geometry and Semantic Point Cloud](https://drive.google.com/file/d/1vrha3LDCz_dBlz8n8K2PpnqBaAxKGEQ0/view) <kbd>CVPRW 2020</kbd> [BEV-Net, Mapping]
+- [Footprints and Free Space from a Single Color Image](https://arxiv.org/abs/2004.06376) <kbd>CVPR 2020 oral</kbd> [Parking use, footprint]
+- [Depth Sensing Beyond LiDAR Range](https://arxiv.org/abs/2004.03048) <kbd>CVPR 2020</kbd> [wide baseline stereo with trifocal]
+
+## 2020-06 (20)
 - [LeGO-LOAM: Lightweight and Ground-Optimized Lidar Odometry and Mapping on Variable Terrain](http://personal.stevens.edu/~benglot/Shan_Englot_IROS_2018_Preprint.pdf) [[Notes](paper_notes/lego_loam.md)] <kbd>IROS 2018</kbd> [lidar, mapping]
 - [PIE: A Large-Scale Dataset and Models for Pedestrian Intention Estimation and Trajectory Prediction](http://openaccess.thecvf.com/content_ICCV_2019/papers/Rasouli_PIE_A_Large-Scale_Dataset_and_Models_for_Pedestrian_Intention_Estimation_ICCV_2019_paper.pdf) [[Notes](paper_notes/pie.md)] <kbd>ICCV 2019</kbd>
 - [JAAD: Are They Going to Cross? A Benchmark Dataset and Baseline for Pedestrian
@@ -57,13 +97,12 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [DETR: End-to-End Object Detection with Transformers](https://arxiv.org/abs/2005.12872) [[Notes](paper_notes/detr.md)] [FAIR]
 - [Transformer: Attention Is All You Need](https://arxiv.org/abs/1706.03762) [[Notes](paper_notes/transformer.md)] <kbd>NIPS 2017</kbd>
 - [SpeedNet: Learning the Speediness in Videos](https://arxiv.org/abs/2004.06130) [[Notes](paper_notes/speednet.md)] <kbd>CVPR 2020 oral</kbd>
-- [On the uncertainty of self-supervised monocular depth estimation](https://arxiv.org/abs/2005.06209) <kbd>CVPR 2020</kbd>
 - [MonoPair: Monocular 3D Object Detection Using Pairwise Spatial Relationships](https://arxiv.org/abs/2003.00504) [[Notes](paper_notes/monopair.md)] <kbd>CVPR 2020</kbd> [Mono3D]
 - [SMOKE: Single-Stage Monocular 3D Object Detection via Keypoint Estimation](https://arxiv.org/abs/2002.10111) [[Notes](paper_notes/smoke.md)] <kbd>CVPRW 2020</kbd> [Mono3D, Zongmu]
 - [Vehicle Re-ID for Surround-view Camera System](https://drive.google.com/file/d/1e6y8wtHAricaEHS9CpasSGOx0aAxCGib/view) [[Notes](paper_notes/reid_surround_fisheye.md)] <kbd>CVPRW 2020</kbd> [tireline, vehicle ReID, Zongmu]
 - [PSDet: Efficient and Universal Parking Slot Detection](https://arxiv.org/abs/2005.05528) <kbd>IV 2020</kbd> [Zongmu, Parking]
+- [On the uncertainty of self-supervised monocular depth estimation](https://arxiv.org/abs/2005.06209) <kbd>CVPR 2020</kbd>
 - [Towards Good Practice for CNN-Based Monocular Depth Estimation](http://openaccess.thecvf.com/content_WACV_2020/papers/Fang_Towards_Good_Practice_for_CNN-Based_Monocular_Depth_Estimation_WACV_2020_paper.pdf) <kbd>WACV 2020</kbd>
-- [ZoomNet: Part-Aware Adaptive Zooming Neural Network for 3D Object Detection](https://arxiv.org/abs/2003.00529) <kbd>AAAI 2020 oral</kbd> [mono3D] 
 - [End-to-End Lane Marker Detection via Row-wise Classification](https://arxiv.org/abs/2005.08630) [[Notes](paper_notes/e2e_lmd.md)] [Qualcomm Korea, LLD as cls]
 - [Reliable multilane detection and classification by utilizing CNN as a regression network](http://openaccess.thecvf.com/content_ECCVW_2018/papers/11133/Chougule_Reliable_multilane_detection_and_classification_by_utilizing_CNN_as_a_ECCVW_2018_paper.pdf) <kbd>ECCV 2018</kbd> [LLD as reg]
 - [SUPER: A Novel Lane Detection System](https://arxiv.org/abs/2005.07277) [[Notes](paper_notes/super.md)]
@@ -75,51 +114,24 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [D4LCN: Learning Depth-Guided Convolutions for Monocular 3D Object Detection](https://arxiv.org/abs/1912.04799) [[Notes](paper_notes/d4lcn.md)] <kbd>CVPR 2020</kbd> [mono3D]
 - [Self-Mono-SF: Self-Supervised Monocular Scene Flow Estimation](https://arxiv.org/abs/2004.04143) [[Notes](paper_notes/self_mono_sf.md)] <kbd>CVPR 2020</kbd> [scene-flow, Stereo input]
 - [MEBOW: Monocular Estimation of Body Orientation In the Wild](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wu_MEBOW_Monocular_Estimation_of_Body_Orientation_in_the_Wild_CVPR_2020_paper.pdf) [[Notes](paper_notes/mebow.md)] <kbd>CVPR 2020</kbd>
-- [Online Depth Learning against Forgetting in Monocular Videos](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Online_Depth_Learning_Against_Forgetting_in_Monocular_Videos_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd>
-- [Self-supervised Monocular Trained Depth Estimation using Self-attention and Discrete Disparity Volume](http://openaccess.thecvf.com/content_CVPR_2020/papers/Johnston_Self-Supervised_Monocular_Trained_Depth_Estimation_Using_Self-Attention_and_Discrete_Disparity_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd>
-- [GeoNet: Unsupervised Learning of Dense Depth, Optical Flow and Camera Pose](https://arxiv.org/abs/1803.02276) <kbd>CVPR 2018</kbd>
-- [Self-supervised Object Motion and Depth Estimation from Video](https://arxiv.org/abs/1912.04250) <kbd>CVPRW 2020</kbd>
-- [Visual SLAM for Automated Driving: Exploring the Applications of Deep Learning](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/Milz_Visual_SLAM_for_CVPR_2018_paper.pdf)
-- [Just Go with the Flow: Self-Supervised Scene Flow Estimation](https://arxiv.org/abs/1912.00497) <kbd>CVPR 2020 oral</kbd> [Scene flow]
-- [Self-Supervised Deep Visual Odometry with Online Adaptation](https://arxiv.org/abs/2005.06136) <kbd>CVPR 2020 oral</kbd> [DF-VO, TrianFlow]
-- [Self-supervised Monocular Trained Depth Estimation using Self-attention and Discrete Disparity Volume](https://arxiv.org/abs/2003.13951) <kbd>CVPR 2020</kbd>
-- [Visualization of Convolutional Neural Networks for Monocular Depth Estimation](https://arxiv.org/abs/1904.03380) <kbd>ICCV 2019</kbd> [monodepth]
 - [VG-NMS: Visibility Guided NMS: Efficient Boosting of Amodal Object Detection in Crowded Traffic Scenes](https://ml4ad.github.io/files/papers/Visibility%20Guided%20NMS:%20Efficient%20Boosting%20of%20Amodal%20Object%20Detection%20in%20Crowded%20Traffic%20Scenes.pdf) [[Notes](paper_notes/vg_nms.md)] <kbd>NeurIPS 2019 workshop</kbd> [Crowded scene, NMS, Daimler]
 - [Adaptive NMS: Refining Pedestrian Detection in a Crowd](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf) <kbd>CVPR 2019</kbd> [Crowded scene, NMS]
-- [What You See is What You Get: Exploiting Visibility for 3D Object Detection](https://arxiv.org/abs/1912.04986) [[Notes](paper_notes/wysiwyg.md)] <kbd>CVPR 2020 oral</kbd>
-- [Supervising the new with the old: learning SFM from SFM](http://openaccess.thecvf.com/content_ECCV_2018/papers/Maria_Klodt_Supervising_the_new_ECCV_2018_paper.pdf) <kbd>ECCV 2018</kbd>
-- [MB-Net: MergeBoxes for Real-Time 3D Vehicles Detection](https://ieeexplore.ieee.org/document/8500395) <kbd>IV 2018</kbd> [mono3D: Daimler]
-- [Beyond Bounding Boxes: Using Bounding Shapes for Real-Time 3D Vehicle Detection from Monocular RGB Images](https://ieeexplore.ieee.org/abstract/document/8814036/) <kbd>IV 2019</kbd> [mono3D, Daimler]
-- [CoverNet: Multimodal Behavior Prediction using Trajectory Sets](CoverNet: Multimodal Behavior Prediction using Trajectory Sets) <kbd>CVPR 2020</kbd> [prediction, nuScenes]
-- [PnPNet: End-to-End Perception and Prediction with Tracking in the Loop](https://arxiv.org/abs/2005.14711) <kbd>CVPR 2020</kbd> [Uber]
-- [X3D: Expanding Architectures for Efficient Video Recognition](https://arxiv.org/abs/2004.04730) <kbd>CVPR 2020 oral</kbd> [FAIR]
-- [TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383) <kbd>ICCV 2019</kbd> [video, object detection]
-- [Flow-guided
-feature aggregation for video object detection](https://arxiv.org/abs/1703.10025) <kbd>ICCV 2017</kbd> [video, object detection]
-- [Inferring Distributions Over Depth from a Single Image](http://www.contrib.andrew.cmu.edu/~gengshay/wordpress/wp-content/uploads/2018/11/iros_monodepth_uncertainty.pdf) <kbd>TRO</kbd> [Depth confidence, stitching them together]
-- [The Edge of Depth: Explicit Constraints between Segmentation and Depth](https://arxiv.org/abs/2004.00171) <kbd>CVPR 2020</kbd> [monodepth, Xiaoming Liu]
-- [3D human pose estimation in video with temporal convolutions and
-semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/Pavllo_3D_Human_Pose_Estimation_in_Video_With_Temporal_Convolutions_and_CVPR_2019_paper.pdf) <kbd>CVPR 2019</kbd> [mono3D pose estimation from video]
-- [GNN3DMOT: Graph Neural Network for 3D Multi-Object Tracking with Multi-Feature Learning](https://arxiv.org/abs/2006.07327) <kbd>CVPR 2020 oral</kbd> [3DMOT, CMU, Kris Kitani]
-- [Learning Multi-Object Tracking and Segmentation From Automatic Annotations](http://openaccess.thecvf.com/content_CVPR_2020/html/Porzi_Learning_Multi-Object_Tracking_and_Segmentation_From_Automatic_Annotations_CVPR_2020_paper.html) <kbd>CVPR 2020</kbd> [Autoamatic annotation]
-- [Self-supervised Object Motion and Depth Estimation from Video](https://arxiv.org/abs/1912.04250) <kbd>CVPRW 2020</kbd>
-- [Self-Supervised Learning of Interpretable Keypoints From Unlabelled Videos](http://openaccess.thecvf.com/content_CVPR_2020/html/Jakab_Self-Supervised_Learning_of_Interpretable_Keypoints_From_Unlabelled_Videos_CVPR_2020_paper.html) <kbd>CVPR 2020 oral</kbd> [self-supervised, interpretable]
-- [Real-Time Panoptic Segmentation From Dense Detections](https://arxiv.org/abs/1912.01202) [[Notes](paper_notes/realtime_panoptic.md)] <kbd>CVPR 2020 oral</kbd> [weakly supervised segmentation from bbox]
-- [Rethinking Classification and Localization for Object Detection](https://arxiv.org/abs/1904.06493) <kbd>CVPR 2020</kbd>
-- [PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection](https://arxiv.org/abs/1912.13192) <kbd>CVPR 2020</kbd> [Waymo challenge 2nd place]
-- [Generalized ODIN: Detecting Out-of-Distribution Image Without Learning From Out-of-Distribution Data](https://arxiv.org/abs/2002.11297) <kbd>CVPR 2020</kbd>
-- [Keep it Simple: Image Statistics Matching for Domain Adaptation](https://arxiv.org/abs/2005.12551) <kbd>CVPRW 2020</kbd> [Domain adaptation for 2D mod bbox]
-- [AFDet: Anchor Free One Stage 3D Object Detection](https://drive.google.com/file/d/1qSwVE0FQZiCjfYyH_DM7-oZtEuE91B8K/view) <kbd>CVPRW 2020</kbd> [Horizon robotics, winning for Waymo challenge] 
-- [3D-GCK: Single-Shot 3D Detection of Vehicles from Monocular RGB Images via
-Geometrically Constrained Keypoints in Real-Time](https://drive.google.com/file/d/19wVQ5kl_4MClSaQDKq9-bkQHaxfrNi_Z/view) <kbd>CVPRW 2020</kbd> [Daimler, mono3D]
-- [Cityscapes 3D: Dataset and Benchmark for 9 DoF Vehicle Detection](https://arxiv.org/abs/2006.07864) <kbd>CVPRW 2020</kbd> [dataset, Daimler, mono3D]
+- [WYSIWYG: What You See is What You Get: Exploiting Visibility for 3D Object Detection](https://arxiv.org/abs/1912.04986) [[Notes](paper_notes/wysiwyg.md)] <kbd>CVPR 2020 oral</kbd> [occupancy grid]
+- [Real-Time Panoptic Segmentation From Dense Detections](https://arxiv.org/abs/1912.01202) [[Notes](paper_notes/realtime_panoptic.md)] <kbd>CVPR 2020 oral</kbd> [weakly supervised segmentation from bbox, Toyota]
 - [Human-Centric Efficiency Improvements in Image Annotation for Autonomous Driving](https://drive.google.com/file/d/1DY95vfWBLKOOZZyq8gLDd0heZ6aBSdji/view) [[Notes](paper_notes/human_centric_annotation.md)] <kbd>CVPRW 2020</kbd> [efficient annotation]
-- [BEV-Seg: Bird’s Eye View Semantic Segmentation Using Geometry and Semantic Point Cloud](https://drive.google.com/file/d/1vrha3LDCz_dBlz8n8K2PpnqBaAxKGEQ0/view) <kbd>CVPRW 2020</kbd> [BEV-Net, Mapping]
 - [FISHING Net: Future Inference of Semantic Heatmaps In Grids](https://arxiv.org/abs/2006.09917) [[Notes](paper_notes/fishing_net.md)] <kbd>CVPRW 2020</kbd> [BEV-Net, Mapping, Zoox]
+- [SurfelGAN: Synthesizing Realistic Sensor Data for Autonomous Driving](https://arxiv.org/abs/2005.03844) [[Notes](paper_notes/surfel_gan.md)] <kbd>CVPR 2020 oral</kbd> [Waymo, auto data generation, surfel]
+- [LiDARsim: Realistic LiDAR Simulation by Leveraging the Real World](https://arxiv.org/abs/2006.09348) [[Notes](paper_notes/lidarsim.md)] <kbd>CVPR 2020 oral</kbd> [Uber ATG, auto data generation, surfel]
+- [SuMa++: Efficient LiDAR-based Semantic SLAM](http://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/chen2019iros.pdf) <kbd>IROS 2019</kbd> [semantic segmentation, lidar, SLAM]
+- [PyrOccNet: Predicting Semantic Map Representations from Images using Pyramid Occupancy Networks](https://arxiv.org/abs/2003.13402) [[Notes](paper_notes/pyr_occ_net.md)] <kbd>CVPR 2020</kbd> [BEV-Net, OFT]
+- [MonoLayout: Amodal scene layout from a single image](https://arxiv.org/abs/2002.08394) [[Notes](paper_notes/mono_layout.md)] <kbd>WACV 2020</kbd> [BEV-Net]
+- [Monocular Semantic Occupancy Grid Mapping with Convolutional Variational Encoder-Decoder Networks](https://arxiv.org/abs/1804.02176) <kbd>ICRA 2019</kbd> [BEV-Net]
+- [Monocular Plan View Networks for Autonomous Driving](https://arxiv.org/abs/1905.06937) <kbd>IROS 2019</kbd> [BEV-Net]
+- [Learning to Look around Objects for Top-View Representations of Outdoor Scenes](https://arxiv.org/abs/1803.10870) <kbd>ECCV 2018</kbd> [BEV-Net]
+- [Exploiting Sparse Semantic HD Maps for Self-Driving Vehicle Localization](https://arxiv.org/abs/1908.03274) <kbd>IROS 2019 oral</kbd> [Uber ATG, metadata, mapping, localization]
+- [A Geometric Approach to Obtain a Bird's Eye View from an Image](https://arxiv.org/abs/1905.02231) <kbd>ICCVW 2019</kbd> [mapping, geometry, Andrew Zisserman]
 - [Cross-view Semantic Segmentation for Sensing Surroundings](https://arxiv.org/abs/1906.03560) [Bolei Zhou, BEV-Net]
-- [Predicting Semantic Map Representations from Images using Pyramid Occupancy Networks](https://arxiv.org/abs/2003.13402) <kbd>CVPR 2020</kbd> [BEV-Net, OFT]
-- [Footprints and Free Space from a Single Color Image](https://arxiv.org/abs/2004.06376) <kbd>CVPR 2020 oral</kbd> [Parking use, footprint]
-- [Depth Sensing Beyond LiDAR Range](https://arxiv.org/abs/2004.03048) <kbd>CVPR 2020</kbd> [wide baseline stereo with trifocal]
+
 
   
 ## 2020-05 (19)
@@ -390,7 +402,7 @@ Geometrically Constrained Keypoints in Real-Time](https://drive.google.com/file/
 - [Semantic Segmentation on Radar Point Clouds](https://ieeexplore.ieee.org/document/8455344) [[[Notes](paper_notes/radar_point_semantic_seg.md)]] (from Daimler AG) <kbd>FUSION 2018</kbd>
 - [Pruning Filters for Efficient ConvNets](https://arxiv.org/pdf/1608.08710.pdf) [[Notes](paper_notes/pruning_filters.md)] <kbd>ICLR 2017</kbd>
 - [Layer-compensated Pruning for Resource-constrained Convolutional Neural Networks](https://arxiv.org/pdf/1810.00518.pdf) [[Notes](paper_notes/layer_compensated_pruning.md)] <kbd>NIPS 2018 talk</kbd>
-- [LeGR: Filter Pruning via Learned Global Ranking](https://arxiv.org/pdf/1904.12368.pdf) [[Notes](paper_notes/legr.md)]
+- [LeGR: Filter Pruning via Learned Global Ranking](https://arxiv.org/pdf/1904.12368.pdf) [[Notes](paper_notes/legr.md)] <kbd>CVPR 2020 oral</kbd>
 - [NAS-FPN: Learning Scalable Feature Pyramid Architecture for Object Detection](https://arxiv.org/pdf/1904.07392.pdf) [[Notes](paper_notes/nas_fpn.md)] <kbd>CVPR 2019 </kbd>
 - [AutoAugment: Learning Augmentation Policies from Data](https://arxiv.org/abs/1805.09501) [[Notes](paper_notes/autoaugment.md)] <kbd>CVPR 2019 </kbd>
 - [Path Aggregation Network for Instance Segmentation](https://arxiv.org/pdf/1803.01534.pdf) [[Notes](paper_notes/panet.md)] <kbd>CVPR 2018 </kbd>
@@ -676,6 +688,7 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Xception: Deep Learning with Depthwise Separable Convolutions](https://arxiv.org/pdf/1610.02357.pdf) (Xception)
 - [Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics](https://arxiv.org/abs/1705.07115) (uncertainty)
 - [Learning to Drive from Simulation without Real World Labels](https://arxiv.org/abs/1812.03823) <kbd>ICRA 2019</kbd> (domain adaptation, sim2real)
+- [Filter Response Normalization Layer: Eliminating Batch Dependence in the Training of Deep Neural Networks](https://arxiv.org/abs/1911.09737) <kbd>CVPR 2020 oral</kbd>
 
 ### Mono3D
 - [3DOP: 3D Object Proposals for Accurate Object Class Detection](https://papers.nips.cc/paper/5644-3d-object-proposals-for-accurate-object-class-detection) <kbd>NIPS 2015</kbd>
@@ -715,10 +728,15 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [NC-EssNet: Neighbourhood Consensus Networks](https://arxiv.org/abs/1810.10510) <kbd>NeurIPS 2018</kbd>
 - [Reinforced Feature Points: Optimizing Feature Detection and Description for a High-Level Task](https://arxiv.org/abs/1912.00623) <kbd>CVPR 2020 oral</kbd> [Eric Brachmann, ngransac]
 - [Unsupervised Learning of Depth and Ego-Motion from Monocular Video Using 3D Geometric Constraints](https://arxiv.org/pdf/1802.05522.pdf) <kbd>CVPR 2018</kbd>
-- [DynSLAM: Robust Dense Mapping for Large-Scale Dynamic Environments](https://siegedog.com/dynslam/) [dynamic SLAM]
+- [DynSLAM: Robust Dense Mapping for Large-Scale Dynamic Environments](https://siegedog.com/dynslam/) [dynamic SLAM, Andreas Geiger] <kbd>ICRA 2018</kbd>
 - [CubeSLAM: Monocular 3D Object SLAM](https://arxiv.org/abs/1806.00557) <kbd>TRO 2919</kbd> [dynamic SLAM]
 - [ClusterVO: Clustering Moving Instances and Estimating Visual Odometry for Self and Surroundings](https://arxiv.org/abs/2003.12980) <kbd>CVPR 2020</kbd> [dynamic SLAM]
 - [Stereo Vision-based Semantic 3D Object and Ego-motion Tracking for Autonomous Driving](https://arxiv.org/abs/1807.02062) <kbd>ECCV 2018</kbd> 
+
+### Mapping
+- [Convolutional Recurrent Network for Road Boundary Extraction](http://openaccess.thecvf.com/content_CVPR_2019/html/Liang_Convolutional_Recurrent_Network_for_Road_Boundary_Extraction_CVPR_2019_paper.html) <kbd>CVPR 2019</kbd>
+- [DAGMapper: Learning to Map by Discovering Lane Topology](http://openaccess.thecvf.com/content_ICCV_2019/papers/Homayounfar_DAGMapper_Learning_to_Map_by_Discovering_Lane_Topology_ICCV_2019_paper.pdf) <kbd>ICCV 2019</kbd>
+
 
 ### Lidar semantic segmentation
 - [PolarNet: An Improved Grid Representation for Online LiDAR Point Clouds Semantic Segmentation](https://arxiv.org/abs/2003.14032) <kbd>CVPR 2020</kbd>
@@ -728,7 +746,6 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Learn to Combine Modalities in Multimodal Deep Learning](https://arxiv.org/abs/1805.11730) (sensor fusion, general DL)
 - [Safe Trajectory Generation For Complex Urban Environments Using Spatio-temporal Semantic Corridor](https://arxiv.org/abs/1906.09788) <kbd>LRA 2019</kbd> [Motion planning]
 - [DAgger: Driving Policy Transfer via Modularity and Abstraction](https://arxiv.org/abs/1804.09364) <kbd>CoRL 2018</kbd> [DAgger, Immitation Learning]
-- [Exploiting Sparse Semantic HD Maps for Self-Driving Vehicle Localization](https://arxiv.org/abs/1908.03274) <kbd>IROS 2019 oral</kbd> [Uber ATG, metadata, localization]
 - [Efficient Uncertainty-aware Decision-making for Automated Driving Using Guided Branching](https://arxiv.org/abs/2003.02746) <kbd>ICRA 2020</kbd> [Motion planning]
 - [Baidu Apollo EM Motion Planner](https://arxiv.org/abs/1807.08048)
 - [Calibration of Heterogeneous Sensor Systems](https://arxiv.org/pdf/1812.11445.pdf)

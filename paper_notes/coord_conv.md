@@ -7,7 +7,7 @@ tl;dr: Predicting coordinate transformation (predicting x and y directly from im
 #### Overall impression
 The paper results are very convincing, and the technique is super efficient. Essentially it only concats two channel meshgrid to the original input.
 
-[RoI10D](roi10d.md) cited this paper. 
+[RoI10D](roi10d.md) cited this paper. This work also inspired [cam conv](cam_conv.md).
 
 #### Key ideas
 - Other coordinates works as well, such as radius and theta.

@@ -2,7 +2,7 @@
 
 _May 2019_
 
-tl;dr: Learn a global ranking metric (affine transformed L2 norm) for layers so pruning filters is just as easy as thresholding this measure. This paper provides a practical tool to prune filters and outperforms prior SOTA.
+tl;dr: Learn a global ranking metric (affine transformed L2 norm) for layers so pruning filters is just as easy as thresholding this measure. This paper provides a practical tool to provide multiple pruned networks on the Pareto-front in one shot. 
 
 #### Overall impression
 Previous methods use costly methods to find the Pareto front of performance-resource tradeoff curve. **Resource-Constrained filter pruning** is the main topic of this study, and it performs better than Auto Model Compression (AMC) and MorphNet. Global filter ranking can also be achieved by first order Taylor approximation to the loss increase caused by pruning (sample data needed thus not a data-free method)
@@ -31,3 +31,4 @@ where $h_i$ is the deletion mask, l(i) is the layer of i-th filter, $||\Theta_i|
 - What did the authors use? DDPG or regularized evolution algorithm?
 - LeGR can search once and applying different threshold to prune network to different level, which makes it easy to deploy.
 - Code available on [Github](https://github.com/cmu-enyac/LeGR).
+- [talk at CVPR 2020](https://www.youtube.com/watch?v=yHGeY_zgtec)

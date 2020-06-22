@@ -11,7 +11,7 @@ Concretely, an uphill 3D lanes with zero yaw will provide parallel target in the
 
 In [3D LaneNet](3d_lanenet.md) there is no guarantee that the projection of prediction matches the image and lacks the 2D-3D consistency. However in Gen-LaneNet, 3D are lifted from 2D and thus this consistency is inherent to the pipeline.
 
-The paper also **decoupled** 2D lane line prediction and lifting 2D to 3D. Decoupling 3D structure prediction from 2D LLD: motivated by the fact that encoding of 3D geometry is rather independent from image features. This decoupling makes the module more flexible and scalable. The second stage can be trained with on a synthetic dataset alone. The **deliberate removal of image feature in the second stage** is similar to predicting distance with bbox info only in [Object frontal distance](obj_dist_iccv2019.md), and with skeleton only [MonoLoco](monoloco.md). 
+The paper also **decoupled** 2D lane line prediction and lifting 2D to 3D. Decoupling 3D structure prediction from 2D LLD: motivated by the fact that encoding of 3D geometry is rather independent from image features. This decoupling makes the module more flexible and scalable. The second stage can be trained with on a synthetic dataset alone. The **deliberate removal of image feature in the second stage** is similar to predicting distance with bbox info only in [Object frontal distance](obj_dist_iccv2019.md), and with skeleton only [MonoLoco](monoloco.md). A similar stragegy to alleviate sim2real domain gap can be also found in [fishing net](fishing_net.md).
 
 This paper is quite hard to read (like other papers by Baidu, unfortunately), but the underlying ideas are solid. I wished the paper included a clear definition of what is a (real) top view  and a virtual top view.
 
