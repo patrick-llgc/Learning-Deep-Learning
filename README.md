@@ -123,15 +123,15 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [SurfelGAN: Synthesizing Realistic Sensor Data for Autonomous Driving](https://arxiv.org/abs/2005.03844) [[Notes](paper_notes/surfel_gan.md)] <kbd>CVPR 2020 oral</kbd> [Waymo, auto data generation, surfel]
 - [LiDARsim: Realistic LiDAR Simulation by Leveraging the Real World](https://arxiv.org/abs/2006.09348) [[Notes](paper_notes/lidarsim.md)] <kbd>CVPR 2020 oral</kbd> [Uber ATG, auto data generation, surfel]
 - [SuMa++: Efficient LiDAR-based Semantic SLAM](http://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/chen2019iros.pdf) <kbd>IROS 2019</kbd> [semantic segmentation, lidar, SLAM]
-- [PyrOccNet: Predicting Semantic Map Representations from Images using Pyramid Occupancy Networks](https://arxiv.org/abs/2003.13402) [[Notes](paper_notes/pyr_occ_net.md)] <kbd>CVPR 2020</kbd> [BEV-Net, OFT]
-- [MonoLayout: Amodal scene layout from a single image](https://arxiv.org/abs/2002.08394) [[Notes](paper_notes/mono_layout.md)] <kbd>WACV 2020</kbd> [BEV-Net]
-- [Monocular Semantic Occupancy Grid Mapping with Convolutional Variational Encoder-Decoder Networks](https://arxiv.org/abs/1804.02176) <kbd>ICRA 2019</kbd> [BEV-Net]
+- [PyrOccNet: Predicting Semantic Map Representations from Images using Pyramid Occupancy Networks](https://arxiv.org/abs/2003.13402) [[Notes](paper_notes/pyroccnet.md)] <kbd>CVPR 2020</kbd> [BEV-Net, OFT]
+- [MonoLayout: Amodal scene layout from a single image](https://arxiv.org/abs/2002.08394) [[Notes](paper_notes/monolayout.md)] <kbd>WACV 2020</kbd> [BEV-Net]
+- [VPN: Cross-view Semantic Segmentation for Sensing Surroundings](https://arxiv.org/abs/1906.03560) [[Notes](paper_noets/vpn.md)] [Bolei Zhou, BEV-Net]
+- [MonoSemanticOccupancy: Monocular Semantic Occupancy Grid Mapping with Convolutional Variational Encoder-Decoder Networks](https://arxiv.org/abs/1804.02176) <kbd>ICRA 2019</kbd> [BEV-Net]
 - [Monocular Plan View Networks for Autonomous Driving](https://arxiv.org/abs/1905.06937) <kbd>IROS 2019</kbd> [BEV-Net]
 - [Learning to Look around Objects for Top-View Representations of Outdoor Scenes](https://arxiv.org/abs/1803.10870) <kbd>ECCV 2018</kbd> [BEV-Net]
 - [Exploiting Sparse Semantic HD Maps for Self-Driving Vehicle Localization](https://arxiv.org/abs/1908.03274) <kbd>IROS 2019 oral</kbd> [Uber ATG, metadata, mapping, localization]
 - [A Geometric Approach to Obtain a Bird's Eye View from an Image](https://arxiv.org/abs/1905.02231) <kbd>ICCVW 2019</kbd> [mapping, geometry, Andrew Zisserman]
-- [Cross-view Semantic Segmentation for Sensing Surroundings](https://arxiv.org/abs/1906.03560) [Bolei Zhou, BEV-Net]
-
+- [Argoverse: 3D Tracking and Forecasting with Rich Maps](https://arxiv.org/abs/1911.02620) <kbd>CVPR 2019</kbd> [HD maps, dataset]
 
   
 ## 2020-05 (19)

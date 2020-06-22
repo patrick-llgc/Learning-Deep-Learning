@@ -17,6 +17,8 @@ Traditional stack to generate BEV map:
 
 Many of these tasks can benefit each other. Thus an end-to-end network to predict BEV map makes sense. 
 
+[PyrOccNet](pyroccnet.md) ises direct supervision. 
+
 #### Key ideas
 - **Probabilistic semantic occupancy grid** representation for easier fusion between cameras and frames. Essentially we need to predict multiclass binary labels for a BEV grid. 
 - Losses: weighted binary CE + uncertainty loss (encourages to be 0.5)
@@ -43,6 +45,7 @@ Many of these tasks can benefit each other. Thus an end-to-end network to predic
 #### Technical details
 - Binary mask to mask out grid cell outside FoV and those grid cells without lidar points. 
 - Weighted BCE: ~1/sqrt(N). Using ~1/N leads to overfitting to minority classes.
+- 50 x 50 m, 200 x 200 image.
 
 #### Notes
 - [Code on github (to be released)](https://github.com/tom-roddick/mono-semantic-maps)
