@@ -85,6 +85,8 @@ Geometrically Constrained Keypoints in Real-Time](https://drive.google.com/file/
 - [BEV-Seg: Bird’s Eye View Semantic Segmentation Using Geometry and Semantic Point Cloud](https://drive.google.com/file/d/1vrha3LDCz_dBlz8n8K2PpnqBaAxKGEQ0/view) <kbd>CVPRW 2020</kbd> [BEV-Net, Mapping]
 - [Footprints and Free Space from a Single Color Image](https://arxiv.org/abs/2004.06376) <kbd>CVPR 2020 oral</kbd> [Parking use, footprint]
 - [Depth Sensing Beyond LiDAR Range](https://arxiv.org/abs/2004.03048) <kbd>CVPR 2020</kbd> [wide baseline stereo with trifocal]
+- [Novel View Synthesis of Dynamic Scenes with Globally Coherent Depths](https://arxiv.org/abs/2004.01294) <kbd>CVPR 2020</kbd>
+
 
 ## 2020-06 (20)
 - [LeGO-LOAM: Lightweight and Ground-Optimized Lidar Odometry and Mapping on Variable Terrain](http://personal.stevens.edu/~benglot/Shan_Englot_IROS_2018_Preprint.pdf) [[Notes](paper_notes/lego_loam.md)] <kbd>IROS 2018</kbd> [lidar, mapping]
@@ -132,7 +134,11 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [Exploiting Sparse Semantic HD Maps for Self-Driving Vehicle Localization](https://arxiv.org/abs/1908.03274) <kbd>IROS 2019 oral</kbd> [Uber ATG, metadata, mapping, localization]
 - [A Geometric Approach to Obtain a Bird's Eye View from an Image](https://arxiv.org/abs/1905.02231) <kbd>ICCVW 2019</kbd> [mapping, geometry, Andrew Zisserman]
 - [Argoverse: 3D Tracking and Forecasting with Rich Maps](https://arxiv.org/abs/1911.02620) <kbd>CVPR 2019</kbd> [HD maps, dataset]
-
+- [ORB-SLAM: a Versatile and Accurate Monocular SLAM System](https://arxiv.org/abs/1502.00956) <kbd>TRO 2015</kbd>
+- [ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras](https://arxiv.org/abs/1610.06475) <kbd>TRO 2016</kbd>
+- [CubeSLAM: Monocular 3D Object SLAM](https://arxiv.org/abs/1806.00557) [[Notes](paper_notes/cube_slam.md)] <kbd>TRO 2019</kbd> [dynamic SLAM, orb slam + mono3D]
+- [ClusterVO: Clustering Moving Instances and Estimating Visual Odometry for Self and Surroundings](https://arxiv.org/abs/2003.12980) <kbd>CVPR 2020</kbd> [dynamic SLAM]
+- [ESPNetv2: A Light-weight, Power Efficient, and General Purpose Convolutional Neural Network](https://arxiv.org/abs/1811.11431) <kbd>CVPR 2019</kbd> [semantic segmentation, lightweight]
   
 ## 2020-05 (19)
 - [Egocentric Vision-based Future Vehicle Localization for Intelligent Driving Assistance Systems](https://arxiv.org/abs/1809.07408) [[Notes](paper_notes/hevi.md)] [Honda] <kbd>ICRA 2019</kbd>
@@ -198,6 +204,7 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [Semi-Local 3D Lane Detection and Uncertainty Estimation](https://arxiv.org/abs/2003.05257) [[Notes](paper_notes/semilocal_3d_lanenet.md)] [GM Israel, 3D LLD]
 - [Gen-LaneNet: A Generalized and Scalable Approach for 3D Lane Detection](https://arxiv.org/abs/2003.10656) [[Notes](paper_notes/gen_lanenet.md)] [Apollo, 3D LLD]
 - [Long-Term On-Board Prediction of People in Traffic Scenes under Uncertainty](https://arxiv.org/abs/1711.09026) <kbd>CVPR 2018</kbd> [Egocentric prediction]
+- [It’s Not All About Size: On the Role of Data Properties in Pedestrian Detection](http://openaccess.thecvf.com/content_ECCVW_2018/papers/11129/Rasouli_Its_Not_All_About_Size_On_the_Role_of_Data_ECCVW_2018_paper.pdf) <kbd>ECCV 2018</kbd> [pedestrian]
 
 
 ## 2020-02 (12)
@@ -360,7 +367,7 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [Fast and Furious: Real Time End-to-End 3D Detection, Tracking and Motion Forecasting with a Single Convolutional Net](http://openaccess.thecvf.com/content_cvpr_2018/papers/Luo_Fast_and_Furious_CVPR_2018_paper.pdf) [[Notes](paper_notes/faf.md)] <kbd>CVPR 2018 oral</kbd> [lidar only, perception and prediction]
 - [Depth from Videos in the Wild: Unsupervised Monocular Depth Learning from Unknown Cameras](https://arxiv.org/pdf/1904.04998.pdf) [[Notes](paper_notes/mono_depth_video_in_the_wild.md)] <kbd>ICCV 2019</kbd> [monocular depth estimation, intrinsic estimation, SOTA]
 - [monodepth: Unsupervised Monocular Depth Estimation with Left-Right Consistency](https://arxiv.org/abs/1609.03677) [[Notes](paper_notes/monodepth.md)] <kbd>CVPR 2017 oral</kbd> (monocular depth estimation, stereo for training)
-- [Struct2depth: Depth Prediction Without the Sensors: Leveraging Structure for Unsupervised Learning from Monocular Videos](https://arxiv.org/abs/1811.06152) [[Notes](paper_notes/struct2depth.md)] <kbd>AAAI 2019</kbd> (monocular depth estimation, estimating movement of dynamic object)
+- [Struct2depth: Depth Prediction Without the Sensors: Leveraging Structure for Unsupervised Learning from Monocular Videos](https://arxiv.org/abs/1811.06152) [[Notes](paper_notes/struct2depth.md)] <kbd>AAAI 2019</kbd> (monocular depth estimation, estimating movement of dynamic object, infinite depth problem)
 - [Unsupervised Learning of Geometry with Edge-aware Depth-Normal Consistency](https://arxiv.org/pdf/1711.03665.pdf) [[Notes](paper_notes/edge_aware_depth_normal.md)] <kbd>AAAI 2018</kbd> (monocular depth estimation, static assumption, surface normal)
 - [LEGO Learning Edge with Geometry all at Once by Watching Videos](https://arxiv.org/pdf/1803.05648.pdf) [[Notes](paper_notes/lego.md)] <kbd>CVPR 2018 spotlight</kbd> (monocular depth estimation, static assumption, surface normal)
 - [Object Detection and 3D Estimation via an FMCW Radar Using a Fully Convolutional Network](https://arxiv.org/abs/1902.05394) [[Notes](paper_notes/radar_3d_od_fcn.md)] (radar, RD map, OD, Arxiv 201902) 
@@ -729,9 +736,9 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Reinforced Feature Points: Optimizing Feature Detection and Description for a High-Level Task](https://arxiv.org/abs/1912.00623) <kbd>CVPR 2020 oral</kbd> [Eric Brachmann, ngransac]
 - [Unsupervised Learning of Depth and Ego-Motion from Monocular Video Using 3D Geometric Constraints](https://arxiv.org/pdf/1802.05522.pdf) <kbd>CVPR 2018</kbd>
 - [DynSLAM: Robust Dense Mapping for Large-Scale Dynamic Environments](https://siegedog.com/dynslam/) [dynamic SLAM, Andreas Geiger] <kbd>ICRA 2018</kbd>
-- [CubeSLAM: Monocular 3D Object SLAM](https://arxiv.org/abs/1806.00557) <kbd>TRO 2919</kbd> [dynamic SLAM]
-- [ClusterVO: Clustering Moving Instances and Estimating Visual Odometry for Self and Surroundings](https://arxiv.org/abs/2003.12980) <kbd>CVPR 2020</kbd> [dynamic SLAM]
 - [Stereo Vision-based Semantic 3D Object and Ego-motion Tracking for Autonomous Driving](https://arxiv.org/abs/1807.02062) <kbd>ECCV 2018</kbd> 
+- [GCNv2: Efficient Correspondence Prediction for Real-Time SLAM](https://arxiv.org/abs/1902.11046) <kbd>LRA 2019</kbd> [Superpoint + orb slam]
+- [Real-time Scalable Dense Surfel Mapping](Real-time Scalable Dense Surfel Mapping) <kbd>ICRA 2019</kbd> [dense reconstruction, monodepth]
 
 ### Mapping
 - [Convolutional Recurrent Network for Road Boundary Extraction](http://openaccess.thecvf.com/content_CVPR_2019/html/Liang_Convolutional_Recurrent_Network_for_Road_Boundary_Extraction_CVPR_2019_paper.html) <kbd>CVPR 2019</kbd>

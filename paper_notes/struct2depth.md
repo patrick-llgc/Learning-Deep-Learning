@@ -7,7 +7,7 @@ tl;dr: Model the motion and size of each potential object to handle dynamic obje
 #### Overall impression
 The paper proposed several good ideas: 1) Model ego-motion and the motion of each dynamic object and warp the static scene with the dynamic objects together. 2) Online finetuning to improve performance. This comes at some cost, but is only possible as it uses self-supervision. This online finetuning method can be applied to other unsupervised method.
 
-The improvement on prediction of depth in dynamic object is amazing. It also predicts the motion of each object!
+The improvement on prediction of depth in dynamic object is amazing. It also predicts the motion of each object! Also it tackles the infinite depth problem. Later efforts include [PackNet-SG](packnet_sg.md).
 
 The paper's annotation is quite sloppy. I would perhaps need to read the code to understand better.
 

@@ -11,6 +11,8 @@ Based on the framework of [SfM-Learner](sfm_learner.md) and SfM, cars moving at 
 
 So the best way to do this is to train SfM on static scenes (in parking lot, e.g.) and during inference, the depth network will generalize to moving cars, as the depth network only takes in a single image. 
 
+The infinite depth issue is also tackled in [Struct2depth](struct2depth.md).
+
 #### Key ideas
 - The paper uses a pretrained semantic segmentation network and [Pixel adaptive convolution](https://arxiv.org/abs/1904.05373) to perform content adaptive upsampling.
 - Two-pass training. First pass will train a model with infinite depth issue, which is used to resample the dataset by automatically filtering out sequences with infinite depth predictions that violate a basic geometric prior. If some pixels's height are **significantly below the ground**, then we filter out the image. This roughly filters out only 5% of training data.
