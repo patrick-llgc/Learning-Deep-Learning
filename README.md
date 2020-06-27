@@ -86,6 +86,8 @@ Geometrically Constrained Keypoints in Real-Time](https://drive.google.com/file/
 - [Footprints and Free Space from a Single Color Image](https://arxiv.org/abs/2004.06376) <kbd>CVPR 2020 oral</kbd> [Parking use, footprint]
 - [Depth Sensing Beyond LiDAR Range](https://arxiv.org/abs/2004.03048) <kbd>CVPR 2020</kbd> [wide baseline stereo with trifocal]
 - [Novel View Synthesis of Dynamic Scenes with Globally Coherent Depths](https://arxiv.org/abs/2004.01294) <kbd>CVPR 2020</kbd>
+- [Autonomous Driving with Deep Learning: A Survey of State-of-Art Technologies](https://arxiv.org/abs/2006.06091) [Review of autonomous stack, Yu Huang]
+- [The Edge of Depth: Explicit Constraints between Segmentation and Depth](https://arxiv.org/abs/2004.00171) <kbd>CVPR 2020</kbd> [Xiaoming Liu, multimodal, depth bleeding] 
 
 
 ## 2020-06 (20)
@@ -137,7 +139,9 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [ORB-SLAM: a Versatile and Accurate Monocular SLAM System](https://arxiv.org/abs/1502.00956) <kbd>TRO 2015</kbd>
 - [ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras](https://arxiv.org/abs/1610.06475) <kbd>TRO 2016</kbd>
 - [CubeSLAM: Monocular 3D Object SLAM](https://arxiv.org/abs/1806.00557) [[Notes](paper_notes/cube_slam.md)] <kbd>TRO 2019</kbd> [dynamic SLAM, orb slam + mono3D]
-- [ClusterVO: Clustering Moving Instances and Estimating Visual Odometry for Self and Surroundings](https://arxiv.org/abs/2003.12980) <kbd>CVPR 2020</kbd> [dynamic SLAM]
+- [ClusterVO: Clustering Moving Instances and Estimating Visual Odometry for Self and Surroundings](https://arxiv.org/abs/2003.12980) [[Notes](paper_notes/cluster_vo.md)] <kbd>CVPR 2020</kbd> [general dynamic SLAM]
+- [Stereo Vision-based Semantic 3D Object and Ego-motion Tracking for Autonomous Driving](https://arxiv.org/abs/1807.02062) [[Notes](paper_notes/semantic_3d_slam.md)] <kbd>ECCV 2018</kbd> 
+- [Multi-object Monocular SLAM for Dynamic Environments](https://arxiv.org/abs/2002.03528) <kbd>IV 2020</kbd>
 - [ESPNetv2: A Light-weight, Power Efficient, and General Purpose Convolutional Neural Network](https://arxiv.org/abs/1811.11431) <kbd>CVPR 2019</kbd> [semantic segmentation, lightweight]
   
 ## 2020-05 (19)
@@ -736,7 +740,6 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Reinforced Feature Points: Optimizing Feature Detection and Description for a High-Level Task](https://arxiv.org/abs/1912.00623) <kbd>CVPR 2020 oral</kbd> [Eric Brachmann, ngransac]
 - [Unsupervised Learning of Depth and Ego-Motion from Monocular Video Using 3D Geometric Constraints](https://arxiv.org/pdf/1802.05522.pdf) <kbd>CVPR 2018</kbd>
 - [DynSLAM: Robust Dense Mapping for Large-Scale Dynamic Environments](https://siegedog.com/dynslam/) [dynamic SLAM, Andreas Geiger] <kbd>ICRA 2018</kbd>
-- [Stereo Vision-based Semantic 3D Object and Ego-motion Tracking for Autonomous Driving](https://arxiv.org/abs/1807.02062) <kbd>ECCV 2018</kbd> 
 - [GCNv2: Efficient Correspondence Prediction for Real-Time SLAM](https://arxiv.org/abs/1902.11046) <kbd>LRA 2019</kbd> [Superpoint + orb slam]
 - [Real-time Scalable Dense Surfel Mapping](Real-time Scalable Dense Surfel Mapping) <kbd>ICRA 2019</kbd> [dense reconstruction, monodepth]
 
