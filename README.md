@@ -141,7 +141,7 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [CubeSLAM: Monocular 3D Object SLAM](https://arxiv.org/abs/1806.00557) [[Notes](paper_notes/cube_slam.md)] <kbd>TRO 2019</kbd> [dynamic SLAM, orb slam + mono3D]
 - [ClusterVO: Clustering Moving Instances and Estimating Visual Odometry for Self and Surroundings](https://arxiv.org/abs/2003.12980) [[Notes](paper_notes/cluster_vo.md)] <kbd>CVPR 2020</kbd> [general dynamic SLAM]
 - [Stereo Vision-based Semantic 3D Object and Ego-motion Tracking for Autonomous Driving](https://arxiv.org/abs/1807.02062) [[Notes](paper_notes/semantic_3d_slam.md)] <kbd>ECCV 2018</kbd> 
-- [Multi-object Monocular SLAM for Dynamic Environments](https://arxiv.org/abs/2002.03528) <kbd>IV 2020</kbd> [monolayout authors]
+- [Multi-object Monocular SLAM for Dynamic Environments](https://arxiv.org/abs/2002.03528) [[Notes](paper_notes/multi_object_mono_slam.md)] <kbd>IV 2020</kbd> [monolayout authors]
 - [ESPNetv2: A Light-weight, Power Efficient, and General Purpose Convolutional Neural Network](https://arxiv.org/abs/1811.11431) <kbd>CVPR 2019</kbd> [semantic segmentation, lightweight]
   
 ## 2020-05 (19)
