@@ -9,6 +9,8 @@ This paper proposed the famous discrete-continous loss (or multi-bin loss, or hy
 
 This is not end-to-end. NN is used to estimate 2D bbox and dimensions and orientations of the bbox. Then the distance (translational vector) is obtained by solving for linear equation posed by the constraint of the corners touching four sides of 2D bbox.
 
+A simpler version for 3d proposal generation based on 2d bbox and viewpoint classification is in [semantic 3d slam](semantic_3d_slam.md).
+
 #### Key ideas
 - **Yaw and observation angle are different!** The observation angle determines the appearance, not the yaw itself.
 - **Multi-Bin loss**. The authors cited anchor box as intuition. First the regression target is discretized into multiple bins. Then the residual angle is regressed as sine and cosine. However the bins are **overlapping**, which seem to be different from what is used in later work. During training, there might be multiple bins corresponding to the same GT angle, but during inference, only the bin with the largest confidence score is picked and the regressed residual is applied.
@@ -28,3 +30,4 @@ This is not end-to-end. NN is used to estimate 2D bbox and dimensions and orient
 #### Notes
 - Q: Calculating the 3d translational vector directly from the 4 geometry constraint equation seems to be a bit weird. If the orientation prediction is wrong, then the x, y, z (from which you can calculate the depth) may be completely off, especially lateral position. Lateral position (u in the (u, v) tuple) of the object with respect to the principal point of the camera (obtained from the intrinsics) is a very strong prior to the x distance. Why not use this constraint and completely relying on the orientation estimation? --> A: actually as we bound the 3d bbox in the 2d bbox, this already limits the x, y and z to a tight range. 
 - The drawback of the method is that any inaccuracy in 2D object detection is locked in to 3D estimation as the geometry constraint is solved deterministically.
+- [Blog on detailed implementation](https://towardsdatascience.com/geometric-reasoning-based-cuboid-generation-in-monocular-3d-object-detection-5ee2996270d1)
