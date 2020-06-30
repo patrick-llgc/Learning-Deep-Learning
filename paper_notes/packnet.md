@@ -22,5 +22,6 @@ Most previous method requires depth scaling at test time. When velocity is avail
 - MR (640x192) vs HR (1280 * 384). Note that the ground and sky are cropped out.
 
 #### Notes
-- [Github code](https://github.com/TRI-ML/packnet-sfm/blob/master/monodepth/models/layers/packnet.py#L57)
+- [Github code](https://github.com/TRI-ML/packnet-sfm/)
+- The authors mentioned that it is possible to replace the poseNet prediction with GT pose, but they did not see significant improvement. [github issue](https://github.com/TRI-ML/packnet-sfm/issues/39)
 

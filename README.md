@@ -142,6 +142,9 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [ClusterVO: Clustering Moving Instances and Estimating Visual Odometry for Self and Surroundings](https://arxiv.org/abs/2003.12980) [[Notes](paper_notes/cluster_vo.md)] <kbd>CVPR 2020</kbd> [general dynamic SLAM]
 - [Stereo Vision-based Semantic 3D Object and Ego-motion Tracking for Autonomous Driving](https://arxiv.org/abs/1807.02062) [[Notes](paper_notes/semantic_3d_slam.md)] <kbd>ECCV 2018</kbd> 
 - [Multi-object Monocular SLAM for Dynamic Environments](https://arxiv.org/abs/2002.03528) [[Notes](paper_notes/multi_object_mono_slam.md)] <kbd>IV 2020</kbd> [monolayout authors]
+- [PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume](https://arxiv.org/abs/1709.02371) [[Notes](paper_notes/pwc_net.md)] <kbd>CVPR 2018 oral</kbd> [Optical flow]
+- [LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation](https://arxiv.org/abs/1805.07036) <kbd>CVPR 2018</kbd> [Optical flow]
+- [FlowNet: Learning Optical Flow With Convolutional Networks](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Dosovitskiy_FlowNet_Learning_Optical_ICCV_2015_paper.pdf) <kbd>ICCV 2015</kbd> [Optical flow]
 - [ESPNetv2: A Light-weight, Power Efficient, and General Purpose Convolutional Neural Network](https://arxiv.org/abs/1811.11431) <kbd>CVPR 2019</kbd> [semantic segmentation, lightweight]
   
 ## 2020-05 (19)
@@ -156,9 +159,6 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [Network Slimming: Learning Efficient Convolutional Networks through Network Slimming](https://arxiv.org/abs/1708.06519) [[Notes](paper_notes/network_slimming.md)] <kbd>ICCV 2017</kbd>
 - [BatchNorm Pruning: Rethinking the Smaller-Norm-Less-Informative Assumption in Channel Pruning of Convolution Layers](https://arxiv.org/abs/1802.00124) [[Notes](paper_notes/batchnorm_pruning.md)] <kbd>ICLR 2018</kbd>
 - [Direct Sparse Odometry](https://arxiv.org/abs/1607.02565) <kbd>PAMI 2018</kbd>
-- [PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume](https://arxiv.org/abs/1709.02371) <kbd>CVPR 2018 oral</kbd> [Optical flow]
-- [LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation](https://arxiv.org/abs/1805.07036) <kbd>CVPR 2018</kbd> [Optical flow]
-- [FlowNet: Learning Optical Flow With Convolutional Networks](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Dosovitskiy_FlowNet_Learning_Optical_ICCV_2015_paper.pdf) <kbd>ICCV 2015</kbd> [Optical flow]
 - [Train in Germany, Test in The USA: Making 3D Object Detectors Generalize](https://arxiv.org/abs/2005.08139) [[Notes](paper_notes/train_in_germany.md)] <kbd>CVPR 2020</kbd>
 - [PseudoLidarV3: End-to-End Pseudo-LiDAR for Image-Based 3D Object Detection](https://arxiv.org/abs/2004.03080) [[Notes](paper_notes/pseudo_lidar_v3.md)] <kbd>CVPR 2020</kbd>
 - [ATSS: Bridging the Gap Between Anchor-based and Anchor-free Detection via Adaptive Training Sample Selection](https://arxiv.org/abs/1912.02424) [[Notes](paper_notes/atss.md)] <kbd>CVPR 2020 oral</kbd>
