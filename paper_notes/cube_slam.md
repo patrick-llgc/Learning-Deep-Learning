@@ -15,7 +15,7 @@ Most existing SLAM methods assume the environment to be static or mostly static.
 
 #### Key ideas
 - Object detection + SLAM can benefit each other
-	- Object provide geometry and scale constraints for BA, and depth initialization. It can also add to generalization capability to let orb slam work where
+	- Object provide geometry and scale constraints for BA, and depth initialization. It can also add to generalization capability to let orb slam work in low texture scenario. 
 	- the mono3D results are optimized with BA, and constraint by a motion model
 - Multiview object SLAM
 	- decoupled approach: build SLAM point cloud then do detection 
@@ -33,9 +33,9 @@ Most existing SLAM methods assume the environment to be static or mostly static.
 		- camera-object:
 			- 3D: landmark object (tracked object) with current mono3D object prediction. 6 DoF pose + 3 DoF dimension
 			- 2D: min bounding rect for 8 projected points, compared with the 2d detection bbox. --> we can use line features such as XPE or tireline too to formulate this reprojection error!
-		- camera point
-			- for point associated with bbox, it should lie within the WHL cuboid.
 		- object point
+			- for point associated with bbox, it should lie within the WHL cuboid.
+		- camera point
 			- Same as orb-slam. 
 - point and object data association (static)
 	- Feature point matching
@@ -46,7 +46,7 @@ Most existing SLAM methods assume the environment to be static or mostly static.
 	- motion model: nonholonomic vehicle model, linear velocity (yaw, steering angle as internal state)
 	- dynamic point is anchored to the associated objects. The relative location of the point wrt the object is fixed. Thus dynamic point has the reproduction error. 
 	- point and object association (dynamic)
-		- KLT optical flow to track feature **points**. Object movement $\Delta T$, can be formulated as camera pose change equivalently, and. 
+		- KLT optical flow to track feature **points**. Object movement $\Delta T$, can be formulated as camera pose change equivalently, and can be solved by SVD. 
 		- KLT tracking may still fail, thus dynamic **object** tracking is done with visual object tracking methods.
 	- Dynamic object's speed profile can be estimated roughly within 1 m/s, even with a piecewise constant motion assumption. 
 ![](https://cdn-images-1.medium.com/max/1600/1*A0usFOJC6WEhr2VbJwlRtw.png)

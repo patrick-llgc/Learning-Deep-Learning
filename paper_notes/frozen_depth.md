@@ -1,8 +1,8 @@
-# [Paper Title](link_to_paper)
+# [FrozenDepth: Learning the Depths of Moving People by Watching Frozen People](https://arxiv.org/abs/1904.11111)
 
-_July 2020_
+_June 2020_
 
-tl;dr: Summary of the main idea.
+tl;dr: Use
 
 #### Overall impression
 Describe the overall impression of the paper. 

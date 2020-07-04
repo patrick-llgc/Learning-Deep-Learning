@@ -7,7 +7,7 @@ tl;dr: General dynamic slam that can detect and track 3D MOD.
 #### Overall impression
 The paper is similar in function to [Cube SLAM](cube_slam.md) that tracks objects and us it to increase the robustness of SLAM, and also is able to handle dynamic scenes. It is more flexible in the sense that the detection is based on **point cloud of landmarks on the cluster**. In comparison, [Cube SLAM](cube_slam.md) models each object as a 3d cuboid, and [QuadricSLAM](https://arxiv.org/abs/1804.04011) models each object as an ellipsoid.
 
-The paper is based on a stereo system but the performance of 3DOD is even worse than [mono3D](mono3d.md). This is almost
+The paper is based on a stereo system but the performance of 3DOD is even worse than [mono3D](mono3d.md). This is due to the way clusterVO generates 3D bounding box through tracked cluster, which may not subtend the whole size of the object. 
 
 Terminology:
 
@@ -34,7 +34,7 @@ Terminology:
 - State estimation
 	- Double track frame management: temporal track $T_t$ (15) and spatial track $T_s$ (5). 
 	- last frame need to be **marginalized** to save memory
-	- static scene (q=0): BA with margianlization term. Optimize both on spatial and temporal tracks. 
+	- static scene (q=0): BA with marginalization term. Optimize both on spatial and temporal tracks. 
 	- dynamic cluster (q!=0): white noise acceleration. Only optimize more recent temporal track.
 
 
