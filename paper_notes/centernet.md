@@ -12,6 +12,7 @@ CenterNet is a very generic object detection framework that can be used for 2D o
 
 #### Key ideas
 - Other properties, such as object size, dimension, 3D extent, orientation, and pose are regressed directly from image features at the center location.
+	- K (num_class) heatmaps and dense class-agnostic regression maps
 - Runs at real time:
 	- ResNet-18 and up-conv layers: 28 AP with 142 FPS
 	- DLA-34: 37 AP with 52 FPS (best speed/accuracy tradeoff)
@@ -32,4 +33,4 @@ CenterNet is a very generic object detection framework that can be used for 2D o
 
 #### Notes
 - Blog post from [知乎](https://www.zhihu.com/question/321206428) to compare two CenterNet papers.
-
+- Blog post from [知乎](https://zhuanlan.zhihu.com/p/96856635) on how to calculate the gaussian r. 

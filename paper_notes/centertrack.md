@@ -5,7 +5,7 @@ _July 2020_
 tl;dr: Use [CenterNet](centernet.md) to predict offset between neighboring frames. Nearest neighbor would work well 
 
 #### Overall impression
-CenterNet achieves the [SOTA of mono3D on nuScenes as of 07/04/2020](https://www.nuscenes.org/object-detection?externalData=all&mapData=all&modalities=Camera). On nuScenes it achieves 34 mAP, almost as good as LIDAR based approach one year ago by [PointPillars](pointpillars.md) at 31 mAP. 
+CenterNet achieves the [SOTA of mono3D on nuScenes as of 07/04/2020](https://www.nuscenes.org/object-detection?externalData=all&mapData=all&modalities=Camera). On nuScenes it achieves 34 mAP, almost as good as LIDAR based approach one year ago by [PointPillars](pointpillars.md) at 31 mAP. (The lidar SOTA performance is refreshed by [CenterPoint](centerpoint.md) to 60 mAP.)
 
 
 ##### The complete cycle
@@ -32,6 +32,7 @@ It feeds detection results from previous frame as additional input to boost perf
 - Runtime: 82 ms on KITTI and 45 ms on nuScenes.
 
 #### Technical details
+- Center based object detection is easily extended from 2D to 3D as 2D bbox does not have to be first estimated. --> this is true for 3D anchored design such as [M3D-RPN](m3d_rpn.md).
 - Data augmentation by random input dropout and noise injection to prevent neural network to cheat from the detection in previous frame. 
 - It can be trained on labeled video sequences, or on static images with aggresive data augmentation. The static image training works better if the frame rate is high enough in reality.
 - [CenterNet](centernet.md) uses additional 2 ch to correct quantization error. 
@@ -52,5 +53,9 @@ It feeds detection results from previous frame as additional input to boost perf
 #### Notes
 - [Review on 知乎](https://zhuanlan.zhihu.com/p/125395219)
 - [Github repo](https://github.com/xingyizhou/CenterTrack)
+	- Follow [installation guide](https://github.com/xingyizhou/CenterTrack/blob/master/readme/INSTALL.md)
+	- Need to downgrade pytorch to 1.2 to work with cuda 10.0
+	- Need to downgrade sklearn `pip install scikit-learn==0.22.2`
 - Next step: combine local tracking such as centerTrack with long term tracking methods such as [SORT](sort.md) with EKF.
+
 
