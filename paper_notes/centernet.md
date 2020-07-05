@@ -1,4 +1,4 @@
-# [Objects as points](https://arxiv.org/pdf/1904.07850.pdf)
+# [Objects as points](https://arxiv.org/abs/1904.07850)
 
 _May 2019_
 
@@ -6,6 +6,9 @@ tl;dr: Object detection as detection of the center point of the object and regre
 
 #### Overall impression
 CenterNet is a very generic object detection framework that can be used for 2D object detection, 3d object detection (from monocular RGB image), key point regression. The backbone can be chosen to meet different speed/accuracy tradeoff points.
+
+[FCOS](fcos.md) regressed distances to four edges, while [CenterNet](centernet.md) only regresses width and height. The [FCOS](fcos.md) formulation is more general as it can handle amodal bbox cases (the object center may not be the center of bbox).
+
 
 #### Key ideas
 - Other properties, such as object size, dimension, 3D extent, orientation, and pose are regressed directly from image features at the center location.
@@ -15,7 +18,7 @@ CenterNet is a very generic object detection framework that can be used for 2D o
 	- Hourglass-104: 45 AP with 1.4 FPS
 - High res output: stride=4.
 - GT: center/keypoints with Gaussian kernel blur
-- 2D bbox prediction: C ch for class-specific heatmaps, 2 ch for offset (only at center to remove discretization error), 2 ch for size
+- 2D bbox prediction: C ch for class-specific heatmaps, 2 ch for offset (only at center to remove discretization/quantization error), 2 ch for size
 - Decoding points to bbox: find top 100 peaks from heatmaps, then apply offset prediction and size prediction. There is no need for NMS. 
 
 #### Technical details

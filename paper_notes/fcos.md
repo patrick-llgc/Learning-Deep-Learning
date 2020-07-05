@@ -9,6 +9,8 @@ This paper is littered with hidden gems! Lots of tricks and insights on training
 
 The idea is similar to [CenterNet](centernet.md). CenterNet uses only the points near the center and regresses the height and width, whereas FCOS uses all the points in the bbox and regresses all distances to four edges. **FCOS does not predict centers of bbox using keypoints heatmap but rather uses anchor free methods.**
 
+[FCOS](fcos.md) regressed distances to four edges, while [CenterNet](centernet.md) only regresses width and height. The [FCOS](fcos.md) formulation is more general as it can handle amodal bbox cases (the object center may not be the center of bbox).
+
 I personally feel this paper is better than centernet in the sense that it does not need too much bells and whistles to achieve the same performance. 
 
 It is extended to [PolarMask](polarmask.md) for one-stage instance segmentation.
@@ -23,7 +25,6 @@ The paper inspired [ATSS](atss.md) which explained why FCOS can achieve better p
 - Assign regression target to different levels. For central points, use high-res feature map, and for corner points, use low-res feature map. 
 - Regress a centerness score in the classifier branch to filter out FP bboxes far away from center. This bridges the gap between previous SOTA and FCOS.
 - The performance of FCOS is better than RetinaNet at stricter thresholds.
-
 
 #### Technical details
 - Even for RetinaNet, using GN instead of BN helps a lot.
