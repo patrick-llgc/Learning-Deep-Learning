@@ -78,7 +78,6 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection](https://arxiv.org/abs/1912.13192) <kbd>CVPR 2020</kbd> [Waymo challenge 2nd place]
 - [Generalized ODIN: Detecting Out-of-Distribution Image Without Learning From Out-of-Distribution Data](https://arxiv.org/abs/2002.11297) <kbd>CVPR 2020</kbd>
 - [Keep it Simple: Image Statistics Matching for Domain Adaptation](https://arxiv.org/abs/2005.12551) <kbd>CVPRW 2020</kbd> [Domain adaptation for 2D mod bbox]
-- [AFDet: Anchor Free One Stage 3D Object Detection](https://drive.google.com/file/d/1qSwVE0FQZiCjfYyH_DM7-oZtEuE91B8K/view) <kbd>CVPRW 2020</kbd> [Horizon robotics, winning for Waymo challenge] 
 - [3D-GCK: Single-Shot 3D Detection of Vehicles from Monocular RGB Images via
 Geometrically Constrained Keypoints in Real-Time](https://drive.google.com/file/d/19wVQ5kl_4MClSaQDKq9-bkQHaxfrNi_Z/view) <kbd>CVPRW 2020</kbd> [Daimler, mono3D]
 - [Cityscapes 3D: Dataset and Benchmark for 9 DoF Vehicle Detection](https://arxiv.org/abs/2006.07864) <kbd>CVPRW 2020</kbd> [dataset, Daimler, mono3D]
@@ -93,7 +92,8 @@ Geometrically Constrained Keypoints in Real-Time](https://drive.google.com/file/
 - [CenterTrack: Tracking Objects as Points](https://arxiv.org/abs/2004.01177) [[Notes](paper_notes/centertrack.md)] [camera based 3D MOD, MOT SOTA, CenterNet, video based object detection]
 - [CenterPoint: Center-based 3D Object Detection and Tracking](https://arxiv.org/abs/2006.11275) [[Notes](paper_notes/centerpoint.md)] [lidar based 3D MOD, CenterNet]
 - [Tracktor: Tracking without bells and whistles](https://arxiv.org/abs/1903.05625) [[Notes](paper_notes/tracktor.md)] <kbd>ICCV 2019</kbd>
-- [CBGS: Class-balanced Grouping and Sampling for Point Cloud 3D Object Detection](https://arxiv.org/abs/1908.09492) <kbd>CVPRW 2019</kbd> [Megvii, WAD challenge winner]
+- [CBGS: Class-balanced Grouping and Sampling for Point Cloud 3D Object Detection](https://arxiv.org/abs/1908.09492) <kbd>CVPRW 2019</kbd> [Megvii, lidar, WAD challenge winner]
+- [AFDet: Anchor Free One Stage 3D Object Detection](https://arxiv.org/abs/2006.12671) <kbd>CVPRW 2020</kbd> [Horizon robotics, lidar, winning for Waymo challenge] 
 - [End-to-End Multi-View Fusion for 3D Object Detection in LiDAR Point Clouds](https://arxiv.org/abs/1910.06528) <kbd>CoRL 2019</kbd> [Waymo]
 - [nuScenes: A multimodal dataset for autonomous driving](https://arxiv.org/abs/1903.11027) [[Notes](paper_notes/nuscenes.md)] <kbd>CVPR 2020</kbd> [dataset, point cloud, radar]
 - [Autonomous Driving with Deep Learning: A Survey of State-of-Art Technologies](https://arxiv.org/abs/2006.06091) [Review of autonomous stack, Yu Huang]

@@ -30,8 +30,14 @@ The results are quite impressive. It almost doubles mAP from 30 [PointPillars](p
 		- Double flipping testing: 4 TTA copies --> We can add mirroring as well
 		- Simple average of heatmaps works without complicated NMS strategy
 - higher resolution (0.1 m gird --> 0.075 m grid) helps 
-- [One cycle policy](https://sgugger.github.io/the-1cycle-policy.html)
+- Learned velocity is much faster than Kalman filter (91 ms to 1 ms)
+
 
 #### Notes
-- Questions and notes on how to improve/revise the current work  
+- [One cycle policy](https://sgugger.github.io/the-1cycle-policy.html). This trick is introduced in [CBGS](cbgs.md).
+	- [Implementation in center point](https://github.com/tianweiy/CenterPoint/blob/b66c1bdb49c051e104b3088cb9b9bea3d7a904a8/det3d/solver/learning_schedules_fastai.py#L77)
+	- Find best LR first 
+	![](https://sgugger.github.io/images/art2_courbe_lr.png)
+	- Then fix max_lr to the argmin(loss) value. min_lr is roughly 10% of max_lr.
+	![](https://sgugger.github.io/images/art5_full_schedule.png)
 
