@@ -30,6 +30,7 @@ CenterNet is a very generic object detection framework that can be used for 2D o
 - Hourglass network is quite large, but yields SOTA for key point regression.
 - It takes a few days to converge. It seems pretty hard to train. 
 - TridentNet has the SOTA for two stage object detection. 48.4 AP, but also very slow (Mask RCNN is 15x faster).
+- CenterNet uses 8 bits to predict orientation.
 
 #### Notes
 - Blog post from [知乎](https://www.zhihu.com/question/321206428) to compare two CenterNet papers.

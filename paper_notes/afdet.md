@@ -30,7 +30,7 @@ The anchor-free object detection of [AFDet](afdet.md) is very close to [CenterPo
 
 
 #### Technical details
-- 8 bits for orientation (2 bins x (cos + sin + 2-bit cls) per bin) --> why?
+- 8 bits for orientation (2 bins x (cos + sin + 2-bit cls) per bin) --> This is same as [CenterNet](centernet.md).
 - Waymo and KITTI uses the same 0.7 3D IoU as the KPI.
 
 #### Notes

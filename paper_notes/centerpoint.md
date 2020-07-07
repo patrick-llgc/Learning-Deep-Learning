@@ -11,8 +11,8 @@ The anchor-free object detection of [AFDet](afdet.md) (winner of 2020 Waymo Open
 
 #### Key ideas
 - Detect center of objects and regress other attributes such as 3D size, 3D orientation and **velocity** (**offset vector** in [CenterTrack](centertrack.md)).
-- Most of 3D space are without measurement. Need extra trick to make it work. Gaussian blur bigger. 
-	- Radius function has min of 2 pixels.
+- Most of 3D space are without measurement. Need extra trick to make it work. Gaussian blur bigger. --> cf [AFDet](afdet.md)
+	- Radius function has min of 2 pixels. 
 - Representation matters!
 	- Point representation does not have intrinsic orientation.
 	- Using anchors for each object orientation works but is even more ugly and computation heavy.
