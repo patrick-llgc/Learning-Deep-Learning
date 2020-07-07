@@ -38,6 +38,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Andrej Karpathy's Talks](./talk_notes/andrej.md)
 
 ## My Review Posts by Topics
+- [Monocular Dynamic Object SLAM in Autonomous Driving](https://towardsdatascience.com/monocular-dynamic-object-slam-in-autonomous-driving-f12249052bf1)
 - [Monocular 3D Object Detection in Autonomous Driving — A Review](https://towardsdatascience.com/monocular-3d-object-detection-in-autonomous-driving-2476a3c7f57e)
 - [Self-supervised Keypoint Learning — A Review](https://towardsdatascience.com/self-supervised-keypoint-learning-aade18081fc3)
 - [Single Stage Instance Segmentation — A Review](https://towardsdatascience.com/single-stage-instance-segmentation-a-review-1eeb66e0cc49)
@@ -45,6 +46,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Convolutional Neural Networks with Heterogeneous Metadata](https://towardsdatascience.com/convolutional-neural-networks-with-heterogeneous-metadata-2af9241218a9)
 - [Lifting 2D object detection to 3D in autonomous driving](https://towardsdatascience.com/geometric-reasoning-based-cuboid-generation-in-monocular-3d-object-detection-5ee2996270d1)
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
+
 
 
 ## CVPR 2020
@@ -88,20 +90,22 @@ Geometrically Constrained Keypoints in Real-Time](https://drive.google.com/file/
 - [The Edge of Depth: Explicit Constraints between Segmentation and Depth](https://arxiv.org/abs/2004.00171) <kbd>CVPR 2020</kbd> [Xiaoming Liu, multimodal, depth bleeding] 
 - [MotionNet: Joint Perception and Motion Prediction for Autonomous Driving Based on Bird's Eye View Maps](https://arxiv.org/abs/2003.06754) <kbd>CVPR 2020</kbd>
 
-## 2020-07 (2)
+## 2020-07 (5)
 - [CenterTrack: Tracking Objects as Points](https://arxiv.org/abs/2004.01177) [[Notes](paper_notes/centertrack.md)] [camera based 3D MOD, MOT SOTA, CenterNet, video based object detection]
 - [CenterPoint: Center-based 3D Object Detection and Tracking](https://arxiv.org/abs/2006.11275) [[Notes](paper_notes/centerpoint.md)] [lidar based 3D MOD, CenterNet]
 - [Tracktor: Tracking without bells and whistles](https://arxiv.org/abs/1903.05625) [[Notes](paper_notes/tracktor.md)] <kbd>ICCV 2019</kbd>
-- [CBGS: Class-balanced Grouping and Sampling for Point Cloud 3D Object Detection](https://arxiv.org/abs/1908.09492) <kbd>CVPRW 2019</kbd> [Megvii, lidar, WAD challenge winner]
-- [AFDet: Anchor Free One Stage 3D Object Detection](https://arxiv.org/abs/2006.12671) <kbd>CVPRW 2020</kbd> [Horizon robotics, lidar, winning for Waymo challenge] 
-- [End-to-End Multi-View Fusion for 3D Object Detection in LiDAR Point Clouds](https://arxiv.org/abs/1910.06528) <kbd>CoRL 2019</kbd> [Waymo]
 - [nuScenes: A multimodal dataset for autonomous driving](https://arxiv.org/abs/1903.11027) [[Notes](paper_notes/nuscenes.md)] <kbd>CVPR 2020</kbd> [dataset, point cloud, radar]
-- [Autonomous Driving with Deep Learning: A Survey of State-of-Art Technologies](https://arxiv.org/abs/2006.06091) [Review of autonomous stack, Yu Huang]
-- [Dense Monocular Depth Estimation in Complex Dynamic Scenes](https://openaccess.thecvf.com/content_cvpr_2016/papers/Ranftl_Dense_Monocular_Depth_CVPR_2016_paper.pdf) <kbd>CVPR 2016</kbd>
-- [Probabilistic Future Prediction for Video Scene Understanding](https://anthonyhu.github.io/research/probabilistic-future-prediction/)
+- [CBGS: Class-balanced Grouping and Sampling for Point Cloud 3D Object Detection](https://arxiv.org/abs/1908.09492) [[Notes](paper_notes/cbgs.md)] <kbd>CVPRW 2019</kbd> [Megvii, lidar, WAD challenge winner]
+- [AFDet: Anchor Free One Stage 3D Object Detection](https://arxiv.org/abs/2006.12671) [[Notes](paper_notes/afdet.md)] <kbd>CVPRW 2020</kbd> [Horizon robotics, lidar, winning for Waymo challenge] 
 - [VPN: Cross-view Semantic Segmentation for Sensing Surroundings](https://arxiv.org/abs/1906.03560) [[Notes](paper_noets/vpn.md)] [Bolei Zhou, BEV-Net]
 - [MonoSemanticOccupancy: Monocular Semantic Occupancy Grid Mapping with Convolutional Variational Encoder-Decoder Networks](https://arxiv.org/abs/1804.02176) <kbd>ICRA 2019</kbd> [BEV-Net]
 - [Monocular Plan View Networks for Autonomous Driving](https://arxiv.org/abs/1905.06937) <kbd>IROS 2019</kbd> [BEV-Net]
+- [TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383) <kbd>ICCV 2019</kbd> (Song Han)
+- [MVF: End-to-End Multi-View Fusion for 3D Object Detection in LiDAR Point Clouds](https://arxiv.org/abs/1910.06528) <kbd>CoRL 2019</kbd> [Waymo]
+- [Training-Time-Friendly Network for Real-Time Object Detection](https://arxiv.org/abs/1909.00700) <kbd>AAAI 2020</kbd> [anchor-free, fast training]
+- [Autonomous Driving with Deep Learning: A Survey of State-of-Art Technologies](https://arxiv.org/abs/2006.06091) [Review of autonomous stack, Yu Huang]
+- [Dense Monocular Depth Estimation in Complex Dynamic Scenes](https://openaccess.thecvf.com/content_cvpr_2016/papers/Ranftl_Dense_Monocular_Depth_CVPR_2016_paper.pdf) <kbd>CVPR 2016</kbd>
+- [Probabilistic Future Prediction for Video Scene Understanding](https://anthonyhu.github.io/research/probabilistic-future-prediction/)
 - [Object Detection in Videos with Tubelet Proposal Networks](https://arxiv.org/abs/1702.06355) <kbd>CVPR 2017</kbd> [video object detection]
 - [T-CNN: Tubelets with Convolutional Neural Networks for Object Detection from Videos](https://arxiv.org/abs/1604.02532) [video object detection]
 - [Flow-Guided Feature Aggregation for Video Object Detection](https://arxiv.org/abs/1703.10025) <kbd>ICCV 2017</kbd> [Jifeng Dai]
@@ -564,7 +568,6 @@ Here is the list of papers waiting to be read.
 - [A Closer Look at Spatiotemporal Convolutions for Action Recognition](https://arxiv.org/pdf/1711.11248.pdf) (decouple spatiotemporal) <kbd>CVPR 2018</kbd>
 - [Rethinking Spatiotemporal Feature Learning: Speed-Accuracy Trade-offs in Video Classification](https://arxiv.org/pdf/1712.04851.pdf) (decouple spatiotemporal) <kbd>ECCV 2018</kbd>
 - [Can Spatiotemporal 3D CNNs Retrace the History of 2D CNNs and ImageNet?](https://arxiv.org/pdf/1711.09577.pdf) <kbd>CVPR 2018</kbd>
-- [TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383) <kbd>ICCV 2019</kbd> (Song Han)
 - [AGSS-VOS: Attention Guided Single-Shot Video Object Segmentation](http://openaccess.thecvf.com/content_ICCV_2019/papers/Lin_AGSS-VOS_Attention_Guided_Single-Shot_Video_Object_Segmentation_ICCV_2019_paper.pdf) <kbd>ICCV 2019</kbd>
 - [One-Shot Video Object Segmentation](https://arxiv.org/abs/1611.05198) <kbd>CVPR 2017</kbd>
 - [Looking Fast and Slow: Memory-Guided Mobile Video Object Detection](https://arxiv.org/abs/1903.10172) <kbd>CVPR 2018</kbd>

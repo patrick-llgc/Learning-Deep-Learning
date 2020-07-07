@@ -7,6 +7,8 @@ tl;dr: [CenterTrack](centertrack.md) for lidar 3D object detection.
 #### Overall impression
 The results are quite impressive. It almost doubles mAP from 30 [PointPillars](pointpillars.md) to 60 [CenterPoint](centerpoint.md) on nuScenes. Especially it improves the performance on buses and trucks. 
 
+The anchor-free object detection of [AFDet](afdet.md) (winner of 2020 Waymo Open Dataset challenge) is very close to [CenterPoint](centerpoint.md).
+
 #### Key ideas
 - Detect center of objects and regress other attributes such as 3D size, 3D orientation and **velocity** (**offset vector** in [CenterTrack](centertrack.md)).
 - Most of 3D space are without measurement. Need extra trick to make it work. Gaussian blur bigger. 
