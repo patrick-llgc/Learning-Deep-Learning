@@ -27,6 +27,11 @@ The anchor-free object detection of [AFDet](afdet.md) is very close to [CenterPo
 	- High resolution feature map helps
 	- AdamW + 1 cycle policy for super convergence.
 	- Data aug during training
+- Tricks for winning solution (not in this paper)
+	- Densification (with pervious 4 frames)
+	- pointpainting (2D bbox painting and segmentation painting). 50% painted as waymo does not have a rear view cam
+	- train 3 models and perform ensemble and TTA
+	- Merging of TTA and ensemble bbox with [weighted bbox fusion](https://arxiv.org/abs/1910.13302)
 
 
 #### Technical details
@@ -34,5 +39,5 @@ The anchor-free object detection of [AFDet](afdet.md) is very close to [CenterPo
 - Waymo and KITTI uses the same 0.7 3D IoU as the KPI.
 
 #### Notes
-- Questions and notes on how to improve/revise the current work  
+- [Talk at CVPRW 2020](https://youtu.be/9g9GsI33ol8?t=974)
 

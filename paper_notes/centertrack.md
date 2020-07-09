@@ -51,11 +51,9 @@ It feeds detection results from previous frame as additional input to boost perf
 
 
 #### Notes
-- [Review on 知乎](https://zhuanlan.zhihu.com/p/125395219)
+- [Review on 知乎](https://zhuanlan.zhihu.com/p/125395219) for [CenterTrack](centertrack.md), [Detect to track and track to detect](detect_track.md) and [tracktor++](tracktor.md).
 - [Github repo](https://github.com/xingyizhou/CenterTrack)
 	- Follow [installation guide](https://github.com/xingyizhou/CenterTrack/blob/master/readme/INSTALL.md)
 	- Need to downgrade pytorch to 1.2 to work with cuda 10.0
 	- Need to downgrade sklearn `pip install scikit-learn==0.22.2`
 - Next step: combine local tracking such as centerTrack with long term tracking methods such as [SORT](sort.md) with EKF.
-
-

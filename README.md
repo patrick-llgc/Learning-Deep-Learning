@@ -93,10 +93,14 @@ Geometrically Constrained Keypoints in Real-Time](https://drive.google.com/file/
 ## 2020-07 (6)
 - [CenterTrack: Tracking Objects as Points](https://arxiv.org/abs/2004.01177) [[Notes](paper_notes/centertrack.md)] [camera based 3D MOD, MOT SOTA, CenterNet, video based object detection]
 - [CenterPoint: Center-based 3D Object Detection and Tracking](https://arxiv.org/abs/2006.11275) [[Notes](paper_notes/centerpoint.md)] [lidar based 3D MOD, CenterNet]
-- [Tracktor: Tracking without bells and whistles](https://arxiv.org/abs/1903.05625) [[Notes](paper_notes/tracktor.md)] <kbd>ICCV 2019</kbd>
+- [Tracktor: Tracking without bells and whistles](https://arxiv.org/abs/1903.05625) [[Notes](paper_notes/tracktor.md)] <kbd>ICCV 2019</kbd> [Laura Leal-Taixe@TUM]
+- [FairMOT: A Simple Baseline for Multi-Object Tracking](https://arxiv.org/abs/2004.01888) [[Notes](paper_notes/fairmot.md)]
+- [DeepMOT: A Differentiable Framework for Training Multiple Object Trackers](https://arxiv.org/abs/1906.06618) [[Notes](paper_notes/deepmot.md)] <kbd>CVPR 2020</kbd> [trainable Hungarian, Laura Leal-Taixe@TUM]
+- [MPNTracker: Learning a Neural Solver for Multiple Object Tracking](https://arxiv.org/abs/1912.07515) <kbd>CVPR 2020 oral</kbd> [trainable Hungarian, Laura Leal-Taixe@TUM]
 - [nuScenes: A multimodal dataset for autonomous driving](https://arxiv.org/abs/1903.11027) [[Notes](paper_notes/nuscenes.md)] <kbd>CVPR 2020</kbd> [dataset, point cloud, radar]
 - [CBGS: Class-balanced Grouping and Sampling for Point Cloud 3D Object Detection](https://arxiv.org/abs/1908.09492) [[Notes](paper_notes/cbgs.md)] <kbd>CVPRW 2019</kbd> [Megvii, lidar, WAD challenge winner]
 - [AFDet: Anchor Free One Stage 3D Object Detection](https://arxiv.org/abs/2006.12671) [[Notes](paper_notes/afdet.md)] <kbd>CVPRW 2020</kbd> [Horizon robotics, lidar, winning for Waymo challenge] 
+- Review of MOT and SOT [[Notes](paper_notes/mot_and_sot.md)]
 - [VPN: Cross-view Semantic Segmentation for Sensing Surroundings](https://arxiv.org/abs/1906.03560) [[Notes](paper_noets/vpn.md)] [Bolei Zhou, BEV-Net]
 - [MonoSemanticOccupancy: Monocular Semantic Occupancy Grid Mapping with Convolutional Variational Encoder-Decoder Networks](https://arxiv.org/abs/1804.02176) <kbd>ICRA 2019</kbd> [BEV-Net]
 - [Monocular Plan View Networks for Autonomous Driving](https://arxiv.org/abs/1905.06937) <kbd>IROS 2019</kbd> [BEV-Net]
@@ -112,7 +116,7 @@ Geometrically Constrained Keypoints in Real-Time](https://drive.google.com/file/
 - [AB3D: A Baseline for 3D Multi-Object Tracking](https://arxiv.org/abs/1907.03961) <kbd>IROS 2020</kbd> [3D MOT]
 - [Spatial-Temporal Relation Networks for Multi-Object Tracking](https://arxiv.org/abs/1904.11489) <kbd>ICCV 2019</kbd> [MOT, feature location over time]
 - [Beyond Pixels: Leveraging Geometry and Shape Cues for Online Multi-Object Tracking](https://arxiv.org/abs/1802.09298) <kbd>ICRA 2018</kbd> [MOT, IIT, 3D shape]
-
+- [CrowdHuman: A Benchmark for Detecting Human in a Crowd](https://arxiv.org/abs/1805.00123) <kbd>CVPR 2019</kbd>
 
 ## 2020-06 (20)
 - [LeGO-LOAM: Lightweight and Ground-Optimized Lidar Odometry and Mapping on Variable Terrain](http://personal.stevens.edu/~benglot/Shan_Englot_IROS_2018_Preprint.pdf) [[Notes](paper_notes/lego_loam.md)] <kbd>IROS 2018</kbd> [lidar, mapping]
@@ -176,8 +180,8 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [PackNet: 3D Packing for Self-Supervised Monocular Depth Estimation](https://arxiv.org/abs/1905.02693) [[Notes](paper_notes/packnet.md)] <kbd>CVPR 2020 oral</kbd> [Scale aware depth]
 - [PackNet-SG: Semantically-Guided Representation Learning for Self-Supervised Monocular Depth](https://arxiv.org/abs/2002.12319) [[Notes](paper_notes/packnet_sg.md)] <kbd>ICLR 2020</kbd> [TRI, infinite-depth problem]
 - [TrianFlow: Towards Better Generalization: Joint Depth-Pose Learning without PoseNet](https://arxiv.org/abs/2004.01314) [[Notes](paper_notes/trianflow.md)] <kbd>CVPR 2020</kbd> [Scale aware]
-- [Understanding the Limitations of CNN-based Absolute Camera Pose Regression](https://arxiv.org/abs/1903.07504) [[Notes](paper_notes/understanding_apr.md)] <kbd>CVPR 2019</kbd> [Drawbacks of PoseNet, MapNet]
-- [To Learn or Not to Learn: Visual Localization from Essential Matrices](https://arxiv.org/abs/1908.01293) [[Notes](paper_notes/to_learn_or_not.md)] <kbd>ICRA 2020</kbd> [SIFT + 5 pt solver >> others for VO]
+- [Understanding the Limitations of CNN-based Absolute Camera Pose Regression](https://arxiv.org/abs/1903.07504) [[Notes](paper_notes/understanding_apr.md)] <kbd>CVPR 2019</kbd> [Drawbacks of PoseNet, MapNet, Laura Leal-Taixe@TUM]
+- [To Learn or Not to Learn: Visual Localization from Essential Matrices](https://arxiv.org/abs/1908.01293) [[Notes](paper_notes/to_learn_or_not.md)] <kbd>ICRA 2020</kbd> [SIFT + 5 pt solver >> others for VO, Laura Leal-Taixe@TUM]
 - [DF-VO: Visual Odometry Revisited: What Should Be Learnt?](https://arxiv.org/abs/1909.09803) [[Notes](paper_notes/df_vo.md)] <kbd>ICRA 2020</kbd> [Depth and Flow for accurate VO]
 - [D3VO: Deep Depth, Deep Pose and Deep Uncertainty for Monocular Visual Odometry](https://arxiv.org/abs/2003.01060) [[Notes](paper_notes/d3vo.md)] <kbd>CVPR 2020 oral</kbd> [Daniel Cremer, TUM, depth uncertainty]
 - [Network Slimming: Learning Efficient Convolutional Networks through Network Slimming](https://arxiv.org/abs/1708.06519) [[Notes](paper_notes/network_slimming.md)] <kbd>ICCV 2017</kbd>
