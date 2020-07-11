@@ -90,7 +90,7 @@ Geometrically Constrained Keypoints in Real-Time](https://drive.google.com/file/
 - [The Edge of Depth: Explicit Constraints between Segmentation and Depth](https://arxiv.org/abs/2004.00171) <kbd>CVPR 2020</kbd> [Xiaoming Liu, multimodal, depth bleeding] 
 - [MotionNet: Joint Perception and Motion Prediction for Autonomous Driving Based on Bird's Eye View Maps](https://arxiv.org/abs/2003.06754) <kbd>CVPR 2020</kbd>
 
-## 2020-07 (6)
+## 2020-07 (7)
 - [CenterTrack: Tracking Objects as Points](https://arxiv.org/abs/2004.01177) [[Notes](paper_notes/centertrack.md)] [camera based 3D MOD, MOT SOTA, CenterNet, video based object detection]
 - [CenterPoint: Center-based 3D Object Detection and Tracking](https://arxiv.org/abs/2006.11275) [[Notes](paper_notes/centerpoint.md)] [lidar based 3D MOD, CenterNet]
 - [Tracktor: Tracking without bells and whistles](https://arxiv.org/abs/1903.05625) [[Notes](paper_notes/tracktor.md)] <kbd>ICCV 2019</kbd> [Laura Leal-Taixe@TUM]
@@ -99,8 +99,10 @@ Geometrically Constrained Keypoints in Real-Time](https://drive.google.com/file/
 - [MPNTracker: Learning a Neural Solver for Multiple Object Tracking](https://arxiv.org/abs/1912.07515) <kbd>CVPR 2020 oral</kbd> [trainable Hungarian, Laura Leal-Taixe@TUM]
 - [nuScenes: A multimodal dataset for autonomous driving](https://arxiv.org/abs/1903.11027) [[Notes](paper_notes/nuscenes.md)] <kbd>CVPR 2020</kbd> [dataset, point cloud, radar]
 - [CBGS: Class-balanced Grouping and Sampling for Point Cloud 3D Object Detection](https://arxiv.org/abs/1908.09492) [[Notes](paper_notes/cbgs.md)] <kbd>CVPRW 2019</kbd> [Megvii, lidar, WAD challenge winner]
-- [AFDet: Anchor Free One Stage 3D Object Detection](https://arxiv.org/abs/2006.12671) [[Notes](paper_notes/afdet.md)] <kbd>CVPRW 2020</kbd> [Horizon robotics, lidar, winning for Waymo challenge] 
+- [AFDet: Anchor Free One Stage 3D Object Detection](https://arxiv.org/abs/2006.12671) and [Competition solution](https://arxiv.org/pdf/2006.15505.pdf) [[Notes](paper_notes/afdet.md)]  <kbd>CVPRW 2020</kbd> [Horizon robotics, lidar, winning for Waymo challenge] 
 - Review of MOT and SOT [[Notes](paper_notes/mot_and_sot.md)]
+- [CrowdHuman: A Benchmark for Detecting Human in a Crowd](https://arxiv.org/abs/1805.00123) [[Notes](paper_notes/crowdhuman.md)] [megvii, pedestrian, dataset]
+- [WiderPerson: A Diverse Dataset for Dense Pedestrian Detection in the Wild](https://arxiv.org/abs/1909.12118) <kbd>TMM 2019</kbd>
 - [VPN: Cross-view Semantic Segmentation for Sensing Surroundings](https://arxiv.org/abs/1906.03560) [[Notes](paper_noets/vpn.md)] [Bolei Zhou, BEV-Net]
 - [MonoSemanticOccupancy: Monocular Semantic Occupancy Grid Mapping with Convolutional Variational Encoder-Decoder Networks](https://arxiv.org/abs/1804.02176) <kbd>ICRA 2019</kbd> [BEV-Net]
 - [Monocular Plan View Networks for Autonomous Driving](https://arxiv.org/abs/1905.06937) <kbd>IROS 2019</kbd> [BEV-Net]
@@ -116,7 +118,7 @@ Geometrically Constrained Keypoints in Real-Time](https://drive.google.com/file/
 - [AB3D: A Baseline for 3D Multi-Object Tracking](https://arxiv.org/abs/1907.03961) <kbd>IROS 2020</kbd> [3D MOT]
 - [Spatial-Temporal Relation Networks for Multi-Object Tracking](https://arxiv.org/abs/1904.11489) <kbd>ICCV 2019</kbd> [MOT, feature location over time]
 - [Beyond Pixels: Leveraging Geometry and Shape Cues for Online Multi-Object Tracking](https://arxiv.org/abs/1802.09298) <kbd>ICRA 2018</kbd> [MOT, IIT, 3D shape]
-- [CrowdHuman: A Benchmark for Detecting Human in a Crowd](https://arxiv.org/abs/1805.00123) <kbd>CVPR 2019</kbd>
+
 
 ## 2020-06 (20)
 - [LeGO-LOAM: Lightweight and Ground-Optimized Lidar Odometry and Mapping on Variable Terrain](http://personal.stevens.edu/~benglot/Shan_Englot_IROS_2018_Preprint.pdf) [[Notes](paper_notes/lego_loam.md)] <kbd>IROS 2018</kbd> [lidar, mapping]
