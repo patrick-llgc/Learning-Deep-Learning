@@ -90,10 +90,10 @@ Geometrically Constrained Keypoints in Real-Time](https://drive.google.com/file/
 - [The Edge of Depth: Explicit Constraints between Segmentation and Depth](https://arxiv.org/abs/2004.00171) <kbd>CVPR 2020</kbd> [Xiaoming Liu, multimodal, depth bleeding] 
 - [MotionNet: Joint Perception and Motion Prediction for Autonomous Driving Based on Bird's Eye View Maps](https://arxiv.org/abs/2003.06754) <kbd>CVPR 2020</kbd>
 
-## 2020-07 (7)
+## 2020-07 (9)
 - [CenterTrack: Tracking Objects as Points](https://arxiv.org/abs/2004.01177) [[Notes](paper_notes/centertrack.md)] [camera based 3D MOD, MOT SOTA, CenterNet, video based object detection]
 - [CenterPoint: Center-based 3D Object Detection and Tracking](https://arxiv.org/abs/2006.11275) [[Notes](paper_notes/centerpoint.md)] [lidar based 3D MOD, CenterNet]
-- [Tracktor: Tracking without bells and whistles](https://arxiv.org/abs/1903.05625) [[Notes](paper_notes/tracktor.md)] <kbd>ICCV 2019</kbd> [Laura Leal-Taixe@TUM]
+- [Tracktor: Tracking without bells and whistles](https://arxiv.org/abs/1903.05625) [[Notes](paper_notes/tracktor.md)] <kbd>ICCV 2019</kbd> [Tracktor/Tracktor++, Laura Leal-Taixe@TUM]
 - [FairMOT: A Simple Baseline for Multi-Object Tracking](https://arxiv.org/abs/2004.01888) [[Notes](paper_notes/fairmot.md)]
 - [DeepMOT: A Differentiable Framework for Training Multiple Object Trackers](https://arxiv.org/abs/1906.06618) [[Notes](paper_notes/deepmot.md)] <kbd>CVPR 2020</kbd> [trainable Hungarian, Laura Leal-Taixe@TUM]
 - [MPNTracker: Learning a Neural Solver for Multiple Object Tracking](https://arxiv.org/abs/1912.07515) <kbd>CVPR 2020 oral</kbd> [trainable Hungarian, Laura Leal-Taixe@TUM]
@@ -102,7 +102,7 @@ Geometrically Constrained Keypoints in Real-Time](https://drive.google.com/file/
 - [AFDet: Anchor Free One Stage 3D Object Detection](https://arxiv.org/abs/2006.12671) and [Competition solution](https://arxiv.org/pdf/2006.15505.pdf) [[Notes](paper_notes/afdet.md)]  <kbd>CVPRW 2020</kbd> [Horizon robotics, lidar, winning for Waymo challenge] 
 - Review of MOT and SOT [[Notes](paper_notes/mot_and_sot.md)]
 - [CrowdHuman: A Benchmark for Detecting Human in a Crowd](https://arxiv.org/abs/1805.00123) [[Notes](paper_notes/crowdhuman.md)] [megvii, pedestrian, dataset]
-- [WiderPerson: A Diverse Dataset for Dense Pedestrian Detection in the Wild](https://arxiv.org/abs/1909.12118) <kbd>TMM 2019</kbd>
+- [WiderPerson: A Diverse Dataset for Dense Pedestrian Detection in the Wild](https://arxiv.org/abs/1909.12118) [[Notes](paper_notes/widerperson.md)] <kbd>TMM 2019</kbd>
 - [VPN: Cross-view Semantic Segmentation for Sensing Surroundings](https://arxiv.org/abs/1906.03560) [[Notes](paper_noets/vpn.md)] [Bolei Zhou, BEV-Net]
 - [MonoSemanticOccupancy: Monocular Semantic Occupancy Grid Mapping with Convolutional Variational Encoder-Decoder Networks](https://arxiv.org/abs/1804.02176) <kbd>ICRA 2019</kbd> [BEV-Net]
 - [Monocular Plan View Networks for Autonomous Driving](https://arxiv.org/abs/1905.06937) <kbd>IROS 2019</kbd> [BEV-Net]
@@ -274,7 +274,7 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [Recurrent SSD: Recurrent Multi-frame Single Shot Detector for Video Object Detection](https://www.merl.com/publications/docs/TR2018-137.pdf) [[Notes](paper_notes/recurrent_ssd.md)] <kbd>BMVC 2018</kbd> (Mitsubishi)
 - [Recurrent RetinaNet: A Video Object Detection Model Based on Focal Loss](https://doi.org/10.1007/978-3-030-04212-7_44) [[Notes](paper_notes/recurrent_retinanet.md)] <kbd>ICONIP 2018</kbd> (single stage, recurrent)
 - [Actions as Moving Points](https://arxiv.org/abs/2001.04608) [[Notes](paper_notes/moc.md)] [not suitable for online]
-- [The PREVENTION dataset: a novel benchmark for PREdiction of VEhicles iNTentIONs](10.1109/ITSC.2019.8917433) [[Notes](paper_notes/prevention_dataset.md)] <kbd>ITSC 2019</kbd>
+- [The PREVENTION dataset: a novel benchmark for PREdiction of VEhicles iNTentIONs](10.1109/ITSC.2019.8917433) [[Notes](paper_notes/prevention_dataset.md)] <kbd>ITSC 2019</kbd> [dataset, cut-in]
 - [Semi-Automatic High-Accuracy Labelling Tool for Multi-Modal Long-Range Sensor Dataset](https://sci-hub.tw/10.1109/IVS.2018.8500672) [[Notes](paper_notes/prevention_annotation.md)] <kbd>IV 2018</kbd>
 - [Astyx dataset: Automotive Radar Dataset for Deep Learning Based 3D Object Detection](https://www.astyx.com/fileadmin/redakteur/dokumente/Automotive_Radar_Dataset_for_Deep_learning_Based_3D_Object_Detection.PDF) [[Notes](paper_notes/astyx_dataset.md)] <kbd>EuRAD 2019</kbd> (Astyx)
 - [Astyx camera radar: Deep Learning Based 3D Object Detection for Automotive Radar and Camera](https://www.astyx.net/fileadmin/redakteur/dokumente/Deep_Learning_Based_3D_Object_Detection_for_Automotive_Radar_and_Camera.PDF) [[Notes](paper_notes/astyx_radar_camera_fusion.md)] <kbd>EuRAD 2019</kbd> (Astyx)
