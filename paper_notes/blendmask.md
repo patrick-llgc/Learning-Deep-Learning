@@ -11,6 +11,11 @@ The paper improves upon [YOLACT](yolact.md). It is not only using bbox to crop t
 
 [BlendMask](blendmask.md) is trying to blend with a finder grained mask within each bbox, while [CondInst](condinst.md) is trying to blend with deeper convs with dynamically predicted filters. 
 
+[CenterMask](centermask.md) works almost in exactly the same way as [BlendMask](blendmask.md). See [my review on Medium](https://towardsdatascience.com/single-stage-instance-segmentation-a-review-1eeb66e0cc49).
+
+- [CenterMask](centermask.md) uses 1 prototype mask (named global saliency map) explicitly. 
+- [CenterMask](centermask.md)'s name comes from the fact that it uses [CenterNet](centernet.md) as the backbone, while [CenterMask](centermask.md) uses the similar anchor-free one-stage [FCOS](fcos.md) as backbone.
+
 #### Key ideas
 - K is the number of bases (prototypes in YOLACT). Each feature map location predicts K x M x M masks, realized by a KMM sized channel. M = 1 for YOLACT. M is typically quite small with max of 14.
 - The feature maps (bases) are RoIAligned with bboxes, before multiplying with attention maps in the blender module. 

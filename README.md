@@ -75,7 +75,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [GNN3DMOT: Graph Neural Network for 3D Multi-Object Tracking with Multi-Feature Learning](https://arxiv.org/abs/2006.07327) <kbd>CVPR 2020 oral</kbd> [3DMOT, CMU, Kris Kitani]
 - [Learning Multi-Object Tracking and Segmentation From Automatic Annotations](http://openaccess.thecvf.com/content_CVPR_2020/html/Porzi_Learning_Multi-Object_Tracking_and_Segmentation_From_Automatic_Annotations_CVPR_2020_paper.html) <kbd>CVPR 2020</kbd> [Autoamatic annotation]
 - [Self-supervised Object Motion and Depth Estimation from Video](https://arxiv.org/abs/1912.04250) <kbd>CVPRW 2020</kbd>
-- [Self-Supervised Learning of Interpretable Keypoints From Unlabelled Videos](http://openaccess.thecvf.com/content_CVPR_2020/html/Jakab_Self-Supervised_Learning_of_Interpretable_Keypoints_From_Unlabelled_Videos_CVPR_2020_paper.html) <kbd>CVPR 2020 oral</kbd> [self-supervised, interpretable]
+- [Self-Supervised Learning of Interpretable Keypoints From Unlabelled Videos](http://openaccess.thecvf.com/content_CVPR_2020/html/Jakab_Self-Supervised_Learning_of_Interpretable_Keypoints_From_Unlabelled_Videos_CVPR_2020_paper.html) <kbd>CVPR 2020 oral</kbd> [self-supervised, interpretable, discriminator]
 - [Rethinking Classification and Localization for Object Detection](https://arxiv.org/abs/1904.06493) <kbd>CVPR 2020</kbd>
 - [PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection](https://arxiv.org/abs/1912.13192) <kbd>CVPR 2020</kbd> [Waymo challenge 2nd place]
 - [Generalized ODIN: Detecting Out-of-Distribution Image Without Learning From Out-of-Distribution Data](https://arxiv.org/abs/2002.11297) <kbd>CVPR 2020</kbd>
@@ -89,6 +89,7 @@ Geometrically Constrained Keypoints in Real-Time](https://drive.google.com/file/
 - [Novel View Synthesis of Dynamic Scenes with Globally Coherent Depths](https://arxiv.org/abs/2004.01294) <kbd>CVPR 2020</kbd>
 - [The Edge of Depth: Explicit Constraints between Segmentation and Depth](https://arxiv.org/abs/2004.00171) <kbd>CVPR 2020</kbd> [Xiaoming Liu, multimodal, depth bleeding] 
 - [MotionNet: Joint Perception and Motion Prediction for Autonomous Driving Based on Bird's Eye View Maps](https://arxiv.org/abs/2003.06754) <kbd>CVPR 2020</kbd>
+- [Epipolar Transformers](https://arxiv.org/abs/2005.04551) <kbd>CVPR 2020</kbd> [Yihui He]
 
 ## 2020-07 (9)
 - [CenterTrack: Tracking Objects as Points](https://arxiv.org/abs/2004.01177) [[Notes](paper_notes/centertrack.md)] [camera based 3D MOD, MOT SOTA, CenterNet, video based object detection]
@@ -120,7 +121,8 @@ Geometrically Constrained Keypoints in Real-Time](https://drive.google.com/file/
 - [AB3D: A Baseline for 3D Multi-Object Tracking](https://arxiv.org/abs/1907.03961) <kbd>IROS 2020</kbd> [3D MOT]
 - [Spatial-Temporal Relation Networks for Multi-Object Tracking](https://arxiv.org/abs/1904.11489) <kbd>ICCV 2019</kbd> [MOT, feature location over time]
 - [Beyond Pixels: Leveraging Geometry and Shape Cues for Online Multi-Object Tracking](https://arxiv.org/abs/1802.09298) <kbd>ICRA 2018</kbd> [MOT, IIT, 3D shape]
-
+- [Joint Spatial-Temporal Optimization for Stereo 3D Object Tracking](https://arxiv.org/abs/2004.09305) <kbd>CVPR 2020</kbd> [Peilinag LI, author of VINS and S3DOT]
+- [Augment Your Batch: Improving Generalization Through Instance Repetition](https://openaccess.thecvf.com/content_CVPR_2020/papers/Hoffer_Augment_Your_Batch_Improving_Generalization_Through_Instance_Repetition_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd>
 
 ## 2020-06 (20)
 - [LeGO-LOAM: Lightweight and Ground-Optimized Lidar Odometry and Mapping on Variable Terrain](http://personal.stevens.edu/~benglot/Shan_Englot_IROS_2018_Preprint.pdf) [[Notes](paper_notes/lego_loam.md)] <kbd>IROS 2018</kbd> [lidar, mapping]
@@ -148,12 +150,12 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network](https://arxiv.org/abs/1609.05158) [[Notes](paper_notes/subpixel_conv.md)] <kbd>CVPR 2016</kbd> [channel-to-pixel]
 - [Car Pose in Context: Accurate Pose Estimation with Ground Plane Constraints](https://arxiv.org/abs/1912.04363) [mono3D]
 - [D4LCN: Learning Depth-Guided Convolutions for Monocular 3D Object Detection](https://arxiv.org/abs/1912.04799) [[Notes](paper_notes/d4lcn.md)] <kbd>CVPR 2020</kbd> [mono3D]
-- [Self-Mono-SF: Self-Supervised Monocular Scene Flow Estimation](https://arxiv.org/abs/2004.04143) [[Notes](paper_notes/self_mono_sf.md)] <kbd>CVPR 2020</kbd> [scene-flow, Stereo input]
+- [Self-Mono-SF: Self-Supervised Monocular Scene Flow Estimation](https://arxiv.org/abs/2004.04143) [[Notes](paper_notes/self_mono_sf.md)] <kbd>CVPR 2020 oral</kbd> [scene-flow, Stereo input]
 - [MEBOW: Monocular Estimation of Body Orientation In the Wild](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wu_MEBOW_Monocular_Estimation_of_Body_Orientation_in_the_Wild_CVPR_2020_paper.pdf) [[Notes](paper_notes/mebow.md)] <kbd>CVPR 2020</kbd>
 - [VG-NMS: Visibility Guided NMS: Efficient Boosting of Amodal Object Detection in Crowded Traffic Scenes](https://ml4ad.github.io/files/papers/Visibility%20Guided%20NMS:%20Efficient%20Boosting%20of%20Amodal%20Object%20Detection%20in%20Crowded%20Traffic%20Scenes.pdf) [[Notes](paper_notes/vg_nms.md)] <kbd>NeurIPS 2019 workshop</kbd> [Crowded scene, NMS, Daimler]
 - [Adaptive NMS: Refining Pedestrian Detection in a Crowd](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf) <kbd>CVPR 2019</kbd> [Crowded scene, NMS]
 - [WYSIWYG: What You See is What You Get: Exploiting Visibility for 3D Object Detection](https://arxiv.org/abs/1912.04986) [[Notes](paper_notes/wysiwyg.md)] <kbd>CVPR 2020 oral</kbd> [occupancy grid]
-- [Real-Time Panoptic Segmentation From Dense Detections](https://arxiv.org/abs/1912.01202) [[Notes](paper_notes/realtime_panoptic.md)] <kbd>CVPR 2020 oral</kbd> [weakly supervised segmentation from bbox, Toyota]
+- [Real-Time Panoptic Segmentation From Dense Detections](https://arxiv.org/abs/1912.01202) [[Notes](paper_notes/realtime_panoptic.md)] <kbd>CVPR 2020 oral</kbd> [bbox + semantic segmentation = panoptic segmentation, Toyota]
 - [Human-Centric Efficiency Improvements in Image Annotation for Autonomous Driving](https://drive.google.com/file/d/1DY95vfWBLKOOZZyq8gLDd0heZ6aBSdji/view) [[Notes](paper_notes/human_centric_annotation.md)] <kbd>CVPRW 2020</kbd> [efficient annotation]
 - [FISHING Net: Future Inference of Semantic Heatmaps In Grids](https://arxiv.org/abs/2006.09917) [[Notes](paper_notes/fishing_net.md)] <kbd>CVPRW 2020</kbd> [BEV-Net, Mapping, Zoox]
 - [SurfelGAN: Synthesizing Realistic Sensor Data for Autonomous Driving](https://arxiv.org/abs/2005.03844) [[Notes](paper_notes/surfel_gan.md)] <kbd>CVPR 2020 oral</kbd> [Waymo, auto data generation, surfel]
@@ -170,7 +172,7 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras](https://arxiv.org/abs/1610.06475) <kbd>TRO 2016</kbd>
 - [CubeSLAM: Monocular 3D Object SLAM](https://arxiv.org/abs/1806.00557) [[Notes](paper_notes/cube_slam.md)] <kbd>TRO 2019</kbd> [dynamic SLAM, orb slam + mono3D]
 - [ClusterVO: Clustering Moving Instances and Estimating Visual Odometry for Self and Surroundings](https://arxiv.org/abs/2003.12980) [[Notes](paper_notes/cluster_vo.md)] <kbd>CVPR 2020</kbd> [general dynamic SLAM]
-- [Stereo Vision-based Semantic 3D Object and Ego-motion Tracking for Autonomous Driving](https://arxiv.org/abs/1807.02062) [[Notes](paper_notes/semantic_3d_slam.md)] <kbd>ECCV 2018</kbd> 
+- [S3DOT: Stereo Vision-based Semantic 3D Object and Ego-motion Tracking for Autonomous Driving](https://arxiv.org/abs/1807.02062) [[Notes](paper_notes/semantic_3d_slam.md)] <kbd>ECCV 2018</kbd> [Peiliang Li]
 - [Multi-object Monocular SLAM for Dynamic Environments](https://arxiv.org/abs/2002.03528) [[Notes](paper_notes/multi_object_mono_slam.md)] <kbd>IV 2020</kbd> [monolayout authors]
 - [PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume](https://arxiv.org/abs/1709.02371) [[Notes](paper_notes/pwc_net.md)] <kbd>CVPR 2018 oral</kbd> [Optical flow]
 - [LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation](https://arxiv.org/abs/1805.07036) <kbd>CVPR 2018</kbd> [Optical flow]
@@ -204,7 +206,7 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/abs/1911.09070) <kbd>CVPR 2020</kbd>
 - [ResNeSt: Split-Attention Networks](https://arxiv.org/abs/2004.08955) [[Notes](paper_notes/resnest.md)]
 
-## 2020-04 (13)
+## 2020-04 (14)
 - [ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst](https://arxiv.org/pdf/1812.03079.pdf) [[Notes](paper_notes/chauffeurnet.md)] <kbd>RSS 2019</kbd> [Waymo]
 - [IntentNet: Learning to Predict Intention from Raw Sensor Data](http://www.cs.toronto.edu/~wenjie/papers/intentnet_corl18.pdf) [[Notes](paper_notes/intentnet.md)] <kbd>CoRL 2018</kbd> [Uber ATG, perception and prediction, Lidar+Map]
 - [RoR: Rules of the Road: Predicting Driving Behavior with a Convolutional Model of Semantic Interactions](https://arxiv.org/abs/1906.08945) [[Notes](paper_notes/ror.md)] <kbd>CVPR 2019</kbd> [Zoox]
@@ -213,12 +215,13 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [Multimodal Trajectory Predictions for Autonomous Driving using Deep Convolutional Networks](https://arxiv.org/abs/1809.10732) [[Notes](paper_notes/multipath_uber.md)] <kbd>ICRA 2019</kbd> [Multimodal]
 - [Jointly Learnable Behavior and Trajectory Planning for Self-Driving Vehicles](https://arxiv.org/abs/1910.04586) <kbd>IROS 2019 Oral</kbd> [Uber ATG, behavioral planning, motion planning]
 - [TensorMask: A Foundation for Dense Object Segmentation](https://arxiv.org/abs/1903.12174) [[Notes](paper_notes/tensormask.md)] <kbd>ICCV 2019</kbd> [single-stage instance seg]
-- [BlendMask: Top-Down Meets Bottom-Up for Instance Segmentation](https://arxiv.org/abs/2001.00309) [[Notes](paper_notes/blendmask.md)] <kbd>CVPR 2020</kbd>
+- [BlendMask: Top-Down Meets Bottom-Up for Instance Segmentation](https://arxiv.org/abs/2001.00309) [[Notes](paper_notes/blendmask.md)] <kbd>CVPR 2020 oral</kbd>
 - [Mask Encoding for Single Shot Instance Segmentation](https://arxiv.org/abs/2003.11712) [[Notes](paper_notes/meinst.md)] <kbd>CVPR 2020 oral</kbd> [single-stage instance seg, Chunhua Shen]
 - [PolarMask: Single Shot Instance Segmentation with Polar Representation](https://arxiv.org/abs/1909.13226) [[Notes](paper_notes/polarmask.md)] <kbd>CVPR 2020 oral</kbd> [single-stage instance seg]
 - [SOLO: Segmenting Objects by Locations](https://arxiv.org/abs/1912.04488) [[Notes](paper_notes/solo.md)] [single-stage instance seg, Chunhua Shen]
 - [SOLOv2: Dynamic, Faster and Stronger](https://arxiv.org/abs/2003.10152) [[Notes](paper_notes/solov2.md)] [single-stage instance seg, Chunhua Shen]
 - [CondInst: Conditional Convolutions for Instance Segmentation](https://arxiv.org/abs/2003.05664) [[Notes](paper_notes/condinst.md)] [single-stage instance seg, Chunhua Shen]
+- [CenterMask: Single Shot Instance Segmentation With Point Representation](https://arxiv.org/abs/2004.04446) [[Notes](paper_notes/centermask.md)]<kbd>CVPR 2020</kbd>
 
 
 ## 2020-03 (15)
