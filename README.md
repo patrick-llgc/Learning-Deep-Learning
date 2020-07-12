@@ -102,7 +102,9 @@ Geometrically Constrained Keypoints in Real-Time](https://drive.google.com/file/
 - [AFDet: Anchor Free One Stage 3D Object Detection](https://arxiv.org/abs/2006.12671) and [Competition solution](https://arxiv.org/pdf/2006.15505.pdf) [[Notes](paper_notes/afdet.md)]  <kbd>CVPRW 2020</kbd> [Horizon robotics, lidar, winning for Waymo challenge] 
 - Review of MOT and SOT [[Notes](paper_notes/mot_and_sot.md)]
 - [CrowdHuman: A Benchmark for Detecting Human in a Crowd](https://arxiv.org/abs/1805.00123) [[Notes](paper_notes/crowdhuman.md)] [megvii, pedestrian, dataset]
-- [WiderPerson: A Diverse Dataset for Dense Pedestrian Detection in the Wild](https://arxiv.org/abs/1909.12118) [[Notes](paper_notes/widerperson.md)] <kbd>TMM 2019</kbd>
+- [WiderPerson: A Diverse Dataset for Dense Pedestrian Detection in the Wild](https://arxiv.org/abs/1909.12118) [[Notes](paper_notes/widerperson.md)] <kbd>TMM 2019</kbd> [dataset, pedestrian]
+- [Tsinghua-Daimler Cyclists: A New Benchmark for Vison-Based Cyclist Detection](http://www.gavrila.net/Publications/iv16_cyclist_benchmark.pdf) [[Notes](paper_notes/tsinghua_daimler_cyclist.md)] <kbd>IV 2016</kbd> [dataset, cyclist Detection]
+- [Specialized Cyclist Detection Dataset: Challenging Real-World Computer Vision Dataset for Cyclist Detection Using a Monocular RGB Camera](https://drive.google.com/drive/u/0/folders/1inawrX9NVcchDQZepnBeJY4i9aAI5mg9) [[Notes]([paper_notes/specialized_cyclists.md)] <kbd>IV 2019</kbd> [Extention to KITTI]
 - [VPN: Cross-view Semantic Segmentation for Sensing Surroundings](https://arxiv.org/abs/1906.03560) [[Notes](paper_noets/vpn.md)] [Bolei Zhou, BEV-Net]
 - [MonoSemanticOccupancy: Monocular Semantic Occupancy Grid Mapping with Convolutional Variational Encoder-Decoder Networks](https://arxiv.org/abs/1804.02176) <kbd>ICRA 2019</kbd> [BEV-Net]
 - [Monocular Plan View Networks for Autonomous Driving](https://arxiv.org/abs/1905.06937) <kbd>IROS 2019</kbd> [BEV-Net]
