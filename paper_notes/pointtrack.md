@@ -7,6 +7,8 @@ tl;dr: Use [PointNet](pointnet.md) to extract embedding vectors from instance se
 #### Overall impression
 This work tackles the newly created track of [MOTS (multiple object tracking and segmentation)](https://arxiv.org/abs/1902.03604) <kbd>CVPR 2019</kbd>. It uses tracking-by-segmentation. It uses existing work of instance segmentation, and the main contribution lies in the association/tracking part. 
 
+[PointTrack](pointtrack.md) uses a single stage instance segmentation method with a seeding location. This makes it compatible with many instance segmentation method, such as [CenterMask](centermask.md) or [BlendMask](blendmask.md).
+
 [deepSORT](deep_sort.md) extracts features from image patches, while [PointTrack](pointtrack.md) extracts features from 2D point cloud. 
 
 #### Key ideas

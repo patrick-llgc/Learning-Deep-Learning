@@ -115,7 +115,7 @@ Geometrically Constrained Keypoints in Real-Time](https://drive.google.com/file/
 - [Tsinghua-Daimler Cyclists: A New Benchmark for Vison-Based Cyclist Detection](http://www.gavrila.net/Publications/iv16_cyclist_benchmark.pdf) [[Notes](paper_notes/tsinghua_daimler_cyclist.md)] <kbd>IV 2016</kbd> [dataset, cyclist Detection]
 - [Specialized Cyclist Detection Dataset: Challenging Real-World Computer Vision Dataset for Cyclist Detection Using a Monocular RGB Camera](https://drive.google.com/drive/u/0/folders/1inawrX9NVcchDQZepnBeJY4i9aAI5mg9) [[Notes]([paper_notes/specialized_cyclists.md)] <kbd>IV 2019</kbd> [Extention to KITTI]
 - [PointTrack: Segment as Points for Efficient Online Multi-Object Tracking and Segmentation](https://arxiv.org/abs/2007.01550) [[Notes](paper_notes/pointtrack.md)] <kbd>ECCV 2020 oral</kbd> [MOTS]
-- [SpatialEmbedding: Instance Segmentation by Jointly Optimizing Spatial Embeddings and Clustering Bandwidth](https://arxiv.org/abs/1906.11109) <kbd>ICCV 2019</kbd> [one-stage, instance segmentation]
+- [SpatialEmbedding: Instance Segmentation by Jointly Optimizing Spatial Embeddings and Clustering Bandwidth](https://arxiv.org/abs/1906.11109) [[Notes](paper_notes/spatial_embedding.md)] <kbd>ICCV 2019</kbd> [one-stage, instance segmentation]
 - [BA-Net: Dense Bundle Adjustment Networks](https://arxiv.org/abs/1806.04807) <kbd>ICLR 2019</kbd>
 - [Self-Supervised Learning of Depth and Ego-motion with Differentiable Bundle Adjustment](https://arxiv.org/abs/1909.13163) [BA, xmotors]
 - [VPN: Cross-view Semantic Segmentation for Sensing Surroundings](https://arxiv.org/abs/1906.03560) [[Notes](paper_noets/vpn.md)] [Bolei Zhou, BEV-Net]
