@@ -9,6 +9,8 @@ The problem with [sort](sort.md) is the frequent ID switches as sort uses a simp
 
 Deep sort uses the appearance features to track objects through longer periods of occlusion. In reality the cost only consists of appearance metrics, although bbox distance is used as a gating process.
 
+[deepSORT](deep_sort.md) extracts features from image patches, while [PointTrack](pointtrack.md) extracts features from 2D point cloud. 
+
 #### Key ideas
 - Same as sort:
 	- Kalman filter with constant velocity motion and linear observation model where bounding box as direct observations of the object state. --> maybe take a look at the Bayesian object detection?

@@ -57,3 +57,4 @@ It feeds detection results from previous frame as additional input to boost perf
 	- Need to downgrade pytorch to 1.2 to work with cuda 10.0
 	- Need to downgrade sklearn `pip install scikit-learn==0.22.2`
 - Next step: combine local tracking such as centerTrack with long term tracking methods such as [SORT](sort.md) with EKF.
+- The prediction of offset vector can perhaps benefit from optical flow, as in [CenterTrack](centertrack.md). But from another point of view, CenterTrack is essentially computing a sparse optical flow already by predicting the offset vector.
