@@ -23,10 +23,13 @@ This work tackles the newly created track of [MOTS (multiple object tracking and
 - Seed consistency:
 	- Using Optical flow and last seed to encourage consistent seed. --> This additional optical flow map will definitely help [CenterTrack](centertrack.md).
 	- Penalize difference between the warped seed from last frame with optical flow and the seed predicted from current frame. 
-- Points with highest (top 10%) importance can be visualized by their weights, a natural feature from [PointNet](pointnet.md) embedding.
-- Visualization of instance embedding with T-SNE is also quite interesting.
+- Training instance embedding:
+	- [PointTrack](pointtrack.md) consists of D track ids, each with three crops with equal temporal space. It does not use 3 consecutive frames to increase the intra-track-id discrepancy. The space S is randomly chosen between 1 and 10.
+	- [PointTrack++](pointtrack++.md) finds that for environment embedding, making S>2 does not converge, but for foreground 2D point cloud a large S (~12) helps to achieve a higher performance. Thus the embeddings are trained separately. Then the individual MLP weights are fixed, and a new MLP is trained to aggregate these info together. 
 
 #### Technical details
+- Points with highest (top 10%) importance can be visualized by their weights, a natural feature from [PointNet](pointnet.md) embedding.
+- Visualization of instance embedding with T-SNE is also quite interesting.
 - Ablation study showed that the removal of color in the input leads to the biggest drop.
 
 #### Notes
