@@ -17,6 +17,8 @@ It can do mono3D for cyclists and pedestrians.
 
 The depth aware convolution network is extended further in [learning depth guided conv](d4lcn.md).
 
+This work forms the baseline for [kinematic mono3D](kinematic_mono3d.md) which performs monocular video 3D object detection.
+
 #### Key ideas
 - To ease the 3D bbox regression task, the mean stats of depth and 3D size, and theta are precomputed for each anchor size. --> This is clever, but may not be the best way to do this as the theta is quite inaccurate and calls for post-processing as shown by the paper. 
 	- Whenever the IoU for 2D is > 0.5, then adjust 3D anchors to regress the diff from the GT.
