@@ -121,6 +121,8 @@ Geometrically Constrained Keypoints in Real-Time](https://drive.google.com/file/
 - [DeepSFM: Structure From Motion Via Deep Bundle Adjustment](https://arxiv.org/abs/1912.09697) <kbd>ECCV 2020 oral</kbd>
 - [Self-Supervised Learning of Depth and Ego-motion with Differentiable Bundle Adjustment](https://arxiv.org/abs/1909.13163) [BA, xmotors]
 - [Kinematic 3D Object Detection in Monocular Video]() [[Notes](paper_notes/kinematic_mono3d.md)] <kbd>ECCV 2020</kbd> [mono3D, Xiaoming Liu]
+- [Monocular Velocity: Camera-based vehicle velocity estimation from monocular video](https://arxiv.org/abs/1802.07094) [[Notes](paper_notes/monocular_velocity.md)] <kbd>CVWW 2018</kbd> [monocular velocity estimation, CVPR 2017 challenge winner]
+- [End-to-end Learning for Inter-Vehicle Distance and Relative Velocity Estimation in ADAS with a Monocular Camera](https://arxiv.org/abs/2006.04082) [monocular velocity estimation]
 - [VPN: Cross-view Semantic Segmentation for Sensing Surroundings](https://arxiv.org/abs/1906.03560) [[Notes](paper_noets/vpn.md)] [Bolei Zhou, BEV-Net]
 - [MonoSemanticOccupancy: Monocular Semantic Occupancy Grid Mapping with Convolutional Variational Encoder-Decoder Networks](https://arxiv.org/abs/1804.02176) <kbd>ICRA 2019</kbd> [BEV-Net]
 - [Monocular Plan View Networks for Autonomous Driving](https://arxiv.org/abs/1905.06937) <kbd>IROS 2019</kbd> [BEV-Net]
@@ -145,8 +147,6 @@ Geometrically Constrained Keypoints in Real-Time](https://drive.google.com/file/
 - [Object as Hotspots: An Anchor-Free 3D Object Detection Approach via Firing of Hotspots](https://arxiv.org/abs/1912.12791)
 - [Gradient Centralization: A New Optimization Technique for Deep Neural Networks](https://arxiv.org/abs/2004.01461) <kbd>ECCV 2020 oral</kbd>
 - [Depth Completion via Deep Basis Fitting](https://arxiv.org/abs/1912.10336) <kbd>WACV 2020</kbd>
--[Camera-based vehicle velocity estimation from monocular video](https://arxiv.org/abs/1802.07094) <kbd>CVWW 2018</kbd> [monocular speed estimation]
-- [End-to-end Learning for Inter-Vehicle Distance and Relative Velocity Estimation in ADAS with a Monocular Camera](https://arxiv.org/abs/2006.04082) [monocular speed estimation]
 - [On the Continuity of Rotation Representations in Neural Networks](https://arxiv.org/abs/1812.07035) <kbd>CVPR 2019</kbd> [rotational representation]
 
 
@@ -203,6 +203,7 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume](https://arxiv.org/abs/1709.02371) [[Notes](paper_notes/pwc_net.md)] <kbd>CVPR 2018 oral</kbd> [Optical flow]
 - [LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation](https://arxiv.org/abs/1805.07036) <kbd>CVPR 2018</kbd> [Optical flow]
 - [FlowNet: Learning Optical Flow With Convolutional Networks](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Dosovitskiy_FlowNet_Learning_Optical_ICCV_2015_paper.pdf) <kbd>ICCV 2015</kbd> [Optical flow]
+- [FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks](https://arxiv.org/abs/1612.01925) <kbd>CVPR 2017</kbd> [Optical flow]
 - [ESPNetv2: A Light-weight, Power Efficient, and General Purpose Convolutional Neural Network](https://arxiv.org/abs/1811.11431) <kbd>CVPR 2019</kbd> [semantic segmentation, lightweight]
 - [Mono-SF: Multi-View Geometry Meets Single-View Depth for Monocular Scene Flow Estimation of Dynamic Traffic Scenes](https://arxiv.org/abs/1908.06316) <kbd>CVPR 2019</kbd> [depth uncertainty]
 - [Spatial Attention Fusion for Obstacle Detection Using MmWave Radar and Vision Sensor](https://www.mdpi.com/1424-8220/20/4/956) <kbd>sensors 2020</kbd> [radar, camera, early fusion]
