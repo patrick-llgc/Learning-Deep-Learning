@@ -10,6 +10,11 @@ This is the winning entry to the monocular velocity estimation challenge. **Ligh
 The SOTA error is around 1.12 m/s, as compared to the GT error of 0.71 m/s. 
 
 #### Key ideas
+- [TuSimple dataset](https://github.com/TuSimple/tusimple-benchmark/issues/3):
+	- 20 fps, 40 frames long
+	- distance ranging from 5 to 90 meters
+	- bbox annotated on the last frame
+- Input: two stacked images
 - Off the shelf tools:
 	- Tracking with openCV lib (Median Flow + MIL). 
 	- Depth with [Monodepth](monodepth.md)
@@ -20,7 +25,7 @@ The SOTA error is around 1.12 m/s, as compared to the GT error of 0.71 m/s.
 - Location and velocity prediction:
 	- MLP: 4-layer
 	- Split into 3 distance bins based on bbox size (20m, 45m as separator)
-
+- 3 Models in different distance bins is better than one combined model
 
 #### Technical details
 - Both depth and optical flow degrades beyond near range (> 20m). It can achieve the best performance in near range (< 20m)
@@ -28,5 +33,5 @@ The SOTA error is around 1.12 m/s, as compared to the GT error of 0.71 m/s.
 - Ensemble of 5 models for each of the 3 distance bins (from 5-fold cross validation)
 
 #### Notes
-- Questions and notes on how to improve/revise the current work  
+- [Presentation Slides](https://feichtenhofer.github.io/pubs/Feichtenhofer_AutonomousDrivingChallenge_Talk_CVPR17.pdf)
 
