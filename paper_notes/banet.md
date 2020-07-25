@@ -9,7 +9,11 @@ BA-Net proposed to do **BA on feature maps** to avoid sensitivity to photometric
 
 Note that there is no PoseNet to predict ego motion. The output of the BA layer is the camera pose sequence and point cloud depths. 
 
-The performance on KITTI looks too good to be true. Almost on par with supervised method [DORN](dorn.md). The sqr rel has some issues per author's answer here in [知乎](https://www.zhihu.com/question/306551694/answer/575851635).
+[DeepV2D](deepv2d.md) is similar to [BA-Net](banet.md).
+
+- [BA-Net](banet.md) tries to optimize one joint nonlinear optimization over all variables, and thus needs to decompose depth prediction with depth basis to reduce search space.
+- [DeepV2D](deepv2d.md) decomposes joint optimization into more tractable subproblems of optimization of depth and motion, and do block coordinate descent. It allows the depth estimation module to be more expressive and thus directly estimate per-pixel depth.
+- Performance of [DeepV2D](deepv2d.md) is better than [BA-Net](banet.md) across the board. 
 
 
 ##### Background of BA
@@ -39,7 +43,9 @@ The performance on KITTI looks too good to be true. Almost on par with supervise
 	- instead of dense prediction, BA-Net predicts 128 basis depth channels and predict 128-dim weighting factor w. 
 
 #### Technical details
-- Uses 5 consecutive frames for optimization on KITTI and achieves 
+- Uses 5 consecutive frames for optimization on KITTI and achieves very good performance than most one frame based depth estimation.
+- The performance on KITTI looks too good to be true. Almost on par with supervised method [DORN](dorn.md). The sqr rel has some issues per author's answer here in [知乎](https://www.zhihu.com/question/306551694/answer/575851635).
+- Note that the Sq Rel value in [BA-Net](banet.md) is not reliable, as pointed out by [DeepV2D](deepv2d.md).
 
 #### Notes
 - Questions and notes on how to improve/revise the current work  
