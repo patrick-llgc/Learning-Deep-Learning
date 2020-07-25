@@ -9,7 +9,7 @@ The structure of the system seems to be a bit convoluted, where the training and
 
 Self-supervised methods such as [SfM-learner](sfm_learner.md) and [Monodepth](monodepth.md) uses geometric principles for **training** alone, and doe no use multiple frames to predict depth at inference. Similar works include **DeMoN and DeepTAM and MVSNet**.
 
-This work also proposes to use geometric constraint, but instead of minimizing photometric error in [LS-Net]() or feature-metric error in [BA-Net](banet.md)), Flow-SE3 module mimimizes geometric reprojection error (difference in pixel location) leads to better well-behaved optimization problem. --> this idea is explored in [GeoNet](geonet.md) which jointly optimizes optical flow and depth and motion.
+This work also proposes to use geometric constraint, but instead of minimizing photometric error in [LS-Net](lsnet.md) or feature-metric error in [BA-Net](banet.md)), Flow-SE3 module mimimizes geometric reprojection error (difference in pixel location) leads to better well-behaved optimization problem. --> the idea of residual flow is explored in [GeoNet](geonet.md) but it still uses photometric error.
 
 [DeepV2D](deepv2d.md) is similar to [BA-Net](banet.md).
 

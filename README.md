@@ -115,15 +115,15 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [SpatialEmbedding: Instance Segmentation by Jointly Optimizing Spatial Embeddings and Clustering Bandwidth](https://arxiv.org/abs/1906.11109) [[Notes](paper_notes/spatial_embedding.md)] <kbd>ICCV 2019</kbd> [one-stage, instance segmentation]
 - [BA-Net: Dense Bundle Adjustment Networks](https://arxiv.org/abs/1806.04807) [[Notes](paper_notes/banet.md)] <kbd>ICLR 2019</kbd> [Bundle adjustment, multi-frame monodepth]
 - [DeepSFM: Structure From Motion Via Deep Bundle Adjustment](https://arxiv.org/abs/1912.09697) <kbd>ECCV 2020 oral</kbd> [multi-frame monodepth]
+- [Consistent Video Depth Estimation](https://arxiv.org/abs/2004.15021) [[Notes](paper_notes/consistent_video_depth.md)] <kbd>SIGGRAPH 2020</kbd> [multi-frame monodepth]
 - [DeepV2D: Video to Depth with Differentiable Structure from Motion](https://arxiv.org/abs/1812.04605) [[Notes](paper_notes/deepv2d.md)] <kbd>ICLR 2020</kbd> [multi-frame monodepth, Jia Deng]
+- [GeoNet: Unsupervised Learning of Dense Depth, Optical Flow and Camera Pose](https://arxiv.org/abs/1803.02276) [[Notes](paper_notes/geonet.md)] <kbd>CVPR 2018</kbd>
 - [Neural RGB->D Sensing: Depth and Uncertainty from a Video Camera](https://arxiv.org/abs/1901.02571) <kbd>CVPR 2019</kbd> [multi-frame monodepth]
 - [Don't Forget The Past: Recurrent Depth Estimation from Monocular Video](https://arxiv.org/abs/2001.02613) [multi-frame monodepth, RNN]
 - [Recurrent Neural Network for (Un-)supervised Learning of Monocular VideoVisual Odometry and Depth](https://arxiv.org/abs/1904.07087) [multi-frame monodepth, RNN]
 - [Self-supervised Object Motion and Depth Estimation from Video](https://arxiv.org/abs/1912.04250) <kbd>CVPR 2020 workshop</kbd> [dynamic object, SfM]
 - [SfM-Net: Learning of Structure and Motion from Video](https://arxiv.org/abs/1704.07804) [dynamic object, SfM]
 - [Self-Supervised Learning of Depth and Ego-motion with Differentiable Bundle Adjustment](https://arxiv.org/abs/1909.13163) [[Notes](paper_notes/ba_sfm_learner.md)] [Bundle adjustment, xmotors.ai, multi-frame monodepth]
-- [Consistent Video Depth Estimation](https://arxiv.org/abs/2004.15021) [[Notes](paper_notes/consistent_video_depth.md)] <kbd>SIGGRAPH 2020</kbd> [multi-frame monodepth]
-- [GeoNet: Unsupervised Learning of Dense Depth, Optical Flow and Camera Pose](https://arxiv.org/abs/1803.02276) <kbd>CVPR 2018</kbd>
 - [Kinematic 3D Object Detection in Monocular Video]() [[Notes](paper_notes/kinematic_mono3d.md)] <kbd>ECCV 2020</kbd> [multi-frame mono3D, Xiaoming Liu]
 - [VelocityNet: Camera-based vehicle velocity estimation from monocular video](https://arxiv.org/abs/1802.07094) [[Notes](paper_notes/velocity_net.md)] <kbd>CVPR 2017 workshop</kbd> [monocular velocity estimation, CVPR 2017 challenge winner]
 - [Vehicle Centric VelocityNet: End-to-end Learning for Inter-Vehicle Distance and Relative Velocity Estimation in ADAS with a Monocular Camera](https://arxiv.org/abs/2006.04082) [[Notes](paper_notes/vehicle_centric_velocity_net.md)] [monocular velocity estimation, monocular distance, SOTA]
@@ -725,7 +725,6 @@ Detection with Hierarchical Aggregation](https://arxiv.org/abs/1804.06055) <kbd>
 - [A Multi-Sensor Fusion System for Moving Object Detection and Tracking in Urban Driving Environments](http://www.cs.cmu.edu/~youngwoo/doc/icra-14-sensor-fusion.pdf) <kbd>ICRA 2014</kbd>
 - [PointFusion: Deep Sensor Fusion for 3D Bounding Box Estimation](https://arxiv.org/pdf/1711.10871.pdf) <kbd>CVPR 2018</kbd> (sensor fusion)
 - [Deep Hough Voting for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/1904.09664.pdf) (from Charles Qi)
-- [GeoNet: Deep Geodesic Networks for Point Cloud Analysis](https://arxiv.org/pdf/1901.00680.pdf) <kbd>CVPR 2019</kbd> (oral, Megvii)
 - [StixelNet: A Deep Convolutional Network for Obstacle Detection and Road Segmentation](http://www.bmva.org/bmvc/2015/papers/paper109/paper109.pdf)
 
 ### Egocentric bbox prediction
