@@ -24,6 +24,7 @@ Ordinal regression converts the convetional one-hot multi-class cls (MCC) into a
 #### Technical details
 - MSE-SID and MSE on continuous target almost get the same results, **meaning the quantization is almost negligible in depth estimation task.**
 - Kitti used 80 bins.
+- The network is trained on crops. At test time, the entire image is split into crops with overlapping region. 
 
 #### Notes
 - ordinal loss implementation in [pytorch](https://github.com/dontLoveBugs/DORN_pytorch/blob/master/criteria.py)
