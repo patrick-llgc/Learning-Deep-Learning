@@ -13,6 +13,7 @@ The detection task is a simplified version of classification and size/depth regr
 
 Active learning is better than random baseline, regardless of the uncertainty evaluation method.
 
+
 #### Key ideas
 - Active learning also alleviates data imbalance problem as it actively queries images that are most informative rather than their natural frequency.
 - This paper focuses on the uncertainty of classification. It improves the data efficiency for cls by 60%, but only a minor increase in localization task. --> This could be improved by introducing localization uncertainty into active learning framework.
@@ -21,6 +22,8 @@ Active learning is better than random baseline, regardless of the uncertainty ev
 #### Technical details
 - One way to evaluate quality of predictive uncertainty is **sparsification plot**. A well-estimated predictive uncertainty should correlate with the true error. And by gradually removing the predictions with high uncertainty, the average error over the rest of the predictions will decrease. 
 	- If correct, the sparsification plot should be monotonically decreasing.
+	- The idea was first introduced in [Uncertainty Estimates and Multi-Hypotheses Networks for Optical Flow]() <kbd>ECCV 2018</kbd>.
+	- It is also used in [MonoUncertainty](mono_uncertainty.md) digging into the uncertainty of self-supervised depth estimation.
 
 
 #### Notes
