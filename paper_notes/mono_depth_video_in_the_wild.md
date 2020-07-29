@@ -7,7 +7,7 @@ tl;dr: Estimate the intrinsics in addition to the extrinsics of the camera from 
 #### Overall impression
 Same authors for [Struct2Depth](struct2depth.md). This work eliminates the assumption of the availability of intrinsics. This opens up a whole lot possibilities to learn from a wide range of videos. 
 
-This network regresses depth, ego-motion, object motion and camera intrinsics from mono videos.
+This network regresses depth, ego-motion, object motion and camera intrinsics from mono videos. --> The idea of regressing intrinsics is similar to [GLNet](glnet.md).
 
 #### Key ideas
 - Estimate each of the intrinsics
