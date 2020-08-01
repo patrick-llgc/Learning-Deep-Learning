@@ -5,7 +5,7 @@ _March 2020_
 tl;dr: Predict keypoints and depth from videos simultaneously and in a unsupervised fashion.
 
 #### Overall impression
-This paper is based on two streams of unsupervised research based on video. The first is depth estimation starting from [sfm Learner](sfm_learner.md), [depth in the wild](mono_depth_video_in_the_wild.md) and [scale-consistent sfm Learner](sc_sfm_learner.md), and the second is the self-supervised keypoint learning starting from [superpoint](superpoint.md), [unsuperpoint](unsuperpoint.md) and [unsuperpoint with outlier rejection](kp2d.md).
+This paper is based on two streams of unsupervised research based on video. The first is depth estimation starting from [sfm Learner](sfm_learner.md), [depth in the wild](learnk.md) and [scale-consistent sfm Learner](sc_sfm_learner.md), and the second is the self-supervised keypoint learning starting from [superpoint](superpoint.md), [unsuperpoint](unsuperpoint.md) and [unsuperpoint with outlier rejection](kp2d.md).
 
 The two major enablers of this research is [scale-consistent sfm Learner](sc_sfm_learner.md) and [unsuperpoint](unsuperpoint.md).
 

@@ -7,7 +7,7 @@ tl;dr: Combine monodepth with optical flow with geometric and photometric losses
 #### Overall impression
 The paper proposes two online refinement strategies, one finetuning the model and one finetuning the image. --> cf [Struct2Depth](struc2depth.md) and [Consistent video depth](consistent_video_depth.md).
 
-It also predicts intrinsics for videos in the wild. --> cf [Depth from Videos in the Wild](mono_depth_video_in_the_wild.md).
+It also predicts intrinsics for videos in the wild. --> cf [Depth from Videos in the Wild](learnk.md).
 
 The paper has several interesting ideas, but there are some conflicts as well. The main issue is that it uses FlowNet to handle dynamic regions but it still enforces epipolar constraints on the optical flow. Also it does not handle depth of the dynamic regions well. 
 

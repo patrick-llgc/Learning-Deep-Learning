@@ -456,11 +456,17 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [An intriguing failing of convolutional neural networks and the CoordConv solution](https://arxiv.org/abs/1807.03247) [[Notes](paper_notes/coord_conv.md)] <kbd>NIPS 2018</kbd>
 
 
+
+## 2019-08 (0)
+- [Detection in Crowded Scenes: One Proposal, Multiple Predictionn](https://arxiv.org/abs/2003.09163) <kbd>CVPR 2020 oral</kbd> [Megvii]
+- [BorderDet: Border Feature for Dense Object Detection](https://arxiv.org/abs/2007.11056) <kbd>ECCV 2020 oral</kbd> [Megvii]
+
+
 ## 2019-07 (19)
 - [Deep Parametric Continuous Convolutional Neural Networks](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Deep_Parametric_Continuous_CVPR_2018_paper.pdf) [[Notes](paper_notes/parametric_cont_conv.md)] <kbd>CVPR 2018</kbd> (@Uber, sensor fusion)
 - [ContFuse: Deep Continuous Fusion for Multi-Sensor 3D Object Detection](http://openaccess.thecvf.com/content_ECCV_2018/papers/Ming_Liang_Deep_Continuous_Fusion_ECCV_2018_paper.pdf) [[Notes](paper_notes/contfuse.md)] <kbd>ECCV 2018</kbd> [Uber ATG, sensor fusion, BEV]
 - [Fast and Furious: Real Time End-to-End 3D Detection, Tracking and Motion Forecasting with a Single Convolutional Net](http://openaccess.thecvf.com/content_cvpr_2018/papers/Luo_Fast_and_Furious_CVPR_2018_paper.pdf) [[Notes](paper_notes/faf.md)] <kbd>CVPR 2018 oral</kbd> [lidar only, perception and prediction]
-- [Depth from Videos in the Wild: Unsupervised Monocular Depth Learning from Unknown Cameras](https://arxiv.org/pdf/1904.04998.pdf) [[Notes](paper_notes/mono_depth_video_in_the_wild.md)] <kbd>ICCV 2019</kbd> [monocular depth estimation, intrinsic estimation, SOTA]
+- [LearnK: Unsupervised Monocular Depth Learning from Unknown Cameras](https://arxiv.org/pdf/1904.04998.pdf) [[Notes](paper_notes/learnk.md)] <kbd>ICCV 2019</kbd> [monocular depth estimation, intrinsic estimation, SOTA]
 - [monodepth: Unsupervised Monocular Depth Estimation with Left-Right Consistency](https://arxiv.org/abs/1609.03677) [[Notes](paper_notes/monodepth.md)] <kbd>CVPR 2017 oral</kbd> (monocular depth estimation, stereo for training)
 - [Struct2depth: Depth Prediction Without the Sensors: Leveraging Structure for Unsupervised Learning from Monocular Videos](https://arxiv.org/abs/1811.06152) [[Notes](paper_notes/struct2depth.md)] <kbd>AAAI 2019</kbd> [monocular depth estimation, estimating movement of dynamic object, infinite depth problem, online finetune]
 - [Unsupervised Learning of Geometry with Edge-aware Depth-Normal Consistency](https://arxiv.org/pdf/1711.03665.pdf) [[Notes](paper_notes/edge_aware_depth_normal.md)] <kbd>AAAI 2018</kbd> (monocular depth estimation, static assumption, surface normal)

@@ -19,7 +19,7 @@ A simpler version for 3d proposal generation based on 2d bbox and viewpoint clas
 	-  This is also used in depth/disparity estimation, such as in [TW-SMNet](twsm_net.md).
 - **Representation matters**. 
 	- Regress dimension and orientation first. 
-	- The authors tried regressing dimension and distance at the same time but found it to be highly sensitive to input errors. --> This is understandable as dim and distance are highly correlated in determining the dimension of the bbox. (c.f. [depth in the wild](mono_depth_video_in_the_wild.md) to understand the coupling of estimation parameters. Sometimes an overall supervision signal is given to two tightly coupled parameters and it is not enough to get accurate estimate for both parameters)
+	- The authors tried regressing dimension and distance at the same time but found it to be highly sensitive to input errors. --> This is understandable as dim and distance are highly correlated in determining the dimension of the bbox. (c.f. [depth in the wild](learnk.md) to understand the coupling of estimation parameters. Sometimes an overall supervision signal is given to two tightly coupled parameters and it is not enough to get accurate estimate for both parameters)
 - Orientation of a car can be estimated fairly accurately, given ground truth (from lidar annotation). Angle errors are: 3 degrees for easy case, 6 for moderate and 8 for hard cases.
 - The translational vector (center of the 3dbbox) is calculated deterministically from solving linear equations. However the center of the 3dbbox can be calculated fairly easily with reprojecting the 2d bbox height and the center to the 3d world. See [monoPSR](monopsr.md) for a rough estimate of the 3D position.
 

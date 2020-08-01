@@ -22,7 +22,7 @@ The network does not require explicit info about intrinsics, but rather learns t
 
 #### Technical details
 - Replace batchnorm with groupnorm.
-- Data augmentation and adjusting intrinsic parameters accordingly (including cx, cy and fx and fy, c.f., [depth in the wild](mono_depth_video_in_the_wild.md) paper).
+- Data augmentation and adjusting intrinsic parameters accordingly (including cx, cy and fx and fy, c.f., [depth in the wild](learnk.md) paper).
 - Sum loss instead of averaging to avoid biasing toward examples with few object instances.
 
 #### Notes

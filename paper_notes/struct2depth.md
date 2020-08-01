@@ -11,7 +11,7 @@ The improvement on prediction of depth in dynamic object is amazing. It also pre
 
 The paper's annotation is quite sloppy. I would perhaps need to read the code to understand better.
 
-It directly inspired [depth in the wild](mono_depth_video_in_the_wild.md).
+It directly inspired [depth in the wild](learnk.md).
 
 #### Key ideas
 - Segment each dynamic object with Mask RCNN

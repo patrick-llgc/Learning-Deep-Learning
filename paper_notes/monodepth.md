@@ -9,7 +9,7 @@ This paper is one pioneering work on monocular depth estimation with self-superv
 
 When people are talking about monocular depth estimation, they mean "monocular at inference". The system can still rely on other supervision at training, either explicit supervision by dense depth map GT or with self-supervision via consistency.
 
-I feel that for self-supervised method there are tons of tricks and know-hows about tuning the model, cf. [google AI's depth in the wild paper](mono_depth_video_in_the_wild.md).
+I feel that for self-supervised method there are tons of tricks and know-hows about tuning the model, cf. [google AI's depth in the wild paper](learnk.md).
 
 Monodepth requires synchronized and rectified image pairs. It also does not handle occlusion in training. It is superseded by [monodepth2](monodepth2.md), which focuses on depth estimation from monocular video.
 
