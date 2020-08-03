@@ -9,6 +9,8 @@ BA-Net proposed to do **BA on feature maps** to avoid sensitivity to photometric
 
 Note that there is no PoseNet to predict ego motion. The output of the BA layer is the camera pose sequence and point cloud depths. 
 
+The idea of feature metric loss is further extended in [Feature metric monodepth](feature_metric.md) <kbd>ECCV 2020</kbd>.
+
 [DeepV2D](deepv2d.md) is similar to [BA-Net](banet.md).
 
 - [BA-Net](banet.md) tries to optimize one joint nonlinear optimization over all variables, and thus needs to decompose depth prediction with depth basis to reduce search space.

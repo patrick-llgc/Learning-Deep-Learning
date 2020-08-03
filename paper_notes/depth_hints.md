@@ -2,7 +2,7 @@
 
 _July 2020_
 
-tl;dr: Use depth pseudo-label to guide the self-supervised depth prediction.
+tl;dr: Use depth pseudo-label to guide the self-supervised depth prediction out of local minima.
 
 #### Overall impression
 This paper digs into self-supervised learning and provides tons of insights, in a fashion similar to [What Monodepth See](what_monodepth_see.md).
@@ -10,6 +10,10 @@ This paper digs into self-supervised learning and provides tons of insights, in 
 It first showed that the photometric loss function (DSSIM + L1) used in monodepth can struggle to find global minimum and get trapped in local minima during training. Then it provides a way to effectively use depth pseudo-label, in a soft supervised way. Depth hints are used when needed to guided the network out of local maxima. --> In a way, it is similar to the idea of using the minima of reprojection loss from multiple frames as in [Monodepth2](monodepth2.md).
 
 This paper proposed a way to consume possibly noisy depth label together with self-supervised pipeline, and is better than using supervised signal alone, or simply sum the two loss together.
+
+Another way to avoid local maxima is to use feature-metric loss instead of photometric loss, such as in [Feature metric monodepth](feature_metric.md), [BA-Net](banet.md) and [Deep Feature Reconstruction](depth_vo_feat.md).
+
+In comparison, [Depth Hints](depth_hints.md) still uses photometric loss, and [Feature metric monodepth](feature_metric.md) will largely avoid the inferenece of local minima.
 
 #### Key ideas
 - When we have pseudo-label (proxy label), we can use it in the following way
