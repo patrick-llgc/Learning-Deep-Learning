@@ -11,9 +11,9 @@ It first showed that the photometric loss function (DSSIM + L1) used in monodept
 
 This paper proposed a way to consume possibly noisy depth label together with self-supervised pipeline, and is better than using supervised signal alone, or simply sum the two loss together.
 
-Another way to avoid local maxima is to use feature-metric loss instead of photometric loss, such as in [Feature metric monodepth](feature_metric.md), [BA-Net](banet.md) and [Deep Feature Reconstruction](depth_vo_feat.md).
+Another way to avoid local maxima is to use feature-metric loss instead of photometric loss, such as in [Feature metric monodepth](feature_metric.md), [BA-Net](banet.md) and [Deep Feature Reconstruction](depth_vo_feat.md). In comparison, [Depth Hints](depth_hints.md) still uses photometric loss, and [Feature metric monodepth](feature_metric.md) will largely avoid the inferenece of local minima.
 
-In comparison, [Depth Hints](depth_hints.md) still uses photometric loss, and [Feature metric monodepth](feature_metric.md) will largely avoid the inferenece of local minima.
+Both [Depth Hints](depth_hints.md) and [MonoResMatch](monoresmatch.md) propose to use cheap stereo GT to build up monodepth dataset. [Depth Hints](depth_hints.md) uses multiple param setup to obtain an averaged proxy label and use a soft (hint) supervision scheme. [MonoResMatch](monoresmatch.md) uses left-right consistency check to filter out spurious predictions and a traditional hard supervision scheme. 
 
 #### Key ideas
 - When we have pseudo-label (proxy label), we can use it in the following way
