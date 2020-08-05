@@ -100,8 +100,8 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [Feature-metric Loss for Self-supervised Learning of Depth and Egomotion](https://arxiv.org/abs/2007.10603) [[Notes](paper_notes/feature_metric.md)] <kbd>ECCV 2020</kbd> [feature-metric, local minima, monodepth]
 - [Depth-VO-Feat: Unsupervised Learning of Monocular Depth Estimation and Visual Odometry with Deep Feature Reconstruction](https://arxiv.org/abs/1803.03893) <kbd>CVPR 2018</kbd> [feature-metric, monodepth]
 - [MonoResMatch: Learning monocular depth estimation infusing traditional stereo knowledge](https://arxiv.org/abs/1904.04144) [[Notes](paper_notes/monoresmatch.md)] <kbd>CVPR 2019</kbd> [monodepth, local minima, cheap stereo GT]
-- [SGDepth: Self-Supervised Monocular Depth Estimation: Solving the Dynamic Object Problem by Semantic Guidance](https://arxiv.org/abs/2007.06936) <kbd>ECCV 2020</kbd> [Moving objects]
-- [Every Pixel Counts: Unsupervised Geometry Learning with Holistic 3D Motion Understanding](https://arxiv.org/abs/1806.10556) <kbd>ECCV 2018</kbd>
+- [SGDepth: Self-Supervised Monocular Depth Estimation: Solving the Dynamic Object Problem by Semantic Guidance](https://arxiv.org/abs/2007.06936) [[Notes](paper_notes/sgdepth.md)] <kbd>ECCV 2020</kbd> [Moving objects]
+- [Every Pixel Counts: Unsupervised Geometry Learning with Holistic 3D Motion Understanding](https://arxiv.org/abs/1806.10556) <kbd>ECCV 2018</kbd> [dynamic objects, rigid and dynamic motion]
 - [Every Pixel Counts ++: Joint Learning of Geometry and Motion with 3D Holistic Understanding](https://arxiv.org/abs/1810.06125) <kbd>TPAMI 2018</kbd>
 - [Competitive Collaboration: Joint Unsupervised Learning of Depth, Camera Motion, Optical Flow and Motion Segmentation](https://arxiv.org/abs/1805.09806) <kbd>CVPR 2019</kbd>
 - [Detection in Crowded Scenes: One Proposal, Multiple Predictionn](https://arxiv.org/abs/2003.09163) <kbd>CVPR 2020 oral</kbd> [Megvii]
@@ -132,18 +132,19 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [DeepSFM: Structure From Motion Via Deep Bundle Adjustment](https://arxiv.org/abs/1912.09697) <kbd>ECCV 2020 oral</kbd> [multi-frame monodepth]
 - [Consistent Video Depth Estimation](https://arxiv.org/abs/2004.15021) [[Notes](paper_notes/consistent_video_depth.md)] <kbd>SIGGRAPH 2020</kbd> [multi-frame monodepth, online finetune]
 - [DeepV2D: Video to Depth with Differentiable Structure from Motion](https://arxiv.org/abs/1812.04605) [[Notes](paper_notes/deepv2d.md)] <kbd>ICLR 2020</kbd> [multi-frame monodepth, Jia Deng]
-- [GeoNet: Unsupervised Learning of Dense Depth, Optical Flow and Camera Pose](https://arxiv.org/abs/1803.02276) [[Notes](paper_notes/geonet.md)] <kbd>CVPR 2018</kbd> [residual optical flow, monodepth]
-- [GLNet: Self-supervised Learning with Geometric Constraints in Monocular Video: Connecting Flow, Depth, and Camera](https://arxiv.org/abs/1907.05820) [[Notes](paper_notes/glnet.md)] <kbd>ICCV 2019</kbd> [online finetune]
+- [GeoNet: Unsupervised Learning of Dense Depth, Optical Flow and Camera Pose](https://arxiv.org/abs/1803.02276) [[Notes](paper_notes/geonet.md)] <kbd>CVPR 2018</kbd> [residual optical flow, monodepth, rigid and dynamic motion]
+- [GLNet: Self-supervised Learning with Geometric Constraints in Monocular Video: Connecting Flow, Depth, and Camera](https://arxiv.org/abs/1907.05820) [[Notes](paper_notes/glnet.md)] <kbd>ICCV 2019</kbd> [online finetune, rigid and dynamic motion]
 - [Depth Hints: Self-Supervised Monocular Depth Hints](https://arxiv.org/abs/1909.09051) [[Notes](paper_notes/depth_hints.md)] <kbd>ICCV 2019</kbd> [monodepth, local minima, cheap stereo GT]
 - [MonoUncertainty: On the uncertainty of self-supervised monocular depth estimation](https://arxiv.org/abs/2005.06209) [[Notes](paper_notes/mono_uncertainty.md)] <kbd>CVPR 2020</kbd> [depth uncertainty]
 - [Supervising the new with the old: learning SFM from SFM](http://openaccess.thecvf.com/content_ECCV_2018/papers/Maria_Klodt_Supervising_the_new_ECCV_2018_paper.pdf) [[Notes](paper_notes/learn_sfm_from_sfm.md)] <kbd>ECCV 2018</kbd>
 - [Neural RGB->D Sensing: Depth and Uncertainty from a Video Camera](https://arxiv.org/abs/1901.02571) <kbd>CVPR 2019</kbd> [multi-frame monodepth]
 - [Don't Forget The Past: Recurrent Depth Estimation from Monocular Video](https://arxiv.org/abs/2001.02613) [multi-frame monodepth, RNN]
 - [Recurrent Neural Network for (Un-)supervised Learning of Monocular VideoVisual Odometry and Depth](https://arxiv.org/abs/1904.07087) [multi-frame monodepth, RNN]
+- [Exploiting temporal consistency for real-time video depth estimation](https://arxiv.org/abs/1908.03706) <kbd>ICCV 2019</kbd> [multi-frame monodepth, RNN]
 - [Self-supervised Object Motion and Depth Estimation from Video](https://arxiv.org/abs/1912.04250) <kbd>CVPR 2020 workshop</kbd> [dynamic object, SfM]
 - [SfM-Net: Learning of Structure and Motion from Video](https://arxiv.org/abs/1704.07804) [dynamic object, SfM]
 - [Self-Supervised Learning of Depth and Ego-motion with Differentiable Bundle Adjustment](https://arxiv.org/abs/1909.13163) [[Notes](paper_notes/ba_sfm_learner.md)] [Bundle adjustment, xmotors.ai, multi-frame monodepth]
-- [Kinematic 3D Object Detection in Monocular Video]() [[Notes](paper_notes/kinematic_mono3d.md)] <kbd>ECCV 2020</kbd> [multi-frame mono3D, Xiaoming Liu]
+- [Kinematic 3D Object Detection in Monocular Video](https://arxiv.org/abs/2007.09548) [[Notes](paper_notes/kinematic_mono3d.md)] <kbd>ECCV 2020</kbd> [multi-frame mono3D, Xiaoming Liu]
 - [VelocityNet: Camera-based vehicle velocity estimation from monocular video](https://arxiv.org/abs/1802.07094) [[Notes](paper_notes/velocity_net.md)] <kbd>CVPR 2017 workshop</kbd> [monocular velocity estimation, CVPR 2017 challenge winner]
 - [Vehicle Centric VelocityNet: End-to-end Learning for Inter-Vehicle Distance and Relative Velocity Estimation in ADAS with a Monocular Camera](https://arxiv.org/abs/2006.04082) [[Notes](paper_notes/vehicle_centric_velocity_net.md)] [monocular velocity estimation, monocular distance, SOTA]
 - [VPN: Cross-view Semantic Segmentation for Sensing Surroundings](https://arxiv.org/abs/1906.03560) [[Notes](paper_noets/vpn.md)] [Bolei Zhou, BEV-Net]
@@ -657,7 +658,6 @@ Here is the list of papers waiting to be read.
 - [Looking Fast and Slow: Memory-Guided Mobile Video Object Detection](https://arxiv.org/abs/1903.10172) <kbd>CVPR 2018</kbd>
 - [Towards High Performance Video Object Detection](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhu_Towards_High_Performance_CVPR_2018_paper.pdf) [[Notes](paper_notes/high_performance_video_od.md)] <kbd>CVPR 2018</kbd>
 - [Towards High Performance Video Object Detection for Mobiles](https://arxiv.org/abs/1804.05830) [[Notes](paper_notes/high_performance_video_od_mobile.md)]
-- [Exploiting temporal consistency for real-time video depth estimation](https://arxiv.org/abs/1908.03706) <kbd>ICCV 2019</kbd> 
 - [Temporally Distributed Networks for Fast Video Semantic Segmentation](https://arxiv.org/abs/2004.01800) <kbd>CVPR 2020</kbd> [efficient video segmentation]
 - [Memory Enhanced Global-Local Aggregation for Video Object Detection](https://arxiv.org/abs/2003.12063) <kbd>CVPR 2020</kbd> [efficient video object detection]
 - [Co-occurrence Feature Learning from Skeleton Data for Action Recognition and
@@ -814,7 +814,7 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [3DOP: 3D Object Proposals for Accurate Object Class Detection](https://papers.nips.cc/paper/5644-3d-object-proposals-for-accurate-object-class-detection) <kbd>NIPS 2015</kbd>
 - [DirectShape: Photometric Alignment of Shape Priors for Visual Vehicle Pose and Shape Estimation](https://arxiv.org/abs/1904.10097)
 - [Eliminating the Blind Spot: Adapting 3D Object Detection and Monocular Depth Estimation to 360° Panoramic Imagery](https://arxiv.org/abs/1808.06253) <kbd>ECCV 2018</kbd> (Monocular 3D object detection and depth estimation)
-- [Towards Scene Understanding: Unsupervised Monocular Depth Estimation with Semantic-aware Representation](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Towards_Scene_Understanding_Unsupervised_Monocular_Depth_Estimation_With_Semantic-Aware_Representation_CVPR_2019_paper.pdf) <kbd>CVPR 2019</kbd>
+- [Towards Scene Understanding: Unsupervised Monocular Depth Estimation with Semantic-aware Representation](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Towards_Scene_Understanding_Unsupervised_Monocular_Depth_Estimation_With_Semantic-Aware_Representation_CVPR_2019_paper.pdf) <kbd>CVPR 2019</kbd> [unified conditional decoder]
 - [DDP: Dense Depth Posterior from Single Image and Sparse Range](https://arxiv.org/abs/1901.10034) <kbd>CVPR 2019</kbd>
 - [Augmented Reality Meets Computer Vision : Efficient Data Generation for Urban Driving Scenes](https://arxiv.org/abs/1708.01566) <kbd>IJCV 2018</kbd> (data augmentation with AR, Toyota)
 - [Exploring the Capabilities and Limits of 3D Monocular Object Detection -- A Study on Simulation and Real World Data](https://arxiv.org/abs/2005.07424) <kbd>IITS</kbd>
