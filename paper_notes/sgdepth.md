@@ -5,7 +5,7 @@ _August 2020_
 tl;dr: Build a [Mannequin dataset](frozen_depth.md) for monodepth. Use segmentation mask to filter out real moving object.
 
 #### Overall impression
-The paper addresses the moving object issue by adaptively filter out regions that has large dynamic movement. 
+The paper addresses the moving object issue by adaptively filter out regions that has large dynamic movement. The motion segmentation idea is explored in [Competitive collaboration](cc.md) before.
 
 Segmentation techniques are also used in [Every Pixel Counts](every_pixel_counts.md) which proposes an implicit binary segmentation. [SGDepth](sgdepth.md) does not extend the image projection model to include cars, but simply exclude the car pixels. But this alone will lead to poor performance as depth of car pixels will not be learned at all.
 
