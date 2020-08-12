@@ -9,11 +9,13 @@ This paper is on localization and mapping in parking lot, but the same principle
 
 The semantic features are robust to perspective or illumination changes, long-term stable (as compared to traditional features such as ORB in [ORB SLAM](orb_slam.md)). This helps achieve cm-level accuracy required for AD.
 
+This paper is extremely similar to a similar one from SJTU, [AVP-SLAM-late-fusion](avp_slam_late_fusion.md). [AVP SLAM](avp_slam.md) requries synchronized image feeds, and [AVP-SLAM-late-fusion](avp_slam_late_fusion.md) explicitly handles unsynchronized images through late fusion of semantic point clouds. 
+
 The paper is very well written and easy to follow.
 
 #### Key ideas
 - Four fisheye images from AVP cameras are stitched into one BEV image.
-- Segmented into lanes, parking lines, guide signs, speed bumps, free space, obstacles and walls. The input is an IPM image. 
+- The input to segmentation map is a stitched IPM image. 
 - Mapping:
 	- Semantic segmentation results are lifted into 3D and aggregated into a local map. A local map for a 30 meter window is maintained.
 	- Loop closure to address long time drift of odometry sensors. Once a loop is detected, a global pose optimization is performed. 
@@ -27,6 +29,7 @@ The paper is very well written and easy to follow.
 
 #### Technical details
 - AVP: automatic valley parking
+- 6 semantic classes are labeled: lanes, parking lines, guide signs, speed bumps, free space, obstacles and walls. 
 - Evaluation with RTK-GPS in open outdoor parking lot. 
 - The evaluation is done on datasets collected 1hr, 3hrs, 1day, 1week and 1month apart to demonstrate the robustness of the approach.
 
