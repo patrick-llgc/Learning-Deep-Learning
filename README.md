@@ -108,7 +108,14 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [Self-Supervised Joint Learning Framework of Depth Estimation via Implicit Cues](https://arxiv.org/abs/2006.09876)
 - [DF-Net: Unsupervised Joint Learning of Depth and Flow using Cross-Task Consistency](https://arxiv.org/abs/1809.01649) <kbd>ECCV 2018</kbd>
 - [LineNet: a Zoomable CNN for Crowdsourced High Definition Maps Modeling in Urban Environments](https://arxiv.org/abs/1807.05696) [mapping]
-- [Road-SLAM : Road Marking based SLAM with Lane-level Accuracy](https://www.naverlabs.com/img/autonomousDriving/intelligence/dissertation/Road-SLAM_Road%20Marking%20based%20SLAM%20with%20Lane-level%20Accuracy.pdf) [[Notes](paper_notes/road_slam.md)] [mapping]
+- [Road-SLAM : Road Marking based SLAM with Lane-level Accuracy](https://www.naverlabs.com/img/autonomousDriving/intelligence/dissertation/Road-SLAM_Road%20Marking%20based%20SLAM%20with%20Lane-level%20Accuracy.pdf) [[Notes](paper_notes/road_slam.md)] [HD mapping]
+- [DeepRoadMapper: Extracting Road Topology from Aerial Images](https://openaccess.thecvf.com/content_ICCV_2017/papers/Mattyus_DeepRoadMapper_Extracting_Road_ICCV_2017_paper.pdf) <kbd>ICCV 2017</kbd> [Uber ATG, NOT HD maps]
+- [DAGMapper: Learning to Map by Discovering Lane Topology](http://openaccess.thecvf.com/content_ICCV_2019/papers/Homayounfar_DAGMapper_Learning_to_Map_by_Discovering_Lane_Topology_ICCV_2019_paper.pdf) [[Notes](paper_notes/dagmapper.md)] <kbd>ICCV 2019</kbd> [HD mapping, highway]
+- [Mapping and Localization using Semantic Road Marking with Centimeter-level Accuracy in Indoor Parking Lots](https://ieeexplore.ieee.org/abstract/document/8917529) <kbd>ITSC 2019</kbd>
+- [AVP-SLAM: Semantic Visual Mapping and Localization for Autonomous Vehicles in the Parking Lot](https://arxiv.org/abs/2007.01813) <kbd>IROS 2020</kbd> [Huawei]
+- [Lane markings-based relocalization on highway](https://ieeexplore.ieee.org/abstract/document/8917254) <kbd>ITSC 2019</kbd>
+- [PolyMapper: Topological Map Extraction From Overhead Images](https://arxiv.org/abs/1812.01497) [[Notes](paper_notes/polymapper.md)] <kbd>ICCV 2019</kbd> [mapping, polygon]
+- [Aerial LaneNet: Lane Marking Semantic Segmentation in Aerial Imagery using Wavelet-Enhanced Cost-sensitive Symmetric Fully Convolutional Neural Networks](https://arxiv.org/abs/1803.06904) <kbd>IEEE TGRS 2018</kbd>
 - [Detection in Crowded Scenes: One Proposal, Multiple Predictionn](https://arxiv.org/abs/2003.09163) <kbd>CVPR 2020 oral</kbd> [Megvii]
 - [BorderDet: Border Feature for Dense Object Detection](https://arxiv.org/abs/2007.11056) <kbd>ECCV 2020 oral</kbd> [Megvii]
 - [Learning Depth from Monocular Videos using Direct Methods](https://arxiv.org/abs/1712.00175)
@@ -858,7 +865,7 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 
 ### Mapping
 - [Convolutional Recurrent Network for Road Boundary Extraction](http://openaccess.thecvf.com/content_CVPR_2019/html/Liang_Convolutional_Recurrent_Network_for_Road_Boundary_Extraction_CVPR_2019_paper.html) <kbd>CVPR 2019</kbd>
-- [DAGMapper: Learning to Map by Discovering Lane Topology](http://openaccess.thecvf.com/content_ICCV_2019/papers/Homayounfar_DAGMapper_Learning_to_Map_by_Discovering_Lane_Topology_ICCV_2019_paper.pdf) <kbd>ICCV 2019</kbd>
+
 
 
 ### Reviews and Surveys
