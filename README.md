@@ -4,7 +4,7 @@ This repository contains my paper reading notes on deep learning and machine lea
 **New year resolution for 2020: read at least three paper a week and a high a high quality github repo a month!**
 
 ## Summary of Topics
-The summary of the papers read in 2019 can be found [here on Towards Data Science](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fto fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3).
+The summary of the papers read in 2019 can be found [here on Towards Data Science](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3).
 
 The sections below records paper reading activity in chronological order. See notes organized according to subfields [here](organized.md) (up to 06-2019).
 
