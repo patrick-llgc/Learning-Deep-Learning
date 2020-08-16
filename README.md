@@ -94,7 +94,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [SDC-Depth: Semantic Divide-and-Conquer Network for Monocular Depth Estimation](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_SDC-Depth_Semantic_Divide-and-Conquer_Network_for_Monocular_Depth_Estimation_CVPR_2020_paper.pdf)  <kbd>CVPR 2020</kbd> [monodepth, semantic]
 
 
-## 2020-08 (1)
+## 2020-08 (10)
 - [Feature-metric Loss for Self-supervised Learning of Depth and Egomotion](https://arxiv.org/abs/2007.10603) [[Notes](paper_notes/feature_metric.md)] <kbd>ECCV 2020</kbd> [feature-metric, local minima, monodepth]
 - [Depth-VO-Feat: Unsupervised Learning of Monocular Depth Estimation and Visual Odometry with Deep Feature Reconstruction](https://arxiv.org/abs/1803.03893) <kbd>CVPR 2018</kbd> [feature-metric, monodepth]
 - [MonoResMatch: Learning monocular depth estimation infusing traditional stereo knowledge](https://arxiv.org/abs/1904.04144) [[Notes](paper_notes/monoresmatch.md)] <kbd>CVPR 2019</kbd> [monodepth, local minima, cheap stereo GT]
@@ -112,10 +112,13 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [AVP-SLAM: Semantic Visual Mapping and Localization for Autonomous Vehicles in the Parking Lot](https://arxiv.org/abs/2007.01813) [[Notes](paper_notes/avp_slam.md)] <kbd>IROS 2020</kbd> [Huawei, HD mapping]
 - [AVP-SLAM-Late-Fusion: Mapping and Localization using Semantic Road Marking with Centimeter-level Accuracy in Indoor Parking Lots](https://ieeexplore.ieee.org/abstract/document/8917529) [[Notes](paper_notes/avp_slam_late_fusion.md)] <kbd>ITSC 2019</kbd>
 - [DeepRoadMapper: Extracting Road Topology from Aerial Images](https://openaccess.thecvf.com/content_ICCV_2017/papers/Mattyus_DeepRoadMapper_Extracting_Road_ICCV_2017_paper.pdf) <kbd>ICCV 2017</kbd> [Uber ATG, NOT HD maps]
-- [DAGMapper: Learning to Map by Discovering Lane Topology](http://openaccess.thecvf.com/content_ICCV_2019/papers/Homayounfar_DAGMapper_Learning_to_Map_by_Discovering_Lane_Topology_ICCV_2019_paper.pdf) [[Notes](paper_notes/dagmapper.md)] <kbd>ICCV 2019</kbd> [HD mapping, highway]
+- [Polyline Loss: Hierarchical Recurrent Attention Networks for Structured Online Maps](https://openaccess.thecvf.com/content_cvpr_2018/papers/Homayounfar_Hierarchical_Recurrent_Attention_CVPR_2018_paper.pdf) [[Notes](paper_notes/polyline_loss.md)] <kbd>CVPR 2018</kbd> [HD mapping, highway, polyline loss]
+- [DAGMapper: Learning to Map by Discovering Lane Topology](http://openaccess.thecvf.com/content_ICCV_2019/papers/Homayounfar_DAGMapper_Learning_to_Map_by_Discovering_Lane_Topology_ICCV_2019_paper.pdf) [[Notes](paper_notes/dagmapper.md)] <kbd>ICCV 2019</kbd> [HD mapping, highway, forks and merges, polyline loss]
 - [Lane markings-based relocalization on highway](https://ieeexplore.ieee.org/abstract/document/8917254) <kbd>ITSC 2019</kbd>
 - [PolyMapper: Topological Map Extraction From Overhead Images](https://arxiv.org/abs/1812.01497) [[Notes](paper_notes/polymapper.md)] <kbd>ICCV 2019</kbd> [mapping, polygon]
 - [Aerial LaneNet: Lane Marking Semantic Segmentation in Aerial Imagery using Wavelet-Enhanced Cost-sensitive Symmetric Fully Convolutional Neural Networks](https://arxiv.org/abs/1803.06904) <kbd>IEEE TGRS 2018</kbd>
+- [Sparse-HD-Maps: Exploiting Sparse Semantic HD Maps for Self-Driving Vehicle Localization](https://arxiv.org/abs/1908.03274) [[Notes](paper_notes/sparse_hd_maps.md)] <kbd>IROS 2019 oral</kbd> [Uber ATG, metadata, mapping, localization]
+- [Monocular Localization with Vector HD Map (MLVHM): A Low-Cost Method for Commercial IVs](https://www.mdpi.com/1424-8220/20/7/1870/htm) <kbd>Sensors 2020</kbd> [Tsinghua, 3D HD maps]
 - [Detection in Crowded Scenes: One Proposal, Multiple Predictionn](https://arxiv.org/abs/2003.09163) <kbd>CVPR 2020 oral</kbd> [Megvii]
 - [BorderDet: Border Feature for Dense Object Detection](https://arxiv.org/abs/2007.11056) <kbd>ECCV 2020 oral</kbd> [Megvii]
 - [Learning Depth from Monocular Videos using Direct Methods](https://arxiv.org/abs/1712.00175)
@@ -242,7 +245,6 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [PyrOccNet: Predicting Semantic Map Representations from Images using Pyramid Occupancy Networks](https://arxiv.org/abs/2003.13402) [[Notes](paper_notes/pyroccnet.md)] <kbd>CVPR 2020 oral</kbd> [BEV-Net, OFT]
 - [MonoLayout: Amodal scene layout from a single image](https://arxiv.org/abs/2002.08394) [[Notes](paper_notes/monolayout.md)] <kbd>WACV 2020</kbd> [BEV-Net]
 - [Learning to Look around Objects for Top-View Representations of Outdoor Scenes](https://arxiv.org/abs/1803.10870) <kbd>ECCV 2018</kbd> [BEV-Net]
-- [Exploiting Sparse Semantic HD Maps for Self-Driving Vehicle Localization](https://arxiv.org/abs/1908.03274) <kbd>IROS 2019 oral</kbd> [Uber ATG, metadata, mapping, localization]
 - [A Geometric Approach to Obtain a Bird's Eye View from an Image](https://arxiv.org/abs/1905.02231) <kbd>ICCVW 2019</kbd> [mapping, geometry, Andrew Zisserman]
 - [Argoverse: 3D Tracking and Forecasting with Rich Maps](https://arxiv.org/abs/1911.02620) <kbd>CVPR 2019</kbd> [HD maps, dataset]
 - [FrozenDepth: Learning the Depths of Moving People by Watching Frozen People](https://arxiv.org/abs/1904.11111) [[Notes](paper_notes/frozen_depth.md)] <kbd>CVPR 2019 oral</kbd>
