@@ -9,6 +9,8 @@ Identify keypoints first, then starting with one arbitrary one vertex, connect t
 
 [PolyMapper](polymapper.md) focuses on road network and do not have detailed lane-level information. [Polyline loss](polyline_loss.md) and [DAGMapper](dagmapper.md) focuses on HD mapping tasks with lane-level information. 
 
+Road network extraction is still very helpful for routing purposes, but lack the fine detail and accuracy needed for a safe localization and motion planning of an autonomous car. 
+
 #### Key ideas
 - Find RoI with RPN
 - Identify keypoints

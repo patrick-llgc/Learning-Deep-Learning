@@ -114,10 +114,12 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [DeepRoadMapper: Extracting Road Topology from Aerial Images](https://openaccess.thecvf.com/content_ICCV_2017/papers/Mattyus_DeepRoadMapper_Extracting_Road_ICCV_2017_paper.pdf) <kbd>ICCV 2017</kbd> [Uber ATG, NOT HD maps]
 - [Polyline Loss: Hierarchical Recurrent Attention Networks for Structured Online Maps](https://openaccess.thecvf.com/content_cvpr_2018/papers/Homayounfar_Hierarchical_Recurrent_Attention_CVPR_2018_paper.pdf) [[Notes](paper_notes/polyline_loss.md)] <kbd>CVPR 2018</kbd> [HD mapping, highway, polyline loss]
 - [DAGMapper: Learning to Map by Discovering Lane Topology](http://openaccess.thecvf.com/content_ICCV_2019/papers/Homayounfar_DAGMapper_Learning_to_Map_by_Discovering_Lane_Topology_ICCV_2019_paper.pdf) [[Notes](paper_notes/dagmapper.md)] <kbd>ICCV 2019</kbd> [HD mapping, highway, forks and merges, polyline loss]
+- [Deep Structured Crosswalk: End-to-End Deep Structured Models for Drawing Crosswalks](https://openaccess.thecvf.com/content_ECCV_2018/papers/Justin_Liang_End-to-End_Deep_Structured_ECCV_2018_paper.pdf) [[Notes](paper_notes/deep_structured_crosswalk.md)] <kbd>ECCV 2018</kbd>
+- [DeepBoundaryExtractor: Convolutional Recurrent Network for Road Boundary Extraction](http://openaccess.thecvf.com/content_CVPR_2019/html/Liang_Convolutional_Recurrent_Network_for_Road_Boundary_Extraction_CVPR_2019_paper.html) [[Notes](paper_notes/deep_boundary_extractor.md)] <kbd>CVPR 2019</kbd> [HD mapping, boundary, polyline loss]
+- [Sparse-HD-Maps: Exploiting Sparse Semantic HD Maps for Self-Driving Vehicle Localization](https://arxiv.org/abs/1908.03274) [[Notes](paper_notes/sparse_hd_maps.md)] <kbd>IROS 2019 oral</kbd> [Uber ATG, metadata, mapping, localization]
 - [Lane markings-based relocalization on highway](https://ieeexplore.ieee.org/abstract/document/8917254) <kbd>ITSC 2019</kbd>
 - [PolyMapper: Topological Map Extraction From Overhead Images](https://arxiv.org/abs/1812.01497) [[Notes](paper_notes/polymapper.md)] <kbd>ICCV 2019</kbd> [mapping, polygon]
 - [Aerial LaneNet: Lane Marking Semantic Segmentation in Aerial Imagery using Wavelet-Enhanced Cost-sensitive Symmetric Fully Convolutional Neural Networks](https://arxiv.org/abs/1803.06904) <kbd>IEEE TGRS 2018</kbd>
-- [Sparse-HD-Maps: Exploiting Sparse Semantic HD Maps for Self-Driving Vehicle Localization](https://arxiv.org/abs/1908.03274) [[Notes](paper_notes/sparse_hd_maps.md)] <kbd>IROS 2019 oral</kbd> [Uber ATG, metadata, mapping, localization]
 - [Monocular Localization with Vector HD Map (MLVHM): A Low-Cost Method for Commercial IVs](https://www.mdpi.com/1424-8220/20/7/1870/htm) <kbd>Sensors 2020</kbd> [Tsinghua, 3D HD maps]
 - [Detection in Crowded Scenes: One Proposal, Multiple Predictionn](https://arxiv.org/abs/2003.09163) <kbd>CVPR 2020 oral</kbd> [Megvii]
 - [BorderDet: Border Feature for Dense Object Detection](https://arxiv.org/abs/2007.11056) <kbd>ECCV 2020 oral</kbd> [Megvii]
@@ -866,7 +868,6 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [GSLAM: A General SLAM Framework and Benchmark](https://arxiv.org/abs/1902.07995) <kbd>ICCV 2019</kbd>
 
 ### Mapping
-- [Convolutional Recurrent Network for Road Boundary Extraction](http://openaccess.thecvf.com/content_CVPR_2019/html/Liang_Convolutional_Recurrent_Network_for_Road_Boundary_Extraction_CVPR_2019_paper.html) <kbd>CVPR 2019</kbd>
 
 
 
