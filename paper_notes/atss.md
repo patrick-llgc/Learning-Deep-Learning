@@ -27,7 +27,7 @@ This paper draws much inspiration with [FCOS](fcos.md) and shall be read togethe
 - For IoU based sampling, more anchor box is helpful. For ATSS, one bbox is enough.
 
 #### Technical details
-- Summary of technical details
+- The authors reimplemented many existing work to make side by side comparison. This is a solid way to dive into the details of a system, and pick apart what works and what not.
 
 #### Notes
 - Questions and notes on how to improve/revise the current work  
