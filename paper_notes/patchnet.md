@@ -23,5 +23,6 @@ The idea is simple, instead of RGB, fill in the XYZ values in the original image
 - Uses multi-head structure to separate the difficult cases and easy cases. All heads do the same prediction simultaneously, only that we have to train a switcher to switch among them. It is a typical way to tackle **multi-modal distribution**.
 
 #### Notes
+- [code on github](https://github.com/xinzhuma/patchnet)
 - Why not concatenate RGB with XYZ, like [Pseudo-lidar Color](pseudo_lidar_color.md) does.
 

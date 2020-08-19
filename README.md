@@ -122,6 +122,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [Aerial LaneNet: Lane Marking Semantic Segmentation in Aerial Imagery using Wavelet-Enhanced Cost-sensitive Symmetric Fully Convolutional Neural Networks](https://arxiv.org/abs/1803.06904) <kbd>IEEE TGRS 2018</kbd>
 - [Monocular Localization with Vector HD Map (MLVHM): A Low-Cost Method for Commercial IVs](https://www.mdpi.com/1424-8220/20/7/1870/htm) <kbd>Sensors 2020</kbd> [Tsinghua, 3D HD maps]
 - [PatchNet: Rethinking Pseudo-LiDAR Representation](https://arxiv.org/abs/2008.04582) [[Notes](paper_notes/patchnet.md)] <kbd>ECCV 2020</kbd> [SenseTime, Wanli Ouyang]
+- [MfS: Learning Stereo from Single Images](https://arxiv.org/abs/2008.01484) [[Notes](paper_notes/mfs.md)] <kbd>ECCV 2020</kbd> [mono for stereo, learn stereo matching with mono]
 - [Detection in Crowded Scenes: One Proposal, Multiple Predictionn](https://arxiv.org/abs/2003.09163) <kbd>CVPR 2020 oral</kbd> [Megvii]
 - [BorderDet: Border Feature for Dense Object Detection](https://arxiv.org/abs/2007.11056) <kbd>ECCV 2020 oral</kbd> [Megvii]
 - [Learning Depth from Monocular Videos using Direct Methods](https://arxiv.org/abs/1712.00175)
@@ -181,8 +182,8 @@ Geometrically Constrained Keypoints in Real-Time](https://drive.google.com/file/
 - [OrcVIO: Object residual constrained Visual-Inertial Odometry](https://arxiv.org/abs/2007.15107) [dynamic SLAM]
 - [Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking](https://arxiv.org/abs/2007.14557) <kbd>ECCV 2020 spotlight</kbd>
 - [DSDNet: Deep Structured self-Driving Network](https://arxiv.org/abs/2008.06041) <kbd>ECCV 2020</kbd> [Uber ATG]
-- [Learning Stereo from Single Images](https://arxiv.org/abs/2008.01484)
 - [Pillar-based Object Detection for Autonomous Driving](https://arxiv.org/abs/2007.10323) <kbd>ECCV 2020</kbd>
+- [Fast and Accurate Recovery of Occluding Contours in Monocular Depth Estimation](https://arxiv.org/abs/1905.08598) <kbd>ICCV 2019 workshop</kbd> [indoor]
 
 ## 2020-07 (25)
 - [CenterTrack: Tracking Objects as Points](https://arxiv.org/abs/2004.01177) [[Notes](paper_notes/centertrack.md)] <kbd>ECCV 2020 spotlight</kbd> [camera based 3D MOD, MOT SOTA, CenterNet, video based object detection]
@@ -841,7 +842,6 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [DDP: Dense Depth Posterior from Single Image and Sparse Range](https://arxiv.org/abs/1901.10034) <kbd>CVPR 2019</kbd>
 - [Augmented Reality Meets Computer Vision : Efficient Data Generation for Urban Driving Scenes](https://arxiv.org/abs/1708.01566) <kbd>IJCV 2018</kbd> (data augmentation with AR, Toyota)
 - [Exploring the Capabilities and Limits of 3D Monocular Object Detection -- A Study on Simulation and Real World Data](https://arxiv.org/abs/2005.07424) <kbd>IITS</kbd>
-- [PSMNet: Pyramid Stereo Matching Network](https://arxiv.org/abs/1803.08669) <kbd>CVPR 2018</kbd> (disparity estimation)
 - [Towards Scene Understanding with Detailed 3D Object Representations](https://arxiv.org/abs/1411.5935) <kbd>IJCV 2014</kbd> (keypoint, 3D bbox annotation)
 - [Deep Cuboid Detection: Beyond 2D Bounding Boxes](https://arxiv.org/abs/1611.10010) (Magic Leap)
 - [Viewpoints and Keypoints](https://arxiv.org/abs/1411.6067) (Malik)
