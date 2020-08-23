@@ -9,7 +9,7 @@ The paper uses a [CenterNet](centernet.md) architecture to regress bounding boxe
 
 The algorithm requires 3D GT in the first place, and requires accurate intrinsics. (KITTI 3D bbox GT is given in camera coordinate, thus extrinsics does not matter.)
 
-SS3D directly predicts 2D and 3D bboxes, similar to [M3D RPN](m3d_rpn.md).
+SS3D directly predicts 2D and 3D bboxes, similar to [M3D RPN](m3d_rpn.md) and [D4LCN](d4lcn.md).
 
 This paper also demonstrates **the possibility to directly regress the distance of cars from 2D images**. See [youtube videos](https://www.youtube.com/playlist?list=PL4jJwJr7UjMb4bzLwUGHdVmhfNS2Ads_x). This looks quite similar to [Nvidia's drive demo](https://www.youtube.com/watch?v=0rc4RqYLtEU).
 

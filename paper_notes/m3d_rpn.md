@@ -5,7 +5,7 @@ _October 2019_
 tl;dr: Regress 2D and 3D bbox parameters simultaneously by precomputing 3D mean stats for each 2D anchor. 
 
 #### Overall impression
-M3D RPN directly regresses 2D and 3D bboxes (11 + num_class), similar to [SS3D](ss3d.md) which directly regresses 26 numbers.
+M3D RPN directly regresses 2D and 3D bboxes (11 + num_class), similar to [SS3D](ss3d.md) which directly regresses 26 numbers, and [D4LCN](d4lcn.md) which directly regresses 39 numbers. 
 
 The algorithm requires 3D GT in the first place, and requires accurate intrinsics. For dataset without intrinsics, it may be necessary to predict intrinsics as a weakly supervised problem.
 
@@ -18,6 +18,8 @@ It can do mono3D for cyclists and pedestrians.
 The depth aware convolution network is extended further in [learning depth guided conv](d4lcn.md).
 
 This work forms the baseline for [kinematic mono3D](kinematic_mono3d.md) which performs monocular video 3D object detection.
+
+This work also directly inspired [D4LCN](d4lcn.md), which brings the idea of depth aware convolution one step further, and uses the 2D/3D anchor idea.
 
 #### Key ideas
 - To ease the 3D bbox regression task, the mean stats of depth and 3D size, and theta are precomputed for each anchor size. --> This is clever, but may not be the best way to do this as the theta is quite inaccurate and calls for post-processing as shown by the paper. 
