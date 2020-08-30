@@ -2,10 +2,12 @@
 
 _August 2020_
 
-tl;dr: Use 3 2d bbox to infer 3d bbox.
+tl;dr: Use 5DoF 2d bbox to infer 3d bbox.
 
 #### Overall impression
-The paper proposed a way to annotate and regress a 3D bbox, in the form of a 5 DoF bbox (MergeBox). This is one of the series of papers from Daimler.
+The paper proposed a way to annotate and regress a 3D bbox, in the form of a 5 DoF bbox (MergeBox). 
+
+This is one of the series of papers from Daimler.
 
 - [MergeBox](mb_net.md)
 - [Bounding Shapes](bounding_shapes.md)

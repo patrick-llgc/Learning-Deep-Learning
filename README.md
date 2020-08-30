@@ -144,7 +144,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [MoNet3D: Towards Accurate Monocular 3D Object Localization in Real Time](https://arxiv.org/abs/2006.16007) <kbd>ICML 2020</kbd> [mono3D]
 - [CubifAE-3D: Monocular Camera Space Cubification on Autonomous Vehicles for Auto-Encoder based 3D Object Detection](https://arxiv.org/abs/2006.04080) [mono3D]
 - [MB-Net: MergeBoxes for Real-Time 3D Vehicles Detection](https://ieeexplore.ieee.org/document/8500395) [[Notes](paper_notes/mb_net.md)] <kbd>IV 2018</kbd> [mono3D: Daimler]
-- [Beyond Bounding Boxes: Using Bounding Shapes for Real-Time 3D Vehicle Detection from Monocular RGB Images](https://ieeexplore.ieee.org/abstract/document/8814036/) <kbd>IV 2019</kbd> [mono3D, Daimler]
+- [BS3D: Beyond Bounding Boxes: Using Bounding Shapes for Real-Time 3D Vehicle Detection from Monocular RGB Images](https://ieeexplore.ieee.org/abstract/document/8814036/) [[Notes](paper_notes/bs3d.md)] <kbd>IV 2019</kbd> [mono3D, Daimler]
 - [3D-GCK: Single-Shot 3D Detection of Vehicles from Monocular RGB Images via
 Geometrically Constrained Keypoints in Real-Time](https://arxiv.org/abs/2006.13084) <kbd>IV 2020</kbd> [Daimler, mono3D]
 - [Synthetic-to-Real Domain Adaptation for Lane Detection](https://arxiv.org/abs/2007.04023) [GM Israel, LLD]
