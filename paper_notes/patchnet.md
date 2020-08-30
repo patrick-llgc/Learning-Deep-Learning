@@ -24,5 +24,5 @@ The idea is simple, instead of RGB, fill in the XYZ values in the original image
 
 #### Notes
 - [code on github](https://github.com/xinzhuma/patchnet)
-- Why not concatenate RGB with XYZ, like [Pseudo-lidar Color](pseudo_lidar_color.md) does.
+- Why not concatenate RGB with XYZ, like [Pseudo-lidar Color](am3d.md) does.
 

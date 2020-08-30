@@ -86,6 +86,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [Differentiable Rendering: A Survey](https://arxiv.org/abs/2006.12057) [differentiable rendering, TRI]
 - [Online Depth Learning against Forgetting in Monocular Videos](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Online_Depth_Learning_Against_Forgetting_in_Monocular_Videos_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd> [monodepth, online learning]
 - [SDC-Depth: Semantic Divide-and-Conquer Network for Monocular Depth Estimation](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_SDC-Depth_Semantic_Divide-and-Conquer_Network_for_Monocular_Depth_Estimation_CVPR_2020_paper.pdf)  <kbd>CVPR 2020</kbd> [monodepth, semantic]
+- [Self-training with Noisy Student improves ImageNet classification](https://arxiv.org/abs/1911.04252) <kbd>CVPR 2020</kbd> [distillation]
 
 
 ## 2020-08 (10)
@@ -142,7 +143,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [Monocular Plan View Networks for Autonomous Driving](https://arxiv.org/abs/1905.06937) <kbd>IROS 2019</kbd> [BEV-Net]
 - [MoNet3D: Towards Accurate Monocular 3D Object Localization in Real Time](https://arxiv.org/abs/2006.16007) <kbd>ICML 2020</kbd> [mono3D]
 - [CubifAE-3D: Monocular Camera Space Cubification on Autonomous Vehicles for Auto-Encoder based 3D Object Detection](https://arxiv.org/abs/2006.04080) [mono3D]
-- [MB-Net: MergeBoxes for Real-Time 3D Vehicles Detection](https://ieeexplore.ieee.org/document/8500395) <kbd>IV 2018</kbd> [mono3D: Daimler]
+- [MB-Net: MergeBoxes for Real-Time 3D Vehicles Detection](https://ieeexplore.ieee.org/document/8500395) [[Notes](paper_notes/mb_net.md)] <kbd>IV 2018</kbd> [mono3D: Daimler]
 - [Beyond Bounding Boxes: Using Bounding Shapes for Real-Time 3D Vehicle Detection from Monocular RGB Images](https://ieeexplore.ieee.org/abstract/document/8814036/) <kbd>IV 2019</kbd> [mono3D, Daimler]
 - [3D-GCK: Single-Shot 3D Detection of Vehicles from Monocular RGB Images via
 Geometrically Constrained Keypoints in Real-Time](https://arxiv.org/abs/2006.13084) <kbd>IV 2020</kbd> [Daimler, mono3D]
@@ -216,7 +217,7 @@ Geometrically Constrained Keypoints in Real-Time](https://arxiv.org/abs/2006.130
 - [PointTrack++ for Effective Online Multi-Object Tracking and Segmentation](https://arxiv.org/abs/2007.01549) [[Notes](paper_notes/pointtrack++.md)] <kbd>CVPR 2020 workshop</kbd> [CVPR2020 MOTS Challenge Winner. PointTrack++ ranks first on KITTI MOTS]
 - [SpatialEmbedding: Instance Segmentation by Jointly Optimizing Spatial Embeddings and Clustering Bandwidth](https://arxiv.org/abs/1906.11109) [[Notes](paper_notes/spatial_embedding.md)] <kbd>ICCV 2019</kbd> [one-stage, instance segmentation]
 - [BA-Net: Dense Bundle Adjustment Networks](https://arxiv.org/abs/1806.04807) [[Notes](paper_notes/banet.md)] <kbd>ICLR 2019</kbd> [Bundle adjustment, multi-frame monodepth, feature-metric]
-- [DeepSFM: Structure From Motion Via Deep Bundle Adjustment](https://arxiv.org/abs/1912.09697) <kbd>ECCV 2020 oral</kbd> [multi-frame monodepth]
+- [DeepSFM: Structure From Motion Via Deep Bundle Adjustment](https://arxiv.org/abs/1912.09697) <kbd>ECCV 2020 oral</kbd> [multi-frame monodepth, indoor scene]
 - [Consistent Video Depth Estimation](https://arxiv.org/abs/2004.15021) [[Notes](paper_notes/consistent_video_depth.md)] <kbd>SIGGRAPH 2020</kbd> [multi-frame monodepth, online finetune]
 - [DeepV2D: Video to Depth with Differentiable Structure from Motion](https://arxiv.org/abs/1812.04605) [[Notes](paper_notes/deepv2d.md)] <kbd>ICLR 2020</kbd> [multi-frame monodepth, Jia Deng]
 - [GeoNet: Unsupervised Learning of Dense Depth, Optical Flow and Camera Pose](https://arxiv.org/abs/1803.02276) [[Notes](paper_notes/geonet.md)] <kbd>CVPR 2018</kbd> [residual optical flow, monodepth, rigid and dynamic motion]
@@ -488,7 +489,7 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [MonoGRNet: A Geometric Reasoning Network for Monocular 3D Object Localization](https://arxiv.org/abs/1811.10247) [[Notes](paper_notes/monogrnet.md)] <kbd>AAAI 2019</kbd> (SOTA of Mono3DOD, MLF < MonoGRNet < Pseudo-lidar)
 - [MLF: Multi-Level Fusion based 3D Object Detection from Monocular Images](http://openaccess.thecvf.com/content_cvpr_2018/papers/Xu_Multi-Level_Fusion_Based_CVPR_2018_paper.pdf) [[Notes](paper_notes/mlf.md)] <kbd>CVPR 2018</kbd> (precursor to pseudo-lidar)
 - [ROI-10D: Monocular Lifting of 2D Detection to 6D Pose and Metric Shape](https://arxiv.org/abs/1812.02781) [[Notes](paper_notes/roi10d.md)] <kbd>CVPR 2019</kbd>
-- [Accurate Monocular 3D Object Detection via Color-Embedded 3D Reconstruction for Autonomous Driving](https://arxiv.org/abs/1903.11444) [[Notes](paper_notes/pseudo_lidar_color.md)] <kbd>ICCV 2019</kbd> [similar to pseudo-lidar, color-enhanced]
+- [AM3D: Accurate Monocular 3D Object Detection via Color-Embedded 3D Reconstruction for Autonomous Driving](https://arxiv.org/abs/1903.11444) [[Notes](paper_notes/am3d.md)] <kbd>ICCV 2019</kbd> [similar to pseudo-lidar, color-enhanced]
 - [Mono3D++: Monocular 3D Vehicle Detection with Two-Scale 3D Hypotheses and Task Priors](https://arxiv.org/abs/1901.03446) [[Notes](paper_notes/mono3d++.md)] (from Stefano Soatto) <kbd>AAAI 2019</kbd>
 - [Deep Metadata Fusion for Traffic Light to Lane Assignment](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8613841) [[Notes](paper_notes/deep_lane_association.md)] <kbd>IEEE RA-L 2019</kbd> (traffic lights association)
 - [Automatic Traffic Light to Ego Vehicle Lane Association at Complex Intersections](https://ieeexplore.ieee.org/document/8569421) <kbd>ITSC 2019</kbd> (traffic lights association)
