@@ -146,7 +146,8 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [MB-Net: MergeBoxes for Real-Time 3D Vehicles Detection](https://ieeexplore.ieee.org/document/8500395) [[Notes](paper_notes/mb_net.md)] <kbd>IV 2018</kbd> [mono3D: Daimler]
 - [BS3D: Beyond Bounding Boxes: Using Bounding Shapes for Real-Time 3D Vehicle Detection from Monocular RGB Images](https://ieeexplore.ieee.org/abstract/document/8814036/) [[Notes](paper_notes/bs3d.md)] <kbd>IV 2019</kbd> [mono3D, Daimler]
 - [3D-GCK: Single-Shot 3D Detection of Vehicles from Monocular RGB Images via
-Geometrically Constrained Keypoints in Real-Time](https://arxiv.org/abs/2006.13084) [[Notes](paper_notes/3d_gck.md)] <kbd>IV 2020</kbd> [Daimler, mono3D]
+Geometrically Constrained Keypoints in Real-Time](https://arxiv.org/abs/2006.13084) [[Notes](paper_notes/3d_gck.md)] <kbd>IV 2020</kbd> [[mono3D, Daimler]
+- [UR3D: Distance-Normalized Unified Representation for Monocular 3D Object Detection](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/6559_ECCV_2020_paper.php) [[Notes](paper_notes/ur3d.md)] <kbd>ECCV 2020</kbd> [mono3D]
 - [Synthetic-to-Real Domain Adaptation for Lane Detection](https://arxiv.org/abs/2007.04023) [GM Israel, LLD]
 - [TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383) <kbd>ICCV 2019</kbd> [Song Han, video, object detection]
 - [MVF: End-to-End Multi-View Fusion for 3D Object Detection in LiDAR Point Clouds](https://arxiv.org/abs/1910.06528) <kbd>CoRL 2019</kbd> [Waymo]
@@ -187,7 +188,6 @@ Geometrically Constrained Keypoints in Real-Time](https://arxiv.org/abs/2006.130
 - [InstanceMotSeg: Real-time Instance Motion Segmentation for Autonomous Driving](https://arxiv.org/abs/2008.07008) [motion segmentation]
 - [Monocular 3D Object Detection via Feature Domain Adaptation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540018.pdf) <kbd>ECCV 2020</kbd> [mono3D]
 - [Reinforced Axial Refinement Network for Monocular 3D Object Detection](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2822_ECCV_2020_paper.php) <kbd>ECCV 2020</kbd> [mono3D]
-- [Distance-Normalized Unified Representation for Monocular 3D Object Detection](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/6559_ECCV_2020_paper.php) <kbd>ECCV 2020</kbd> [mono3D]
 - [Multi-Loss Rebalancing Algorithm for Monocular Depth Estimation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2890_ECCV_2020_paper.php) <kbd>ECCV 2020</kbd> [indoor depth]
 - [Disambiguating Monocular Depth Estimation with a Single Transient](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/3668_ECCV_2020_paper.php) <kbd>ECCV 2020</kbd> [additional laser sensor, indoor depth]
 - [Guiding Monocular Depth Estimation Using Depth-Attention Volume](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/5491_ECCV_2020_paper.php) <kbd>ECCV 2020</kbd> [indoor depth]
@@ -640,7 +640,7 @@ for Road Detection Algorithms](http://www.cvlibs.net/publications/Fritsch2013ITS
 - [Focal Loss for Dense Object Detection](https://arxiv.org/pdf/1708.02002.pdf) (RetinaNet) [[Notes](paper_notes/focal_loss.md)]
 - [Squeeze-and-Excitation Networks](https://arxiv.org/pdf/1709.01507) (SENet)
 - [Progressive Growing of GANs for Improved Quality, Stability, and Variation](https://arxiv.org/pdf/1710.10196.pdf)
-- [Deformable Convolutional Networks](https://arxiv.org/pdf/1703.06211.pdf) (build on R-FCN)
+- [Deformable Convolutional Networks](https://arxiv.org/abs/1703.06211) <kbd>ICCV 2017</kbd> [build on R-FCN]
 - [Learning Region Features for Object Detection](https://arxiv.org/pdf/1803.07066.pdf)
 
 ## 2017 and before
