@@ -146,7 +146,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [MB-Net: MergeBoxes for Real-Time 3D Vehicles Detection](https://ieeexplore.ieee.org/document/8500395) [[Notes](paper_notes/mb_net.md)] <kbd>IV 2018</kbd> [mono3D: Daimler]
 - [BS3D: Beyond Bounding Boxes: Using Bounding Shapes for Real-Time 3D Vehicle Detection from Monocular RGB Images](https://ieeexplore.ieee.org/abstract/document/8814036/) [[Notes](paper_notes/bs3d.md)] <kbd>IV 2019</kbd> [mono3D, Daimler]
 - [3D-GCK: Single-Shot 3D Detection of Vehicles from Monocular RGB Images via
-Geometrically Constrained Keypoints in Real-Time](https://arxiv.org/abs/2006.13084) <kbd>IV 2020</kbd> [Daimler, mono3D]
+Geometrically Constrained Keypoints in Real-Time](https://arxiv.org/abs/2006.13084) [[Notes](paper_notes/3d_gck.md)] <kbd>IV 2020</kbd> [Daimler, mono3D]
 - [Synthetic-to-Real Domain Adaptation for Lane Detection](https://arxiv.org/abs/2007.04023) [GM Israel, LLD]
 - [TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383) <kbd>ICCV 2019</kbd> [Song Han, video, object detection]
 - [MVF: End-to-End Multi-View Fusion for 3D Object Detection in LiDAR Point Clouds](https://arxiv.org/abs/1910.06528) <kbd>CoRL 2019</kbd> [Waymo]
