@@ -9,7 +9,7 @@ The paper has a good summary on mono 3DOD in introduction.
 
 The geometric constraints become a closed-formed one. This is similar to [deep3Dbox](deep3dbox.md) but slightly different (over-constraint vs exact-constraint).
 
-The idea of [shift RCNN](shift_rcnn.md) and [FQNet](fqnet.md) are quite similar. Both builds on [deep3Dbox](deep3dbox.md) and refines the first guess. But [FQNet](fqnet.md) passively densely sample around the GT and train a regressor to tell the difference to GT, [shift RCNN](shift_rcnn.md) actively learns to regress the differenve.
+The idea of [shift RCNN](shift_rcnn.md) and [FQNet](fqnet.md) are quite similar. Both builds on [deep3Dbox](deep3dbox.md) and refines the first guess. But [FQNet](fqnet.md) passively densely sample around the GT and train a regressor to tell the difference to GT, [shift RCNN](shift_rcnn.md) actively learns to regress the difference. The followup work of [FQNet](fqnet.md) is [RAR-Net](rarnet.md) which also actively predicts the offset, but does that iteratively with a DRL agent.
 
 #### Key ideas
 - RoiAligned feature to regress 3D orientation and 3D dimension. 

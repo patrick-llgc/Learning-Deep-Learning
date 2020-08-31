@@ -187,7 +187,7 @@ Geometrically Constrained Keypoints in Real-Time](https://arxiv.org/abs/2006.130
 - [Fast and Accurate Recovery of Occluding Contours in Monocular Depth Estimation](https://arxiv.org/abs/1905.08598) <kbd>ICCV 2019 workshop</kbd> [indoor]
 - [InstanceMotSeg: Real-time Instance Motion Segmentation for Autonomous Driving](https://arxiv.org/abs/2008.07008) [motion segmentation]
 - [Monocular 3D Object Detection via Feature Domain Adaptation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540018.pdf) <kbd>ECCV 2020</kbd> [mono3D]
-- [Reinforced Axial Refinement Network for Monocular 3D Object Detection](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2822_ECCV_2020_paper.php) <kbd>ECCV 2020</kbd> [mono3D]
+- [RAR-Net: Reinforced Axial Refinement Network for Monocular 3D Object Detection](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2822_ECCV_2020_paper.php) [[Notes](paper_notes/rarnet.md)] <kbd>ECCV 2020</kbd> [mono3D]
 - [Multi-Loss Rebalancing Algorithm for Monocular Depth Estimation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2890_ECCV_2020_paper.php) <kbd>ECCV 2020</kbd> [indoor depth]
 - [Disambiguating Monocular Depth Estimation with a Single Transient](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/3668_ECCV_2020_paper.php) <kbd>ECCV 2020</kbd> [additional laser sensor, indoor depth]
 - [Guiding Monocular Depth Estimation Using Depth-Attention Volume](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/5491_ECCV_2020_paper.php) <kbd>ECCV 2020</kbd> [indoor depth]
@@ -197,6 +197,7 @@ Geometrically Constrained Keypoints in Real-Time](https://arxiv.org/abs/2006.130
 - [DA4AD: End-to-End Deep Attention-based Visual Localization for Autonomous Driving](https://arxiv.org/abs/2003.03026) <kbd>ECCV 2020</kbd>
 - [Towards Lightweight Lane Detection by Optimizing Spatial Embedding](https://arxiv.org/abs/2008.08311) <kbd>ECCV 2020 workshop</kbd>
 - [Multi-Frame to Single-Frame: Knowledge Distillation for 3D Object Detection]() <kbd>ECCV 2020 workshop</kbd> [lidar]
+- [DeepIM: Deep iterative matching for 6d pose estimation](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yi_Li_DeepIM_Deep_Iterative_ECCV_2018_paper.pdf) <kbd>ECCV 2018</kbd> [pose estimation]
 
 ## 2020-07 (25)
 - [CenterTrack: Tracking Objects as Points](https://arxiv.org/abs/2004.01177) [[Notes](paper_notes/centertrack.md)] <kbd>ECCV 2020 spotlight</kbd> [camera based 3D MOD, MOT SOTA, CenterNet, video based object detection]
@@ -479,7 +480,7 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [Guided backprop: Striving for Simplicity: The All Convolutional Net](https://arxiv.org/pdf/1412.6806.pdf) [[Notes](paper_notes/guided_backprop.md)] <kbd>ICLR 2015</kbd>
 - [Occlusion-Net: 2D/3D Occluded Keypoint Localization Using Graph Networks](http://www.cs.cmu.edu/~mvo/index_files/Papers/ONet_19.pdf) [[Notes](paper_notes/occlusion_net.md)] <kbd>CVPR 2019</kbd>
 - [Boxy Vehicle Detection in Large Images](https://boxy-dataset.com/boxy/index) [[Notes](paper_notes/boxy.md)] <kbd>ICCV 2019</kbd>
-- [FQNet: Deep Fitting Degree Scoring Network for Monocular 3D Object Detection](https://arxiv.org/abs/1904.12681) [[Notes](paper_notes/fqnet.md)] <kbd>CVPR 2019</kbd> (Mono 3DOD, Jiwen Lu)
+- [FQNet: Deep Fitting Degree Scoring Network for Monocular 3D Object Detection](https://arxiv.org/abs/1904.12681) [[Notes](paper_notes/fqnet.md)] <kbd>CVPR 2019</kbd> [Mono 3DOD, Jiwen Lu]
 
 
 ## 2019-08 (18)
@@ -622,7 +623,7 @@ for Road Detection Algorithms](http://www.cvlibs.net/publications/Fritsch2013ITS
 
 
 ## 2019-01 (10)
-- [Human-level control through deep reinforcement learning (Nature DQN paper)](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) [[Notes](paper_notes/nature_dqn_paper.md)] <kbd>DRL</kbd>
+- [DQN: Human-level control through deep reinforcement learning (Nature DQN paper)](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) [[Notes](paper_notes/nature_dqn_paper.md)] <kbd>DRL</kbd>
 - [Retina U-Net: Embarrassingly Simple Exploitation of Segmentation Supervision for Medical Object Detection](https://arxiv.org/pdf/1811.08661.pdf) [[Notes](paper_notes/retina_unet.md)] <kbd>MI</kbd>
 - [Panoptic Segmentation](https://arxiv.org/pdf/1801.00868.pdf) [[Notes](paper_notes/panoptic_segmentation.md)] <kbd>PanSeg</kbd>
 - [Panoptic Feature Pyramid Networks](https://arxiv.org/pdf/1901.02446.pdf) [[Notes](paper_notes/panoptic_fpn.md)] <kbd>PanSeg</kbd> 

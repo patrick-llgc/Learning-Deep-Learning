@@ -11,7 +11,7 @@ The idea is to add a refinement stage to deep3dbox by densely sample around the 
 
 The idea is quite clever, but the optimization step to generate the 3D seed location is very time consuming and not very practical. 
 
-The idea of [shift RCNN](shift_rcnn.md) and [FQNet](fqnet.md) are quite similar. Both builds on [deep3Dbox](deep3dbox.md) and refines the first guess. But [FQNet](fqnet.md) passively densely sample around the GT and train a regressor to tell the difference to GT, [shift RCNN](shift_rcnn.md) actively learns to regress the differenve.
+The idea of [shift RCNN](shift_rcnn.md) and [FQNet](fqnet.md) are quite similar. Both builds on [deep3Dbox](deep3dbox.md) and refines the first guess. But [FQNet](fqnet.md) passively densely sample around the GT and train a regressor to tell the difference to GT, [shift RCNN](shift_rcnn.md) actively learns to regress the difference.
 
 #### Key ideas
 - Background: Patch based network to regress the local orientation and dimension. --> this is the same as [deep3dbox](deep3dbox.md) and [MonoPSR](monopsr.md), as vehicle dimension has a smaller range of variation and thus easier to regress. Note that MonoPSR regressed distance anyway. 
@@ -30,5 +30,5 @@ The idea of [shift RCNN](shift_rcnn.md) and [FQNet](fqnet.md) are quite similar.
 
 #### Notes
 - Instead of generating the 3D seed location from time-consuming optimization. Can we do a coarser guess with IPM?
-- Instead of "passively" generating dense samples, can we directly train a neural network to "actively" adjust the location of the 3D wireframe? --> see [shift rcnn](shift_rcnn.md)
+- Instead of "passively" generating dense samples, can we directly train a neural network to "actively" adjust the location of the 3D wireframe? --> see [shift rcnn](shift_rcnn.md). Yes, this work is also extended to [RAR-Net](rarnet.md) which trains a DRL agent to adjust the offset. 
 - The active optimization can be done in a similar way to [IoU Net](iou_net.md) by gradient ascent via a differentiable criterion.

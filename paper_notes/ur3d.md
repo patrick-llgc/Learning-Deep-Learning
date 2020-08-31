@@ -32,7 +32,7 @@ The results are not SOTA as compared to [pseudo-lidar](pseudo_lidar.md) or [AM3D
 - Fully convolutional cascaded point regression
 	- 1st stage: regress the location of center point first
 	- 2nd stage: use [deformable convnet](https://arxiv.org/abs/1703.06211) framework to pool all related points and predict the residual location offset.
-- Postprocess to optimize 3D bbox according to predicted 9 keypoints and regressed physical size. 
+- Postprocess to optimize 3D bbox according to predicted 9 keypoints and regressed physical size. This step uses projection loss and also residual loss with predicted size. 
 
 #### Technical details
 - Losses
