@@ -186,7 +186,7 @@ Geometrically Constrained Keypoints in Real-Time](https://arxiv.org/abs/2006.130
 - [Pillar-based Object Detection for Autonomous Driving](https://arxiv.org/abs/2007.10323) <kbd>ECCV 2020</kbd>
 - [Fast and Accurate Recovery of Occluding Contours in Monocular Depth Estimation](https://arxiv.org/abs/1905.08598) <kbd>ICCV 2019 workshop</kbd> [indoor]
 - [InstanceMotSeg: Real-time Instance Motion Segmentation for Autonomous Driving](https://arxiv.org/abs/2008.07008) [motion segmentation]
-- [Monocular 3D Object Detection via Feature Domain Adaptation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540018.pdf) <kbd>ECCV 2020</kbd> [mono3D]
+- [DA-3Det: Monocular 3D Object Detection via Feature Domain Adaptation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540018.pdf) [[Notes](paper_notes/da_3det.md)] <kbd>ECCV 2020</kbd> [mono3D]
 - [RAR-Net: Reinforced Axial Refinement Network for Monocular 3D Object Detection](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2822_ECCV_2020_paper.php) [[Notes](paper_notes/rarnet.md)] <kbd>ECCV 2020</kbd> [mono3D]
 - [Multi-Loss Rebalancing Algorithm for Monocular Depth Estimation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2890_ECCV_2020_paper.php) <kbd>ECCV 2020</kbd> [indoor depth]
 - [Disambiguating Monocular Depth Estimation with a Single Transient](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/3668_ECCV_2020_paper.php) <kbd>ECCV 2020</kbd> [additional laser sensor, indoor depth]
