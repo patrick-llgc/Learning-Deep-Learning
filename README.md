@@ -149,7 +149,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [Multi-Frame to Single-Frame: Knowledge Distillation for 3D Object Detection]() <kbd>ECCV 2020 workshop</kbd> [lidar]
 - [DeepIM: Deep iterative matching for 6d pose estimation](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yi_Li_DeepIM_Deep_Iterative_ECCV_2018_paper.pdf) <kbd>ECCV 2018</kbd> [pose estimation]
 
-## 2020-08 (23)
+## 2020-08 (25)
 - [Feature-metric Loss for Self-supervised Learning of Depth and Egomotion](https://arxiv.org/abs/2007.10603) [[Notes](paper_notes/feature_metric.md)] <kbd>ECCV 2020</kbd> [feature-metric, local minima, monodepth]
 - [Depth-VO-Feat: Unsupervised Learning of Monocular Depth Estimation and Visual Odometry with Deep Feature Reconstruction](https://arxiv.org/abs/1803.03893) <kbd>CVPR 2018</kbd> [feature-metric, monodepth]
 - [MonoResMatch: Learning monocular depth estimation infusing traditional stereo knowledge](https://arxiv.org/abs/1904.04144) [[Notes](paper_notes/monoresmatch.md)] <kbd>CVPR 2019</kbd> [monodepth, local minima, cheap stereo GT]
@@ -166,14 +166,15 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [Road-SLAM: Road Marking based SLAM with Lane-level Accuracy](https://www.naverlabs.com/img/autonomousDriving/intelligence/dissertation/Road-SLAM_Road%20Marking%20based%20SLAM%20with%20Lane-level%20Accuracy.pdf) [[Notes](paper_notes/road_slam.md)] [HD mapping]
 - [AVP-SLAM: Semantic Visual Mapping and Localization for Autonomous Vehicles in the Parking Lot](https://arxiv.org/abs/2007.01813) [[Notes](paper_notes/avp_slam.md)] <kbd>IROS 2020</kbd> [Huawei, HD mapping]
 - [AVP-SLAM-Late-Fusion: Mapping and Localization using Semantic Road Marking with Centimeter-level Accuracy in Indoor Parking Lots](https://ieeexplore.ieee.org/abstract/document/8917529) [[Notes](paper_notes/avp_slam_late_fusion.md)] <kbd>ITSC 2019</kbd>
-- [DeepRoadMapper: Extracting Road Topology from Aerial Images](https://openaccess.thecvf.com/content_ICCV_2017/papers/Mattyus_DeepRoadMapper_Extracting_Road_ICCV_2017_paper.pdf) <kbd>ICCV 2017</kbd> [Uber ATG, NOT HD maps]
-- [PolyMapper: Topological Map Extraction From Overhead Images](https://arxiv.org/abs/1812.01497) [[Notes](paper_notes/polymapper.md)] <kbd>ICCV 2019</kbd> [mapping, polygon]
+- [Lane markings-based relocalization on highway](https://ieeexplore.ieee.org/abstract/document/8917254) <kbd>ITSC 2019</kbd>
+- [DeepRoadMapper: Extracting Road Topology from Aerial Images](https://openaccess.thecvf.com/content_ICCV_2017/papers/Mattyus_DeepRoadMapper_Extracting_Road_ICCV_2017_paper.pdf) [[Notes](paper_notes/deep_road_mapper.md)] <kbd>ICCV 2017</kbd> [Uber ATG, NOT HD maps]
+- [RoadTracer: Automatic Extraction of Road Networks from Aerial Images](https://openaccess.thecvf.com/content_cvpr_2018/papers/Bastani_RoadTracer_Automatic_Extraction_CVPR_2018_paper.pdf) <kbd>CVPR 2018</kbd> [NOT HD maps]
+- [PolyMapper: Topological Map Extraction From Overhead Images](https://arxiv.org/abs/1812.01497) [[Notes](paper_notes/polymapper.md)] <kbd>ICCV 2019</kbd> [mapping, polygon, NOT HD maps]
 - [Polyline Loss: Hierarchical Recurrent Attention Networks for Structured Online Maps](https://openaccess.thecvf.com/content_cvpr_2018/papers/Homayounfar_Hierarchical_Recurrent_Attention_CVPR_2018_paper.pdf) [[Notes](paper_notes/polyline_loss.md)] <kbd>CVPR 2018</kbd> [HD mapping, highway, polyline loss]
 - [Deep Structured Crosswalk: End-to-End Deep Structured Models for Drawing Crosswalks](https://openaccess.thecvf.com/content_ECCV_2018/papers/Justin_Liang_End-to-End_Deep_Structured_ECCV_2018_paper.pdf) [[Notes](paper_notes/deep_structured_crosswalk.md)] <kbd>ECCV 2018</kbd>
 - [DeepBoundaryExtractor: Convolutional Recurrent Network for Road Boundary Extraction](http://openaccess.thecvf.com/content_CVPR_2019/html/Liang_Convolutional_Recurrent_Network_for_Road_Boundary_Extraction_CVPR_2019_paper.html) [[Notes](paper_notes/deep_boundary_extractor.md)] <kbd>CVPR 2019</kbd> [HD mapping, boundary, polyline loss]
 - [DAGMapper: Learning to Map by Discovering Lane Topology](http://openaccess.thecvf.com/content_ICCV_2019/papers/Homayounfar_DAGMapper_Learning_to_Map_by_Discovering_Lane_Topology_ICCV_2019_paper.pdf) [[Notes](paper_notes/dagmapper.md)] <kbd>ICCV 2019</kbd> [HD mapping, highway, forks and merges, polyline loss]
 - [Sparse-HD-Maps: Exploiting Sparse Semantic HD Maps for Self-Driving Vehicle Localization](https://arxiv.org/abs/1908.03274) [[Notes](paper_notes/sparse_hd_maps.md)] <kbd>IROS 2019 oral</kbd> [Uber ATG, metadata, mapping, localization]
-- [Lane markings-based relocalization on highway](https://ieeexplore.ieee.org/abstract/document/8917254) <kbd>ITSC 2019</kbd>
 - [Aerial LaneNet: Lane Marking Semantic Segmentation in Aerial Imagery using Wavelet-Enhanced Cost-sensitive Symmetric Fully Convolutional Neural Networks](https://arxiv.org/abs/1803.06904) <kbd>IEEE TGRS 2018</kbd>
 - [Monocular Localization with Vector HD Map (MLVHM): A Low-Cost Method for Commercial IVs](https://www.mdpi.com/1424-8220/20/7/1870/htm) <kbd>Sensors 2020</kbd> [Tsinghua, 3D HD maps]
 - [PatchNet: Rethinking Pseudo-LiDAR Representation](https://arxiv.org/abs/2008.04582) [[Notes](paper_notes/patchnet.md)] <kbd>ECCV 2020</kbd> [SenseTime, Wanli Ouyang]
@@ -894,9 +895,6 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Real-time Scalable Dense Surfel Mapping](Real-time Scalable Dense Surfel Mapping) <kbd>ICRA 2019</kbd> [dense reconstruction, monodepth]
 - [Dynamic SLAM: The Need For Speed](https://arxiv.org/abs/2002.08584)
 - [GSLAM: A General SLAM Framework and Benchmark](https://arxiv.org/abs/1902.07995) <kbd>ICCV 2019</kbd>
-
-### Mapping
-
 
 
 ### Reviews and Surveys
