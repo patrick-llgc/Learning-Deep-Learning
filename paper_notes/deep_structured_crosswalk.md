@@ -9,7 +9,7 @@ There are several works from Uber ATG that extracts polyline representation base
 
 - [Crosswalk Extractor](deep_structured_crosswalk.md)
 - [Boundary Extractor](boundary_extractor.md)
-- [Polyline Loss](polyline_loss.md): lane lines
+- [Polyline Loss](hran.md): lane lines
 - [DAGMapper](dagmapper.md): merges/forks
 
 This work predict deep feature maps, and use energy maximization to perform inference. Not exactly end to end. 

@@ -11,7 +11,7 @@ The following work are focused on road network discovery and are NOT focused on 
 
 - [DeepRoadMapper](deep_road_mapper.md): semantic segmentation
 - [RoadTracer](road_tracer.md): like an DRL agent
-- [PolyMapper](polymapper): iterate every vertices of a closed polygon
+- [PolyMapper](hran.md): iterate every vertices of a closed polygon
 
 [Polyline loss](polyline_loss.md) and [DAGMapper](dagmapper.md) focuses on HD mapping tasks with lane-level information. 
 

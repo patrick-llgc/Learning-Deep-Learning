@@ -9,10 +9,10 @@ There are several works from Uber ATG that extracts polyline representation base
 
 - [Crosswalk Extractor](deep_structured_crosswalk.md)
 - [Boundary Extractor](boundary_extractor.md)
-- [Polyline Loss](polyline_loss.md): lane lines
+- [Polyline Loss](hran.md): lane lines
 - [DAGMapper](dagmapper.md): merges/forks
 
-This work goes from the structured inference pipeline to an autoregressive **convolutional snake (cSnake)** pipeline. This is further extended to purely end-to-end RNN-based design in [Polyline Loss](polyline_loss.md) and [DAGMapper](dagmapper.md).
+This work goes from the structured inference pipeline to an autoregressive **convolutional snake (cSnake)** pipeline. This is further extended to purely end-to-end RNN-based design in [Polyline Loss](hran.md) and [DAGMapper](dagmapper.md).
 
 #### Key ideas
 - Input: lidar + BEV + lidar height grad (sobel, then take magnitude), 5 ch
@@ -23,7 +23,7 @@ This work goes from the structured inference pipeline to an autoregressive **con
 - Inference with cSnake. cSnake iteratively attends to rotated ROIs and outputs the vertices of a polyline corresponding to a road boundary.
 	- Predict endpoint first
 	- Based on endpoint, crop and rotate patch of concatenated detection and direction map for prediction of next point.
-	- Do this autoregressively. . --> this is similar to RNN and was extended to RNN in later works such as [Polyline Loss](polyline_loss.md) and [DAGMapper](dagmapper.md).
+	- Do this autoregressively. . --> this is similar to RNN and was extended to RNN in later works such as [Polyline Loss](hran.md) and [DAGMapper](dagmapper.md).
 
 #### Technical details
 - 90% Recall/Precision/F1. 99.3% topology accu.
