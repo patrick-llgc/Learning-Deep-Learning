@@ -51,8 +51,9 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 
 ## CVPR 2020
 - [Online Depth Learning against Forgetting in Monocular Videos](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Online_Depth_Learning_Against_Forgetting_in_Monocular_Videos_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd>
-- [Leveraging Pre-Trained 3D Object Detection Models For Fast Ground Truth Generation](https://arxiv.org/abs/1807.06072) <kbd>ITSC 2018</kbd>
-- [DensePose: Dense Human Pose Estimation In The Wild](https://arxiv.org/abs/1802.00434) <kbd>CVPR 2018</kbd>
+- [Leveraging Pre-Trained 3D Object Detection Models For Fast Ground Truth Generation](https://arxiv.org/abs/1807.06072) <kbd>ITSC 2018</kbd> [UToronto]
+- [DensePose: Dense Human Pose Estimation In The Wild](https://arxiv.org/abs/1802.00434) [[Notes](paper_notes/densepose.md)] <kbd>CVPR 2018 oral</kbd> [FAIR]
+- [Data Distillation: Towards Omni-Supervised Learning](https://arxiv.org/abs/1712.04440) <kbd>CVPR 2018</kbd> [Kaiming He, FAIR]
 - [Canonical Surface Mapping via Geometric Cycle Consistency](https://arxiv.org/abs/1907.10043) <kbd>ICCV 2019</kbd>
 - [Self-supervised Monocular Trained Depth Estimation using Self-attention and Discrete Disparity Volume](http://openaccess.thecvf.com/content_CVPR_2020/papers/Johnston_Self-Supervised_Monocular_Trained_Depth_Estimation_Using_Self-Attention_and_Discrete_Disparity_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd>
 - [Visual SLAM for Automated Driving: Exploring the Applications of Deep Learning](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/Milz_Visual_SLAM_for_CVPR_2018_paper.pdf)
@@ -666,6 +667,7 @@ Here is the list of papers waiting to be read.
 - [Approximating CNNs with Bag-of-local-Features models works surprisingly well on ImageNet](https://openreview.net/forum?id=SkfMWhAqYQ) (BagNet) [blog](https://blog.evjang.com/2019/02/bagnet.html) <kbd>ICML 2019</kbd>
 - [A disciplined approach to neural network hyper-parameters: Part 1 -- learning rate, batch size, momentum, and weight decay](https://arxiv.org/pdf/1803.09820v2.pdf)
 - [Understanding deep learning requires rethinking generalization](https://arxiv.org/pdf/1611.03530.pdf)
+- [Gradient Reversal: Unsupervised Domain Adaptation by Backpropagation](https://arxiv.org/abs/1409.7495) <kbd>ICML 2015</kbd>
 
 ### 2D Object Detection and Segmentation
 - [Mask Scoring R-CNN](https://arxiv.org/pdf/1903.00241.pdf) <kbd>CVPR 2019</kbd>
