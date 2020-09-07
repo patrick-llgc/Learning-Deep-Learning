@@ -18,10 +18,10 @@ This is one application of RNN in boundary extraction. Previous work include [Po
 
 The tool is based on RNN, thus autoregressive and does not have a constant runtime for images with varying number of nodes. 
 
-The way DAGMapper defines **node (control points)** and calculate their loss is very insightful. There is no unique way to define control points, and therefore instead of directly regressing L1/L2 distance of prediction and annotated control points, a Chamfer distance loss is used, which calculates the normalized distance between two densely sampled curves. 
+The way DAGMapper defines **node (control points)** and calculate their loss is very insightful. There is no unique way to define control points, and therefore instead of directly regressing L1/L2 distance of prediction and annotated control points, a Chamfer distance loss is used, which calculates the normalized distance between two densely sampled curves. --> This idea actually comes from [Polyline Loss](hran.md).
 
 #### Key ideas
-- Loss: [Chamfer distance](http://vision.cs.utexas.edu/378h-fall2015/slides/lecture4.pdf).
+- Loss: [Chamfer distance](http://vision.cs.utexas.edu/378h-fall2015/slides/lecture4.pdf). 
 	- Evaluated on densely sampled polyline points. 
 	- **Adding or removing a control points in a straight line will not change loss.**
 - Curve matching: Dilate each curve with a radius then compare IoU. This can be seen as a different way to compare two curves as compared to Chamfer distance.
@@ -33,9 +33,7 @@ The way DAGMapper defines **node (control points)** and calculate their loss is 
 	- Thresholded invert DT
 	- Encodes at each point of the image the relative distance to the closest lane boundary. 
 	- Threshold, binarize and skeletonize DT and use the endpoints as seeds. --> How?
-- Results: 
-	- P/R/F1 = 0.76 @ 2pix = 10 cm threshold. This is evaluated with the densely sampled polyline points. 
-	- P/R/F1 = 0.96 @ 10 pix = 50 cm.
+
 
 #### Technical details
 - HD maps 
@@ -43,6 +41,10 @@ The way DAGMapper defines **node (control points)** and calculate their loss is 
 	- HD map has cm level accuracy.
 	- Semantic landmarks in HD maps are annotated by hand in an BEV image. 
 - Resolution: 5 cm / pixel
+- Results: 
+	- P/R/F1 = 0.76 @ 2pix = 10 cm threshold. This is evaluated with the densely sampled polyline points. 
+	- P/R/F1 = 0.96 @ 10 pix = 50 cm.
+	- Topology accuracy = 0.89
 
 #### Notes
 - Many mapping papers before only focus on the coarse level of mapping (no lane-level information), such as [PolyMapper](polymapper.md), . They focus on road network extraction and semantic labeling, and are not suitable for autonomous driving.

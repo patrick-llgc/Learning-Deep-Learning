@@ -52,8 +52,6 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 ## CVPR 2020
 - [Online Depth Learning against Forgetting in Monocular Videos](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Online_Depth_Learning_Against_Forgetting_in_Monocular_Videos_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd>
 - [Leveraging Pre-Trained 3D Object Detection Models For Fast Ground Truth Generation](https://arxiv.org/abs/1807.06072) <kbd>ITSC 2018</kbd> [UToronto]
-- [DensePose: Dense Human Pose Estimation In The Wild](https://arxiv.org/abs/1802.00434) [[Notes](paper_notes/densepose.md)] <kbd>CVPR 2018 oral</kbd> [FAIR]
-- [Data Distillation: Towards Omni-Supervised Learning](https://arxiv.org/abs/1712.04440) <kbd>CVPR 2018</kbd> [Kaiming He, FAIR]
 - [Canonical Surface Mapping via Geometric Cycle Consistency](https://arxiv.org/abs/1907.10043) <kbd>ICCV 2019</kbd>
 - [Self-supervised Monocular Trained Depth Estimation using Self-attention and Discrete Disparity Volume](http://openaccess.thecvf.com/content_CVPR_2020/papers/Johnston_Self-Supervised_Monocular_Trained_Depth_Estimation_Using_Self-Attention_and_Discrete_Disparity_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd>
 - [Visual SLAM for Automated Driving: Exploring the Applications of Deep Learning](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/Milz_Visual_SLAM_for_CVPR_2018_paper.pdf)
@@ -91,10 +89,14 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [SDC-Depth: Semantic Divide-and-Conquer Network for Monocular Depth Estimation](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_SDC-Depth_Semantic_Divide-and-Conquer_Network_for_Monocular_Depth_Estimation_CVPR_2020_paper.pdf)  <kbd>CVPR 2020</kbd> [monodepth, semantic]
 - [Self-training with Noisy Student improves ImageNet classification](https://arxiv.org/abs/1911.04252) <kbd>CVPR 2020</kbd> [distillation]
 
-## 2020-09 (1)
+## 2020-09 (3)
 - [SDFLabel: Autolabeling 3D Objects With Differentiable Rendering of SDF Shape Priors](https://arxiv.org/abs/1911.11288) [[Notes](paper_notes/sdflabel.md)] <kbd>CVPR 2020 oral</kbd> [differentiable rendering]
+- [DensePose: Dense Human Pose Estimation In The Wild](https://arxiv.org/abs/1802.00434) [[Notes](paper_notes/densepose.md)] <kbd>CVPR 2018 oral</kbd> [FAIR]
+- [NOCS: Normalized Object Coordinate Space for Category-Level 6D Object Pose and Size Estimation](https://arxiv.org/abs/1901.02970) <kbd>CVPR 2019</kbd>
+- [Lift, Splat, Shoot: Encoding Images From Arbitrary Camera Rigs by Implicitly Unprojecting to 3D](https://arxiv.org/abs/2008.05711) [[Notes](paper_notes/lift_splat_shoot.md)] <kbd>ECCV 2020</kbd> [Utoronto, Sanja Fidler]
+- [FISHING Net: Future Inference of Semantic Heatmaps In Grids](https://arxiv.org/abs/2006.09917) [[Notes](paper_notes/fishing_net.md)] <kbd>CVPRW 2020</kbd> [BEV-Net, Mapping, Zoox]
 - [InstanceMotSeg: Real-time Instance Motion Segmentation for Autonomous Driving](https://arxiv.org/abs/2008.07008) [motion segmentation]
-- [Lift, Splat, Shoot: Encoding Images From Arbitrary Camera Rigs by Implicitly Unprojecting to 3D](https://arxiv.org/abs/2008.05711) <kbd>ECCV 2020</kbd> [Utoronto]
+- [Data Distillation: Towards Omni-Supervised Learning](https://arxiv.org/abs/1712.04440) <kbd>CVPR 2018</kbd> [Kaiming He, FAIR]
 - [MiDas: Towards Robust Monocular Depth Estimation: Mixing Datasets for Zero-shot Cross-dataset Transfer](https://arxiv.org/abs/1907.01341) [monodepth, dynamic object, synthetic dataset]
 - [Semantics-Driven Unsupervised Learning for Monocular Depth and Ego-Motion Estimation](https://arxiv.org/abs/2006.04371) [monodepth]
 - [OmegaNet: Distilled Semantics for Comprehensive Scene Understanding from Videos](https://arxiv.org/abs/2003.14030) <kbd>CVPR 2020</kbd>
@@ -149,7 +151,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [Multi-Frame to Single-Frame: Knowledge Distillation for 3D Object Detection]() <kbd>ECCV 2020 workshop</kbd> [lidar]
 - [DeepIM: Deep iterative matching for 6d pose estimation](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yi_Li_DeepIM_Deep_Iterative_ECCV_2018_paper.pdf) <kbd>ECCV 2018</kbd> [pose estimation]
 
-## 2020-08 (25)
+## 2020-08 (26)
 - [Feature-metric Loss for Self-supervised Learning of Depth and Egomotion](https://arxiv.org/abs/2007.10603) [[Notes](paper_notes/feature_metric.md)] <kbd>ECCV 2020</kbd> [feature-metric, local minima, monodepth]
 - [Depth-VO-Feat: Unsupervised Learning of Monocular Depth Estimation and Visual Odometry with Deep Feature Reconstruction](https://arxiv.org/abs/1803.03893) <kbd>CVPR 2018</kbd> [feature-metric, monodepth]
 - [MonoResMatch: Learning monocular depth estimation infusing traditional stereo knowledge](https://arxiv.org/abs/1904.04144) [[Notes](paper_notes/monoresmatch.md)] <kbd>CVPR 2019</kbd> [monodepth, local minima, cheap stereo GT]
@@ -269,7 +271,6 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [WYSIWYG: What You See is What You Get: Exploiting Visibility for 3D Object Detection](https://arxiv.org/abs/1912.04986) [[Notes](paper_notes/wysiwyg.md)] <kbd>CVPR 2020 oral</kbd> [occupancy grid]
 - [Real-Time Panoptic Segmentation From Dense Detections](https://arxiv.org/abs/1912.01202) [[Notes](paper_notes/realtime_panoptic.md)] <kbd>CVPR 2020 oral</kbd> [bbox + semantic segmentation = panoptic segmentation, Toyota]
 - [Human-Centric Efficiency Improvements in Image Annotation for Autonomous Driving](https://drive.google.com/file/d/1DY95vfWBLKOOZZyq8gLDd0heZ6aBSdji/view) [[Notes](paper_notes/human_centric_annotation.md)] <kbd>CVPRW 2020</kbd> [efficient annotation]
-- [FISHING Net: Future Inference of Semantic Heatmaps In Grids](https://arxiv.org/abs/2006.09917) [[Notes](paper_notes/fishing_net.md)] <kbd>CVPRW 2020</kbd> [BEV-Net, Mapping, Zoox]
 - [SurfelGAN: Synthesizing Realistic Sensor Data for Autonomous Driving](https://arxiv.org/abs/2005.03844) [[Notes](paper_notes/surfel_gan.md)] <kbd>CVPR 2020 oral</kbd> [Waymo, auto data generation, surfel]
 - [LiDARsim: Realistic LiDAR Simulation by Leveraging the Real World](https://arxiv.org/abs/2006.09348) [[Notes](paper_notes/lidarsim.md)] <kbd>CVPR 2020 oral</kbd> [Uber ATG, auto data generation, surfel]
 - [SuMa++: Efficient LiDAR-based Semantic SLAM](http://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/chen2019iros.pdf) <kbd>IROS 2019</kbd> [semantic segmentation, lidar, SLAM]

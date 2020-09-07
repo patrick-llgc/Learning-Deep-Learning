@@ -13,8 +13,9 @@ The following work are focused on road network discovery and are NOT focused on 
 
 RoadTracer noted the semantic segmentation results are not a reliable foundation to extract road networks. Instead, it uses an iterative graph construction to get the topology of the road directly, avoiding unreliable intermediate representations. 
 
+The network needs to make a decision to step a certain distance toward a certain direction, resembling an agent in a reinforcement learning setting. This is somehow similar to the cSnake idea in [Deep Boundary Extractor](deep_boundary_extractor.md).
+
 #### Key ideas
-- The network needs to make a decision to step a certain distance toward a certain direction, resembling an agent in a reinforcement learning setting.
 
 #### Technical details
 - Summary of technical details
