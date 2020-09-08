@@ -11,6 +11,9 @@ It proposed probabilistic 3D lifting through prediction of depth distribution fo
 
 The semantic BEV map prediction need to fuse predictions from all cameras into a single **cohesive** representation of the scene. This is **full presentation learning of the entire 360 scene local to the ego vehicle** conditioned exclusively on camera input. The ultimate goal of the BEV map prediction is to learn dense representation for motion planning.
 
+[Fishing Net](fishing_net.md) uses BEV grid resolution: 10 cm and 20 cm/pixel. [Lift Splat Shoot](lift_splat_shoot.md) uses 50 cm/pixel. They are both coarser than the typical 4 cm or 5 cm per pixel resolution used by mapping purposes such as [DAGMapper](dagmapper.md).
+
+
 #### Key ideas
 - Lift: probabilistic (and differentiable) 3D lifting.
 	- [4, 45] meters, 1 meter bin. Very much like [DORN](dorn.md).
