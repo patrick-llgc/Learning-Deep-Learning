@@ -96,9 +96,9 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [Implicit Latent Variable Model for Scene-Consistent Motion Forecasting](https://arxiv.org/abs/2007.12036) <kbd>ECCV 2020</kbd> [Uber ATG, Rachel Urtasun]
 - [FISHING Net: Future Inference of Semantic Heatmaps In Grids](https://arxiv.org/abs/2006.09917) [[Notes](paper_notes/fishing_net.md)] <kbd>CVPRW 2020</kbd> [BEV-Net, Mapping, Zoox]
 - [Monocular Plan View Networks for Autonomous Driving](https://arxiv.org/abs/1905.06937) <kbd>IROS 2019</kbd> [BEV-Net]
-- [VPN: Cross-view Semantic Segmentation for Sensing Surroundings](https://arxiv.org/abs/1906.03560) [[Notes](paper_noets/vpn.md)] [Bolei Zhou, BEV-Net]
-- [VED: Monocular Semantic Occupancy Grid Mapping with Convolutional Variational Encoder-Decoder Networks](https://arxiv.org/abs/1804.02176) <kbd>ICRA 2019</kbd> [BEV-Net]
-- [Cam2BEV: A Sim2Real Deep Learning Approach for the Transformation of Images from Multiple Vehicle-Mounted Cameras to a Semantically Segmented Image in Bird's Eye View](https://arxiv.org/abs/2005.04078) [BEV-Net]
+- [VPN: Cross-view Semantic Segmentation for Sensing Surroundings](https://arxiv.org/abs/1906.03560) [[Notes](paper_noets/vpn.md)] <kbd>RAL 2020</kbd> [Bolei Zhou, BEV-Net]
+- [VED: Monocular Semantic Occupancy Grid Mapping with Convolutional Variational Encoder-Decoder Networks](https://arxiv.org/abs/1804.02176) [[Notes](paper_notes/ved.md)] <kbd>ICRA 2019</kbd> [BEV-Net]
+- [Cam2BEV: A Sim2Real Deep Learning Approach for the Transformation of Images from Multiple Vehicle-Mounted Cameras to a Semantically Segmented Image in Bird's Eye View](https://arxiv.org/abs/2005.04078) <kbd>ITSC 2020</kbd> [BEV-Net] 
 - [Learning to Look around Objects for Top-View Representations of Outdoor Scenes](https://arxiv.org/abs/1803.10870) <kbd>ECCV 2020</kbd> [BEV-Net, UCSD, Manmohan Chandraker]
 - [InstanceMotSeg: Real-time Instance Motion Segmentation for Autonomous Driving](https://arxiv.org/abs/2008.07008) [motion segmentation]
 - [Data Distillation: Towards Omni-Supervised Learning](https://arxiv.org/abs/1712.04440) <kbd>CVPR 2018</kbd> [Kaiming He, FAIR]
@@ -927,6 +927,7 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 
 ### Radar Perception
 - [Seeing Around Street Corners: Non-Line-of-Sight Detection and Tracking In-the-Wild Using Doppler Radar](https://openaccess.thecvf.com/content_CVPR_2020/papers/Scheiner_Seeing_Around_Street_Corners_Non-Line-of-Sight_Detection_and_Tracking_In-the-Wild_Using_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd> [Daimler]
+- [Radar+RGB Attentive Fusion for Robust Object Detection in Autonomous Vehicles](https://arxiv.org/abs/2008.13642) <kbd>ICIP 2020</kbd>
 
 
 ### Annotation
