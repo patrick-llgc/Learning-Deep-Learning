@@ -12,6 +12,7 @@ This is very similar to [PyrOccNet](pyroccnet.md).
 The authors also listed tricks that did not work. This I think should be the recommended standard practice in future!
 
 #### Key ideas
+- **View transformation**: VAE-like, the latent feature is called "shared context"
 - Detached dynamic layout and static layout. 
 	- Dynamic layout: this is more related to mono 3D MOD. 
 		- Instance label

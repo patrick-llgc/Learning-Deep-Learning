@@ -20,6 +20,7 @@ Many of these tasks can benefit each other. Thus an end-to-end network to predic
 [PyrOccNet](pyroccnet.md) ises direct supervision. 
 
 #### Key ideas
+- **View transformation**: OFT
 - **Probabilistic semantic occupancy grid** representation for easier fusion between cameras and frames. Essentially we need to predict multiclass binary labels for a BEV grid. 
 - Losses: weighted binary CE + uncertainty loss (encourages to be 0.5)
 - Bayesian filtering for multicamera and temporal fusion.

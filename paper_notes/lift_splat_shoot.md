@@ -15,6 +15,7 @@ The semantic BEV map prediction need to fuse predictions from all cameras into a
 
 
 #### Key ideas
+- **View transformation**: Probabilistic pixel-wise depth prediction
 - Lift: probabilistic (and differentiable) 3D lifting.
 	- [4, 45] meters, 1 meter bin. Very much like [DORN](dorn.md).
 	- Essentially each pixel in (u, v) creates 42 3D points. This is a huge point cloud. 
