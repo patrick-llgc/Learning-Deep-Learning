@@ -18,6 +18,7 @@ Maybe BEV representation is the ultimate goal for perception. The authors also n
 [Fishing Net](fishing_net.md) uses BEV grid resolution: 10 cm and 20 cm/pixel. [Lift Splat Shoot](lift_splat_shoot.md) uses 50 cm/pixel. They are both coarser than the typical 4 cm or 5 cm per pixel resolution used by mapping purposes such as [DAGMapper](dagmapper.md).
 
 #### Key ideas
+- **View transformation**: MLP (similar to [VPN](vpn.md)).
 - Takes in 5 history frames of sensory data (camera, lidar and radar), and predict semantic BEV frames 5 frames into the future. 
 - Priority pooling: VRU (pedestrian, cyclists, motorists) > cars > background
 - Lidar input: 8 channels

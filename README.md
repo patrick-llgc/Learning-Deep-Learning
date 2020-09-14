@@ -15,6 +15,7 @@ Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out o
 The list of resource in this [link](https://autonomous-driving.org/front/resources/) talks about various topics in Autonomous Driving.
 
 ### Github repos
+- [Kalman and Bayesian Fitlers](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python) [8.7k stars] [ipynb book](https://nbviewer.jupyter.org/github/rlabbe/Kalman-and-Bayesian-Filters-in-Python/blob/master/table_of_contents.ipynb)
 - [simple-faster-rcnn-pytorch](https://github.com/chenyuntc/simple-faster-rcnn-pytorch/) (2.1k stars) [[Notes](code_notes/simple_faster_rcnn.md)]
 - [YOLACT/YOLACT++](https://github.com/dbolya/yolact) [2.1k stars]
 - [Yolov3 ultralytic](https://github.com/ultralytics/yolov3) [4.7k stars]
@@ -95,7 +96,6 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [Lift, Splat, Shoot: Encoding Images From Arbitrary Camera Rigs by Implicitly Unprojecting to 3D](https://arxiv.org/abs/2008.05711) [[Notes](paper_notes/lift_splat_shoot.md)] <kbd>ECCV 2020</kbd> [BEV-Net, Utoronto, Sanja Fidler]
 - [Implicit Latent Variable Model for Scene-Consistent Motion Forecasting](https://arxiv.org/abs/2007.12036) <kbd>ECCV 2020</kbd> [Uber ATG, Rachel Urtasun]
 - [FISHING Net: Future Inference of Semantic Heatmaps In Grids](https://arxiv.org/abs/2006.09917) [[Notes](paper_notes/fishing_net.md)] <kbd>CVPRW 2020</kbd> [BEV-Net, Mapping, Zoox]
-- [MPV-Nets: Monocular Plan View Networks for Autonomous Driving](https://arxiv.org/abs/1905.06937) [[Notes](paper_notes/mpv_nets.md)] <kbd>IROS 2019</kbd> [BEV-Net]
 - [VPN: Cross-view Semantic Segmentation for Sensing Surroundings](https://arxiv.org/abs/1906.03560) [[Notes](paper_notes/vpn.md)] <kbd>RAL 2020</kbd> [Bolei Zhou, BEV-Net]
 - [VED: Monocular Semantic Occupancy Grid Mapping with Convolutional Variational Encoder-Decoder Networks](https://arxiv.org/abs/1804.02176) [[Notes](paper_notes/ved.md)] <kbd>ICRA 2019</kbd> [BEV-Net]
 - [Cam2BEV: A Sim2Real Deep Learning Approach for the Transformation of Images from Multiple Vehicle-Mounted Cameras to a Semantically Segmented Image in Bird's Eye View](https://arxiv.org/abs/2005.04078) [[Notes](paper_notes/cam2bev.md)] <kbd>ITSC 2020</kbd> [BEV-Net] 
@@ -103,6 +103,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [A Parametric Top-View Representation of Complex Road Scenes](https://arxiv.org/abs/1812.06152) <kbd>CVPR 2019</kbd> [BEV-Net, UCSD, Manmohan Chandraker]
 - [FTM: Understanding Road Layout from Videos as a Whole](https://arxiv.org/abs/2007.00822) <kbd>CVPR 2020</kbd> [BEV-Net, UCSD, Manmohan Chandraker]
 - [InstanceMotSeg: Real-time Instance Motion Segmentation for Autonomous Driving](https://arxiv.org/abs/2008.07008) [motion segmentation]
+- [MPV-Nets: Monocular Plan View Networks for Autonomous Driving](https://arxiv.org/abs/1905.06937) [[Notes](paper_notes/mpv_nets.md)] <kbd>IROS 2019</kbd> [BEV-Net]
 - [Data Distillation: Towards Omni-Supervised Learning](https://arxiv.org/abs/1712.04440) <kbd>CVPR 2018</kbd> [Kaiming He, FAIR]
 - [GNN3DMOT: Graph Neural Network for 3D Multi-Object Tracking with Multi-Feature Learning](https://arxiv.org/abs/2006.07327) <kbd>CVPR 2020 oral</kbd> [3DMOT, CMU, Kris Kitani]
 - [MiDas: Towards Robust Monocular Depth Estimation: Mixing Datasets for Zero-shot Cross-dataset Transfer](https://arxiv.org/abs/1907.01341) [monodepth, dynamic object, synthetic dataset]

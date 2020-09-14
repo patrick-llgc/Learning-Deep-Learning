@@ -11,6 +11,9 @@ Uses semantic segmented images as input, which helps with bridging the sim2real 
 
 The proposed uNetXST architecture transforms four perspective semantic segmented images into one aggregated BEV semantic segmentation image.
 
+In [Learning to look around objects](learning_to_look_around_objects.md), the network is explicitly supervised to hallucinate, whereas [Cam2BEV](cam2bev.md) eliminates the occlude regions in order to make the problem better posed.
+
+
 #### Key ideas
 - **View transformation**: IPM
 	- Homography image: IPM of semantic segmentation results and concatenated into a 360 deg BEV image.
