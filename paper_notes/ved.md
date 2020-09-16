@@ -5,9 +5,11 @@ _September 2020_
 tl;dr: Use variational autoencoder for semantic occpuancy grid map prediction.
 
 #### Overall impression
-Variational encoder-decoder (VED) encodes the front-view visual information for he driving scene and subsequently decodes it into a BEV semantic occupancy grid. 
+Variational encoder-decoder (VED) encodes the front-view visual information for the driving scene and subsequently decodes it into a BEV semantic occupancy grid. 
 
 The proposed method beats a vanilla SegNet (a relatively strong baseline for conventional semantic segmentation). There was a 2x1 pooling layer in order to accommodate the different aspect ratio of input and output. 
+
+GT generation uses disparity map from stereo matching. This process may be noisy.
 
 #### Key ideas
 - **View transformation**: VAE with sampling.

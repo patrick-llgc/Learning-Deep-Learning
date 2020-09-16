@@ -99,7 +99,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [VPN: Cross-view Semantic Segmentation for Sensing Surroundings](https://arxiv.org/abs/1906.03560) [[Notes](paper_notes/vpn.md)] <kbd>RAL 2020</kbd> [Bolei Zhou, BEV-Net]
 - [VED: Monocular Semantic Occupancy Grid Mapping with Convolutional Variational Encoder-Decoder Networks](https://arxiv.org/abs/1804.02176) [[Notes](paper_notes/ved.md)] <kbd>ICRA 2019</kbd> [BEV-Net]
 - [Cam2BEV: A Sim2Real Deep Learning Approach for the Transformation of Images from Multiple Vehicle-Mounted Cameras to a Semantically Segmented Image in Bird's Eye View](https://arxiv.org/abs/2005.04078) [[Notes](paper_notes/cam2bev.md)] <kbd>ITSC 2020</kbd> [BEV-Net] 
-- [Learning to Look around Objects for Top-View Representations of Outdoor Scenes](https://arxiv.org/abs/1803.10870) <kbd>ECCV 2018</kbd> [BEV-Net, UCSD, Manmohan Chandraker]
+- [Learning to Look around Objects for Top-View Representations of Outdoor Scenes](https://arxiv.org/abs/1803.10870) [[Notes](paper_notes/learning_to_look_around_objects.md)] <kbd>ECCV 2018</kbd> [BEV-Net, UCSD, Manmohan Chandraker]
 - [A Parametric Top-View Representation of Complex Road Scenes](https://arxiv.org/abs/1812.06152) <kbd>CVPR 2019</kbd> [BEV-Net, UCSD, Manmohan Chandraker]
 - [FTM: Understanding Road Layout from Videos as a Whole](https://arxiv.org/abs/2007.00822) <kbd>CVPR 2020</kbd> [BEV-Net, UCSD, Manmohan Chandraker]
 - [InstanceMotSeg: Real-time Instance Motion Segmentation for Autonomous Driving](https://arxiv.org/abs/2008.07008) [motion segmentation]
@@ -329,7 +329,8 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [RoR: Rules of the Road: Predicting Driving Behavior with a Convolutional Model of Semantic Interactions](https://arxiv.org/abs/1906.08945) [[Notes](paper_notes/ror.md)] <kbd>CVPR 2019</kbd> [Zoox]
 - [MultiPath: Multiple Probabilistic Anchor Trajectory Hypotheses for Behavior Prediction](https://arxiv.org/abs/1910.05449) [[Notes](paper_notes/multipath.md)] <kbd>CoRL 2019</kbd> [Waymo, authors from RoR and ChauffeurNet]
 - [NMP: End-to-end Interpretable Neural Motion Planner](http://www.cs.toronto.edu/~wenjie/papers/cvpr19/nmp.pdf) [[Notes](paper_notes/nmp.md)] <kbd>CVPR 2019 oral</kbd> [Uber ATG]
-- [Multimodal Trajectory Predictions for Autonomous Driving using Deep Convolutional Networks](https://arxiv.org/abs/1809.10732) [[Notes](paper_notes/multipath_uber.md)] <kbd>ICRA 2019</kbd> [Multimodal]
+- [Multimodal Trajectory Predictions for Autonomous Driving using Deep Convolutional Networks](https://arxiv.org/abs/1809.10732) [[Notes](paper_notes/multipath_uber.md)] <kbd>ICRA 2019</kbd> [Multimodal, Uber ATG Pittsburgh]
+- [Uncertainty-aware Short-term Motion Prediction of Traffic Actors for Autonomous Driving](https://arxiv.org/abs/1808.05819) <kbd>WACV 2020</kbd> [Uber ATG Pittsburgh]
 - [Jointly Learnable Behavior and Trajectory Planning for Self-Driving Vehicles](https://arxiv.org/abs/1910.04586) <kbd>IROS 2019 Oral</kbd> [Uber ATG, behavioral planning, motion planning]
 - [TensorMask: A Foundation for Dense Object Segmentation](https://arxiv.org/abs/1903.12174) [[Notes](paper_notes/tensormask.md)] <kbd>ICCV 2019</kbd> [single-stage instance seg]
 - [BlendMask: Top-Down Meets Bottom-Up for Instance Segmentation](https://arxiv.org/abs/2001.00309) [[Notes](paper_notes/blendmask.md)] <kbd>CVPR 2020 oral</kbd>
@@ -771,6 +772,7 @@ Detection with Hierarchical Aggregation](https://arxiv.org/abs/1804.06055) <kbd>
 - [A Survey on Neural Architecture Search](https://arxiv.org/pdf/1905.01392.pdf)
 - [Network pruning tutorial](https://jacobgil.github.io/deeplearning/pruning-deep-learning) (blog)
 - [GNN tutorial at CVPR 2019](https://xiaolonw.github.io/graphnn/)
+- [One Thousand and One Hours: Self-driving Motion Prediction Dataset](https://arxiv.org/abs/2006.14480)
 
 ### Unsupervised depth estimation
 - [Sparse and Dense Data with CNNs: Depth Completion and Semantic Segmentation](https://arxiv.org/pdf/1808.00769.pdf) <kbd>3DV 2018</kbd>
