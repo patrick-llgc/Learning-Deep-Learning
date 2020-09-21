@@ -7,7 +7,7 @@ tl;dr: Use distance-related feature transformation prior to ease the learning.
 #### Overall impression
 The paper used **depth normalization** for monocular 3D object detection. Similar ideas have been used in [Monoloco](monoloco.md) and [BS3D](bs3d.md). 
 
-The paper has the good idea to learn the scale-invariant features and linearly scale them properly according to the FPN levels the regression heads are attached to. --> This idea seems to be similar to [VirtualCam](virtual_cam.md) and should be explored together.
+The paper has the good idea to learn the scale-invariant features and linearly scale them properly according to the FPN levels the regression heads are attached to. --> This idea seems to be similar to [MoVi-3D](movi_3d.md) and should be explored together.
 
 However the prediction tasks have known relationship according to scale, and we do NOT need to explicitly learn them. For example, bbox sizes are linearly related to scale, and depth scales inverse linearly to scale, both with a factor of 2 every FPN layer. The paper also seems to confuse the notion of depth (z) and distance (l2norm((x, y, z)).
 

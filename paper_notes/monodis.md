@@ -9,7 +9,7 @@ The paper is articulate in specifying the input and output of the network, and i
 
 The paper proposes a **disentangling transformation** to split the original combinational loss (e.g., size and location of bbox at the same time) into different groups, each group only contains the loss of one group of parameters and the rest using the GT. Note that sometimes the loss is already disentangled, such as those originally proposed by YOLO or Faster RCNN. This only applies to losses with complicated transformation such as 3d bbox corner loss and sIOU loss as proposed in this paper. 
 
-The papar is further enhanced by [Virtual Cam](virtual_cam.md) to reach SOTA.
+The papar is further enhanced by [MoVi-3D](movi_3d.md) to reach SOTA.
 
 [Decoupled structured polygon](dsp.md) formulated the problem of 3d monocular object detection as two decoupled tasks: 2d projection prediction and 1d depth prediction.
 

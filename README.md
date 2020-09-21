@@ -93,6 +93,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [SDFLabel: Autolabeling 3D Objects With Differentiable Rendering of SDF Shape Priors](https://arxiv.org/abs/1911.11288) [[Notes](paper_notes/sdflabel.md)] <kbd>CVPR 2020 oral</kbd> [differentiable rendering]
 - [DensePose: Dense Human Pose Estimation In The Wild](https://arxiv.org/abs/1802.00434) [[Notes](paper_notes/densepose.md)] <kbd>CVPR 2018 oral</kbd> [FAIR]
 - [NOCS: Normalized Object Coordinate Space for Category-Level 6D Object Pose and Size Estimation](https://arxiv.org/abs/1901.02970) <kbd>CVPR 2019</kbd>
+- [Monocular Differentiable Rendering for Self-Supervised 3D Object Detection](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123660511.pdf) <kbd>ECCV 2020</kbd>
 - [Lift, Splat, Shoot: Encoding Images From Arbitrary Camera Rigs by Implicitly Unprojecting to 3D](https://arxiv.org/abs/2008.05711) [[Notes](paper_notes/lift_splat_shoot.md)] <kbd>ECCV 2020</kbd> [BEV-Net, Utoronto, Sanja Fidler]
 - [Implicit Latent Variable Model for Scene-Consistent Motion Forecasting](https://arxiv.org/abs/2007.12036) <kbd>ECCV 2020</kbd> [Uber ATG, Rachel Urtasun]
 - [FISHING Net: Future Inference of Semantic Heatmaps In Grids](https://arxiv.org/abs/2006.09917) [[Notes](paper_notes/fishing_net.md)] <kbd>CVPRW 2020</kbd> [BEV-Net, Mapping, Zoox]
@@ -378,7 +379,7 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [Multigrid: A Multigrid Method for Efficiently Training Video Models](https://arxiv.org/abs/1912.00998) [[Notes](paper_notes/multigrid_training.md)] <kbd>CVPR 2020 Oral</kbd> [Kaiming He, FAIR]
 - [GhostNet: More Features from Cheap Operations](https://arxiv.org/abs/1911.11907) [[Notes](paper_notes/ghostnet.md)] <kbd>CVPR 2020</kbd>
 - [FixRes: Fixing the train-test resolution discrepancy](https://arxiv.org/abs/1906.06423) [[Notes](paper_notes/fixres.md)] <kbd>NIPS 2019</kbd> [FAIR]
-- [VirtualCam: Single-Stage Monocular 3D Object Detection with Virtual Cameras](https://arxiv.org/abs/1912.08035) [[Notes](paper_notes/virtual_cam.md)] <kbd>ECCV 2020</kbd> [Mapillary/Facebook, Mono3D] 
+- [MoVi-3D: Towards Generalization Across Depth for Monocular 3D Object Detection](https://arxiv.org/abs/1912.08035) [[Notes](paper_notes/movi_3d.md)] <kbd>ECCV 2020</kbd> [Mapillary/Facebook, Mono3D] 
 - [Amodal Completion and Size Constancy in Natural Scenes](https://arxiv.org/abs/1509.08147) [[Notes](paper_notes/amodal_completion.md)] <kbd>ICCV 2015</kbd> (Amodal completion)
 - [MoCo: Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) [[Notes](paper_notes/moco.md)] <kbd>CVPR 2020 Oral</kbd> [FAIR, Kaiming He]
 

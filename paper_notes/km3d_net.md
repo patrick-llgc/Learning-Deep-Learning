@@ -7,7 +7,7 @@ tl;dr: Work the geometric reasoning with pseudo-inverse optimization into the ne
 #### Overall impression
 [KM3D-Net](km3d_net.md) is based on the previous work from the same author, [RTM3D](rtm3d.md). [KM3D-Net](km3d_net.md) is highly practical, and works the 3D geometry reasoning module into the neural network to speed things up. Geometric constraint modules in [Deep3DBox](deep3dbox.md), [FQNet](fqnet.md) and [RTM3D](rtm3d.md) are time consuming.
 
-The semi-supervised learning approach is quite interesting and showed that it is possible to get meaningful results just from as few as 500 labeled images. Maybe it is a good direction to dig with the self-consistency cues in [UR3D](ur3d.md) and [VirtualCam](virtual_cam.md).
+The semi-supervised learning approach is quite interesting and showed that it is possible to get meaningful results just from as few as 500 labeled images. Maybe it is a good direction to dig with the self-consistency cues in [UR3D](ur3d.md) and [MoVi-3D](movi_3d.md).
 
 This is the currently the SOTA, much better than previous SOTA [M3D-RPN](m3d_rpn.md).
 
