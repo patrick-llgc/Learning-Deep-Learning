@@ -19,7 +19,10 @@ The shape and pose are weakly supervised and arise from end-to-end training.
 - Estimate 2D bbox, 3D center projected on 2D from RoIAligned features. Estimate shape and pose with RoIAligned feature concatenated with the intrinsics of virtual RoI camera.
 
 #### Technical details
-- 10 dim shape space, slightly different from the 6d space by [RoI10D](roi10d.md).
+- Latent space of car shapes 
+	- [3D RCNN](3d_rcnn.md) 10-dim
+	- [RoI10D](roi10d.md) 6-dim
+	- [monoDR](monodr.md) 8-dim
 - The authors argue that it is hard to predict 3D property such as shape and pose from RoIAligned features. --> [RoI10D](roi10d.md) did use the RoIAligned features.
 - Improved multi-bin loss: weighted sum of bin center by confidence score, and L1 loss. This way there is no need to regress for the residual like the [deep3dbox](deep3dbox.md). 
 - Render and compare uses operation of CUDA-OPENGL, and seems quite engineering heavy to make this work.

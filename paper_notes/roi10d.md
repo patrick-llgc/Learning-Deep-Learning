@@ -23,6 +23,10 @@ The paper articulated that depth has to be reasoned globally.
 - Synthetic 3D data augmentation
 
 #### Technical details
+- Latent space of car shapes 
+	- [3D RCNN](3d_rcnn.md) 10-dim
+	- [RoI10D](roi10d.md) 6-dim
+	- [monoDR](monodr.md) 8-dim
 - The 3D extents as deviation from the mean extents over the whole dataset (zero-meaned and normalized). 
 $$B = q [\pm w/2, \pm h/2, \pm l/2]^T q^{-1} + K^{-1} [xz, yz, z]^T$$
 - Ego-centric and allo-centric pose: ego-centric pose can vary according to observation angle, but allo-centric pose always keeps the same for the same type of car (in the local coordinate system of the car). Therefore q is regressed in allocentric coordinate.
