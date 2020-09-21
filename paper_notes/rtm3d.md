@@ -9,10 +9,10 @@ This paper uses virtual keypoint and use CenterNet to directly detect the 2d pro
 
 The predicted keypoints are very noisy. However after optimization it is possible to regress to stable 3d bbox.
 
-The architecture is easy to implement. The post-processing algorithm need more investigation. Natively they can be solved by a 
+The architecture is easy to implement. The post-processing algorithm seems to be quite heavy by solving a multivariate equations can be solved via the Gauss-Newton or Levenberg-Marquardt algorithm in the g2o library. need more investigation. Natively they can be solved by a pseudo-inverse algorithm of an overdetermined linear system. --> this is improved by later work of [KM3D-Net](km3d_net.md).
 
 #### Key ideas
-- CenterNet
+- [CenterNet](centernet.md)
 	- main center: 2d bbox center (also within image boundary)
 	- 9 vertices 
 	- 18 local offset (Q: what is the order? redundant info from 9 vertices?)
@@ -27,7 +27,7 @@ The architecture is easy to implement. The post-processing algorithm need more i
 	- Rotation error with prior (CNN regressed angle)
 
 #### Technical details
-- Summary of technical details
+- Why 8 bits for orientation estimation?
 
 #### Notes
 - Can we work the post-processing step into neural network as well? --> put these to a second step, and do not back-propagate the loss.

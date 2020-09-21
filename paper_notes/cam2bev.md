@@ -2,7 +2,7 @@
 
 _September 2020_
 
-tl;dr: Spatial transformer to transform perspective features to BEV.
+tl;dr: Uses spatial transformer module with IPM feature transform to transform perspective features to BEV.
 
 #### Overall impression
 For surfaces, IPM can accurate transform image to a BEV. For 3D objects such as vehicles and VRUs, it is hard to estimate their position relative to the sensor. 
@@ -17,6 +17,7 @@ In [Learning to look around objects](learning_to_look_around_objects.md), the ne
 #### Key ideas
 - **View transformation**: IPM
 	- Homography image: IPM of semantic segmentation results and concatenated into a 360 deg BEV image.
+- Uses synthetic data from VTD simulation environment.
 - Baseline 1: Input semantic segmentation for perspective images, and homography image. Network's task is to correct the errors introduced by IPM.
 - Baseline 2: Input semantic segmentation for perspective image alone. uNet with Spatial Transformer unit for transforming intermediate features.
 

@@ -20,7 +20,7 @@ Many of these tasks can benefit each other. Thus an end-to-end network to predic
 [PyrOccNet](pyroccnet.md) ises direct supervision. 
 
 #### Key ideas
-- **View transformation**: OFT
+- **View transformation**: Dense transformation layer. 
 - **Probabilistic semantic occupancy grid** representation for easier fusion between cameras and frames. Essentially we need to predict multiclass binary labels for a BEV grid. 
 - Losses: weighted binary CE + uncertainty loss (encourages to be 0.5)
 - Bayesian filtering for multicamera and temporal fusion.
@@ -36,6 +36,7 @@ Many of these tasks can benefit each other. Thus an end-to-end network to predic
 ![](https://cdn-images-1.medium.com/max/1600/1*UphPVYQVvfm2SVx5Jaq8FQ.png)
 ![](https://cdn-images-1.medium.com/max/1600/1*HFIDuNoSsx6Cw1m4JuqRpg.png)
 ![](https://cdn-images-1.medium.com/max/1600/1*sUt090HXp_sFNst4vWg9nQ.png)
+
 - Alternative methods
 	- Semantic segmentation + IPM
 	- Depth unprojection: semantic segmentation + depth prediction + BEV proj
@@ -45,9 +46,9 @@ Many of these tasks can benefit each other. Thus an end-to-end network to predic
 	
 #### Technical details
 - Binary mask to mask out grid cell outside FoV and those grid cells without lidar points. 
-- Weighted BCE: ~1/sqrt(N). Using ~1/N leads to overfitting to minority classes.
+- Weighted BCE: ~1/sqrt(N). Using ~1/N leads to overfitting to minority classes. This is further investigated in [Class balanced loss based on efficient number](class_balanced_loss.md).
 - 50 x 50 m, 200 x 200 image.
 
 #### Notes
 - [Code on github (to be released)](https://github.com/tom-roddick/mono-semantic-maps)
-
+- [Talk at CVPR 2020](https://www.youtube.com/watch?v=lbfre5ZURts)
