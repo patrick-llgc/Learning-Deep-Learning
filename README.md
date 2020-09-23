@@ -104,7 +104,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [A Parametric Top-View Representation of Complex Road Scenes](https://arxiv.org/abs/1812.06152) <kbd>CVPR 2019</kbd> [BEV-Net, UCSD, Manmohan Chandraker]
 - [FTM: Understanding Road Layout from Videos as a Whole](https://arxiv.org/abs/2007.00822) <kbd>CVPR 2020</kbd> [BEV-Net, UCSD, Manmohan Chandraker]
 - [KM3D-Net: Monocular 3D Detection with Geometric Constraints Embedding and Semi-supervised Training](https://arxiv.org/abs/2009.00764) [[Notes](paper_notes/km3d_net.md)] [RTM3D, Peixuan Li]
-- [InstanceMotSeg: Real-time Instance Motion Segmentation for Autonomous Driving](https://arxiv.org/abs/2008.07008) [motion segmentation]
+- [InstanceMotSeg: Real-time Instance Motion Segmentation for Autonomous Driving](https://arxiv.org/abs/2008.07008) [[Notes](paper_notes/instance_mot_seg.md)] <kbd>IROS 2020</kbd> [motion segmentation]
 - [MPV-Nets: Monocular Plan View Networks for Autonomous Driving](https://arxiv.org/abs/1905.06937) [[Notes](paper_notes/mpv_nets.md)] <kbd>IROS 2019</kbd> [BEV-Net]
 - [Class-Balanced Loss Based on Effective Number of Samples](https://arxiv.org/abs/1901.05555) [[Notes](paper_notes/class_balanced_loss.md)] <kbd>CVPR 2019</kbd> [Focal loss authors]
 - [Self-Supervised Scene De-occlusion](https://arxiv.org/abs/2004.02788) <kbd>CVPR 2020 oral</kbd>
@@ -893,6 +893,7 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Classification of Objects in Polarimetric Radar Images Using CNNs at 77 GHz](http://sci-hub.tw/10.1109/APMC.2017.8251453) (Radar, polar)
 - [CNNs for Interference Mitigation and Denoising in Automotive Radar Using Real-World Data](https://ml4ad.github.io/files/papers/CNNs%20for%20Interference%20Mitigation%20and%20Denoising%20in%20Automotive%20Radar%20Using%20Real-World%20Data.pdf) <kbd>NeurIPS 2019</kbd> (radar)
 - [Road Scene Understanding by Occupancy Grid Learning from Sparse Radar Clusters using Semantic Segmentation](https://arxiv.org/abs/1904.00415) <kbd>ICCV 2019</kbd> (radar)
+- [RadarNet: Exploiting Radar for Robust Perception of Dynamic Objects](https://arxiv.org/abs/2007.14366) <kbd>ECCV 2020</kbd> [Uber ATG]
 
 ### SLAM
 - [PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization](https://arxiv.org/abs/1505.07427) [[Notes](paper_notes/posenet.md)] <kbd>ICCV 2015</kbd>
