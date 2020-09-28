@@ -89,7 +89,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [SDC-Depth: Semantic Divide-and-Conquer Network for Monocular Depth Estimation](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_SDC-Depth_Semantic_Divide-and-Conquer_Network_for_Monocular_Depth_Estimation_CVPR_2020_paper.pdf)  <kbd>CVPR 2020</kbd> [monodepth, semantic]
 - [Self-training with Noisy Student improves ImageNet classification](https://arxiv.org/abs/1911.04252) <kbd>CVPR 2020</kbd> [distillation]
 
-## 2020-09 (8)
+## 2020-09 (13)
 - [SDFLabel: Autolabeling 3D Objects With Differentiable Rendering of SDF Shape Priors](https://arxiv.org/abs/1911.11288) [[Notes](paper_notes/sdflabel.md)] <kbd>CVPR 2020 oral</kbd> [TRI, differentiable rendering]
 - [DensePose: Dense Human Pose Estimation In The Wild](https://arxiv.org/abs/1802.00434) [[Notes](paper_notes/densepose.md)] <kbd>CVPR 2018 oral</kbd> [FAIR]
 - [NOCS: Normalized Object Coordinate Space for Category-Level 6D Object Pose and Size Estimation](https://arxiv.org/abs/1901.02970) <kbd>CVPR 2019</kbd>
@@ -107,6 +107,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [InstanceMotSeg: Real-time Instance Motion Segmentation for Autonomous Driving](https://arxiv.org/abs/2008.07008) [[Notes](paper_notes/instance_mot_seg.md)] <kbd>IROS 2020</kbd> [motion segmentation]
 - [MPV-Nets: Monocular Plan View Networks for Autonomous Driving](https://arxiv.org/abs/1905.06937) [[Notes](paper_notes/mpv_nets.md)] <kbd>IROS 2019</kbd> [BEV-Net]
 - [Class-Balanced Loss Based on Effective Number of Samples](https://arxiv.org/abs/1901.05555) [[Notes](paper_notes/class_balanced_loss.md)] <kbd>CVPR 2019</kbd> [Focal loss authors]
+- [Geometric Pretraining for Monocular Depth Estimation](https://ieeexplore.ieee.org/abstract/document/9196847) [[Notes](paper_notes/geometric_pretraining.md)] <kbd>ICRA 2020</kbd>
 - [Self-Supervised Scene De-occlusion](https://arxiv.org/abs/2004.02788) <kbd>CVPR 2020 oral</kbd>
 - [TP-LSD: Tri-Points Based Line Segment Detector](https://arxiv.org/abs/2009.05505)
 - [Data Distillation: Towards Omni-Supervised Learning](https://arxiv.org/abs/1712.04440) <kbd>CVPR 2018</kbd> [Kaiming He, FAIR]
@@ -144,7 +145,12 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [VDO-SLAM: A Visual Dynamic Object-aware SLAM System](https://arxiv.org/abs/2005.11052) <kbd>IJRR 2020</kbd>
 - [Dynamic SLAM: The Need For Speed](https://arxiv.org/abs/2002.08584)
 - [Pseudo RGB-D for Self-Improving Monocular SLAM and Depth Prediction](https://arxiv.org/abs/2004.10681) <kbd>ECCV 2020</kbd>
-- [Robust Traffic Light and Arrow Detection Using Digital Map with Spatial Prior Information for Automated Driving](https://www.mdpi.com/1424-8220/20/4/1181) <kbd>Sensors 2020</kbd> [TFL]
+- [Robust Traffic Light and Arrow Detection Using Digital Map with Spatial Prior Information for Automated Driving](https://www.mdpi.com/1424-8220/20/4/1181) [[Notes](paper_notes/robust_tfl_japan.md)] <kbd>Sensors 2020</kbd> [traffic light, Google]
+- [Traffic Light Mapping and Detection](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37259.pdf) <kbd>ICRA 2011</kbd> [traffic light]
+- [Traffic Light Mapping, Localization, and State Detection for Autonomous Vehicles](http://driving.stanford.edu/papers/ICRA2011.pdf) <kbd>ICRA 2011</kbd> [traffic light]
+- [Traffic light recognition in varying illumination using deep learning and saliency map](https://www.researchgate.net/profile/Vijay_John3/publication/265014373_Traffic_Light_Recognition_in_Varying_Illumination_using_Deep_Learning_and_Saliency_Map/links/56aac00408ae8f3865666102.pdf) <kbd>ITSC 2014</kbd> [traffic light]
+- [Traffic light recognition exploiting map and localization at every stage](https://web.yonsei.ac.kr/jksuhr/papers/Traffic%20light%20recognition%20exploiting%20map%20and%20localization%20at%20every%20stage.pdf) <kbd>Expert Systems 2017</kbd>
+- [Vision for Looking at Traffic Lights: Issues, Survey, and Perspectives](http://cvrr.ucsd.edu/publications/2016/trafficSignalsITSTrans2016.pdf) <kbd>TITS 2015</kbd>
 - [GCNet: End-to-End Learning of Geometry and Context for Deep Stereo Regression](https://arxiv.org/abs/1703.04309) <kbd>ICCV 2017</kbd> [disparity estimation, Alex Kendall, cost volume]
 - [Traffic Control Gesture Recognition for Autonomous Vehicles](https://arxiv.org/abs/2007.16072) <kbd>IROS 2020</kbd> [Daimler]
 - [Perceiving 3D Human-Object Spatial Arrangements from a Single Image in the Wild](https://arxiv.org/abs/2007.15649) <kbd>ECCV 2020</kbd>
