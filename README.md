@@ -107,7 +107,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [InstanceMotSeg: Real-time Instance Motion Segmentation for Autonomous Driving](https://arxiv.org/abs/2008.07008) [[Notes](paper_notes/instance_mot_seg.md)] <kbd>IROS 2020</kbd> [motion segmentation]
 - [MPV-Nets: Monocular Plan View Networks for Autonomous Driving](https://arxiv.org/abs/1905.06937) [[Notes](paper_notes/mpv_nets.md)] <kbd>IROS 2019</kbd> [BEV-Net]
 - [Class-Balanced Loss Based on Effective Number of Samples](https://arxiv.org/abs/1901.05555) [[Notes](paper_notes/class_balanced_loss.md)] <kbd>CVPR 2019</kbd> [Focal loss authors]
-- [Geometric Pretraining for Monocular Depth Estimation](https://ieeexplore.ieee.org/abstract/document/9196847) [[Notes](paper_notes/geometric_pretraining.md)] <kbd>ICRA 2020</kbd>
+- [Geometric Pretraining for Monocular Depth Estimation](http://lewissoft.com/pdf/ICRA2020/0035.pdf) [[Notes](paper_notes/geometric_pretraining.md)] <kbd>ICRA 2020</kbd>
 - [Self-Supervised Scene De-occlusion](https://arxiv.org/abs/2004.02788) <kbd>CVPR 2020 oral</kbd>
 - [TP-LSD: Tri-Points Based Line Segment Detector](https://arxiv.org/abs/2009.05505)
 - [Data Distillation: Towards Omni-Supervised Learning](https://arxiv.org/abs/1712.04440) <kbd>CVPR 2018</kbd> [Kaiming He, FAIR]
