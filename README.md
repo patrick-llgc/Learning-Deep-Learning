@@ -39,6 +39,8 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Andrej Karpathy's Talks](./talk_notes/andrej.md)
 
 ## My Review Posts by Topics
+- [Monocular Bird’s-Eye-View Semantic Segmentation for Autonomous Driving](https://towardsdatascience.com/monocular-birds-eye-view-semantic-segmentation-for-autonomous-driving-ee2f771afb59)
+- [Deep Learning in Mapping for Autonomous Driving](https://towardsdatascience.com/deep-learning-in-mapping-for-autonomous-driving-9e33ee951a44)
 - [Monocular Dynamic Object SLAM in Autonomous Driving](https://towardsdatascience.com/monocular-dynamic-object-slam-in-autonomous-driving-f12249052bf1)
 - [Monocular 3D Object Detection in Autonomous Driving — A Review](https://towardsdatascience.com/monocular-3d-object-detection-in-autonomous-driving-2476a3c7f57e)
 - [Self-supervised Keypoint Learning — A Review](https://towardsdatascience.com/self-supervised-keypoint-learning-aade18081fc3)
@@ -89,7 +91,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [SDC-Depth: Semantic Divide-and-Conquer Network for Monocular Depth Estimation](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_SDC-Depth_Semantic_Divide-and-Conquer_Network_for_Monocular_Depth_Estimation_CVPR_2020_paper.pdf)  <kbd>CVPR 2020</kbd> [monodepth, semantic]
 - [Self-training with Noisy Student improves ImageNet classification](https://arxiv.org/abs/1911.04252) <kbd>CVPR 2020</kbd> [distillation]
 
-## 2020-09 (13)
+## 2020-09 (15)
 - [SDFLabel: Autolabeling 3D Objects With Differentiable Rendering of SDF Shape Priors](https://arxiv.org/abs/1911.11288) [[Notes](paper_notes/sdflabel.md)] <kbd>CVPR 2020 oral</kbd> [TRI, differentiable rendering]
 - [DensePose: Dense Human Pose Estimation In The Wild](https://arxiv.org/abs/1802.00434) [[Notes](paper_notes/densepose.md)] <kbd>CVPR 2018 oral</kbd> [FAIR]
 - [NOCS: Normalized Object Coordinate Space for Category-Level 6D Object Pose and Size Estimation](https://arxiv.org/abs/1901.02970) <kbd>CVPR 2019</kbd>
