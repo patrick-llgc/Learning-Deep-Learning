@@ -1,4 +1,4 @@
-# [VirtualCam: Single-Stage Monocular 3D Object Detection with Virtual Cameras](https://arxiv.org/abs/1912.08035)
+# [MoVi-3D: Single-Stage Monocular 3D Object Detection with Virtual Cameras](https://arxiv.org/abs/1912.08035)
 
 _January 2020_
 

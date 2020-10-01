@@ -385,7 +385,7 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [Multigrid: A Multigrid Method for Efficiently Training Video Models](https://arxiv.org/abs/1912.00998) [[Notes](paper_notes/multigrid_training.md)] <kbd>CVPR 2020 Oral</kbd> [Kaiming He, FAIR]
 - [GhostNet: More Features from Cheap Operations](https://arxiv.org/abs/1911.11907) [[Notes](paper_notes/ghostnet.md)] <kbd>CVPR 2020</kbd>
 - [FixRes: Fixing the train-test resolution discrepancy](https://arxiv.org/abs/1906.06423) [[Notes](paper_notes/fixres.md)] <kbd>NIPS 2019</kbd> [FAIR]
-- [MoVi-3D: Towards Generalization Across Depth for Monocular 3D Object Detection](https://arxiv.org/abs/1912.08035) [[Notes](paper_notes/movi_3d.md)] <kbd>ECCV 2020</kbd> [Mapillary/Facebook, Mono3D] 
+- [MoVi-3D: Towards Generalization Across Depth for Monocular 3D Object Detection](https://arxiv.org/abs/1912.08035) [[Notes](paper_notes/movi_3d.md)] <kbd>ECCV 2020</kbd> [VirtualCam, Mapillary/Facebook, Mono3D] 
 - [Amodal Completion and Size Constancy in Natural Scenes](https://arxiv.org/abs/1509.08147) [[Notes](paper_notes/amodal_completion.md)] <kbd>ICCV 2015</kbd> (Amodal completion)
 - [MoCo: Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) [[Notes](paper_notes/moco.md)] <kbd>CVPR 2020 Oral</kbd> [FAIR, Kaiming He]
 
