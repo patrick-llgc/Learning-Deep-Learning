@@ -58,7 +58,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Canonical Surface Mapping via Geometric Cycle Consistency](https://arxiv.org/abs/1907.10043) <kbd>ICCV 2019</kbd>
 - [Self-supervised Monocular Trained Depth Estimation using Self-attention and Discrete Disparity Volume](http://openaccess.thecvf.com/content_CVPR_2020/papers/Johnston_Self-Supervised_Monocular_Trained_Depth_Estimation_Using_Self-Attention_and_Discrete_Disparity_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd>
 - [Visual SLAM for Automated Driving: Exploring the Applications of Deep Learning](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/Milz_Visual_SLAM_for_CVPR_2018_paper.pdf)
-- [Just Go with the Flow: Self-Supervised Scene Flow Estimation](https://arxiv.org/abs/1912.00497) <kbd>CVPR 2020 oral</kbd> [Scene flow]
+- [Just Go with the Flow: Self-Supervised Scene Flow Estimation](https://arxiv.org/abs/1912.00497) <kbd>CVPR 2020 oral</kbd> [Scene flow, Lidar]
 - [Self-Supervised Deep Visual Odometry with Online Adaptation](https://arxiv.org/abs/2005.06136) <kbd>CVPR 2020 oral</kbd> [DF-VO, TrianFlow, meta-learning]
 - [Self-supervised Monocular Trained Depth Estimation using Self-attention and Discrete Disparity Volume](https://arxiv.org/abs/2003.13951) <kbd>CVPR 2020</kbd>
 - [Visualization of Convolutional Neural Networks for Monocular Depth Estimation](https://arxiv.org/abs/1904.03380) <kbd>ICCV 2019</kbd> [monodepth]
@@ -91,25 +91,9 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [SDC-Depth: Semantic Divide-and-Conquer Network for Monocular Depth Estimation](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_SDC-Depth_Semantic_Divide-and-Conquer_Network_for_Monocular_Depth_Estimation_CVPR_2020_paper.pdf)  <kbd>CVPR 2020</kbd> [monodepth, semantic]
 - [Self-training with Noisy Student improves ImageNet classification](https://arxiv.org/abs/1911.04252) <kbd>CVPR 2020</kbd> [distillation]
 
-## 2020-09 (15)
-- [SDFLabel: Autolabeling 3D Objects With Differentiable Rendering of SDF Shape Priors](https://arxiv.org/abs/1911.11288) [[Notes](paper_notes/sdflabel.md)] <kbd>CVPR 2020 oral</kbd> [TRI, differentiable rendering]
-- [DensePose: Dense Human Pose Estimation In The Wild](https://arxiv.org/abs/1802.00434) [[Notes](paper_notes/densepose.md)] <kbd>CVPR 2018 oral</kbd> [FAIR]
-- [NOCS: Normalized Object Coordinate Space for Category-Level 6D Object Pose and Size Estimation](https://arxiv.org/abs/1901.02970) <kbd>CVPR 2019</kbd>
-- [monoDR: Monocular Differentiable Rendering for Self-Supervised 3D Object Detection](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123660511.pdf) [[Notes](paper_notes/monodr.md)] <kbd>ECCV 2020</kbd> [TRI, mono3D]
-- [Lift, Splat, Shoot: Encoding Images From Arbitrary Camera Rigs by Implicitly Unprojecting to 3D](https://arxiv.org/abs/2008.05711) [[Notes](paper_notes/lift_splat_shoot.md)] <kbd>ECCV 2020</kbd> [BEV-Net, Utoronto, Sanja Fidler]
-- [Implicit Latent Variable Model for Scene-Consistent Motion Forecasting](https://arxiv.org/abs/2007.12036) <kbd>ECCV 2020</kbd> [Uber ATG, Rachel Urtasun]
-- [FISHING Net: Future Inference of Semantic Heatmaps In Grids](https://arxiv.org/abs/2006.09917) [[Notes](paper_notes/fishing_net.md)] <kbd>CVPRW 2020</kbd> [BEV-Net, Mapping, Zoox]
-- [VPN: Cross-view Semantic Segmentation for Sensing Surroundings](https://arxiv.org/abs/1906.03560) [[Notes](paper_notes/vpn.md)] <kbd>RAL 2020</kbd> [Bolei Zhou, BEV-Net]
-- [VED: Monocular Semantic Occupancy Grid Mapping with Convolutional Variational Encoder-Decoder Networks](https://arxiv.org/abs/1804.02176) [[Notes](paper_notes/ved.md)] <kbd>ICRA 2019</kbd> [BEV-Net]
-- [Cam2BEV: A Sim2Real Deep Learning Approach for the Transformation of Images from Multiple Vehicle-Mounted Cameras to a Semantically Segmented Image in Bird's Eye View](https://arxiv.org/abs/2005.04078) [[Notes](paper_notes/cam2bev.md)] <kbd>ITSC 2020</kbd> [BEV-Net] 
-- [Learning to Look around Objects for Top-View Representations of Outdoor Scenes](https://arxiv.org/abs/1803.10870) [[Notes](paper_notes/learning_to_look_around_objects.md)] <kbd>ECCV 2018</kbd> [BEV-Net, UCSD, Manmohan Chandraker]
-- [A Parametric Top-View Representation of Complex Road Scenes](https://arxiv.org/abs/1812.06152) <kbd>CVPR 2019</kbd> [BEV-Net, UCSD, Manmohan Chandraker]
-- [FTM: Understanding Road Layout from Videos as a Whole](https://arxiv.org/abs/2007.00822) <kbd>CVPR 2020</kbd> [BEV-Net, UCSD, Manmohan Chandraker]
-- [KM3D-Net: Monocular 3D Detection with Geometric Constraints Embedding and Semi-supervised Training](https://arxiv.org/abs/2009.00764) [[Notes](paper_notes/km3d_net.md)] [RTM3D, Peixuan Li]
-- [InstanceMotSeg: Real-time Instance Motion Segmentation for Autonomous Driving](https://arxiv.org/abs/2008.07008) [[Notes](paper_notes/instance_mot_seg.md)] <kbd>IROS 2020</kbd> [motion segmentation]
-- [MPV-Nets: Monocular Plan View Networks for Autonomous Driving](https://arxiv.org/abs/1905.06937) [[Notes](paper_notes/mpv_nets.md)] <kbd>IROS 2019</kbd> [BEV-Net]
-- [Class-Balanced Loss Based on Effective Number of Samples](https://arxiv.org/abs/1901.05555) [[Notes](paper_notes/class_balanced_loss.md)] <kbd>CVPR 2019</kbd> [Focal loss authors]
-- [Geometric Pretraining for Monocular Depth Estimation](http://lewissoft.com/pdf/ICRA2020/0035.pdf) [[Notes](paper_notes/geometric_pretraining.md)] <kbd>ICRA 2020</kbd>
+## 2020-10 (1)
+- [TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383) [[Notes](paper_notes/tsm.md)] <kbd>ICCV 2019</kbd> [Song Han, video, object detection]
+- [Long-term Recurrent Convolutional Networks for Visual Recognition and Description](https://arxiv.org/abs/1411.4389) <kbd>CVPR 2015 oral</kbd>
 - [Self-Supervised Scene De-occlusion](https://arxiv.org/abs/2004.02788) <kbd>CVPR 2020 oral</kbd>
 - [TP-LSD: Tri-Points Based Line Segment Detector](https://arxiv.org/abs/2009.05505)
 - [Data Distillation: Towards Omni-Supervised Learning](https://arxiv.org/abs/1712.04440) <kbd>CVPR 2018</kbd> [Kaiming He, FAIR]
@@ -120,7 +104,6 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [MoNet3D: Towards Accurate Monocular 3D Object Localization in Real Time](https://arxiv.org/abs/2006.16007) <kbd>ICML 2020</kbd> [mono3D]
 - [CubifAE-3D: Monocular Camera Space Cubification on Autonomous Vehicles for Auto-Encoder based 3D Object Detection](https://arxiv.org/abs/2006.04080) [mono3D]
 - [Synthetic-to-Real Domain Adaptation for Lane Detection](https://arxiv.org/abs/2007.04023) [GM Israel, LLD]
-- [TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383) <kbd>ICCV 2019</kbd> [Song Han, video, object detection]
 - [MVF: End-to-End Multi-View Fusion for 3D Object Detection in LiDAR Point Clouds](https://arxiv.org/abs/1910.06528) <kbd>CoRL 2019</kbd> [Waymo]
 - [Training-Time-Friendly Network for Real-Time Object Detection](https://arxiv.org/abs/1909.00700) <kbd>AAAI 2020</kbd> [anchor-free, fast training]
 - [Autonomous Driving with Deep Learning: A Survey of State-of-Art Technologies](https://arxiv.org/abs/2006.06091) [Review of autonomous stack, Yu Huang]
@@ -147,7 +130,6 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [VDO-SLAM: A Visual Dynamic Object-aware SLAM System](https://arxiv.org/abs/2005.11052) <kbd>IJRR 2020</kbd>
 - [Dynamic SLAM: The Need For Speed](https://arxiv.org/abs/2002.08584)
 - [Pseudo RGB-D for Self-Improving Monocular SLAM and Depth Prediction](https://arxiv.org/abs/2004.10681) <kbd>ECCV 2020</kbd>
-- [Robust Traffic Light and Arrow Detection Using Digital Map with Spatial Prior Information for Automated Driving](https://www.mdpi.com/1424-8220/20/4/1181) [[Notes](paper_notes/robust_tfl_japan.md)] <kbd>Sensors 2020</kbd> [traffic light, Google]
 - [Traffic Light Mapping and Detection](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37259.pdf) <kbd>ICRA 2011</kbd> [traffic light]
 - [Traffic Light Mapping, Localization, and State Detection for Autonomous Vehicles](http://driving.stanford.edu/papers/ICRA2011.pdf) <kbd>ICRA 2011</kbd> [traffic light]
 - [Traffic light recognition in varying illumination using deep learning and saliency map](https://www.researchgate.net/profile/Vijay_John3/publication/265014373_Traffic_Light_Recognition_in_Varying_Illumination_using_Deep_Learning_and_Saliency_Map/links/56aac00408ae8f3865666102.pdf) <kbd>ITSC 2014</kbd> [traffic light]
@@ -160,17 +142,34 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking](https://arxiv.org/abs/2007.14557) <kbd>ECCV 2020 spotlight</kbd> [MOT, Tencent]
 - [Towards Real-Time Multi-Object Tracking](https://arxiv.org/abs/1909.12605) <kbd>ECCV 2020</kbd> [MOT]
 - [Pillar-based Object Detection for Autonomous Driving](https://arxiv.org/abs/2007.10323) <kbd>ECCV 2020</kbd>
-- [Fast and Accurate Recovery of Occluding Contours in Monocular Depth Estimation](https://arxiv.org/abs/1905.08598) <kbd>ICCV 2019 workshop</kbd> [indoor]
-- [Multi-Loss Rebalancing Algorithm for Monocular Depth Estimation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2890_ECCV_2020_paper.php) <kbd>ECCV 2020</kbd> [indoor depth]
-- [Disambiguating Monocular Depth Estimation with a Single Transient](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/3668_ECCV_2020_paper.php) <kbd>ECCV 2020</kbd> [additional laser sensor, indoor depth]
-- [Guiding Monocular Depth Estimation Using Depth-Attention Volume](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/5491_ECCV_2020_paper.php) <kbd>ECCV 2020</kbd> [indoor depth]
-- [Improving Monocular Depth Estimation by Leveraging Structural Awareness and Complementary Datasets](https://arxiv.org/abs/2007.11256) <kbd>ECCV 2020</kbd> [indoor depth]
-- [CLIFFNet for Monocular Depth Estimation with Hierarchical Embedding Loss](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/3365_ECCV_2020_paper.php) <kbd>ECCV 2020</kbd> [indoor depth]
 - [InfoFocus: 3D Object Detection for Autonomous Driving with Dynamic Information Modeling](https://arxiv.org/abs/2007.08556) <kbd>ECCV 2020</kbd>
 - [DA4AD: End-to-End Deep Attention-based Visual Localization for Autonomous Driving](https://arxiv.org/abs/2003.03026) <kbd>ECCV 2020</kbd>
 - [Towards Lightweight Lane Detection by Optimizing Spatial Embedding](https://arxiv.org/abs/2008.08311) <kbd>ECCV 2020 workshop</kbd>
 - [Multi-Frame to Single-Frame: Knowledge Distillation for 3D Object Detection]() <kbd>ECCV 2020 workshop</kbd> [lidar]
 - [DeepIM: Deep iterative matching for 6d pose estimation](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yi_Li_DeepIM_Deep_Iterative_ECCV_2018_paper.pdf) <kbd>ECCV 2018</kbd> [pose estimation]
+
+
+## 2020-09 (15)
+- [SDFLabel: Autolabeling 3D Objects With Differentiable Rendering of SDF Shape Priors](https://arxiv.org/abs/1911.11288) [[Notes](paper_notes/sdflabel.md)] <kbd>CVPR 2020 oral</kbd> [TRI, differentiable rendering]
+- [DensePose: Dense Human Pose Estimation In The Wild](https://arxiv.org/abs/1802.00434) [[Notes](paper_notes/densepose.md)] <kbd>CVPR 2018 oral</kbd> [FAIR]
+- [NOCS: Normalized Object Coordinate Space for Category-Level 6D Object Pose and Size Estimation](https://arxiv.org/abs/1901.02970) <kbd>CVPR 2019</kbd>
+- [monoDR: Monocular Differentiable Rendering for Self-Supervised 3D Object Detection](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123660511.pdf) [[Notes](paper_notes/monodr.md)] <kbd>ECCV 2020</kbd> [TRI, mono3D]
+- [Lift, Splat, Shoot: Encoding Images From Arbitrary Camera Rigs by Implicitly Unprojecting to 3D](https://arxiv.org/abs/2008.05711) [[Notes](paper_notes/lift_splat_shoot.md)] <kbd>ECCV 2020</kbd> [BEV-Net, Utoronto, Sanja Fidler]
+- [Implicit Latent Variable Model for Scene-Consistent Motion Forecasting](https://arxiv.org/abs/2007.12036) <kbd>ECCV 2020</kbd> [Uber ATG, Rachel Urtasun]
+- [FISHING Net: Future Inference of Semantic Heatmaps In Grids](https://arxiv.org/abs/2006.09917) [[Notes](paper_notes/fishing_net.md)] <kbd>CVPRW 2020</kbd> [BEV-Net, Mapping, Zoox]
+- [VPN: Cross-view Semantic Segmentation for Sensing Surroundings](https://arxiv.org/abs/1906.03560) [[Notes](paper_notes/vpn.md)] <kbd>RAL 2020</kbd> [Bolei Zhou, BEV-Net]
+- [VED: Monocular Semantic Occupancy Grid Mapping with Convolutional Variational Encoder-Decoder Networks](https://arxiv.org/abs/1804.02176) [[Notes](paper_notes/ved.md)] <kbd>ICRA 2019</kbd> [BEV-Net]
+- [Cam2BEV: A Sim2Real Deep Learning Approach for the Transformation of Images from Multiple Vehicle-Mounted Cameras to a Semantically Segmented Image in Bird's Eye View](https://arxiv.org/abs/2005.04078) [[Notes](paper_notes/cam2bev.md)] <kbd>ITSC 2020</kbd> [BEV-Net] 
+- [Learning to Look around Objects for Top-View Representations of Outdoor Scenes](https://arxiv.org/abs/1803.10870) [[Notes](paper_notes/learning_to_look_around_objects.md)] <kbd>ECCV 2018</kbd> [BEV-Net, UCSD, Manmohan Chandraker]
+- [A Parametric Top-View Representation of Complex Road Scenes](https://arxiv.org/abs/1812.06152) <kbd>CVPR 2019</kbd> [BEV-Net, UCSD, Manmohan Chandraker]
+- [FTM: Understanding Road Layout from Videos as a Whole](https://arxiv.org/abs/2007.00822) <kbd>CVPR 2020</kbd> [BEV-Net, UCSD, Manmohan Chandraker]
+- [KM3D-Net: Monocular 3D Detection with Geometric Constraints Embedding and Semi-supervised Training](https://arxiv.org/abs/2009.00764) [[Notes](paper_notes/km3d_net.md)] [RTM3D, Peixuan Li]
+- [InstanceMotSeg: Real-time Instance Motion Segmentation for Autonomous Driving](https://arxiv.org/abs/2008.07008) [[Notes](paper_notes/instance_mot_seg.md)] <kbd>IROS 2020</kbd> [motion segmentation]
+- [MPV-Nets: Monocular Plan View Networks for Autonomous Driving](https://arxiv.org/abs/1905.06937) [[Notes](paper_notes/mpv_nets.md)] <kbd>IROS 2019</kbd> [BEV-Net]
+- [Class-Balanced Loss Based on Effective Number of Samples](https://arxiv.org/abs/1901.05555) [[Notes](paper_notes/class_balanced_loss.md)] <kbd>CVPR 2019</kbd> [Focal loss authors]
+- [Geometric Pretraining for Monocular Depth Estimation](http://lewissoft.com/pdf/ICRA2020/0035.pdf) [[Notes](paper_notes/geometric_pretraining.md)] <kbd>ICRA 2020</kbd>
+- [Robust Traffic Light and Arrow Detection Using Digital Map with Spatial Prior Information for Automated Driving](https://www.mdpi.com/1424-8220/20/4/1181) [[Notes](paper_notes/robust_tfl_japan.md)] <kbd>Sensors 2020</kbd> [traffic light, Google]
+
 
 ## 2020-08 (26)
 - [Feature-metric Loss for Self-supervised Learning of Depth and Egomotion](https://arxiv.org/abs/2007.10603) [[Notes](paper_notes/feature_metric.md)] <kbd>ECCV 2020</kbd> [feature-metric, local minima, monodepth]
@@ -795,6 +794,16 @@ Detection with Hierarchical Aggregation](https://arxiv.org/abs/1804.06055) <kbd>
 - [Spatial Correspondence with Generative Adversarial Network: Learning Depth from Monocular Videos](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wu_Spatial_Correspondence_With_Generative_Adversarial_Network_Learning_Depth_From_Monocular_ICCV_2019_paper.pdf) <kbd>ICCV 2019</kbd>
 - [Unsupervised Collaborative Learning of Keyframe Detection and Visual Odometry Towards Monocular Deep SLAM](http://openaccess.thecvf.com/content_ICCV_2019/papers/Sheng_Unsupervised_Collaborative_Learning_of_Keyframe_Detection_and_Visual_Odometry_Towards_ICCV_2019_paper.pdf) <kbd>ICCV 2019</kbd>
 - [Visualization of Convolutional Neural Networks for Monocular Depth Estimation](https://arxiv.org/abs/1904.03380) <kbd>ICCV 2019</kbd>
+
+
+## Indoor Depth
+- [Fast and Accurate Recovery of Occluding Contours in Monocular Depth Estimation](https://arxiv.org/abs/1905.08598) <kbd>ICCV 2019 workshop</kbd> [indoor]
+- [Multi-Loss Rebalancing Algorithm for Monocular Depth Estimation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2890_ECCV_2020_paper.php) <kbd>ECCV 2020</kbd> [indoor depth]
+- [Disambiguating Monocular Depth Estimation with a Single Transient](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/3668_ECCV_2020_paper.php) <kbd>ECCV 2020</kbd> [additional laser sensor, indoor depth]
+- [Guiding Monocular Depth Estimation Using Depth-Attention Volume](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/5491_ECCV_2020_paper.php) <kbd>ECCV 2020</kbd> [indoor depth]
+- [Improving Monocular Depth Estimation by Leveraging Structural Awareness and Complementary Datasets](https://arxiv.org/abs/2007.11256) <kbd>ECCV 2020</kbd> [indoor depth]
+- [CLIFFNet for Monocular Depth Estimation with Hierarchical Embedding Loss](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/3365_ECCV_2020_paper.php) <kbd>ECCV 2020</kbd> [indoor depth]
+
 
 ### 3DOD with lidar
 - [PIXOR: Real-time 3D Object Detection from Point Clouds](https://arxiv.org/pdf/1902.06326.pdf) <kbd>CVPR 2018</kbd> (birds eye view)

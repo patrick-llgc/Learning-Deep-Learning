@@ -1,6 +1,6 @@
 # [Paper Title](link_to_paper)
 
-_September 2020_
+_October 2020_
 
 tl;dr: Summary of the main idea.
 
