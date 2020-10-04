@@ -15,6 +15,7 @@ Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out o
 The list of resource in this [link](https://autonomous-driving.org/front/resources/) talks about various topics in Autonomous Driving.
 
 ### Github repos
+- [MMAction2](https://github.com/open-mmlab/mmaction2) [268 stars]
 - [Kalman and Bayesian Fitlers](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python) [8.7k stars] [ipynb book](https://nbviewer.jupyter.org/github/rlabbe/Kalman-and-Bayesian-Filters-in-Python/blob/master/table_of_contents.ipynb)
 - [simple-faster-rcnn-pytorch](https://github.com/chenyuntc/simple-faster-rcnn-pytorch/) (2.1k stars) [[Notes](code_notes/simple_faster_rcnn.md)]
 - [YOLACT/YOLACT++](https://github.com/dbolya/yolact) [2.1k stars]
@@ -30,6 +31,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [OpenVSLAM](https://github.com/xdspacelab/openvslam) (2.3k stars)
 - [ORB SLAM2](https://github.com/raulmur/ORB_SLAM2) and [Docker version](https://github.com/yuyou/ORB_SLAM2#build-docker-image)
 - [PySLAM v2](https://github.com/luigifreda/pyslam)
+
 
 ### Youtube channels
 - [Modern C++ for computer vision](https://www.youtube.com/playlist?list=PLgnQpQtFTOGR50iIOtO36nK6aNPtVq98C)
@@ -91,9 +93,13 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [SDC-Depth: Semantic Divide-and-Conquer Network for Monocular Depth Estimation](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_SDC-Depth_Semantic_Divide-and-Conquer_Network_for_Monocular_Depth_Estimation_CVPR_2020_paper.pdf)  <kbd>CVPR 2020</kbd> [monodepth, semantic]
 - [Self-training with Noisy Student improves ImageNet classification](https://arxiv.org/abs/1911.04252) <kbd>CVPR 2020</kbd> [distillation]
 
-## 2020-10 (1)
+## 2020-10 (2)
 - [TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383) [[Notes](paper_notes/tsm.md)] <kbd>ICCV 2019</kbd> [Song Han, video, object detection]
 - [Long-term Recurrent Convolutional Networks for Visual Recognition and Description](https://arxiv.org/abs/1411.4389) <kbd>CVPR 2015 oral</kbd>
+- [Temporal Segment Networks: Towards Good Practices for Deep Action Recognition](https://arxiv.org/abs/1608.00859) <kbd>ECCV 2016</kbd>
+- [TRN: Temporal Relational Reasoning in Videos](https://arxiv.org/abs/1711.08496) <kbd>ECCV 2018</kbd>
+- [Waymo Dataset: Scalability in Perception for Autonomous Driving: Waymo Open Dataset](https://arxiv.org/abs/1912.04838) [[Notes](paper_notes/waymo_dataset.md)] <kbd>CVPR 2020</kbd>
+- [Generalized Focal Loss: Learning Qualified and Distributed Bounding Boxes for Dense Object Detection](https://arxiv.org/abs/2006.04388) <kbd>NeurIPS 2020</kbd>
 - [Self-Supervised Scene De-occlusion](https://arxiv.org/abs/2004.02788) <kbd>CVPR 2020 oral</kbd>
 - [TP-LSD: Tri-Points Based Line Segment Detector](https://arxiv.org/abs/2009.05505)
 - [Data Distillation: Towards Omni-Supervised Learning](https://arxiv.org/abs/1712.04440) <kbd>CVPR 2018</kbd> [Kaiming He, FAIR]
@@ -307,8 +313,8 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [FlowNet: Learning Optical Flow With Convolutional Networks](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Dosovitskiy_FlowNet_Learning_Optical_ICCV_2015_paper.pdf) <kbd>ICCV 2015</kbd> [Optical flow]
 - [FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks](https://arxiv.org/abs/1612.01925) <kbd>CVPR 2017</kbd> [Optical flow]
 - [ESPNetv2: A Light-weight, Power Efficient, and General Purpose Convolutional Neural Network](https://arxiv.org/abs/1811.11431) <kbd>CVPR 2019</kbd> [semantic segmentation, lightweight]
-- [Mono-SF: Multi-View Geometry Meets Single-View Depth for Monocular Scene Flow Estimation of Dynamic Traffic Scenes](https://arxiv.org/abs/1908.06316) <kbd>CVPR 2019</kbd> [depth uncertainty]
-- [Spatial Attention Fusion for Obstacle Detection Using MmWave Radar and Vision Sensor](https://www.mdpi.com/1424-8220/20/4/956) <kbd>sensors 2020</kbd> [radar, camera, early fusion]
+- [Mono-SF: Multi-View Geometry Meets Single-View Depth for Monocular Scene Flow Estimation of Dynamic Traffic Scenes](https://arxiv.org/abs/1908.06316) <kbd>ICCV 2019</kbd> [depth uncertainty]
+
   
 ## 2020-05 (19)
 - [Egocentric Vision-based Future Vehicle Localization for Intelligent Driving Assistance Systems](https://arxiv.org/abs/1809.07408) [[Notes](paper_notes/hevi.md)] [Honda] <kbd>ICRA 2019</kbd>
@@ -785,6 +791,9 @@ Detection with Hierarchical Aggregation](https://arxiv.org/abs/1804.06055) <kbd>
 - [Network pruning tutorial](https://jacobgil.github.io/deeplearning/pruning-deep-learning) (blog)
 - [GNN tutorial at CVPR 2019](https://xiaolonw.github.io/graphnn/)
 - [One Thousand and One Hours: Self-driving Motion Prediction Dataset](https://arxiv.org/abs/2006.14480)
+- [PANDA: A Gigapixel-level Human-centric Video Dataset](https://arxiv.org/abs/2003.04852) <kbd>CVPR 2020</kbd>
+- [SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences](https://arxiv.org/abs/1904.01416) <kbd>ICCV 2019</kbd>
+- [The H3D Dataset for Full-Surround 3D Multi-Object Detection and Tracking in Crowded Urban Scenes](https://arxiv.org/abs/1903.01568) <kbd>ICRA 2019</kbd>
 
 ### Unsupervised depth estimation
 - [Sparse and Dense Data with CNNs: Depth Completion and Semantic Segmentation](https://arxiv.org/pdf/1808.00769.pdf) <kbd>3DV 2018</kbd>
@@ -955,6 +964,7 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 ### Radar Perception
 - [Seeing Around Street Corners: Non-Line-of-Sight Detection and Tracking In-the-Wild Using Doppler Radar](https://openaccess.thecvf.com/content_CVPR_2020/papers/Scheiner_Seeing_Around_Street_Corners_Non-Line-of-Sight_Detection_and_Tracking_In-the-Wild_Using_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd> [Daimler]
 - [Radar+RGB Attentive Fusion for Robust Object Detection in Autonomous Vehicles](https://arxiv.org/abs/2008.13642) <kbd>ICIP 2020</kbd>
+- [Spatial Attention Fusion for Obstacle Detection Using MmWave Radar and Vision Sensor](https://www.mdpi.com/1424-8220/20/4/956) <kbd>sensors 2020</kbd> [radar, camera, early fusion]
 
 
 ### Annotation
