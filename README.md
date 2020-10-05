@@ -93,13 +93,17 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [SDC-Depth: Semantic Divide-and-Conquer Network for Monocular Depth Estimation](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_SDC-Depth_Semantic_Divide-and-Conquer_Network_for_Monocular_Depth_Estimation_CVPR_2020_paper.pdf)  <kbd>CVPR 2020</kbd> [monodepth, semantic]
 - [Self-training with Noisy Student improves ImageNet classification](https://arxiv.org/abs/1911.04252) <kbd>CVPR 2020</kbd> [distillation]
 
-## 2020-10 (2)
+## 2020-10 (3)
 - [TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383) [[Notes](paper_notes/tsm.md)] <kbd>ICCV 2019</kbd> [Song Han, video, object detection]
 - [Long-term Recurrent Convolutional Networks for Visual Recognition and Description](https://arxiv.org/abs/1411.4389) <kbd>CVPR 2015 oral</kbd>
 - [Temporal Segment Networks: Towards Good Practices for Deep Action Recognition](https://arxiv.org/abs/1608.00859) <kbd>ECCV 2016</kbd>
 - [TRN: Temporal Relational Reasoning in Videos](https://arxiv.org/abs/1711.08496) <kbd>ECCV 2018</kbd>
 - [Waymo Dataset: Scalability in Perception for Autonomous Driving: Waymo Open Dataset](https://arxiv.org/abs/1912.04838) [[Notes](paper_notes/waymo_dataset.md)] <kbd>CVPR 2020</kbd>
-- [Generalized Focal Loss: Learning Qualified and Distributed Bounding Boxes for Dense Object Detection](https://arxiv.org/abs/2006.04388) <kbd>NeurIPS 2020</kbd>
+- [Generalized Focal Loss: Learning Qualified and Distributed Bounding Boxes for Dense Object Detection](https://arxiv.org/abs/2006.04388) [[Notes](paper_notes/generalized_focal_loss.md)] <kbd>NeurIPS 2020</kbd>
+- [A Ranking-based, Balanced Loss Function Unifying Classification and Localisation in Object Detection](https://arxiv.org/abs/2009.13592) <kbd>NeurIPS 2020 spotlight</kbd>
+- [Rethinking the Value of Labels for Improving Class-Imbalanced Learning](https://arxiv.org/abs/2006.07529) <kbd>NeurIPS 2020</kbd>
+- [Toward Interactive Self-Annotation For Video Object Bounding Box: Recurrent Self-Learning And Hierarchical Annotation Based Framework](https://openaccess.thecvf.com/content_WACV_2020/papers/Le_Toward_Interactive_Self-Annotation_For_Video_Object_Bounding_Box_Recurrent_Self-Learning_WACV_2020_paper.pdf) <kbd>WACV 2020</kbd>
+- [Towards Good Practice for CNN-Based Monocular Depth Estimation](http://openaccess.thecvf.com/content_WACV_2020/papers/Fang_Towards_Good_Practice_for_CNN-Based_Monocular_Depth_Estimation_WACV_2020_paper.pdf) <kbd>WACV 2020</kbd>
 - [Self-Supervised Scene De-occlusion](https://arxiv.org/abs/2004.02788) <kbd>CVPR 2020 oral</kbd>
 - [TP-LSD: Tri-Points Based Line Segment Detector](https://arxiv.org/abs/2009.05505)
 - [Data Distillation: Towards Omni-Supervised Learning](https://arxiv.org/abs/1712.04440) <kbd>CVPR 2018</kbd> [Kaiming He, FAIR]
@@ -277,7 +281,6 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [SMOKE: Single-Stage Monocular 3D Object Detection via Keypoint Estimation](https://arxiv.org/abs/2002.10111) [[Notes](paper_notes/smoke.md)] <kbd>CVPRW 2020</kbd> [Mono3D, Zongmu]
 - [Vehicle Re-ID for Surround-view Camera System](https://drive.google.com/file/d/1e6y8wtHAricaEHS9CpasSGOx0aAxCGib/view) [[Notes](paper_notes/reid_surround_fisheye.md)] <kbd>CVPRW 2020</kbd> [tireline, vehicle ReID, Zongmu]
 - [PSDet: Efficient and Universal Parking Slot Detection](https://arxiv.org/abs/2005.05528) <kbd>IV 2020</kbd> [Zongmu, Parking]
-- [Towards Good Practice for CNN-Based Monocular Depth Estimation](http://openaccess.thecvf.com/content_WACV_2020/papers/Fang_Towards_Good_Practice_for_CNN-Based_Monocular_Depth_Estimation_WACV_2020_paper.pdf) <kbd>WACV 2020</kbd>
 - [End-to-End Lane Marker Detection via Row-wise Classification](https://arxiv.org/abs/2005.08630) [[Notes](paper_notes/e2e_lmd.md)] [Qualcomm Korea, LLD as cls]
 - [Reliable multilane detection and classification by utilizing CNN as a regression network](http://openaccess.thecvf.com/content_ECCVW_2018/papers/11133/Chougule_Reliable_multilane_detection_and_classification_by_utilizing_CNN_as_a_ECCVW_2018_paper.pdf) <kbd>ECCV 2018</kbd> [LLD as reg]
 - [SUPER: A Novel Lane Detection System](https://arxiv.org/abs/2005.07277) [[Notes](paper_notes/super.md)]
