@@ -9,11 +9,12 @@ Similar to the idea of [SMWA](smwa.md) to address the "long tail" problem. This 
 
 > [DC](depth_coeff.md) focuses on depth completion while [SMWA](smwa.md) focuses on depth estimation from stereo pairs.
 
-It also acknowledges that the problem is a multi-modal problem and using L1 or L2 leads to spurious estimation in-between modes. 
+It also acknowledges that the problem is a multi-modal problem and using L1 or L2 leads to spurious estimation in-between modes. --> this is also used in [generalized focal loss](gfocal.md) to model multi-modal distribution of edges of heavily occluded objects. 
 
 The idea of using an N-channel but 3-hot depth encoding is similar to the soft one-hot encoding used in [SMWA](smwa.md). In SMWA it also uses cross entropy for regression. DC gives a better explanation why cross entropy is a better loss than L1 or L2.
 
 The input and loss modification is based on [sparse-to-dense](sparse_to_dense.md) and is easy to implement.
+
 
 #### Key ideas
 - One-hot encoding of depth and the use of cross-entropy loss solves the problem of mixed-depth problem.

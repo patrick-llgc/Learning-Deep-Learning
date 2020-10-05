@@ -99,7 +99,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [Temporal Segment Networks: Towards Good Practices for Deep Action Recognition](https://arxiv.org/abs/1608.00859) <kbd>ECCV 2016</kbd>
 - [TRN: Temporal Relational Reasoning in Videos](https://arxiv.org/abs/1711.08496) <kbd>ECCV 2018</kbd>
 - [Waymo Dataset: Scalability in Perception for Autonomous Driving: Waymo Open Dataset](https://arxiv.org/abs/1912.04838) [[Notes](paper_notes/waymo_dataset.md)] <kbd>CVPR 2020</kbd>
-- [Generalized Focal Loss: Learning Qualified and Distributed Bounding Boxes for Dense Object Detection](https://arxiv.org/abs/2006.04388) [[Notes](paper_notes/generalized_focal_loss.md)] <kbd>NeurIPS 2020</kbd>
+- [Generalized Focal Loss: Learning Qualified and Distributed Bounding Boxes for Dense Object Detection](https://arxiv.org/abs/2006.04388) [[Notes](paper_notes/gfocal.md)] <kbd>NeurIPS 2020</kbd>
 - [A Ranking-based, Balanced Loss Function Unifying Classification and Localisation in Object Detection](https://arxiv.org/abs/2009.13592) <kbd>NeurIPS 2020 spotlight</kbd>
 - [Rethinking the Value of Labels for Improving Class-Imbalanced Learning](https://arxiv.org/abs/2006.07529) <kbd>NeurIPS 2020</kbd>
 - [Toward Interactive Self-Annotation For Video Object Bounding Box: Recurrent Self-Learning And Hierarchical Annotation Based Framework](https://openaccess.thecvf.com/content_WACV_2020/papers/Le_Toward_Interactive_Self-Annotation_For_Video_Object_Bounding_Box_Recurrent_Self-Learning_WACV_2020_paper.pdf) <kbd>WACV 2020</kbd>

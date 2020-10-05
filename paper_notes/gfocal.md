@@ -11,6 +11,10 @@ A recent trend in one-stage detector is to introduce an individual prediction br
 
 Bbox boundaries are generally formulated as a Dirac delta function (deterministic) or Gaussian ([Gaussian yolo](gaussian_yolo.md) and [KL Loss](kl_loss.md)). This paper targets to formulate the boundary as an arbitrarily shaped distribution. This formulation itself reaches the same performance as baseline, but with DFL (distributional focal loss), it is better. --> for loss on a distribution, cf [Unsuperpoint](unsuperpoint.md).
 
+The encoding of a regression target is similar to one-hot encoding in depth regression network, such as [single-modal weighted average (SMWA)](smwa.md) and [Deoth Coefficient](depth_coeff.md).
+
+The dispersion of the distribution can be used as localization confidence as well. This in a way achieves what uncertainty learning ([Gaussian yolo](gaussian_yolo.md) and [KL Loss](kl_loss.md)) tries to achieve, but without the uncertainty bit which can be hard to train in practice. 
+
 #### Key ideas
 - QFL (quality focal loss): Unifies classification score and IoU quality to be one **cls-iou score**. The target is dynamically updated online and it is in (0, 1]. For negative samples, the target is 0.
 - DFL (distributional focal loss): Directly optimizes a distribution of bbox boundaries. the regression target is quantized into n (n=14) bins. The target is expressed as the integral over the distribution. 
@@ -18,7 +22,8 @@ Bbox boundaries are generally formulated as a Dirac delta function (deterministi
 
 #### Technical details
 - Bbox classification: why multiple sigmoid vs softmax? [FCOS](fcos.md)
+- The paper is able to generate bimodal distribution for the prediction of ambiguous boundaries. --> maybe we should not do simply integration but rather find the local peak? cf [single-modal weighted average (SMWA)](smwa.md) and [Deoth Coefficient](depth_coeff.md).
 
 #### Notes
 - [review by first author on Zhihu 知乎](https://zhuanlan.zhihu.com/p/147691786)
-- How is n selected? --> in the above review post, and in Fig. 5(c), it is 0 to 16 in ATSS, 0 to 8 in FCOS. The delta is selected to 1 after ablation study. 
+- How is n selected? --> in the above review post, and in Fig. 5(c), it is 0 to 16 in ATSS, 0 to 8 in FCOS. The delta is selected to 1 after ablation study. generalized_focal_loss.md
