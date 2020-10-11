@@ -93,7 +93,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [SDC-Depth: Semantic Divide-and-Conquer Network for Monocular Depth Estimation](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_SDC-Depth_Semantic_Divide-and-Conquer_Network_for_Monocular_Depth_Estimation_CVPR_2020_paper.pdf)  <kbd>CVPR 2020</kbd> [monodepth, semantic]
 - [Self-training with Noisy Student improves ImageNet classification](https://arxiv.org/abs/1911.04252) <kbd>CVPR 2020</kbd> [distillation]
 
-## 2020-10 (3)
+## 2020-10 (4)
 - [TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383) [[Notes](paper_notes/tsm.md)] <kbd>ICCV 2019</kbd> [Song Han, video, object detection]
 - [Long-term Recurrent Convolutional Networks for Visual Recognition and Description](https://arxiv.org/abs/1411.4389) <kbd>CVPR 2015 oral</kbd>
 - [Temporal Segment Networks: Towards Good Practices for Deep Action Recognition](https://arxiv.org/abs/1608.00859) <kbd>ECCV 2016</kbd>
@@ -102,6 +102,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [Generalized Focal Loss: Learning Qualified and Distributed Bounding Boxes for Dense Object Detection](https://arxiv.org/abs/2006.04388) [[Notes](paper_notes/gfocal.md)] <kbd>NeurIPS 2020</kbd>
 - [A Ranking-based, Balanced Loss Function Unifying Classification and Localisation in Object Detection](https://arxiv.org/abs/2009.13592) <kbd>NeurIPS 2020 spotlight</kbd>
 - [Rethinking the Value of Labels for Improving Class-Imbalanced Learning](https://arxiv.org/abs/2006.07529) <kbd>NeurIPS 2020</kbd>
+- [RepLoss: Repulsion Loss: Detecting Pedestrians in a Crowd](https://arxiv.org/abs/1711.07752) [[Notes](paper_notes/reploss.md)] <kbd>CVPR 2018</kbd> [Megvii]
 - [Toward Interactive Self-Annotation For Video Object Bounding Box: Recurrent Self-Learning And Hierarchical Annotation Based Framework](https://openaccess.thecvf.com/content_WACV_2020/papers/Le_Toward_Interactive_Self-Annotation_For_Video_Object_Bounding_Box_Recurrent_Self-Learning_WACV_2020_paper.pdf) <kbd>WACV 2020</kbd>
 - [Towards Good Practice for CNN-Based Monocular Depth Estimation](http://openaccess.thecvf.com/content_WACV_2020/papers/Fang_Towards_Good_Practice_for_CNN-Based_Monocular_Depth_Estimation_WACV_2020_paper.pdf) <kbd>WACV 2020</kbd>
 - [Self-Supervised Scene De-occlusion](https://arxiv.org/abs/2004.02788) <kbd>CVPR 2020 oral</kbd>
@@ -196,7 +197,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [DF-Net: Unsupervised Joint Learning of Depth and Flow using Cross-Task Consistency](https://arxiv.org/abs/1809.01649) <kbd>ECCV 2018</kbd>
 - [LineNet: a Zoomable CNN for Crowdsourced High Definition Maps Modeling in Urban Environments](https://arxiv.org/abs/1807.05696) [mapping]
 - [Road-SLAM: Road Marking based SLAM with Lane-level Accuracy](https://www.naverlabs.com/img/autonomousDriving/intelligence/dissertation/Road-SLAM_Road%20Marking%20based%20SLAM%20with%20Lane-level%20Accuracy.pdf) [[Notes](paper_notes/road_slam.md)] [HD mapping]
-- [AVP-SLAM: Semantic Visual Mapping and Localization for Autonomous Vehicles in the Parking Lot](https://arxiv.org/abs/2007.01813) [[Notes](paper_notes/avp_slam.md)] <kbd>IROS 2020</kbd> [Huawei, HD mapping]
+- [AVP-SLAM: Semantic Visual Mapping and Localization for Autonomous Vehicles in the Parking Lot](https://arxiv.org/abs/2007.01813) [[Notes](paper_notes/avp_slam.md)] <kbd>IROS 2020</kbd> [Huawei, HD mapping, Tong Qin, VINS author]
 - [AVP-SLAM-Late-Fusion: Mapping and Localization using Semantic Road Marking with Centimeter-level Accuracy in Indoor Parking Lots](https://ieeexplore.ieee.org/abstract/document/8917529) [[Notes](paper_notes/avp_slam_late_fusion.md)] <kbd>ITSC 2019</kbd>
 - [Lane markings-based relocalization on highway](https://ieeexplore.ieee.org/abstract/document/8917254) <kbd>ITSC 2019</kbd>
 - [DeepRoadMapper: Extracting Road Topology from Aerial Images](https://openaccess.thecvf.com/content_ICCV_2017/papers/Mattyus_DeepRoadMapper_Extracting_Road_ICCV_2017_paper.pdf) [[Notes](paper_notes/deep_road_mapper.md)] <kbd>ICCV 2017</kbd> [Uber ATG, NOT HD maps]
@@ -715,6 +716,7 @@ Here is the list of papers waiting to be read.
 - [DenseBox: Unifying Landmark Localization with End to End Object Detection](https://arxiv.org/pdf/1509.04874.pdf)
 - [Circular Object Detection in Polar Coordinates for 2D LIDAR Data](https://www.researchgate.net/publication/309365539_Circular_Object_Detection_in_Polar_Coordinates_for_2D_LIDAR_DataCCPR2016) <kbd>CCPR 2016</kbd>
 - [LFFD: A Light and Fast Face Detector for Edge Devices](https://arxiv.org/abs/1904.10633) [Lightweight, face detection, car detection]
+- [UnitBox: An Advanced Object Detection Network](https://arxiv.org/abs/1608.01471) <kbd>ACM MM 2016</kbd> [Ln IoU loss, Thomas Huang]
 
 
 ### Video Understanding
