@@ -102,7 +102,13 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [Generalized Focal Loss: Learning Qualified and Distributed Bounding Boxes for Dense Object Detection](https://arxiv.org/abs/2006.04388) [[Notes](paper_notes/gfocal.md)] <kbd>NeurIPS 2020</kbd>
 - [A Ranking-based, Balanced Loss Function Unifying Classification and Localisation in Object Detection](https://arxiv.org/abs/2009.13592) <kbd>NeurIPS 2020 spotlight</kbd>
 - [Rethinking the Value of Labels for Improving Class-Imbalanced Learning](https://arxiv.org/abs/2006.07529) <kbd>NeurIPS 2020</kbd>
-- [RepLoss: Repulsion Loss: Detecting Pedestrians in a Crowd](https://arxiv.org/abs/1711.07752) [[Notes](paper_notes/reploss.md)] <kbd>CVPR 2018</kbd> [Megvii]
+- [RepLoss: Repulsion Loss: Detecting Pedestrians in a Crowd](https://arxiv.org/abs/1711.07752) [[Notes](paper_notes/rep_loss.md)] <kbd>CVPR 2018</kbd> [Megvii]
+- [Adaptive NMS: Refining Pedestrian Detection in a Crowd](https://arxiv.org/abs/1904.03629) [[Notes](paper_notes/adaptive_nms.md)] <kbd>CVPR 2019 oral</kbd> [Crowded scene, NMS]
+- [Occlusion-aware R-CNN: Detecting Pedestrians in a Crowd](https://arxiv.org/abs/1807.08407) [[Notes](paper_notes/orcnn.md)] <kbd>ECCV 2018</kbd>
+- [Small-scale Pedestrian Detection Based on Somatic Topology Localization and Temporal Feature Aggregation](https://arxiv.org/abs/1807.01438) <kbd>ECCV 2018</kbd>
+- [Learning Monocular 3D Vehicle Detection without 3D Bounding Box Labels](https://arxiv.org/abs/2010.03506) [Daniel Cremers, TUM]
+- [SAFENet: Self-Supervised Monocular Depth Estimation with Semantic-Aware
+Feature Extraction](https://arxiv.org/abs/2010.02893) [Monodepth, semantics, Naver labs]
 - [Toward Interactive Self-Annotation For Video Object Bounding Box: Recurrent Self-Learning And Hierarchical Annotation Based Framework](https://openaccess.thecvf.com/content_WACV_2020/papers/Le_Toward_Interactive_Self-Annotation_For_Video_Object_Bounding_Box_Recurrent_Self-Learning_WACV_2020_paper.pdf) <kbd>WACV 2020</kbd>
 - [Towards Good Practice for CNN-Based Monocular Depth Estimation](http://openaccess.thecvf.com/content_WACV_2020/papers/Fang_Towards_Good_Practice_for_CNN-Based_Monocular_Depth_Estimation_WACV_2020_paper.pdf) <kbd>WACV 2020</kbd>
 - [Self-Supervised Scene De-occlusion](https://arxiv.org/abs/2004.02788) <kbd>CVPR 2020 oral</kbd>
@@ -293,7 +299,6 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [Self-Mono-SF: Self-Supervised Monocular Scene Flow Estimation](https://arxiv.org/abs/2004.04143) [[Notes](paper_notes/self_mono_sf.md)] <kbd>CVPR 2020 oral</kbd> [scene-flow, Stereo input]
 - [MEBOW: Monocular Estimation of Body Orientation In the Wild](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wu_MEBOW_Monocular_Estimation_of_Body_Orientation_in_the_Wild_CVPR_2020_paper.pdf) [[Notes](paper_notes/mebow.md)] <kbd>CVPR 2020</kbd>
 - [VG-NMS: Visibility Guided NMS: Efficient Boosting of Amodal Object Detection in Crowded Traffic Scenes](https://ml4ad.github.io/files/papers/Visibility%20Guided%20NMS:%20Efficient%20Boosting%20of%20Amodal%20Object%20Detection%20in%20Crowded%20Traffic%20Scenes.pdf) [[Notes](paper_notes/vg_nms.md)] <kbd>NeurIPS 2019 workshop</kbd> [Crowded scene, NMS, Daimler]
-- [Adaptive NMS: Refining Pedestrian Detection in a Crowd](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf) <kbd>CVPR 2019</kbd> [Crowded scene, NMS]
 - [WYSIWYG: What You See is What You Get: Exploiting Visibility for 3D Object Detection](https://arxiv.org/abs/1912.04986) [[Notes](paper_notes/wysiwyg.md)] <kbd>CVPR 2020 oral</kbd> [occupancy grid]
 - [Real-Time Panoptic Segmentation From Dense Detections](https://arxiv.org/abs/1912.01202) [[Notes](paper_notes/realtime_panoptic.md)] <kbd>CVPR 2020 oral</kbd> [bbox + semantic segmentation = panoptic segmentation, Toyota]
 - [Human-Centric Efficiency Improvements in Image Annotation for Autonomous Driving](https://drive.google.com/file/d/1DY95vfWBLKOOZZyq8gLDd0heZ6aBSdji/view) [[Notes](paper_notes/human_centric_annotation.md)] <kbd>CVPRW 2020</kbd> [efficient annotation]
@@ -328,7 +333,7 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [Understanding the Limitations of CNN-based Absolute Camera Pose Regression](https://arxiv.org/abs/1903.07504) [[Notes](paper_notes/understanding_apr.md)] <kbd>CVPR 2019</kbd> [Drawbacks of PoseNet, MapNet, Laura Leal-Taixe@TUM]
 - [To Learn or Not to Learn: Visual Localization from Essential Matrices](https://arxiv.org/abs/1908.01293) [[Notes](paper_notes/to_learn_or_not.md)] <kbd>ICRA 2020</kbd> [SIFT + 5 pt solver >> others for VO, Laura Leal-Taixe@TUM]
 - [DF-VO: Visual Odometry Revisited: What Should Be Learnt?](https://arxiv.org/abs/1909.09803) [[Notes](paper_notes/df_vo.md)] <kbd>ICRA 2020</kbd> [Depth and Flow for accurate VO]
-- [D3VO: Deep Depth, Deep Pose and Deep Uncertainty for Monocular Visual Odometry](https://arxiv.org/abs/2003.01060) [[Notes](paper_notes/d3vo.md)] <kbd>CVPR 2020 oral</kbd> [Daniel Cremer, TUM, depth uncertainty]
+- [D3VO: Deep Depth, Deep Pose and Deep Uncertainty for Monocular Visual Odometry](https://arxiv.org/abs/2003.01060) [[Notes](paper_notes/d3vo.md)] <kbd>CVPR 2020 oral</kbd> [Daniel Cremers, TUM, depth uncertainty]
 - [Network Slimming: Learning Efficient Convolutional Networks through Network Slimming](https://arxiv.org/abs/1708.06519) [[Notes](paper_notes/network_slimming.md)] <kbd>ICCV 2017</kbd>
 - [BatchNorm Pruning: Rethinking the Smaller-Norm-Less-Informative Assumption in Channel Pruning of Convolution Layers](https://arxiv.org/abs/1802.00124) [[Notes](paper_notes/batchnorm_pruning.md)] <kbd>ICLR 2018</kbd>
 - [Direct Sparse Odometry](https://arxiv.org/abs/1607.02565) <kbd>PAMI 2018</kbd>
