@@ -86,7 +86,6 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [Rethinking Classification and Localization for Object Detection](https://arxiv.org/abs/1904.06493) <kbd>CVPR 2020</kbd>
 - [3DSSD: Point-Based 3D Single Stage Object Detector](https://arxiv.org/abs/2002.10187) <kbd>CVPR 2020</kbd>
 - [Scalable Uncertainty for Computer Vision With Functional Variational Inference](https://arxiv.org/abs/2003.03396) <kbd>CVPR 2020</kbd> [epistemic uncertainty with one fwd pass]
-- [Detection in Crowded Scenes: One Proposal, Multiple Predictions](https://arxiv.org/abs/2003.09163) <kbd>CVPR 2020 oral</kbd> [crowd scene]
 - [Temporal-Context Enhanced Detection of Heavily Occluded Pedestrians](https://openaccess.thecvf.com/content_CVPR_2020/html/Wu_Temporal-Context_Enhanced_Detection_of_Heavily_Occluded_Pedestrians_CVPR_2020_paper.html) <kbd>CVPR 2020 oral</kbd> [pedestrian, video]
 - [Differentiable Rendering: A Survey](https://arxiv.org/abs/2006.12057) [differentiable rendering, TRI]
 - [Online Depth Learning against Forgetting in Monocular Videos](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Online_Depth_Learning_Against_Forgetting_in_Monocular_Videos_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd> [monodepth, online learning]
@@ -102,11 +101,12 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [Generalized Focal Loss: Learning Qualified and Distributed Bounding Boxes for Dense Object Detection](https://arxiv.org/abs/2006.04388) [[Notes](paper_notes/gfocal.md)] <kbd>NeurIPS 2020</kbd>
 - [A Ranking-based, Balanced Loss Function Unifying Classification and Localisation in Object Detection](https://arxiv.org/abs/2009.13592) <kbd>NeurIPS 2020 spotlight</kbd>
 - [Rethinking the Value of Labels for Improving Class-Imbalanced Learning](https://arxiv.org/abs/2006.07529) <kbd>NeurIPS 2020</kbd>
-- [RepLoss: Repulsion Loss: Detecting Pedestrians in a Crowd](https://arxiv.org/abs/1711.07752) [[Notes](paper_notes/rep_loss.md)] <kbd>CVPR 2018</kbd> [Megvii]
-- [Adaptive NMS: Refining Pedestrian Detection in a Crowd](https://arxiv.org/abs/1904.03629) [[Notes](paper_notes/adaptive_nms.md)] <kbd>CVPR 2019 oral</kbd> [Crowded scene, NMS]
-- [Occlusion-aware R-CNN: Detecting Pedestrians in a Crowd](https://arxiv.org/abs/1807.08407) [[Notes](paper_notes/orcnn.md)] <kbd>ECCV 2018</kbd>
-- [Small-scale Pedestrian Detection Based on Somatic Topology Localization and Temporal Feature Aggregation](https://arxiv.org/abs/1807.01438) <kbd>ECCV 2018</kbd>
-- [Learning Monocular 3D Vehicle Detection without 3D Bounding Box Labels](https://arxiv.org/abs/2010.03506) [Daniel Cremers, TUM]
+- [RepLoss: Repulsion Loss: Detecting Pedestrians in a Crowd](https://arxiv.org/abs/1711.07752) [[Notes](paper_notes/rep_loss.md)] <kbd>CVPR 2018</kbd> [crowd detection, Megvii]
+- [Adaptive NMS: Refining Pedestrian Detection in a Crowd](https://arxiv.org/abs/1904.03629) [[Notes](paper_notes/adaptive_nms.md)] <kbd>CVPR 2019 oral</kbd> [crowd detection, NMS]
+- [Occlusion-aware R-CNN: Detecting Pedestrians in a Crowd](https://arxiv.org/abs/1807.08407) [[Notes](paper_notes/orcnn.md)] <kbd>ECCV 2018</kbd> [crowd detection]
+- [CrowdDet: Detection in Crowded Scenes: One Proposal, Multiple Predictions](https://arxiv.org/abs/2003.09163) [[Notes](paper_notes/crowd_det.md)] <kbd>CVPR 2020 oral</kbd> [crowd detection, Megvii]
+- [TLL: Small-scale Pedestrian Detection Based on Somatic Topology Localization and Temporal Feature Aggregation](https://arxiv.org/abs/1807.01438) <kbd>ECCV 2018</kbd>
+- [Learning Monocular 3D Vehicle Detection without 3D Bounding Box Labels](https://arxiv.org/abs/2010.03506) [mono3D, Daniel Cremers, TUM]
 - [SAFENet: Self-Supervised Monocular Depth Estimation with Semantic-Aware
 Feature Extraction](https://arxiv.org/abs/2010.02893) [Monodepth, semantics, Naver labs]
 - [Toward Interactive Self-Annotation For Video Object Bounding Box: Recurrent Self-Learning And Hierarchical Annotation Based Framework](https://openaccess.thecvf.com/content_WACV_2020/papers/Le_Toward_Interactive_Self-Annotation_For_Video_Object_Bounding_Box_Recurrent_Self-Learning_WACV_2020_paper.pdf) <kbd>WACV 2020</kbd>
@@ -616,7 +616,7 @@ for Road Detection Algorithms](http://www.cvlibs.net/publications/Fritsch2013ITS
 - [MultiNet: Real-time Joint Semantic Reasoning for Autonomous Driving](https://arxiv.org/pdf/1612.07695.pdf) [[Notes](paper_notes/multinet_raquel.md)]
 - [Optimizing the Trade-off between Single-Stage and Two-Stage Object Detectors using Image Difficulty Prediction](https://arxiv.org/pdf/1803.08707.pdf) (Very nice illustration of 1 and 2 stage object detection)
 - [Light-Head R-CNN: In Defense of Two-Stage Object Detector](https://arxiv.org/pdf/1711.07264.pdf) [[Notes](paper_notes/lighthead_rcnn.md)] (from Megvii)
-- [CSP: High-level Semantic Feature Detection: A New Perspective for Pedestrian Detection](https://arxiv.org/pdf/1904.02948.pdf) (center and scale prediction) [[Notes](paper_notes/csp_pedestrian.md)] <kbd>CVPR 2019</kbd> 
+- [CSP: High-level Semantic Feature Detection: A New Perspective for Pedestrian Detection](https://arxiv.org/pdf/1904.02948.pdf) [[Notes](paper_notes/csp_pedestrian.md)] <kbd>CVPR 2019</kbd> [center and scale prediction, anchor-free, near SOTA pedestrian]
 - [Review of Anchor-free methods (知乎Blog) 目标检测：Anchor-Free时代](https://zhuanlan.zhihu.com/p/62103812) [Anchor free深度学习的目标检测方法](https://zhuanlan.zhihu.com/p/64563186) [My Slides on CSP](https://docs.google.com/presentation/d/1_dUfxv63108bZXUnVYPIOAdEIkRZw5BR9-rOp-Ni0X0/)
 - [DenseBox: Unifying Landmark Localization with End to End Object Detection](https://arxiv.org/pdf/1509.04874.pdf)
 - [CornerNet: Detecting Objects as Paired Keypoints](https://arxiv.org/pdf/1808.01244.pdf) [[Notes](paper_notes/cornernet.md)] <kbd>ECCV 2018</kbd>
