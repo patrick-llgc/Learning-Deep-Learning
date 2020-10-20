@@ -28,8 +28,9 @@ Current works are either too complex or less effective for handling highly overl
 
 #### Technical details
 - Test on COCO to verify that there is no performance degradation rather than significant performance improvement. 
-- AP is more sensitive to recall. MR is very sensitive to FP with high confidence. 
+- [AP vs MR](ap_mr.md) in object detection.
+	- AP is more sensitive to recall. MR is very sensitive to FP with high confidence. 
 
 #### Notes
-- Questions and notes on how to improve/revise the current work  
+- [Pytorch code on Github](https://github.com/Purkialo/CrowdDet)
 

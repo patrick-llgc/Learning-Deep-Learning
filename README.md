@@ -105,8 +105,14 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [Adaptive NMS: Refining Pedestrian Detection in a Crowd](https://arxiv.org/abs/1904.03629) [[Notes](paper_notes/adaptive_nms.md)] <kbd>CVPR 2019 oral</kbd> [crowd detection, NMS]
 - [Occlusion-aware R-CNN: Detecting Pedestrians in a Crowd](https://arxiv.org/abs/1807.08407) [[Notes](paper_notes/orcnn.md)] <kbd>ECCV 2018</kbd> [crowd detection]
 - [CrowdDet: Detection in Crowded Scenes: One Proposal, Multiple Predictions](https://arxiv.org/abs/2003.09163) [[Notes](paper_notes/crowd_det.md)] <kbd>CVPR 2020 oral</kbd> [crowd detection, Megvii]
+- [RR-NMS: NMS by Representative Region: Towards Crowded Pedestrian Detection by Proposal Pairing](https://arxiv.org/abs/2003.12729) [[Notes](paper_notes/rr_nms.md)] <kbd>CVPR 2020</kbd>
+- [Double Anchor R-CNN for Human Detection in a Crowd](https://arxiv.org/abs/1909.09998) [[Notes](paper_notes/double_anchor.md)] [head-body bundle]
+- [Review: AP vs MR](paper_notes/ap_mr.md)
+- [Precise Detection in Densely Packed Scenes](https://arxiv.org/abs/1904.00853) <kbd>CVPR 2019</kbd> [crowd detection, no occlusion]
 - [TLL: Small-scale Pedestrian Detection Based on Somatic Topology Localization and Temporal Feature Aggregation](https://arxiv.org/abs/1807.01438) <kbd>ECCV 2018</kbd>
 - [Learning Monocular 3D Vehicle Detection without 3D Bounding Box Labels](https://arxiv.org/abs/2010.03506) [mono3D, Daniel Cremers, TUM]
+- [ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://openreview.net/forum?id=YicbFdNTTy) [[Notes](paper_notes/vit.md)] <kbd>ICLR 2020<kbd>
+- [BYOL: Bootstrap your own latent: A new approach to self-supervised Learning](https://arxiv.org/abs/2006.07733) [self-supervised]
 - [SAFENet: Self-Supervised Monocular Depth Estimation with Semantic-Aware
 Feature Extraction](https://arxiv.org/abs/2010.02893) [Monodepth, semantics, Naver labs]
 - [Toward Interactive Self-Annotation For Video Object Bounding Box: Recurrent Self-Learning And Hierarchical Annotation Based Framework](https://openaccess.thecvf.com/content_WACV_2020/papers/Le_Toward_Interactive_Self-Annotation_For_Video_Object_Bounding_Box_Recurrent_Self-Learning_WACV_2020_paper.pdf) <kbd>WACV 2020</kbd>

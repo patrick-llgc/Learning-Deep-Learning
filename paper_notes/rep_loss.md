@@ -25,7 +25,8 @@ Visualization before NMS seems to be a powerful debugging tool.
 	- pred bboxes are much denser than the GT boxes, a pair of two pred bboxes are more likely to have a larger overlap than a pair of one predicted box and one GT box. Thus RepBox is more likely to have outliers than in RepGT.
 
 #### Technical details
-- Log average miss rate on False Positive Per Image (MR^-2) is usually the KPI for pedestrian detection. This looks like FROC curve. Miss rate = 1 - recall. MR score is plot on both logx and logy. The lower the better. 
+- [AP vs MR](ap_mr.md) in object detection.
+	- Log average miss rate on False Positive Per Image (MR^-2) is usually the KPI for pedestrian detection. This looks like FROC curve. Miss rate = 1 - recall. MR score is plot on both logx and logy. The lower the better. 
 - Occlusion: occ > 0.1. Occ is calculated by 1 - (visible bbox area / full bbox area). Crowd occlusion: occ > 0.1, IoU > 0.1
 - Occlusion < 35%. [0, 10%]: bare, [10%, 35%] partial, [35%, 1): heavy. Bare and partial occlusions are **reasonable** occlusions.
 - FP: background (0 GT under 0.1 IoU), localization error (1 GT), and crowd error (2+ GT).

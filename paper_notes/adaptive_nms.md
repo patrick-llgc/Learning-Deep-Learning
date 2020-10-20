@@ -17,7 +17,8 @@ Both [RepLoss](rep_loss.md) and [Occlusion aware R-CNN](orcnn.md) proposes addit
 	- On top of RPN for two stage detectors, taking the objectness predictions, bounding box predictions and conv features as input. 
 
 #### Technical details
-- Combining adaptive NMS and soft-NMS has minor or even negative improvements on metric MR^-2 (0.01 to 1 FPPI). Reason may be the benefit happens beyond 1 FPPI and thus does not improve metric. 
+- [AP vs MR](ap_mr.md) in object detection.
+	- Combining adaptive NMS and soft-NMS has minor or even negative improvements on metric MR^-2 (0.01 to 1 FPPI). Reason may be the benefit happens beyond 1 FPPI and thus does not improve metric. 
 - Reasonable: Bare (0 to 0.1), Partial (0.1 to 0.35), Heavy (0.35 to 1).
 
 #### Notes

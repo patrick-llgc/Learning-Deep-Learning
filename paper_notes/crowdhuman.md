@@ -22,5 +22,4 @@ Previous datasets are more likely to annotate crowd human as a whole ignored reg
 - Pervious datasets (CityPerson) annotates top of the head to the middle of the feet and generated a full bbox with fixed aspect ratio of 0.41.
 
 #### Notes
-- Questions and notes on how to improve/revise the current work  
-
+- [AP vs MR](ap_mr.md) in object detection.
