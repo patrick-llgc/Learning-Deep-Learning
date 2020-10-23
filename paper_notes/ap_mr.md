@@ -17,7 +17,7 @@ Both AP and MR are used heavily in academia in evaluating object detection algor
 
 - 行人检测和通用目标检测的区别，主要有两点：(1). 检测目标类别数不同; (2). 评测指标不同。第一点大家很容易理解，主要谈谈第二点。通用目标检测的评测指标是mAP@0.5-0.95（越高越好），而行人检测的评测指标是mMR (Log-average Miss Rate)（越低越好）。mAP是对Precision和Recall做整体评估，即P-R曲线下的面积，在这个指标下的低分TP可以带来Recall的提升，因此mAP指标也会提升，这也是RetinaNet[3]涨点的一方面，如果观察其P-R曲线就可以发现很长的尾巴。而mMR则是在FPPI@0.01-1（平均每张图FP数）下Miss（漏检）的平均，很明显这个指标同时关注FP（误检）和FN（漏检），因此mAP高的模型不一定mMR低。以上就是两个评测指标的区别，两个各有优劣，适用场景不同，例如对于行人检测来说，更重要的是减少FP，如果能减少高分FP将在指标上带来很大的提升。 -- [Review on 知乎](https://zhuanlan.zhihu.com/p/95253096)
 - AP is more sensitive to recall. MR is very sensitive to FP with high confidence. 
-
+- MR only cares about the predicted bboxes whose scores are higher than the highest scored FP
 
 #### SoftNMS
 - Combining adaptive NMS and soft-NMS has minor or even negative improvements on metric MR^-2 (0.01 to 1 FPPI). Reason may be the benefit happens beyond 1 FPPI and thus does not improve metric. [Adaptive NMS](adaptive_nms.md)

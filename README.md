@@ -105,7 +105,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [Adaptive NMS: Refining Pedestrian Detection in a Crowd](https://arxiv.org/abs/1904.03629) [[Notes](paper_notes/adaptive_nms.md)] <kbd>CVPR 2019 oral</kbd> [crowd detection, NMS]
 - [Occlusion-aware R-CNN: Detecting Pedestrians in a Crowd](https://arxiv.org/abs/1807.08407) [[Notes](paper_notes/orcnn.md)] <kbd>ECCV 2018</kbd> [crowd detection]
 - [CrowdDet: Detection in Crowded Scenes: One Proposal, Multiple Predictions](https://arxiv.org/abs/2003.09163) [[Notes](paper_notes/crowd_det.md)] <kbd>CVPR 2020 oral</kbd> [crowd detection, Megvii]
-- [RR-NMS: NMS by Representative Region: Towards Crowded Pedestrian Detection by Proposal Pairing](https://arxiv.org/abs/2003.12729) [[Notes](paper_notes/rr_nms.md)] <kbd>CVPR 2020</kbd>
+- [RR-NMS: NMS by Representative Region: Towards Crowded Pedestrian Detection by Proposal Pairing](https://arxiv.org/abs/2003.12729) [[Notes](paper_notes/r2_nms.md)] <kbd>CVPR 2020</kbd>
 - [Double Anchor R-CNN for Human Detection in a Crowd](https://arxiv.org/abs/1909.09998) [[Notes](paper_notes/double_anchor.md)] [head-body bundle]
 - [Review: AP vs MR](paper_notes/ap_mr.md)
 - [Precise Detection in Densely Packed Scenes](https://arxiv.org/abs/1904.00853) <kbd>CVPR 2019</kbd> [crowd detection, no occlusion]

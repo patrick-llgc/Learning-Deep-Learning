@@ -9,6 +9,8 @@ The paper addressed a critical issue for autonomous driving in parking lot and i
 
 Humans perceive the world by predicting the bbox covering the entire object even if it is occluded. This is called amodal perception. (cf. [Amodal completion](amodal_completion.md))
 
+This is very similar to [R2 NMS](r2_nms.md) in CVPR 2020, which focuses on crowd pedestrian detection.
+
 #### Key ideas
 - Training object detector with 4 additional attributes. Thus it predicts both the visible part (pixel-based bbox) and the entire object (amodal bbox).
 - VG-NMS: NMS is performed on the pixel-based bbox that describe the actually visible parts but output the amodal bboxes that belong to the indices that rare retained during pixel-based NMS.
