@@ -24,12 +24,13 @@ Both AP and MR are used heavily in academia in evaluating object detection algor
 - Soft-NMS maintains lots of long-tail detection results for improving recall at the expense of bringing more false positives, which leqds to negative impact on human detection especially for the metric of MR (where FP with high score is the bottleneck).
 
 #### Papers on pedestrian detection (in a crowd)
-- [RepLoss: Repulsion Loss: Detecting Pedestrians in a Crowd](https://arxiv.org/abs/1711.07752) [[Notes](rep_loss.md)] <kbd>CVPR 2018</kbd> [crowd detection, Megvii]
-- [Adaptive NMS: Refining Pedestrian Detection in a Crowd](https://arxiv.org/abs/1904.03629) [[Notes](adaptive_nms.md)] <kbd>CVPR 2019 oral</kbd> [crowd detection, NMS]
-- [Occlusion-aware R-CNN: Detecting Pedestrians in a Crowd](https://arxiv.org/abs/1807.08407) [[Notes](orcnn.md)] <kbd>ECCV 2018</kbd> [crowd detection]
+- [RepLoss: Repulsion Loss: Detecting Pedestrians in a Crowd](https://arxiv.org/abs/1711.07752) [[Notes](./rep_loss.md)] <kbd>CVPR 2018</kbd> [crowd detection, Megvii]
+- [AggLoss: Occlusion-aware R-CNN: Detecting Pedestrians in a Crowd](https://arxiv.org/abs/1807.08407) [[Notes](./agg_loss.md)] <kbd>ECCV 2018</kbd> [crowd detection]
+- [Adaptive NMS: Refining Pedestrian Detection in a Crowd](https://arxiv.org/abs/1904.03629) [[Notes](./adaptive_nms.md)] <kbd>CVPR 2019 oral</kbd> [crowd detection, NMS]
 - [CrowdDet: Detection in Crowded Scenes: One Proposal, Multiple Predictions](https://arxiv.org/abs/2003.09163) [[Notes](./crowd_det.md)] <kbd>CVPR 2020 oral</kbd> [crowd detection, Megvii]
+- [VG-NMS: Visibility Guided NMS: Efficient Boosting of Amodal Object Detection in Crowded Traffic Scenes](https://arxiv.org/abs/2006.08547) [[Notes](./vg_nms.md)] <kbd>NeurIPS 2019 workshop</kbd> [Crowded scene, NMS, Daimler]
 - [Double Anchor R-CNN for Human Detection in a Crowd](https://arxiv.org/abs/1909.09998) [[Notes](./double_anchor.md)] [head-body bundle]
-
+- [R2-NMS: NMS by Representative Region: Towards Crowded Pedestrian Detection by Proposal Pairing](https://arxiv.org/abs/2003.12729) [[Notes](./r2_nms.md)] <kbd>CVPR 2020</kbd>
 
 #### Notes
 - [浅析经典目标检测评价指标--mmAP（一）](https://zhuanlan.zhihu.com/p/55575423)

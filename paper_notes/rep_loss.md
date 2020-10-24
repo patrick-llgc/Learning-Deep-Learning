@@ -11,7 +11,7 @@ Two issues with crowd occlusion: 1) increases the difficulty of bbox localizatio
 
 Thus the bbox regression with RepLoss is driven by two motivations: attraction by the target and repulsion by other surrounding target (GT) and proposals (pred).
 
-Both [RepLoss](rep_loss.md) and [Occlusion aware R-CNN](orcnn.md) proposes additional penalties to produce more **compact** bounding boxes and become less sensitive to NMS. And also imposes additional penalties to bbox which appear in the middle of the two pedestrians. 
+Both [RepLoss](rep_loss.md) and [AggLoss](agg_loss.md) proposes additional penalties to produce more **compact** bounding boxes and become less sensitive to NMS. And also imposes additional penalties to bbox which appear in the middle of the two pedestrians. 
 
 Visualization before NMS seems to be a powerful debugging tool.
 

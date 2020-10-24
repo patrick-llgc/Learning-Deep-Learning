@@ -7,7 +7,7 @@ tl;dr: Predict the object density (crowdedness) score and use it as adaptive thr
 #### Overall impression
 The paper has a simple intuition: that high NMS threshold keeps more crowded instances while a low NMS threshold wipes out more false positives. The key question is how to predict the crowdedness in inference time? The paper proposes to predict it together with other attributes of bboxes. 
 
-Both [RepLoss](rep_loss.md) and [Occlusion aware R-CNN](orcnn.md) proposes additional penaltiies to produce more compact bounding boxes and become less sensitive to NMS. 
+Both [RepLoss](rep_loss.md) and [AggLoss](agg_loss.md) proposes additional penaltiies to produce more compact bounding boxes and become less sensitive to NMS. 
 
 #### Key ideas
 - Basic hypothesis under NMS and soft-NMS: detection bboxes with higher overlap with bbox of interest M should have a higher likelihood of being FP. This assumption does not hold true in crowded regions. If M is in a crowded region, its highly overlapped neighboring proposals are likely to be TP.
