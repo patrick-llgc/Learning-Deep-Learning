@@ -9,6 +9,8 @@ Formulate the object detection problem as direct set prediction problem. No need
 
 The attention mechanism from Transformer is similar to [Non-local Networks](non_local_net.md). The attention has perfect memory and has same "distance" between any two points in the image.
 
+This paper is extended by [Deformable DETR](deformable_detr.md) to speed up the training of transformers by more than x10. 
+
 #### Key ideas
 - Training:
 	- Two step process. Bipartite matching loss + Prediction loss. (the second term is called "Hungarian loss" which is quite confusing)
@@ -18,7 +20,7 @@ The attention mechanism from Transformer is similar to [Non-local Networks](non_
 - Resizing feature map HxWxd to dx(HW), as a sequence of feature dim d and length of HW. 
 - Object query can be learned with SGD. It is part of the model's weight. It is better to be learned at attention.
 - Decoding output is non-autoregressive parallel decoding (feed previous output to the decoder to get next output).
-- Need extremely long training (300 epochs) to converge, vs 1x = 12 epochs for Faster RCNN.
+- Need extremely long training (300 epochs) to converge, vs 1x = 12 epochs for Faster RCNN. --> This is improved by [Deformable DETR](deformable_detr.md).
 
 #### Technical details
 - Matching loss + Hungarian loss
