@@ -105,13 +105,14 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [R2-NMS: NMS by Representative Region: Towards Crowded Pedestrian Detection by Proposal Pairing](https://arxiv.org/abs/2003.12729) [[Notes](paper_notes/r2_nms.md)] <kbd>CVPR 2020</kbd>
 - [Double Anchor R-CNN for Human Detection in a Crowd](https://arxiv.org/abs/1909.09998) [[Notes](paper_notes/double_anchor.md)] [head-body bundle]
 - [Review: AP vs MR](paper_notes/ap_mr.md)
-- [Precise Detection in Densely Packed Scenes](https://arxiv.org/abs/1904.00853) <kbd>CVPR 2019</kbd> [crowd detection, no occlusion]
+- [SKU110K: Precise Detection in Densely Packed Scenes](https://arxiv.org/abs/1904.00853) [[Notes](paper_notes/sku110k.md)] <kbd>CVPR 2019</kbd> [crowd detection, no occlusion]
+- [GossipNet: Learning non-maximum suppression](https://arxiv.org/abs/1705.02950) <kbd>CVPR 2017</kbd> 
 - [TLL: Small-scale Pedestrian Detection Based on Somatic Topology Localization and Temporal Feature Aggregation](https://arxiv.org/abs/1807.01438) <kbd>ECCV 2018</kbd>
 - [Learning Monocular 3D Vehicle Detection without 3D Bounding Box Labels](https://arxiv.org/abs/2010.03506) <kbd>GCPR 2020<kbd> [mono3D, Daniel Cremers, TUM]
 - [MoNet3D: Towards Accurate Monocular 3D Object Localization in Real Time](https://arxiv.org/abs/2006.16007) <kbd>ICML 2020</kbd> [mono3D]
 - [CubifAE-3D: Monocular Camera Space Cubification on Autonomous Vehicles for Auto-Encoder based 3D Object Detection](https://arxiv.org/abs/2006.04080) [mono3D]
-- [Deformable DETR: Deformable Transformers for End-to-End Object Detection](https://arxiv.org/abs/2010.04159) [Jifeng Dai]
-- [ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://openreview.net/forum?id=YicbFdNTTy) [[Notes](paper_notes/vit.md)] <kbd>ICLR 2020<kbd>
+- [Deformable DETR: Deformable Transformers for End-to-End Object Detection](https://arxiv.org/abs/2010.04159) <kbd>ICLR 2021<kbd> [Jifeng Dai]
+- [ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://openreview.net/forum?id=YicbFdNTTy) [[Notes](paper_notes/vit.md)] <kbd>ICLR 2021<kbd>
 - [BYOL: Bootstrap your own latent: A new approach to self-supervised Learning](https://arxiv.org/abs/2006.07733) [self-supervised]
 - [SAFENet: Self-Supervised Monocular Depth Estimation with Semantic-Aware
 Feature Extraction](https://arxiv.org/abs/2010.02893) [Monodepth, semantics, Naver labs]
