@@ -12,10 +12,14 @@ This is replaced by other SOTA methods in NLP such as BERT.
 Attention, as opposed to memory, has constant length between any two positions. Sometimes attention is said to have "perfect memory".
 
 #### Key ideas
+- Three different types of attention
+	- Self-attention in encoder
+	- Self-attention in decoder
+	- Cross-attention between encoder and decoder
 - Encoder: self-attention + FFN (feed forward network). Dependencies in diff words of input in self-attention layer, but FFN is independent.
 - Decoder: autoregressive. Each step generates one output. 
 - Attention:
-	- Self-attention: **Q, K, V**. K and V is a form of dictionary and a form of memory. Q and K could be the same thing, but not necessarily.
+	- Self-attention: **Q, K, V**. K and V is a form of dictionary and a form of memory. Q and K could be the same thing, but not necessarily. The encoder is essentially building a dictionary. 
 	$$\text{Attention}(Q, K, V) = \text{softmax} (\frac{QK^T}{\sqrt{d_k}}) V$$
 	- (scaled) Dot-product attention. 
 	- Multi-head self-attention: split into parallel heads and embed into diff representation space
@@ -51,8 +55,15 @@ y = torch.bmm(weights, x) # (b, t, k)
 ```
 
 - [Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/)
+- [Yannic Kilcher's video](https://www.youtube.com/watch?v=iDulhoQ2pro)
 - About positional encoding
+	- It is a continuous way to do binary encoding. It is easier for the network to look at different channels and figure out how far away two samples are. [source1](https://youtu.be/iDulhoQ2pro?t=873) and [source2](https://kazemnejad.com/blog/transformer_architecture_positional_encoding/#the-intuition)
 	- [Review blog about positional encoding](https://kazemnejad.com/blog/transformer_architecture_positional_encoding/)
 	- [Reddit post](https://www.reddit.com/r/MachineLearning/comments/cttefo/d_positional_encoding_in_transformer/)
 	- [ipython notebook from Google Research explaining PE](https://github.com/tensorflow/examples/blob/master/community/en/position_encoding.ipynb)
 ![](https://cdn-images-1.medium.com/max/1440/1*Mys02zwgfyISoXAnHjPrcA.png)
+- RNNs:
+	- long path for information flow between encoding and decoding a word
+	- machine translation cannot do 1:1 mapping.
+	- attention helps to pinpoint important bits even across long ranges. It gives decoder a way to directly attend to all input hidden states rather than to go through them one by one.
+	- In RNN, the entire seq-to-seq is one training sample. --> In transformers, every step is one training sample.

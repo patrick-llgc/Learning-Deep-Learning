@@ -2,7 +2,7 @@
 
 _October 2020_
 
-tl;dr: Break images into images patches as visual tokens to leverage the scalability of transformers.
+tl;dr: Break images into 16x16 images patches as visual tokens to leverage the scalability of transformers.
 
 #### Overall impression
 This paper, together with earlier efforts from FAIR [DETR](detr.md) ushers in an new era of the application of [transformers](transformer.md) in CV. 
@@ -20,6 +20,7 @@ However, the splitting of images into patches itself seems to be a kind of induc
 	- Transformer is in a sense a dynamic MLP, where the weights (attention) are generated on the fly.
 
 #### Technical details
+- Each image patch has shape 16x16. Total number can vary.
 - 2D embedding works roughly the same as 1D embedding. Even 1D embedding can learn the 2D image topology row and col wise correlation as visualized in Fig. 7.
 - [class] token in Bert. --> Why do we need this?
 - Note that the transformer encoder can be stacked by layers. Base model has 12 layers, and Huge ViT model has 32 layers. The input are input into the encoder at the same time, not fed autoregressively, like in RNN.
