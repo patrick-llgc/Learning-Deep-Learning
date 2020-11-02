@@ -13,6 +13,8 @@ One main difference between optical flow and depth estimation task is that optic
 
 The idea of encoding motion between two different frames into a latent vector is very similar to PoseNet in [SfM-learner](sfm_learner.md) and [Struct2Depth](struct2depth.md) and more flexible. 
 
+The idea of using geometric pretraining to improve monoDepth or mono3D is similar to [CubifAE-3D](cubifae_3d.md).
+
 #### Key ideas
 - Pretraining Architecture
 	- A conditional encoder-decoder to separate **structure** information and **motion** information

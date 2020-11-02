@@ -9,6 +9,8 @@ Formulate the object detection problem as direct set prediction problem. No need
 
 The attention mechanism from Transformer is similar to [Non-local Networks](non_local_net.md). The attention has perfect memory and has same "distance" between any two points in the image.
 
+Previous methods such as anchor-based or anchor-free, implicitly enables a sorting of GT and prediction. The Hungarian loss used in [DETR](detr.md) eliminates that altogether by comparing loss between two unordered sets. 
+
 This paper is extended by [Deformable DETR](deformable_detr.md) to speed up the training of transformers by more than x10. 
 
 #### Key ideas
