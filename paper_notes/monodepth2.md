@@ -13,6 +13,7 @@ This paper has a very solid code base which has become the foundation of many fu
 - Per pixel min reprojection loss: at each pixel, instead of averaging the reprojection loss, use the min of loss in all the images. This improves the sharpness of occlusion boundaries.
 - Auto-masking stationary pixels. This filters out pixels which do not change appearance from frame to the next. This per pixel mask is calculated in forwarding pass, instead of learned such as in [sfm learner](sfm_learner.md).
 	- This criterion indicates a static camera, or static object (relative to ego), or a low texture region.
+	- This helps solving some of the inf depth issue.
 - Scale back to original scale then do photometric loss calculation. This helps removing holes in large low-texture region. 
 
 #### Technical details

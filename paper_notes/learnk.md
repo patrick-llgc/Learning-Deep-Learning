@@ -10,7 +10,7 @@ Same authors for [Struct2Depth](struct2depth.md). This work eliminates the assum
 This network regresses depth, ego-motion, object motion and camera intrinsics from mono videos. Thus it is named learn-K (intrinsics) --> The idea of regressing intrinsics is similar to [GLNet](glnet.md).
 
 #### Key ideas
-- Estimate each of the intrinsics
+- Estimate each of the intrinsics. It learns four parameters, 2 for optical centers (principal points) and 2 for focal length.
 - Occlusion aware loss (picking the most foreground pixels during photometric loss calculation)
 - Foreground mask to mask out the possible moving objects. 
 - Use a randomized layer optimization (this is quite weird)
