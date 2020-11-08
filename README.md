@@ -97,8 +97,13 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 ## 2020-11 (2)
 - [Unsupervised Monocular Depth Learning in Dynamic Scenes](https://arxiv.org/abs/2010.16404) [[Notes](paper_notes/learn_depth_and_motion.md)] <kbd>CoRL 2020</kbd> [LearnK improved ver, Google]
 - [MoNet3D: Towards Accurate Monocular 3D Object Localization in Real Time](https://arxiv.org/abs/2006.16007) [[Notes](paper_notes/monet3d.md)] <kbd>ICML 2020</kbd> [Mono3D, pairwise relationship]
+- [Argoverse: 3D Tracking and Forecasting with Rich Maps](https://arxiv.org/abs/1911.02620) [[Notes](paper_notes/argoverse.md)] <kbd>CVPR 2019</kbd> [HD maps, dataset, CV lidar]
+- [The H3D Dataset for Full-Surround 3D Multi-Object Detection and Tracking in Crowded Urban Scenes](https://arxiv.org/abs/1903.01568) [[Notes](paper_notes/h3d.md)] <kbd>ICRA 2019</kbd>
 - [Object-Aware Centroid Voting for Monocular 3D Object Detection](https://arxiv.org/abs/2007.09836) <kbd>IROS 2020</kbd> [mono3D]
+- [Towards Fully Autonomous Driving: Systems and Algorithms](https://www.ri.cmu.edu/wp-content/uploads/2017/12/levinson-iv2011.pdf) <kbd>IV 2011</kbd>
 - [Center3D: Center-based Monocular 3D Object Detection with Joint Depth Understanding](https://arxiv.org/abs/2005.13423) [mono3D]
+- [Monocular 3D Object Detection in Cylindrical Images from Fisheye Cameras](https://arxiv.org/abs/2003.03759) [GM Israel, mono3D]
+- [3D-LaneNet+: Anchor Free Lane Detection using a Semi-Local Representation](https://arxiv.org/abs/2011.01535) <kbd>NeurIPS 2020 workshop</kbd> [GM Israel, 3D LLD]
 - [SAFENet: Self-Supervised Monocular Depth Estimation with Semantic-Aware
 Feature Extraction](https://arxiv.org/abs/2010.02893) [Monodepth, semantics, Naver labs]
 - [Toward Interactive Self-Annotation For Video Object Bounding Box: Recurrent Self-Learning And Hierarchical Annotation Based Framework](https://openaccess.thecvf.com/content_WACV_2020/papers/Le_Toward_Interactive_Self-Annotation_For_Video_Object_Bounding_Box_Recurrent_Self-Learning_WACV_2020_paper.pdf) <kbd>WACV 2020</kbd>
@@ -321,7 +326,6 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [MonoLayout: Amodal scene layout from a single image](https://arxiv.org/abs/2002.08394) [[Notes](paper_notes/monolayout.md)] <kbd>WACV 2020</kbd> [BEV-Net]
 - [BEV-Seg: Bird’s Eye View Semantic Segmentation Using Geometry and Semantic Point Cloud](https://arxiv.org/abs/2006.11436) [[Notes](paper_notes/bev_seg.md)] <kbd>CVPR 2020 workshop</kbd> [BEV-Net, Mapping]
 - [A Geometric Approach to Obtain a Bird's Eye View from an Image](https://arxiv.org/abs/1905.02231) <kbd>ICCVW 2019</kbd> [mapping, geometry, Andrew Zisserman]
-- [Argoverse: 3D Tracking and Forecasting with Rich Maps](https://arxiv.org/abs/1911.02620) <kbd>CVPR 2019</kbd> [HD maps, dataset]
 - [FrozenDepth: Learning the Depths of Moving People by Watching Frozen People](https://arxiv.org/abs/1904.11111) [[Notes](paper_notes/frozen_depth.md)] <kbd>CVPR 2019 oral</kbd>
 - [ORB-SLAM: a Versatile and Accurate Monocular SLAM System](https://arxiv.org/abs/1502.00956) <kbd>TRO 2015</kbd>
 - [ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras](https://arxiv.org/abs/1610.06475) <kbd>TRO 2016</kbd>
@@ -813,7 +817,6 @@ Detection with Hierarchical Aggregation](https://arxiv.org/abs/1804.06055) <kbd>
 - [One Thousand and One Hours: Self-driving Motion Prediction Dataset](https://arxiv.org/abs/2006.14480)
 - [PANDA: A Gigapixel-level Human-centric Video Dataset](https://arxiv.org/abs/2003.04852) <kbd>CVPR 2020</kbd>
 - [SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences](https://arxiv.org/abs/1904.01416) <kbd>ICCV 2019</kbd>
-- [The H3D Dataset for Full-Surround 3D Multi-Object Detection and Tracking in Crowded Urban Scenes](https://arxiv.org/abs/1903.01568) <kbd>ICRA 2019</kbd>
 
 ### Unsupervised depth estimation
 - [Sparse and Dense Data with CNNs: Depth Completion and Semantic Segmentation](https://arxiv.org/pdf/1808.00769.pdf) <kbd>3DV 2018</kbd>

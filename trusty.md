@@ -9,6 +9,7 @@
 - [Andreas Geiger](http://www.cvlibs.net/publications.php) [Univ of Tübingen, MPI]
 - [Sudeep Pillai](http://people.csail.mit.edu/spillai/) [Toyota]
 - [Laura Leal-Taixe](https://dvl.in.tum.de/team/lealtaixe/) [TUM]
+- [Bat El Shlomo](https://paperswithcode.com/author/bat-el-shlomo) [GM Israel]
 
 ## Zhihu
 - [黄飘](https://www.zhihu.com/people/huang-piao-72/posts)

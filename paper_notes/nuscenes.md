@@ -15,6 +15,7 @@ The dataset is quite challenging in many aspects:
 - 1000 scenes, each 20 seconds long.
 - Revised mAP (different from KITTI) for 3D OD. 
 	- We use the Average Precision (AP) metric [32, 26], but define a match by thresholding the 2D center distance d on the ground plane instead of intersection over union (IOU). This is done in order to decouple detection from object size and orientation but also because objects with small footprints, like pedestrians and bikes, if detected with a small translation error, give 0 IOU (Figure 7). This makes it hard to compare the performance of vision-only methods which tend to have large localization errors [69].
+	- Same convention is used in [Argoverse](argoverse.md).
 
 #### Technical details
 - Summary of technical details
