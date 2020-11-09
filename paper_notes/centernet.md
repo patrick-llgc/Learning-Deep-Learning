@@ -9,6 +9,12 @@ CenterNet is a very generic object detection framework that can be used for 2D o
 
 [FCOS](fcos.md) regressed distances to four edges, while [CenterNet](centernet.md) only regresses width and height. The [FCOS](fcos.md) formulation is more general as it can handle amodal bbox cases (the object center may not be the center of bbox).
 
+A quick summary of [CenterNet](centernet.md) monocular 3D object detection.
+
+- [CenterNet](centernet.md) predicts 2D bbox center and uses it as 3D bbox center. 
+- [SMOKE](smoke.md) predicts projected 3D bbox center.
+- [KM3D-Net](km3d_net.md) and [Center3D](center3d.md) predict 2D bbox center and offset from projected 3D bbox center. 
+
 
 #### Key ideas
 - Other properties, such as object size, dimension, 3D extent, orientation, and pose are regressed directly from image features at the center location.

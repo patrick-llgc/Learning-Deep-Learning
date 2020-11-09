@@ -20,7 +20,7 @@ This paper also demonstrates **the possibility to directly regress the distance 
 - The 26 numbers can also be trained to fit 3D IoU, but the 26 numbers need to be fitted to a valid 3D bbox online. This requires some complex manipulation of gradient.
 
 #### Technical details
-- All pixels in the support (central 20% of bbox) is responsible for detecting the bounding box sizes. Thus NMS is needed to find local optimum. The 26 numbers (from 26 channels most likely) associated with the local optimum point is used to predict the 3D box. 
+- All pixels in the support (central 20% of bbox) is responsible for detecting the bounding box sizes. Thus NMS is needed to find local optimum. The 26 numbers (from 26 channels most likely) associated with the local optimum point is used to predict the 3D box. --> This is also used in [Center3D](center3d.md).
 
 #### Notes
 - Questions and notes on how to improve/revise the current work  
