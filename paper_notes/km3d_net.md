@@ -15,7 +15,7 @@ This is the currently the SOTA, much better than previous SOTA [M3D-RPN](m3d_rpn
 
 #### Key ideas
 - Architecture
-	- Based on [CenterNet](centernet.md) and [RTM3D](rtm3d.md).
+	- Based on [CenterNet](centernet.md) and [RTM3D](rtm3d.md). Very similar to [SMOKE](smoke.md).
 	- 1 ch for main center (2D bbox center)
 	- 18 = 2 * (8+1) offset from main center
 	- 3 chs for dim
