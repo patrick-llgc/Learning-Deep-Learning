@@ -37,3 +37,9 @@ Stuff that caught my eye:
 
 ## [CVPR 2020](https://www.youtube.com/watch?v=g2R2T631x7k)
 - [link in my Meeting Notes repo](https://github.com/patrick-llgc/MeetingNotes/blob/master/CVPR2020/workshops.md#scalability-in-autonomous-driving-video-on-youtube)
+
+
+## [Pytorch Conf](https://www.youtube.com/watch?v=hx7BXih7zx8)
+- [A very good review blog here](https://phucnsp.github.io/blog/self-taught/2020/04/30/tesla-nn-in-production.html)
+
+## [Tesla Patents](https://patents.google.com/?q=(machine+learning)&assignee=Tesla%2c+Inc.&after=priority:20180101&oq=(machine+learning)+assignee:(Tesla%2c+Inc.)+after:priority:20180101)
