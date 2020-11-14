@@ -21,7 +21,7 @@ This paper is extended by [Deformable DETR](deformable_detr.md) to speed up the 
 - DETR infers a fixed size set of N predictions. Predicts normalized center coordinates wrt the input image. 
 - Resizing feature map HxWxd to dx(HW), as a sequence of feature dim d and length of HW. 
 - **Object query** can be learned with SGD. It is part of the model's weight. It is a bit like PE but not exactly the same. It is essentially training different annotators to pay different part to the image and focus on certain type of bboxes.
-- Decoding output is non-autoregressive parallel decoding (feed previous output to the decoder to get next output).
+- Decoding output is non-autoregressive **parallel** decoding (feed previous output to the decoder to get next output).
 - Need extremely long training (300 epochs) to converge, vs 1x = 12 epochs for Faster RCNN. --> This is improved by [Deformable DETR](deformable_detr.md).
 
 #### Technical details

@@ -9,9 +9,11 @@ This paper is from the same authors for [3D LaneNet](3d_lanenet.md), and improve
 
 The parameterization of the lane lines within each patch is by a polar coordinate (r and $\theta$). The advantage of this approach over directly predicting Cartesian offset from the tile center is unclear. In theory these two representation should be equivalent. 
 
-The main advantage of this paper seems to be the introduction of tiles (2D anchors) as compared to 1D anchors in [3D LaneNet](3d_lanenet.md). This helps the model generalize to more complex topologies in a simpler way. In contrast, [3D LaneNet](3d_lanenet.md) deals with merges and splits with regression of two targets per anchor. 
+The main advantage of this paper seems to be the introduction of tiles (2D anchors) as compared to 1D anchors in [3D LaneNet](3d_lanenet.md). This helps the model generalize to more complex topologies in a simpler way (merges, splits, perpendicular lanes). In contrast, [3D LaneNet](3d_lanenet.md) deals with merges and splits with regression of two targets per anchor. 
 
 The paper also introduced uncertainty estimation. How to use this uncertainty and how did this help with the lane detection is not clear.
+
+This paper is republished as [3D LaneNet+](3d_lanenet+.md) at NeurIPS 2020 workshop.
 
 #### Key ideas
 - Assumes that one image tile only has one lane going through it, and thus only one embedding. (This may have some limitation, as seen in Fig 5 that some lanes are disconnected.)
