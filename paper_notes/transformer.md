@@ -58,6 +58,7 @@ y = torch.bmm(weights, x) # (b, t, k)
 - [Yannic Kilcher's video](https://www.youtube.com/watch?v=iDulhoQ2pro)
 - About positional encoding
 	- It is a continuous way to do binary encoding. It is easier for the network to look at different channels and figure out how far away two samples are. [source1](https://youtu.be/iDulhoQ2pro?t=873) and [source2](https://kazemnejad.com/blog/transformer_architecture_positional_encoding/#the-intuition)
+	- [Review on 知乎Zhihu](https://www.zhihu.com/question/347678607/answer/864217252)
 	- [Review blog about positional encoding](https://kazemnejad.com/blog/transformer_architecture_positional_encoding/)
 	- [Reddit post](https://www.reddit.com/r/MachineLearning/comments/cttefo/d_positional_encoding_in_transformer/)
 	- [ipython notebook from Google Research explaining PE](https://github.com/tensorflow/examples/blob/master/community/en/position_encoding.ipynb)

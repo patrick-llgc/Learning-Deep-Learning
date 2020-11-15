@@ -104,7 +104,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [Center3D: Center-based Monocular 3D Object Detection with Joint Depth Understanding](https://arxiv.org/abs/2005.13423) [[Notes](paper_notes/center3d.md)] [mono3D]
 - [Monocular 3D Object Detection in Cylindrical Images from Fisheye Cameras](https://arxiv.org/abs/2003.03759) [GM Israel, mono3D]
 - [3D-LaneNet+: Anchor Free Lane Detection using a Semi-Local Representation](https://arxiv.org/abs/2011.01535) [[Notes](paper_notes/3d_lanenet+.md)] <kbd>NeurIPS 2020 workshop</kbd> [GM Israel, 3D LLD]
-- [End-to-end Lane Shape Prediction with Transformers](https://arxiv.org/abs/2011.04233) <kbd>WACV 2011</kbd> [LLD, transformers]
+- [LSTR: End-to-end Lane Shape Prediction with Transformers](https://arxiv.org/abs/2011.04233) [[Notes](paper_notes/lstr.md)] <kbd>WACV 2011</kbd> [LLD, transformers]
 - [Towards Lightweight Lane Detection by Optimizing Spatial Embedding](https://arxiv.org/abs/2008.08311) <kbd>ECCV 2020 workshop</kbd>
 - [3DSSD: Point-based 3D Single Stage Object Detector](https://arxiv.org/abs/2002.10187) <kbd>CVPR 2020</kbd>
 - [HDNET: Exploiting HD Maps for 3D Object Detection](http://proceedings.mlr.press/v87/yang18b/yang18b.pdf) <kbd>CoRL 2018</kbd>
@@ -872,8 +872,9 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 
 ### Lane Detection
 - [End-to-end Lane Detection through Differentiable Least-Squares Fitting](https://arxiv.org/abs/1902.00293) <kbd>ICCV 2019</kbd>
-- [Detecting Lane and Road Markings at A Distance with Perspective Transformer Layers](https://arxiv.org/abs/2003.08550)  (3D LLD)
-- [Ultra Fast Structure-aware Deep Lane Detection](https://arxiv.org/abs/2004.11757) [lane detection]
+- [Line-CNN: End-to-End Traffic Line Detection With Line Proposal Unit](https://doi.org/10.1109/TITS.2019.2890870) <kbd>TITS 2019</kbd> [object-like proposals]
+- [Detecting Lane and Road Markings at A Distance with Perspective Transformer Layers](https://arxiv.org/abs/2003.08550) [3D LLD]
+- [Ultra Fast Structure-aware Deep Lane Detection](https://arxiv.org/abs/2004.11757) <kbd>ECCV 2020</kbd> [lane detection]
 - [A Novel Approach for Detecting Road Based on Two-Stream Fusion Fully Convolutional Network](https://ieeexplore.ieee.org/document/8500551/) (convert camera to BEV)
 - [FastDraw: Addressing the Long Tail of Lane Detection by Adapting a Sequential Prediction Network](https://arxiv.org/abs/1905.04354)
 
