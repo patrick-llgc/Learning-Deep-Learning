@@ -107,6 +107,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [LSTR: End-to-end Lane Shape Prediction with Transformers](https://arxiv.org/abs/2011.04233) [[Notes](paper_notes/lstr.md)] <kbd>WACV 2011</kbd> [LLD, transformers]
 - [Towards Lightweight Lane Detection by Optimizing Spatial Embedding](https://arxiv.org/abs/2008.08311) <kbd>ECCV 2020 workshop</kbd>
 - [3DSSD: Point-based 3D Single Stage Object Detector](https://arxiv.org/abs/2002.10187) <kbd>CVPR 2020</kbd>
+- [PIXOR: Real-time 3D Object Detection from Point Clouds](https://arxiv.org/pdf/1902.06326.pdf) [[Notes](paper_notes/pixor.md)] <kbd>CVPR 2018</kbd> (birds eye view)
 - [HDNET: Exploiting HD Maps for 3D Object Detection](http://proceedings.mlr.press/v87/yang18b/yang18b.pdf) <kbd>CoRL 2018</kbd>
 - [Corner Proposal Network for Anchor-free, Two-stage Object Detection](https://arxiv.org/abs/2007.13816) <kbd>ECCV 2020</kbd> [anchor free, two stage]
 - [NYC3DCars: A Dataset of 3D Vehicles in Geographic Context](https://www.cs.cornell.edu/~snavely/publications/papers/nyc3dcars_iccv13.pdf) <kbd>ICCV 2013</kbd>
@@ -227,7 +228,7 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [Monodepth, semantics, Nav
 - [DF-Net: Unsupervised Joint Learning of Depth and Flow using Cross-Task Consistency](https://arxiv.org/abs/1809.01649) <kbd>ECCV 2018</kbd>
 - [LineNet: a Zoomable CNN for Crowdsourced High Definition Maps Modeling in Urban Environments](https://arxiv.org/abs/1807.05696) [mapping]
 - [Road-SLAM: Road Marking based SLAM with Lane-level Accuracy](https://www.naverlabs.com/img/autonomousDriving/intelligence/dissertation/Road-SLAM_Road%20Marking%20based%20SLAM%20with%20Lane-level%20Accuracy.pdf) [[Notes](paper_notes/road_slam.md)] [HD mapping]
-- [AVP-SLAM: Semantic Visual Mapping and Localization for Autonomous Vehicles in the Parking Lot](https://arxiv.org/abs/2007.01813) [[Notes](paper_notes/avp_slam.md)] <kbd>IROS 2020</kbd> [Huawei, HD mapping, Tong Qin, VINS author]
+- [AVP-SLAM: Semantic Visual Mapping and Localization for Autonomous Vehicles in the Parking Lot](https://arxiv.org/abs/2007.01813) [[Notes](paper_notes/avp_slam.md)] <kbd>IROS 2020</kbd> [Huawei, HD mapping, Tong Qin, VINS author, autonomous valet parking]
 - [AVP-SLAM-Late-Fusion: Mapping and Localization using Semantic Road Marking with Centimeter-level Accuracy in Indoor Parking Lots](https://ieeexplore.ieee.org/abstract/document/8917529) [[Notes](paper_notes/avp_slam_late_fusion.md)] <kbd>ITSC 2019</kbd>
 - [Lane markings-based relocalization on highway](https://ieeexplore.ieee.org/abstract/document/8917254) <kbd>ITSC 2019</kbd>
 - [DeepRoadMapper: Extracting Road Topology from Aerial Images](https://openaccess.thecvf.com/content_ICCV_2017/papers/Mattyus_DeepRoadMapper_Extracting_Road_ICCV_2017_paper.pdf) [[Notes](paper_notes/deep_road_mapper.md)] <kbd>ICCV 2017</kbd> [Uber ATG, NOT HD maps]
@@ -845,7 +846,6 @@ Detection with Hierarchical Aggregation](https://arxiv.org/abs/1804.06055) <kbd>
 
 
 ### 3DOD with lidar
-- [PIXOR: Real-time 3D Object Detection from Point Clouds](https://arxiv.org/pdf/1902.06326.pdf) <kbd>CVPR 2018</kbd> (birds eye view)
 - [PointSIFT: A SIFT-like Network Module for 3D Point Cloud Semantic Segmentation](https://arxiv.org/pdf/1807.00652.pdf) (pointnet alternative, backbone)
 - [Vehicle Detection from 3D Lidar Using Fully Convolutional Network](https://arxiv.org/pdf/1608.07916.pdf) (VeloFCN) <kbd>RSS 2016</kbd> 
 - [KPConv: Flexible and Deformable Convolution for Point Clouds](https://arxiv.org/abs/1904.08889) (from the authors of PointNet)

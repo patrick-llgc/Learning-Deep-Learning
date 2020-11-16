@@ -16,7 +16,7 @@ I feel the authors started with a RV-based lidar detector, but only added probab
 #### Key ideas
 - Predict a bbox per point. This is similar to the idea of [Point RCNN](point_rcnn.md). 
 - Model a **multimodal** distribution with a mixture model (Laplacian) for cars (3 modes). This essentially has 3 mean and 3 std. During training only the most likely distribution gets updated. This is similar to training anchors. 
-- Detection on RV leads to computational efficiency (natively dense) and it can reach 30 ms, or only 12 ms forward only. ([PointPillars](point_pillars.md) reaches 115 Hz).
+- Detection on RV leads to computational efficiency (natively dense) and it can reach 30 ms, or only 12 ms forward only. (Not that fast as compared to the contemporary [PointPillars](point_pillars.md) reaches 115 Hz).
 - Probabilistic object detectors are harder to train. On KITTI the calibration curve looks bad, and only on ATG4D (Uber's proprietary dataset, about 100 times larger) the detector learns a good calibration curve and beats other SOTA methods. 
 
 
