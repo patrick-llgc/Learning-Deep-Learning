@@ -31,7 +31,7 @@ The semantic BEV map prediction need to fuse predictions from all cameras into a
 - Frustum pooling via cumsum trick (integral image)
 	- Sum pooling (avg pooling) can be sped up with integral image. So ideally faster than max pooling.
 - Robust training
-	- Camera dropout during training adds to the robustness 
+	- Camera dropout during training adds to the robustness --> similar to the input dropout of HD maps of [PIXOR++](pixor++.md).
 	- Training with noisy extrinsics leads to more robust network against calibration noise
 
 #### Notes

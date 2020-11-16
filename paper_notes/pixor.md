@@ -5,11 +5,11 @@ _November 2020_
 tl;dr: Voxelize point cloud into 3D occupancy grid for lidar 3D object detection.
 
 #### Overall impression
-The paper has a super simple architecture for lidar-only 3D object detection in BEV (3D object localization).
+The paper has a super simple architecture for lidar-only 3D object detection in BEV (3D object localization). This representation is also used in [PIXOR++](pixor++.md) and [FaF](faf.md).
 
 The paper reminds me of the wave of anchor free papers in 2019Q1 such as [CenterNet](centernet.md) and [FCOS](fcos.md). Note that PIXOR still uses decoded box based NMS.
 
-After two years in publication, it is still one of the fastest lidar object detection model out there.
+After two years in publication, it is still one of the fastest lidar object detection model out there (33 Hz). It is further improved in [PIXOR++](pixor++.md).
 
 This paper is from Uber's Toronto team, and is superseded by [LaserNet](lasernet.md), also from Uber but from the Pittsburg team. 
 
