@@ -22,3 +22,4 @@ The idea of using semantic segmentation to bridge the sim2real gap is explored i
 #### Notes
 - The BEV feature map has the same shape as the input feature map. --> Why is this necessary?
 - How was the fusion of feature map done?
+- [Review from 1st author on Zhihu](https://mp.weixin.qq.com/s/8jltlOnAxK1EqxYCsJHErA)
