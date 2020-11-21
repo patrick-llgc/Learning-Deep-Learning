@@ -9,7 +9,16 @@ This paper is from the 1st author of [VoxelNet](voxelnet.md).
 
 Both [VoxelNet](voxelnet.md) and [PointPillars](point_pillars.md) uses [PointNet](pointnet.md) to learn point embeddings, and generate pseudo-3D volume or pseudo-2D image to use 3D and 2D convolution. This paper improves the point embedding process by aggregating multiple views, and is a plug-and-play module that can be integrated into pointpillars. 
 
+Note that both [PointPillars](point_pillars.md) and the successor [MVF](mvf.md) are both still using anchors for prediction. The entire procedure is not well described. See [Pillar OD](pillar_od.md) for a better description.
+
 #### Key ideas
+- Multiview architecture
+	- Voxelize points in BEV or spherical view or cylindrical view to pillars.
+	- Extract pillar features.
+	- Project pillar features to points with nearest neighbor or bilinear interpolation and concat to point features. 
+	- Transform point features to BEV
+	- Detection backbone + head
+![](https://miro.medium.com/max/942/0*dzktcm4hQwKh1oup.png)
 - **Dynamic voxelization**: instead of having a fixed array (K max voxel x T max point per voxel x F feat dim), it maintains a dictionary of the point-voxel relationship. 
 	- The points in each dynamic voxel (having varying num of points) are aggregated into a fixed length feature by maxPooling, similar to PointNet. 
 	- This avoid info loss and saves memory

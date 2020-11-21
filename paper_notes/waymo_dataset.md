@@ -28,7 +28,9 @@ This paper has a good review of all recently released datasets (Argo, [nuScenes]
 	- Cross domain learning: train on suburban/urban and test on urban/suburban areas. 
 	
 #### Technical details
-
+- Two levels of labels: 
+	- LEVEL 2 to examples where either the labeler annotates as hard or if the example has ≤ 5LiDAR points. 
+	- the rest of the examples are assigned to LEVEL 1.
 
 #### Notes
 - [SemanticKITTI](semantic_kitti.md) provides point level segmentation.

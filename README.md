@@ -54,7 +54,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 
 
 
-## 2020-11 (12)
+## 2020-11 (13)
 - [Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036) [[Notes](paper_notes/scaled_yolov4.md)] [yolo]
 - [Unsupervised Monocular Depth Learning in Dynamic Scenes](https://arxiv.org/abs/2010.16404) [[Notes](paper_notes/learn_depth_and_motion.md)] <kbd>CoRL 2020</kbd> [LearnK improved ver, Google]
 - [MoNet3D: Towards Accurate Monocular 3D Object Localization in Real Time](https://arxiv.org/abs/2006.16007) [[Notes](paper_notes/monet3d.md)] <kbd>ICML 2020</kbd> [Mono3D, pairwise relationship]
@@ -94,7 +94,7 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [MiDas: Towards Robust Monocular Depth Estimation: Mixing Datasets for Zero-shot Cross-dataset Transfer](https://arxiv.org/abs/1907.01341) [monodepth, dynamic object, synthetic dataset]
 - [Semantics-Driven Unsupervised Learning for Monocular Depth and Ego-Motion Estimation](https://arxiv.org/abs/2006.04371) [monodepth]
 - [MVF: End-to-End Multi-View Fusion for 3D Object Detection in LiDAR Point Clouds](https://arxiv.org/abs/1910.06528) [[Notes](paper_notes/mvf.md)] <kbd>CoRL 2019</kbd> [Waymo, VoxelNet 1st author]
-- [Pillar-based Object Detection for Autonomous Driving](https://arxiv.org/abs/2007.10323) <kbd>ECCV 2020</kbd>
+- [Pillar-based Object Detection for Autonomous Driving](https://arxiv.org/abs/2007.10323) [[Notes](paper_notes/pillar_od.md)] <kbd>ECCV 2020</kbd>
 - [Training-Time-Friendly Network for Real-Time Object Detection](https://arxiv.org/abs/1909.00700) <kbd>AAAI 2020</kbd> [anchor-free, fast training]
 - [Autonomous Driving with Deep Learning: A Survey of State-of-Art Technologies](https://arxiv.org/abs/2006.06091) [Review of autonomous stack, Yu Huang]
 - [Dense Monocular Depth Estimation in Complex Dynamic Scenes](https://openaccess.thecvf.com/content_cvpr_2016/papers/Ranftl_Dense_Monocular_Depth_CVPR_2016_paper.pdf) <kbd>CVPR 2016</kbd>

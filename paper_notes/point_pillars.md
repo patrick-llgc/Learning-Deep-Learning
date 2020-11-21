@@ -7,6 +7,8 @@ tl;dr: Group lidar data into pillars and encode them with pointnet to form a 2D 
 #### Overall impression
 This paper follows the line of work of [VoxelNet](voxelnet.md) and [SECOND](second.md) and improves the encoding methods. Both voxelnet and SECOND encode point cloud into 3D voxels and uses expensive 3D convolution. The main contribution of this paper lies in that it encodes ("sacrifices") the information of the relatively unimportant dimension of z into different channels of the 2D pseudo image. This greatly boosts the inference.
 
+Note that both [PointPillars](point_pillars.md) and the successor [MVF](mvf.md) are both still using anchors for prediction.
+
 #### Key ideas
 - PointPillars operates on pillars instead of voxels and eliminates the need to tune binning of the vertical direction by hand. All operation on the pillars are 2D conv, which can be highly optimized on GPU.
 - The sparsity of point cloud bird's eye view is exploited by fixed number of non-empty pillars per sample (P=12000) and number of points per pillar (N=100). This creates a tensor of (D, P, N). D=9 is the dimension of the augmented ("decorated") lidar point (x, y, z, reflectance r, center of mass of all points in the pillar xc, yc, zc, offset form xc and yc, xp and yp).
