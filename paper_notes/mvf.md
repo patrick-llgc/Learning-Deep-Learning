@@ -5,6 +5,8 @@ _November 2020_
 tl;dr: Improve point embedding with dynamic voxelization and multiview fusion.
 
 #### Overall impression
+This paper is from the 1st author of [VoxelNet](voxelnet.md).
+
 Both [VoxelNet](voxelnet.md) and [PointPillars](point_pillars.md) uses [PointNet](pointnet.md) to learn point embeddings, and generate pseudo-3D volume or pseudo-2D image to use 3D and 2D convolution. This paper improves the point embedding process by aggregating multiple views, and is a plug-and-play module that can be integrated into pointpillars. 
 
 #### Key ideas
@@ -19,7 +21,10 @@ Both [VoxelNet](voxelnet.md) and [PointPillars](point_pillars.md) uses [PointNet
 #### Technical details
 - Dynamic voxelization can bring some KPI improvement (avoid info loss), but multiview fusion brings much more. 
 - The lookup table is not readily available and need customized implementation of CUDA kernel to reach good speed. 
+- This may not have constant runtime as it is based on the number of points in the frame. 
 
 #### Notes
-- Questions and notes on how to improve/revise the current work  
+- [Review on 知乎](https://zhuanlan.zhihu.com/p/90039244)
+- Why voxelization in spherical view helps?
+	- 一般的voxel问题是在远处稀疏切割时，因为点已经很稀疏了，还是拿原size进行切割，常常会有过度分割的问题，导致voxel feature提取的也不是很好，如果能透过Frustum在远处进行较大的voxel切割，则能有效的提升远处voxel feature的问题，也因此本文透过融合两种角度voxel进行实验， 也证明了确实有效。
 
