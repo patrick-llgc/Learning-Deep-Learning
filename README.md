@@ -56,6 +56,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 
 ## 2020-11 (14)
 - [Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036) [[Notes](paper_notes/scaled_yolov4.md)] [yolo]
+- [PP-YOLO: An Effective and Efficient Implementation of Object Detector](https://arxiv.org/abs/2007.12099) [yolo, paddle-paddle, baidu]
 - [Unsupervised Monocular Depth Learning in Dynamic Scenes](https://arxiv.org/abs/2010.16404) [[Notes](paper_notes/learn_depth_and_motion.md)] <kbd>CoRL 2020</kbd> [LearnK improved ver, Google]
 - [MoNet3D: Towards Accurate Monocular 3D Object Localization in Real Time](https://arxiv.org/abs/2006.16007) [[Notes](paper_notes/monet3d.md)] <kbd>ICML 2020</kbd> [Mono3D, pairwise relationship]
 - [Argoverse: 3D Tracking and Forecasting with Rich Maps](https://arxiv.org/abs/1911.02620) [[Notes](paper_notes/argoverse.md)] <kbd>CVPR 2019</kbd> [HD maps, dataset, CV lidar]
@@ -82,6 +83,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Driving among Flatmobiles: Bird-Eye-View occupancy grids from a monocular camera for holistic trajectory planning](https://arxiv.org/abs/2008.04047) [BEV]
 - [Rethinking Classification and Localization for Object Detection](https://arxiv.org/abs/1904.06493) <kbd>CVPR 2020</kbd>
 - [Visual SLAM for Automated Driving: Exploring the Applications of Deep Learning](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/Milz_Visual_SLAM_for_CVPR_2018_paper.pdf)
+- [Estimating Drivable Collision-Free Space from Monocular Video](http://www.cs.toronto.edu/~yaojian/freeSpace.pdf) <kbd>WACV 2015</kbd> [Drivable space]
 - [Visualization of Convolutional Neural Networks for Monocular Depth Estimation](https://arxiv.org/abs/1904.03380) <kbd>ICCV 2019</kbd> [monodepth]
 - [Differentiable Rendering: A Survey](https://arxiv.org/abs/2006.12057) [differentiable rendering, TRI]
 - [SAFENet: Self-Supervised Monocular Depth Estimation with Semantic-Aware

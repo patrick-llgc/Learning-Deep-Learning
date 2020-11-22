@@ -20,7 +20,7 @@ Three key improvements based on [MVF](mvf.md). The ablation studies in this pape
 	- Anchor free avoids complicated anchor matching strategy.
 	- Ablation studies show that anchor-based < point-based << pillar-based.
 - **Cylindrical view**: height z, azimuth angle, radial distance. The radial distance is treated as channels. 
-	- Cylindrical view is better than spherical view as the vehicle size for distant cars are not distorted. Distant cars appears smaller in spherical view but the same in cylindrical view. 
+	- Cylindrical view is better than spherical view as the vehicle size for distant cars are not distorted. Distant cars appears smaller in spherical view but the same in cylindrical view. --> [LaserNet](lasernet.md) uses a range view (RV) which is very similar to spherical view. The original [MVF](mvf.md) is also a spherical view. 
 - **Bilinear upsampling** when transferring pillar features to point. 
 	- This avoids the spatial inconsistency and dependency of quantization into diff bins. 
 	- Bilinear interpolation is better than nearest neighbor. This observation is consistent with the comparison between RoIAlign with RoIPooling.

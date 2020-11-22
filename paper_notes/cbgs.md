@@ -24,7 +24,7 @@ The class balanced sampling and class-grouped heads are useful to handle imbalan
 - Fit ground plane and plant GT back in.
 - Bag of tricks
 	- Accumulate 10 frames (0.5 seconds) to form a dense lidar BEV
-	- AdamW + 1 cycle LR
+	- AdamW + [One cycle policy](https://sgugger.github.io/the-1cycle-policy.html)
 
 #### Technical details
 - Regress vx and vy. If bicycle speed is above a certain thresh, then it is with rider. 

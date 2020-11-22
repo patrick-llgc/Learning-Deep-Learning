@@ -25,6 +25,7 @@ Note that both [PointPillars](point_pillars.md) and the successor [MVF](mvf.md) 
 
 #### Technical details
 - A lidar robotics pipeline uses a bottom up approach involving BG subtraction, spatiotemporal clustering and classification.
+- Voxel/pillar size: 0.16m x 0.16m.
 - A common way to process point cloud is to project it to regular 2D grid from bird's eye view. [MV3D](mv3d.md) and [AVOD](avod.md) relies on fixed feature extractors. VoxelNet is the first end-to-end method to learn features in each voxel bin of a point cloud. SECOND improves upon VoxelCloud and speeds up the inference. 
 - The point cloud is a sparse representation and an image is dense. Bird's eye view is extremely sparse, but also creates opportunities for extreme speedup.
 - Lidar point cloud not in the FOV of camera is discarded.

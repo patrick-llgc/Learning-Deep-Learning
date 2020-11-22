@@ -21,6 +21,10 @@ I feel the authors started with a RV-based lidar detector, but only added probab
 
 
 #### Technical details
+- Range view: lidar produces a cylindrical range image. This is very similar to the spherical view. --> See [pillar OD](pillar_od.md) for cylindrical view which is an improvement over this.
+	- rows: laser id (elevation)
+	- cols: azimuth
+	- depth: r
 - Mean shift clustering
 	- mean and std are averaged with others that are grouped into the same cluster by mean shift clustering.
 - Adaptive NMS: a bit like soft NMS. Instead of hard suppressing, increase the uncertainty std (similar to soft NMS which suppresses the confidence score)
