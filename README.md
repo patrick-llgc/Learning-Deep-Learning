@@ -119,9 +119,14 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Pseudo RGB-D for Self-Improving Monocular SLAM and Depth Prediction](https://arxiv.org/abs/2004.10681) <kbd>ECCV 2020</kbd>
 - [Traffic Light Mapping and Detection](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37259.pdf) <kbd>ICRA 2011</kbd> [traffic light]
 - [Traffic Light Mapping, Localization, and State Detection for Autonomous Vehicles](http://driving.stanford.edu/papers/ICRA2011.pdf) <kbd>ICRA 2011</kbd> [traffic light]
+- [Evaluating State-of-the-art Object Detector on Challenging Traffic Light Data](https://openaccess.thecvf.com/content_cvpr_2017_workshops/w9/papers/Jensen_Evaluating_State-Of-The-Art_Object_CVPR_2017_paper.pdf) <kbd>CVPR 2017 workshop</kbd>
 - [Traffic light recognition in varying illumination using deep learning and saliency map](https://www.researchgate.net/profile/Vijay_John3/publication/265014373_Traffic_Light_Recognition_in_Varying_Illumination_using_Deep_Learning_and_Saliency_Map/links/56aac00408ae8f3865666102.pdf) <kbd>ITSC 2014</kbd> [traffic light]
-- [Traffic light recognition exploiting map and localization at every stage](https://web.yonsei.ac.kr/jksuhr/papers/Traffic%20light%20recognition%20exploiting%20map%20and%20localization%20at%20every%20stage.pdf) <kbd>Expert Systems 2017</kbd>
+- [Traffic light recognition exploiting map and localization at every stage](https://web.yonsei.ac.kr/jksuhr/papers/Traffic%20light%20recognition%20exploiting%20map%20and%20localization%20at%20every%20stage.pdf) [[Notes](paper_notes/tfl_exploting_map.md)] <kbd>Expert Systems 2017</kbd> [traffic light, 鲜于明镐，徐在圭，郑浩奇]
+- [Traffic Light Recognition Using Deep Learning and Prior Maps for Autonomous Cars](https://arxiv.org/abs/1906.11886) [[Notes](paper_notes/tfl_lidar_map_building.md)] <kbd> IJCNN 2019</kbd> [traffic light, Espirito Santo Brazil]
+- [Traffic light recognition using high-definition map features](https://sci-hub.st/https://www.sciencedirect.com/science/article/abs/pii/S0921889018301234) <kbd>RAS 2019</kbd>
 - [Vision for Looking at Traffic Lights: Issues, Survey, and Perspectives](http://cvrr.ucsd.edu/publications/2016/trafficSignalsITSTrans2016.pdf) <kbd>TITS 2015</kbd>
+- [Lane Endpoint Detection and Position Accuracy Evaluation for Sensor Fusion-Based Vehicle Localization on Highways](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6308985/) <kbd>Sensors 2018</kbd> [lane endpoints]
+- [Map-Matching-Based Cascade Landmark Detection and Vehicle Localization](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8826538) <kbd>IEEE Access 2019</kbd> [lane endpoints]
 - [GCNet: End-to-End Learning of Geometry and Context for Deep Stereo Regression](https://arxiv.org/abs/1703.04309) <kbd>ICCV 2017</kbd> [disparity estimation, Alex Kendall, cost volume]
 - [Traffic Control Gesture Recognition for Autonomous Vehicles](https://arxiv.org/abs/2007.16072) <kbd>IROS 2020</kbd> [Daimler]
 - [Perceiving 3D Human-Object Spatial Arrangements from a Single Image in the Wild](https://arxiv.org/abs/2007.15649) <kbd>ECCV 2020</kbd>
@@ -137,7 +142,8 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Multi-Task Learning for Dense Prediction Tasks: A Survey](https://arxiv.org/abs/2004.13379) [MTL, Luc Van Gool]
 - [Dynamic Task Weighting Methods for Multi-task Networks in Autonomous Driving Systems](https://arxiv.org/abs/2001.02223) <kbd>ITSC 2020 oral</kbd> [MTL]
 - [NeurAll: Towards a Unified Model for Visual Perception in Automated Driving](https://arxiv.org/abs/1902.03589) <kbd>ITSC 2019 oral</kbd> [MTL]
-
+- [Locating Objects Without Bounding Boxes](Locating Objects Without Bounding Boxes) <kbd>CVPR 2019</kbd>
+- [Deep Evidential Regression](https://papers.nips.cc/paper/2020/file/aab085461de182608ee9f607f3f7d18f-Paper.pdf) <kbd>NeurIPS 2020</kbd>
 
 ## 2020-10 (14)
 - [TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383) [[Notes](paper_notes/tsm.md)] <kbd>ICCV 2019</kbd> [Song Han, video, object detection]
@@ -370,7 +376,7 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [Rethinking ImageNet Pre-training](https://arxiv.org/abs/1811.08883) [[Notes](paper_notes/rethinking_pretraining.md)] <kbd>ICCV 2019</kbd> [Kaiming He]
 - [UnsuperPoint: End-to-end Unsupervised Interest Point Detector and Descriptor](https://arxiv.org/abs/1907.04011) [[Notes](paper_notes/unsuperpoint.md)] [superpoint]
 - [KP2D: Neural Outlier Rejection for Self-Supervised Keypoint Learning](https://arxiv.org/abs/1912.10615) [[Notes](paper_notes/kp2d.md)] <kbd>ICLR 2020</kbd> (pointNet)
-- [KP3D: Self-Supervised 3D Keypoint Learning for Ego-motion Estimation](https://arxiv.org/abs/1912.03426) [[Notes](paper_notes/kp3d.md)] [Toyota, superpoint]
+- [KP3D: Self-Supervised 3D Keypoint Learning for Ego-motion Estimation](https://arxiv.org/abs/1912.03426) [[Notes](paper_notes/kp3d.md)] <kbd>CoRL 2020</kbd> [Toyota, superpoint]
 - [NG-RANSAC: Neural-Guided RANSAC: Learning Where to Sample Model Hypotheses](https://arxiv.org/abs/1905.04132) [[Notes](paper_notes/ng_ransac.md)] <kbd>ICCV 2019</kbd> [pointNet]
 - [Learning to Find Good Correspondences](https://arxiv.org/abs/1711.05971) [[Notes](paper_notes/learning_correspondence.md)] <kbd>CVPR 2018 Oral</kbd> (pointNet)
 - [RefinedMPL: Refined Monocular PseudoLiDAR for 3D Object Detection in Autonomous Driving](https://arxiv.org/abs/1911.09712) [[Notes](paper_notes/refined_mpl.md)] [Huawei, Mono3D]
@@ -793,6 +799,13 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [Learning Multi-Object Tracking and Segmentation from Automatic Annotations](https://arxiv.org/abs/1912.02096) <kbd>CVPR 2020</kbd> [automatic MOTS annotation]
 
 
+### Traffic light and traffic sign
+- [Traffic-Sign Detection and Classification in the Wild](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Zhu_Traffic-Sign_Detection_and_CVPR_2016_paper.pdf) <kbd>CVPR 2016</kbd> [Tsinghua, Tencent]
+- [A Hierarchical Deep Architecture and Mini-Batch Selection Method For Joint
+Traffic Sign and Light Detection](https://arxiv.org/abs/1806.07987) <kbd>IEEE CRV 2018</kbd> [U torronto]
+- [Detecting Traffic Lights by Single Shot Detection](https://arxiv.org/abs/1805.02523) <kbd>ITSC 2018</kbd>
+- [DeepTLR: A single Deep Convolutional Network for Detection and Classification of Traffic Lights](https://sci-hub.st/10.1109/IVS.2016.7535408) <kbd>IV 2016</kbd>
+
 ### Datasets and Surveys
 - [The DriveU Traffic Light Dataset: Introduction and Comparison with Existing Datasets](https://ieeexplore.ieee.org/document/8460737) <kbd>ICRA 2018</kbd> 
 - [The Oxford Radar RobotCar Dataset: A Radar Extension to the Oxford RobotCar Dataset](https://arxiv.org/abs/1909.01300)
@@ -846,7 +859,8 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 - [Probabilistic Semantic Mapping for Urban Autonomous Driving Applications](https://arxiv.org/abs/2006.04894) <kbd>IROS 2020</kbd> [lidar mapping]
 - [RandLA-Net: Efficient Semantic Segmentation of Large-Scale Point Clouds](https://arxiv.org/abs/1911.11236) <kbd>CVPR 2020 oral</kbd> [lidar segmentation]
 - [PolarNet: An Improved Grid Representation for Online LiDAR Point Clouds Semantic Segmentation](https://arxiv.org/abs/2003.14032) <kbd>CVPR 2020</kbd> [lidar segmentation]
-
+- [OctSqueeze: Octree-Structured Entropy Model for LiDAR Compression](https://arxiv.org/abs/2005.07178) <kbd>CVPR 2020 oral</kbd> [lidar compression]
+- [MuSCLE: Multi Sweep Compression of LiDAR using Deep Entropy Models](https://arxiv.org/abs/2011.07590) <kbd>NeurIPS 2020 oral</kbd> [lidar compression]
 
 ### Egocentric bbox prediction
 - [Long-Term On-Board Prediction of People in Traffic Scenes under Uncertainty](https://arxiv.org/abs/1711.09026) <kbd>CVPR 2018</kbd> [on-board bbox prediction]
