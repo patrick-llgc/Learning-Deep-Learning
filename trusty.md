@@ -22,3 +22,4 @@
 
 ## Others
 - [Arxiv sanity](http://www.arxiv-sanity.com/search?q=autonomous+driving)
+- [A first glimpse into Autonomous driving's technical stack](https://autonomous-driving.org/front/resources/)

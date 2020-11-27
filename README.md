@@ -6,13 +6,14 @@ This repository contains my paper reading notes on deep learning and machine lea
 ## Summary of Topics
 The summary of the papers read in 2019 can be found [here on Towards Data Science](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3).
 
-The sections below records paper reading activity in chronological order. See notes organized according to subfields [here](organized.md) (up to 06-2019).
+The sections below records paper reading activity in chronological order.
 
 ## What to read
-### Source of papers
+### Where to start?
+If you are new to deep learning in computer vision and don't know where to start, I suggest you spend your first month or so dive deep into [this list of papers](start/first_cnn_papers.md). I did so ([see my notes](start/first_cnn_papers_notes.md)) and it served me well.
+
 Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out of papers to read.
 
-The list of resource in this [link](https://autonomous-driving.org/front/resources/) talks about various topics in Autonomous Driving.
 
 ### Github repos
 - [MMAction2](https://github.com/open-mmlab/mmaction2) [268 stars]
@@ -32,7 +33,6 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [ORB SLAM2](https://github.com/raulmur/ORB_SLAM2) and [Docker version](https://github.com/yuyou/ORB_SLAM2#build-docker-image)
 - [PySLAM v2](https://github.com/luigifreda/pyslam)
 
-
 ### Youtube channels
 - [Modern C++ for computer vision](https://www.youtube.com/playlist?list=PLgnQpQtFTOGR50iIOtO36nK6aNPtVq98C)
 - [SLAM by Cyrill Stachniss](https://www.youtube.com/playlist?list=PLgnQpQtFTOGQrZ4O5QzbIHgl3b1JHimN_)
@@ -41,6 +41,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 - [Andrej Karpathy's Talks](./talk_notes/andrej.md)
 
 ## My Review Posts by Topics
+- [Object detection in crowded scenes](??) ([related paper notes](topic_crowd_detection.md))
 - [Monocular Bird’s-Eye-View Semantic Segmentation for Autonomous Driving](https://towardsdatascience.com/monocular-birds-eye-view-semantic-segmentation-for-autonomous-driving-ee2f771afb59)
 - [Deep Learning in Mapping for Autonomous Driving](https://towardsdatascience.com/deep-learning-in-mapping-for-autonomous-driving-9e33ee951a44)
 - [Monocular Dynamic Object SLAM in Autonomous Driving](https://towardsdatascience.com/monocular-dynamic-object-slam-in-autonomous-driving-f12249052bf1)
@@ -57,6 +58,7 @@ The list of resource in this [link](https://autonomous-driving.org/front/resourc
 ## 2020-11 (16)
 - [Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036) [[Notes](paper_notes/scaled_yolov4.md)] [yolo]
 - [PP-YOLO: An Effective and Efficient Implementation of Object Detector](https://arxiv.org/abs/2007.12099) [yolo, paddle-paddle, baidu]
+- [Sparse R-CNN: End-to-End Object Detection with Learnable Proposals](https://arxiv.org/abs/2011.12450) [Transformer head]
 - [Unsupervised Monocular Depth Learning in Dynamic Scenes](https://arxiv.org/abs/2010.16404) [[Notes](paper_notes/learn_depth_and_motion.md)] <kbd>CoRL 2020</kbd> [LearnK improved ver, Google]
 - [MoNet3D: Towards Accurate Monocular 3D Object Localization in Real Time](https://arxiv.org/abs/2006.16007) [[Notes](paper_notes/monet3d.md)] <kbd>ICML 2020</kbd> [Mono3D, pairwise relationship]
 - [Argoverse: 3D Tracking and Forecasting with Rich Maps](https://arxiv.org/abs/1911.02620) [[Notes](paper_notes/argoverse.md)] <kbd>CVPR 2019</kbd> [HD maps, dataset, CV lidar]
@@ -117,10 +119,10 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [VDO-SLAM: A Visual Dynamic Object-aware SLAM System](https://arxiv.org/abs/2005.11052) <kbd>IJRR 2020</kbd>
 - [Dynamic SLAM: The Need For Speed](https://arxiv.org/abs/2002.08584)
 - [Pseudo RGB-D for Self-Improving Monocular SLAM and Depth Prediction](https://arxiv.org/abs/2004.10681) <kbd>ECCV 2020</kbd>
-- [Traffic Light Mapping and Detection](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37259.pdf) [[Notes](paper_notes/tfl_mapping_google.md)] <kbd>ICRA 2011</kbd> [traffic light, Google]
+- [Traffic Light Mapping and Detection](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37259.pdf) [[Notes](paper_notes/tfl_mapping_google.md)] <kbd>ICRA 2011</kbd> [traffic light, Google, Chris Urmson]
+- [Traffic Light Mapping, Localization, and State Detection for Autonomous Vehicles](http://driving.stanford.edu/papers/ICRA2011.pdf) <kbd>ICRA 2011</kbd> [traffic light, Sebastian Thrun]
 - [Traffic light recognition exploiting map and localization at every stage](https://web.yonsei.ac.kr/jksuhr/papers/Traffic%20light%20recognition%20exploiting%20map%20and%20localization%20at%20every%20stage.pdf) [[Notes](paper_notes/tfl_exploting_map.md)] <kbd>Expert Systems 2017</kbd> [traffic light, 鲜于明镐，徐在圭，郑浩奇]
 - [Traffic Light Recognition Using Deep Learning and Prior Maps for Autonomous Cars](https://arxiv.org/abs/1906.11886) [[Notes](paper_notes/tfl_lidar_map_building.md)] <kbd> IJCNN 2019</kbd> [traffic light, Espirito Santo Brazil]
-- [Traffic Light Mapping, Localization, and State Detection for Autonomous Vehicles](http://driving.stanford.edu/papers/ICRA2011.pdf) <kbd>ICRA 2011</kbd> [traffic light]
 - [Evaluating State-of-the-art Object Detector on Challenging Traffic Light Data](https://openaccess.thecvf.com/content_cvpr_2017_workshops/w9/papers/Jensen_Evaluating_State-Of-The-Art_Object_CVPR_2017_paper.pdf) <kbd>CVPR 2017 workshop</kbd>
 - [Traffic light recognition in varying illumination using deep learning and saliency map](https://www.researchgate.net/profile/Vijay_John3/publication/265014373_Traffic_Light_Recognition_in_Varying_Illumination_using_Deep_Learning_and_Saliency_Map/links/56aac00408ae8f3865666102.pdf) <kbd>ITSC 2014</kbd> [traffic light]
 - [Traffic light recognition using high-definition map features](https://sci-hub.st/https://www.sciencedirect.com/science/article/abs/pii/S0921889018301234) <kbd>RAS 2019</kbd>
@@ -144,6 +146,8 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [NeurAll: Towards a Unified Model for Visual Perception in Automated Driving](https://arxiv.org/abs/1902.03589) <kbd>ITSC 2019 oral</kbd> [MTL]
 - [Locating Objects Without Bounding Boxes](Locating Objects Without Bounding Boxes) <kbd>CVPR 2019</kbd>
 - [Deep Evidential Regression](https://papers.nips.cc/paper/2020/file/aab085461de182608ee9f607f3f7d18f-Paper.pdf) <kbd>NeurIPS 2020</kbd> [one-pass aleatoric/epistemic uncertainty]
+- [Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection](https://arxiv.org/abs/2011.12885) [focal loss]
+- [Rethinking Transformer-based Set Prediction for Object Detection](https://arxiv.org/abs/2011.10881) [transformers, Kris Kitani]
 
 ## 2020-10 (14)
 - [TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383) [[Notes](paper_notes/tsm.md)] <kbd>ICCV 2019</kbd> [Song Han, video, object detection]
