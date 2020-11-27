@@ -117,12 +117,12 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [VDO-SLAM: A Visual Dynamic Object-aware SLAM System](https://arxiv.org/abs/2005.11052) <kbd>IJRR 2020</kbd>
 - [Dynamic SLAM: The Need For Speed](https://arxiv.org/abs/2002.08584)
 - [Pseudo RGB-D for Self-Improving Monocular SLAM and Depth Prediction](https://arxiv.org/abs/2004.10681) <kbd>ECCV 2020</kbd>
-- [Traffic Light Mapping and Detection](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37259.pdf) <kbd>ICRA 2011</kbd> [traffic light]
+- [Traffic Light Mapping and Detection](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37259.pdf) [[Notes](paper_notes/tfl_mapping_google.md)] <kbd>ICRA 2011</kbd> [traffic light, Google]
+- [Traffic light recognition exploiting map and localization at every stage](https://web.yonsei.ac.kr/jksuhr/papers/Traffic%20light%20recognition%20exploiting%20map%20and%20localization%20at%20every%20stage.pdf) [[Notes](paper_notes/tfl_exploting_map.md)] <kbd>Expert Systems 2017</kbd> [traffic light, 鲜于明镐，徐在圭，郑浩奇]
+- [Traffic Light Recognition Using Deep Learning and Prior Maps for Autonomous Cars](https://arxiv.org/abs/1906.11886) [[Notes](paper_notes/tfl_lidar_map_building.md)] <kbd> IJCNN 2019</kbd> [traffic light, Espirito Santo Brazil]
 - [Traffic Light Mapping, Localization, and State Detection for Autonomous Vehicles](http://driving.stanford.edu/papers/ICRA2011.pdf) <kbd>ICRA 2011</kbd> [traffic light]
 - [Evaluating State-of-the-art Object Detector on Challenging Traffic Light Data](https://openaccess.thecvf.com/content_cvpr_2017_workshops/w9/papers/Jensen_Evaluating_State-Of-The-Art_Object_CVPR_2017_paper.pdf) <kbd>CVPR 2017 workshop</kbd>
 - [Traffic light recognition in varying illumination using deep learning and saliency map](https://www.researchgate.net/profile/Vijay_John3/publication/265014373_Traffic_Light_Recognition_in_Varying_Illumination_using_Deep_Learning_and_Saliency_Map/links/56aac00408ae8f3865666102.pdf) <kbd>ITSC 2014</kbd> [traffic light]
-- [Traffic light recognition exploiting map and localization at every stage](https://web.yonsei.ac.kr/jksuhr/papers/Traffic%20light%20recognition%20exploiting%20map%20and%20localization%20at%20every%20stage.pdf) [[Notes](paper_notes/tfl_exploting_map.md)] <kbd>Expert Systems 2017</kbd> [traffic light, 鲜于明镐，徐在圭，郑浩奇]
-- [Traffic Light Recognition Using Deep Learning and Prior Maps for Autonomous Cars](https://arxiv.org/abs/1906.11886) [[Notes](paper_notes/tfl_lidar_map_building.md)] <kbd> IJCNN 2019</kbd> [traffic light, Espirito Santo Brazil]
 - [Traffic light recognition using high-definition map features](https://sci-hub.st/https://www.sciencedirect.com/science/article/abs/pii/S0921889018301234) <kbd>RAS 2019</kbd>
 - [Vision for Looking at Traffic Lights: Issues, Survey, and Perspectives](http://cvrr.ucsd.edu/publications/2016/trafficSignalsITSTrans2016.pdf) <kbd>TITS 2015</kbd>
 - [Lane Endpoint Detection and Position Accuracy Evaluation for Sensor Fusion-Based Vehicle Localization on Highways](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6308985/) <kbd>Sensors 2018</kbd> [lane endpoints]
@@ -143,7 +143,7 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Dynamic Task Weighting Methods for Multi-task Networks in Autonomous Driving Systems](https://arxiv.org/abs/2001.02223) <kbd>ITSC 2020 oral</kbd> [MTL]
 - [NeurAll: Towards a Unified Model for Visual Perception in Automated Driving](https://arxiv.org/abs/1902.03589) <kbd>ITSC 2019 oral</kbd> [MTL]
 - [Locating Objects Without Bounding Boxes](Locating Objects Without Bounding Boxes) <kbd>CVPR 2019</kbd>
-- [Deep Evidential Regression](https://papers.nips.cc/paper/2020/file/aab085461de182608ee9f607f3f7d18f-Paper.pdf) <kbd>NeurIPS 2020</kbd>
+- [Deep Evidential Regression](https://papers.nips.cc/paper/2020/file/aab085461de182608ee9f607f3f7d18f-Paper.pdf) <kbd>NeurIPS 2020</kbd> [one-pass aleatoric/epistemic uncertainty]
 
 ## 2020-10 (14)
 - [TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383) [[Notes](paper_notes/tsm.md)] <kbd>ICCV 2019</kbd> [Song Han, video, object detection]
@@ -186,7 +186,7 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [MPV-Nets: Monocular Plan View Networks for Autonomous Driving](https://arxiv.org/abs/1905.06937) [[Notes](paper_notes/mpv_nets.md)] <kbd>IROS 2019</kbd> [BEV-Net]
 - [Class-Balanced Loss Based on Effective Number of Samples](https://arxiv.org/abs/1901.05555) [[Notes](paper_notes/class_balanced_loss.md)] <kbd>CVPR 2019</kbd> [Focal loss authors]
 - [Geometric Pretraining for Monocular Depth Estimation](http://lewissoft.com/pdf/ICRA2020/0035.pdf) [[Notes](paper_notes/geometric_pretraining.md)] <kbd>ICRA 2020</kbd>
-- [Robust Traffic Light and Arrow Detection Using Digital Map with Spatial Prior Information for Automated Driving](https://www.mdpi.com/1424-8220/20/4/1181) [[Notes](paper_notes/robust_tfl_japan.md)] <kbd>Sensors 2020</kbd> [traffic light, Google]
+- [Robust Traffic Light and Arrow Detection Using Digital Map with Spatial Prior Information for Automated Driving](https://www.mdpi.com/1424-8220/20/4/1181) [[Notes](paper_notes/robust_tfl_japan.md)] <kbd>Sensors 2020</kbd> [traffic light, 金沢]
 
 
 ## 2020-08 (26)
