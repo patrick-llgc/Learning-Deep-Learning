@@ -3,10 +3,6 @@ This repository contains my paper reading notes on deep learning and machine lea
 
 **New year resolution for 2020: read at least three paper a week and a high a high quality github repo a month!**
 
-## Summary of Topics
-The summary of the papers read in 2019 can be found [here on Towards Data Science](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3).
-
-The sections below records paper reading activity in chronological order.
 
 ## What to read
 ### Where to start?
@@ -41,6 +37,8 @@ Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out o
 - [Andrej Karpathy's Talks](./talk_notes/andrej.md)
 
 ## My Review Posts by Topics
+I regularly update [my blog in Toward Data Science](https://medium.com/@patrickllgc).
+
 - [Object detection in crowded scenes](??) ([related paper notes](topic_crowd_detection.md))
 - [Monocular Bird’s-Eye-View Semantic Segmentation for Autonomous Driving](https://towardsdatascience.com/monocular-birds-eye-view-semantic-segmentation-for-autonomous-driving-ee2f771afb59)
 - [Deep Learning in Mapping for Autonomous Driving](https://towardsdatascience.com/deep-learning-in-mapping-for-autonomous-driving-9e33ee951a44)
@@ -52,8 +50,7 @@ Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out o
 - [Convolutional Neural Networks with Heterogeneous Metadata](https://towardsdatascience.com/convolutional-neural-networks-with-heterogeneous-metadata-2af9241218a9)
 - [Lifting 2D object detection to 3D in autonomous driving](https://towardsdatascience.com/geometric-reasoning-based-cuboid-generation-in-monocular-3d-object-detection-5ee2996270d1)
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
-
-
+- [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
 ## 2020-11 (16)
 - [Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036) [[Notes](paper_notes/scaled_yolov4.md)] [yolo]
