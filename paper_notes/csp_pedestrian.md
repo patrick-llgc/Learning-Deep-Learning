@@ -1,4 +1,4 @@
-# [High-level Semantic Feature Detection: A New Perspective for Pedestrian Detection](https://arxiv.org/pdf/1904.02948.pdf) (center and scale prediction)
+# [High-level Semantic Feature Detection: A New Perspective for Pedestrian Detection](https://arxiv.org/abs/1904.02948) (center and scale prediction)
 
 _April 2019_
 

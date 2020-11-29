@@ -19,7 +19,7 @@ Visualization before NMS seems to be a powerful debugging tool.
 - Occlusion: inter-class and intra-class. Intra-class occlusion is also named crowd occlusion, which happens when an object is occluded by objects of the same category.
 - Repulsion terms: 
 	- **RepGT**: Intersection over GT (to avoid prediction from cheating by increasing pred bbox) with smooth ln loss from [UnitBox](https://arxiv.org/abs/1608.01471). It penalizes overlap with non-target GT object. 
-	- **RepBox**: the IoU region between two predicted bboxes with different designated targets needs to be small. This means the predicted bboes with diff regression targets are more likely to be merged into one after NMS. 
+	- **RepBox**: encourages that the IoU region between two predicted bboxes with different designated targets needs to be small. This means the predicted bboxes with diff regression targets are less likely to be merged into one after NMS. 
 - The selection of IoU or IoG is due to their boundedness within [0, 1]. 
 - Smooth ln loss: more robust to outliers. 
 	- pred bboxes are much denser than the GT boxes, a pair of two pred bboxes are more likely to have a larger overlap than a pair of one predicted box and one GT box. Thus RepBox is more likely to have outliers than in RepGT.

@@ -11,7 +11,7 @@ Both [RepLoss](rep_loss.md) and [AggLoss](agg_loss.md) proposes additional penal
 
 #### Key ideas
 - **AggLoss**
-	- for GT subset associated with more than one anchor, enforce SL1 loss between the avg prediction of the anchors and the corresponding GT.
+	- If one GT bbox is associated with more than one anchors, encourages the prediction from all these anchors to be the same. It enforces SL1 loss between the avg prediction of the anchors and the corresponding GT. --> There seems to be something wrong in the paper's formulation. Shouldn't this be taking the avg of the abs (~SL1 loss) of the diff, rather than taking abs of the avg diff?
 - **PORoI** (Part occlusion aware RoI pooling)
 	- A part based model: inductive bias to introduce prior structure information of human body with visible prediction into the network.
 	- The human body is divided into 5 parts, and each region U is compared with the visible region of bbox (V) to find IoU (intersection over U) to generate a binary visibility score. 

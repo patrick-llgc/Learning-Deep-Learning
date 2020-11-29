@@ -8,7 +8,7 @@ tl;dr: Predict both full bbox and visible region and use visible region for NMS.
 This paper resembles that of [Visibility guided NMS](vg_nms.md), which focuses on crowd vehicle detection. The contribution of this paper is the introduction of the PPFE (paired proposal feature extractor) module. This takes the feature aggregation in [Double Anchor](double_anchor.md) to a new level.
 
 #### Key ideas
-- Visible parts of pedestrians by definition **suffer much less from occlusio**n, a relative low IoU thresh sufficiently removes the redundant bboxes locating the same pedestrian, and meanwhile avoids the large number of FP. --> This has the same motivation as [Double Anchor](double_anchor.md).
+- Visible parts of pedestrians by definition **suffer much less from occlusion**, a relative low IoU thresh sufficiently removes the redundant bboxes locating the same pedestrian, and meanwhile avoids the large number of FP. --> This has the same motivation as [Double Anchor](double_anchor.md).
 	- The IoU between visible regions of two bboxes is a better indicator showing if two full body bboxes belong to the same pedestrian. 
 - The visible bbox and full bbox have high overlaps and is not as different as head-body bboxes, and thus can more reliably get regressed from the same anchor, as compared to [Double Anchor](double_anchor.md).
 - NPM (Native pair model) + PPFE (paired proposal feature extractor / feature aggregator) = PBM (paired box model).

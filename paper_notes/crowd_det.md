@@ -16,7 +16,7 @@ Current works are either too complex or less effective for handling highly overl
 #### Key ideas
 - Multiple instance prediction: The prediction of nearby proposals are expected to infer the **same set of instances**, rather than distinguishing individuals. 
 	- Some cases are inherently difficult and ambiguous to detect and differentiate such as ◩ or ◪. 
-	- this also greatly eases the learning ini crowded scene. 
+	- this also greatly eases the learning in crowded scene. 
 	- Each anchor predicts K (K=2) bboxes. When K=1, CrowdDet reduces to normal object detection.
 - EMD (earth mover's distance) loss
 	- For all permutaions of matching, select the best matching one with smallest loss

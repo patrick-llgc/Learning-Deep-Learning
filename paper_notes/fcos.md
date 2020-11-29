@@ -1,4 +1,4 @@
-# [FCOS: Fully Convolutional One-Stage Object Detection](https://arxiv.org/pdf/1904.01355.pdf)
+# [FCOS: Fully Convolutional One-Stage Object Detection](https://arxiv.org/abs/1904.01355)
 
 _June 2019_
 

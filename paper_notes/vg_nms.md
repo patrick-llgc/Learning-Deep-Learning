@@ -1,4 +1,4 @@
-# [Visibility Guided NMS: Efficient Boosting of Amodal Object Detection in Crowded Traffic Scenes](https://ml4ad.github.io/files/papers/Visibility%20Guided%20NMS:%20Efficient%20Boosting%20of%20Amodal%20Object%20Detection%20in%20Crowded%20Traffic%20Scenes.pdf)
+# [Visibility Guided NMS: Efficient Boosting of Amodal Object Detection in Crowded Traffic Scenes](https://arxiv.org/abs/2006.08547)
 
 _June 2020_
 
@@ -14,7 +14,7 @@ This is very similar to [R2 NMS](r2_nms.md) in CVPR 2020, which focuses on crowd
 #### Key ideas
 - Training object detector with 4 additional attributes. Thus it predicts both the visible part (pixel-based bbox) and the entire object (amodal bbox).
 - VG-NMS: NMS is performed on the pixel-based bbox that describe the actually visible parts but output the amodal bboxes that belong to the indices that rare retained during pixel-based NMS.
-- Pixel based modal bbox can be generated from segmentation mask or ordered amodal bbox. 
+- Pixel based modal bbox can be generated from segmentation mask. --> Or they could be generated from the ordering of amodal bbox based on geometric priors. For example, bbox with large ymax is closer to camera.
 
 #### Technical details
 - **don't care** objects: KITTI ignore 25x25 pixels, and cityscape ignore 10x10 pixels. 
