@@ -45,6 +45,7 @@ The iterative head design is quite inefficient in capturing the context and rela
 - Stage increase saturates around stage 6. The iterative heads gradually refines box and removes duplicate ones. 
 
 #### Notes
+- [Code on github](https://github.com/PeizeSun/SparseR-CNN)
 - The Sparse RCNN paper is not very well written. Luckily the first author clarified most of the important details in [Zhihu知乎](https://zhuanlan.zhihu.com/p/310058362). 
 - The proposal can be seen as an averaged GT distribution. This should be improved to be data dependent, and the authors are working on a v2 of Sparse RCNN. The authors also argue that a reasonable statistic can already be qualified candidates. Maybe this is similar to the FoI classifier in [TSP-FCOS](tsp.md).
 
