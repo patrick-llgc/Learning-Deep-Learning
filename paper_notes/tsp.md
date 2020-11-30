@@ -19,7 +19,7 @@ A standard 36 epochs (3x schedule) can yield a SOTA object detector.
 
 > Object detection is essentially a set prediction problem, as the ordering of the predicted objects is not required. Most modern object detectors uses a **detect-and-merge** strategy, and makes predictions on a set of dense priors. The dense priors makes NMS necessary. The detection model is trained agnostically wrt the merging step, so the optimization is not end-to-end and arguably sub-optimal.
 > 
-> DETR removes the handcrafted parts such as dense prior design, GT assignment and NMS postprocessing.
+> DETR removes the handcrafted parts such as dense prior design, many-to-one label assignment problem and NMS postprocessing.
 >
 > DETR removes the necessity of NMS as self-attention component can learn to remove duplicated detection. The Hungarian loss encourages one target per object in the bipartite matching. 
 
