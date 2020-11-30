@@ -55,8 +55,8 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 ## 2020-11 (16)
 - [Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036) [[Notes](paper_notes/scaled_yolov4.md)] [yolo]
 - [PP-YOLO: An Effective and Efficient Implementation of Object Detector](https://arxiv.org/abs/2007.12099) [yolo, paddle-paddle, baidu]
-- [Sparse R-CNN: End-to-End Object Detection with Learnable Proposals](https://arxiv.org/abs/2011.12450) [Transformer head]
-- [Rethinking Transformer-based Set Prediction for Object Detection](https://arxiv.org/abs/2011.10881) [transformers, Kris Kitani]
+- [TSP: Rethinking Transformer-based Set Prediction for Object Detection](https://arxiv.org/abs/2011.10881) [[Notes](paper_notes/tsp.md)] [DETR, transformers, Kris Kitani]
+- [Sparse R-CNN: End-to-End Object Detection with Learnable Proposals](https://arxiv.org/abs/2011.12450) [DETR, Transformer]
 - [UP-DETR: Unsupervised Pre-training for Object Detection with Transformers](https://arxiv.org/abs/2011.09094) [transformers]
 - [Unsupervised Monocular Depth Learning in Dynamic Scenes](https://arxiv.org/abs/2010.16404) [[Notes](paper_notes/learn_depth_and_motion.md)] <kbd>CoRL 2020</kbd> [LearnK improved ver, Google]
 - [MoNet3D: Towards Accurate Monocular 3D Object Localization in Real Time](https://arxiv.org/abs/2006.16007) [[Notes](paper_notes/monet3d.md)] <kbd>ICML 2020</kbd> [Mono3D, pairwise relationship]
@@ -166,7 +166,7 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [TLL: Small-scale Pedestrian Detection Based on Somatic Topology Localization and Temporal Feature Aggregation](https://arxiv.org/abs/1807.01438) <kbd>ECCV 2018</kbd>
 - [Learning Monocular 3D Vehicle Detection without 3D Bounding Box Labels](https://arxiv.org/abs/2010.03506) <kbd>GCPR 2020<kbd> [mono3D, Daniel Cremers, TUM]
 - [CubifAE-3D: Monocular Camera Space Cubification on Autonomous Vehicles for Auto-Encoder based 3D Object Detection](https://arxiv.org/abs/2006.04080) [[Notes](paper_notes/cubifae_3d.md)] [mono3D, depth AE pretraining]
-- [Deformable DETR: Deformable Transformers for End-to-End Object Detection](https://arxiv.org/abs/2010.04159) [[Notes](paper_notes/deformable_detr.md)] <kbd>ICLR 2021<kbd> [Jifeng Dai]
+- [Deformable DETR: Deformable Transformers for End-to-End Object Detection](https://arxiv.org/abs/2010.04159) [[Notes](paper_notes/deformable_detr.md)] <kbd>ICLR 2021<kbd> [Jifeng Dai, DETR]
 - [ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://openreview.net/forum?id=YicbFdNTTy) [[Notes](paper_notes/vit.md)] <kbd>ICLR 2021<kbd>
 - [BYOL: Bootstrap your own latent: A new approach to self-supervised Learning](https://arxiv.org/abs/2006.07733) [self-supervised]
 

@@ -9,6 +9,13 @@ Issues with [DETR](detr.md): long training epochs to converge and low performanc
 
 Deformable DETR first reduces computation by attending to only a small set of key sampling points around a reference. It then uses multi-scale deformable attention module to aggregate multi-scale features (without FPN) to help small object detection.
 
+There are several papers on improving the training speed of [DETR](detr.md).
+
+- [Deformable DETR](deformable_detr.md): sparse attention
+- [TSP](tsp.md): sparse attention
+- [Sparse RCNN](sparse_rcnn.md): sparse proposal and iterative refinement
+
+
 #### Key ideas
 - Efficient Attention
 	- Pre-defined sparse attention patterns. 
