@@ -53,10 +53,11 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
 ## 2020-12 (0)
-- [Traffic Light Mapping, Localization, and State Detection for Autonomous Vehicles](http://driving.stanford.edu/papers/ICRA2011.pdf) <kbd>ICRA 2011</kbd> [traffic light, Sebastian Thrun]
+- [Traffic Light Mapping, Localization, and State Detection for Autonomous Vehicles](http://driving.stanford.edu/papers/ICRA2011.pdf) [[Notes](paper_notes/tfl_stanford.md)] <kbd>ICRA 2011</kbd> [traffic light, Sebastian Thrun]
 - [Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection](https://arxiv.org/abs/2011.12885) [focal loss]
 - [Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036) [[Notes](paper_notes/scaled_yolov4.md)] [yolo]
 - [PP-YOLO: An Effective and Efficient Implementation of Object Detector](https://arxiv.org/abs/2007.12099) [yolo, paddle-paddle, baidu]
+- [RegNet: Designing Network Design Spaces](https://arxiv.org/abs/2003.13678) <kbd>CVPR 2020</kbd> [FAIR]
 - [Lane Endpoint Detection and Position Accuracy Evaluation for Sensor Fusion-Based Vehicle Localization on Highways](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6308985/) <kbd>Sensors 2018</kbd> [lane endpoints]
 - [Map-Matching-Based Cascade Landmark Detection and Vehicle Localization](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8826538) <kbd>IEEE Access 2019</kbd> [lane endpoints]
 - [GCNet: End-to-End Learning of Geometry and Context for Deep Stereo Regression](https://arxiv.org/abs/1703.04309) <kbd>ICCV 2017</kbd> [disparity estimation, Alex Kendall, cost volume]
@@ -143,8 +144,8 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Dynamic SLAM: The Need For Speed](https://arxiv.org/abs/2002.08584)
 - [Pseudo RGB-D for Self-Improving Monocular SLAM and Depth Prediction](https://arxiv.org/abs/2004.10681) <kbd>ECCV 2020</kbd>
 - [Traffic Light Mapping and Detection](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37259.pdf) [[Notes](paper_notes/tfl_mapping_google.md)] <kbd>ICRA 2011</kbd> [traffic light, Google, Chris Urmson]
-- [Traffic light recognition exploiting map and localization at every stage](https://web.yonsei.ac.kr/jksuhr/papers/Traffic%20light%20recognition%20exploiting%20map%20and%20localization%20at%20every%20stage.pdf) [[Notes](paper_notes/tfl_exploting_map.md)] <kbd>Expert Systems 2017</kbd> [traffic light, 鲜于明镐，徐在圭，郑浩奇]
-- [Traffic Light Recognition Using Deep Learning and Prior Maps for Autonomous Cars](https://arxiv.org/abs/1906.11886) [[Notes](paper_notes/tfl_lidar_map_building.md)] <kbd> IJCNN 2019</kbd> [traffic light, Espirito Santo Brazil]
+- [Traffic light recognition exploiting map and localization at every stage](https://web.yonsei.ac.kr/jksuhr/papers/Traffic%20light%20recognition%20exploiting%20map%20and%20localization%20at%20every%20stage.pdf) [[Notes](paper_notes/tfl_exploting_map_korea.md)] <kbd>Expert Systems 2017</kbd> [traffic light, 鲜于明镐，徐在圭，郑浩奇]
+- [Traffic Light Recognition Using Deep Learning and Prior Maps for Autonomous Cars](https://arxiv.org/abs/1906.11886) [[Notes](paper_notes/tfl_lidar_map_building_brazil.md)] <kbd> IJCNN 2019</kbd> [traffic light, Espirito Santo Brazil]
 
 
 ## 2020-10 (14)
@@ -188,7 +189,7 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [MPV-Nets: Monocular Plan View Networks for Autonomous Driving](https://arxiv.org/abs/1905.06937) [[Notes](paper_notes/mpv_nets.md)] <kbd>IROS 2019</kbd> [BEV-Net]
 - [Class-Balanced Loss Based on Effective Number of Samples](https://arxiv.org/abs/1901.05555) [[Notes](paper_notes/class_balanced_loss.md)] <kbd>CVPR 2019</kbd> [Focal loss authors]
 - [Geometric Pretraining for Monocular Depth Estimation](http://lewissoft.com/pdf/ICRA2020/0035.pdf) [[Notes](paper_notes/geometric_pretraining.md)] <kbd>ICRA 2020</kbd>
-- [Robust Traffic Light and Arrow Detection Using Digital Map with Spatial Prior Information for Automated Driving](https://www.mdpi.com/1424-8220/20/4/1181) [[Notes](paper_notes/robust_tfl_japan.md)] <kbd>Sensors 2020</kbd> [traffic light, 金沢]
+- [Robust Traffic Light and Arrow Detection Using Digital Map with Spatial Prior Information for Automated Driving](https://www.mdpi.com/1424-8220/20/4/1181) [[Notes](paper_notes/tfl_robust_japan.md)] <kbd>Sensors 2020</kbd> [traffic light, 金沢]
 
 
 ## 2020-08 (26)
