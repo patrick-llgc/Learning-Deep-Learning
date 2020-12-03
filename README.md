@@ -52,9 +52,49 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2020-11 (19)
+## 2020-12 (0)
+- [Traffic Light Mapping, Localization, and State Detection for Autonomous Vehicles](http://driving.stanford.edu/papers/ICRA2011.pdf) <kbd>ICRA 2011</kbd> [traffic light, Sebastian Thrun]
+- [Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection](https://arxiv.org/abs/2011.12885) [focal loss]
 - [Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036) [[Notes](paper_notes/scaled_yolov4.md)] [yolo]
 - [PP-YOLO: An Effective and Efficient Implementation of Object Detector](https://arxiv.org/abs/2007.12099) [yolo, paddle-paddle, baidu]
+- [Lane Endpoint Detection and Position Accuracy Evaluation for Sensor Fusion-Based Vehicle Localization on Highways](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6308985/) <kbd>Sensors 2018</kbd> [lane endpoints]
+- [Map-Matching-Based Cascade Landmark Detection and Vehicle Localization](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8826538) <kbd>IEEE Access 2019</kbd> [lane endpoints]
+- [GCNet: End-to-End Learning of Geometry and Context for Deep Stereo Regression](https://arxiv.org/abs/1703.04309) <kbd>ICCV 2017</kbd> [disparity estimation, Alex Kendall, cost volume]
+- [Traffic Control Gesture Recognition for Autonomous Vehicles](https://arxiv.org/abs/2007.16072) <kbd>IROS 2020</kbd> [Daimler]
+- [Perceiving 3D Human-Object Spatial Arrangements from a Single Image in the Wild](https://arxiv.org/abs/2007.15649) <kbd>ECCV 2020</kbd>
+- [OrcVIO: Object residual constrained Visual-Inertial Odometry](https://arxiv.org/abs/2007.15107) [dynamic SLAM, very mathematical]
+- [Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking](https://arxiv.org/abs/2007.14557) <kbd>ECCV 2020 spotlight</kbd> [MOT, Tencent]
+- [Towards Real-Time Multi-Object Tracking](https://arxiv.org/abs/1909.12605) <kbd>ECCV 2020</kbd> [MOT]
+- [InfoFocus: 3D Object Detection for Autonomous Driving with Dynamic Information Modeling](https://arxiv.org/abs/2007.08556) <kbd>ECCV 2020</kbd>
+- [DA4AD: End-to-End Deep Attention-based Visual Localization for Autonomous Driving](https://arxiv.org/abs/2003.03026) <kbd>ECCV 2020</kbd>
+- [Towards Lightweight Lane Detection by Optimizing Spatial Embedding](https://arxiv.org/abs/2008.08311) <kbd>ECCV 2020 workshop</kbd> [LLD]
+- [Multi-Frame to Single-Frame: Knowledge Distillation for 3D Object Detection](https://arxiv.org/abs/2009.11859) <kbd>ECCV 2020 workshop</kbd> [lidar]
+- [DeepIM: Deep iterative matching for 6d pose estimation](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yi_Li_DeepIM_Deep_Iterative_ECCV_2018_paper.pdf) <kbd>ECCV 2018</kbd> [pose estimation]
+- [Monocular Depth Prediction through Continuous 3D Loss](https://arxiv.org/abs/2003.09763) <kbd>IROS 2020</kbd>
+- [Multi-Task Learning for Dense Prediction Tasks: A Survey](https://arxiv.org/abs/2004.13379) [MTL, Luc Van Gool]
+- [Dynamic Task Weighting Methods for Multi-task Networks in Autonomous Driving Systems](https://arxiv.org/abs/2001.02223) <kbd>ITSC 2020 oral</kbd> [MTL]
+- [NeurAll: Towards a Unified Model for Visual Perception in Automated Driving](https://arxiv.org/abs/1902.03589) <kbd>ITSC 2019 oral</kbd> [MTL]
+- [Locating Objects Without Bounding Boxes](https://arxiv.org/abs/1806.07564) <kbd>CVPR 2019</kbd>
+- [Deep Evidential Regression](https://papers.nips.cc/paper/2020/file/aab085461de182608ee9f607f3f7d18f-Paper.pdf) <kbd>NeurIPS 2020</kbd> [one-pass aleatoric/epistemic uncertainty]
+- [Estimating Drivable Collision-Free Space from Monocular Video](http://www.cs.toronto.edu/~yaojian/freeSpace.pdf) <kbd>WACV 2015</kbd> [Drivable space]
+- [Visualization of Convolutional Neural Networks for Monocular Depth Estimation](https://arxiv.org/abs/1904.03380) <kbd>ICCV 2019</kbd> [monodepth]
+- [Differentiable Rendering: A Survey](https://arxiv.org/abs/2006.12057) [differentiable rendering, TRI]
+- [SAFENet: Self-Supervised Monocular Depth Estimation with Semantic-Aware
+Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Naver labs]
+- [Toward Interactive Self-Annotation For Video Object Bounding Box: Recurrent Self-Learning And Hierarchical Annotation Based Framework](https://openaccess.thecvf.com/content_WACV_2020/papers/Le_Toward_Interactive_Self-Annotation_For_Video_Object_Bounding_Box_Recurrent_Self-Learning_WACV_2020_paper.pdf) <kbd>WACV 2020</kbd>
+- [Towards Good Practice for CNN-Based Monocular Depth Estimation](http://openaccess.thecvf.com/content_WACV_2020/papers/Fang_Towards_Good_Practice_for_CNN-Based_Monocular_Depth_Estimation_WACV_2020_paper.pdf) <kbd>WACV 2020</kbd>
+- [Self-Supervised Scene De-occlusion](https://arxiv.org/abs/2004.02788) <kbd>CVPR 2020 oral</kbd>
+- [TP-LSD: Tri-Points Based Line Segment Detector](https://arxiv.org/abs/2009.05505)
+- [Data Distillation: Towards Omni-Supervised Learning](https://arxiv.org/abs/1712.04440) <kbd>CVPR 2018</kbd> [Kaiming He, FAIR]
+- [MiDas: Towards Robust Monocular Depth Estimation: Mixing Datasets for Zero-shot Cross-dataset Transfer](https://arxiv.org/abs/1907.01341) [monodepth, dynamic object, synthetic dataset]
+- [Semantics-Driven Unsupervised Learning for Monocular Depth and Ego-Motion Estimation](https://arxiv.org/abs/2006.04371) [monodepth]
+- [Towards Lightweight Lane Detection by Optimizing Spatial Embedding](https://arxiv.org/abs/2008.08311) <kbd>ECCV 2020 workshop</kbd>
+- [Synthetic-to-Real Domain Adaptation for Lane Detection](https://arxiv.org/abs/2007.04023) [GM Israel, LLD]
+- [PolyLaneNet: Lane Estimation via Deep Polynomial Regression](https://arxiv.org/abs/2004.10924) <kbd>ICPR 2020</kbd> [polynomial, LLD]
+- [3DSSD: Point-based 3D Single Stage Object Detector](https://arxiv.org/abs/2002.10187) <kbd>CVPR 2020</kbd>
+
+
+## 2020-11 (18)
 - [TSP: Rethinking Transformer-based Set Prediction for Object Detection](https://arxiv.org/abs/2011.10881) [[Notes](paper_notes/tsp.md)] [DETR, transformers, Kris Kitani]
 - [Sparse R-CNN: End-to-End Object Detection with Learnable Proposals](https://arxiv.org/abs/2011.12450) [[Notes](paper_notes/sparse_rcnn.md)] [DETR, Transformer]
 - [UP-DETR: Unsupervised Pre-training for Object Detection with Transformers](https://arxiv.org/abs/2011.09094) [transformers]
@@ -72,10 +112,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [CenterFusion: Center-based Radar and Camera Fusion for 3D Object Detection](https://arxiv.org/abs/2011.04841) [[Notes](paper_notes/centerfusion.md)] <kbd>WACV 2021</kbd> [early fusion, camera, radar]
 - [3D-LaneNet+: Anchor Free Lane Detection using a Semi-Local Representation](https://arxiv.org/abs/2011.01535) [[Notes](paper_notes/3d_lanenet+.md)] <kbd>NeurIPS 2020 workshop</kbd> [GM Israel, 3D LLD]
 - [LSTR: End-to-end Lane Shape Prediction with Transformers](https://arxiv.org/abs/2011.04233) [[Notes](paper_notes/lstr.md)] <kbd>WACV 2011</kbd> [LLD, transformers]
-- [Towards Lightweight Lane Detection by Optimizing Spatial Embedding](https://arxiv.org/abs/2008.08311) <kbd>ECCV 2020 workshop</kbd>
-- [Synthetic-to-Real Domain Adaptation for Lane Detection](https://arxiv.org/abs/2007.04023) [GM Israel, LLD]
-- [PolyLaneNet: Lane Estimation via Deep Polynomial Regression](https://arxiv.org/abs/2004.10924) <kbd>ICPR 2020</kbd> [polynomial, LLD]
-- [3DSSD: Point-based 3D Single Stage Object Detector](https://arxiv.org/abs/2002.10187) <kbd>CVPR 2020</kbd>
 - [PIXOR: Real-time 3D Object Detection from Point Clouds](https://arxiv.org/pdf/1902.06326.pdf) [[Notes](paper_notes/pixor.md)] <kbd>CVPR 2018</kbd> (birds eye view)
 - [HDNET/PIXOR++: Exploiting HD Maps for 3D Object Detection](http://proceedings.mlr.press/v87/yang18b/yang18b.pdf) [[Notes](paper_notes/pixor++.md)] <kbd>CoRL 2018</kbd>
 - [CPNDet: Corner Proposal Network for Anchor-free, Two-stage Object Detection](https://arxiv.org/abs/2007.13816) <kbd>ECCV 2020</kbd> [anchor free, two stage]
@@ -84,18 +120,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Driving among Flatmobiles: Bird-Eye-View occupancy grids from a monocular camera for holistic trajectory planning](https://arxiv.org/abs/2008.04047) [BEV]
 - [Rethinking Classification and Localization for Object Detection](https://arxiv.org/abs/1904.06493) <kbd>CVPR 2020</kbd>
 - [Visual SLAM for Automated Driving: Exploring the Applications of Deep Learning](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/Milz_Visual_SLAM_for_CVPR_2018_paper.pdf)
-- [Estimating Drivable Collision-Free Space from Monocular Video](http://www.cs.toronto.edu/~yaojian/freeSpace.pdf) <kbd>WACV 2015</kbd> [Drivable space]
-- [Visualization of Convolutional Neural Networks for Monocular Depth Estimation](https://arxiv.org/abs/1904.03380) <kbd>ICCV 2019</kbd> [monodepth]
-- [Differentiable Rendering: A Survey](https://arxiv.org/abs/2006.12057) [differentiable rendering, TRI]
-- [SAFENet: Self-Supervised Monocular Depth Estimation with Semantic-Aware
-Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Naver labs]
-- [Toward Interactive Self-Annotation For Video Object Bounding Box: Recurrent Self-Learning And Hierarchical Annotation Based Framework](https://openaccess.thecvf.com/content_WACV_2020/papers/Le_Toward_Interactive_Self-Annotation_For_Video_Object_Bounding_Box_Recurrent_Self-Learning_WACV_2020_paper.pdf) <kbd>WACV 2020</kbd>
-- [Towards Good Practice for CNN-Based Monocular Depth Estimation](http://openaccess.thecvf.com/content_WACV_2020/papers/Fang_Towards_Good_Practice_for_CNN-Based_Monocular_Depth_Estimation_WACV_2020_paper.pdf) <kbd>WACV 2020</kbd>
-- [Self-Supervised Scene De-occlusion](https://arxiv.org/abs/2004.02788) <kbd>CVPR 2020 oral</kbd>
-- [TP-LSD: Tri-Points Based Line Segment Detector](https://arxiv.org/abs/2009.05505)
-- [Data Distillation: Towards Omni-Supervised Learning](https://arxiv.org/abs/1712.04440) <kbd>CVPR 2018</kbd> [Kaiming He, FAIR]
-- [MiDas: Towards Robust Monocular Depth Estimation: Mixing Datasets for Zero-shot Cross-dataset Transfer](https://arxiv.org/abs/1907.01341) [monodepth, dynamic object, synthetic dataset]
-- [Semantics-Driven Unsupervised Learning for Monocular Depth and Ego-Motion Estimation](https://arxiv.org/abs/2006.04371) [monodepth]
 - [MVF: End-to-End Multi-View Fusion for 3D Object Detection in LiDAR Point Clouds](https://arxiv.org/abs/1910.06528) [[Notes](paper_notes/mvf.md)] <kbd>CoRL 2019</kbd> [Waymo, VoxelNet 1st author]
 - [Pillar-based Object Detection for Autonomous Driving](https://arxiv.org/abs/2007.10323) [[Notes](paper_notes/pillar_od.md)] <kbd>ECCV 2020</kbd>
 - [Training-Time-Friendly Network for Real-Time Object Detection](https://arxiv.org/abs/1909.00700) <kbd>AAAI 2020</kbd> [anchor-free, fast training]
@@ -119,33 +143,8 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Dynamic SLAM: The Need For Speed](https://arxiv.org/abs/2002.08584)
 - [Pseudo RGB-D for Self-Improving Monocular SLAM and Depth Prediction](https://arxiv.org/abs/2004.10681) <kbd>ECCV 2020</kbd>
 - [Traffic Light Mapping and Detection](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37259.pdf) [[Notes](paper_notes/tfl_mapping_google.md)] <kbd>ICRA 2011</kbd> [traffic light, Google, Chris Urmson]
-- [Traffic Light Mapping, Localization, and State Detection for Autonomous Vehicles](http://driving.stanford.edu/papers/ICRA2011.pdf) <kbd>ICRA 2011</kbd> [traffic light, Sebastian Thrun]
 - [Traffic light recognition exploiting map and localization at every stage](https://web.yonsei.ac.kr/jksuhr/papers/Traffic%20light%20recognition%20exploiting%20map%20and%20localization%20at%20every%20stage.pdf) [[Notes](paper_notes/tfl_exploting_map.md)] <kbd>Expert Systems 2017</kbd> [traffic light, 鲜于明镐，徐在圭，郑浩奇]
 - [Traffic Light Recognition Using Deep Learning and Prior Maps for Autonomous Cars](https://arxiv.org/abs/1906.11886) [[Notes](paper_notes/tfl_lidar_map_building.md)] <kbd> IJCNN 2019</kbd> [traffic light, Espirito Santo Brazil]
-- [Evaluating State-of-the-art Object Detector on Challenging Traffic Light Data](https://openaccess.thecvf.com/content_cvpr_2017_workshops/w9/papers/Jensen_Evaluating_State-Of-The-Art_Object_CVPR_2017_paper.pdf) <kbd>CVPR 2017 workshop</kbd>
-- [Traffic light recognition in varying illumination using deep learning and saliency map](https://www.researchgate.net/profile/Vijay_John3/publication/265014373_Traffic_Light_Recognition_in_Varying_Illumination_using_Deep_Learning_and_Saliency_Map/links/56aac00408ae8f3865666102.pdf) <kbd>ITSC 2014</kbd> [traffic light]
-- [Traffic light recognition using high-definition map features](https://sci-hub.st/https://www.sciencedirect.com/science/article/abs/pii/S0921889018301234) <kbd>RAS 2019</kbd>
-- [Vision for Looking at Traffic Lights: Issues, Survey, and Perspectives](http://cvrr.ucsd.edu/publications/2016/trafficSignalsITSTrans2016.pdf) <kbd>TITS 2015</kbd>
-- [Lane Endpoint Detection and Position Accuracy Evaluation for Sensor Fusion-Based Vehicle Localization on Highways](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6308985/) <kbd>Sensors 2018</kbd> [lane endpoints]
-- [Map-Matching-Based Cascade Landmark Detection and Vehicle Localization](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8826538) <kbd>IEEE Access 2019</kbd> [lane endpoints]
-- [GCNet: End-to-End Learning of Geometry and Context for Deep Stereo Regression](https://arxiv.org/abs/1703.04309) <kbd>ICCV 2017</kbd> [disparity estimation, Alex Kendall, cost volume]
-- [Traffic Control Gesture Recognition for Autonomous Vehicles](https://arxiv.org/abs/2007.16072) <kbd>IROS 2020</kbd> [Daimler]
-- [Perceiving 3D Human-Object Spatial Arrangements from a Single Image in the Wild](https://arxiv.org/abs/2007.15649) <kbd>ECCV 2020</kbd>
-- [OrcVIO: Object residual constrained Visual-Inertial Odometry](https://arxiv.org/abs/2007.15107) [dynamic SLAM, very mathematical]
-- [Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking](https://arxiv.org/abs/2007.14557) <kbd>ECCV 2020 spotlight</kbd> [MOT, Tencent]
-- [Towards Real-Time Multi-Object Tracking](https://arxiv.org/abs/1909.12605) <kbd>ECCV 2020</kbd> [MOT]
-- [InfoFocus: 3D Object Detection for Autonomous Driving with Dynamic Information Modeling](https://arxiv.org/abs/2007.08556) <kbd>ECCV 2020</kbd>
-- [DA4AD: End-to-End Deep Attention-based Visual Localization for Autonomous Driving](https://arxiv.org/abs/2003.03026) <kbd>ECCV 2020</kbd>
-- [Towards Lightweight Lane Detection by Optimizing Spatial Embedding](https://arxiv.org/abs/2008.08311) <kbd>ECCV 2020 workshop</kbd>
-- [Multi-Frame to Single-Frame: Knowledge Distillation for 3D Object Detection]() <kbd>ECCV 2020 workshop</kbd> [lidar]
-- [DeepIM: Deep iterative matching for 6d pose estimation](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yi_Li_DeepIM_Deep_Iterative_ECCV_2018_paper.pdf) <kbd>ECCV 2018</kbd> [pose estimation]
-- [Monocular Depth Prediction through Continuous 3D Loss](https://arxiv.org/abs/2003.09763) <kbd>IROS 2020</kbd>
-- [Multi-Task Learning for Dense Prediction Tasks: A Survey](https://arxiv.org/abs/2004.13379) [MTL, Luc Van Gool]
-- [Dynamic Task Weighting Methods for Multi-task Networks in Autonomous Driving Systems](https://arxiv.org/abs/2001.02223) <kbd>ITSC 2020 oral</kbd> [MTL]
-- [NeurAll: Towards a Unified Model for Visual Perception in Automated Driving](https://arxiv.org/abs/1902.03589) <kbd>ITSC 2019 oral</kbd> [MTL]
-- [Locating Objects Without Bounding Boxes](Locating Objects Without Bounding Boxes) <kbd>CVPR 2019</kbd>
-- [Deep Evidential Regression](https://papers.nips.cc/paper/2020/file/aab085461de182608ee9f607f3f7d18f-Paper.pdf) <kbd>NeurIPS 2020</kbd> [one-pass aleatoric/epistemic uncertainty]
-- [Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection](https://arxiv.org/abs/2011.12885) [focal loss]
 
 
 ## 2020-10 (14)
@@ -300,7 +299,7 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network](https://arxiv.org/abs/1609.05158) [[Notes](paper_notes/subpixel_conv.md)] <kbd>CVPR 2016</kbd> [channel-to-pixel]
 - [Car Pose in Context: Accurate Pose Estimation with Ground Plane Constraints](https://arxiv.org/abs/1912.04363) [mono3D]
 - [Self-Mono-SF: Self-Supervised Monocular Scene Flow Estimation](https://arxiv.org/abs/2004.04143) [[Notes](paper_notes/self_mono_sf.md)] <kbd>CVPR 2020 oral</kbd> [scene-flow, Stereo input]
-- [MEBOW: Monocular Estimation of Body Orientation In the Wild](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wu_MEBOW_Monocular_Estimation_of_Body_Orientation_in_the_Wild_CVPR_2020_paper.pdf) [[Notes](paper_notes/mebow.md)] <kbd>CVPR 2020</kbd>
+- [MEBOW: Monocular Estimation of Body Orientation In the Wild](https://arxiv.org/abs/2011.13688) [[Notes](paper_notes/mebow.md)] <kbd>CVPR 2020</kbd>
 - [VG-NMS: Visibility Guided NMS: Efficient Boosting of Amodal Object Detection in Crowded Traffic Scenes](https://arxiv.org/abs/2006.08547) [[Notes](paper_notes/vg_nms.md)] <kbd>NeurIPS 2019 workshop</kbd> [Crowded scene, NMS, Daimler]
 - [WYSIWYG: What You See is What You Get: Exploiting Visibility for 3D Object Detection](https://arxiv.org/abs/1912.04986) [[Notes](paper_notes/wysiwyg.md)] <kbd>CVPR 2020 oral</kbd> [occupancy grid]
 - [Real-Time Panoptic Segmentation From Dense Detections](https://arxiv.org/abs/1912.01202) [[Notes](paper_notes/realtime_panoptic.md)] <kbd>CVPR 2020 oral</kbd> [bbox + semantic segmentation = panoptic segmentation, Toyota]
@@ -803,11 +802,15 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 
 
 ### Traffic light and traffic sign
-- [Traffic-Sign Detection and Classification in the Wild](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Zhu_Traffic-Sign_Detection_and_CVPR_2016_paper.pdf) <kbd>CVPR 2016</kbd> [Tsinghua, Tencent]
+- [Traffic-Sign Detection and Classification in the Wild](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Zhu_Traffic-Sign_Detection_and_CVPR_2016_paper.pdf) <kbd>CVPR 2016</kbd> [Tsinghua, Tencent, traffic signs]
 - [A Hierarchical Deep Architecture and Mini-Batch Selection Method For Joint
 Traffic Sign and Light Detection](https://arxiv.org/abs/1806.07987) <kbd>IEEE CRV 2018</kbd> [U torronto]
 - [Detecting Traffic Lights by Single Shot Detection](https://arxiv.org/abs/1805.02523) <kbd>ITSC 2018</kbd>
 - [DeepTLR: A single Deep Convolutional Network for Detection and Classification of Traffic Lights](https://sci-hub.st/10.1109/IVS.2016.7535408) <kbd>IV 2016</kbd>
+- [Evaluating State-of-the-art Object Detector on Challenging Traffic Light Data](https://openaccess.thecvf.com/content_cvpr_2017_workshops/w9/papers/Jensen_Evaluating_State-Of-The-Art_Object_CVPR_2017_paper.pdf) <kbd>CVPR 2017 workshop</kbd>
+- [Traffic light recognition in varying illumination using deep learning and saliency map](https://www.researchgate.net/profile/Vijay_John3/publication/265014373_Traffic_Light_Recognition_in_Varying_Illumination_using_Deep_Learning_and_Saliency_Map/links/56aac00408ae8f3865666102.pdf) <kbd>ITSC 2014</kbd> [traffic light]
+- [Traffic light recognition using high-definition map features](https://sci-hub.st/https://www.sciencedirect.com/science/article/abs/pii/S0921889018301234) <kbd>RAS 2019</kbd>
+- [Vision for Looking at Traffic Lights: Issues, Survey, and Perspectives](http://cvrr.ucsd.edu/publications/2016/trafficSignalsITSTrans2016.pdf) <kbd>TITS 2015</kbd>
 
 ### Datasets and Surveys
 - [The DriveU Traffic Light Dataset: Introduction and Comparison with Existing Datasets](https://ieeexplore.ieee.org/document/8460737) <kbd>ICRA 2018</kbd> 

@@ -1,4 +1,4 @@
-# [MEBOW: Monocular Estimation of Body Orientation In the Wild](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wu_MEBOW_Monocular_Estimation_of_Body_Orientation_in_the_Wild_CVPR_2020_paper.pdf)
+# [MEBOW: Monocular Estimation of Body Orientation In the Wild](https://arxiv.org/abs/2011.13688)
 
 _June 2020_
 
