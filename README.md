@@ -52,20 +52,20 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2020-12 (0)
+## 2020-12 (1)
 - [Traffic Light Mapping, Localization, and State Detection for Autonomous Vehicles](http://driving.stanford.edu/papers/ICRA2011.pdf) [[Notes](paper_notes/tfl_stanford.md)] <kbd>ICRA 2011</kbd> [traffic light, Sebastian Thrun]
 - [Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection](https://arxiv.org/abs/2011.12885) [focal loss]
+- [SplitNet: Divide and Co-training](https://arxiv.org/abs/2011.14660)
 - [Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036) [[Notes](paper_notes/scaled_yolov4.md)] [yolo]
 - [PP-YOLO: An Effective and Efficient Implementation of Object Detector](https://arxiv.org/abs/2007.12099) [yolo, paddle-paddle, baidu]
 - [RegNet: Designing Network Design Spaces](https://arxiv.org/abs/2003.13678) <kbd>CVPR 2020</kbd> [FAIR]
+- [On Network Design Spaces for Visual Recognition](https://arxiv.org/abs/1905.13214) [FAIR]
 - [Lane Endpoint Detection and Position Accuracy Evaluation for Sensor Fusion-Based Vehicle Localization on Highways](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6308985/) <kbd>Sensors 2018</kbd> [lane endpoints]
 - [Map-Matching-Based Cascade Landmark Detection and Vehicle Localization](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8826538) <kbd>IEEE Access 2019</kbd> [lane endpoints]
 - [GCNet: End-to-End Learning of Geometry and Context for Deep Stereo Regression](https://arxiv.org/abs/1703.04309) <kbd>ICCV 2017</kbd> [disparity estimation, Alex Kendall, cost volume]
 - [Traffic Control Gesture Recognition for Autonomous Vehicles](https://arxiv.org/abs/2007.16072) <kbd>IROS 2020</kbd> [Daimler]
 - [Perceiving 3D Human-Object Spatial Arrangements from a Single Image in the Wild](https://arxiv.org/abs/2007.15649) <kbd>ECCV 2020</kbd>
 - [OrcVIO: Object residual constrained Visual-Inertial Odometry](https://arxiv.org/abs/2007.15107) [dynamic SLAM, very mathematical]
-- [Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking](https://arxiv.org/abs/2007.14557) <kbd>ECCV 2020 spotlight</kbd> [MOT, Tencent]
-- [Towards Real-Time Multi-Object Tracking](https://arxiv.org/abs/1909.12605) <kbd>ECCV 2020</kbd> [MOT]
 - [InfoFocus: 3D Object Detection for Autonomous Driving with Dynamic Information Modeling](https://arxiv.org/abs/2007.08556) <kbd>ECCV 2020</kbd>
 - [DA4AD: End-to-End Deep Attention-based Visual Localization for Autonomous Driving](https://arxiv.org/abs/2003.03026) <kbd>ECCV 2020</kbd>
 - [Towards Lightweight Lane Detection by Optimizing Spatial Embedding](https://arxiv.org/abs/2008.08311) <kbd>ECCV 2020 workshop</kbd> [LLD]
@@ -93,6 +93,15 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Synthetic-to-Real Domain Adaptation for Lane Detection](https://arxiv.org/abs/2007.04023) [GM Israel, LLD]
 - [PolyLaneNet: Lane Estimation via Deep Polynomial Regression](https://arxiv.org/abs/2004.10924) <kbd>ICPR 2020</kbd> [polynomial, LLD]
 - [3DSSD: Point-based 3D Single Stage Object Detector](https://arxiv.org/abs/2002.10187) <kbd>CVPR 2020</kbd>
+- [Learning Universal Shape Dictionary for Realtime Instance Segmentation](https://arxiv.org/abs/2012.01050)
+- [End-to-End Video Instance Segmentation with Transformers](https://arxiv.org/abs/2011.14503) [DETR, transformers]
+- [Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks](https://arxiv.org/abs/1910.01279) <kbd>CVPR 2020 workshop</kbd>
+- [When and Why Test-Time Augmentation Works](https://arxiv.org/abs/2011.11156)
+- [Footprints and Free Space from a Single Color Image](https://arxiv.org/abs/2004.06376) <kbd>CVPR 2020 oral</kbd> [Parking use, footprint]
+- [MotionNet: Joint Perception and Motion Prediction for Autonomous Driving Based on Bird's Eye View Maps](https://arxiv.org/abs/2003.06754) <kbd>CVPR 2020</kbd> [Unseen moving objects, BEV]
+- [Driving among Flatmobiles: Bird-Eye-View occupancy grids from a monocular camera for holistic trajectory planning](https://arxiv.org/abs/2008.04047) [BEV]
+- [Rethinking Classification and Localization for Object Detection](https://arxiv.org/abs/1904.06493) <kbd>CVPR 2020</kbd>
+- [Visual SLAM for Automated Driving: Exploring the Applications of Deep Learning](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/Milz_Visual_SLAM_for_CVPR_2018_paper.pdf) <kbd>CVPR 2018 workshop</kbd>
 
 
 ## 2020-11 (18)
@@ -105,7 +114,7 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [The H3D Dataset for Full-Surround 3D Multi-Object Detection and Tracking in Crowded Urban Scenes](https://arxiv.org/abs/1903.01568) [[Notes](paper_notes/h3d.md)] <kbd>ICRA 2019</kbd>
 - [Cityscapes 3D: Dataset and Benchmark for 9 DoF Vehicle Detection](https://arxiv.org/abs/2006.07864) <kbd>CVPRW 2020</kbd> [dataset, Daimler, mono3D]
 - [NYC3DCars: A Dataset of 3D Vehicles in Geographic Context](https://www.cs.cornell.edu/~snavely/publications/papers/nyc3dcars_iccv13.pdf) <kbd>ICCV 2013</kbd>
-- [Object-Aware Centroid Voting for Monocular 3D Object Detection](https://arxiv.org/abs/2007.09836) [[Notes]()] <kbd>IROS 2020</kbd> [mono3D]
+- [Object-Aware Centroid Voting for Monocular 3D Object Detection](https://arxiv.org/abs/2007.09836) <kbd>IROS 2020</kbd> [mono3D]
 - [Towards Fully Autonomous Driving: Systems and Algorithms](https://www.ri.cmu.edu/wp-content/uploads/2017/12/levinson-iv2011.pdf) <kbd>IV 2011</kbd>
 - [Center3D: Center-based Monocular 3D Object Detection with Joint Depth Understanding](https://arxiv.org/abs/2005.13423) [[Notes](paper_notes/center3d.md)] [mono3D, LID+DepJoint]
 - [Monocular 3D Object Detection in Cylindrical Images from Fisheye Cameras](https://arxiv.org/abs/2003.03759) [GM Israel, mono3D]
@@ -116,11 +125,6 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [PIXOR: Real-time 3D Object Detection from Point Clouds](https://arxiv.org/pdf/1902.06326.pdf) [[Notes](paper_notes/pixor.md)] <kbd>CVPR 2018</kbd> (birds eye view)
 - [HDNET/PIXOR++: Exploiting HD Maps for 3D Object Detection](http://proceedings.mlr.press/v87/yang18b/yang18b.pdf) [[Notes](paper_notes/pixor++.md)] <kbd>CoRL 2018</kbd>
 - [CPNDet: Corner Proposal Network for Anchor-free, Two-stage Object Detection](https://arxiv.org/abs/2007.13816) <kbd>ECCV 2020</kbd> [anchor free, two stage]
-- [Footprints and Free Space from a Single Color Image](https://arxiv.org/abs/2004.06376) <kbd>CVPR 2020 oral</kbd> [Parking use, footprint]
-- [MotionNet: Joint Perception and Motion Prediction for Autonomous Driving Based on Bird's Eye View Maps](https://arxiv.org/abs/2003.06754) <kbd>CVPR 2020</kbd> [Unseen moving objects, BEV]
-- [Driving among Flatmobiles: Bird-Eye-View occupancy grids from a monocular camera for holistic trajectory planning](https://arxiv.org/abs/2008.04047) [BEV]
-- [Rethinking Classification and Localization for Object Detection](https://arxiv.org/abs/1904.06493) <kbd>CVPR 2020</kbd>
-- [Visual SLAM for Automated Driving: Exploring the Applications of Deep Learning](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/Milz_Visual_SLAM_for_CVPR_2018_paper.pdf)
 - [MVF: End-to-End Multi-View Fusion for 3D Object Detection in LiDAR Point Clouds](https://arxiv.org/abs/1910.06528) [[Notes](paper_notes/mvf.md)] <kbd>CoRL 2019</kbd> [Waymo, VoxelNet 1st author]
 - [Pillar-based Object Detection for Autonomous Driving](https://arxiv.org/abs/2007.10323) [[Notes](paper_notes/pillar_od.md)] <kbd>ECCV 2020</kbd>
 - [Training-Time-Friendly Network for Real-Time Object Detection](https://arxiv.org/abs/1909.00700) <kbd>AAAI 2020</kbd> [anchor-free, fast training]
@@ -896,6 +900,8 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Online Real-time Multiple Spatiotemporal Action Localisation and Prediction](https://arxiv.org/abs/1611.08563) <kbd>ICCV 2017</kbd>
 - [多目标跟踪 近年论文及开源代码汇总](https://zhuanlan.zhihu.com/p/65177442)
 - [GNN3DMOT: Graph Neural Network for 3D Multi-Object Tracking with Multi-Feature Learning](https://arxiv.org/abs/2006.07327) <kbd>CVPR 2020 oral</kbd> [3DMOT, CMU, Kris Kitani]
+- [Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking](https://arxiv.org/abs/2007.14557) <kbd>ECCV 2020 spotlight</kbd> [MOT, Tencent]
+- [Towards Real-Time Multi-Object Tracking](https://arxiv.org/abs/1909.12605) <kbd>ECCV 2020</kbd> [MOT]
 
 ### keypoints: pose and face
 - [PifPaf: Composite Fields for Human Pose Estimation](https://arxiv.org/abs/1903.06593) <kbd>CVPR 2019</kbd>
