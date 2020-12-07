@@ -52,9 +52,9 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2020-12 (1)
+## 2020-12 (2)
 - [Traffic Light Mapping, Localization, and State Detection for Autonomous Vehicles](http://driving.stanford.edu/papers/ICRA2011.pdf) [[Notes](paper_notes/tfl_stanford.md)] <kbd>ICRA 2011</kbd> [traffic light, Sebastian Thrun]
-- [Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection](https://arxiv.org/abs/2011.12885) [focal loss]
+- [Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection](https://arxiv.org/abs/2011.12885) [[Notes](paper_notes/gfocalv2.md)] [focal loss]
 - [SplitNet: Divide and Co-training](https://arxiv.org/abs/2011.14660)
 - [Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036) [[Notes](paper_notes/scaled_yolov4.md)] [yolo]
 - [PP-YOLO: An Effective and Efficient Implementation of Object Detector](https://arxiv.org/abs/2007.12099) [yolo, paddle-paddle, baidu]
@@ -155,7 +155,7 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 ## 2020-10 (14)
 - [TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383) [[Notes](paper_notes/tsm.md)] <kbd>ICCV 2019</kbd> [Song Han, video, object detection]
 - [Waymo Dataset: Scalability in Perception for Autonomous Driving: Waymo Open Dataset](https://arxiv.org/abs/1912.04838) [[Notes](paper_notes/waymo_dataset.md)] <kbd>CVPR 2020</kbd>
-- [Generalized Focal Loss: Learning Qualified and Distributed Bounding Boxes for Dense Object Detection](https://arxiv.org/abs/2006.04388) [[Notes](paper_notes/gfocal.md)] <kbd>NeurIPS 2020</kbd>
+- [Generalized Focal Loss: Learning Qualified and Distributed Bounding Boxes for Dense Object Detection](https://arxiv.org/abs/2006.04388) [[Notes](paper_notes/gfocal.md)] <kbd>NeurIPS 2020</kbd> [classification as regression]
 - [A Ranking-based, Balanced Loss Function Unifying Classification and Localisation in Object Detection](https://arxiv.org/abs/2009.13592) <kbd>NeurIPS 2020 spotlight</kbd>
 - [Rethinking the Value of Labels for Improving Class-Imbalanced Learning](https://arxiv.org/abs/2006.07529) <kbd>NeurIPS 2020</kbd>
 - [RepLoss: Repulsion Loss: Detecting Pedestrians in a Crowd](https://arxiv.org/abs/1711.07752) [[Notes](paper_notes/rep_loss.md)] <kbd>CVPR 2018</kbd> [crowd detection, Megvii]
