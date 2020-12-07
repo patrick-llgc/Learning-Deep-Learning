@@ -52,9 +52,10 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2020-12 (2)
+## 2020-12 (3)
 - [Traffic Light Mapping, Localization, and State Detection for Autonomous Vehicles](http://driving.stanford.edu/papers/ICRA2011.pdf) [[Notes](paper_notes/tfl_stanford.md)] <kbd>ICRA 2011</kbd> [traffic light, Sebastian Thrun]
 - [Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection](https://arxiv.org/abs/2011.12885) [[Notes](paper_notes/gfocalv2.md)] [focal loss]
+- [Visual SLAM for Automated Driving: Exploring the Applications of Deep Learning](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/Milz_Visual_SLAM_for_CVPR_2018_paper.pdf) [[Notes](paper_notes/vslam_for_ad.md)] <kbd>CVPR 2018 workshop</kbd>
 - [SplitNet: Divide and Co-training](https://arxiv.org/abs/2011.14660)
 - [Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036) [[Notes](paper_notes/scaled_yolov4.md)] [yolo]
 - [PP-YOLO: An Effective and Efficient Implementation of Object Detector](https://arxiv.org/abs/2007.12099) [yolo, paddle-paddle, baidu]
@@ -101,7 +102,7 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [MotionNet: Joint Perception and Motion Prediction for Autonomous Driving Based on Bird's Eye View Maps](https://arxiv.org/abs/2003.06754) <kbd>CVPR 2020</kbd> [Unseen moving objects, BEV]
 - [Driving among Flatmobiles: Bird-Eye-View occupancy grids from a monocular camera for holistic trajectory planning](https://arxiv.org/abs/2008.04047) [BEV]
 - [Rethinking Classification and Localization for Object Detection](https://arxiv.org/abs/1904.06493) <kbd>CVPR 2020</kbd>
-- [Visual SLAM for Automated Driving: Exploring the Applications of Deep Learning](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/Milz_Visual_SLAM_for_CVPR_2018_paper.pdf) <kbd>CVPR 2018 workshop</kbd>
+
 
 
 ## 2020-11 (18)
