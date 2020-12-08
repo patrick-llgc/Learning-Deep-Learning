@@ -52,10 +52,11 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2020-12 (3)
+## 2020-12 (4)
 - [Traffic Light Mapping, Localization, and State Detection for Autonomous Vehicles](http://driving.stanford.edu/papers/ICRA2011.pdf) [[Notes](paper_notes/tfl_stanford.md)] <kbd>ICRA 2011</kbd> [traffic light, Sebastian Thrun]
 - [Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection](https://arxiv.org/abs/2011.12885) [[Notes](paper_notes/gfocalv2.md)] [focal loss]
 - [Visual SLAM for Automated Driving: Exploring the Applications of Deep Learning](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/Milz_Visual_SLAM_for_CVPR_2018_paper.pdf) [[Notes](paper_notes/vslam_for_ad.md)] <kbd>CVPR 2018 workshop</kbd>
+- [Centroid Voting: Object-Aware Centroid Voting for Monocular 3D Object Detection](https://arxiv.org/abs/2007.09836) [[Notes](paper_notes/centroid_voting.md)] <kbd>IROS 2020</kbd> [mono3D, geometry + appearance = distance]
 - [SplitNet: Divide and Co-training](https://arxiv.org/abs/2011.14660)
 - [Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036) [[Notes](paper_notes/scaled_yolov4.md)] [yolo]
 - [PP-YOLO: An Effective and Efficient Implementation of Object Detector](https://arxiv.org/abs/2007.12099) [yolo, paddle-paddle, baidu]
@@ -104,7 +105,6 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Rethinking Classification and Localization for Object Detection](https://arxiv.org/abs/1904.06493) <kbd>CVPR 2020</kbd>
 
 
-
 ## 2020-11 (18)
 - [TSP: Rethinking Transformer-based Set Prediction for Object Detection](https://arxiv.org/abs/2011.10881) [[Notes](paper_notes/tsp.md)] [DETR, transformers, Kris Kitani]
 - [Sparse R-CNN: End-to-End Object Detection with Learnable Proposals](https://arxiv.org/abs/2011.12450) [[Notes](paper_notes/sparse_rcnn.md)] [DETR, Transformer]
@@ -115,7 +115,6 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [The H3D Dataset for Full-Surround 3D Multi-Object Detection and Tracking in Crowded Urban Scenes](https://arxiv.org/abs/1903.01568) [[Notes](paper_notes/h3d.md)] <kbd>ICRA 2019</kbd>
 - [Cityscapes 3D: Dataset and Benchmark for 9 DoF Vehicle Detection](https://arxiv.org/abs/2006.07864) <kbd>CVPRW 2020</kbd> [dataset, Daimler, mono3D]
 - [NYC3DCars: A Dataset of 3D Vehicles in Geographic Context](https://www.cs.cornell.edu/~snavely/publications/papers/nyc3dcars_iccv13.pdf) <kbd>ICCV 2013</kbd>
-- [Object-Aware Centroid Voting for Monocular 3D Object Detection](https://arxiv.org/abs/2007.09836) <kbd>IROS 2020</kbd> [mono3D]
 - [Towards Fully Autonomous Driving: Systems and Algorithms](https://www.ri.cmu.edu/wp-content/uploads/2017/12/levinson-iv2011.pdf) <kbd>IV 2011</kbd>
 - [Center3D: Center-based Monocular 3D Object Detection with Joint Depth Understanding](https://arxiv.org/abs/2005.13423) [[Notes](paper_notes/center3d.md)] [mono3D, LID+DepJoint]
 - [Monocular 3D Object Detection in Cylindrical Images from Fisheye Cameras](https://arxiv.org/abs/2003.03759) [GM Israel, mono3D]
@@ -408,7 +407,7 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [Multigrid: A Multigrid Method for Efficiently Training Video Models](https://arxiv.org/abs/1912.00998) [[Notes](paper_notes/multigrid_training.md)] <kbd>CVPR 2020 Oral</kbd> [Kaiming He, FAIR]
 - [GhostNet: More Features from Cheap Operations](https://arxiv.org/abs/1911.11907) [[Notes](paper_notes/ghostnet.md)] <kbd>CVPR 2020</kbd>
 - [FixRes: Fixing the train-test resolution discrepancy](https://arxiv.org/abs/1906.06423) [[Notes](paper_notes/fixres.md)] <kbd>NIPS 2019</kbd> [FAIR]
-- [MoVi-3D: Towards Generalization Across Depth for Monocular 3D Object Detection](https://arxiv.org/abs/1912.08035) [[Notes](paper_notes/movi_3d.md)] <kbd>ECCV 2020</kbd> [VirtualCam, Mapillary/Facebook, Mono3D] 
+- [MoVi-3D: Towards Generalization Across Depth for Monocular 3D Object Detection](https://arxiv.org/abs/1912.08035) [[Notes](paper_notes/movi_3d.md)] <kbd>ECCV 2020</kbd> [Virtual Cam, viewport, Mapillary/Facebook, Mono3D] 
 - [Amodal Completion and Size Constancy in Natural Scenes](https://arxiv.org/abs/1509.08147) [[Notes](paper_notes/amodal_completion.md)] <kbd>ICCV 2015</kbd> (Amodal completion)
 - [MoCo: Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) [[Notes](paper_notes/moco.md)] <kbd>CVPR 2020 Oral</kbd> [FAIR, Kaiming He]
 
