@@ -140,8 +140,8 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [ST-3D: Joint Spatial-Temporal Optimization for Stereo 3D Object Tracking](https://arxiv.org/abs/2004.09305) <kbd>CVPR 2020</kbd> [Peilinag LI, author of VINS and S3DOT]
 - [Augment Your Batch: Improving Generalization Through Instance Repetition](https://openaccess.thecvf.com/content_CVPR_2020/papers/Hoffer_Augment_Your_Batch_Improving_Generalization_Through_Instance_Repetition_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd>
 - [RetinaTrack: Online Single Stage Joint Detection and Tracking](https://arxiv.org/abs/2003.13870) <kbd>CVPR 2020</kbd> [MOT]
-- [Towards lifelong feature-based mapping in semi-static environments](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43966.pdf) [[Notes](paper_notes/lifelong_feature_mapping.md)] <kbd>ICRA 2016</kbd>
-- [How to Keep HD Maps for Automated Driving Up To Date](http://www.lewissoft.com/pdf/ICRA2020/1484.pdf) <kbd>ICRA 2020</kbd>
+- [Towards lifelong feature-based mapping in semi-static environments](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43966.pdf) [[Notes](paper_notes/lifelong_feature_mapping_google.md)] <kbd>ICRA 2016</kbd>
+- [How to Keep HD Maps for Automated Driving Up To Date](http://www.lewissoft.com/pdf/ICRA2020/1484.pdf) [[Notes](paper_notes/keep_hd_maps_updated_bmw.md)] <kbd>ICRA 2020</kbd> [BMW]
 - [Object as Hotspots: An Anchor-Free 3D Object Detection Approach via Firing of Hotspots](https://arxiv.org/abs/1912.12791)
 - [Gradient Centralization: A New Optimization Technique for Deep Neural Networks](https://arxiv.org/abs/2004.01461) <kbd>ECCV 2020 oral</kbd>
 - [Depth Completion via Deep Basis Fitting](https://arxiv.org/abs/1912.10336) <kbd>WACV 2020</kbd>

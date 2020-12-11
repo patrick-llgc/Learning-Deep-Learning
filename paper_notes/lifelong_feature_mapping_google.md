@@ -9,6 +9,8 @@ Vanilla SLAM assumes a static world. They have to adapt in order to achieve **pe
 
 In summary, any observation existence boosts the existence confidence, any observation of absence degrades existence conf, and lack of observation decays existence conf.
 
+This method has a good formulation but seems to be a bit heavy and does not allow large scale application. See [Keep HD map updated](keep_hd_maps_updated_bmw.md).
+
 #### Key ideas
 - Feature based mapping views the world as a collection of features (lines, planes, objects, or other visual interest points). Mapping is then identify and estimate their state (position, orientation, color).
 	- In semi-static mapping we have to both add new features to the map and remove existing features from the map. 
