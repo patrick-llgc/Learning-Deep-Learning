@@ -9,7 +9,11 @@ The paper has a very nice review of object detection, including one-stage object
 
 Yolov4 is highly practical and focuses on training fast object detectors with only one 1080Ti or 2080Ti GPU card. Yolov4 runs twice as fast as EfficientDet.
 
+For a more engineering friendly, pytorch-native repo, see [Yolov5](yolov5.md).
+
 #### Key ideas
+- Great review on Zhihu
+	- [深入浅出Yolo系列之Yolov3&Yolov4&Yolov5核心基础知识完整讲解](https://zhuanlan.zhihu.com/p/143747206)
 - Bag of freebies: Improvements can be made in the training process 
 	- Data augmentation: CutMix and Mosaic
 		- photometric, geometric
@@ -38,6 +42,7 @@ Yolov4 is highly practical and focuses on training fast object detectors with on
 	- When enough trick is used, accuracy does not depend on batch size too much (4 and 8 similar)
 
 #### Technical details
+- IOU Loss --> GIOU Loss --> DIOU Loss --> CIOU Loss. See [review on Zhihu](https://zhuanlan.zhihu.com/p/143747206)
 - S: eliminating grid sensitivity. Yolov3 uses a sigmoid to regress the relative position inside the grid. The scale factor in yolov4 is [1.2](https://github.com/AlexeyAB/darknet/blob/master/cfg/yolov4.cfg#L973). Essentially this is using the middle range of sigmoid, say stretching [0.2, 0.8] to [0, 1]. See more details in this [PR to openCV](https://github.com/opencv/opencv/issues/17148). When S >> 1, then scale sigmoid approximates L2 loss.
 	- See this [issue in yolov4 repo](https://github.com/AlexeyAB/darknet/issues/3293) for background of this discussion.
 - Most effective tricks:

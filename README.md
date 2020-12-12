@@ -69,7 +69,9 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Yolov5 by Ultralytics](https://github.com/ultralytics/yolov5) [[Notes](paper_notes/yolov5.md)] [yolo, spatial2channel]
 - [PP-YOLO: An Effective and Efficient Implementation of Object Detector](https://arxiv.org/abs/2007.12099) [yolo, paddle-paddle, baidu]
 - [VoVNet: An Energy and GPU-Computation Efficient Backbone Network for Real-Time Object Detection](https://arxiv.org/abs/1904.09730) <kbd>CVPR 2019 workshop</kbd>
+- [Isometric Neural Networks: Non-discriminative data or weak model? On the relative importance of data and model resolution](https://arxiv.org/abs/1909.03205) <kbd>ICCV 2019 workshop</kbd> [spatial2channel]
 - [TResNet](https://arxiv.org/abs/2003.13630) <kbd>WACV 2021</kbd> [spatial2channel]
+- [Distance-IoU Loss: Faster and Better Learning for Bounding Box Regression](https://arxiv.org/abs/1911.08287) <kbd>AAAI 2020</kbd> [DIOU, NMS]
 - [RegNet: Designing Network Design Spaces](https://arxiv.org/abs/2003.13678) <kbd>CVPR 2020</kbd> [FAIR]
 - [On Network Design Spaces for Visual Recognition](https://arxiv.org/abs/1905.13214) [FAIR]
 - [Lane Endpoint Detection and Position Accuracy Evaluation for Sensor Fusion-Based Vehicle Localization on Highways](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6308985/) <kbd>Sensors 2018</kbd> [lane endpoints]
