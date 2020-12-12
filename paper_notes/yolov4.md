@@ -9,7 +9,10 @@ The paper has a very nice review of object detection, including one-stage object
 
 Yolov4 is highly practical and focuses on training fast object detectors with only one 1080Ti or 2080Ti GPU card. Yolov4 runs twice as fast as EfficientDet.
 
-For a more engineering friendly, pytorch-native repo, see [Yolov5](yolov5.md).
+Overall YOLOv4 is not very friendly to be deployed, given the darknet framework. Two better and more industry-friendly solutions are:
+
+- [PP-YOLO](pp_yolo.md) starts with [YOLOv3](yolov3.md) and uses training tricks to boost performance above [YOLOv4](yolov4.md). 
+- [YOLOv5](yolov5.md) is a more engineering friendly, pytorch-native repo.
 
 #### Key ideas
 - Great review on Zhihu
@@ -22,7 +25,7 @@ For a more engineering friendly, pytorch-native repo, see [Yolov5](yolov5.md).
 	- cIOU loss function
 	- CmBN
 	- Cosine Anealing LR
-	- Dynamic minibatch size. This is similar to [Multigrid]
+	- Dynamic minibatch size. This is similar to [Multigrid](multigrid_training.md)
 - Bag of specials: which impacts the inference time slightly with a good return in performance.
 	- Plug-in modules such as attention modules
 	- SPP

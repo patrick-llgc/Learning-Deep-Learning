@@ -52,7 +52,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2020-12 (7)
+## 2020-12 (11)
 - [Traffic Light Mapping, Localization, and State Detection for Autonomous Vehicles](http://driving.stanford.edu/papers/ICRA2011.pdf) [[Notes](paper_notes/tfl_stanford.md)] <kbd>ICRA 2011</kbd> [traffic light, Sebastian Thrun]
 - [Towards lifelong feature-based mapping in semi-static environments](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43966.pdf) [[Notes](paper_notes/lifelong_feature_mapping_google.md)] <kbd>ICRA 2016</kbd>
 - [How to Keep HD Maps for Automated Driving Up To Date](http://www.lewissoft.com/pdf/ICRA2020/1484.pdf) [[Notes](paper_notes/keep_hd_maps_updated_bmw.md)] <kbd>ICRA 2020</kbd> [BMW]
@@ -67,7 +67,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [SplitNet: Divide and Co-training](https://arxiv.org/abs/2011.14660)
 - [Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036) [[Notes](paper_notes/scaled_yolov4.md)] [yolo]
 - [Yolov5 by Ultralytics](https://github.com/ultralytics/yolov5) [[Notes](paper_notes/yolov5.md)] [yolo, spatial2channel]
-- [PP-YOLO: An Effective and Efficient Implementation of Object Detector](https://arxiv.org/abs/2007.12099) [yolo, paddle-paddle, baidu]
+- [PP-YOLO: An Effective and Efficient Implementation of Object Detector](https://arxiv.org/abs/2007.12099) [[Notes](paper_notes/pp_yolo.md)] [yolo, paddle-paddle, baidu]
 - [VoVNet: An Energy and GPU-Computation Efficient Backbone Network for Real-Time Object Detection](https://arxiv.org/abs/1904.09730) <kbd>CVPR 2019 workshop</kbd>
 - [Isometric Neural Networks: Non-discriminative data or weak model? On the relative importance of data and model resolution](https://arxiv.org/abs/1909.03205) <kbd>ICCV 2019 workshop</kbd> [spatial2channel]
 - [TResNet](https://arxiv.org/abs/2003.13630) <kbd>WACV 2021</kbd> [spatial2channel]

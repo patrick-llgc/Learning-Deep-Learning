@@ -6,7 +6,6 @@ tl;dr: Summary of the main idea.
 
 #### Overall impression
 
-
 #### Key ideas
 - Scaling factor s to eliminate grid sensitivity.
 
