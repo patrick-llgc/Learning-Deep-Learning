@@ -60,7 +60,8 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Visual SLAM for Automated Driving: Exploring the Applications of Deep Learning](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/Milz_Visual_SLAM_for_CVPR_2018_paper.pdf) [[Notes](paper_notes/vslam_for_ad.md)] <kbd>CVPR 2018 workshop</kbd>
 - [Centroid Voting: Object-Aware Centroid Voting for Monocular 3D Object Detection](https://arxiv.org/abs/2007.09836) [[Notes](paper_notes/centroid_voting.md)] <kbd>IROS 2020</kbd> [mono3D, geometry + appearance = distance]
 - [Monocular 3D Object Detection in Cylindrical Images from Fisheye Cameras](https://arxiv.org/abs/2003.03759) [[Notes](paper_notes/mono3d_fisheye.md)] [GM Israel, mono3D]
-- [PSDet: Efficient and Universal Parking Slot Detection](https://arxiv.org/abs/2005.05528) <kbd>IV 2020</kbd> [Zongmu, Parking]
+- [DeepPS: Vision-Based Parking-Slot Detection: A DCNN-Based Approach and a Large-Scale Benchmark Dataset](https://cslinzhang.github.io/deepps/parkingslot.pdf) <kbd>TIP 2018</kbd> [Parking slot detection, PS2.0 dataset]
+- [PSDet: Efficient and Universal Parking Slot Detection](https://arxiv.org/abs/2005.05528) [[Notes](paper_notes/psdet.md)] <kbd>IV 2020</kbd> [Zongmu, Parking slot detection]
 - [DeFCN: End-to-End Object Detection with Fully Convolutional Network](https://arxiv.org/abs/2012.03544) [[Notes](paper_notes/defcn.md)] [Transformer, DETR]
 - [OneNet: End-to-End One-Stage Object Detection by Classification Cost](https://peizesun.github.io/OneNet.pdf) [Transformer, DETR]
 - [SplitNet: Divide and Co-training](https://arxiv.org/abs/2011.14660)
