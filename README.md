@@ -66,7 +66,10 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [OneNet: End-to-End One-Stage Object Detection by Classification Cost](https://peizesun.github.io/OneNet.pdf) [Transformer, DETR]
 - [SplitNet: Divide and Co-training](https://arxiv.org/abs/2011.14660)
 - [Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036) [[Notes](paper_notes/scaled_yolov4.md)] [yolo]
+- [Yolov5 by Ultralytics](https://github.com/ultralytics/yolov5) [[Notes](paper_notes/yolov5.md)] [yolo, spatial2channel]
 - [PP-YOLO: An Effective and Efficient Implementation of Object Detector](https://arxiv.org/abs/2007.12099) [yolo, paddle-paddle, baidu]
+- [VoVNet: An Energy and GPU-Computation Efficient Backbone Network for Real-Time Object Detection](https://arxiv.org/abs/1904.09730) <kbd>CVPR 2019 workshop</kbd>
+- [TResNet](https://arxiv.org/abs/2003.13630) <kbd>WACV 2021</kbd> [spatial2channel]
 - [RegNet: Designing Network Design Spaces](https://arxiv.org/abs/2003.13678) <kbd>CVPR 2020</kbd> [FAIR]
 - [On Network Design Spaces for Visual Recognition](https://arxiv.org/abs/1905.13214) [FAIR]
 - [Lane Endpoint Detection and Position Accuracy Evaluation for Sensor Fusion-Based Vehicle Localization on Highways](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6308985/) <kbd>Sensors 2018</kbd> [lane endpoints]
