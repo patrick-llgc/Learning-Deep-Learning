@@ -52,12 +52,15 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2020-12 (4)
+## 2020-12 (7)
 - [Traffic Light Mapping, Localization, and State Detection for Autonomous Vehicles](http://driving.stanford.edu/papers/ICRA2011.pdf) [[Notes](paper_notes/tfl_stanford.md)] <kbd>ICRA 2011</kbd> [traffic light, Sebastian Thrun]
-- [Towards Lifelong Feature-Based Mapping in Semi-Static Environments]
+- [Towards lifelong feature-based mapping in semi-static environments](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43966.pdf) [[Notes](paper_notes/lifelong_feature_mapping_google.md)] <kbd>ICRA 2016</kbd>
+- [How to Keep HD Maps for Automated Driving Up To Date](http://www.lewissoft.com/pdf/ICRA2020/1484.pdf) [[Notes](paper_notes/keep_hd_maps_updated_bmw.md)] <kbd>ICRA 2020</kbd> [BMW]
 - [Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection](https://arxiv.org/abs/2011.12885) [[Notes](paper_notes/gfocalv2.md)] [focal loss]
 - [Visual SLAM for Automated Driving: Exploring the Applications of Deep Learning](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/Milz_Visual_SLAM_for_CVPR_2018_paper.pdf) [[Notes](paper_notes/vslam_for_ad.md)] <kbd>CVPR 2018 workshop</kbd>
 - [Centroid Voting: Object-Aware Centroid Voting for Monocular 3D Object Detection](https://arxiv.org/abs/2007.09836) [[Notes](paper_notes/centroid_voting.md)] <kbd>IROS 2020</kbd> [mono3D, geometry + appearance = distance]
+- [Monocular 3D Object Detection in Cylindrical Images from Fisheye Cameras](https://arxiv.org/abs/2003.03759) [[Notes](paper_notes/mono3d_fisheye.md)] [GM Israel, mono3D]
+- [PSDet: Efficient and Universal Parking Slot Detection](https://arxiv.org/abs/2005.05528) <kbd>IV 2020</kbd> [Zongmu, Parking]
 - [DeFCN: End-to-End Object Detection with Fully Convolutional Network](https://arxiv.org/abs/2012.03544) [[Notes](paper_notes/defcn.md)] [Transformer, DETR]
 - [OneNet: End-to-End One-Stage Object Detection by Classification Cost](https://peizesun.github.io/OneNet.pdf) [Transformer, DETR]
 - [SplitNet: Divide and Co-training](https://arxiv.org/abs/2011.14660)
@@ -120,7 +123,6 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [NYC3DCars: A Dataset of 3D Vehicles in Geographic Context](https://www.cs.cornell.edu/~snavely/publications/papers/nyc3dcars_iccv13.pdf) <kbd>ICCV 2013</kbd>
 - [Towards Fully Autonomous Driving: Systems and Algorithms](https://www.ri.cmu.edu/wp-content/uploads/2017/12/levinson-iv2011.pdf) <kbd>IV 2011</kbd>
 - [Center3D: Center-based Monocular 3D Object Detection with Joint Depth Understanding](https://arxiv.org/abs/2005.13423) [[Notes](paper_notes/center3d.md)] [mono3D, LID+DepJoint]
-- [Monocular 3D Object Detection in Cylindrical Images from Fisheye Cameras](https://arxiv.org/abs/2003.03759) [GM Israel, mono3D]
 - [ZoomNet: Part-Aware Adaptive Zooming Neural Network for 3D Object Detection](https://arxiv.org/abs/2003.00529) <kbd>AAAI 2020 oral</kbd> [mono3D] 
 - [CenterFusion: Center-based Radar and Camera Fusion for 3D Object Detection](https://arxiv.org/abs/2011.04841) [[Notes](paper_notes/centerfusion.md)] <kbd>WACV 2021</kbd> [early fusion, camera, radar]
 - [3D-LaneNet+: Anchor Free Lane Detection using a Semi-Local Representation](https://arxiv.org/abs/2011.01535) [[Notes](paper_notes/3d_lanenet+.md)] <kbd>NeurIPS 2020 workshop</kbd> [GM Israel, 3D LLD]
@@ -140,8 +142,6 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [ST-3D: Joint Spatial-Temporal Optimization for Stereo 3D Object Tracking](https://arxiv.org/abs/2004.09305) <kbd>CVPR 2020</kbd> [Peilinag LI, author of VINS and S3DOT]
 - [Augment Your Batch: Improving Generalization Through Instance Repetition](https://openaccess.thecvf.com/content_CVPR_2020/papers/Hoffer_Augment_Your_Batch_Improving_Generalization_Through_Instance_Repetition_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd>
 - [RetinaTrack: Online Single Stage Joint Detection and Tracking](https://arxiv.org/abs/2003.13870) <kbd>CVPR 2020</kbd> [MOT]
-- [Towards lifelong feature-based mapping in semi-static environments](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43966.pdf) [[Notes](paper_notes/lifelong_feature_mapping_google.md)] <kbd>ICRA 2016</kbd>
-- [How to Keep HD Maps for Automated Driving Up To Date](http://www.lewissoft.com/pdf/ICRA2020/1484.pdf) [[Notes](paper_notes/keep_hd_maps_updated_bmw.md)] <kbd>ICRA 2020</kbd> [BMW]
 - [Object as Hotspots: An Anchor-Free 3D Object Detection Approach via Firing of Hotspots](https://arxiv.org/abs/1912.12791)
 - [Gradient Centralization: A New Optimization Technique for Deep Neural Networks](https://arxiv.org/abs/2004.01461) <kbd>ECCV 2020 oral</kbd>
 - [Depth Completion via Deep Basis Fitting](https://arxiv.org/abs/1912.10336) <kbd>WACV 2020</kbd>
@@ -298,7 +298,6 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [MonoPair: Monocular 3D Object Detection Using Pairwise Spatial Relationships](https://arxiv.org/abs/2003.00504) [[Notes](paper_notes/monopair.md)] <kbd>CVPR 2020</kbd> [Mono3D, pairwise relationship]
 - [SMOKE: Single-Stage Monocular 3D Object Detection via Keypoint Estimation](https://arxiv.org/abs/2002.10111) [[Notes](paper_notes/smoke.md)] <kbd>CVPRW 2020</kbd> [Mono3D, Zongmu]
 - [Vehicle Re-ID for Surround-view Camera System](https://drive.google.com/file/d/1e6y8wtHAricaEHS9CpasSGOx0aAxCGib/view) [[Notes](paper_notes/reid_surround_fisheye.md)] <kbd>CVPRW 2020</kbd> [tireline, vehicle ReID, Zongmu]
-- [PSDet: Efficient and Universal Parking Slot Detection](https://arxiv.org/abs/2005.05528) <kbd>IV 2020</kbd> [Zongmu, Parking]
 - [End-to-End Lane Marker Detection via Row-wise Classification](https://arxiv.org/abs/2005.08630) [[Notes](paper_notes/e2e_lmd.md)] [Qualcomm Korea, LLD as cls]
 - [Reliable multilane detection and classification by utilizing CNN as a regression network](http://openaccess.thecvf.com/content_ECCVW_2018/papers/11133/Chougule_Reliable_multilane_detection_and_classification_by_utilizing_CNN_as_a_ECCVW_2018_paper.pdf) <kbd>ECCV 2018</kbd> [LLD as reg]
 - [SUPER: A Novel Lane Detection System](https://arxiv.org/abs/2005.07277) [[Notes](paper_notes/super.md)]
@@ -497,7 +496,7 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [BEV-IPM: Deep Learning based Vehicle Position and Orientation Estimation via Inverse Perspective Mapping Image](https://ieeexplore.ieee.org/abstract/document/8814050) [[Notes](paper_notes/bev_od_ipm.md)] <kbd>IV 2019</kbd>
 - [ForeSeE: Task-Aware Monocular Depth Estimation for 3D Object Detection](https://arxiv.org/abs/1909.07701) [[Notes](paper_notes/foresee_mono3dod.md)] <kbd>AAAI 2020 oral</kbd> [successor to pseudo-lidar, mono 3DOD SOTA]
 - [Obj-dist: Learning Object-specific Distance from a Monocular Image](https://arxiv.org/abs/1909.04182) [[Notes](paper_notes/obj_dist_iccv2019.md)] <kbd>ICCV 2019</kbd> (xmotors.ai + NYU) [monocular distance]
-- [DisNet: A novel method for distance estimation from monocular camera](https://project.inria.fr/ppniv18/files/2018/10/paper22.pdf) [[Notes]`(paper_notes/disnet.md)] <kbd>IROS 2018</kbd> [monocular distance]
+- [DisNet: A novel method for distance estimation from monocular camera](https://project.inria.fr/ppniv18/files/2018/10/paper22.pdf) [[Notes](paper_notes/disnet.md)] <kbd>IROS 2018</kbd> [monocular distance]
 - [BirdGAN: Learning 2D to 3D Lifting for Object Detection in 3D for Autonomous Vehicles](https://arxiv.org/abs/1904.08494) [[Notes](paper_notes/birdgan.md)] <kbd>IROS 2019</kbd> 
 - [Shift R-CNN: Deep Monocular 3D Object Detection with Closed-Form Geometric Constraints](https://arxiv.org/abs/1905.09970) [[Notes](paper_notes/shift_rcnn.md)] <kbd>ICIP 2019</kbd>
 - [3D-RCNN: Instance-level 3D Object Reconstruction via Render-and-Compare](http://openaccess.thecvf.com/content_cvpr_2018/papers/Kundu_3D-RCNN_Instance-Level_3D_CVPR_2018_paper.pdf) [[Notes](paper_notes/3d_rcnn.md)] <kbd>CVPR 2018</kbd>
