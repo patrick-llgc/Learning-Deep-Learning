@@ -10,7 +10,7 @@ ApolloCar3D is a new dataset on ApolloScape. It has ~5k images and ~60k car inst
 Using keypoints significantly improves performance. 
 
 #### Key ideas
-- Keypoints are detected, and then fitted to 3D models with EPnP algorithms. --> similar to [DeepMANTA](deep_manta.md).
+- Keypoints are detected, and then fitted to 3D models with **EPnP** algorithms. --> similar to [DeepMANTA](deep_manta.md).
 - Co-planar constraints between cars and its neighboring cars. This only takes effect if less than 6 points are annotated. Number of neighboring cars is set to 2.
 - Direct approach (top-down): 
 	- regress amodal bbox and 3d center's 2d projection
