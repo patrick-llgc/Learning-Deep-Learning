@@ -39,6 +39,7 @@ Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out o
 ## My Review Posts by Topics
 I regularly update [my blog in Toward Data Science](https://medium.com/@patrickllgc).
 
+- [Monocular 3D Lane Line Detection in Autonomous Driving](https://towardsdatascience.com/monocular-3d-lane-line-detection-in-autonomous-driving-4d7cdfabf3b6) ([related paper notes](topic_3d_lld.md))
 - [Deep-Learning based Object detection in Crowded Scenes](https://towardsdatascience.com/deep-learning-based-object-detection-in-crowded-scenes-1c9fddbd7bc4) ([related paper notes](topic_crowd_detection.md))
 - [Monocular Bird’s-Eye-View Semantic Segmentation for Autonomous Driving](https://towardsdatascience.com/monocular-birds-eye-view-semantic-segmentation-for-autonomous-driving-ee2f771afb59)
 - [Deep Learning in Mapping for Autonomous Driving](https://towardsdatascience.com/deep-learning-in-mapping-for-autonomous-driving-9e33ee951a44)
@@ -406,7 +407,7 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [LaneNet: Towards End-to-End Lane Detection: an Instance Segmentation Approach](https://arxiv.org/abs/1802.05591) [[Notes](paper_notes/lanenet.md)] <kbd>IV 2018</kbd> (LaneNet)
 - [3D-LaneNet: End-to-End 3D Multiple Lane Detection](http://openaccess.thecvf.com/content_ICCV_2019/papers/Garnett_3D-LaneNet_End-to-End_3D_Multiple_Lane_Detection_ICCV_2019_paper.pdf) [[Notes](paper_notes/3d_lanenet.md)] <kbd>ICCV 2019</kbd>
 - [Semi-Local 3D Lane Detection and Uncertainty Estimation](https://arxiv.org/abs/2003.05257) [[Notes](paper_notes/semilocal_3d_lanenet.md)] [GM Israel, 3D LLD]
-- [Gen-LaneNet: A Generalized and Scalable Approach for 3D Lane Detection](https://arxiv.org/abs/2003.10656) [[Notes](paper_notes/gen_lanenet.md)] [Apollo, 3D LLD]
+- [Gen-LaneNet: A Generalized and Scalable Approach for 3D Lane Detection](https://arxiv.org/abs/2003.10656) [[Notes](paper_notes/gen_lanenet.md)] <kbd>ECCV 2020</kbd> [Apollo, 3D LLD]
 - [Long-Term On-Board Prediction of People in Traffic Scenes under Uncertainty](https://arxiv.org/abs/1711.09026) <kbd>CVPR 2018</kbd> [Egocentric prediction]
 - [It’s Not All About Size: On the Role of Data Properties in Pedestrian Detection](http://openaccess.thecvf.com/content_ECCVW_2018/papers/11129/Rasouli_Its_Not_All_About_Size_On_the_Role_of_Data_ECCVW_2018_paper.pdf) <kbd>ECCV 2018</kbd> [pedestrian]
 
@@ -591,7 +592,7 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 ## 2019-06 (12)
 - [MixMatch: A Holistic Approach to Semi-Supervised Learning](https://arxiv.org/abs/1905.02249) [[Notes](paper_notes/MixMatch.md)]
 - [EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/pdf/1905.11946.pdf) [[Notes](paper_notes/efficientnet.md)] <kbd>ICML 2019</kbd>
-- [What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?](https://arxiv.org/pdf/1703.04977.pdf) [[Notes](paper_notes/uncertainty_bdl.md)] <kbd>NIPS 2017</kbd>
+- [What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?](https://arxiv.org/abs/1703.04977) [[Notes](paper_notes/uncertainty_bdl.md)] <kbd>NIPS 2017</kbd>
 - [Bayesian SegNet: Model Uncertainty in Deep Convolutional Encoder-Decoder Architectures for Scene Understanding](https://arxiv.org/pdf/1511.02680.pdf) [[Notes](paper_notes/bayesian_segnet.md)]<kbd>BMVC 2017</kbd>
 - [TrafficPredict: Trajectory Prediction for Heterogeneous Traffic-Agents](https://arxiv.org/pdf/1811.02146.pdf) [[Notes](paper_notes/trafficpredict.md)] <kbd>AAAI 2019 oral</kbd>
 - [Deep Depth Completion of a Single RGB-D Image](https://arxiv.org/pdf/1803.09326.pdf) [[Notes](paper_notes/deep_depth_completion_rgbd.md)] <kbd>CVPR 2018</kbd> (indoor)

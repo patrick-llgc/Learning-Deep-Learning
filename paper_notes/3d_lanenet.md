@@ -7,28 +7,30 @@ tl;dr: First paper on Monocular 3D Lane line detection.
 #### Overall impression
 3D LaneNet is the first work on 3D lane line detection. This is very close to [Tesla's 3D lane line detection](https://twitter.com/theteslashow/status/1223049982191685633?lang=en). 
 
-3D LaneNet does not need fragile assumptions such as the flat ground assumption, only assumes zero camera roll wrt to the local road surface. The network **estimates the camera height and pitch** (together with known camera intrinsics, they are all that are needed to determine the homography between BEV and perspective).
+3D LaneNet does not need fragile assumptions such as the flat ground assumption, only assumes zero camera roll wrt to the local road surface. The network **estimates the camera height and pitch** (together with known camera intrinsics, they are all that are needed to determine the homography between BEV and perspective). --> This is different from the direct prediction of H in [LaneNet](lanenet.md).
 
-The network architecture is a dual-pathway backbone which ctranslates between image and BEV space. This is similar to [Qualcomm's deep radar detector](radar_fft_qcom.md). However the transformation parameter is estimated on the fly by a localization network, similar to [Sfm-learner](sfm_learner.md), which is essentially a special case of [Spatial Transformer Network](stn.md). This is another way to lift features to BEV than [Orthogonal Feature Transform](oft.md).
+The network architecture is a dual-pathway backbone which translates between image and BEV space. This is similar to [Qualcomm's deep radar detector](radar_fft_qcom.md). However the transformation parameter is estimated on the fly by a localization network, similar to [Sfm-learner](sfm_learner.md), which is essentially a special case of [Spatial Transformer Network](stn.md). This is another way to lift features to BEV than [Orthogonal Feature Transform](oft.md).
 
 The system also works for 2D lane line detection, and reaches near SOTA performance on TuSimple dataset. The regression of different lanes at preset longitudinal (y location in perspective image) is widely used in industry.
 
 #### Key ideas
+- Formulation of 3D LLD
+	- Instead of predicting the depth of the lane line points directly, it first predicts the pitch/height of the camera and thus constructs a **road projection plane**.
+	- The 3D lane line can be formulated as the projection of the 3D point onto the road projection plane $P_{road}$, the plane tangent to the local road surface, and then the z-distance to the road surface. 
 - Dataset 
 	- The study used simulated environment (Blender) to generate large amount of synthetic data with 3D groundtruth. 
 	- They also collected 2.5 hrs of real data with lidar detector and semi-manual annotation, but only to validate the idea. --> This is not quite scalable. Maybe synthetic dataset and sim2real is the way to go. (cf 3D Synthetic LLD dataset [Gen-LaneNet](gen_lanenet.md))
-- Image to BEV with predicted pitch $\phi_{cam}$ and height $h_{cam}$. Then project the image according to the homography determined by these two parameters. (We assume zero camera roll).
-- The 3D lane line can be formulated as the projection of the 3D point onto the $P_{road}$, the plane tangent to the local road surface, and then the z-distance to the road surface. 
-
-
+- Image to BEV with predicted pitch $\phi_{cam}$ and height $h_{cam}$. Then project the image according to the homography determined by these two parameters. (We assume zero camera roll). The **scale of the homography** is determined by camera height. The scale is learned in a supervised manner. 
+- Limited topology. GT and pred association happens at a predefined position $Y_{ref}$ = 20m. Thus for splits and merges that happens beyond 20 m, 3D LaneNet cannot handle. 
 
 
 #### Technical details
 - Why IPM? Lanes are ordinarily parallel in this view and their curvature can be accurately fitted with low-order polynomials. Lane markings are similar regardless of the distance from camera.
 - Anchor-based regression
-	- K predefined y position (6 points). Each of the K points predicts two numbers, dx and z. Each anchor also has one conf predicting if there is a lane associated with the anchor at a predefined position $Y_{ref}$ = 20m. 
+	- Anchor association: the anchor associated to a lane is the one closest to the x-coordinate of the lane at $Y_{ref}$ = 20m.
+	- K predefined y position (K=6 points). Each of the K points predicts two numbers, dx and z. Each anchor also has one conf predicting if there is a lane associated with the anchor at a predefined position $Y_{ref}$ = 20m. 
 	- Each anchor is 16 cm (first layer) x 8 = 128 cm wide. Anchor number N = W/8. 
-	- Total target is N * (2K + 1) per lane type. It can predict 3 types (2 center-lines for fork/merge and one deliminator).
+	- Total target is N * (2K + 1) per lane line type. It can predict 3 types (2 center-lines for fork/merge and one deliminator).
 - The dual pathway backbone is quite heavy. To get better trade-off, late-stage IPM provides second best performance.
 
 #### Notes

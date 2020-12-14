@@ -2,7 +2,7 @@
 
 _November 2020_
 
-tl;dr: This is a shrunk down version of [Semilocal 3D LaneNet](semilocal_3d_lanenet.md). By design, the semilocal tile based approach is anchor free.
+tl;dr: This is a shrunk down version of [Semilocal 3D LaneNet](semilocal_3d_lanenet.md). By design, the semi-local tile based approach is anchor free.
 
 #### Overall impression
 Describe the overall impression of the paper. 
