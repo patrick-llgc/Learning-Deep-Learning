@@ -41,7 +41,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 
 - [Monocular 3D Lane Line Detection in Autonomous Driving](https://towardsdatascience.com/monocular-3d-lane-line-detection-in-autonomous-driving-4d7cdfabf3b6) ([related paper notes](topic_3d_lld.md))
 - [Deep-Learning based Object detection in Crowded Scenes](https://towardsdatascience.com/deep-learning-based-object-detection-in-crowded-scenes-1c9fddbd7bc4) ([related paper notes](topic_crowd_detection.md))
-- [Monocular Bird’s-Eye-View Semantic Segmentation for Autonomous Driving](https://towardsdatascience.com/monocular-birds-eye-view-semantic-segmentation-for-autonomous-driving-ee2f771afb59)
+- [Monocular Bird’s-Eye-View Semantic Segmentation for Autonomous Driving](https://towardsdatascience.com/monocular-birds-eye-view-semantic-segmentation-for-autonomous-driving-ee2f771afb59) ([related paper notes](topic_bev_segmentation.md))
 - [Deep Learning in Mapping for Autonomous Driving](https://towardsdatascience.com/deep-learning-in-mapping-for-autonomous-driving-9e33ee951a44)
 - [Monocular Dynamic Object SLAM in Autonomous Driving](https://towardsdatascience.com/monocular-dynamic-object-slam-in-autonomous-driving-f12249052bf1)
 - [Monocular 3D Object Detection in Autonomous Driving — A Review](https://towardsdatascience.com/monocular-3d-object-detection-in-autonomous-driving-2476a3c7f57e)
@@ -116,12 +116,14 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [When and Why Test-Time Augmentation Works](https://arxiv.org/abs/2011.11156)
 - [Footprints and Free Space from a Single Color Image](https://arxiv.org/abs/2004.06376) <kbd>CVPR 2020 oral</kbd> [Parking use, footprint]
 - [PointPainting: Sequential Fusion for 3D Object Detection](https://arxiv.org/pdf/1911.10150.pdf) [[Notes](paper_notes/point_painting.md)] [nuscenece]
-- [MotionNet: Joint Perception and Motion Prediction for Autonomous Driving Based on Bird's Eye View Maps](https://arxiv.org/abs/2003.06754) <kbd>CVPR 2020</kbd> [Unseen moving objects, BEV]
+- [MotionNet: Joint Perception and Motion Prediction for Autonomous Driving Based on Bird's Eye View Maps](https://arxiv.org/abs/2003.06754) [[Notes](paper_notes/motionnet.md)] <kbd>CVPR 2020</kbd> [Unseen moving objects, BEV]
 - [Driving among Flatmobiles: Bird-Eye-View occupancy grids from a monocular camera for holistic trajectory planning](https://arxiv.org/abs/2008.04047) [BEV, only predict footprint]
 - [Rethinking Classification and Localization for Object Detection](https://arxiv.org/abs/1904.06493) <kbd>CVPR 2020</kbd>
 - [Monocular 3D Object Detection with Sequential Feature Association and Depth Hint Augmentation](https://arxiv.org/abs/2011.14589) [mono3D]
 - [BoxInst: High-Performance Instance Segmentation with Box Annotations](https://arxiv.org/abs/2012.02310) [Chunhua Shen, Tian Zhi]
+- [Simple Copy-Paste is a Strong Data Augmentation Method for Instance Segmentation](https://arxiv.org/abs/2012.07177)
 - [ViP-DeepLab: Learning Visual Perception with Depth-aware Video Panoptic Segmentation](https://arxiv.org/abs/2012.05258)
+- [Recurrent MVSNet for High-resolution Multi-view Stereo Depth Inference](https://arxiv.org/abs/1902.10556) [Deep learning + MVS]
 
 ## 2020-11 (18)
 - [TSP: Rethinking Transformer-based Set Prediction for Object Detection](https://arxiv.org/abs/2011.10881) [[Notes](paper_notes/tsp.md)] [DETR, transformers, Kris Kitani]
