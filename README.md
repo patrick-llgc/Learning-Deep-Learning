@@ -92,7 +92,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multi-Task Learning for Dense Prediction Tasks: A Survey](https://arxiv.org/abs/2004.13379) [MTL, Luc Van Gool]
 - [Dynamic Task Weighting Methods for Multi-task Networks in Autonomous Driving Systems](https://arxiv.org/abs/2001.02223) <kbd>ITSC 2020 oral</kbd> [MTL]
 - [NeurAll: Towards a Unified Model for Visual Perception in Automated Driving](https://arxiv.org/abs/1902.03589) <kbd>ITSC 2019 oral</kbd> [MTL]
-- [Locating Objects Without Bounding Boxes](https://arxiv.org/abs/1806.07564) <kbd>CVPR 2019</kbd>
+- [Locating Objects Without Bounding Boxes](https://arxiv.org/abs/1806.07564) [[Notes](paper_notes/objects_without_bboxes.md)] <kbd>CVPR 2019</kbd> [weighted Haussdorf distance, NMS-free]
 - [Deep Evidential Regression](https://papers.nips.cc/paper/2020/file/aab085461de182608ee9f607f3f7d18f-Paper.pdf) <kbd>NeurIPS 2020</kbd> [one-pass aleatoric/epistemic uncertainty]
 - [Estimating Drivable Collision-Free Space from Monocular Video](http://www.cs.toronto.edu/~yaojian/freeSpace.pdf) <kbd>WACV 2015</kbd> [Drivable space]
 - [Visualization of Convolutional Neural Networks for Monocular Depth Estimation](https://arxiv.org/abs/1904.03380) <kbd>ICCV 2019</kbd> [monodepth]
@@ -123,7 +123,9 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [BoxInst: High-Performance Instance Segmentation with Box Annotations](https://arxiv.org/abs/2012.02310) [Chunhua Shen, Tian Zhi]
 - [Simple Copy-Paste is a Strong Data Augmentation Method for Instance Segmentation](https://arxiv.org/abs/2012.07177)
 - [ViP-DeepLab: Learning Visual Perception with Depth-aware Video Panoptic Segmentation](https://arxiv.org/abs/2012.05258)
-- [Recurrent MVSNet for High-resolution Multi-view Stereo Depth Inference](https://arxiv.org/abs/1902.10556) [Deep learning + MVS]
+- [Recurrent MVSNet for High-resolution Multi-view Stereo Depth Inference](https://arxiv.org/abs/1902.10556) [Deep learning + MVS, Vidar]
+- [Artificial Dummies for Urban Dataset Augmentation](https://arxiv.org/abs/2012.08274) <kbd>AAAI 2021</kbd>
+- [DETR for Pedestrian Detection](https://arxiv.org/abs/2012.06785) [transformer, pedestrian detection]
 
 ## 2020-11 (18)
 - [TSP: Rethinking Transformer-based Set Prediction for Object Detection](https://arxiv.org/abs/2011.10881) [[Notes](paper_notes/tsp.md)] [DETR, transformers, Kris Kitani]
@@ -179,7 +181,7 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [RepLoss: Repulsion Loss: Detecting Pedestrians in a Crowd](https://arxiv.org/abs/1711.07752) [[Notes](paper_notes/rep_loss.md)] <kbd>CVPR 2018</kbd> [crowd detection, Megvii]
 - [Adaptive NMS: Refining Pedestrian Detection in a Crowd](https://arxiv.org/abs/1904.03629) [[Notes](paper_notes/adaptive_nms.md)] <kbd>CVPR 2019 oral</kbd> [crowd detection, NMS]
 - [AggLoss: Occlusion-aware R-CNN: Detecting Pedestrians in a Crowd](https://arxiv.org/abs/1807.08407) [[Notes](paper_notes/agg_loss.md)] <kbd>ECCV 2018</kbd> [crowd detection]
-- [CrowdDet: Detection in Crowded Scenes: One Proposal, Multiple Predictions](https://arxiv.org/abs/2003.09163) [[Notes](paper_notes/crowd_det.md)] <kbd>CVPR 2020 oral</kbd> [crowd detection, Megvii]
+- [CrowdDet: Detection in Crowded Scenes: One Proposal, Multiple Predictions](https://arxiv.org/abs/2003.09163) [[Notes](paper_notes/crowd_det.md)] <kbd>CVPR 2020 oral</kbd> [crowd detection, Megvii, Earth mover's distance]
 - [R2-NMS: NMS by Representative Region: Towards Crowded Pedestrian Detection by Proposal Pairing](https://arxiv.org/abs/2003.12729) [[Notes](paper_notes/r2_nms.md)] <kbd>CVPR 2020</kbd>
 - [Double Anchor R-CNN for Human Detection in a Crowd](https://arxiv.org/abs/1909.09998) [[Notes](paper_notes/double_anchor.md)] [head-body bundle]
 - [Review: AP vs MR](paper_notes/ap_mr.md)
@@ -235,7 +237,7 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [DeepRoadMapper: Extracting Road Topology from Aerial Images](https://openaccess.thecvf.com/content_ICCV_2017/papers/Mattyus_DeepRoadMapper_Extracting_Road_ICCV_2017_paper.pdf) [[Notes](paper_notes/deep_road_mapper.md)] <kbd>ICCV 2017</kbd> [Uber ATG, NOT HD maps]
 - [RoadTracer: Automatic Extraction of Road Networks from Aerial Images](https://openaccess.thecvf.com/content_cvpr_2018/papers/Bastani_RoadTracer_Automatic_Extraction_CVPR_2018_paper.pdf) <kbd>CVPR 2018</kbd> [NOT HD maps]
 - [PolyMapper: Topological Map Extraction From Overhead Images](https://arxiv.org/abs/1812.01497) [[Notes](paper_notes/polymapper.md)] <kbd>ICCV 2019</kbd> [mapping, polygon, NOT HD maps]
-- [HRAN: Hierarchical Recurrent Attention Networks for Structured Online Maps](https://openaccess.thecvf.com/content_cvpr_2018/papers/Homayounfar_Hierarchical_Recurrent_Attention_CVPR_2018_paper.pdf) [[Notes](paper_notes/hran.md)] <kbd>CVPR 2018</kbd> [HD mapping, highway, polyline loss]
+- [HRAN: Hierarchical Recurrent Attention Networks for Structured Online Maps](https://openaccess.thecvf.com/content_cvpr_2018/papers/Homayounfar_Hierarchical_Recurrent_Attention_CVPR_2018_paper.pdf) [[Notes](paper_notes/hran.md)] <kbd>CVPR 2018</kbd> [HD mapping, highway, polyline loss, Chamfer distance]
 - [Deep Structured Crosswalk: End-to-End Deep Structured Models for Drawing Crosswalks](https://openaccess.thecvf.com/content_ECCV_2018/papers/Justin_Liang_End-to-End_Deep_Structured_ECCV_2018_paper.pdf) [[Notes](paper_notes/deep_structured_crosswalk.md)] <kbd>ECCV 2018</kbd>
 - [DeepBoundaryExtractor: Convolutional Recurrent Network for Road Boundary Extraction](http://openaccess.thecvf.com/content_CVPR_2019/html/Liang_Convolutional_Recurrent_Network_for_Road_Boundary_Extraction_CVPR_2019_paper.html) [[Notes](paper_notes/deep_boundary_extractor.md)] <kbd>CVPR 2019</kbd> [HD mapping, boundary, polyline loss]
 - [DAGMapper: Learning to Map by Discovering Lane Topology](http://openaccess.thecvf.com/content_ICCV_2019/papers/Homayounfar_DAGMapper_Learning_to_Map_by_Discovering_Lane_Topology_ICCV_2019_paper.pdf) [[Notes](paper_notes/dagmapper.md)] <kbd>ICCV 2019</kbd> [HD mapping, highway, forks and merges, polyline loss]
