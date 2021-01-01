@@ -15,6 +15,8 @@ There are several papers on improving the training speed of [DETR](detr.md).
 
 The iterative head design is quite inefficient in capturing the context and relationship with other parts of the image, and thus needs quite a few iterations (~6 cascaded stage). In comparison, the sparse cross attention in [Deformable DETR](deformable_detr.md) and [TSP](tsp.md) may be a better way to go. 
 
+The authors also wrote [OneNet](onenet.md) which is a single-stage easy-to-deploy end to end object detection model.
+
 #### Key ideas
 - Sparse-in and sparse out
 	- DETR uses sparse set of object queries to interact with global (dense) image feature. It is also dense-to-sparse.

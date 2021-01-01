@@ -65,7 +65,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [PSDet: Efficient and Universal Parking Slot Detection](https://arxiv.org/abs/2005.05528) [[Notes](paper_notes/psdet.md)] <kbd>IV 2020</kbd> [Zongmu, Parking slot detection]
 - [PatDNN: Achieving Real-Time DNN Execution on Mobile Devices with Pattern-based Weight Pruning](https://arxiv.org/abs/2001.00138) [[Notes](paper_notes/patdnn.md)] <kbd>ASPLOS 2020</kbd> [pruning]
 - [DeFCN: End-to-End Object Detection with Fully Convolutional Network](https://arxiv.org/abs/2012.03544) [[Notes](paper_notes/defcn.md)] [Transformer, DETR]
-- [OneNet: End-to-End One-Stage Object Detection by Classification Cost](https://arxiv.org/abs/2012.05780) [Transformer, DETR]
+- [OneNet: End-to-End One-Stage Object Detection by Classification Cost](https://arxiv.org/abs/2012.05780) [[Notes](paper_notes/onenet.md)] [Transformer, DETR]
 - [Confluence: A Robust Non-IoU Alternative to Non-Maxima Suppression in Object Detection](https://arxiv.org/abs/2012.00257) [[Notes](paper_notes/confluence.md)] [NMS]
 - [SplitNet: Divide and Co-training](https://arxiv.org/abs/2011.14660)
 - [Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036) [[Notes](paper_notes/scaled_yolov4.md)] [yolo]
@@ -126,6 +126,9 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Recurrent MVSNet for High-resolution Multi-view Stereo Depth Inference](https://arxiv.org/abs/1902.10556) [Deep learning + MVS, Vidar]
 - [Artificial Dummies for Urban Dataset Augmentation](https://arxiv.org/abs/2012.08274) <kbd>AAAI 2021</kbd>
 - [DETR for Pedestrian Detection](https://arxiv.org/abs/2012.06785) [transformer, pedestrian detection]
+- [Multi-Modality Cut and Paste for 3D Object Detection](https://arxiv.org/abs/2012.12741) [SenseTime]
+- [TSD: Revisiting the Sibling Head in Object Detector](https://arxiv.org/abs/2003.07540) <kbd>CVPR 2020</kbd> [sensetime, cls+reg]
+- [1st Place Solutions for OpenImage2019 -- Object Detection and Instance Segmentation](https://arxiv.org/abs/2003.07557) [sensetime, cls+reg, 1st place OpenImage2019]
 
 ## 2020-11 (18)
 - [TSP: Rethinking Transformer-based Set Prediction for Object Detection](https://arxiv.org/abs/2011.10881) [[Notes](paper_notes/tsp.md)] [DETR, transformers, Kris Kitani]
