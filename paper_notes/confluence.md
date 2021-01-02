@@ -1,6 +1,6 @@
 # [Confluence: A Robust Non-IoU Alternative to Non-Maxima Suppression in Object Detection](https://arxiv.org/abs/2012.00257)
 
-_December 2020_
+_January 2021_
 
 tl;dr: Confluence is a confidence weighted Manhattan distance inspired proximity measure. It is an alternative to NMS in post-processing and requires No change the neural network.
 
