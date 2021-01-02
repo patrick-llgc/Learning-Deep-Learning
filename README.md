@@ -53,24 +53,9 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2020-12 (12)
-- [Traffic Light Mapping, Localization, and State Detection for Autonomous Vehicles](http://driving.stanford.edu/papers/ICRA2011.pdf) [[Notes](paper_notes/tfl_stanford.md)] <kbd>ICRA 2011</kbd> [traffic light, Sebastian Thrun]
-- [Towards lifelong feature-based mapping in semi-static environments](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43966.pdf) [[Notes](paper_notes/lifelong_feature_mapping_google.md)] <kbd>ICRA 2016</kbd>
-- [How to Keep HD Maps for Automated Driving Up To Date](http://www.lewissoft.com/pdf/ICRA2020/1484.pdf) [[Notes](paper_notes/keep_hd_maps_updated_bmw.md)] <kbd>ICRA 2020</kbd> [BMW]
-- [Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection](https://arxiv.org/abs/2011.12885) [[Notes](paper_notes/gfocalv2.md)] [focal loss]
-- [Visual SLAM for Automated Driving: Exploring the Applications of Deep Learning](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/Milz_Visual_SLAM_for_CVPR_2018_paper.pdf) [[Notes](paper_notes/vslam_for_ad.md)] <kbd>CVPR 2018 workshop</kbd>
-- [Centroid Voting: Object-Aware Centroid Voting for Monocular 3D Object Detection](https://arxiv.org/abs/2007.09836) [[Notes](paper_notes/centroid_voting.md)] <kbd>IROS 2020</kbd> [mono3D, geometry + appearance = distance]
-- [Monocular 3D Object Detection in Cylindrical Images from Fisheye Cameras](https://arxiv.org/abs/2003.03759) [[Notes](paper_notes/mono3d_fisheye.md)] [GM Israel, mono3D]
-- [DeepPS: Vision-Based Parking-Slot Detection: A DCNN-Based Approach and a Large-Scale Benchmark Dataset](https://cslinzhang.github.io/deepps/parkingslot.pdf) <kbd>TIP 2018</kbd> [Parking slot detection, PS2.0 dataset]
-- [PSDet: Efficient and Universal Parking Slot Detection](https://arxiv.org/abs/2005.05528) [[Notes](paper_notes/psdet.md)] <kbd>IV 2020</kbd> [Zongmu, Parking slot detection]
-- [PatDNN: Achieving Real-Time DNN Execution on Mobile Devices with Pattern-based Weight Pruning](https://arxiv.org/abs/2001.00138) [[Notes](paper_notes/patdnn.md)] <kbd>ASPLOS 2020</kbd> [pruning]
-- [DeFCN: End-to-End Object Detection with Fully Convolutional Network](https://arxiv.org/abs/2012.03544) [[Notes](paper_notes/defcn.md)] [Transformer, DETR]
-- [OneNet: End-to-End One-Stage Object Detection by Classification Cost](https://arxiv.org/abs/2012.05780) [[Notes](paper_notes/onenet.md)] [Transformer, DETR]
+## 2021-01 (1)
 - [Confluence: A Robust Non-IoU Alternative to Non-Maxima Suppression in Object Detection](https://arxiv.org/abs/2012.00257) [[Notes](paper_notes/confluence.md)] [NMS]
 - [SplitNet: Divide and Co-training](https://arxiv.org/abs/2011.14660)
-- [Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036) [[Notes](paper_notes/scaled_yolov4.md)] [yolo]
-- [Yolov5 by Ultralytics](https://github.com/ultralytics/yolov5) [[Notes](paper_notes/yolov5.md)] [yolo, spatial2channel]
-- [PP-YOLO: An Effective and Efficient Implementation of Object Detector](https://arxiv.org/abs/2007.12099) [[Notes](paper_notes/pp_yolo.md)] [yolo, paddle-paddle, baidu]
 - [VoVNet: An Energy and GPU-Computation Efficient Backbone Network for Real-Time Object Detection](https://arxiv.org/abs/1904.09730) <kbd>CVPR 2019 workshop</kbd>
 - [Isometric Neural Networks: Non-discriminative data or weak model? On the relative importance of data and model resolution](https://arxiv.org/abs/1909.03205) <kbd>ICCV 2019 workshop</kbd> [spatial2channel]
 - [TResNet](https://arxiv.org/abs/2003.13630) <kbd>WACV 2021</kbd> [spatial2channel]
@@ -92,7 +77,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multi-Task Learning for Dense Prediction Tasks: A Survey](https://arxiv.org/abs/2004.13379) [MTL, Luc Van Gool]
 - [Dynamic Task Weighting Methods for Multi-task Networks in Autonomous Driving Systems](https://arxiv.org/abs/2001.02223) <kbd>ITSC 2020 oral</kbd> [MTL]
 - [NeurAll: Towards a Unified Model for Visual Perception in Automated Driving](https://arxiv.org/abs/1902.03589) <kbd>ITSC 2019 oral</kbd> [MTL]
-- [Locating Objects Without Bounding Boxes](https://arxiv.org/abs/1806.07564) [[Notes](paper_notes/objects_without_bboxes.md)] <kbd>CVPR 2019</kbd> [weighted Haussdorf distance, NMS-free]
 - [Deep Evidential Regression](https://papers.nips.cc/paper/2020/file/aab085461de182608ee9f607f3f7d18f-Paper.pdf) <kbd>NeurIPS 2020</kbd> [one-pass aleatoric/epistemic uncertainty]
 - [Estimating Drivable Collision-Free Space from Monocular Video](http://www.cs.toronto.edu/~yaojian/freeSpace.pdf) <kbd>WACV 2015</kbd> [Drivable space]
 - [Visualization of Convolutional Neural Networks for Monocular Depth Estimation](https://arxiv.org/abs/1904.03380) <kbd>ICCV 2019</kbd> [monodepth]
@@ -115,8 +99,6 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks](https://arxiv.org/abs/1910.01279) <kbd>CVPR 2020 workshop</kbd>
 - [When and Why Test-Time Augmentation Works](https://arxiv.org/abs/2011.11156)
 - [Footprints and Free Space from a Single Color Image](https://arxiv.org/abs/2004.06376) <kbd>CVPR 2020 oral</kbd> [Parking use, footprint]
-- [PointPainting: Sequential Fusion for 3D Object Detection](https://arxiv.org/pdf/1911.10150.pdf) [[Notes](paper_notes/point_painting.md)] [nuscenece]
-- [MotionNet: Joint Perception and Motion Prediction for Autonomous Driving Based on Bird's Eye View Maps](https://arxiv.org/abs/2003.06754) [[Notes](paper_notes/motionnet.md)] <kbd>CVPR 2020</kbd> [Unseen moving objects, BEV]
 - [Driving among Flatmobiles: Bird-Eye-View occupancy grids from a monocular camera for holistic trajectory planning](https://arxiv.org/abs/2008.04047) [BEV, only predict footprint]
 - [Rethinking Classification and Localization for Object Detection](https://arxiv.org/abs/1904.06493) <kbd>CVPR 2020</kbd>
 - [Monocular 3D Object Detection with Sequential Feature Association and Depth Hint Augmentation](https://arxiv.org/abs/2011.14589) [mono3D]
@@ -129,6 +111,38 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Multi-Modality Cut and Paste for 3D Object Detection](https://arxiv.org/abs/2012.12741) [SenseTime]
 - [TSD: Revisiting the Sibling Head in Object Detector](https://arxiv.org/abs/2003.07540) <kbd>CVPR 2020</kbd> [sensetime, cls+reg]
 - [1st Place Solutions for OpenImage2019 -- Object Detection and Instance Segmentation](https://arxiv.org/abs/2003.07557) [sensetime, cls+reg, 1st place OpenImage2019]
+- [Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers](https://arxiv.org/abs/2012.15840) [transformer, semantic segmenatation]
+- [TransPose: Towards Explainable Human Pose Estimation by Transformer](https://arxiv.org/abs/2012.14214) [transformer, pose estimation]
+- [Seesaw Loss for Long-Tailed Instance Segmentation](https://arxiv.org/abs/2008.10032)
+- [SWA Object Detection](https://arxiv.org/abs/2012.12645) [Stochastic Weights Averaging (SWA)]
+- [3D Object Detection with Pointformer](https://arxiv.org/abs/2012.11409)
+- [Toward Transformer-Based Object Detection](https://arxiv.org/abs/2012.09958) [DETR-like]
+- [Boosting Monocular Depth Estimation with Lightweight 3D Point Fusion](https://arxiv.org/abs/2012.10296) [dense SfM]
+- [Multi-Modality Cut and Paste for 3D Object Detection](https://arxiv.org/abs/2012.12741)
+- [Vision Global Localization with Semantic Segmentation and Interest Feature Points](http://ras.papercept.net/images/temp/IROS/files/1899.pdf)
+- [Transformer Interpretability Beyond Attention Visualization](https://arxiv.org/abs/2012.09838) [transformers]
+- [Scaling Semantic Segmentation Beyond 1K Classes on a Single GPU](https://arxiv.org/abs/2012.07489)
+
+## 2020-12 (17)
+- [Traffic Light Mapping, Localization, and State Detection for Autonomous Vehicles](http://driving.stanford.edu/papers/ICRA2011.pdf) [[Notes](paper_notes/tfl_stanford.md)] <kbd>ICRA 2011</kbd> [traffic light, Sebastian Thrun]
+- [Towards lifelong feature-based mapping in semi-static environments](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43966.pdf) [[Notes](paper_notes/lifelong_feature_mapping_google.md)] <kbd>ICRA 2016</kbd>
+- [How to Keep HD Maps for Automated Driving Up To Date](http://www.lewissoft.com/pdf/ICRA2020/1484.pdf) [[Notes](paper_notes/keep_hd_maps_updated_bmw.md)] <kbd>ICRA 2020</kbd> [BMW]
+- [Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection](https://arxiv.org/abs/2011.12885) [[Notes](paper_notes/gfocalv2.md)] [focal loss]
+- [Visual SLAM for Automated Driving: Exploring the Applications of Deep Learning](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/Milz_Visual_SLAM_for_CVPR_2018_paper.pdf) [[Notes](paper_notes/vslam_for_ad.md)] <kbd>CVPR 2018 workshop</kbd>
+- [Centroid Voting: Object-Aware Centroid Voting for Monocular 3D Object Detection](https://arxiv.org/abs/2007.09836) [[Notes](paper_notes/centroid_voting.md)] <kbd>IROS 2020</kbd> [mono3D, geometry + appearance = distance]
+- [Monocular 3D Object Detection in Cylindrical Images from Fisheye Cameras](https://arxiv.org/abs/2003.03759) [[Notes](paper_notes/mono3d_fisheye.md)] [GM Israel, mono3D]
+- [DeepPS: Vision-Based Parking-Slot Detection: A DCNN-Based Approach and a Large-Scale Benchmark Dataset](https://cslinzhang.github.io/deepps/parkingslot.pdf) <kbd>TIP 2018</kbd> [Parking slot detection, PS2.0 dataset]
+- [PSDet: Efficient and Universal Parking Slot Detection](https://arxiv.org/abs/2005.05528) [[Notes](paper_notes/psdet.md)] <kbd>IV 2020</kbd> [Zongmu, Parking slot detection]
+- [PatDNN: Achieving Real-Time DNN Execution on Mobile Devices with Pattern-based Weight Pruning](https://arxiv.org/abs/2001.00138) [[Notes](paper_notes/patdnn.md)] <kbd>ASPLOS 2020</kbd> [pruning]
+- [DeFCN: End-to-End Object Detection with Fully Convolutional Network](https://arxiv.org/abs/2012.03544) [[Notes](paper_notes/defcn.md)] [Transformer, DETR]
+- [OneNet: End-to-End One-Stage Object Detection by Classification Cost](https://arxiv.org/abs/2012.05780) [[Notes](paper_notes/onenet.md)] [Transformer, DETR]
+- [Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036) [[Notes](paper_notes/scaled_yolov4.md)] [yolo]
+- [Yolov5 by Ultralytics](https://github.com/ultralytics/yolov5) [[Notes](paper_notes/yolov5.md)] [yolo, spatial2channel]
+- [PP-YOLO: An Effective and Efficient Implementation of Object Detector](https://arxiv.org/abs/2007.12099) [[Notes](paper_notes/pp_yolo.md)] [yolo, paddle-paddle, baidu]
+- [PointPainting: Sequential Fusion for 3D Object Detection](https://arxiv.org/pdf/1911.10150.pdf) [[Notes](paper_notes/point_painting.md)] [nuscenece]
+- [MotionNet: Joint Perception and Motion Prediction for Autonomous Driving Based on Bird's Eye View Maps](https://arxiv.org/abs/2003.06754) [[Notes](paper_notes/motionnet.md)] <kbd>CVPR 2020</kbd> [Unseen moving objects, BEV]
+- [Locating Objects Without Bounding Boxes](https://arxiv.org/abs/1806.07564) [[Notes](paper_notes/objects_without_bboxes.md)] <kbd>CVPR 2019</kbd> [weighted Haussdorf distance, NMS-free]
+
 
 ## 2020-11 (18)
 - [TSP: Rethinking Transformer-based Set Prediction for Object Detection](https://arxiv.org/abs/2011.10881) [[Notes](paper_notes/tsp.md)] [DETR, transformers, Kris Kitani]
@@ -1005,6 +1019,7 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [RadarNet: Exploiting Radar for Robust Perception of Dynamic Objects](https://arxiv.org/abs/2007.14366) <kbd>ECCV 2020</kbd> [Uber ATG]
 - [Depth Estimation from Monocular Images and Sparse Radar Data](https://arxiv.org/abs/2010.00058) <kbd>IROS 2020</kbd> [Camera + Radar for monodepth, nuscenes]
 - [RPR: Radar-Camera Sensor Fusion for Joint Object Detection and Distance Estimation in Autonomous Vehicles](https://arxiv.org/abs/2009.08428) <kbd>IROS 2020</kbd> [radar proposal refinement]
+- [Warping of Radar Data into Camera Image for Cross-Modal Supervision in Automotive Applications](https://arxiv.org/abs/2012.12809)
 
 ### SLAM
 - [PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization](https://arxiv.org/abs/1505.07427) [[Notes](paper_notes/posenet.md)] <kbd>ICCV 2015</kbd>
