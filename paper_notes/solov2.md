@@ -30,4 +30,4 @@ The idea of a splitting the masks head to mask feature branch + mask kernel bran
 
 #### Notes
 - What stops us from learning all the weights but perform inference only on the selected ones? This way we can speed up the inference without changing SOLO's elegant design. 
-
+- [性能提升30%以上，实时实例分割算法SOLOv2实现产业SOTA](https://baijiahao.baidu.com/s?id=1685408649786275149&wfr=spider&for=pc)
