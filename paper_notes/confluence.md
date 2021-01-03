@@ -2,14 +2,14 @@
 
 _January 2021_
 
-tl;dr: Confluence is a confidence weighted Manhattan distance inspired proximity measure. It is an alternative to NMS in post-processing and requires No change the neural network.
+tl;dr: Confluence is a confidence weighted Manhattan distance inspired proximity measure. It is an alternative to NMS in post-processing and requires no change the neural network.
 
 #### Overall impression
 There largely exists two methods of NMS, IoU based NMS (as in RetinaNet and FCOS) and center location based (as in [CenterNet](centernet.md)). Confluence uses the heavy cluster of bounding boxes as an indicator of the presence of an object. 
 
 Confluence does not select the best bbox by cls conf scores, nor it uses IoU to suppress others. NMS suffers from a hard-coded arbitrary IoU threshold. Center-distance based NMS such as the maxpooling used in [CenterNet](centernet.md) also has this issue. 
 
-It is more robust to highly occluded scenes. Gains in recall are much higher. 
+Confluence is more robust to highly occluded scenes. Gains in recall are much higher than mAP. 
 
 Unfortunately the paper is poorly written, with confusing notations and abuse of terminology (proximity, confluence). The pseudo-code is not helping at all. We really need to wait for the github implementation to understand the details. For example, the WP is not even mentioned in the pseudo-code. And how confluence is updated with more proximity is not clear.
 
