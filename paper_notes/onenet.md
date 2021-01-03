@@ -11,6 +11,12 @@ Existing approaches (anchor-based or anchor-free) assign labels by location cost
 
 The idea of introducing classification to handle **sudden changes** in the value domain is a quite common practice, as in practice, sudden changes reflects multimodality. For example, to handle the oversmoothing issue in depth prediction, [Depth Coefficient](depth_coeff.md) and [SMWA](smwa.md) introduces classification of multiple models. The regression model responds smoothly to smooth changes in input. Therefore if we only have localization cost as matching cost, we will have duplicate bboxes around GT boxes. 
 
+[DeFCN](defcn.md) and [OneNet](onenet.md):
+
+- [DeFCN](defcn.md) shows that a hand crafted one-to-one label assignment already yields OK-ish performance (10% relative drop in KPI). [OneNet](onenet.md) also mentions that a predefined location cost + classification is able to yield OK baseline.
+- Both [DeFCN](defcn.md) and [OneNet](onenet.md) adopts a bbox formulation consisting of a point inside GT bbox + 4 distances to the edges. This addresses eccentric objects or objects where center is occluded. 
+
+
 #### Key ideas
 - label assignment: minimum cost assignment, instead of heuristic rule (like in [RetinaNet](retinanet.md) or [FCOS](fcos.md)) or complex Hungarian matching (like in [DETR](detr.md)).
 - **Misalignment between label-assignment and network optimization objective** is the main reason why NMS is necessary. 
@@ -44,4 +50,4 @@ tgt_ind = torch.arange(nr_gt)
 #### Notes
 - [Review by 1st author on Zhihu](https://zhuanlan.zhihu.com/p/336016003)
 - How does the pattern emerge? 
-	- predicted location cost指的是使用預測結果和gt計算cost。在训练初期，网络的预测倾向于随机猜测，这样是否会将FP或者说并不是很好的正样本分配给了gt，从而影响模型的“成长”（上限），容易陷入局部最优？--> 这类方法其实都是利用网络当前阶段的能力，类似的还有前不久的jianfeng wang那篇，还有去年的FSAF那篇；像你说的其实确实有点问题，但实际上都挺work的
+	- predicted location cost指的是使用預測結果和gt計算cost。在训练初期，网络的预测倾向于随机猜测，这样是否会将FP或者说并不是很好的正样本分配给了gt，从而影响模型的“成长”（上限），容易陷入局部最优？--> 这类方法其实都是利用网络当前阶段的能力，类似的还有前不久的jianfeng wang那篇DeFCN，还有去年的FSAF那篇；像你说的其实确实有点问题，但实际上都挺work的

@@ -2,7 +2,7 @@
 
 _November 2020_
 
-tl;dr: Summary of the main idea.
+tl;dr: Sparse proposal and iterative refinement for a two-stage end-to-end object detector.
 
 #### Overall impression
 This paper rethinks the necessity of dense priors (either anchor boxes or reference points) in object detection, very similar to [TSP](tsp.md). Sparse RCNN uses a number of sparse proposals (N << HWk dense priors) for object detection.

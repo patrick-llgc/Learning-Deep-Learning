@@ -2,10 +2,15 @@
 
 _December 2020_
 
-tl;dr: End to end object detection with good label assignment. 
+tl;dr: End to end object detection with one-to-one label assignment. 
 
 #### Overall impression
-The study build upon [FCOS](fcos.md). It pointed out that the one-to-many label assignment makes NMS necessary. Thus a good one-to-one policy is the key. A hand crafted one-to-one label assignment already yields OK-ish performance (10% relative drop in KPI). The paper is also inspired by MultiBox and [DETR](detr.md) to use bipartite matching as the matching cost, to allow neural network to learn a better assignment policy.
+The study build upon [FCOS](fcos.md). DeFCN points out that the one-to-many label assignment makes NMS necessary. Thus a good one-to-one policy is the key.  The paper is also inspired by MultiBox and [DETR](detr.md) to use bipartite matching as the matching cost, to allow neural network to learn a better assignment policy.
+
+[DeFCN](defcn.md) and [OneNet](onenet.md):
+
+- [DeFCN](defcn.md) shows that a hand crafted one-to-one label assignment already yields OK-ish performance (10% relative drop in KPI). [OneNet](onenet.md) also mentions that a predefined location cost + classification is able to yield OK baseline.
+- Both [DeFCN](defcn.md) and [OneNet](onenet.md) adopts a bbox formulation consisting of a point inside GT bbox + 4 distances to the edges. This addresses eccentric objects or objects where center is occluded. 
 
 #### Key ideas
 - One-to-one label assignment is key.

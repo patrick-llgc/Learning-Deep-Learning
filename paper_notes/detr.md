@@ -7,7 +7,7 @@ tl;dr: Transformer used for object detection as direct set prediction .
 #### Overall impression
 Formulate the object detection problem as direct set prediction problem. No need for engineering-heavy anchor boxes and NMS. 
 
-The attention mechanism from Transformer is similar to [Non-local Networks](non_local_net.md). The attention has perfect memory and has same "distance" between any two points in the image.
+The attention mechanism from [transformers](transformer.md) is similar to [Non-local Networks](non_local_net.md). The attention has perfect memory and has same "distance" between any two points in the image.
 
 Previous methods such as anchor-based or anchor-free, implicitly enables a sorting of GT and prediction. The Hungarian loss used in [DETR](detr.md) eliminates that altogether by comparing loss between two unordered sets. 
 
@@ -20,9 +20,9 @@ This paper is extended by [Deformable DETR](deformable_detr.md) to speed up the 
 	- Null padding of training set to N.
 - DETR infers a fixed size set of N predictions. Predicts normalized center coordinates wrt the input image. 
 - Resizing feature map HxWxd to dx(HW), as a sequence of feature dim d and length of HW. 
-- **Object query** can be learned with SGD. It is part of the model's weight. It is a bit like PE but not exactly the same. It is essentially training different annotators to pay different part to the image and focus on certain type of bboxes.
 - Decoding output is non-autoregressive **parallel** decoding (feed previous output to the decoder to get next output).
-	- Input sequence to decoder are all zero, and with learned Positional embeddings (learned specialized workers attending to different types of boxes).
+	- Input sequence to decoder are all zero, and with learned Positional embeddings (**object query**, learned specialized workers attending to different types of boxes).
+	- **Object query** can be learned with SGD. It is part of the model's weight. It is a bit like PE but not exactly the same. It is essentially training different annotators to pay different part to the image and focus on certain type of bboxes.
 	- The N=100 decoders in a way can be seen as 100 adaptive anchors.
 - Need extremely long training (300 epochs) to converge, vs 1x = 12 epochs for Faster RCNN. --> This is improved by [Deformable DETR](deformable_detr.md).
 

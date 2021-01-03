@@ -1,4 +1,4 @@
-# [ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://openreview.net/forum?id=YicbFdNTTy)
+# [ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
 
 _October 2020_
 
@@ -9,7 +9,6 @@ This paper, together with earlier efforts from FAIR [DETR](detr.md) ushers in an
 
 Transformers lack some inductive biases inherent to CNNs, such as translation equivariance and locality, and thus do not generalize well when trained on insufficient amounts of data. However when trained on large amount of data, **large scale training trumps inductive bias**. 
 
-However, the splitting of images into patches itself seems to be a kind of inductive bias to me.
 
 #### Key ideas
 - It is not scalable to apply transformers directly in pixel space, as the attention matrix scales quadratically with number of pixels, and thus quatically (4th power) with input image (lateral) size. Previous efforts also reduces images resolution and color space before applying transformers. 
@@ -26,6 +25,8 @@ However, the splitting of images into patches itself seems to be a kind of induc
 - Note that the transformer encoder can be stacked by layers. Base model has 12 layers, and Huge ViT model has 32 layers. The input are input into the encoder at the same time, not fed autoregressively, like in RNN.
 - Generalize into higher resolution by keeping the patch resolution the same. The positional embedding are 2D-interpolated (this is another source of inductive bias).
 - Using smaller resolution patch and longer sequence seems to improve the model performance.
+- Regarding **inductive bias**: The splitting of images into patches itself seems to be a kind of inductive bias to me. Also, maybe we need inductive bias for vision tasks. You will need 300 million samples to beat the biased CNN.
+![](https://cdn-images-1.medium.com/max/1600/1*DzapK-rgcTejpJUcBKwD0w.png)
 
 #### Notes
 - [Yannic Kilcher's explanation on youtube](https://www.youtube.com/watch?v=TrdevFK_am4)

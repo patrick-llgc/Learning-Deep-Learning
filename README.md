@@ -124,6 +124,8 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Scaling Semantic Segmentation Beyond 1K Classes on a Single GPU](https://arxiv.org/abs/2012.07489)
 
 ## 2020-12 (17)
+- [DeFCN: End-to-End Object Detection with Fully Convolutional Network](https://arxiv.org/abs/2012.03544) [[Notes](paper_notes/defcn.md)] [Transformer, DETR]
+- [OneNet: End-to-End One-Stage Object Detection by Classification Cost](https://arxiv.org/abs/2012.05780) [[Notes](paper_notes/onenet.md)] [Transformer, DETR]
 - [Traffic Light Mapping, Localization, and State Detection for Autonomous Vehicles](http://driving.stanford.edu/papers/ICRA2011.pdf) [[Notes](paper_notes/tfl_stanford.md)] <kbd>ICRA 2011</kbd> [traffic light, Sebastian Thrun]
 - [Towards lifelong feature-based mapping in semi-static environments](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43966.pdf) [[Notes](paper_notes/lifelong_feature_mapping_google.md)] <kbd>ICRA 2016</kbd>
 - [How to Keep HD Maps for Automated Driving Up To Date](http://www.lewissoft.com/pdf/ICRA2020/1484.pdf) [[Notes](paper_notes/keep_hd_maps_updated_bmw.md)] <kbd>ICRA 2020</kbd> [BMW]
@@ -134,8 +136,6 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [DeepPS: Vision-Based Parking-Slot Detection: A DCNN-Based Approach and a Large-Scale Benchmark Dataset](https://cslinzhang.github.io/deepps/parkingslot.pdf) <kbd>TIP 2018</kbd> [Parking slot detection, PS2.0 dataset]
 - [PSDet: Efficient and Universal Parking Slot Detection](https://arxiv.org/abs/2005.05528) [[Notes](paper_notes/psdet.md)] <kbd>IV 2020</kbd> [Zongmu, Parking slot detection]
 - [PatDNN: Achieving Real-Time DNN Execution on Mobile Devices with Pattern-based Weight Pruning](https://arxiv.org/abs/2001.00138) [[Notes](paper_notes/patdnn.md)] <kbd>ASPLOS 2020</kbd> [pruning]
-- [DeFCN: End-to-End Object Detection with Fully Convolutional Network](https://arxiv.org/abs/2012.03544) [[Notes](paper_notes/defcn.md)] [Transformer, DETR]
-- [OneNet: End-to-End One-Stage Object Detection by Classification Cost](https://arxiv.org/abs/2012.05780) [[Notes](paper_notes/onenet.md)] [Transformer, DETR]
 - [Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036) [[Notes](paper_notes/scaled_yolov4.md)] [yolo]
 - [Yolov5 by Ultralytics](https://github.com/ultralytics/yolov5) [[Notes](paper_notes/yolov5.md)] [yolo, spatial2channel]
 - [PP-YOLO: An Effective and Efficient Implementation of Object Detector](https://arxiv.org/abs/2007.12099) [[Notes](paper_notes/pp_yolo.md)] [yolo, paddle-paddle, baidu]
@@ -205,10 +205,10 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [SKU110K: Precise Detection in Densely Packed Scenes](https://arxiv.org/abs/1904.00853) [[Notes](paper_notes/sku110k.md)] <kbd>CVPR 2019</kbd> [crowd detection, no occlusion]
 - [GossipNet: Learning non-maximum suppression](https://arxiv.org/abs/1705.02950) <kbd>CVPR 2017</kbd> 
 - [TLL: Small-scale Pedestrian Detection Based on Somatic Topology Localization and Temporal Feature Aggregation](https://arxiv.org/abs/1807.01438) <kbd>ECCV 2018</kbd>
-- [Learning Monocular 3D Vehicle Detection without 3D Bounding Box Labels](https://arxiv.org/abs/2010.03506) <kbd>GCPR 2020<kbd> [mono3D, Daniel Cremers, TUM]
+- [Learning Monocular 3D Vehicle Detection without 3D Bounding Box Labels](https://arxiv.org/abs/2010.03506) <kbd>GCPR 2020</kbd> [mono3D, Daniel Cremers, TUM]
 - [CubifAE-3D: Monocular Camera Space Cubification on Autonomous Vehicles for Auto-Encoder based 3D Object Detection](https://arxiv.org/abs/2006.04080) [[Notes](paper_notes/cubifae_3d.md)] [mono3D, depth AE pretraining]
-- [Deformable DETR: Deformable Transformers for End-to-End Object Detection](https://arxiv.org/abs/2010.04159) [[Notes](paper_notes/deformable_detr.md)] <kbd>ICLR 2021<kbd> [Jifeng Dai, DETR]
-- [ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://openreview.net/forum?id=YicbFdNTTy) [[Notes](paper_notes/vit.md)] <kbd>ICLR 2021<kbd>
+- [Deformable DETR: Deformable Transformers for End-to-End Object Detection](https://arxiv.org/abs/2010.04159) [[Notes](paper_notes/deformable_detr.md)] <kbd>ICLR 2021</kbd> [Jifeng Dai, DETR]
+- [ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929) [[Notes](paper_notes/vit.md)] <kbd>ICLR 2021</kbd>
 - [BYOL: Bootstrap your own latent: A new approach to self-supervised Learning](https://arxiv.org/abs/2006.07733) [self-supervised]
 
 ## 2020-09 (15)

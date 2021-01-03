@@ -5,9 +5,9 @@ _June 2020_
 tl;dr: Transformer architecture to get the SOTA.
 
 #### Overall impression
-Transformer introduced attention mechanism and successfully applied to 
+Transformer introduced attention mechanism and successfully applied to NLP. 
 
-This is replaced by other SOTA methods in NLP such as BERT.
+This is followed up by other SOTA methods in NLP such as BERT, but the idea of using attention module as the basic building block of a neural network is profound.
 
 Attention, as opposed to memory, has constant length between any two positions. Sometimes attention is said to have "perfect memory".
 
@@ -27,6 +27,7 @@ Attention, as opposed to memory, has constant length between any two positions. 
 	- Encoder-decoder attention: Q is from decoder, but K, V from encoder
 ![](http://jalammar.github.io/images/t/transformer_multi-headed_self-attention-recap.png)
 - Self attention sees its input as a **set**, not a sequence. If we permute the input sequence, the output sequence will be exactly the same, except permuted also (i.e. self-attention is permutation equivariant). 
+	- Therefore we need positional embedding
 
 #### Technical details
 - Positional embedding (PE): there is no notion of word order (1st word, 2nd word, ..) in the proposed architecture, and thus model has no idea how the words are ordered. However when the order matters (A chases B vs B chases A), we need to input additional order information to the architecture. The encoding is not part of the model but rather enhances the input. In this sense it is a bit like [CoordConv](coord_conv.md).
