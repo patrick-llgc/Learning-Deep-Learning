@@ -7,6 +7,8 @@ tl;dr: Detect the top-left and bottom-right corner of the bbox, and learn an enc
 #### Overall impression
 The paper is the first anchor-less object detection paper in 2018 and rekindled people's interest in anchor-less object detection framework. The corner pooling operation seems to have draw inspiration from the way humans draw bboxes. I would argue that the existence of corner pooling itself act as a proof that **bbox is a bad representation for object detection**.
 
+This inspired later pioneering work such as [CenterNet](centernet.md).
+
 #### Key ideas
 - Anchor based methods usually used a large number of anchor boxes (RetinaNet uses 100k). This leads to huge imbalance in the classification problem. Thus we use focal loss.
 - CornerNet uses the same backbone to predict a heatmap that represents the top left corner, a heatmap that represents the bottom right corner, and an embedding vector for each detected vector (and one branch predicting the offsets). 
