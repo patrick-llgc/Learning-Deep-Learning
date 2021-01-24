@@ -11,6 +11,8 @@ In comparison, [Depth Hints](depth_hints.md) still uses photometric loss, and [F
 
 The discussion of feature metric loss is perhaps first raised in [BA-Net](banet.md) and [Deep Feature Reconstruction](depth_vo_feat.md). It has the advantage to be less sensitive to photometric calibration (camera exposure, white balance) and is dense supervision. 
 
+The idea of feature-metric distance as compared to Euclidean distance is also in [3DSSD](3dssd.md).
+
 However how to learn this feature map is the key. The paper uses AutoEncoder to do this, and have two extra loss terms to ensure large but smooth gradient, for faster and more general optimization. 
 
 >> Small photometric loss does not necessarily guarantee accurate depth and pose, especially for pixels in textureless region. Depth smoothness loss forces depth propagation from discriminative regions to textureless regions. However such propagation is with limited range and tend to cause over smooth results. 
@@ -33,4 +35,3 @@ However how to learn this feature map is the key. The paper uses AutoEncoder to 
 
 #### Notes
 - In retrospect, performing photometric loss is quite fragile and dangerous. Photometric calibration (required by DSO and SfM-Learner) is perhaps as simple as one layer of neural network and we should leave this to the network to learn a good feature to use for depth estimation.
-

@@ -56,6 +56,8 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 ## 2021-01 (2)
 - [Confluence: A Robust Non-IoU Alternative to Non-Maxima Suppression in Object Detection](https://arxiv.org/abs/2012.00257) [[Notes](paper_notes/confluence.md)] [NMS]
 - [BoxInst: High-Performance Instance Segmentation with Box Annotations](https://arxiv.org/abs/2012.02310) [[Notes](paper_notes/boxinst.md)] [Chunhua Shen, Tian Zhi]
+- [3DSSD: Point-based 3D Single Stage Object Detector](https://arxiv.org/abs/2002.10187) [[Notes](paper_notes/3dssd.md)] <kbd>CVPR 2020</kbd>
+- [LLA: Loss-aware Label Assignment for Dense Pedestrian Detection](https://arxiv.org/abs/2101.04307) [Megvii]
 - [VectorNet: Encoding HD Maps and Agent Dynamics from Vectorized Representation](https://arxiv.org/abs/2005.04259) <kbd>CVPR 2020</kbd> [Waymo] 
 - [CoverNet: Multimodal Behavior Prediction using Trajectory Sets](https://arxiv.org/abs/1911.10298) <kbd>CVPR 2020</kbd> [prediction, nuScenes]
 - [SplitNet: Divide and Co-training](https://arxiv.org/abs/2011.14660)
@@ -96,7 +98,6 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Towards Lightweight Lane Detection by Optimizing Spatial Embedding](https://arxiv.org/abs/2008.08311) <kbd>ECCV 2020 workshop</kbd>
 - [Synthetic-to-Real Domain Adaptation for Lane Detection](https://arxiv.org/abs/2007.04023) [GM Israel, LLD]
 - [PolyLaneNet: Lane Estimation via Deep Polynomial Regression](https://arxiv.org/abs/2004.10924) <kbd>ICPR 2020</kbd> [polynomial, LLD]
-- [3DSSD: Point-based 3D Single Stage Object Detector](https://arxiv.org/abs/2002.10187) <kbd>CVPR 2020</kbd>
 - [Learning Universal Shape Dictionary for Realtime Instance Segmentation](https://arxiv.org/abs/2012.01050)
 - [End-to-End Video Instance Segmentation with Transformers](https://arxiv.org/abs/2011.14503) [DETR, transformers]
 - [Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks](https://arxiv.org/abs/1910.01279) <kbd>CVPR 2020 workshop</kbd>

@@ -25,5 +25,4 @@ This inspired later pioneering work such as [CenterNet](centernet.md).
 #### Notes
 - The authors argue that detecting corners is easier than detecting center as corners only depend on two sides but center depends on four sides. See [CSP](csp_center_scale.md) and [ExtremeNet](extremenet.md) for comparison.
 - [Presentation at ECCV 2018](https://www.youtube.com/watch?v=aJnvTT1-spc)
-
-
+- Blog post from [知乎](https://zhuanlan.zhihu.com/p/96856635) on how to calculate the gaussian r. 

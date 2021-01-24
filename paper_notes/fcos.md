@@ -32,7 +32,7 @@ The paper inspired [ATSS](atss.md) which explained why FCOS can achieve better p
 - Use cross entropy loss to regress loss for prediction and target in [0, 1].
 - Share the same head across regions but to align the regression target range, regress exp(sx) instead of x. In the original FPN and RetinaNet paper, this is not an issue as the regression target are all relative to w and h. 
 - Best possible recall (**BPR**) may be bad for anchor-based methods due to large strides in feature maps, FCOS has a higher BPR. **A gt is considered recalled if the box is assihgned to at least one sample (a location in FCOS or anchor box in anchor-based methods.**
-- Centerness is only used in the postprocessing. Therefore it is possible to train a separate net for better prediction and improve performance. (GT centerness leads to huge improvement in AP, therefore leaving enough headroom to explore.)
+- Centerness is only used in the postprocessing by multiplying the cls conf. Therefore it is possible to train a separate net for better prediction and improve performance. (GT centerness leads to huge improvement in AP, therefore leaving enough headroom to explore.)
 
 #### Notes
 - Q: maybe use the centerness score to modulate the regression loss? Now the paper just use centerness loss in the deployment to downweight the bbox far away from object center. --> maybe this become more like centernet?
