@@ -57,6 +57,8 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Confluence: A Robust Non-IoU Alternative to Non-Maxima Suppression in Object Detection](https://arxiv.org/abs/2012.00257) [[Notes](paper_notes/confluence.md)] [NMS]
 - [BoxInst: High-Performance Instance Segmentation with Box Annotations](https://arxiv.org/abs/2012.02310) [[Notes](paper_notes/boxinst.md)] [Chunhua Shen, Tian Zhi]
 - [3DSSD: Point-based 3D Single Stage Object Detector](https://arxiv.org/abs/2002.10187) [[Notes](paper_notes/3dssd.md)] <kbd>CVPR 2020</kbd>
+- [ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks](https://arxiv.org/abs/1908.03930) <kbd>ICCV 2019</kbd>
+- [RepVGG: Making VGG-style ConvNets Great Again](https://arxiv.org/abs/2101.03697) [[Notes](paper_notes/repvgg.md)] [Megvii, Xiangyu Zhang, ACNet]
 - [LLA: Loss-aware Label Assignment for Dense Pedestrian Detection](https://arxiv.org/abs/2101.04307) [Megvii]
 - [VectorNet: Encoding HD Maps and Agent Dynamics from Vectorized Representation](https://arxiv.org/abs/2005.04259) <kbd>CVPR 2020</kbd> [Waymo] 
 - [CoverNet: Multimodal Behavior Prediction using Trajectory Sets](https://arxiv.org/abs/1911.10298) <kbd>CVPR 2020</kbd> [prediction, nuScenes]
@@ -129,6 +131,9 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Understanding Bird's-Eye View Semantic HD-Maps Using an Onboard Monocular Camera](https://arxiv.org/abs/2012.03040) [BEVNet]
 - [Empirical Upper Bound in Object Detection and More](https://arxiv.org/abs/1911.12451)
 - [Generalized Object Detection on Fisheye Cameras for Autonomous Driving: Dataset, Representations and Baseline](https://arxiv.org/abs/2012.02124) [Fisheye, Senthil Yogamani]
+- [Demystifying Pseudo-LiDAR for Monocular 3D Object Detection](https://arxiv.org/abs/2012.05796) [mono3D]
+- [Monocular 3D Object Detection with Sequential Feature Association and Depth Hint Augmentation](https://arxiv.org/abs/2011.14589) [mono3D]
+- [SOSD-Net: Joint Semantic Object Segmentation and Depth Estimation from Monocular images](http://arxiv.org/abs/2101.07422) [Jiwen Lu, monodepth]
 
 ## 2020-12 (17)
 - [DeFCN: End-to-End Object Detection with Fully Convolutional Network](https://arxiv.org/abs/2012.03544) [[Notes](paper_notes/defcn.md)] [Transformer, DETR]
@@ -960,7 +965,6 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Measuring Calibration in Deep Learning](https://arxiv.org/abs/1904.01685) <kbd>CVPR 2019</kbd>
 - [Sampling-free Epistemic Uncertainty Estimation Using Approximated Variance Propagation](https://arxiv.org/abs/1908.00598) <kbd>ICCV 2019</kbd> (epistemic uncertainty)
 - [Making Convolutional Networks Shift-Invariant Again](https://arxiv.org/abs/1904.11486) <kbd>ICML</kbd>
-- [ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks](https://arxiv.org/abs/1908.03930) <kbd>ICCV 2019</kbd>
 - [Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty](https://arxiv.org/abs/1906.12340) <kbd>NeurIPS 2019</kbd>
 - [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530) <kbd>ICLR 2017</kbd> [ICLR best paper]
 - [A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks](https://arxiv.org/abs/1610.02136) <kbd>ICLR 2017</kbd> (NLL score as anomaly score)
