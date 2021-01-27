@@ -24,7 +24,7 @@ This seems to be an architecture very friendly to be deployed on embedded device
 - First layer of every stage is 3x3 conv with stride=2. No maxpooling in RepVGG architecture. 
 
 #### Technical details
-- Nvidia cuDNN and Intel MKL (math kernel lib) have accelerations for 3x3 kernels (usually to 4/9 of the original cost) through **Winograd algorithm**.
+- Nvidia cuDNN and Intel MKL (math kernel lib) have accelerations for 3x3 kernels (usually to 4/9 of the original cost) through the [Winograd algorithm](https://www.cnblogs.com/shine-lee/p/10906535.html).
 - ResNet architecture limits the flexibility
 	- Limits the tensor shapes due to skip connection
 	- Limits channel pruning
@@ -36,5 +36,7 @@ This seems to be an architecture very friendly to be deployed on embedded device
 
 #### Notes
 - [code on github](https://github.com/DingXiaoH/RepVGG/blob/main/repvgg.py)
-- [Review of winograd algo](https://www.cnblogs.com/shine-lee/p/10906535.html)
+- [Review by 1st author](https://zhuanlan.zhihu.com/p/344324470)
+- [Review by Megvii](https://mp.weixin.qq.com/s/ieqJYZo87HHa7DvxtVk5dw)
+
 
