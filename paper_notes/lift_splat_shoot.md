@@ -36,4 +36,6 @@ The semantic BEV map prediction need to fuse predictions from all cameras into a
 
 #### Notes
 - Next step is to use video pipeline to boost the depth prediction accuracy. 
+- Code available at [github](https://github.com/nv-tlabs/lift-splat-shoot)
+- [Tweater feed](https://twitter.com/PhilionJonah/status/1315697416469983234)
 

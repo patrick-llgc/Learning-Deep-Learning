@@ -14,7 +14,7 @@ Existing point based lidar object detector have largely four stages
 - RPN on each point
 - Refinement stage
 
-The feature propagation and refinement module takes more than half of the time and thus need to be eliminated. The largest contribution of 3DSSD is the use of feature based furthest point sampling to eliminate the need for feature propagation. --> This reminds me of [feature-metric loss](feature_metric.md) <kbd>ECCV 2020</kbd> in monocular depth estimation.
+The feature propagation and refinement module takes more than half of the time and thus need to be eliminated. The largest contribution of 3DSSD is the use of feature based furthest point sampling to eliminate the need for feature propagation. --> This reminds me of [feature-metric loss](feature_metric.md) <kbd>ECCV 2020</kbd> in monocular depth estimation, and [BEV feat sticthing](bev_feat_stitching.md).
 
 The paper introduces quite a few acronyms which makes the paper a bit hard to read.
 
