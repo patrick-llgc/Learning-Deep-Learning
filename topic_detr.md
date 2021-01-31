@@ -9,3 +9,4 @@
 - [Sparse R-CNN: End-to-End Object Detection with Learnable Proposals](https://arxiv.org/abs/2011.12450) [[Notes](paper_notes/sparse_rcnn.md)] [DETR, Transformer]
 - [DeFCN: End-to-End Object Detection with Fully Convolutional Network](https://arxiv.org/abs/2012.03544) [[Notes](paper_notes/defcn.md)] [Transformer, DETR]
 - [OneNet: End-to-End One-Stage Object Detection by Classification Cost](https://arxiv.org/abs/2012.05780) [[Notes](paper_notes/onenet.md)] [Transformer, DETR]
+- [PSS: Object Detection Made Simpler by Eliminating Heuristic NMS](https://arxiv.org/abs/2101.11782) [[Notes](paper_notes/pss.md)] [Transformer, DETR]

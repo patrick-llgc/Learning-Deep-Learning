@@ -53,14 +53,8 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2021-01 (6)
-- [Confluence: A Robust Non-IoU Alternative to Non-Maxima Suppression in Object Detection](https://arxiv.org/abs/2012.00257) [[Notes](paper_notes/confluence.md)] [NMS]
-- [BoxInst: High-Performance Instance Segmentation with Box Annotations](https://arxiv.org/abs/2012.02310) [[Notes](paper_notes/boxinst.md)] [Chunhua Shen, Tian Zhi]
-- [3DSSD: Point-based 3D Single Stage Object Detector](https://arxiv.org/abs/2002.10187) [[Notes](paper_notes/3dssd.md)] <kbd>CVPR 2020</kbd>
-- [ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks](https://arxiv.org/abs/1908.03930) [[Notes](paper_notes/acnet.md)] <kbd>ICCV 2019</kbd>
-- [RepVGG: Making VGG-style ConvNets Great Again](https://arxiv.org/abs/2101.03697) [[Notes](paper_notes/repvgg.md)] [Megvii, Xiangyu Zhang, ACNet]
-- [BEV-Feat-Stitching: Understanding Bird's-Eye View Semantic HD-Maps Using an Onboard Monocular Camera](https://arxiv.org/abs/2012.03040) [[Notes](paper_notes/bev_feat_stitching.md)] [BEVNet]
-- [Object Detection Made Simpler by Eliminating Heuristic NMS](https://arxiv.org/abs/2101.11782) [DETR, end to end]
+## 2021-02 (0)
+- [Demystifying Pseudo-LiDAR for Monocular 3D Object Detection](https://arxiv.org/abs/2012.05796) [mono3
 - [LLA: Loss-aware Label Assignment for Dense Pedestrian Detection](https://arxiv.org/abs/2101.04307) [Megvii]
 - [VectorNet: Encoding HD Maps and Agent Dynamics from Vectorized Representation](https://arxiv.org/abs/2005.04259) <kbd>CVPR 2020</kbd> [Waymo] 
 - [CoverNet: Multimodal Behavior Prediction using Trajectory Sets](https://arxiv.org/abs/1911.10298) <kbd>CVPR 2020</kbd> [prediction, nuScenes]
@@ -132,9 +126,18 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [DetectoRS: Detecting Objects with Recursive Feature Pyramid and Switchable Atrous Convolution](https://arxiv.org/abs/2006.02334)
 - [Empirical Upper Bound in Object Detection and More](https://arxiv.org/abs/1911.12451)
 - [Generalized Object Detection on Fisheye Cameras for Autonomous Driving: Dataset, Representations and Baseline](https://arxiv.org/abs/2012.02124) [Fisheye, Senthil Yogamani]
-- [Demystifying Pseudo-LiDAR for Monocular 3D Object Detection](https://arxiv.org/abs/2012.05796) [mono3D]
 - [Monocular 3D Object Detection with Sequential Feature Association and Depth Hint Augmentation](https://arxiv.org/abs/2011.14589) [mono3D]
 - [SOSD-Net: Joint Semantic Object Segmentation and Depth Estimation from Monocular images](http://arxiv.org/abs/2101.07422) [Jiwen Lu, monodepth]
+
+
+## 2021-01 (7)
+- [Confluence: A Robust Non-IoU Alternative to Non-Maxima Suppression in Object Detection](https://arxiv.org/abs/2012.00257) [[Notes](paper_notes/confluence.md)] [NMS]
+- [BoxInst: High-Performance Instance Segmentation with Box Annotations](https://arxiv.org/abs/2012.02310) [[Notes](paper_notes/boxinst.md)] [Chunhua Shen, Tian Zhi]
+- [3DSSD: Point-based 3D Single Stage Object Detector](https://arxiv.org/abs/2002.10187) [[Notes](paper_notes/3dssd.md)] <kbd>CVPR 2020</kbd>
+- [RepVGG: Making VGG-style ConvNets Great Again](https://arxiv.org/abs/2101.03697) [[Notes](paper_notes/repvgg.md)] [Megvii, Xiangyu Zhang, ACNet]
+- [ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks](https://arxiv.org/abs/1908.03930) [[Notes](paper_notes/acnet.md)] <kbd>ICCV 2019</kbd>
+- [BEV-Feat-Stitching: Understanding Bird's-Eye View Semantic HD-Maps Using an Onboard Monocular Camera](https://arxiv.org/abs/2012.03040) [[Notes](paper_notes/bev_feat_stitching.md)] [BEVNet]
+- [PSS: Object Detection Made Simpler by Eliminating Heuristic NMS](https://arxiv.org/abs/2101.11782) [[Notes](paper_notes/pss.md)] [Transformer, DETR]
 
 ## 2020-12 (17)
 - [DeFCN: End-to-End Object Detection with Fully Convolutional Network](https://arxiv.org/abs/2012.03544) [[Notes](paper_notes/defcn.md)] [Transformer, DETR]

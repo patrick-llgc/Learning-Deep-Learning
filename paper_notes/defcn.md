@@ -11,6 +11,7 @@ The study build upon [FCOS](fcos.md). DeFCN points out that the one-to-many labe
 
 - [DeFCN](defcn.md) shows that a hand crafted one-to-one label assignment already yields OK-ish performance (10% relative drop in KPI). [OneNet](onenet.md) also mentions that a predefined location cost + classification is able to yield OK baseline.
 - Both [DeFCN](defcn.md) and [OneNet](onenet.md) adopts a bbox formulation consisting of a point inside GT bbox + 4 distances to the edges. This addresses eccentric objects or objects where center is occluded. 
+- [OneNet](onenet.md) seem to have inferior performance than [DeFCN](defcn.md).
 
 #### Key ideas
 - One-to-one label assignment is key.
