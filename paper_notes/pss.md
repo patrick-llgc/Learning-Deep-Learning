@@ -22,5 +22,5 @@ tl;dr: Add positive sample selector (PSS) branch to FCOS to achieve end-to-end d
 
 #### Notes
 - [Review by 1st author on Zhihu知乎](https://zhuanlan.zhihu.com/p/347515623)
-- [Code on github](git.io/PSS)
+- [Code on github](https://github.com/txdet/FCOSPss)
 
