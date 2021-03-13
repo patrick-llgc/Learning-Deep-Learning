@@ -50,5 +50,5 @@ Many of these tasks can benefit each other. Thus an end-to-end network to predic
 - 50 x 50 m, 200 x 200 image.
 
 #### Notes
-- [Code on github (to be released)](https://github.com/tom-roddick/mono-semantic-maps)
+- [Code on github](https://github.com/tom-roddick/mono-semantic-maps)
 - [Talk at CVPR 2020](https://www.youtube.com/watch?v=lbfre5ZURts)
