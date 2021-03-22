@@ -55,12 +55,17 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2021-03 (0)
+## 2021-03 (2)
 - [DSNT: Numerical Coordinate Regression with Convolutional Neural Networks](https://arxiv.org/abs/1801.07372) [[Notes](paper_notes/dsnt.md)] [differentiable spatial to numerical transform]
 - [Soft-Argmax: Human pose regression by combining indirect part detection and contextual information]()
 - [Categorical Depth Distribution Network for Monocular 3D Object Detection](https://arxiv.org/abs/2103.01100) <kbd>CVPR 2021</kbd> [mono3D]
-- [INSTA-YOLO: Real-Time Instance Segmentation](https://arxiv.org/abs/2102.06777)
+- [INSTA-YOLO: Real-Time Instance Segmentation](https://arxiv.org/abs/2102.06777) [[Notes](paper_notes/insta_yolo.md)] <kbd>ICML workshop 2020</kbd> [instance segmentation]
+- [Towards Open World Object Detection](https://arxiv.org/abs/2103.02603) <kbd>CVPR 2021 oral</kbd>
+- [Rethinking the Heatmap Regression for Bottom-up Human Pose Estimation](https://arxiv.org/abs/2012.15175) [megviii] <kbd>CVPR 2021</kbd>
+- [Multi-Modality Cut and Paste for 3D Object Detection](https://arxiv.org/abs/2012.12741)
+- [Polytransform: deep polygon transformer for instance segmentation]()
 - [ROAD: The ROad event Awareness Dataset for Autonomous Driving](https://arxiv.org/abs/2102.11585)
+- [LidarMTL: A Simple and Efficient Multi-task Network for 3D Object Detection and Road Understanding](https://arxiv.org/abs/2103.04056) [lidar MTL]
 - [High-Performance Large-Scale Image Recognition Without Normalization](https://arxiv.org/abs/2102.06171) <kbd>ICLR 2021</kbd>
 - [Ground-aware Monocular 3D Object Detection for Autonomous Driving](https://arxiv.org/abs/2102.00690) <kbd>RA-L</kbd> [mono3D]
 - [Demystifying Pseudo-LiDAR for Monocular 3D Object Detection](https://arxiv.org/abs/2012.05796) [mono3d]
