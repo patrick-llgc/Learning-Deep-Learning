@@ -57,18 +57,29 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 
 ## 2021-03 (2)
 - [DSNT: Numerical Coordinate Regression with Convolutional Neural Networks](https://arxiv.org/abs/1801.07372) [[Notes](paper_notes/dsnt.md)] [differentiable spatial to numerical transform]
-- [Soft-Argmax: Human pose regression by combining indirect part detection and contextual information]()
+- [Soft-Argmax: Human pose regression by combining indirect part detection and contextual information](https://arxiv.org/abs/1710.02322)
 - [Categorical Depth Distribution Network for Monocular 3D Object Detection](https://arxiv.org/abs/2103.01100) <kbd>CVPR 2021</kbd> [mono3D]
-- [INSTA-YOLO: Real-Time Instance Segmentation](https://arxiv.org/abs/2102.06777) [[Notes](paper_notes/insta_yolo.md)] <kbd>ICML workshop 2020</kbd> [instance segmentation]
+- [INSTA-YOLO: Real-Time Instance Segmentation](https://arxiv.org/abs/2102.06777) [[Notes](paper_notes/insta_yolo.md)] <kbd>ICML workshop 2020</kbd> [single stage instance segmentation]
+- [CenterNet2: Probabilistic two-stage detection](https://arxiv.org/abs/2103.07461) [[Notes](paper_notes/centernet2.md)] [CenterNet, two-stage]
 - [Towards Open World Object Detection](https://arxiv.org/abs/2103.02603) <kbd>CVPR 2021 oral</kbd>
-- [Rethinking the Heatmap Regression for Bottom-up Human Pose Estimation](https://arxiv.org/abs/2012.15175) [megviii] <kbd>CVPR 2021</kbd>
+- [UP-DETR: Unsupervised Pre-training for Object Detection with Transformers](https://arxiv.org/abs/2011.09094) <kbd>CVPR 2021</kbd> [transformers]
+- [DCL: Dense Label Encoding for Boundary Discontinuity Free Rotation Detection](https://arxiv.org/abs/2011.09670) <kbd>CVPR 2021</kbd>
+- [Rethinking the Heatmap Regression for Bottom-up Human Pose Estimation](https://arxiv.org/abs/2012.15175) <kbd>CVPR 2021</kbd> [megvii] 
+- [YOLOF: You Only Look One-level Feature](https://arxiv.org/abs/2103.09460) <kbd>CVPR 2021</kbd> [megvii]
+- [DBB: Diverse Branch Block: Building a Convolution as an Inception-like Unit](https://arxiv.org/abs/2103.13425) <kbd>CVPR 2021</kbd> [RepVGG, ACNet, Xiaohan Ding, Megvii] 
+- [Fast and Accurate Model Scaling](https://arxiv.org/abs/2103.06877) <kbd>CVPR 2021</kbd> [FAIR]
+- [Revisiting ResNets: Improved Training and Scaling Strategies](https://arxiv.org/abs/2103.07579)
 - [Multi-Modality Cut and Paste for 3D Object Detection](https://arxiv.org/abs/2012.12741)
-- [Polytransform: deep polygon transformer for instance segmentation]()
+- [4D Panoptic LiDAR Segmentation](https://arxiv.org/abs/2102.12472) <kbd>CVPR 2021</kbd> [TUM]
+- [CanonPose: Self-Supervised Monocular 3D Human Pose Estimation in the Wild](https://arxiv.org/abs/2011.14679) <kbd>CVPR 2021</kbd>
+- [LD: Localization Distillation for Object Detection](https://arxiv.org/abs/2102.12252)
+- [PolyTransform: Deep Polygon Transformer for Instance Segmentation](https://arxiv.org/abs/1912.02801) <kbd>CVPR 2020</kbd> [single stage instance segmentation]
 - [ROAD: The ROad event Awareness Dataset for Autonomous Driving](https://arxiv.org/abs/2102.11585)
 - [LidarMTL: A Simple and Efficient Multi-task Network for 3D Object Detection and Road Understanding](https://arxiv.org/abs/2103.04056) [lidar MTL]
 - [High-Performance Large-Scale Image Recognition Without Normalization](https://arxiv.org/abs/2102.06171) <kbd>ICLR 2021</kbd>
 - [Ground-aware Monocular 3D Object Detection for Autonomous Driving](https://arxiv.org/abs/2102.00690) <kbd>RA-L</kbd> [mono3D]
 - [Demystifying Pseudo-LiDAR for Monocular 3D Object Detection](https://arxiv.org/abs/2012.05796) [mono3d]
+- [Pseudo-labeling for Scalable 3D Object Detection](https://arxiv.org/abs/2103.02093) [Waymo]
 - [LLA: Loss-aware Label Assignment for Dense Pedestrian Detection](https://arxiv.org/abs/2101.04307) [Megvii]
 - [VectorNet: Encoding HD Maps and Agent Dynamics from Vectorized Representation](https://arxiv.org/abs/2005.04259) <kbd>CVPR 2020</kbd> [Waymo] 
 - [CoverNet: Multimodal Behavior Prediction using Trajectory Sets](https://arxiv.org/abs/1911.10298) <kbd>CVPR 2020</kbd> [prediction, nuScenes]
@@ -142,6 +153,7 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Generalized Object Detection on Fisheye Cameras for Autonomous Driving: Dataset, Representations and Baseline](https://arxiv.org/abs/2012.02124) [Fisheye, Senthil Yogamani]
 - [Monocular 3D Object Detection with Sequential Feature Association and Depth Hint Augmentation](https://arxiv.org/abs/2011.14589) [mono3D]
 - [SOSD-Net: Joint Semantic Object Segmentation and Depth Estimation from Monocular images](http://arxiv.org/abs/2101.07422) [Jiwen Lu, monodepth]
+- [TIDE: A General Toolbox for Identifying Object Detection Errors](https://arxiv.org/abs/2008.08115) <kbd>ECCV 2018</kbd>
 
 
 ## 2021-01 (7)
@@ -177,7 +189,6 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 ## 2020-11 (18)
 - [TSP: Rethinking Transformer-based Set Prediction for Object Detection](https://arxiv.org/abs/2011.10881) [[Notes](paper_notes/tsp.md)] [DETR, transformers, Kris Kitani]
 - [Sparse R-CNN: End-to-End Object Detection with Learnable Proposals](https://arxiv.org/abs/2011.12450) [[Notes](paper_notes/sparse_rcnn.md)] [DETR, Transformer]
-- [UP-DETR: Unsupervised Pre-training for Object Detection with Transformers](https://arxiv.org/abs/2011.09094) [transformers]
 - [Unsupervised Monocular Depth Learning in Dynamic Scenes](https://arxiv.org/abs/2010.16404) [[Notes](paper_notes/learn_depth_and_motion.md)] <kbd>CoRL 2020</kbd> [LearnK improved ver, Google]
 - [MoNet3D: Towards Accurate Monocular 3D Object Localization in Real Time](https://arxiv.org/abs/2006.16007) [[Notes](paper_notes/monet3d.md)] <kbd>ICML 2020</kbd> [Mono3D, pairwise relationship]
 - [Argoverse: 3D Tracking and Forecasting with Rich Maps](https://arxiv.org/abs/1911.02620) [[Notes](paper_notes/argoverse.md)] <kbd>CVPR 2019</kbd> [HD maps, dataset, CV lidar]
@@ -825,6 +836,7 @@ semi-supervised training](http://openaccess.thecvf.com/content_CVPR_2019/papers/
 
 ### Pruning and Compression
 - [Efficient Deep Learning Inference based on Model Compression](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w33/Zhang_Efficient_Deep_Learning_CVPR_2018_paper.pdf) (Model Compression)
+- [Neural Network Distiller](https://intellabs.github.io/distiller/algo_pruning.html) [Intel]
 
 
 ### Architecture Improvements
