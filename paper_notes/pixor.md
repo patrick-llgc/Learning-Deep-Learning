@@ -1,4 +1,4 @@
-# [PIXOR: Real-time 3D Object Detection from Point Clouds](https://arxiv.org/pdf/1902.06326.pdf)
+# [PIXOR: Real-time 3D Object Detection from Point Clouds](https://arxiv.org/abs/1902.06326)
 
 _November 2020_
 
