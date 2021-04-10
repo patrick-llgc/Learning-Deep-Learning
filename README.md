@@ -66,20 +66,30 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [YOLOF: You Only Look One-level Feature](https://arxiv.org/abs/2103.09460) <kbd>CVPR 2021</kbd> [megvii]
 - [Fast and Accurate Model Scaling](https://arxiv.org/abs/2103.06877) <kbd>CVPR 2021</kbd> [FAIR]
 - [Cylinder3D: Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation](https://arxiv.org/abs/2011.10033) <kbd>CVPR 2021</kbd> [lidar semantic segmentation]
+- [LiDAR R-CNN: An Efficient and Universal 3D Object Detector](https://arxiv.org/abs/2103.15297) <kbd>CVPR 2021</kbd> [TuSimple, Lidar]
+- [PREDATOR: Registration of 3D Point Clouds with Low Overlap](https://arxiv.org/abs/2011.13005) <kbd>CVPR 2021 oral</kbd> 
+- [DBB: Diverse Branch Block: Building a Convolution as an Inception-like Unit](https://arxiv.org/abs/2103.13425) <kbd>CVPR 2021</kbd> [RepVGG, ACNet, Xiaohan Ding, Megvii] 
+- [GrooMeD-NMS: Grouped Mathematically Differentiable NMS for Monocular 3D Object Detection](https://arxiv.org/abs/2103.17202) <kbd>CVPR 2021</kbd> [mono3D]
+- [Objects are Different: Flexible Monocular 3D Object Detection](https://arxiv.org/abs/2104.02323) <kbd>CVPR 2021</kbd> [mono3D, Jiwen Lu, cropped]
+- [Delving into Localization Errors for Monocular 3D Object Detection](https://arxiv.org/abs/2103.16237) <kbd>CVPR 2021</kbd> [mono3D]
+- [Depth-conditioned Dynamic Message Propagation for Monocular 3D Object Detection](https://arxiv.org/abs/2103.16470) <kbd>CVPR 2021</kbd> [mono3D]
+- [M3DSSD: Monocular 3D Single Stage Object Detector](https://arxiv.org/abs/2103.13164) <kbd>CVPR 2021</kbd> [mono3D]
+- [MonoRUn: Monocular 3D Object Detection by Reconstruction and Uncertainty Propagation](https://arxiv.org/abs/2103.12605) <kbd>CVPR 2021</kbd> [mono3D]
 
-
-## 2021-04 (0)
+## 2021-04 (1)
 - [Rethinking the Heatmap Regression for Bottom-up Human Pose Estimation](https://arxiv.org/abs/2012.15175) [[Notes](paper_notes/swahr.md)] <kbd>CVPR 2021</kbd> [megvii] 
 - [PifPaf: Composite Fields for Human Pose Estimation](https://arxiv.org/abs/1903.06593) <kbd>CVPR 2019</kbd>
 - [CrowdPose: Efficient Crowded Scenes Pose Estimation and A New Benchmark](https://arxiv.org/abs/1812.00324) <kbd>CVPR 2019</kbd>
+- [The Overlooked Elephant of Object Detection: Open Set](https://openaccess.thecvf.com/content_WACV_2020/html/Dhamija_The_Overlooked_Elephant_of_Object_Detection_Open_Set_WACV_2020_paper.html) <kbd>WACV 2021</kbd>
+- [Class-Agnostic Object Detection](https://arxiv.org/abs/2011.14204) <kbd>WACV 2021</kbd>
 - [Revisiting Feature Alignment for One-stage Object Detection](https://arxiv.org/abs/1908.01570) [cls+reg]
+- [Per-frame mAP Prediction for Continuous Performance Monitoring of Object Detection During Deployment](https://arxiv.org/abs/2009.08650) <kbd>WACV 2021</kbd> [SafetyNet]
 - [TSD: Revisiting the Sibling Head in Object Detector](https://arxiv.org/abs/2003.07540) <kbd>CVPR 2020</kbd> [sensetime, cls+reg]
 - [1st Place Solutions for OpenImage2019 -- Object Detection and Instance Segmentation](https://arxiv.org/abs/2003.07557) [sensetime, cls+reg, 1st place OpenImage2019]
 - [Enabling spatio-temporal aggregation in Birds-Eye-View Vehicle Estimation](https://cvssp.org/Personal/OscarMendez/papers/pdf/SahaICRA2021.pdf) <kbd>ICRA 2021</kbd>
 - [End-to-end Lane Detection through Differentiable Least-Squares Fitting](https://arxiv.org/abs/1902.00293) <kbd>ICCV workshop 2019</kbd>
 - [MP3: A Unified Model to Map, Perceive, Predict and Plan](https://arxiv.org/abs/2101.06806) [Uber, planning]
 - [Offboard 3D Object Detection from Point Cloud Sequences](https://arxiv.org/abs/2103.05073) [Charles Qi]
-- [DBB: Diverse Branch Block: Building a Convolution as an Inception-like Unit](https://arxiv.org/abs/2103.13425) <kbd>CVPR 2021</kbd> [RepVGG, ACNet, Xiaohan Ding, Megvii] 
 - [Revisiting ResNets: Improved Training and Scaling Strategies](https://arxiv.org/abs/2103.07579)
 - [Multi-Modality Cut and Paste for 3D Object Detection](https://arxiv.org/abs/2012.12741)
 - [LD: Localization Distillation for Object Detection](https://arxiv.org/abs/2102.12252)
@@ -166,7 +176,7 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 
 
 ## 2021-03 (4)
-- [Categorical Depth Distribution Network for Monocular 3D Object Detection](https://arxiv.org/abs/2103.01100) [[Notes](paper_notes/caddn.md)] <kbd>CVPR 2021</kbd> [mono3D, BEVNet]
+- [Categorical Depth Distribution Network for Monocular 3D Object Detection](https://arxiv.org/abs/2103.01100) [[Notes](paper_notes/caddn.md)] <kbd>CVPR 2021 oral</kbd> [mono3D, BEVNet]
 - [DSNT: Numerical Coordinate Regression with Convolutional Neural Networks](https://arxiv.org/abs/1801.07372) [[Notes](paper_notes/dsnt.md)] [differentiable spatial to numerical transform]
 - [Soft-Argmax: Human pose regression by combining indirect part detection and contextual information](https://arxiv.org/abs/1710.02322)
 - [INSTA-YOLO: Real-Time Instance Segmentation](https://arxiv.org/abs/2102.06777) [[Notes](paper_notes/insta_yolo.md)] <kbd>ICML workshop 2020</kbd> [single stage instance segmentation]
@@ -821,6 +831,10 @@ Here is the list of papers waiting to be read.
 - [Circular Object Detection in Polar Coordinates for 2D LIDAR Data](https://www.researchgate.net/publication/309365539_Circular_Object_Detection_in_Polar_Coordinates_for_2D_LIDAR_DataCCPR2016) <kbd>CCPR 2016</kbd>
 - [LFFD: A Light and Fast Face Detector for Edge Devices](https://arxiv.org/abs/1904.10633) [Lightweight, face detection, car detection]
 - [UnitBox: An Advanced Object Detection Network](https://arxiv.org/abs/1608.01471) <kbd>ACM MM 2016</kbd> [Ln IoU loss, Thomas Huang]
+
+
+### Fisheye
+- [Generalized Object Detection on Fisheye Cameras for Autonomous Driving: Dataset, Representations and Baseline](https://arxiv.org/abs/2012.02124) <kbd>WACV 2021</kbd>
 
 
 ### Video Understanding
