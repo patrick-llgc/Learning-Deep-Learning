@@ -34,4 +34,4 @@ Previous two stage methods are slow due to the large number of proposals in the 
 
 #### Notes
 - The idea of having a class-agnostic first stage aligns with my observation that the fewer classes we have, the better performance we have with CenterNet.
-
+- Code on [github](https://github.com/xingyizhou/CenterNet2)
