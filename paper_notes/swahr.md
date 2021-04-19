@@ -28,4 +28,5 @@ The paper addresses one key issue in bottom up key point detection.
 
 #### Notes
 - Code on [github](https://github.com/greatlog/SWAHR-HumanPose)
+- [Review from first author on Bilibili](https://www.bilibili.com/video/BV1u54y1b7n5?p=2)
 - Q: Can we apply this idea to anchor free object detection? And use the stdev to do adaptive NMS?

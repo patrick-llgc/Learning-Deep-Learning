@@ -62,7 +62,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [DCL: Dense Label Encoding for Boundary Discontinuity Free Rotation Detection](https://arxiv.org/abs/2011.09670) <kbd>CVPR 2021</kbd>
 - [4D Panoptic LiDAR Segmentation](https://arxiv.org/abs/2102.12472) <kbd>CVPR 2021</kbd> [TUM]
 - [CanonPose: Self-Supervised Monocular 3D Human Pose Estimation in the Wild](https://arxiv.org/abs/2011.14679) <kbd>CVPR 2021</kbd>
-- [Towards Open World Object Detection](https://arxiv.org/abs/2103.02603) <kbd>CVPR 2021 oral</kbd>
 - [YOLOF: You Only Look One-level Feature](https://arxiv.org/abs/2103.09460) <kbd>CVPR 2021</kbd> [megvii]
 - [Fast and Accurate Model Scaling](https://arxiv.org/abs/2103.06877) <kbd>CVPR 2021</kbd> [FAIR]
 - [Cylinder3D: Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation](https://arxiv.org/abs/2011.10033) <kbd>CVPR 2021</kbd> [lidar semantic segmentation]
@@ -70,7 +69,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [PREDATOR: Registration of 3D Point Clouds with Low Overlap](https://arxiv.org/abs/2011.13005) <kbd>CVPR 2021 oral</kbd> 
 - [DBB: Diverse Branch Block: Building a Convolution as an Inception-like Unit](https://arxiv.org/abs/2103.13425) <kbd>CVPR 2021</kbd> [RepVGG, ACNet, Xiaohan Ding, Megvii] 
 - [GrooMeD-NMS: Grouped Mathematically Differentiable NMS for Monocular 3D Object Detection](https://arxiv.org/abs/2103.17202) <kbd>CVPR 2021</kbd> [mono3D]
-- [Objects are Different: Flexible Monocular 3D Object Detection](https://arxiv.org/abs/2104.02323) <kbd>CVPR 2021</kbd> [mono3D, Jiwen Lu, cropped]
 - [Delving into Localization Errors for Monocular 3D Object Detection](https://arxiv.org/abs/2103.16237) <kbd>CVPR 2021</kbd> [mono3D]
 - [Depth-conditioned Dynamic Message Propagation for Monocular 3D Object Detection](https://arxiv.org/abs/2103.16470) <kbd>CVPR 2021</kbd> [mono3D]
 - [M3DSSD: Monocular 3D Single Stage Object Detector](https://arxiv.org/abs/2103.13164) <kbd>CVPR 2021</kbd> [mono3D]
@@ -82,6 +80,10 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [CrowdPose: Efficient Crowded Scenes Pose Estimation and A New Benchmark](https://arxiv.org/abs/1812.00324) <kbd>CVPR 2019</kbd>
 - [The Overlooked Elephant of Object Detection: Open Set](https://openaccess.thecvf.com/content_WACV_2020/html/Dhamija_The_Overlooked_Elephant_of_Object_Detection_Open_Set_WACV_2020_paper.html) <kbd>WACV 2021</kbd>
 - [Class-Agnostic Object Detection](https://arxiv.org/abs/2011.14204) <kbd>WACV 2021</kbd>
+- [OWOD: Towards Open World Object Detection](https://arxiv.org/abs/2103.02603) [[Notes](paper_notes/owod.md)] <kbd>CVPR 2021 oral</kbd>
+- [FsDet: Frustratingly Simple Few-Shot Object Detection](https://arxiv.org/abs/2003.06957) <kbd>ICML 2020</kbd>
+- [MonoFlex: Objects are Different: Flexible Monocular 3D Object Detection](https://arxiv.org/abs/2104.02323) [[Notes](paper_notes/monoflex.md)] <kbd>CVPR 2021</kbd> [mono3D, Jiwen Lu, cropped]
+- [FSM: Full Surround Monodepth from Multiple Cameras](https://arxiv.org/abs/2104.00152) <kbd>CVPR 2021</kbd> [monodepth, Xnet]
 - [Revisiting Feature Alignment for One-stage Object Detection](https://arxiv.org/abs/1908.01570) [cls+reg]
 - [Per-frame mAP Prediction for Continuous Performance Monitoring of Object Detection During Deployment](https://arxiv.org/abs/2009.08650) <kbd>WACV 2021</kbd> [SafetyNet]
 - [TSD: Revisiting the Sibling Head in Object Detector](https://arxiv.org/abs/2003.07540) <kbd>CVPR 2020</kbd> [sensetime, cls+reg]
@@ -176,7 +178,7 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 
 
 ## 2021-03 (4)
-- [Categorical Depth Distribution Network for Monocular 3D Object Detection](https://arxiv.org/abs/2103.01100) [[Notes](paper_notes/caddn.md)] <kbd>CVPR 2021 oral</kbd> [mono3D, BEVNet]
+- [CaDDN: Categorical Depth Distribution Network for Monocular 3D Object Detection](https://arxiv.org/abs/2103.01100) [[Notes](paper_notes/caddn.md)] <kbd>CVPR 2021 oral</kbd> [mono3D, BEVNet]
 - [DSNT: Numerical Coordinate Regression with Convolutional Neural Networks](https://arxiv.org/abs/1801.07372) [[Notes](paper_notes/dsnt.md)] [differentiable spatial to numerical transform]
 - [Soft-Argmax: Human pose regression by combining indirect part detection and contextual information](https://arxiv.org/abs/1710.02322)
 - [INSTA-YOLO: Real-Time Instance Segmentation](https://arxiv.org/abs/2102.06777) [[Notes](paper_notes/insta_yolo.md)] <kbd>ICML workshop 2020</kbd> [single stage instance segmentation]
