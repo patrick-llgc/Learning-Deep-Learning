@@ -69,13 +69,12 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [PREDATOR: Registration of 3D Point Clouds with Low Overlap](https://arxiv.org/abs/2011.13005) <kbd>CVPR 2021 oral</kbd> 
 - [DBB: Diverse Branch Block: Building a Convolution as an Inception-like Unit](https://arxiv.org/abs/2103.13425) <kbd>CVPR 2021</kbd> [RepVGG, ACNet, Xiaohan Ding, Megvii] 
 - [GrooMeD-NMS: Grouped Mathematically Differentiable NMS for Monocular 3D Object Detection](https://arxiv.org/abs/2103.17202) <kbd>CVPR 2021</kbd> [mono3D]
-- [Delving into Localization Errors for Monocular 3D Object Detection](https://arxiv.org/abs/2103.16237) <kbd>CVPR 2021</kbd> [mono3D]
 - [Depth-conditioned Dynamic Message Propagation for Monocular 3D Object Detection](https://arxiv.org/abs/2103.16470) <kbd>CVPR 2021</kbd> [mono3D]
 - [M3DSSD: Monocular 3D Single Stage Object Detector](https://arxiv.org/abs/2103.13164) <kbd>CVPR 2021</kbd> [mono3D]
 - [MonoRUn: Monocular 3D Object Detection by Reconstruction and Uncertainty Propagation](https://arxiv.org/abs/2103.12605) <kbd>CVPR 2021</kbd> [mono3D]
 - [HVPR: Hybrid Voxel-Point Representation for Single-stage 3D Object Detection](https://arxiv.org/abs/2104.00902) <kbd>CVPR 2021</kbd> [Lidar]
 
-## 2021-04 (4)
+## 2021-04 (5)
 - [Rethinking the Heatmap Regression for Bottom-up Human Pose Estimation](https://arxiv.org/abs/2012.15175) [[Notes](paper_notes/swahr.md)] <kbd>CVPR 2021</kbd> [megvii] 
 - [PifPaf: Composite Fields for Human Pose Estimation](https://arxiv.org/abs/1903.06593) <kbd>CVPR 2019</kbd>
 - [CrowdPose: Efficient Crowded Scenes Pose Estimation and A New Benchmark](https://arxiv.org/abs/1812.00324) <kbd>CVPR 2019</kbd>
@@ -84,6 +83,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [OWOD: Towards Open World Object Detection](https://arxiv.org/abs/2103.02603) [[Notes](paper_notes/owod.md)] <kbd>CVPR 2021 oral</kbd>
 - [FsDet: Frustratingly Simple Few-Shot Object Detection](https://arxiv.org/abs/2003.06957) <kbd>ICML 2020</kbd>
 - [MonoFlex: Objects are Different: Flexible Monocular 3D Object Detection](https://arxiv.org/abs/2104.02323) [[Notes](paper_notes/monoflex.md)] <kbd>CVPR 2021</kbd> [mono3D, Jiwen Lu, cropped]
+- [monoDLE: Delving into Localization Errors for Monocular 3D Object Detection](https://arxiv.org/abs/2103.16237) [[Notes](paper_notes/monodle.md)] <kbd>CVPR 2021</kbd> [mono3D]
 - [OCM3D: Object-Centric Monocular 3D Object Detection](https://arxiv.org/abs/2104.06041) [mono3D]
 - [FSM: Full Surround Monodepth from Multiple Cameras](https://arxiv.org/abs/2104.00152) [[Notes](paper_notes/fsm.md)] <kbd>CVPR 2021</kbd> [monodepth, Xnet]
 - [V2F-Net: Explicit Decomposition of Occluded Pedestrian Detection](https://arxiv.org/abs/2104.03106) [crowded, pedestrian, megvii]
