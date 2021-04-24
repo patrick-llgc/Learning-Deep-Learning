@@ -5,7 +5,7 @@ _November 2020_
 tl;dr: CenterNet-based approach, with better distance estimation
 
 #### Overall impression
-The paper proposed two approaches for distance estimation. One is based on DORN with better discretization strategy, and the second is based on breaking down the distance into two large bins, one for near objects and the other for faraway ones. 
+Authors from TUD, Germany. The paper proposed two approaches for distance estimation. One is based on DORN with better discretization strategy, and the second is based on breaking down the distance into two large bins, one for near objects and the other for faraway ones. 
 
 Overall this paper is a very solid contribution to monocular 3D object detection. Nothing fancy, but concrete experiment and small design tweaks. 
 
@@ -13,7 +13,8 @@ A quick summary of [CenterNet](centernet.md) monocular 3D object detection.
 
 - [CenterNet](centernet.md) predicts 2D bbox center and uses it as 3D bbox center. 
 - [SMOKE](smoke.md) predicts projected 3D bbox center.
-- [KM3D-Net](km3d_net.md) and [Center3D](center3d.md) predict 2D bbox center and offset from projected 3D bbox center. 
+- [KM3D-Net](km3d_net.md) and [Center3D](center3d.md) predict 2D bbox center and offset from projected 3D bbox center.
+- [MonoDLE](monodle.md) predicts projected 3D bbox center, and also predicts offset to 2D bbox as auxiliary task.
 
 #### Key ideas
 - 2D and projected 3D center are different

@@ -86,7 +86,11 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [monoDLE: Delving into Localization Errors for Monocular 3D Object Detection](https://arxiv.org/abs/2103.16237) [[Notes](paper_notes/monodle.md)] <kbd>CVPR 2021</kbd> [mono3D]
 - [OCM3D: Object-Centric Monocular 3D Object Detection](https://arxiv.org/abs/2104.06041) [mono3D]
 - [FSM: Full Surround Monodepth from Multiple Cameras](https://arxiv.org/abs/2104.00152) [[Notes](paper_notes/fsm.md)] <kbd>CVPR 2021</kbd> [monodepth, Xnet]
+- [PLUME: Efficient 3D Object Detection from Stereo Images](https://arxiv.org/abs/2101.06594) [Yan Wang, Uber ATG]
+- [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/abs/2003.08934) <kbd>ECCV 2020 oral</kbd>
+- [BARF: Bundle-Adjusting Neural Radiance Fields](https://arxiv.org/abs/2104.06405)
 - [V2F-Net: Explicit Decomposition of Occluded Pedestrian Detection](https://arxiv.org/abs/2104.03106) [crowded, pedestrian, megvii]
+- [IP-basic: In Defense of Classical Image Processing: Fast Depth Completion on the CPU](https://arxiv.org/abs/1802.00036) <kbd>CRV 2018</kbd>
 - [Revisiting Feature Alignment for One-stage Object Detection](https://arxiv.org/abs/1908.01570) [cls+reg]
 - [Per-frame mAP Prediction for Continuous Performance Monitoring of Object Detection During Deployment](https://arxiv.org/abs/2009.08650) <kbd>WACV 2021</kbd> [SafetyNet]
 - [TSD: Revisiting the Sibling Head in Object Detector](https://arxiv.org/abs/2003.07540) <kbd>CVPR 2020</kbd> [sensetime, cls+reg]

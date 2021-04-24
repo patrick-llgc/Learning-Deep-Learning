@@ -18,6 +18,7 @@ A quick summary of [CenterNet](centernet.md) monocular 3D object detection.
 - [CenterNet](centernet.md) predicts 2D bbox center and uses it as 3D bbox center. 
 - [SMOKE](smoke.md) predicts projected 3D bbox center.
 - [KM3D-Net](km3d_net.md) and [Center3D](center3d.md) predict 2D bbox center and offset from projected 3D bbox center. 
+- [MonoDLE](monodle.md) predicts projected 3D bbox center, and also predicts offset to 2D bbox as auxiliary task.
 
 #### Key ideas
 - Architecture
