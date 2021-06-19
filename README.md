@@ -73,7 +73,8 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [M3DSSD: Monocular 3D Single Stage Object Detector](https://arxiv.org/abs/2103.13164) <kbd>CVPR 2021</kbd> [mono3D]
 - [MonoRUn: Monocular 3D Object Detection by Reconstruction and Uncertainty Propagation](https://arxiv.org/abs/2103.12605) <kbd>CVPR 2021</kbd> [mono3D]
 - [HVPR: Hybrid Voxel-Point Representation for Single-stage 3D Object Detection](https://arxiv.org/abs/2104.00902) <kbd>CVPR 2021</kbd> [Lidar]
-
+- [Offboard 3D Object Detection from Point Cloud Sequences](https://arxiv.org/abs/2103.05073) [Charles Qi]
+- 
 ## 2021-04 (5)
 - [Rethinking the Heatmap Regression for Bottom-up Human Pose Estimation](https://arxiv.org/abs/2012.15175) [[Notes](paper_notes/swahr.md)] <kbd>CVPR 2021</kbd> [megvii] 
 - [PifPaf: Composite Fields for Human Pose Estimation](https://arxiv.org/abs/1903.06593) <kbd>CVPR 2019</kbd>
@@ -84,6 +85,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [FsDet: Frustratingly Simple Few-Shot Object Detection](https://arxiv.org/abs/2003.06957) <kbd>ICML 2020</kbd>
 - [MonoFlex: Objects are Different: Flexible Monocular 3D Object Detection](https://arxiv.org/abs/2104.02323) [[Notes](paper_notes/monoflex.md)] <kbd>CVPR 2021</kbd> [mono3D, Jiwen Lu, cropped]
 - [monoDLE: Delving into Localization Errors for Monocular 3D Object Detection](https://arxiv.org/abs/2103.16237) [[Notes](paper_notes/monodle.md)] <kbd>CVPR 2021</kbd> [mono3D]
+- [Exploring 2D Data Augmentation for 3D Monocular Object Detection](https://arxiv.org/abs/2104.10786)
 - [OCM3D: Object-Centric Monocular 3D Object Detection](https://arxiv.org/abs/2104.06041) [mono3D]
 - [FSM: Full Surround Monodepth from Multiple Cameras](https://arxiv.org/abs/2104.00152) [[Notes](paper_notes/fsm.md)] <kbd>CVPR 2021</kbd> [monodepth, Xnet]
 - [PLUME: Efficient 3D Object Detection from Stereo Images](https://arxiv.org/abs/2101.06594) [Yan Wang, Uber ATG]
@@ -98,7 +100,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Enabling spatio-temporal aggregation in Birds-Eye-View Vehicle Estimation](https://cvssp.org/Personal/OscarMendez/papers/pdf/SahaICRA2021.pdf) <kbd>ICRA 2021</kbd>
 - [End-to-end Lane Detection through Differentiable Least-Squares Fitting](https://arxiv.org/abs/1902.00293) <kbd>ICCV workshop 2019</kbd>
 - [MP3: A Unified Model to Map, Perceive, Predict and Plan](https://arxiv.org/abs/2101.06806) [Uber, planning]
-- [Offboard 3D Object Detection from Point Cloud Sequences](https://arxiv.org/abs/2103.05073) [Charles Qi]
 - [Revisiting ResNets: Improved Training and Scaling Strategies](https://arxiv.org/abs/2103.07579)
 - [Multi-Modality Cut and Paste for 3D Object Detection](https://arxiv.org/abs/2012.12741)
 - [LD: Localization Distillation for Object Detection](https://arxiv.org/abs/2102.12252)
@@ -161,7 +162,8 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Monocular 3D Object Detection with Sequential Feature Association and Depth Hint Augmentation](https://arxiv.org/abs/2011.14589) [mono3D]
 - [Simple Copy-Paste is a Strong Data Augmentation Method for Instance Segmentation](https://arxiv.org/abs/2012.07177)
 - [ViP-DeepLab: Learning Visual Perception with Depth-aware Video Panoptic Segmentation](https://arxiv.org/abs/2012.05258)
-- [Recurrent MVSNet for High-resolution Multi-view Stereo Depth Inference](https://arxiv.org/abs/1902.10556) [Deep learning + MVS, Vidar]
+- [MVSNet: Depth Inference for Unstructured Multi-view Stereo](https://arxiv.org/abs/1804.02505) <kbd>ECCV 2018</kbd>
+- [Recurrent MVSNet for High-resolution Multi-view Stereo Depth Inference](https://arxiv.org/abs/1902.10556) <kbd>CVPR 2019</kbd> [Deep learning + MVS, Vidar, same author MVSNet]
 - [Artificial Dummies for Urban Dataset Augmentation](https://arxiv.org/abs/2012.08274) <kbd>AAAI 2021</kbd>
 - [DETR for Pedestrian Detection](https://arxiv.org/abs/2012.06785) [transformer, pedestrian detection]
 - [Multi-Modality Cut and Paste for 3D Object Detection](https://arxiv.org/abs/2012.12741) [SenseTime]
@@ -182,6 +184,10 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Monocular 3D Object Detection with Sequential Feature Association and Depth Hint Augmentation](https://arxiv.org/abs/2011.14589) [mono3D]
 - [SOSD-Net: Joint Semantic Object Segmentation and Depth Estimation from Monocular images](http://arxiv.org/abs/2101.07422) [Jiwen Lu, monodepth]
 - [Sparse Auxiliary Networks for Unified Monocular Depth Prediction and Completion](https://arxiv.org/abs/2103.16690) [TRI]
+
+## 2021-06 (1)
+- [FIERY: Future Instance Prediction in Bird's-Eye View from Surround Monocular Cameras](https://arxiv.org/abs/2104.10490) [[Notes](paper_notes/fiery.md)] [BEVNet, prediction]
+- [Detecting 32 Pedestrian Attributes for Autonomous Vehicles](https://arxiv.org/abs/2012.02647) [VRU, MTL]
 
 
 ## 2021-03 (4)
@@ -947,7 +953,8 @@ Traffic Sign and Light Detection](https://arxiv.org/abs/1806.07987) <kbd>IEEE CR
 - [A Survey on Neural Architecture Search](https://arxiv.org/pdf/1905.01392.pdf)
 - [Network pruning tutorial](https://jacobgil.github.io/deeplearning/pruning-deep-learning) (blog)
 - [GNN tutorial at CVPR 2019](https://xiaolonw.github.io/graphnn/)
-- [One Thousand and One Hours: Self-driving Motion Prediction Dataset](https://arxiv.org/abs/2006.14480)
+- [One Thousand and One Hours: Self-driving Motion Prediction Dataset](https://arxiv.org/abs/2006.14480) [Lyft Level 5, prediction dataset]
+- [Large Scale Interactive Motion Forecasting for Autonomous Driving : The Waymo Open Motion Dataset](https://arxiv.org/abs/2104.10133) [Waymo, prediction dataset]
 - [PANDA: A Gigapixel-level Human-centric Video Dataset](https://arxiv.org/abs/2003.04852) <kbd>CVPR 2020</kbd>
 
 ### Unsupervised depth estimation

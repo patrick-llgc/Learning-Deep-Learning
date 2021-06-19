@@ -2,7 +2,7 @@
 
 _March 2021_
 
-tl;dr: Lift perspective image to BEV for mono3D, with direct depth supervison. Similar to [OFT](oft.md).
+tl;dr: Lift perspective image to BEV for mono3D, with direct depth supervison. It can be seen as an extension to [Pseudo-lidar](pseudo_lidar.md).
 
 #### Overall impression
 CaDDN focuses on accurate prediction of depth to improve mono3D performance. The depth prediction method is based on improved version of ordinal regression.
@@ -15,7 +15,7 @@ Previous depth prediction is separated from 3D detection during training, preven
 - Depth distribution supervision
 	- Dense depth map from depth completion by lidar ([IP-basic](https://github.com/kujason/ip_basic) <kbd>CRV 2018</kbd>)
 	- This depth supervision is critical in improving the detection performance. 
-	- Sharp depth prediction via one-hot encoding. Ordinal regression. SID (space increasing cf [DORN](dorn.md)) and LID (linearly increasing cf [Center3D](center3d.md)).
+	- Sharp depth prediction via one-hot encoding. Ordinal regression. **SID** (space increasing cf [DORN](dorn.md)) and **LID** (linearly increasing cf [Center3D](center3d.md)).
 - Architecture
 	- Input image $W_I \times H_I \times 3$
 	- Frustum feature grid

@@ -27,5 +27,5 @@ The paper explored two representative lidar object detector, one one-stage metho
 - PIXOR still lacks behind PointRCNN for performance.
 
 #### Notes
-- Questions and notes on how to improve/revise the current work  
+- [Code on github](https://github.com/mileyan/pseudo-LiDAR_e2e)
 

@@ -33,7 +33,7 @@ A quick summary of [CenterNet](centernet.md) monocular 3D object detection.
 - **Keypoint dropout** in the process of training geometry reasoning module. Note that we only need to solve for 3 DoF location, and thus ideally with 2 keypoints we can already recover the 3D bbox. This is confirmed in Ablation study (Fig. 4) that with only two keypoints, the performance can be already reasonable, and no obvious improvements beyond using 4 keypoints. 
 
 #### Technical details
-- The prediction of the 9 points are all formulated as **offset regression from the main center instead of heatmaps**. This is different from previous work of [RTM3D](rtm3d.md) where all 9 points are predicted via heatmaps. This paper reasons that heatmap prediction of keypoints are semantically ambiguous and cannot estimate the keypoints of the **truncated** region. --> this makes perfect sense.
+- The prediction of the 9 points are all formulated as **offset regression from the main center instead of heatmaps**. This is different from previous work of [RTM3D](rtm3d.md) where all 9 points are predicted via heatmaps. This paper reasons that heatmap prediction of keypoints are semantically ambiguous and cannot estimate the keypoints of the **truncated** region. --> this makes perfect sense. The truncation problem is investigated in detail per [MonoFlex](monoflex.md).
 - Depth guided L1 loss: initial L1 at near distance, but log when far.
 
 #### Notes
