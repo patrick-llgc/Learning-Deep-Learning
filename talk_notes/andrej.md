@@ -45,6 +45,39 @@ Stuff that caught my eye:
 ## [Pytorch Conf](https://www.youtube.com/watch?v=hx7BXih7zx8)
 - [A very good review blog here](https://phucnsp.github.io/blog/self-taught/2020/04/30/tesla-nn-in-production.html)
 
+## [2021.06.20 CVPR 2021](https://www.youtube.com/watch?v=g6bOwQdCJrc)
+- The grand mission: Tesla is ditching radars. They are using neural network and vision to do radar depth + velocity sensing.
+- In order to do that, they need a large AND diverse 4D (3D+time) dataset. This is also used to train FSD. 
+- Tesla has a whole team spending about 4 months focusing on autolabeling 
+- Tesla uses MANY (221 as of mid-2021) triggers to collect the diverse dataset. They ended up with 1 million 10-second clips.
+- Dedicated HPC team. Now Tesla training with 720 8-GPU nodes!
+- Tesla argues that vision alone is perfectly capable of depth sensing. It is hard and it requires the fleet.
+![](../assets/cvpr_2021_andrej/cover.jpg)
+
+
+
+
+PMM: pedal misuse mitigation
+![](../assets/cvpr_2021_andrej/traffic_control_warning_pmm.jpg)
+
+Tesla's data set-up.
+![](../assets/cvpr_2021_andrej/tesla_no_radar.jpg)
+![](../assets/cvpr_2021_andrej/8cam_setup.jpg)
+![](../assets/cvpr_2021_andrej/large_clean_diverse_data.jpg)
+
+Have to figure out the road layout the first time the car goes there (drive on perception). Fundamental problem: Depth estimation of monocular 
+![](../assets/cvpr_2021_andrej/data_auto_labeling.jpg)
+![](../assets/cvpr_2021_andrej/trainig_cluster.jpg)
+![](../assets/cvpr_2021_andrej/tesla_dataset.jpg)
+
+Once in a while radar gives you a FP that is hard to handle
+![](../assets/cvpr_2021_andrej/depth_velocity_with_vision_1.jpg)
+![](../assets/cvpr_2021_andrej/depth_velocity_with_vision_2.jpg)
+![](../assets/cvpr_2021_andrej/depth_velocity_with_vision_3.jpg)
+
+Validation process
+![](../assets/cvpr_2021_andrej/release_and_validation.jpg)
+
 ## [Tesla Patents](https://patents.google.com/?q=(machine+learning)&assignee=Tesla%2c+Inc.&after=priority:20180101&oq=(machine+learning)+assignee:(Tesla%2c+Inc.)+after:priority:20180101)
 
 ## On FSD
