@@ -69,25 +69,11 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [PREDATOR: Registration of 3D Point Clouds with Low Overlap](https://arxiv.org/abs/2011.13005) <kbd>CVPR 2021 oral</kbd> 
 - [DBB: Diverse Branch Block: Building a Convolution as an Inception-like Unit](https://arxiv.org/abs/2103.13425) <kbd>CVPR 2021</kbd> [RepVGG, ACNet, Xiaohan Ding, Megvii] 
 - [GrooMeD-NMS: Grouped Mathematically Differentiable NMS for Monocular 3D Object Detection](https://arxiv.org/abs/2103.17202) <kbd>CVPR 2021</kbd> [mono3D]
-- [Depth-conditioned Dynamic Message Propagation for Monocular 3D Object Detection](https://arxiv.org/abs/2103.16470) <kbd>CVPR 2021</kbd> [mono3D]
+- [DDMP: Depth-conditioned Dynamic Message Propagation for Monocular 3D Object Detection](https://arxiv.org/abs/2103.16470) [[Notes](paper_notes/ddmp.md)] <kbd>CVPR 2021</kbd> [mono3D]
 - [M3DSSD: Monocular 3D Single Stage Object Detector](https://arxiv.org/abs/2103.13164) <kbd>CVPR 2021</kbd> [mono3D]
 - [MonoRUn: Monocular 3D Object Detection by Reconstruction and Uncertainty Propagation](https://arxiv.org/abs/2103.12605) <kbd>CVPR 2021</kbd> [mono3D]
 - [HVPR: Hybrid Voxel-Point Representation for Single-stage 3D Object Detection](https://arxiv.org/abs/2104.00902) <kbd>CVPR 2021</kbd> [Lidar]
 - [Offboard 3D Object Detection from Point Cloud Sequences](https://arxiv.org/abs/2103.05073) [Charles Qi]
-- 
-## 2021-04 (5)
-- [Rethinking the Heatmap Regression for Bottom-up Human Pose Estimation](https://arxiv.org/abs/2012.15175) [[Notes](paper_notes/swahr.md)] <kbd>CVPR 2021</kbd> [megvii] 
-- [PifPaf: Composite Fields for Human Pose Estimation](https://arxiv.org/abs/1903.06593) <kbd>CVPR 2019</kbd>
-- [CrowdPose: Efficient Crowded Scenes Pose Estimation and A New Benchmark](https://arxiv.org/abs/1812.00324) <kbd>CVPR 2019</kbd>
-- [The Overlooked Elephant of Object Detection: Open Set](https://openaccess.thecvf.com/content_WACV_2020/html/Dhamija_The_Overlooked_Elephant_of_Object_Detection_Open_Set_WACV_2020_paper.html) <kbd>WACV 2021</kbd>
-- [Class-Agnostic Object Detection](https://arxiv.org/abs/2011.14204) <kbd>WACV 2021</kbd>
-- [OWOD: Towards Open World Object Detection](https://arxiv.org/abs/2103.02603) [[Notes](paper_notes/owod.md)] <kbd>CVPR 2021 oral</kbd>
-- [FsDet: Frustratingly Simple Few-Shot Object Detection](https://arxiv.org/abs/2003.06957) <kbd>ICML 2020</kbd>
-- [MonoFlex: Objects are Different: Flexible Monocular 3D Object Detection](https://arxiv.org/abs/2104.02323) [[Notes](paper_notes/monoflex.md)] <kbd>CVPR 2021</kbd> [mono3D, Jiwen Lu, cropped]
-- [monoDLE: Delving into Localization Errors for Monocular 3D Object Detection](https://arxiv.org/abs/2103.16237) [[Notes](paper_notes/monodle.md)] <kbd>CVPR 2021</kbd> [mono3D]
-- [Exploring 2D Data Augmentation for 3D Monocular Object Detection](https://arxiv.org/abs/2104.10786)
-- [OCM3D: Object-Centric Monocular 3D Object Detection](https://arxiv.org/abs/2104.06041) [mono3D]
-- [FSM: Full Surround Monodepth from Multiple Cameras](https://arxiv.org/abs/2104.00152) [[Notes](paper_notes/fsm.md)] <kbd>CVPR 2021</kbd> [monodepth, Xnet]
 - [PLUME: Efficient 3D Object Detection from Stereo Images](https://arxiv.org/abs/2101.06594) [Yan Wang, Uber ATG]
 - [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/abs/2003.08934) <kbd>ECCV 2020 oral</kbd>
 - [BARF: Bundle-Adjusting Neural Radiance Fields](https://arxiv.org/abs/2104.06405)
@@ -185,9 +171,34 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [SOSD-Net: Joint Semantic Object Segmentation and Depth Estimation from Monocular images](http://arxiv.org/abs/2101.07422) [Jiwen Lu, monodepth]
 - [Sparse Auxiliary Networks for Unified Monocular Depth Prediction and Completion](https://arxiv.org/abs/2103.16690) [TRI]
 
+## 2021-07 (1)
+- [HDMapNet: An Online HD Map Construction and Evaluation Framework](https://arxiv.org/abs/2107.06307) [[Notes](paper_notes/hdmapnet.md)] <kbd>CVPR 2021 workshop</kbd> [youtube video only, Li Auto]
+- [EgoNet: Exploring Intermediate Representation for Monocular Vehicle Pose Estimation](https://arxiv.org/abs/2011.08464) <kbd>CVPR 2021</kbd>
+- [FCOS3D: Fully Convolutional One-Stage Monocular 3D Object Detection](https://arxiv.org/abs/2104.10956) <kbd>NeurIPS 2020</kbd>
+- [DDT: Unsupervised Object Discovery and Co-Localization by Deep Descriptor Transforming](https://arxiv.org/abs/1707.06397) <kbd>IJCAI 2017</kbd>
+- [HDMapGen: A Hierarchical Graph Generative Model of High Definition Maps](https://openaccess.thecvf.com/content/CVPR2021/papers/Mi_HDMapGen_A_Hierarchical_Graph_Generative_Model_of_High_Definition_Maps_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd> [HD mapping]
+- [Hierarchical Road Topology Learning for Urban Map-less Driving](https://arxiv.org/abs/2104.00084) [Mercedes]
+- [Baidu's CNN seg](https://zhuanlan.zhihu.com/p/35034215)
+- [Probabilistic Future Prediction for Video Scene Understanding](https://arxiv.org/abs/2003.06409) <kbd>ECCV 2020</kbd> [Alex Kendall]
+
+
 ## 2021-06 (1)
 - [FIERY: Future Instance Prediction in Bird's-Eye View from Surround Monocular Cameras](https://arxiv.org/abs/2104.10490) [[Notes](paper_notes/fiery.md)] [BEVNet, prediction]
 - [Detecting 32 Pedestrian Attributes for Autonomous Vehicles](https://arxiv.org/abs/2012.02647) [VRU, MTL]
+
+## 2021-04 (5)
+- [Rethinking the Heatmap Regression for Bottom-up Human Pose Estimation](https://arxiv.org/abs/2012.15175) [[Notes](paper_notes/swahr.md)] <kbd>CVPR 2021</kbd> [megvii] 
+- [PifPaf: Composite Fields for Human Pose Estimation](https://arxiv.org/abs/1903.06593) <kbd>CVPR 2019</kbd>
+- [CrowdPose: Efficient Crowded Scenes Pose Estimation and A New Benchmark](https://arxiv.org/abs/1812.00324) <kbd>CVPR 2019</kbd>
+- [The Overlooked Elephant of Object Detection: Open Set](https://openaccess.thecvf.com/content_WACV_2020/html/Dhamija_The_Overlooked_Elephant_of_Object_Detection_Open_Set_WACV_2020_paper.html) <kbd>WACV 2021</kbd>
+- [Class-Agnostic Object Detection](https://arxiv.org/abs/2011.14204) <kbd>WACV 2021</kbd>
+- [OWOD: Towards Open World Object Detection](https://arxiv.org/abs/2103.02603) [[Notes](paper_notes/owod.md)] <kbd>CVPR 2021 oral</kbd>
+- [FsDet: Frustratingly Simple Few-Shot Object Detection](https://arxiv.org/abs/2003.06957) <kbd>ICML 2020</kbd>
+- [MonoFlex: Objects are Different: Flexible Monocular 3D Object Detection](https://arxiv.org/abs/2104.02323) [[Notes](paper_notes/monoflex.md)] <kbd>CVPR 2021</kbd> [mono3D, Jiwen Lu, cropped]
+- [monoDLE: Delving into Localization Errors for Monocular 3D Object Detection](https://arxiv.org/abs/2103.16237) [[Notes](paper_notes/monodle.md)] <kbd>CVPR 2021</kbd> [mono3D]
+- [Exploring 2D Data Augmentation for 3D Monocular Object Detection](https://arxiv.org/abs/2104.10786)
+- [OCM3D: Object-Centric Monocular 3D Object Detection](https://arxiv.org/abs/2104.06041) [mono3D]
+- [FSM: Full Surround Monodepth from Multiple Cameras](https://arxiv.org/abs/2104.00152) [[Notes](paper_notes/fsm.md)] <kbd>CVPR 2021</kbd> [monodepth, Xnet]
 
 
 ## 2021-03 (4)
