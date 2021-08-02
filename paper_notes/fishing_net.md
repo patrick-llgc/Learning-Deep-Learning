@@ -15,6 +15,8 @@ The BEV (top-down) representation across modalities has multiple benefits:
 
 Maybe BEV representation is the ultimate goal for perception. The authors also noted that we need to **add the concept of instance**. This may be necessary to make the output results to be directly consumable by downstream.
 
+[Fishing Net](fishing_net.md) tackles the problem of predicting deterministic future BEV semantic segmentation.
+
 [Fishing Net](fishing_net.md) uses BEV grid resolution: 10 cm and 20 cm/pixel. [Lift Splat Shoot](lift_splat_shoot.md) uses 50 cm/pixel. They are both coarser than the typical 4 cm or 5 cm per pixel resolution used by mapping purposes such as [DAGMapper](dagmapper.md).
 
 #### Key ideas

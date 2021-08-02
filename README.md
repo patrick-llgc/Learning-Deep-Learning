@@ -177,7 +177,6 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [DDT: Unsupervised Object Discovery and Co-Localization by Deep Descriptor Transforming](https://arxiv.org/abs/1707.06397) <kbd>IJCAI 2017</kbd>
 - [HDMapGen: A Hierarchical Graph Generative Model of High Definition Maps](https://openaccess.thecvf.com/content/CVPR2021/papers/Mi_HDMapGen_A_Hierarchical_Graph_Generative_Model_of_High_Definition_Maps_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd> [HD mapping]
 - [Hierarchical Road Topology Learning for Urban Map-less Driving](https://arxiv.org/abs/2104.00084) [Mercedes]
-- [Baidu's CNN seg](https://zhuanlan.zhihu.com/p/35034215)
 - [Probabilistic Future Prediction for Video Scene Understanding](https://arxiv.org/abs/2003.06409) <kbd>ECCV 2020</kbd> [Alex Kendall]
 - [Detecting 32 Pedestrian Attributes for Autonomous Vehicles](https://arxiv.org/abs/2012.02647) [VRU, MTL]
 
@@ -185,9 +184,9 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [HDMapNet: An Online HD Map Construction and Evaluation Framework](https://arxiv.org/abs/2107.06307) [[Notes](paper_notes/hdmapnet.md)] <kbd>CVPR 2021 workshop</kbd> [youtube video only, Li Auto]
 
 
-## 2021-06 (1)
+## 2021-06 (2)
 - [FIERY: Future Instance Prediction in Bird's-Eye View from Surround Monocular Cameras](https://arxiv.org/abs/2104.10490) [[Notes](paper_notes/fiery.md)] [BEVNet, prediction]
-
+- [Baidu's CNN seg](https://zhuanlan.zhihu.com/p/35034215) [[Notes](paper_notes/cnn_seg.md)]
 
 ## 2021-04 (5)
 - [Rethinking the Heatmap Regression for Bottom-up Human Pose Estimation](https://arxiv.org/abs/2012.15175) [[Notes](paper_notes/swahr.md)] <kbd>CVPR 2021</kbd> [megvii] 
