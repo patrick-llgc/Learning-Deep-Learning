@@ -33,4 +33,4 @@ The wireframe (or sparse 3D point cloud representating an interpolated cuboid) i
 
 #### Notes
 - [Code on github](https://github.com/Nicholasli1995/EgoNet)
-
+- [Youtube video](https://www.youtube.com/watch?v=isKo0F3MU68)

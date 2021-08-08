@@ -173,12 +173,21 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 
 ## 2021-08 (1)
 - [EgoNet: Exploring Intermediate Representation for Monocular Vehicle Pose Estimation](https://arxiv.org/abs/2011.08464) [[Notes](paper_notes/egonet.md)] <kbd>CVPR 2021</kbd>
+- [Monocular 3D Object Detection: An Extrinsic Parameter Free Approach](https://arxiv.org/abs/2106.15796) [[Notes](paper_notes/monoef.md)] <kbd>CVPR 2021</kbd>
+- [Ground-aware Monocular 3D Object Detection for Autonomous Driving](https://arxiv.org/abs/2102.00690) <kbd>RAL 2021</kbd>
 - [FCOS3D: Fully Convolutional One-Stage Monocular 3D Object Detection](https://arxiv.org/abs/2104.10956) <kbd>NeurIPS 2020</kbd>
 - [DDT: Unsupervised Object Discovery and Co-Localization by Deep Descriptor Transforming](https://arxiv.org/abs/1707.06397) <kbd>IJCAI 2017</kbd>
 - [HDMapGen: A Hierarchical Graph Generative Model of High Definition Maps](https://openaccess.thecvf.com/content/CVPR2021/papers/Mi_HDMapGen_A_Hierarchical_Graph_Generative_Model_of_High_Definition_Maps_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd> [HD mapping]
 - [Hierarchical Road Topology Learning for Urban Map-less Driving](https://arxiv.org/abs/2104.00084) [Mercedes]
 - [Probabilistic Future Prediction for Video Scene Understanding](https://arxiv.org/abs/2003.06409) <kbd>ECCV 2020</kbd> [Alex Kendall]
 - [Detecting 32 Pedestrian Attributes for Autonomous Vehicles](https://arxiv.org/abs/2012.02647) [VRU, MTL]
+- [Cascaded deep monocular 3D human pose estimation with evolutionary training data](https://arxiv.org/abs/2006.07778) <kbd>CVPR 2020 oral</kbd>
+- [MonoGeo: Learning Geometry-Guided Depth via Projective Modeling for Monocular 3D Object Detection](https://arxiv.org/abs/2107.13931) [mono3D]
+- [Geometry Uncertainty Projection Network for Monocular 3D Object Detection](https://arxiv.org/abs/2107.13774) <kbd>ICCV 2021</kbd> [mono3D, Wanli Ouyang]
+- [Aug3D-RPN: Improving Monocular 3D Object Detection by Synthetic Images with Virtual Depth](https://arxiv.org/abs/2107.13269) [mono3D]
+- [Neighbor-Vote: Improving Monocular 3D Object Detection through Neighbor Distance Voting](https://arxiv.org/abs/2107.02493) [mono3D]
+- [Lite-FPN for Keypoint-based Monocular 3D Object Detection](https://arxiv.org/abs/2105.00268) [mono3D]
+- [Perceiving Humans: from Monocular 3D Localization to Social Distancing](https://arxiv.org/abs/2009.00984) <kbd>TITS 2021</kbd>
 
 ## 2021-07 (1)
 - [HDMapNet: An Online HD Map Construction and Evaluation Framework](https://arxiv.org/abs/2107.06307) [[Notes](paper_notes/hdmapnet.md)] <kbd>CVPR 2021 workshop</kbd> [youtube video only, Li Auto]
@@ -321,7 +330,7 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Learning to Look around Objects for Top-View Representations of Outdoor Scenes](https://arxiv.org/abs/1803.10870) [[Notes](paper_notes/learning_to_look_around_objects.md)] <kbd>ECCV 2018</kbd> [BEV-Net, UCSD, Manmohan Chandraker]
 - [A Parametric Top-View Representation of Complex Road Scenes](https://arxiv.org/abs/1812.06152) <kbd>CVPR 2019</kbd> [BEV-Net, UCSD, Manmohan Chandraker]
 - [FTM: Understanding Road Layout from Videos as a Whole](https://arxiv.org/abs/2007.00822) <kbd>CVPR 2020</kbd> [BEV-Net, UCSD, Manmohan Chandraker]
-- [KM3D-Net: Monocular 3D Detection with Geometric Constraints Embedding and Semi-supervised Training](https://arxiv.org/abs/2009.00764) [[Notes](paper_notes/km3d_net.md)] [RTM3D, Peixuan Li]
+- [KM3D-Net: Monocular 3D Detection with Geometric Constraints Embedding and Semi-supervised Training](https://arxiv.org/abs/2009.00764) [[Notes](paper_notes/km3d_net.md)] <kbd>RAL 2021</kbd> [RTM3D, Peixuan Li]
 - [InstanceMotSeg: Real-time Instance Motion Segmentation for Autonomous Driving](https://arxiv.org/abs/2008.07008) [[Notes](paper_notes/instance_mot_seg.md)] <kbd>IROS 2020</kbd> [motion segmentation]
 - [MPV-Nets: Monocular Plan View Networks for Autonomous Driving](https://arxiv.org/abs/1905.06937) [[Notes](paper_notes/mpv_nets.md)] <kbd>IROS 2019</kbd> [BEV-Net]
 - [Class-Balanced Loss Based on Effective Number of Samples](https://arxiv.org/abs/1901.05555) [[Notes](paper_notes/class_balanced_loss.md)] <kbd>CVPR 2019</kbd> [Focal loss authors]
