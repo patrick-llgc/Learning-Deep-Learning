@@ -171,11 +171,11 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [SOSD-Net: Joint Semantic Object Segmentation and Depth Estimation from Monocular images](http://arxiv.org/abs/2101.07422) [Jiwen Lu, monodepth]
 - [Sparse Auxiliary Networks for Unified Monocular Depth Prediction and Completion](https://arxiv.org/abs/2103.16690) [TRI]
 
-## 2021-08 (1)
+## 2021-08 (3)
 - [EgoNet: Exploring Intermediate Representation for Monocular Vehicle Pose Estimation](https://arxiv.org/abs/2011.08464) [[Notes](paper_notes/egonet.md)] <kbd>CVPR 2021</kbd>
 - [Monocular 3D Object Detection: An Extrinsic Parameter Free Approach](https://arxiv.org/abs/2106.15796) [[Notes](paper_notes/monoef.md)] <kbd>CVPR 2021</kbd>
 - [Ground-aware Monocular 3D Object Detection for Autonomous Driving](https://arxiv.org/abs/2102.00690) <kbd>RAL 2021</kbd>
-- [FCOS3D: Fully Convolutional One-Stage Monocular 3D Object Detection](https://arxiv.org/abs/2104.10956) <kbd>NeurIPS 2020</kbd>
+- [FCOS3D: Fully Convolutional One-Stage Monocular 3D Object Detection](https://arxiv.org/abs/2104.10956) [[Notes](paper_notes/fcos3d.md)] <kbd>NeurIPS 2020</kbd> [senseTime]
 - [DDT: Unsupervised Object Discovery and Co-Localization by Deep Descriptor Transforming](https://arxiv.org/abs/1707.06397) <kbd>IJCAI 2017</kbd>
 - [HDMapGen: A Hierarchical Graph Generative Model of High Definition Maps](https://openaccess.thecvf.com/content/CVPR2021/papers/Mi_HDMapGen_A_Hierarchical_Graph_Generative_Model_of_High_Definition_Maps_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd> [HD mapping]
 - [Hierarchical Road Topology Learning for Urban Map-less Driving](https://arxiv.org/abs/2104.00084) [Mercedes]
