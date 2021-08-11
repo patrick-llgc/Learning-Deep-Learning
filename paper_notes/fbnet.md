@@ -16,9 +16,10 @@ The differentiable NAS method resembles pruning a lot.
 #### Key ideas
 - The search space is represented by a stochastic super net. Each layer has 9 parallel blocks each controlled by a probability. 
 	- The descrete sampling process is not differentiable, and we have to use the [Gumbel trick](https://towardsdatascience.com/what-is-gumbel-softmax-7f6d9cdcb90e) to make the sampling process differentiable.
-- Training procedure: the weights w and the architecture distribution parameters a are trained in an alternating fashion.
-	- For each epoch, 80% of the images are used to train w.
-	- 20% of the images are used to train a.
+	- This could be simply reduced to a softmax as in [DARTS](darts.md).
+- Training procedure: the weights w and the architecture distribution parameters a are trained in an alternating fashion. In each epoch,
+	- 80% of the images are used to train w. (w is trained on training set)
+	- 20% of the images are used to train a. (a is trained on validation set)
 - A hardware specific LUT makes the latency differentiable wrt layer-wise block choices.
 	- The design of LUT assumes that the runtime of each operator is independent of other operators. 
 	- $L(a, w) = CE(a, w) \times \alpha \log(LAT(a))^\beta$. LAT is a latency on the target device. 
