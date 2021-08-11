@@ -171,11 +171,11 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [SOSD-Net: Joint Semantic Object Segmentation and Depth Estimation from Monocular images](http://arxiv.org/abs/2101.07422) [Jiwen Lu, monodepth]
 - [Sparse Auxiliary Networks for Unified Monocular Depth Prediction and Completion](https://arxiv.org/abs/2103.16690) [TRI]
 
-## 2021-08 (3)
-- [EgoNet: Exploring Intermediate Representation for Monocular Vehicle Pose Estimation](https://arxiv.org/abs/2011.08464) [[Notes](paper_notes/egonet.md)] <kbd>CVPR 2021</kbd>
-- [MonoEF: Monocular 3D Object Detection: An Extrinsic Parameter Free Approach](https://arxiv.org/abs/2106.15796) [[Notes](paper_notes/monoef.md)] <kbd>CVPR 2021</kbd>
-- [GAC: Ground-aware Monocular 3D Object Detection for Autonomous Driving](https://arxiv.org/abs/2102.00690) [[Notes](paper_notes/gac.md)] <kbd>RAL 2021</kbd>
-- [FCOS3D: Fully Convolutional One-Stage Monocular 3D Object Detection](https://arxiv.org/abs/2104.10956) [[Notes](paper_notes/fcos3d.md)] <kbd>NeurIPS 2020</kbd> [senseTime]
+## 2021-08 (6)
+- [EgoNet: Exploring Intermediate Representation for Monocular Vehicle Pose Estimation](https://arxiv.org/abs/2011.08464) [[Notes](paper_notes/egonet.md)] <kbd>CVPR 2021</kbd> [mono3D]
+- [MonoEF: Monocular 3D Object Detection: An Extrinsic Parameter Free Approach](https://arxiv.org/abs/2106.15796) [[Notes](paper_notes/monoef.md)] <kbd>CVPR 2021</kbd> [mono3D]
+- [GAC: Ground-aware Monocular 3D Object Detection for Autonomous Driving](https://arxiv.org/abs/2102.00690) [[Notes](paper_notes/gac.md)] <kbd>RAL 2021</kbd> [mono3D]
+- [FCOS3D: Fully Convolutional One-Stage Monocular 3D Object Detection](https://arxiv.org/abs/2104.10956) [[Notes](paper_notes/fcos3d.md)] <kbd>NeurIPS 2020</kbd> [mono3D, senseTime]
 - [DARTS: Differentiable Architecture Search](https://arxiv.org/abs/1806.09055) [[Notes](paper_notes/darts.md)] <kbd>ICLR 2019</kbd> [VGG author]
 - [FBNet: Hardware-Aware Efficient ConvNet Design via Differentiable Neural Architecture Search](https://arxiv.org/abs/1812.03443) [[Notes](paper_notes/fbnet.md)] <kbd>CVPR 20219</kbd> [DARTS]
 - [FBNetV2: Differentiable Neural Architecture Search for Spatial and Channel Dimensions](https://arxiv.org/abs/2004.05565) <kbd>CVPR 2020</kbd>

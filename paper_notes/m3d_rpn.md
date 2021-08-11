@@ -25,6 +25,7 @@ This work also directly inspired [D4LCN](d4lcn.md), which brings the idea of dep
 - To ease the 3D bbox regression task, the mean stats of depth and 3D size, and theta are precomputed for each anchor size. --> This is clever, but may not be the best way to do this as the theta is quite inaccurate and calls for post-processing as shown by the paper. 
 	- Whenever the IoU for 2D is > 0.5, then adjust 3D anchors to regress the diff from the GT.
 - **Depth aware convolution**: The depth is largely correlated with rows in autonomous driving scenes. Thus M3D RPN proposes to use separate conv filters for different row bins.
+- Post 3D-->2D optimization: Postprocessing of yaw angle by optmizing 2D-3D consistency (hill-climb algorithm).
 
 #### Technical details
 - The depth aware conv leads to depth-aware features or local features and are fused with normal conv (global features) by a learned paramter. 
