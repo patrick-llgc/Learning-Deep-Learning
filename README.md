@@ -173,9 +173,13 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 
 ## 2021-08 (3)
 - [EgoNet: Exploring Intermediate Representation for Monocular Vehicle Pose Estimation](https://arxiv.org/abs/2011.08464) [[Notes](paper_notes/egonet.md)] <kbd>CVPR 2021</kbd>
-- [Monocular 3D Object Detection: An Extrinsic Parameter Free Approach](https://arxiv.org/abs/2106.15796) [[Notes](paper_notes/monoef.md)] <kbd>CVPR 2021</kbd>
-- [Ground-aware Monocular 3D Object Detection for Autonomous Driving](https://arxiv.org/abs/2102.00690) <kbd>RAL 2021</kbd>
+- [MonoEF: Monocular 3D Object Detection: An Extrinsic Parameter Free Approach](https://arxiv.org/abs/2106.15796) [[Notes](paper_notes/monoef.md)] <kbd>CVPR 2021</kbd>
+- [GAC: Ground-aware Monocular 3D Object Detection for Autonomous Driving](https://arxiv.org/abs/2102.00690) [[Notes](paper_notes/gac.md)] <kbd>RAL 2021</kbd>
 - [FCOS3D: Fully Convolutional One-Stage Monocular 3D Object Detection](https://arxiv.org/abs/2104.10956) [[Notes](paper_notes/fcos3d.md)] <kbd>NeurIPS 2020</kbd> [senseTime]
+- [DARTS: Differentiable Architecture Search](https://arxiv.org/abs/1806.09055) <kbd>ICLR 2019</kbd> [VGG author]
+- [FBNet: Hardware-Aware Efficient ConvNet Design via Differentiable Neural Architecture Search](https://arxiv.org/abs/1812.03443) [[Notes](paper_notes/fbnet.md)] <kbd>CVPR 20219</kbd> [DARTS]
+- [FBNetV2: Differentiable Neural Architecture Search for Spatial and Channel Dimensions](https://arxiv.org/abs/2004.05565) <kbd>CVPR 2020</kbd>
+- [FBNetV3: Joint Architecture-Recipe Search using Predictor Pretraining](https://arxiv.org/abs/2006.02049) <kbd>CVPR 2021</kbd>
 - [DDT: Unsupervised Object Discovery and Co-Localization by Deep Descriptor Transforming](https://arxiv.org/abs/1707.06397) <kbd>IJCAI 2017</kbd>
 - [HDMapGen: A Hierarchical Graph Generative Model of High Definition Maps](https://openaccess.thecvf.com/content/CVPR2021/papers/Mi_HDMapGen_A_Hierarchical_Graph_Generative_Model_of_High_Definition_Maps_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd> [HD mapping]
 - [Hierarchical Road Topology Learning for Urban Map-less Driving](https://arxiv.org/abs/2104.00084) [Mercedes]
@@ -188,6 +192,7 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Neighbor-Vote: Improving Monocular 3D Object Detection through Neighbor Distance Voting](https://arxiv.org/abs/2107.02493) [mono3D]
 - [Lite-FPN for Keypoint-based Monocular 3D Object Detection](https://arxiv.org/abs/2105.00268) [mono3D]
 - [Perceiving Humans: from Monocular 3D Localization to Social Distancing](https://arxiv.org/abs/2009.00984) <kbd>TITS 2021</kbd>
+- [Projecting Your View Attentively: Monocular Road Scene Layout Estimation via Cross-view Transformation](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Projecting_Your_View_Attentively_Monocular_Road_Scene_Layout_Estimation_via_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd> [BEVNet]
 
 ## 2021-07 (1)
 - [HDMapNet: An Online HD Map Construction and Evaluation Framework](https://arxiv.org/abs/2107.06307) [[Notes](paper_notes/hdmapnet.md)] <kbd>CVPR 2021 workshop</kbd> [youtube video only, Li Auto]
@@ -748,7 +753,7 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [Channel Pruning for Accelerating Very Deep Neural Networks](https://arxiv.org/pdf/1707.06168.pdf) <kbd>ICCV 2017</kbd> (Face++, Yihui He) [[Notes](paper_notes/channel_pruning_megvii.md)]
 - [AMC: AutoML for Model Compression and Acceleration on Mobile Devices](https://arxiv.org/pdf/1802.03494.pdf) <kbd>ECCV 2018</kbd> (Song Han, Yihui He)
 - [MobileNetV3: Searching for MobileNetV3](https://arxiv.org/pdf/1905.02244.pdf) [[Notes](paper_notes/mobilenets_v3.md)]
-- [MnasNet: Platform-Aware Neural Architecture Search for Mobile](https://arxiv.org/pdf/1807.11626.pdf) [[Notes](mnasnet.md)] <kbd>CVPR 2019</kbd> 
+- [MnasNet: Platform-Aware Neural Architecture Search for Mobile](https://arxiv.org/pdf/1807.11626.pdf) [[Notes](paper_notes/mnasnet.md)] <kbd>CVPR 2019</kbd> 
 - [Rethinking the Value of Network Pruning](https://arxiv.org/pdf/1810.05270.pdf) <kbd>ICLR 2019</kbd>
 
 ## 2019-04 (12)

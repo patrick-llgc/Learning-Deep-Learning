@@ -5,9 +5,11 @@ _May 2019_
 tl;dr: Search the neighborhood of MobileNetV2.
 
 #### Overall impression
-One of the main challenge of NAS is its vast search space. This paper uses [MobilenetsV2](mobilenets_v2.md) as a starting point and significantly reduces the search space. 
+One of the main challenge of NAS is its vast search space. This paper uses [MobilenetsV2](mobilenets_v2.md) as a starting point and significantly reduces the search space. M stands for mobile.
 
 The algorithm can be seen as an evolution algorithm, just a glorified for loop.
+
+The performance is overtaken by [FBNet](fbnet.md) also published at <kbd>CVPR 2019</kbd>, which uses differentiable optimization method instead of training a controller. 
 
 #### Key ideas
 - Combine model Accuracy and latency into a cost function $ACC(model) \times [LAT(model)/TAR]^w$, with w ranging from -0.07 (in MobilenetsV3 Large, or MNasNet-A1) to -0.15 (in MobilenetsV3 Small). -0.07 was obtained by observing that empirically model accuracy improves by 5% when doubling latency.
