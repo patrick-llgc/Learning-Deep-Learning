@@ -15,9 +15,9 @@ The idea is to decouple the learning of truncated objects (outside objects) and 
 	- For outside objects, 3D center is outside the image, and the intersection point between the image edge and the line connecting $x_b$ (2D center) to $x_c$ (3D center).
 - Edge fusion
 	- Extracts boundary from feature map, 1D conv, then adds back to the feature map
-- Depth prediction
+- Depth prediction via height
 	- Direct prediction of transformed target $d = \frac{1}{\sigma(x)} - 1$
-	- Depth by scaling predicted keypoints and height (the top surface and bottom surface centers, and two diagonal height)
+	- Depth by scaling predicted keypoints and the average of 3 heights (the top surface and bottom surface centers, and two diagonal height). --> If a certain height is not fully visible due to cropping, then discard.
 	- Soft ensemble according to predicted aleatoric uncertainty
 - Loss
 	- [gIoU loss](giou.md)

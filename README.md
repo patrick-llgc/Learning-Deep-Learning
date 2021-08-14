@@ -69,7 +69,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [PREDATOR: Registration of 3D Point Clouds with Low Overlap](https://arxiv.org/abs/2011.13005) <kbd>CVPR 2021 oral</kbd> 
 - [DBB: Diverse Branch Block: Building a Convolution as an Inception-like Unit](https://arxiv.org/abs/2103.13425) <kbd>CVPR 2021</kbd> [RepVGG, ACNet, Xiaohan Ding, Megvii] 
 - [GrooMeD-NMS: Grouped Mathematically Differentiable NMS for Monocular 3D Object Detection](https://arxiv.org/abs/2103.17202) <kbd>CVPR 2021</kbd> [mono3D]
-- [DDMP: Depth-conditioned Dynamic Message Propagation for Monocular 3D Object Detection](https://arxiv.org/abs/2103.16470) [[Notes](paper_notes/ddmp.md)] <kbd>CVPR 2021</kbd> [mono3D]
+- [DDMP: Depth-conditioned Dynamic Message Propagation for Monocular 3D Object Detection](https://arxiv.org/abs/2103.16470) <kbd>CVPR 2021</kbd> [mono3D]
 - [M3DSSD: Monocular 3D Single Stage Object Detector](https://arxiv.org/abs/2103.13164) <kbd>CVPR 2021</kbd> [mono3D]
 - [MonoRUn: Monocular 3D Object Detection by Reconstruction and Uncertainty Propagation](https://arxiv.org/abs/2103.12605) <kbd>CVPR 2021</kbd> [mono3D]
 - [HVPR: Hybrid Voxel-Point Representation for Single-stage 3D Object Detection](https://arxiv.org/abs/2104.00902) <kbd>CVPR 2021</kbd> [Lidar]
@@ -176,10 +176,12 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [MonoEF: Monocular 3D Object Detection: An Extrinsic Parameter Free Approach](https://arxiv.org/abs/2106.15796) [[Notes](paper_notes/monoef.md)] <kbd>CVPR 2021</kbd> [mono3D]
 - [GAC: Ground-aware Monocular 3D Object Detection for Autonomous Driving](https://arxiv.org/abs/2102.00690) [[Notes](paper_notes/gac.md)] <kbd>RAL 2021</kbd> [mono3D]
 - [FCOS3D: Fully Convolutional One-Stage Monocular 3D Object Detection](https://arxiv.org/abs/2104.10956) [[Notes](paper_notes/fcos3d.md)] <kbd>NeurIPS 2020</kbd> [mono3D, senseTime]
+- [GUPNet: Geometry Uncertainty Projection Network for Monocular 3D Object Detection](https://arxiv.org/abs/2107.13774) [[Notes](paper_notes/gupnet.md)] <kbd>ICCV 2021</kbd> [mono3D, Wanli Ouyang]
 - [DARTS: Differentiable Architecture Search](https://arxiv.org/abs/1806.09055) [[Notes](paper_notes/darts.md)] <kbd>ICLR 2019</kbd> [VGG author]
 - [FBNet: Hardware-Aware Efficient ConvNet Design via Differentiable Neural Architecture Search](https://arxiv.org/abs/1812.03443) [[Notes](paper_notes/fbnet.md)] <kbd>CVPR 20219</kbd> [DARTS]
 - [FBNetV2: Differentiable Neural Architecture Search for Spatial and Channel Dimensions](https://arxiv.org/abs/2004.05565) <kbd>CVPR 2020</kbd>
 - [FBNetV3: Joint Architecture-Recipe Search using Predictor Pretraining](https://arxiv.org/abs/2006.02049) <kbd>CVPR 2021</kbd>
+- [Perceiver: General Perception with Iterative Attention](https://arxiv.org/abs/2103.03206) <kbd>ICML 2021</kbd> [transformers, multimodal]
 - [DDT: Unsupervised Object Discovery and Co-Localization by Deep Descriptor Transforming](https://arxiv.org/abs/1707.06397) <kbd>IJCAI 2017</kbd>
 - [HDMapGen: A Hierarchical Graph Generative Model of High Definition Maps](https://openaccess.thecvf.com/content/CVPR2021/papers/Mi_HDMapGen_A_Hierarchical_Graph_Generative_Model_of_High_Definition_Maps_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd> [HD mapping]
 - [Hierarchical Road Topology Learning for Urban Map-less Driving](https://arxiv.org/abs/2104.00084) [Mercedes]
@@ -187,7 +189,6 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Detecting 32 Pedestrian Attributes for Autonomous Vehicles](https://arxiv.org/abs/2012.02647) [VRU, MTL]
 - [Cascaded deep monocular 3D human pose estimation with evolutionary training data](https://arxiv.org/abs/2006.07778) <kbd>CVPR 2020 oral</kbd>
 - [MonoGeo: Learning Geometry-Guided Depth via Projective Modeling for Monocular 3D Object Detection](https://arxiv.org/abs/2107.13931) [mono3D]
-- [Geometry Uncertainty Projection Network for Monocular 3D Object Detection](https://arxiv.org/abs/2107.13774) <kbd>ICCV 2021</kbd> [mono3D, Wanli Ouyang]
 - [Aug3D-RPN: Improving Monocular 3D Object Detection by Synthetic Images with Virtual Depth](https://arxiv.org/abs/2107.13269) [mono3D]
 - [Neighbor-Vote: Improving Monocular 3D Object Detection through Neighbor Distance Voting](https://arxiv.org/abs/2107.02493) [mono3D]
 - [Lite-FPN for Keypoint-based Monocular 3D Object Detection](https://arxiv.org/abs/2105.00268) [mono3D]

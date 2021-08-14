@@ -16,6 +16,7 @@ The paper still uses Caffe in 2019 is a bit of a shocker.
 - Guidance generation: This step only uses 2D bbox and intrinsics to get the 3D location of the cuboid center.
 	- **Depth estimation** is based on a strong prior of bbox height. Based on the dataset, the 3D top center is the top of 2D bbox, the 3D bottom center is close to the bottom of 2D bbox (for KITTI, 0.07 above). Essentially, the distance is estimated by the ratio of **93%** of bbox and subtype average height. --> this is really hacky. Maybe using the width of the car is a better constraint?
 	- The idea of using keypoint to estimate depth can also be found in [MonoGRNet from the Russian team](monogrnet_russian.md).
+	- The idea of using height to guide depth estimation is used in [GUPNet](gupnet.md).
 - Architecture: 
 	- 2DOD + orientation
 	- surface feature extraction fused with RoI Align for 3D property refinement
