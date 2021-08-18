@@ -181,7 +181,8 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [FBNet: Hardware-Aware Efficient ConvNet Design via Differentiable Neural Architecture Search](https://arxiv.org/abs/1812.03443) [[Notes](paper_notes/fbnet.md)] <kbd>CVPR 20219</kbd> [DARTS]
 - [FBNetV2: Differentiable Neural Architecture Search for Spatial and Channel Dimensions](https://arxiv.org/abs/2004.05565) <kbd>CVPR 2020</kbd>
 - [FBNetV3: Joint Architecture-Recipe Search using Predictor Pretraining](https://arxiv.org/abs/2006.02049) <kbd>CVPR 2021</kbd>
-- [Perceiver: General Perception with Iterative Attention](https://arxiv.org/abs/2103.03206) <kbd>ICML 2021</kbd> [transformers, multimodal]
+- [Perceiver: General Perception with Iterative Attention](https://arxiv.org/abs/2103.03206) [[Notes](paper_notes/perceiver.md)] <kbd>ICML 2021</kbd> [transformers, multimodal]
+- [PCT: Point cloud transformer](https://arxiv.org/abs/2012.09688) <kbd>Computational Visual Media 2021</kbd>
 - [DDT: Unsupervised Object Discovery and Co-Localization by Deep Descriptor Transforming](https://arxiv.org/abs/1707.06397) <kbd>IJCAI 2017</kbd>
 - [HDMapGen: A Hierarchical Graph Generative Model of High Definition Maps](https://openaccess.thecvf.com/content/CVPR2021/papers/Mi_HDMapGen_A_Hierarchical_Graph_Generative_Model_of_High_Definition_Maps_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd> [HD mapping]
 - [Hierarchical Road Topology Learning for Urban Map-less Driving](https://arxiv.org/abs/2104.00084) [Mercedes]
