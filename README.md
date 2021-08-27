@@ -38,6 +38,9 @@ Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out o
 ### Talks
 - [Andrej Karpathy's Talks](./talk_notes/andrej.md)
 
+### What autonomous driving companies do
+- [Zoox](https://www.youtube.com/watch?&v=BVRMh9NO9Cs)
+
 ## My Review Posts by Topics
 I regularly update [my blog in Toward Data Science](https://medium.com/@patrickllgc).
 
@@ -182,6 +185,9 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [FBNetV2: Differentiable Neural Architecture Search for Spatial and Channel Dimensions](https://arxiv.org/abs/2004.05565) <kbd>CVPR 2020</kbd>
 - [FBNetV3: Joint Architecture-Recipe Search using Predictor Pretraining](https://arxiv.org/abs/2006.02049) <kbd>CVPR 2021</kbd>
 - [Perceiver: General Perception with Iterative Attention](https://arxiv.org/abs/2103.03206) [[Notes](paper_notes/perceiver.md)] <kbd>ICML 2021</kbd> [transformers, multimodal]
+- [Perceiver IO: A General Architecture for Structured Inputs & Outputs](https://arxiv.org/abs/2107.14795) [[Notes](paper_notes/perceiver_io.md)]
+- [Linformer: Self-Attention with Linear Complexity](https://arxiv.org/abs/2006.04768)
+- [Set Transformer: A Framework for Attention-based Permutation-Invariant Neural Networks](https://arxiv.org/abs/1810.00825) <kbd>ICML 2019</kbd>
 - [PCT: Point cloud transformer](https://arxiv.org/abs/2012.09688) <kbd>Computational Visual Media 2021</kbd>
 - [DDT: Unsupervised Object Discovery and Co-Localization by Deep Descriptor Transforming](https://arxiv.org/abs/1707.06397) <kbd>IJCAI 2017</kbd>
 - [HDMapGen: A Hierarchical Graph Generative Model of High Definition Maps](https://openaccess.thecvf.com/content/CVPR2021/papers/Mi_HDMapGen_A_Hierarchical_Graph_Generative_Model_of_High_Definition_Maps_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd> [HD mapping]
@@ -195,6 +201,10 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Lite-FPN for Keypoint-based Monocular 3D Object Detection](https://arxiv.org/abs/2105.00268) [mono3D]
 - [Perceiving Humans: from Monocular 3D Localization to Social Distancing](https://arxiv.org/abs/2009.00984) <kbd>TITS 2021</kbd>
 - [Projecting Your View Attentively: Monocular Road Scene Layout Estimation via Cross-view Transformation](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Projecting_Your_View_Attentively_Monocular_Road_Scene_Layout_Estimation_via_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd> [BEVNet]
+- [Lidar Point Cloud Guided Monocular 3D Object Detection](https://arxiv.org/abs/2104.09035)
+- [Is Pseudo-Lidar needed for Monocular 3D Object detection?](https://arxiv.org/abs/2108.06417)
+- [Vision Transformers for Dense Prediction](https://arxiv.org/abs/2103.13413) [Vladlen Koltun, Intel]
+- [Efficient Transformers: A Survey](https://arxiv.org/abs/2009.06732)
 
 ## 2021-07 (1)
 - [HDMapNet: An Online HD Map Construction and Evaluation Framework](https://arxiv.org/abs/2107.06307) [[Notes](paper_notes/hdmapnet.md)] <kbd>CVPR 2021 workshop</kbd> [youtube video only, Li Auto]
