@@ -9,6 +9,8 @@ The results are quite impressive. It almost doubles mAP from 30 [PointPillars](p
 
 The anchor-free object detection of [AFDet](afdet.md) (winner of 2020 Waymo Open Dataset challenge) is very close to [CenterPoint](centerpoint.md).
 
+The tracking with motion prediction idea is take one step further by [SimTrack](simtrack.md). It improves the bipartite matching by a direct look-up operation.
+
 #### Key ideas
 - Detect center of objects and regress other attributes such as 3D size, 3D orientation and **velocity** (**offset vector** in [CenterTrack](centertrack.md)).
 - Most of 3D space are without measurement. Need extra trick to make it work. Gaussian blur bigger. --> cf [AFDet](afdet.md)

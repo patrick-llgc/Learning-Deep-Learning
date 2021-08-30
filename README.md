@@ -1,7 +1,8 @@
 # Paper notes
 This repository contains my paper reading notes on deep learning and machine learning. It is inspired by [Denny Britz](https://github.com/dennybritz/deeplearning-papernotes) and [Daniel Takeshi](https://github.com/DanielTakeshi/Paper_Notes).
 
-**New year resolution for 2020: read at least three paper a week and a high a high quality github repo a month!**
+## About me
+My name is [Patrick Langechuan Liu](https://www.linkedin.com/in/patrick-llgc/). After about a decade of education and research in physics, I found my passion in deep learning and autonomous driving. Currently I am leading the perception feature development at [Xpeng Motors](https://en.xiaopeng.com/), a fast growing autonomous driving company.
 
 
 ## What to read
@@ -88,7 +89,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [1st Place Solutions for OpenImage2019 -- Object Detection and Instance Segmentation](https://arxiv.org/abs/2003.07557) [sensetime, cls+reg, 1st place OpenImage2019]
 - [Enabling spatio-temporal aggregation in Birds-Eye-View Vehicle Estimation](https://cvssp.org/Personal/OscarMendez/papers/pdf/SahaICRA2021.pdf) <kbd>ICRA 2021</kbd>
 - [End-to-end Lane Detection through Differentiable Least-Squares Fitting](https://arxiv.org/abs/1902.00293) <kbd>ICCV workshop 2019</kbd>
-- [MP3: A Unified Model to Map, Perceive, Predict and Plan](https://arxiv.org/abs/2101.06806) [Uber, planning]
 - [Revisiting ResNets: Improved Training and Scaling Strategies](https://arxiv.org/abs/2103.07579)
 - [Multi-Modality Cut and Paste for 3D Object Detection](https://arxiv.org/abs/2012.12741)
 - [LD: Localization Distillation for Object Detection](https://arxiv.org/abs/2102.12252)
@@ -186,6 +186,9 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [FBNetV3: Joint Architecture-Recipe Search using Predictor Pretraining](https://arxiv.org/abs/2006.02049) <kbd>CVPR 2021</kbd>
 - [Perceiver: General Perception with Iterative Attention](https://arxiv.org/abs/2103.03206) [[Notes](paper_notes/perceiver.md)] <kbd>ICML 2021</kbd> [transformers, multimodal]
 - [Perceiver IO: A General Architecture for Structured Inputs & Outputs](https://arxiv.org/abs/2107.14795) [[Notes](paper_notes/perceiver_io.md)]
+- [Is Pseudo-Lidar needed for Monocular 3D Object detection?](https://arxiv.org/abs/2108.06417)
+- [Self-Supervised Pillar Motion Learning for Autonomous Driving](https://arxiv.org/abs/2104.08683) <kbd>CVPR 2021</kbd> [Qcraft, Alan Yuille]
+- [SimTrack: Exploring Simple 3D Multi-Object Tracking for Autonomous Driving](https://arxiv.org/abs/2108.10312) [[Notes](paper_notes/simtrack.md)] <kbd>ICCV 2019</kbd> [QCraft, Alan Yuille]
 - [Linformer: Self-Attention with Linear Complexity](https://arxiv.org/abs/2006.04768)
 - [Set Transformer: A Framework for Attention-based Permutation-Invariant Neural Networks](https://arxiv.org/abs/1810.00825) <kbd>ICML 2019</kbd>
 - [PCT: Point cloud transformer](https://arxiv.org/abs/2012.09688) <kbd>Computational Visual Media 2021</kbd>
@@ -202,9 +205,13 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Perceiving Humans: from Monocular 3D Localization to Social Distancing](https://arxiv.org/abs/2009.00984) <kbd>TITS 2021</kbd>
 - [Projecting Your View Attentively: Monocular Road Scene Layout Estimation via Cross-view Transformation](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Projecting_Your_View_Attentively_Monocular_Road_Scene_Layout_Estimation_via_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd> [BEVNet]
 - [Lidar Point Cloud Guided Monocular 3D Object Detection](https://arxiv.org/abs/2104.09035)
-- [Is Pseudo-Lidar needed for Monocular 3D Object detection?](https://arxiv.org/abs/2108.06417)
 - [Vision Transformers for Dense Prediction](https://arxiv.org/abs/2103.13413) [Vladlen Koltun, Intel]
 - [Efficient Transformers: A Survey](https://arxiv.org/abs/2009.06732)
+- [Do Vision Transformers See Like Convolutional Neural Networks?](https://arxiv.org/abs/2108.08810)
+- [Progressive Coordinate Transforms for Monocular 3D Object Detection](http://arxiv.org/abs/2108.05793) [mono3D]
+- [ImVoxelNet: Image to Voxels Projection for Monocular and Multi-View General-Purpose 3D Object Detection](https://arxiv.org/abs/2106.01178) [mono3D]
+- [AutoShape: Real-Time Shape-Aware Monocular 3D Object Detection](https://arxiv.org/abs/2108.11127) <kbd>ICCV 2021</kbd> [mono3D]
+
 
 ## 2021-07 (1)
 - [HDMapNet: An Online HD Map Construction and Evaluation Framework](https://arxiv.org/abs/2107.06307) [[Notes](paper_notes/hdmapnet.md)] <kbd>CVPR 2021 workshop</kbd> [youtube video only, Li Auto]
@@ -1066,6 +1073,7 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [GNN3DMOT: Graph Neural Network for 3D Multi-Object Tracking with Multi-Feature Learning](https://arxiv.org/abs/2006.07327) <kbd>CVPR 2020 oral</kbd> [3DMOT, CMU, Kris Kitani]
 - [Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking](https://arxiv.org/abs/2007.14557) <kbd>ECCV 2020 spotlight</kbd> [MOT, Tencent]
 - [Towards Real-Time Multi-Object Tracking](https://arxiv.org/abs/1909.12605) <kbd>ECCV 2020</kbd> [MOT]
+- [Probabilistic 3D Multi-Object Tracking for Autonomous Driving](https://arxiv.org/abs/2001.05673) [TRI]
 
 ### keypoints: pose and face
 - [Probabilistic Face Embeddings](https://arxiv.org/abs/1904.09658) <kbd>ICCV 2019</kbd>
@@ -1189,6 +1197,7 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Learning Lane Graph Representations for Motion Forecasting](https://arxiv.org/abs/2007.13732) <kbd>ECCV 2020</kbd> [Uber ATG]
 - [PnPNet: End-to-End Perception and Prediction with Tracking in the Loop](https://arxiv.org/abs/2005.14711) <kbd>CVPR 2020</kbd> [Uber ATG]
 - [DSDNet: Deep Structured self-Driving Network](https://arxiv.org/abs/2008.06041) <kbd>ECCV 2020</kbd> [Uber ATG]
+- [MP3: A Unified Model to Map, Perceive, Predict and Plan](https://arxiv.org/abs/2101.06806) <kbd>CVPR 2021</kbd> [Uber, planning]
 
 ### Annotation and Tooling
 - [Temporal Coherence for Active Learning in Videos](https://arxiv.org/abs/1908.11757) <kbd>ICCV 2019 workshop</kbd>
