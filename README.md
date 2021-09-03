@@ -187,7 +187,7 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Perceiver: General Perception with Iterative Attention](https://arxiv.org/abs/2103.03206) [[Notes](paper_notes/perceiver.md)] <kbd>ICML 2021</kbd> [transformers, multimodal]
 - [Perceiver IO: A General Architecture for Structured Inputs & Outputs](https://arxiv.org/abs/2107.14795) [[Notes](paper_notes/perceiver_io.md)]
 - [Is Pseudo-Lidar needed for Monocular 3D Object detection?](https://arxiv.org/abs/2108.06417)
-- [Self-Supervised Pillar Motion Learning for Autonomous Driving](https://arxiv.org/abs/2104.08683) <kbd>CVPR 2021</kbd> [Qcraft, Alan Yuille]
+- [PillarMotion: Self-Supervised Pillar Motion Learning for Autonomous Driving](https://arxiv.org/abs/2104.08683)  [[Notes](paper_notes/pillar_motion.md)] <kbd>CVPR 2021</kbd> [Qcraft, Alan Yuille]
 - [SimTrack: Exploring Simple 3D Multi-Object Tracking for Autonomous Driving](https://arxiv.org/abs/2108.10312) [[Notes](paper_notes/simtrack.md)] <kbd>ICCV 2019</kbd> [QCraft, Alan Yuille]
 - [Linformer: Self-Attention with Linear Complexity](https://arxiv.org/abs/2006.04768)
 - [Set Transformer: A Framework for Attention-based Permutation-Invariant Neural Networks](https://arxiv.org/abs/1810.00825) <kbd>ICML 2019</kbd>
