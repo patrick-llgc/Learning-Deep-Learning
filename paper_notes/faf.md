@@ -13,6 +13,8 @@ More robust to occlusion and sparse data at range. It also runs real-time at 33 
 
 [IntentNet](intentnet.md) is heavily inspired by [Fast and Furious](faf.md) (also by Uber ATG). Both combines perception, tracking and prediction by generating bbox with waypoints. In comparison, IntentNet extends the horizon from 1s to 3s, predicts discrete high level behaviors, and uses map information.
 
+Tracking is done as a postprocessing in FaF. Tracking is then incorporated in the loop of PnP in [PnPNet](pnpnet.md).
+
 #### Key ideas
 - Two fusion strategies:
 	- Early fusion: fuse time dimension from the beginning. This is essentially doing a temporal averaging of all frames. 
