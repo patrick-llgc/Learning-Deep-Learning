@@ -60,10 +60,13 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
 
-## 2021-09 (2)
+## 2021-09 (3)
 - [DD3D: Is Pseudo-Lidar needed for Monocular 3D Object detection?](https://arxiv.org/abs/2108.06417) [[Notes](paper_notes/dd3d.md)] [mono3D, Toyota]
+- [EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/abs/1911.09070) [[Notes](paper_notes/efficientdet.md)] <kbd>CVPR 2020</kbd> [BiFPN, Tesla AI day]
 - [PnPNet: End-to-End Perception and Prediction with Tracking in the Loop](https://arxiv.org/abs/2005.14711) [[Notes](paper_notes/pnpnet.md)] <kbd>CVPR 2020</kbd> [Uber ATG]
 - [MP3: A Unified Model to Map, Perceive, Predict and Plan](https://arxiv.org/abs/2101.06806) [[Notes](paper_notes/mp3.md)] <kbd>CVPR 2021</kbd> [Uber, planning]
+- [PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection](https://arxiv.org/abs/1912.13192) <kbd>CVPR 2020</kbd> [Waymo challenge 2nd place]
+- [LiDAR R-CNN: An Efficient and Universal 3D Object Detector](https://arxiv.org/abs/2103.15297) <kbd>CVPR 2021</kbd> [TuSimple, Naiyan Wang]
 
 
 ## 2021-08 (11)
@@ -387,7 +390,6 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [Stitcher: Feedback-driven Data Provider for Object Detection](https://arxiv.org/abs/2004.12432) [[Notes](paper_notes/stitcher.md)]
 - [SKNet: Selective Kernel Networks](https://arxiv.org/abs/1903.06586) [[Notes](paper_notes/sknet.md)] <kbd>CVPR 2019</kbd>
 - [CBAM: Convolutional Block Attention Module](https://arxiv.org/abs/1807.06521) [[Notes](paper_notes/cbam.md)] <kbd>ECCV 2018</kbd> 
-- [EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/abs/1911.09070) <kbd>CVPR 2020</kbd>
 - [ResNeSt: Split-Attention Networks](https://arxiv.org/abs/2004.08955) [[Notes](paper_notes/resnest.md)]
 
 ## 2020-04 (14)
@@ -904,7 +906,6 @@ Traffic Sign and Light Detection](https://arxiv.org/abs/1806.07987) <kbd>IEEE CR
 - [PointFusion: Deep Sensor Fusion for 3D Bounding Box Estimation](https://arxiv.org/abs/1711.10871) <kbd>CVPR 2018</kbd> [sensor fusion, Zoox]
 - [Deep Hough Voting for 3D Object Detection in Point Clouds](https://arxiv.org/abs/1904.09664) <kbd>ICCV 2019</kbd> [Charles Qi]
 - [StixelNet: A Deep Convolutional Network for Obstacle Detection and Road Segmentation](http://www.bmva.org/bmvc/2015/papers/paper109/paper109.pdf)
-- [PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection](https://arxiv.org/abs/1912.13192) <kbd>CVPR 2020</kbd> [Waymo challenge 2nd place]
 - [PolarNet: An Improved Grid Representation for Online LiDAR Point Clouds Semantic Segmentation](https://arxiv.org/abs/2003.14032) <kbd>CVPR 2020</kbd>
 - [Depth Sensing Beyond LiDAR Range](https://arxiv.org/abs/2004.03048) <kbd>CVPR 2020</kbd> [wide baseline stereo with trifocal]
 - [Probabilistic Semantic Mapping for Urban Autonomous Driving Applications](https://arxiv.org/abs/2006.04894) <kbd>IROS 2020</kbd> [lidar mapping]

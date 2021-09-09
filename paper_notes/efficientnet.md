@@ -11,6 +11,8 @@ The paper proposed a simple yet principled method to scale up networks. The main
 
 On the other hand, the mobilenets papers ([v1](mobilenets_v1.md), [v2](mobilenets_v2.md) and [v3](mobilenets_v3.md)) goes the other way round. They start with an efficient network and scales it down further. The channel and resolution scaling factors are usually smaller than 1. Note that **MobileNetv3-Large optimizes based on MnasNet**. Therefore EfficientNet-B* is really all about how to scale up MobileNet, and tells us that a beefed-up MobileNet is better than ResNet. In the original [MobileNetsv1](mobilenets_v1.md)
 
+This paper inspired follow-up work [EfficientDet](efficientdet.md), also by Quoc Le's team.
+
 #### Key ideas
 - The balance of width/depth/resolution can be achieved by simply scaling each of them with constant ratio.
 	- Deeper network captures richer and more complex features
