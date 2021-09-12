@@ -36,7 +36,7 @@ Difference with [CenterPoint](centerpoint.md):
 	- New track in t: heat map in t as positive
 - Tracking by detection still remains the predominant method in tracking.
 - AdamW + one cycle LR, following [CenterPoint](centerpoint.md).
-- Evaluation: [nuScenes](nuscenes.md) uses 2 m in BEV, and [Waymo](waymo_dataset.md) uses 0.7 3D IoU to denote TP.
+- Evaluation: [nuScenes](nuscenes.md) uses 2 m in BEV, and [Waymo](wod.md) uses 0.7 3D IoU to denote TP.
 - Input pillar size is 0.2 m, same as [CenterPoint](centerpoint.md) for apple-to-apple comparison.
 - Additional latency is only 1-2 ms (on Titan RTX though).
 

@@ -60,17 +60,18 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
 
-## 2021-09 (4)
+## 2021-09 (6)
 - [DD3D: Is Pseudo-Lidar needed for Monocular 3D Object detection?](https://arxiv.org/abs/2108.06417) [[Notes](paper_notes/dd3d.md)] [mono3D, Toyota]
 - [EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/abs/1911.09070) [[Notes](paper_notes/efficientdet.md)] <kbd>CVPR 2020</kbd> [BiFPN, Tesla AI day]
 - [PnPNet: End-to-End Perception and Prediction with Tracking in the Loop](https://arxiv.org/abs/2005.14711) [[Notes](paper_notes/pnpnet.md)] <kbd>CVPR 2020</kbd> [Uber ATG]
 - [MP3: A Unified Model to Map, Perceive, Predict and Plan](https://arxiv.org/abs/2101.06806) [[Notes](paper_notes/mp3.md)] <kbd>CVPR 2021</kbd> [Uber, planning]
 - [BEV-Net: Assessing Social Distancing Compliance by Joint People Localization and Geometric Reasoning]() [[Notes](paper_notes/bevnet_sdca.md)] <kbd>ICCV 2021</kbd> [BEVNet, surveillance]
 - [PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection](https://arxiv.org/abs/1912.13192) <kbd>CVPR 2020</kbd> [Waymo challenge 2nd place]
-- [LiDAR R-CNN: An Efficient and Universal 3D Object Detector](https://arxiv.org/abs/2103.15297) [[Notes](paper——notes/lidar_rcnn.md)] <kbd>CVPR 2021</kbd> [TuSimple, Naiyan Wang]
+- [LiDAR R-CNN: An Efficient and Universal 3D Object Detector](https://arxiv.org/abs/2103.15297) [[Notes](paper_notes/lidar_rcnn.md)] <kbd>CVPR 2021</kbd> [TuSimple, Naiyan Wang]
 - [Geometry-based Distance Decomposition for Monocular 3D Object Detection](https://arxiv.org/abs/2104.03775) <kbd>ICCV 2021</kbd> [mono3D]
 - [An Application-Driven Conceptualization of Corner Cases for Perception in Highly Automated Driving](https://arxiv.org/abs/2103.03678) <kbd>IV 2021</kbd> [corner cases]
-
+- [Offboard 3D Object Detection from Point Cloud Sequences](https://arxiv.org/abs/2103.05073) <kbd>CVPR 2021</kbd> [Charles Qi] 
+`
 
 ## 2021-08 (11)
 - [EgoNet: Exploring Intermediate Representation for Monocular Vehicle Pose Estimation](https://arxiv.org/abs/2011.08464) [[Notes](paper_notes/egonet.md)] <kbd>CVPR 2021</kbd> [mono3D]
@@ -195,7 +196,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 
 ## 2020-10 (14)
 - [TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383) [[Notes](paper_notes/tsm.md)] <kbd>ICCV 2019</kbd> [Song Han, video, object detection]
-- [Waymo Dataset: Scalability in Perception for Autonomous Driving: Waymo Open Dataset](https://arxiv.org/abs/1912.04838) [[Notes](paper_notes/waymo_dataset.md)] <kbd>CVPR 2020</kbd>
+- [WOD: Waymo Dataset: Scalability in Perception for Autonomous Driving: Waymo Open Dataset](https://arxiv.org/abs/1912.04838) [[Notes](paper_notes/wod.md)] <kbd>CVPR 2020</kbd>
 - [Generalized Focal Loss: Learning Qualified and Distributed Bounding Boxes for Dense Object Detection](https://arxiv.org/abs/2006.04388) [[Notes](paper_notes/gfocal.md)] <kbd>NeurIPS 2020</kbd> [classification as regression]
 - [A Ranking-based, Balanced Loss Function Unifying Classification and Localisation in Object Detection](https://arxiv.org/abs/2009.13592) <kbd>NeurIPS 2020 spotlight</kbd>
 - [Rethinking the Value of Labels for Improving Class-Imbalanced Learning](https://arxiv.org/abs/2006.07529) <kbd>NeurIPS 2020</kbd>
@@ -1110,7 +1111,6 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [M3DSSD: Monocular 3D Single Stage Object Detector](https://arxiv.org/abs/2103.13164) <kbd>CVPR 2021</kbd> [mono3D]
 - [MonoRUn: Monocular 3D Object Detection by Reconstruction and Uncertainty Propagation](https://arxiv.org/abs/2103.12605) <kbd>CVPR 2021</kbd> [mono3D]
 - [HVPR: Hybrid Voxel-Point Representation for Single-stage 3D Object Detection](https://arxiv.org/abs/2104.00902) <kbd>CVPR 2021</kbd> [Lidar]
-- [Offboard 3D Object Detection from Point Cloud Sequences](https://arxiv.org/abs/2103.05073) [Charles Qi]
 - [PLUME: Efficient 3D Object Detection from Stereo Images](https://arxiv.org/abs/2101.06594) [Yan Wang, Uber ATG]
 - [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/abs/2003.08934) <kbd>ECCV 2020 oral</kbd>
 - [BARF: Bundle-Adjusting Neural Radiance Fields](https://arxiv.org/abs/2104.06405)
