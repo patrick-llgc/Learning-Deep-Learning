@@ -69,7 +69,9 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection](https://arxiv.org/abs/1912.13192) <kbd>CVPR 2020</kbd> [Waymo challenge 2nd place]
 - [LiDAR R-CNN: An Efficient and Universal 3D Object Detector](https://arxiv.org/abs/2103.15297) [[Notes](paper_notes/lidar_rcnn.md)] <kbd>CVPR 2021</kbd> [TuSimple, Naiyan Wang]
 - [Geometry-based Distance Decomposition for Monocular 3D Object Detection](https://arxiv.org/abs/2104.03775) <kbd>ICCV 2021</kbd> [mono3D]
-- [An Application-Driven Conceptualization of Corner Cases for Perception in Highly Automated Driving](https://arxiv.org/abs/2103.03678) <kbd>IV 2021</kbd> [corner cases]
+- [Corner Cases for Visual Perception in Automated Driving: Some Guidance on Detection Approaches](https://arxiv.org/abs/2102.05897) [[Notes](paper_notes/corner_case_vision_arxiv.md)] [corner cases]
+- [Systematization of Corner Cases for Visual Perception in Automated Driving](https://ieeexplore.ieee.org/document/9304789) [[Notes](paper_notes/corner_case_vision_iv.md)] <kbd>IV 2020</kbd> [corner cases]
+- [An Application-Driven Conceptualization of Corner Cases for Perception in Highly Automated Driving](https://arxiv.org/abs/2103.03678) [[Notes](paper_notes/corner_case_multisensor.md)] <kbd>IV 2021</kbd> [corner cases]
 - [Offboard 3D Object Detection from Point Cloud Sequences](https://arxiv.org/abs/2103.05073) <kbd>CVPR 2021</kbd> [Charles Qi] 
 `
 
