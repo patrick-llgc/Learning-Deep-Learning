@@ -7,7 +7,10 @@ tl;dr: The gap between anchor-based and anchor-free methods lie in the sampling 
 #### Overall impression
 The paper founds out that the main difference between anchor-based methods (such as RetinaNet) and anchor-free methods ([FCOS](fcos.md)) mainly lies in the definition of positive examples and negative examples.
 
-This paper draws much inspiration with [FCOS](fcos.md) and shall be read together. For anchor based networks With ATSS, one bbox
+This paper draws much inspiration with [FCOS](fcos.md) and shall be read together.
+
+Both [ATSS](atss.md) and [YOLOF](yolof.md) deal with topk anchors. [ATSS](atss.md) focuses on dynamically adjusting the threshold to balance the pos/neg anchors based on topk anchors. [YOLOF](yolof.md) focuses on having balanced pos/neg samples, by ignoring pos samples beyond topk.
+
 
 #### Key ideas
 - The paper first uses the same tricks for both RetinaNet and FCOS to make sure these training tricks are accounted for during comparison
