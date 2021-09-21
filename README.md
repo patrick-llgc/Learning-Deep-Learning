@@ -78,6 +78,8 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [AutoAssign: Differentiable Label Assignment for Dense Object Detection](https://arxiv.org/abs/2007.03496)
 - [Probabilistic Anchor Assignment with IoU Prediction for Object Detection](https://arxiv.org/abs/2007.08103) <kbd>ECCV 2020</kbd>
 - [FOVEA: Foveated Image Magnification for Autonomous Navigation](https://arxiv.org/abs/2108.12102) <kbd>ICCV 2021</kbd> [Argo]
+- [Perceiving Humans: from Monocular 3D Localization to Social Distancing](https://arxiv.org/abs/2009.00984) [[Notes](paper_notes/perceiving_humans.md)] <kbd>TITS 2021</kbd> [monoloco++]
+- [PifPaf: Composite Fields for Human Pose Estimation](https://arxiv.org/abs/1903.06593) <kbd>CVPR 2019</kbd>
 
 ## 2021-08 (11)
 - [EgoNet: Exploring Intermediate Representation for Monocular Vehicle Pose Estimation](https://arxiv.org/abs/2011.08464) [[Notes](paper_notes/egonet.md)] <kbd>CVPR 2021</kbd> [mono3D]
@@ -105,7 +107,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 
 ## 2021-04 (5)
 - [Rethinking the Heatmap Regression for Bottom-up Human Pose Estimation](https://arxiv.org/abs/2012.15175) [[Notes](paper_notes/swahr.md)] <kbd>CVPR 2021</kbd> [megvii] 
-- [PifPaf: Composite Fields for Human Pose Estimation](https://arxiv.org/abs/1903.06593) <kbd>CVPR 2019</kbd>
 - [CrowdPose: Efficient Crowded Scenes Pose Estimation and A New Benchmark](https://arxiv.org/abs/1812.00324) <kbd>CVPR 2019</kbd>
 - [The Overlooked Elephant of Object Detection: Open Set](https://openaccess.thecvf.com/content_WACV_2020/html/Dhamija_The_Overlooked_Elephant_of_Object_Detection_Open_Set_WACV_2020_paper.html) <kbd>WACV 2021</kbd>
 - [Class-Agnostic Object Detection](https://arxiv.org/abs/2011.14204) <kbd>WACV 2021</kbd>
@@ -1224,7 +1225,6 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Aug3D-RPN: Improving Monocular 3D Object Detection by Synthetic Images with Virtual Depth](https://arxiv.org/abs/2107.13269) [mono3D]
 - [Neighbor-Vote: Improving Monocular 3D Object Detection through Neighbor Distance Voting](https://arxiv.org/abs/2107.02493) [mono3D]
 - [Lite-FPN for Keypoint-based Monocular 3D Object Detection](https://arxiv.org/abs/2105.00268) [mono3D]
-- [Perceiving Humans: from Monocular 3D Localization to Social Distancing](https://arxiv.org/abs/2009.00984) <kbd>TITS 2021</kbd>
 - [Projecting Your View Attentively: Monocular Road Scene Layout Estimation via Cross-view Transformation](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Projecting_Your_View_Attentively_Monocular_Road_Scene_Layout_Estimation_via_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd> [BEVNet]
 - [Lidar Point Cloud Guided Monocular 3D Object Detection](https://arxiv.org/abs/2104.09035)
 - [Vision Transformers for Dense Prediction](https://arxiv.org/abs/2103.13413) [Vladlen Koltun, Intel]

@@ -13,10 +13,12 @@ This idea can be readily exploited for mono 3DOD of cars (rigid body with known 
 
 This paper is well written and the quality of the open sourced [code](https://github.com/vita-epfl/monoloco) is amazing! They even have a webcam demo. 
 
-The paper is quite similar to the idea of [DisNet](disnet.md) of using different bbox features to estimate the depth of the object, using a simple MLP. The geometric baseline is 
+The paper is quite similar to the idea of [DisNet](disnet.md) of using different bbox features to estimate the depth of the object, using a simple MLP. 
+
+The paper is further extended by [Perceiving Humans](perceiving_humans.md) by predicting orientation and 2d bbox at the same time, for social distancing.
 
 #### Key ideas
-- Intrinsic task error is the localization error due to variation of height. It is estimated through the height distribution in population.
+- Intrinsic task error is the localization error due to variation of height. It is estimated through the height distribution in population. (1m/20m=5% relative error).
 - Uncertainty: 
 	- Alleatoric: Laplacian prior inspired aleatoric uncertainty leads to a L1 loss term (instead of L2 term compared to a Gaussian prior)
 		- $L = \frac{|1 - \mu/x|}{b} + \log(b) =  e^{-s} |1-\mu/x| + s$
