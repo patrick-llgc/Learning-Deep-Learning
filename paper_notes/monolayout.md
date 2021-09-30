@@ -11,6 +11,8 @@ This is very similar to [PyrOccNet](pyroccnet.md).
 
 The authors also listed tricks that did not work. This I think should be the recommended standard practice in future!
 
+The discriminator-based adversarial training is taken one step further to exploit useful prior between vehicle and road layout by [PYVA](pyva.md).
+
 #### Key ideas
 - **View transformation**: VAE-like, the latent feature is called "shared context"
 - Detached dynamic layout and static layout. 

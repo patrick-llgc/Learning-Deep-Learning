@@ -9,7 +9,7 @@ This paper uses a cross-attention transformer structure (although they did not s
 
 It is difficult for CNN to fit a view projection model due to the locally confined receptive fields of convolutional layers. Transformers are more suitable to do this job due to the global attention mechanism.
 
-Road layout provides the crucial context information to infer the position and orientation of vehicles. The paper introduces a context-awre discriminator loss to refine the results.
+Road layout provides the crucial context information to infer the position and orientation of vehicles. The paper introduces a context-awre discriminator loss to refine the results. 
 
 This paper is open-sourced on [Github](https://github.com/JonDoe-297/cross-view)!
 
@@ -19,7 +19,7 @@ This paper is open-sourced on [Github](https://github.com/JonDoe-297/cross-view)
 	- Add cycle consistency loss to ensure the X' captures most information
 - CVT (cross view transformer)
 	- X' as Query, X/X'' as key/value
-- Context-aware Discriminator
+- Context-aware Discriminator. This follows [MonoLayout](monolayout.md) but takes it one step further. 
 	- distinguish predicted and gt vechiles
 	- distinguish predicted and gt correlation between vehicle and road
 
