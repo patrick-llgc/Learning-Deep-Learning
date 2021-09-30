@@ -81,6 +81,8 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [FOVEA: Foveated Image Magnification for Autonomous Navigation](https://arxiv.org/abs/2108.12102) <kbd>ICCV 2021</kbd> [Argo]
 - [Perceiving Humans: from Monocular 3D Localization to Social Distancing](https://arxiv.org/abs/2009.00984) [[Notes](paper_notes/perceiving_humans.md)] <kbd>TITS 2021</kbd> [monoloco++]
 - [PifPaf: Composite Fields for Human Pose Estimation](https://arxiv.org/abs/1903.06593) <kbd>CVPR 2019</kbd>
+- [YOLinO: Generic Single Shot Polyline Detection in Real Time](https://arxiv.org/abs/2103.14420) <kbd>ICCV 2021 workshop</kbd> [lld]
+- [Monocular 3D Localization of Vehicles in Road Scenes](https://avvision.xyz/iccv21/papers/1/CameraReady/01.pdf) <kbd>ICCV 2021 workshop</kbd> [mono3D, tracking]
 
 ## 2021-08 (11)
 - [EgoNet: Exploring Intermediate Representation for Monocular Vehicle Pose Estimation](https://arxiv.org/abs/2011.08464) [[Notes](paper_notes/egonet.md)] <kbd>CVPR 2021</kbd> [mono3D]
