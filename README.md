@@ -73,6 +73,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Systematization of Corner Cases for Visual Perception in Automated Driving](https://ieeexplore.ieee.org/document/9304789) [[Notes](paper_notes/corner_case_vision_iv.md)] <kbd>IV 2020</kbd> [corner cases]
 - [An Application-Driven Conceptualization of Corner Cases for Perception in Highly Automated Driving](https://arxiv.org/abs/2103.03678) [[Notes](paper_notes/corner_case_multisensor.md)] <kbd>IV 2021</kbd> [corner cases]
 - [Offboard 3D Object Detection from Point Cloud Sequences](https://arxiv.org/abs/2103.05073) <kbd>CVPR 2021</kbd> [Charles Qi] 
+- [PYVA: Projecting Your View Attentively: Monocular Road Scene Layout Estimation via Cross-view Transformation](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Projecting_Your_View_Attentively_Monocular_Road_Scene_Layout_Estimation_via_CVPR_2021_paper.pdf) [[Notes](paper_notes/pyva.md)] <kbd>CVPR 2021</kbd> [BEVNet]
 - [YOLOF: You Only Look One-level Feature](https://arxiv.org/abs/2103.09460) [[Notes](paper_notes/yolof.md)] <kbd>CVPR 2021</kbd> [megvii]
 - [FreeAnchor: Learning to Match Anchors for Visual Object Detection](https://arxiv.org/abs/1909.02466) <kbd>NeurIPS 2019</kbd>
 - [AutoAssign: Differentiable Label Assignment for Dense Object Detection](https://arxiv.org/abs/2007.03496)
@@ -1225,7 +1226,6 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Aug3D-RPN: Improving Monocular 3D Object Detection by Synthetic Images with Virtual Depth](https://arxiv.org/abs/2107.13269) [mono3D]
 - [Neighbor-Vote: Improving Monocular 3D Object Detection through Neighbor Distance Voting](https://arxiv.org/abs/2107.02493) [mono3D]
 - [Lite-FPN for Keypoint-based Monocular 3D Object Detection](https://arxiv.org/abs/2105.00268) [mono3D]
-- [Projecting Your View Attentively: Monocular Road Scene Layout Estimation via Cross-view Transformation](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Projecting_Your_View_Attentively_Monocular_Road_Scene_Layout_Estimation_via_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd> [BEVNet]
 - [Lidar Point Cloud Guided Monocular 3D Object Detection](https://arxiv.org/abs/2104.09035)
 - [Vision Transformers for Dense Prediction](https://arxiv.org/abs/2103.13413) [Vladlen Koltun, Intel]
 - [Efficient Transformers: A Survey](https://arxiv.org/abs/2009.06732)
