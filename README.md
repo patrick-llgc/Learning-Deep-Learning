@@ -83,6 +83,14 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [PifPaf: Composite Fields for Human Pose Estimation](https://arxiv.org/abs/1903.06593) <kbd>CVPR 2019</kbd>
 - [YOLinO: Generic Single Shot Polyline Detection in Real Time](https://arxiv.org/abs/2103.14420) <kbd>ICCV 2021 workshop</kbd> [lld]
 - [Monocular 3D Localization of Vehicles in Road Scenes](https://avvision.xyz/iccv21/papers/1/CameraReady/01.pdf) <kbd>ICCV 2021 workshop</kbd> [mono3D, tracking]
+- [PanopticBEV: Bird's-Eye-View Panoptic Segmentation Using Monocular Frontal View Images](https://arxiv.org/abs/2108.03227) [[Notes](paper_notes/panoptic_bev.md)] [BEVNet]
+- [TransformerFusion: Monocular RGB Scene Reconstruction using Transformers](https://arxiv.org/abs/2107.02191)
+- [Projecting Your View Attentively: Monocular Road Scene Layout Estimation via Cross-view Transformation](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Projecting_Your_View_Attentively_Monocular_Road_Scene_Layout_Estimation_via_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd>
+- [Transfuser: Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/abs/2104.09224) <kbd>CVPR 2021</kbd>
+- [NEAT: Neural Attention Fields for End-to-End Autonomous Driving](https://arxiv.org/abs/2109.04456) <kbd>ICCV 2021</kbd>
+- [Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152)
+- [Anchor DETR: Query Design for Transformer-Based Detector](https://arxiv.org/abs/2109.07107) [megvii]
+- [Probabilistic and Geometric Depth: Detecting Objects in Perspective](https://arxiv.org/abs/2107.14160) <kbd>CoRL 2021</kbd>
 
 ## 2021-08 (11)
 - [EgoNet: Exploring Intermediate Representation for Monocular Vehicle Pose Estimation](https://arxiv.org/abs/2011.08464) [[Notes](paper_notes/egonet.md)] <kbd>CVPR 2021</kbd> [mono3D]
