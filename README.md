@@ -59,38 +59,41 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-
-## 2021-09 (6)
-- [DD3D: Is Pseudo-Lidar needed for Monocular 3D Object detection?](https://arxiv.org/abs/2108.06417) [[Notes](paper_notes/dd3d.md)] [mono3D, Toyota]
-- [EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/abs/1911.09070) [[Notes](paper_notes/efficientdet.md)] <kbd>CVPR 2020</kbd> [BiFPN, Tesla AI day]
-- [PnPNet: End-to-End Perception and Prediction with Tracking in the Loop](https://arxiv.org/abs/2005.14711) [[Notes](paper_notes/pnpnet.md)] <kbd>CVPR 2020</kbd> [Uber ATG]
-- [MP3: A Unified Model to Map, Perceive, Predict and Plan](https://arxiv.org/abs/2101.06806) [[Notes](paper_notes/mp3.md)] <kbd>CVPR 2021</kbd> [Uber, planning]
-- [BEV-Net: Assessing Social Distancing Compliance by Joint People Localization and Geometric Reasoning]() [[Notes](paper_notes/bevnet_sdca.md)] <kbd>ICCV 2021</kbd> [BEVNet, surveillance]
+## 2021-10 (1)
+- [NEAT: Neural Attention Fields for End-to-End Autonomous Driving](https://arxiv.org/abs/2109.04456) [[Notes](paper_notes/neat.md)] <kbd>ICCV 2021</kbd> [[supplementary](http://www.cvlibs.net/publications/Chitta2021ICCV_supplementary.pdf)] [BEVNet]
+- [Transfuser: Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/abs/2104.09224) <kbd>CVPR 2021</kbd>
 - [PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection](https://arxiv.org/abs/1912.13192) <kbd>CVPR 2020</kbd> [Waymo challenge 2nd place]
-- [LiDAR R-CNN: An Efficient and Universal 3D Object Detector](https://arxiv.org/abs/2103.15297) [[Notes](paper_notes/lidar_rcnn.md)] <kbd>CVPR 2021</kbd> [TuSimple, Naiyan Wang]
 - [Geometry-based Distance Decomposition for Monocular 3D Object Detection](https://arxiv.org/abs/2104.03775) <kbd>ICCV 2021</kbd> [mono3D]
-- [Corner Cases for Visual Perception in Automated Driving: Some Guidance on Detection Approaches](https://arxiv.org/abs/2102.05897) [[Notes](paper_notes/corner_case_vision_arxiv.md)] [corner cases]
-- [Systematization of Corner Cases for Visual Perception in Automated Driving](https://ieeexplore.ieee.org/document/9304789) [[Notes](paper_notes/corner_case_vision_iv.md)] <kbd>IV 2020</kbd> [corner cases]
-- [An Application-Driven Conceptualization of Corner Cases for Perception in Highly Automated Driving](https://arxiv.org/abs/2103.03678) [[Notes](paper_notes/corner_case_multisensor.md)] <kbd>IV 2021</kbd> [corner cases]
 - [Offboard 3D Object Detection from Point Cloud Sequences](https://arxiv.org/abs/2103.05073) <kbd>CVPR 2021</kbd> [Charles Qi] 
-- [PYVA: Projecting Your View Attentively: Monocular Road Scene Layout Estimation via Cross-view Transformation](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Projecting_Your_View_Attentively_Monocular_Road_Scene_Layout_Estimation_via_CVPR_2021_paper.pdf) [[Notes](paper_notes/pyva.md)] <kbd>CVPR 2021</kbd> [BEVNet]
-- [YOLOF: You Only Look One-level Feature](https://arxiv.org/abs/2103.09460) [[Notes](paper_notes/yolof.md)] <kbd>CVPR 2021</kbd> [megvii]
 - [FreeAnchor: Learning to Match Anchors for Visual Object Detection](https://arxiv.org/abs/1909.02466) <kbd>NeurIPS 2019</kbd>
 - [AutoAssign: Differentiable Label Assignment for Dense Object Detection](https://arxiv.org/abs/2007.03496)
 - [Probabilistic Anchor Assignment with IoU Prediction for Object Detection](https://arxiv.org/abs/2007.08103) <kbd>ECCV 2020</kbd>
 - [FOVEA: Foveated Image Magnification for Autonomous Navigation](https://arxiv.org/abs/2108.12102) <kbd>ICCV 2021</kbd> [Argo]
-- [Perceiving Humans: from Monocular 3D Localization to Social Distancing](https://arxiv.org/abs/2009.00984) [[Notes](paper_notes/perceiving_humans.md)] <kbd>TITS 2021</kbd> [monoloco++]
 - [PifPaf: Composite Fields for Human Pose Estimation](https://arxiv.org/abs/1903.06593) <kbd>CVPR 2019</kbd>
 - [YOLinO: Generic Single Shot Polyline Detection in Real Time](https://arxiv.org/abs/2103.14420) <kbd>ICCV 2021 workshop</kbd> [lld]
 - [Monocular 3D Localization of Vehicles in Road Scenes](https://avvision.xyz/iccv21/papers/1/CameraReady/01.pdf) <kbd>ICCV 2021 workshop</kbd> [mono3D, tracking]
 - [PanopticBEV: Bird's-Eye-View Panoptic Segmentation Using Monocular Frontal View Images](https://arxiv.org/abs/2108.03227) [[Notes](paper_notes/panoptic_bev.md)] [BEVNet]
 - [TransformerFusion: Monocular RGB Scene Reconstruction using Transformers](https://arxiv.org/abs/2107.02191)
 - [Projecting Your View Attentively: Monocular Road Scene Layout Estimation via Cross-view Transformation](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Projecting_Your_View_Attentively_Monocular_Road_Scene_Layout_Estimation_via_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd>
-- [Transfuser: Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/abs/2104.09224) <kbd>CVPR 2021</kbd>
-- [NEAT: Neural Attention Fields for End-to-End Autonomous Driving](https://arxiv.org/abs/2109.04456) <kbd>ICCV 2021</kbd>
 - [Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152)
 - [Anchor DETR: Query Design for Transformer-Based Detector](https://arxiv.org/abs/2109.07107) [megvii]
 - [Probabilistic and Geometric Depth: Detecting Objects in Perspective](https://arxiv.org/abs/2107.14160) <kbd>CoRL 2021</kbd>
+
+
+## 2021-09 (11)
+- [DD3D: Is Pseudo-Lidar needed for Monocular 3D Object detection?](https://arxiv.org/abs/2108.06417) [[Notes](paper_notes/dd3d.md)] [mono3D, Toyota]
+- [EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/abs/1911.09070) [[Notes](paper_notes/efficientdet.md)] <kbd>CVPR 2020</kbd> [BiFPN, Tesla AI day]
+- [PnPNet: End-to-End Perception and Prediction with Tracking in the Loop](https://arxiv.org/abs/2005.14711) [[Notes](paper_notes/pnpnet.md)] <kbd>CVPR 2020</kbd> [Uber ATG]
+- [MP3: A Unified Model to Map, Perceive, Predict and Plan](https://arxiv.org/abs/2101.06806) [[Notes](paper_notes/mp3.md)] <kbd>CVPR 2021</kbd> [Uber, planning]
+- [BEV-Net: Assessing Social Distancing Compliance by Joint People Localization and Geometric Reasoning]() [[Notes](paper_notes/bevnet_sdca.md)] <kbd>ICCV 2021</kbd> [BEVNet, surveillance]
+- [LiDAR R-CNN: An Efficient and Universal 3D Object Detector](https://arxiv.org/abs/2103.15297) [[Notes](paper_notes/lidar_rcnn.md)] <kbd>CVPR 2021</kbd> [TuSimple, Naiyan Wang]
+- [Corner Cases for Visual Perception in Automated Driving: Some Guidance on Detection Approaches](https://arxiv.org/abs/2102.05897) [[Notes](paper_notes/corner_case_vision_arxiv.md)] [corner cases]
+- [Systematization of Corner Cases for Visual Perception in Automated Driving](https://ieeexplore.ieee.org/document/9304789) [[Notes](paper_notes/corner_case_vision_iv.md)] <kbd>IV 2020</kbd> [corner cases]
+- [An Application-Driven Conceptualization of Corner Cases for Perception in Highly Automated Driving](https://arxiv.org/abs/2103.03678) [[Notes](paper_notes/corner_case_multisensor.md)] <kbd>IV 2021</kbd> [corner cases]
+- [PYVA: Projecting Your View Attentively: Monocular Road Scene Layout Estimation via Cross-view Transformation](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Projecting_Your_View_Attentively_Monocular_Road_Scene_Layout_Estimation_via_CVPR_2021_paper.pdf) [[Notes](paper_notes/pyva.md)] <kbd>CVPR 2021</kbd> [BEVNet]
+- [YOLOF: You Only Look One-level Feature](https://arxiv.org/abs/2103.09460) [[Notes](paper_notes/yolof.md)] <kbd>CVPR 2021</kbd> [megvii]
+- [Perceiving Humans: from Monocular 3D Localization to Social Distancing](https://arxiv.org/abs/2009.00984) [[Notes](paper_notes/perceiving_humans.md)] <kbd>TITS 2021</kbd> [monoloco++]
+
 
 ## 2021-08 (11)
 - [EgoNet: Exploring Intermediate Representation for Monocular Vehicle Pose Estimation](https://arxiv.org/abs/2011.08464) [[Notes](paper_notes/egonet.md)] <kbd>CVPR 2021</kbd> [mono3D]
