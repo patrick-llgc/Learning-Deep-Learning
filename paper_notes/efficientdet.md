@@ -11,7 +11,7 @@ This paper follows up on the work of [EfficientNet](efficientnet.md). The FPN ne
 - BiFPN (bidirectional FPN) (<-- PANet <-- FPN)
 	- [PANet](panet.md) to introduce bottom up pathway again.
 	- **Remove nodes** from PANet that has only has one input edge.
-	- **Add skip connection** from origiinal input to the output node if they are at the same level
+	- **Add skip connection** from original input to the output node if they are at the same level
 	- **Repeat** blocks of the above BiFPN block.
 - Weighted feature fusion
 	- Baseline is to resize and sum up. Each feature may have different weight contribution (feature level attention).
