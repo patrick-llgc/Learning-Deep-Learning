@@ -59,7 +59,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2021-10 (1)
+## 2021-10 (2)
 - [PanopticBEV: Bird's-Eye-View Panoptic Segmentation Using Monocular Frontal View Images](https://arxiv.org/abs/2108.03227) [[Notes](paper_notes/panoptic_bev.md)] [BEVNet]
 - [NEAT: Neural Attention Fields for End-to-End Autonomous Driving](https://arxiv.org/abs/2109.04456) [[Notes](paper_notes/neat.md)] <kbd>ICCV 2021</kbd> [[supplementary](http://www.cvlibs.net/publications/Chitta2021ICCV_supplementary.pdf)] [BEVNet]
 - [Transfuser: Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/abs/2104.09224) <kbd>CVPR 2021</kbd>
@@ -90,7 +90,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Corner Cases for Visual Perception in Automated Driving: Some Guidance on Detection Approaches](https://arxiv.org/abs/2102.05897) [[Notes](paper_notes/corner_case_vision_arxiv.md)] [corner cases]
 - [Systematization of Corner Cases for Visual Perception in Automated Driving](https://ieeexplore.ieee.org/document/9304789) [[Notes](paper_notes/corner_case_vision_iv.md)] <kbd>IV 2020</kbd> [corner cases]
 - [An Application-Driven Conceptualization of Corner Cases for Perception in Highly Automated Driving](https://arxiv.org/abs/2103.03678) [[Notes](paper_notes/corner_case_multisensor.md)] <kbd>IV 2021</kbd> [corner cases]
-- [PYVA: Projecting Your View Attentively: Monocular Road Scene Layout Estimation via Cross-view Transformation](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Projecting_Your_View_Attentively_Monocular_Road_Scene_Layout_Estimation_via_CVPR_2021_paper.pdf) [[Notes](paper_notes/pyva.md)] <kbd>CVPR 2021</kbd> [BEVNet]
+- [PYVA: Projecting Your View Attentively: Monocular Road Scene Layout Estimation via Cross-view Transformation](https://openaccess.thecvf.com/content/CVPR2021/html/Yang_Projecting_Your_View_Attentively_Monocular_Road_Scene_Layout_Estimation_via_CVPR_2021_paper.html) [[Notes](paper_notes/pyva.md)] <kbd>CVPR 2021</kbd> [[Supplementary](https://openaccess.thecvf.com/content/CVPR2021/supplemental/Yang_Projecting_Your_View_CVPR_2021_supplemental.zip)] [BEVNet]
 - [YOLOF: You Only Look One-level Feature](https://arxiv.org/abs/2103.09460) [[Notes](paper_notes/yolof.md)] <kbd>CVPR 2021</kbd> [megvii]
 - [Perceiving Humans: from Monocular 3D Localization to Social Distancing](https://arxiv.org/abs/2009.00984) [[Notes](paper_notes/perceiving_humans.md)] <kbd>TITS 2021</kbd> [monoloco++]
 
@@ -116,7 +116,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 
 
 ## 2021-06 (2)
-- [FIERY: Future Instance Prediction in Bird's-Eye View from Surround Monocular Cameras](https://arxiv.org/abs/2104.10490) [[Notes](paper_notes/fiery.md)] [BEVNet, prediction]
+- [FIERY: Future Instance Prediction in Bird's-Eye View from Surround Monocular Cameras](https://arxiv.org/abs/2104.10490) [[Notes](paper_notes/fiery.md)] <kbd>ICCV 2021</kbd> [BEVNet, prediction]
 - [Baidu's CNN seg](https://zhuanlan.zhihu.com/p/35034215) [[Notes](paper_notes/cnn_seg.md)]
 
 ## 2021-04 (5)

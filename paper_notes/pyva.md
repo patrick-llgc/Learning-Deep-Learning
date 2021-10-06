@@ -1,4 +1,4 @@
-# [PYVA: Projecting Your View Attentively: Monocular Road Scene Layout Estimation via Cross-view Transformation](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Projecting_Your_View_Attentively_Monocular_Road_Scene_Layout_Estimation_via_CVPR_2021_paper.pdf)
+# [PYVA: Projecting Your View Attentively: Monocular Road Scene Layout Estimation via Cross-view Transformation](https://openaccess.thecvf.com/content/CVPR2021/html/Yang_Projecting_Your_View_Attentively_Monocular_Road_Scene_Layout_Estimation_via_CVPR_2021_paper.html)
 
 _September 2021_
 
@@ -10,8 +10,6 @@ This paper uses a cross-attention transformer structure (although they did not s
 It is difficult for CNN to fit a view projection model due to the locally confined receptive fields of convolutional layers. Transformers are more suitable to do this job due to the global attention mechanism.
 
 Road layout provides the crucial context information to infer the position and orientation of vehicles. The paper introduces a context-awre discriminator loss to refine the results. 
-
-This paper is open-sourced on [Github](https://github.com/JonDoe-297/cross-view)!
 
 #### Key ideas
 - CVP (cycled view projection)
