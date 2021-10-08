@@ -1,8 +1,8 @@
 # Paper notes
-This repository contains my paper reading notes on deep learning and machine learning. It is inspired by [Denny Britz](https://github.com/dennybritz/deeplearning-papernotes) and [Daniel Takeshi](https://github.com/DanielTakeshi/Paper_Notes).
+This repository contains my paper reading notes on deep learning and machine learning. It is inspired by [Denny Britz](https://github.com/dennybritz/deeplearning-papernotes) and [Daniel Takeshi](https://github.com/DanielTakeshi/Paper_Notes). A minimalistic webpage generated with Github io can be found [here](https://patrick-llgc.github.io/Learning-Deep-Learning/).
 
 ## About me
-My name is [Patrick Langechuan Liu](https://www.linkedin.com/in/patrick-llgc/). After about a decade of education and research in physics, I found my passion in deep learning and autonomous driving. Currently I am leading the perception feature development at [Xpeng Motors](https://en.xiaopeng.com/), a fast growing autonomous driving company.
+My name is [Patrick Langechuan Liu](https://www.linkedin.com/in/patrick-llgc/). After about a decade of education and research in physics, I found my passion in deep learning and autonomous driving. Currently I am leading the development of perception features at [Xpeng Motors](https://en.xiaopeng.com/), a fast growing autonomous driving company.
 
 
 ## What to read
@@ -60,6 +60,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
 ## 2021-10 (2)
+- [Structured Bird's-Eye-View Traffic Scene Understanding from Onboard Images](https://arxiv.org/abs/2110.01997) <kbd>ICCV 2021</kbd>
 - [PanopticBEV: Bird's-Eye-View Panoptic Segmentation Using Monocular Frontal View Images](https://arxiv.org/abs/2108.03227) [[Notes](paper_notes/panoptic_bev.md)] [BEVNet]
 - [NEAT: Neural Attention Fields for End-to-End Autonomous Driving](https://arxiv.org/abs/2109.04456) [[Notes](paper_notes/neat.md)] <kbd>ICCV 2021</kbd> [[supplementary](http://www.cvlibs.net/publications/Chitta2021ICCV_supplementary.pdf)] [BEVNet]
 - [Transfuser: Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/abs/2104.09224) <kbd>CVPR 2021</kbd>
