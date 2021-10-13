@@ -12,7 +12,6 @@ This paper is heavily inspired by [Lift Splat Shoot](lift_splat_shoot.md) in lif
 - [FIERY](fiery.md) also introduced the temporal component and leverages past frames.
 
 
-
 #### Key ideas
 - Center + semantic = instance segmentation + detection. Looks like Baidu's [CNN_seg](cnn_seg.md).
 - Architecture

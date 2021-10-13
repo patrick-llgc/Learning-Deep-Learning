@@ -11,6 +11,8 @@ The mapping of the intermediate feature map resembles that of [feature-metric mo
 
 To be honest the results do not look as clean as [PyrOccNet](pyroccnet.md). Future work may be to combine these two trends, from both [BEV-feat-stitching](bev_feat_stitching.md) and [PyrOccNet](pyroccnet.md).
 
+This paper has a follow-up work [STSU](stsu.md) for structured BEV perception.
+
 #### Key ideas
 - Takes in mono video as input
 - BEV temporal aggregation module
