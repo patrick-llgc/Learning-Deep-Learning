@@ -63,6 +63,8 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Structured Bird's-Eye-View Traffic Scene Understanding from Onboard Images](https://arxiv.org/abs/2110.01997) <kbd>ICCV 2021</kbd>
 - [PanopticBEV: Bird's-Eye-View Panoptic Segmentation Using Monocular Frontal View Images](https://arxiv.org/abs/2108.03227) [[Notes](paper_notes/panoptic_bev.md)] [BEVNet]
 - [NEAT: Neural Attention Fields for End-to-End Autonomous Driving](https://arxiv.org/abs/2109.04456) [[Notes](paper_notes/neat.md)] <kbd>ICCV 2021</kbd> [[supplementary](http://www.cvlibs.net/publications/Chitta2021ICCV_supplementary.pdf)] [BEVNet]
+- [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/abs/2003.08934) <kbd>ECCV 2020 oral</kbd>
+- [BARF: Bundle-Adjusting Neural Radiance Fields](https://arxiv.org/abs/2104.06405) <kbd>ICCV 2021 oral</kbd>
 - [Transfuser: Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/abs/2104.09224) <kbd>CVPR 2021</kbd>
 - [YOLinO: Generic Single Shot Polyline Detection in Real Time](https://arxiv.org/abs/2103.14420) <kbd>ICCV 2021 workshop</kbd> [lld]
 - [MonoCInIS: Camera Independent Monocular 3D Object Detection using Instance Segmentation](https://arxiv.org/abs/2110.00464) <kbd>ICCV 2021 workshop</kbd>
@@ -1133,8 +1135,6 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [MonoRUn: Monocular 3D Object Detection by Reconstruction and Uncertainty Propagation](https://arxiv.org/abs/2103.12605) <kbd>CVPR 2021</kbd> [mono3D]
 - [HVPR: Hybrid Voxel-Point Representation for Single-stage 3D Object Detection](https://arxiv.org/abs/2104.00902) <kbd>CVPR 2021</kbd> [Lidar]
 - [PLUME: Efficient 3D Object Detection from Stereo Images](https://arxiv.org/abs/2101.06594) [Yan Wang, Uber ATG]
-- [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/abs/2003.08934) <kbd>ECCV 2020 oral</kbd>
-- [BARF: Bundle-Adjusting Neural Radiance Fields](https://arxiv.org/abs/2104.06405)
 - [V2F-Net: Explicit Decomposition of Occluded Pedestrian Detection](https://arxiv.org/abs/2104.03106) [crowded, pedestrian, megvii]
 - [IP-basic: In Defense of Classical Image Processing: Fast Depth Completion on the CPU](https://arxiv.org/abs/1802.00036) <kbd>CRV 2018</kbd>
 - [Revisiting Feature Alignment for One-stage Object Detection](https://arxiv.org/abs/1908.01570) [cls+reg]
