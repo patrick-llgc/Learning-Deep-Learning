@@ -38,6 +38,7 @@ Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out o
 
 ### Talks
 - [Andrej Karpathy's Talks](./talk_notes/andrej.md)
+- [Drago Anguelov: Scale AI’s TransformX Presentation](https://www.youtube.com/watch?v=oJ96bgmSaW0)
 
 ### What autonomous driving companies do
 - [Zoox](https://www.youtube.com/watch?&v=BVRMh9NO9Cs)
@@ -45,6 +46,8 @@ Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out o
 ## My Review Posts by Topics
 I regularly update [my blog in Toward Data Science](https://medium.com/@patrickllgc).
 
+- [Monocular BEV Perception with Transformers in Autonomous Driving](https://towardsdatascience.com/monocular-bev-perception-with-transformers-in-autonomous-driving-c41e4a893944) ([related paper notes](topic_transformers_bev.md))
+- [Illustrated Differences between MLP and Transformers for Tensor Reshaping in Deep Learning](https://towardsdatascience.com/illustrated-difference-between-mlp-and-transformers-for-tensor-reshaping-52569edaf89)
 - [Monocular 3D Lane Line Detection in Autonomous Driving](https://towardsdatascience.com/monocular-3d-lane-line-detection-in-autonomous-driving-4d7cdfabf3b6) ([related paper notes](topic_3d_lld.md))
 - [Deep-Learning based Object detection in Crowded Scenes](https://towardsdatascience.com/deep-learning-based-object-detection-in-crowded-scenes-1c9fddbd7bc4) ([related paper notes](topic_crowd_detection.md))
 - [Monocular Bird’s-Eye-View Semantic Segmentation for Autonomous Driving](https://towardsdatascience.com/monocular-birds-eye-view-semantic-segmentation-for-autonomous-driving-ee2f771afb59) ([related paper notes](topic_bev_segmentation.md))
@@ -59,14 +62,18 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2021-10 (2)
-- [STSU: Structured Bird's-Eye-View Traffic Scene Understanding from Onboard Images](https://arxiv.org/abs/2110.01997) [[Notes](paper_notes/stsu.md)] <kbd>ICCV 2021</kbd>
-- [PanopticBEV: Bird's-Eye-View Panoptic Segmentation Using Monocular Frontal View Images](https://arxiv.org/abs/2108.03227) [[Notes](paper_notes/panoptic_bev.md)] [BEVNet]
-- [NEAT: Neural Attention Fields for End-to-End Autonomous Driving](https://arxiv.org/abs/2109.04456) [[Notes](paper_notes/neat.md)] <kbd>ICCV 2021</kbd> [[supplementary](http://www.cvlibs.net/publications/Chitta2021ICCV_supplementary.pdf)] [BEVNet]
+## 2021-11 (0)
+- [DETR3D: 3D Object Detection from Multi-view Images via 3D-to-2D Queries](https://arxiv.org/abs/2110.06922) <kbd>ICCV 2021</kbd> [BEVNet, transformers]
+- [Translating Images into Maps](https://arxiv.org/abs/2110.00966) [BEVNet, transformers]
+- [Robust-CVD: Robust Consistent Video Depth Estimation](https://arxiv.org/abs/2012.05901) <kbd>CVPR 2021 oral</kbd> [[website](https://robust-cvd.github.io/)]
+- [Insta-DM: Learning Monocular Depth in Dynamic Scenes via Instance-Aware Projection Consistency](https://arxiv.org/abs/2102.02629) <kbd>AAAI 2021</kbd>
+- [Instance-wise Depth and Motion Learning from Monocular Videos](https://arxiv.org/abs/1912.09351) <kbd>NeurIPS 2020 workshop</kbd> [[website](https://sites.google.com/site/seokjucv/home/instadm)]
 - [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/abs/2003.08934) <kbd>ECCV 2020 oral</kbd>
 - [BARF: Bundle-Adjusting Neural Radiance Fields](https://arxiv.org/abs/2104.06405) <kbd>ICCV 2021 oral</kbd>
+- [NerfingMVS: Guided Optimization of Neural Radiance Fields for Indoor Multi-view Stereo](https://arxiv.org/abs/2109.01129) <kbd>ICCV 2021 oral</kbd>
 - [Transfuser: Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/abs/2104.09224) <kbd>CVPR 2021</kbd>
 - [YOLinO: Generic Single Shot Polyline Detection in Real Time](https://arxiv.org/abs/2103.14420) <kbd>ICCV 2021 workshop</kbd> [lld]
+- [MonoRCNN: Geometry-based Distance Decomposition for Monocular 3D Object Detection](https://arxiv.org/abs/2104.03775) <kbd>ICCV 2021</kbd>
 - [MonoCInIS: Camera Independent Monocular 3D Object Detection using Instance Segmentation](https://arxiv.org/abs/2110.00464) <kbd>ICCV 2021 workshop</kbd>
 - [PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection](https://arxiv.org/abs/1912.13192) <kbd>CVPR 2020</kbd> [Waymo challenge 2nd place]
 - [Geometry-based Distance Decomposition for Monocular 3D Object Detection](https://arxiv.org/abs/2104.03775) <kbd>ICCV 2021</kbd> [mono3D]
@@ -81,6 +88,14 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152)
 - [Anchor DETR: Query Design for Transformer-Based Detector](https://arxiv.org/abs/2109.07107) [megvii]
 - [Probabilistic and Geometric Depth: Detecting Objects in Perspective](https://arxiv.org/abs/2107.14160) <kbd>CoRL 2021</kbd>
+- [Adaptive Wing Loss for Robust Face Alignment via Heatmap Regression](https://arxiv.org/abs/1904.07399) 
+
+
+## 2021-10 (3)
+- [STSU: Structured Bird's-Eye-View Traffic Scene Understanding from Onboard Images](https://arxiv.org/abs/2110.01997) [[Notes](paper_notes/stsu.md)] <kbd>ICCV 2021</kbd> [BEV feat stitching, Luc Van Gool]
+- [PanopticBEV: Bird's-Eye-View Panoptic Segmentation Using Monocular Frontal View Images](https://arxiv.org/abs/2108.03227) [[Notes](paper_notes/panoptic_bev.md)] [BEVNet, vertical/horizontal features]
+- [NEAT: Neural Attention Fields for End-to-End Autonomous Driving](https://arxiv.org/abs/2109.04456) [[Notes](paper_notes/neat.md)] <kbd>ICCV 2021</kbd> [[supplementary](http://www.cvlibs.net/publications/Chitta2021ICCV_supplementary.pdf)] [BEVNet]
+
 
 
 ## 2021-09 (11)
@@ -150,7 +165,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [3DSSD: Point-based 3D Single Stage Object Detector](https://arxiv.org/abs/2002.10187) [[Notes](paper_notes/3dssd.md)] <kbd>CVPR 2020</kbd>
 - [RepVGG: Making VGG-style ConvNets Great Again](https://arxiv.org/abs/2101.03697) [[Notes](paper_notes/repvgg.md)] [Megvii, Xiangyu Zhang, ACNet]
 - [ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks](https://arxiv.org/abs/1908.03930) [[Notes](paper_notes/acnet.md)] <kbd>ICCV 2019</kbd>
-- [BEV-Feat-Stitching: Understanding Bird's-Eye View Semantic HD-Maps Using an Onboard Monocular Camera](https://arxiv.org/abs/2012.03040) [[Notes](paper_notes/bev_feat_stitching.md)] [BEVNet, mono3D]
+- [BEV-Feat-Stitching: Understanding Bird's-Eye View Semantic HD-Maps Using an Onboard Monocular Camera](https://arxiv.org/abs/2012.03040) [[Notes](paper_notes/bev_feat_stitching.md)] [BEVNet, mono3D, Luc Van Gool]
 - [PSS: Object Detection Made Simpler by Eliminating Heuristic NMS](https://arxiv.org/abs/2101.11782) [[Notes](paper_notes/pss.md)] [Transformer, DETR]
 
 ## 2020-12 (17)
@@ -1046,6 +1061,7 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [The Edge of Depth: Explicit Constraints between Segmentation and Depth](https://arxiv.org/abs/2004.00171) <kbd>CVPR 2020</kbd> [Xiaoming Liu, multimodal, depth bleeding] 
 
 ### Radar Perception
+- [MV-RSS: Multi-View Radar Semantic Segmentation](https://arxiv.org/abs/2103.16214) <kbd>ICCV 2021</kbd>
 - [Classification of Objects in Polarimetric Radar Images Using CNNs at 77 GHz](http://sci-hub.tw/10.1109/APMC.2017.8251453) (Radar, polar)
 - [CNNs for Interference Mitigation and Denoising in Automotive Radar Using Real-World Data](https://ml4ad.github.io/files/papers/CNNs%20for%20Interference%20Mitigation%20and%20Denoising%20in%20Automotive%20Radar%20Using%20Real-World%20Data.pdf) <kbd>NeurIPS 2019</kbd> (radar)
 - [Road Scene Understanding by Occupancy Grid Learning from Sparse Radar Clusters using Semantic Segmentation](https://arxiv.org/abs/1904.00415) <kbd>ICCV 2019</kbd> (radar)
