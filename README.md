@@ -63,7 +63,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
 ## 2021-11 (0)
-- [DETR3D: 3D Object Detection from Multi-view Images via 3D-to-2D Queries](https://arxiv.org/abs/2110.06922) <kbd>ICCV 2021</kbd> [BEVNet, transformers]
+- [DETR3D: 3D Object Detection from Multi-view Images via 3D-to-2D Queries](https://arxiv.org/abs/2110.06922) [[Notes](paper_notes/detr3d.md)] <kbd>CoRL 2021</kbd> [BEVNet, transformers]
 - [Translating Images into Maps](https://arxiv.org/abs/2110.00966) [BEVNet, transformers]
 - [Robust-CVD: Robust Consistent Video Depth Estimation](https://arxiv.org/abs/2012.05901) <kbd>CVPR 2021 oral</kbd> [[website](https://robust-cvd.github.io/)]
 - [Insta-DM: Learning Monocular Depth in Dynamic Scenes via Instance-Aware Projection Consistency](https://arxiv.org/abs/2102.02629) <kbd>AAAI 2021</kbd>
@@ -89,6 +89,8 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Anchor DETR: Query Design for Transformer-Based Detector](https://arxiv.org/abs/2109.07107) [megvii]
 - [Probabilistic and Geometric Depth: Detecting Objects in Perspective](https://arxiv.org/abs/2107.14160) <kbd>CoRL 2021</kbd>
 - [Adaptive Wing Loss for Robust Face Alignment via Heatmap Regression](https://arxiv.org/abs/1904.07399) 
+- [What Makes for End-to-End Object Detection?](https://proceedings.mlr.press/v139/sun21b.html) <kbd>PMLR 2021</kbd>
+- [Instances as Queries](https://arxiv.org/abs/2105.01928) <kbd>ICCV 2021</kbd> [instance segmentation]
 
 
 ## 2021-10 (3)
@@ -190,8 +192,8 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 
 
 ## 2020-11 (18)
-- [TSP: Rethinking Transformer-based Set Prediction for Object Detection](https://arxiv.org/abs/2011.10881) [[Notes](paper_notes/tsp.md)] [DETR, transformers, Kris Kitani]
-- [Sparse R-CNN: End-to-End Object Detection with Learnable Proposals](https://arxiv.org/abs/2011.12450) [[Notes](paper_notes/sparse_rcnn.md)] [DETR, Transformer]
+- [TSP: Rethinking Transformer-based Set Prediction for Object Detection](https://arxiv.org/abs/2011.10881) [[Notes](paper_notes/tsp.md)] <kbd>ICCV 2021</kbd> [DETR, transformers, Kris Kitani]
+- [Sparse R-CNN: End-to-End Object Detection with Learnable Proposals](https://arxiv.org/abs/2011.12450) [[Notes](paper_notes/sparse_rcnn.md)] <kbd>CVPR 2020</kbd> [DETR, Transformer]
 - [Unsupervised Monocular Depth Learning in Dynamic Scenes](https://arxiv.org/abs/2010.16404) [[Notes](paper_notes/learn_depth_and_motion.md)] <kbd>CoRL 2020</kbd> [LearnK improved ver, Google]
 - [MoNet3D: Towards Accurate Monocular 3D Object Localization in Real Time](https://arxiv.org/abs/2006.16007) [[Notes](paper_notes/monet3d.md)] <kbd>ICML 2020</kbd> [Mono3D, pairwise relationship]
 - [Argoverse: 3D Tracking and Forecasting with Rich Maps](https://arxiv.org/abs/1911.02620) [[Notes](paper_notes/argoverse.md)] <kbd>CVPR 2019</kbd> [HD maps, dataset, CV lidar]
