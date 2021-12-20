@@ -66,7 +66,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 ## 2021-12 (1)
 - [Lidar with Velocity: Motion Distortion Correction of Point Clouds from Oscillating Scanning Lidars](https://arxiv.org/abs/2111.09497) [Livox, ISEE]
 - [NWD: A Normalized Gaussian Wasserstein Distance for Tiny Object Detection](https://arxiv.org/abs/2110.13389)
-- [BN_ViT: Leveraging Batch Normalization for Vision Transformers](https://openaccess.thecvf.com/content/ICCV2021W/NeurArch/papers/Yao_Leveraging_Batch_Normalization_for_Vision_Transformers_ICCVW_2021_paper.pdf) [[Notes](paper_notes/bn_vit.md)] <kbd>ICCVW 2021</kbd> [BN, transformers]
+- [BN_FFN_BN: Leveraging Batch Normalization for Vision Transformers](https://openaccess.thecvf.com/content/ICCV2021W/NeurArch/papers/Yao_Leveraging_Batch_Normalization_for_Vision_Transformers_ICCVW_2021_paper.pdf) [[Notes](paper_notes/bn_ffn_bn.md)] <kbd>ICCVW 2021</kbd> [BN, transformers]
 
 ## 2021-11 (1)
 - [Towards Optimal Strategies for Training Self-Driving Perception Models in Simulation](https://arxiv.org/abs/2111.07971) <kbd>NeurIPS 2021</kbd> [Sanja Fidler]
