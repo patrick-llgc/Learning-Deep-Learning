@@ -63,15 +63,19 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
 
-## 2021-12 (0)
+## 2021-12 (1)
 - [Lidar with Velocity: Motion Distortion Correction of Point Clouds from Oscillating Scanning Lidars](https://arxiv.org/abs/2111.09497) [Livox, ISEE]
+- [NWD: A Normalized Gaussian Wasserstein Distance for Tiny Object Detection](https://arxiv.org/abs/2110.13389)
+- [BN_ViT: Leveraging Batch Normalization for Vision Transformers](https://openaccess.thecvf.com/content/ICCV2021W/NeurArch/papers/Yao_Leveraging_Batch_Normalization_for_Vision_Transformers_ICCVW_2021_paper.pdf) [[Notes](paper_notes/bn_vit.md)] <kbd>ICCVW 2021</kbd> [BN, transformers]
 
 ## 2021-11 (1)
 - [Towards Optimal Strategies for Training Self-Driving Perception Models in Simulation](https://arxiv.org/abs/2111.07971) <kbd>NeurIPS 2021</kbd> [Sanja Fidler]
 - [DETR3D: 3D Object Detection from Multi-view Images via 3D-to-2D Queries](https://arxiv.org/abs/2110.06922) [[Notes](paper_notes/detr3d.md)] <kbd>CoRL 2021</kbd> [BEVNet, transformers]
 - [Translating Images into Maps](https://arxiv.org/abs/2110.00966) [BEVNet, transformers]
 - [Robust-CVD: Robust Consistent Video Depth Estimation](https://arxiv.org/abs/2012.05901) <kbd>CVPR 2021 oral</kbd> [[website](https://robust-cvd.github.io/)]
-- [Masked Autoencoders Are Scalable Vision Learners](https://arxiv.org/abs/2111.06377) [Kaiming He, unsupervised learning]
+- [MAE: Masked Autoencoders Are Scalable Vision Learners](https://arxiv.org/abs/2111.06377) [[Notes](paper_notes/mae.md)] [Kaiming He, unsupervised learning]
+- [SimMIM: A Simple Framework for Masked Image Modeling](https://arxiv.org/abs/2111.09886) [[Notes](paper_notes/simmim.md)] [MSRA, unsupervised learning, MAE]
+- [iBOT: Image BERT Pre-Training with Online Tokenizer](https://arxiv.org/abs/2111.07832)
 - [Insta-DM: Learning Monocular Depth in Dynamic Scenes via Instance-Aware Projection Consistency](https://arxiv.org/abs/2102.02629) <kbd>AAAI 2021</kbd>
 - [Instance-wise Depth and Motion Learning from Monocular Videos](https://arxiv.org/abs/1912.09351) <kbd>NeurIPS 2020 workshop</kbd> [[website](https://sites.google.com/site/seokjucv/home/instadm)]
 - [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/abs/2003.08934) <kbd>ECCV 2020 oral</kbd>

@@ -1,6 +1,6 @@
 # [Paper Title](link_to_paper)
 
-_November 2021_
+_December 2021_
 
 tl;dr: Summary of the main idea.
 
@@ -14,6 +14,4 @@ Describe the overall impression of the paper.
 - Summary of technical details
 
 #### Notes
-- Questions and notes on how to improve/revise the current work  
-
-j
+- Questions and notes on how to improve/revise the current work
