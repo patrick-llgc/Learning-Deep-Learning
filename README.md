@@ -64,19 +64,12 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 
 
 ## 2021-12 (2)
-- [BN_FFN_BN: Leveraging Batch Normalization for Vision Transformers](https://openaccess.thecvf.com/content/ICCV2021W/NeurArch/papers/Yao_Leveraging_Batch_Normalization_for_Vision_Transformers_ICCVW_2021_paper.pdf) [[Notes](paper_notes/bn_ffn_bn.md)] <kbd>ICCVW 2021</kbd> [BN, transformers]
+- [BN-FFN-BN: Leveraging Batch Normalization for Vision Transformers](https://openaccess.thecvf.com/content/ICCV2021W/NeurArch/papers/Yao_Leveraging_Batch_Normalization_for_Vision_Transformers_ICCVW_2021_paper.pdf) [[Notes](paper_notes/bn_ffn_bn.md)] <kbd>ICCVW 2021</kbd> [BN, transformers]
 - [PowerNorm: Rethinking Batch Normalization in Transformers](https://arxiv.org/abs/2003.07845) [[Notes](paper_notes/powernorm.md)] <kbd>ICML 2020</kbd> [BN, transformers]
+- [MultiPath++: Efficient Information Fusion and Trajectory Aggregation for Behavior Prediction](https://arxiv.org/abs/2111.14973) [[Notes](paper_notes/multipath++.md)] [Waymo, behavior prediction]
 - [Lidar with Velocity: Motion Distortion Correction of Point Clouds from Oscillating Scanning Lidars](https://arxiv.org/abs/2111.09497) [Livox, ISEE]
 - [NWD: A Normalized Gaussian Wasserstein Distance for Tiny Object Detection](https://arxiv.org/abs/2110.13389)
-
-## 2021-11 (1)
 - [Towards Optimal Strategies for Training Self-Driving Perception Models in Simulation](https://arxiv.org/abs/2111.07971) <kbd>NeurIPS 2021</kbd> [Sanja Fidler]
-- [DETR3D: 3D Object Detection from Multi-view Images via 3D-to-2D Queries](https://arxiv.org/abs/2110.06922) [[Notes](paper_notes/detr3d.md)] <kbd>CoRL 2021</kbd> [BEVNet, transformers]
-- [Translating Images into Maps](https://arxiv.org/abs/2110.00966) [BEVNet, transformers]
-- [Robust-CVD: Robust Consistent Video Depth Estimation](https://arxiv.org/abs/2012.05901) <kbd>CVPR 2021 oral</kbd> [[website](https://robust-cvd.github.io/)]
-- [MAE: Masked Autoencoders Are Scalable Vision Learners](https://arxiv.org/abs/2111.06377) [[Notes](paper_notes/mae.md)] [Kaiming He, unsupervised learning]
-- [SimMIM: A Simple Framework for Masked Image Modeling](https://arxiv.org/abs/2111.09886) [[Notes](paper_notes/simmim.md)] [MSRA, unsupervised learning, MAE]
-- [iBOT: Image BERT Pre-Training with Online Tokenizer](https://arxiv.org/abs/2111.07832)
 - [Insta-DM: Learning Monocular Depth in Dynamic Scenes via Instance-Aware Projection Consistency](https://arxiv.org/abs/2102.02629) <kbd>AAAI 2021</kbd>
 - [Instance-wise Depth and Motion Learning from Monocular Videos](https://arxiv.org/abs/1912.09351) <kbd>NeurIPS 2020 workshop</kbd> [[website](https://sites.google.com/site/seokjucv/home/instadm)]
 - [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/abs/2003.08934) <kbd>ECCV 2020 oral</kbd>
@@ -104,11 +97,18 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Instances as Queries](https://arxiv.org/abs/2105.01928) <kbd>ICCV 2021</kbd> [instance segmentation]
 
 
+## 2021-11 (4)
+- [DETR3D: 3D Object Detection from Multi-view Images via 3D-to-2D Queries](https://arxiv.org/abs/2110.06922) [[Notes](paper_notes/detr3d.md)] <kbd>CoRL 2021</kbd> [BEVNet, transformers]
+- [Translating Images into Maps](https://arxiv.org/abs/2110.00966) [BEVNet, transformers]
+- [Robust-CVD: Robust Consistent Video Depth Estimation](https://arxiv.org/abs/2012.05901) <kbd>CVPR 2021 oral</kbd> [[website](https://robust-cvd.github.io/)]
+- [MAE: Masked Autoencoders Are Scalable Vision Learners](https://arxiv.org/abs/2111.06377) [[Notes](paper_notes/mae.md)] [Kaiming He, unsupervised learning]
+- [SimMIM: A Simple Framework for Masked Image Modeling](https://arxiv.org/abs/2111.09886) [[Notes](paper_notes/simmim.md)] [MSRA, unsupervised learning, MAE]
+- [iBOT: Image BERT Pre-Training with Online Tokenizer](https://arxiv.org/abs/2111.07832)
+
 ## 2021-10 (3)
 - [STSU: Structured Bird's-Eye-View Traffic Scene Understanding from Onboard Images](https://arxiv.org/abs/2110.01997) [[Notes](paper_notes/stsu.md)] <kbd>ICCV 2021</kbd> [BEV feat stitching, Luc Van Gool]
 - [PanopticBEV: Bird's-Eye-View Panoptic Segmentation Using Monocular Frontal View Images](https://arxiv.org/abs/2108.03227) [[Notes](paper_notes/panoptic_bev.md)] [BEVNet, vertical/horizontal features]
 - [NEAT: Neural Attention Fields for End-to-End Autonomous Driving](https://arxiv.org/abs/2109.04456) [[Notes](paper_notes/neat.md)] <kbd>ICCV 2021</kbd> [[supplementary](http://www.cvlibs.net/publications/Chitta2021ICCV_supplementary.pdf)] [BEVNet]
-
 
 
 ## 2021-09 (11)
@@ -124,7 +124,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [PYVA: Projecting Your View Attentively: Monocular Road Scene Layout Estimation via Cross-view Transformation](https://openaccess.thecvf.com/content/CVPR2021/html/Yang_Projecting_Your_View_Attentively_Monocular_Road_Scene_Layout_Estimation_via_CVPR_2021_paper.html) [[Notes](paper_notes/pyva.md)] <kbd>CVPR 2021</kbd> [[Supplementary](https://openaccess.thecvf.com/content/CVPR2021/supplemental/Yang_Projecting_Your_View_CVPR_2021_supplemental.zip)] [BEVNet]
 - [YOLOF: You Only Look One-level Feature](https://arxiv.org/abs/2103.09460) [[Notes](paper_notes/yolof.md)] <kbd>CVPR 2021</kbd> [megvii]
 - [Perceiving Humans: from Monocular 3D Localization to Social Distancing](https://arxiv.org/abs/2009.00984) [[Notes](paper_notes/perceiving_humans.md)] <kbd>TITS 2021</kbd> [monoloco++]
-
 
 ## 2021-08 (11)
 - [EgoNet: Exploring Intermediate Representation for Monocular Vehicle Pose Estimation](https://arxiv.org/abs/2011.08464) [[Notes](paper_notes/egonet.md)] <kbd>CVPR 2021</kbd> [mono3D]

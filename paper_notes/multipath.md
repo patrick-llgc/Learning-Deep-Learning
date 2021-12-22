@@ -11,8 +11,9 @@ Anchor trajectories are obtained by grouping logged trajectories (modes) in coll
 
 MultiPath also used the semantic map representation used in previous methods such as [IntentNet](intentnet.md) and [ChauffeurNet](chauffeurnet.md) and [Rules of the Road](ror.md). 
 
-[IntentNet](intentnet.md) also predicts intention. But they mainly focus on an MAP trajectory. [IntentNet](intentnet.md) only predict one set of trajectories and make it unsuitable for multiple future path prediction. This can be changed to predict multiple path, each per intent, and then during inference we can sample K most likely trajectory each associated with the top intent. The discrete intent prediction roughly corresponds to the discrete anchors in MultiPath, but anchor design is more data driven and flexibile. 
+[IntentNet](intentnet.md) also predicts intention. But they mainly focus on an MAP trajectory. [IntentNet](intentnet.md) only predict one set of trajectories and make it unsuitable for multiple future path prediction. This can be changed to predict multiple path, each per intent, and then during inference we can sample K most likely trajectory each associated with the top intent. The discrete intent prediction roughly corresponds to the discrete anchors in MultiPath, but anchor design is more data driven and flexible. 
 
+The paper is extended to [Multipath++](multipath++.md) and achieves SOTA in Waymo open motion dataset (WOMD) in late 2021.
 
 #### Key ideas
 - The overall architecture is faster RCNN like
