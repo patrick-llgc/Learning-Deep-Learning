@@ -13,13 +13,13 @@ The author argues that traditional metric (such as mAP) for perception may not b
 
 The authors still uses a perception loss, but this loss is only used to guide the system and provide interpretability to the end-to-end stack.
 
-This work is based on [Fast and Furious](faf.md) and [IntentNet](intentnet.md). It uses similar input of lidar data and semantic maps. 
+This work is based on [Fast and Furious](faf.md) and [IntentNet](intentnet.md). It uses similar input of lidar data and semantic maps. It inspires [MP3](mp3.md).
 
 
 #### Key ideas
 - Why cost-volume?
 	- The ultimate output of the neural network is a cost volume of the size HxWxT. This cost volume represents the "goodness" of each possible location that the SDV can take within the planning horizon. The non-parametric cost volume **allows uncertainty and multimodality**.
-	- Sampling: space sampling based on clothoids], and then time sampling to determine the space-time profile. A set of trajectories is generated and evaluated against a predefined cost. This is a simple look-up operation and can be done **efficiently**.
+	- Sampling: space sampling based on clothoids, and then time sampling to determine the space-time profile. A set of trajectories is generated and evaluated against a predefined cost. This is a simple look-up operation and can be done **efficiently**.
 	$$s^* = \arg \min_s \sum_t c^t (s^t) $$
 	- Imitation learning approaches has to design multi-modality anchors specifically. (cf [Rules of the road](ror.md), [MultiPath](multipath.md), [MultiPath Uber](multipath_uber.md)).
 - Loss for training motion planner:

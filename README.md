@@ -67,6 +67,11 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [BN-FFN-BN: Leveraging Batch Normalization for Vision Transformers](https://openaccess.thecvf.com/content/ICCV2021W/NeurArch/papers/Yao_Leveraging_Batch_Normalization_for_Vision_Transformers_ICCVW_2021_paper.pdf) [[Notes](paper_notes/bn_ffn_bn.md)] <kbd>ICCVW 2021</kbd> [BN, transformers]
 - [PowerNorm: Rethinking Batch Normalization in Transformers](https://arxiv.org/abs/2003.07845) [[Notes](paper_notes/powernorm.md)] <kbd>ICML 2020</kbd> [BN, transformers]
 - [MultiPath++: Efficient Information Fusion and Trajectory Aggregation for Behavior Prediction](https://arxiv.org/abs/2111.14973) [[Notes](paper_notes/multipath++.md)] [Waymo, behavior prediction]
+- [Scene Transformer: A unified architecture for predicting multiple agent trajectories](https://arxiv.org/abs/2106.08417) [prediction, Waymo]
+- [TNT: Target-driveN Trajectory Prediction](https://arxiv.org/abs/2008.08294) [prediction, Waymo]
+- [DenseTNT: End-to-end Trajectory Prediction from Dense Goal Sets](https://arxiv.org/abs/2108.09640) <kbd>ICCV 2021</kbd> [prediction, Waymo, 1st place winner WOMD]
+- [BEVDet: High-performance Multi-camera 3D Object Detection in Bird-Eye-View](https://arxiv.org/abs/2112.11790)
+- [Manydepth: The Temporal Opportunist: Self-Supervised Multi-Frame Monocular Depth](https://github.com/nianticlabs/manydepth) <kbd>CVPR 2021</kbd> [monodepth, Niantic]
 - [Lidar with Velocity: Motion Distortion Correction of Point Clouds from Oscillating Scanning Lidars](https://arxiv.org/abs/2111.09497) [Livox, ISEE]
 - [NWD: A Normalized Gaussian Wasserstein Distance for Tiny Object Detection](https://arxiv.org/abs/2110.13389)
 - [Towards Optimal Strategies for Training Self-Driving Perception Models in Simulation](https://arxiv.org/abs/2111.07971) <kbd>NeurIPS 2021</kbd> [Sanja Fidler]
@@ -91,7 +96,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [TransformerFusion: Monocular RGB Scene Reconstruction using Transformers](https://arxiv.org/abs/2107.02191)
 - [Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152)
 - [Anchor DETR: Query Design for Transformer-Based Detector](https://arxiv.org/abs/2109.07107) [megvii]
-- [Probabilistic and Geometric Depth: Detecting Objects in Perspective](https://arxiv.org/abs/2107.14160) <kbd>CoRL 2021</kbd>
+- [PGD: Probabilistic and Geometric Depth: Detecting Objects in Perspective](https://arxiv.org/abs/2107.14160) <kbd>CoRL 2021</kbd>
 - [Adaptive Wing Loss for Robust Face Alignment via Heatmap Regression](https://arxiv.org/abs/1904.07399) 
 - [What Makes for End-to-End Object Detection?](https://proceedings.mlr.press/v139/sun21b.html) <kbd>PMLR 2021</kbd>
 - [Instances as Queries](https://arxiv.org/abs/2105.01928) <kbd>ICCV 2021</kbd> [instance segmentation]
