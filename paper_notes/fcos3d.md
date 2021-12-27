@@ -9,7 +9,7 @@ The majority of the single stage mono3D methods since [SMOKE](smoke.md) all use 
 
 Objects are distributed to different feature levels with the consideration if the 2D scales (from reprojected 3D bbox, no 2D annotation is required). 
 
-**The core challenge of mono3D** is how to assign 3D targets to 2D domain with the 2D-3D correspondense and predict them afterwards.
+**The core challenge of mono3D** is how to assign 3D targets to 2D domain with the 2D-3D correspondence and predict them afterwards.
 
 #### Key ideas
 - FCOS-like architecture

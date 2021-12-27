@@ -70,7 +70,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Scene Transformer: A unified architecture for predicting multiple agent trajectories](https://arxiv.org/abs/2106.08417) [prediction, Waymo]
 - [TNT: Target-driveN Trajectory Prediction](https://arxiv.org/abs/2008.08294) [prediction, Waymo]
 - [DenseTNT: End-to-end Trajectory Prediction from Dense Goal Sets](https://arxiv.org/abs/2108.09640) <kbd>ICCV 2021</kbd> [prediction, Waymo, 1st place winner WOMD]
-- [BEVDet: High-performance Multi-camera 3D Object Detection in Bird-Eye-View](https://arxiv.org/abs/2112.11790)
+- [BEVDet: High-performance Multi-camera 3D Object Detection in Bird-Eye-View](https://arxiv.org/abs/2112.11790) [[Notes](paper_note/bevdet.md)]
 - [Manydepth: The Temporal Opportunist: Self-Supervised Multi-Frame Monocular Depth](https://github.com/nianticlabs/manydepth) <kbd>CVPR 2021</kbd> [monodepth, Niantic]
 - [Lidar with Velocity: Motion Distortion Correction of Point Clouds from Oscillating Scanning Lidars](https://arxiv.org/abs/2111.09497) [Livox, ISEE]
 - [NWD: A Normalized Gaussian Wasserstein Distance for Tiny Object Detection](https://arxiv.org/abs/2110.13389)
@@ -100,7 +100,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Adaptive Wing Loss for Robust Face Alignment via Heatmap Regression](https://arxiv.org/abs/1904.07399) 
 - [What Makes for End-to-End Object Detection?](https://proceedings.mlr.press/v139/sun21b.html) <kbd>PMLR 2021</kbd>
 - [Instances as Queries](https://arxiv.org/abs/2105.01928) <kbd>ICCV 2021</kbd> [instance segmentation]
-
+- [One Million Scenes for Autonomous Driving: ONCE Dataset](https://arxiv.org/abs/2106.11037) [Huawei]
 
 ## 2021-11 (4)
 - [DETR3D: 3D Object Detection from Multi-view Images via 3D-to-2D Queries](https://arxiv.org/abs/2110.06922) [[Notes](paper_notes/detr3d.md)] <kbd>CoRL 2021</kbd> [BEVNet, transformers]
