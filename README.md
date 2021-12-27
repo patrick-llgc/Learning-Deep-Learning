@@ -71,6 +71,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [TNT: Target-driveN Trajectory Prediction](https://arxiv.org/abs/2008.08294) [prediction, Waymo]
 - [DenseTNT: End-to-end Trajectory Prediction from Dense Goal Sets](https://arxiv.org/abs/2108.09640) <kbd>ICCV 2021</kbd> [prediction, Waymo, 1st place winner WOMD]
 - [BEVDet: High-performance Multi-camera 3D Object Detection in Bird-Eye-View](https://arxiv.org/abs/2112.11790) [[Notes](paper_note/bevdet.md)]
+- [Translating Images into Maps](https://arxiv.org/abs/2110.00966) [[Notes](paper_notes/translating_images_to_maps.md)] [BEVNet, transformers]
 - [Manydepth: The Temporal Opportunist: Self-Supervised Multi-Frame Monocular Depth](https://github.com/nianticlabs/manydepth) <kbd>CVPR 2021</kbd> [monodepth, Niantic]
 - [Lidar with Velocity: Motion Distortion Correction of Point Clouds from Oscillating Scanning Lidars](https://arxiv.org/abs/2111.09497) [Livox, ISEE]
 - [NWD: A Normalized Gaussian Wasserstein Distance for Tiny Object Detection](https://arxiv.org/abs/2110.13389)
@@ -104,7 +105,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 
 ## 2021-11 (4)
 - [DETR3D: 3D Object Detection from Multi-view Images via 3D-to-2D Queries](https://arxiv.org/abs/2110.06922) [[Notes](paper_notes/detr3d.md)] <kbd>CoRL 2021</kbd> [BEVNet, transformers]
-- [Translating Images into Maps](https://arxiv.org/abs/2110.00966) [BEVNet, transformers]
 - [Robust-CVD: Robust Consistent Video Depth Estimation](https://arxiv.org/abs/2012.05901) <kbd>CVPR 2021 oral</kbd> [[website](https://robust-cvd.github.io/)]
 - [MAE: Masked Autoencoders Are Scalable Vision Learners](https://arxiv.org/abs/2111.06377) [[Notes](paper_notes/mae.md)] [Kaiming He, unsupervised learning]
 - [SimMIM: A Simple Framework for Masked Image Modeling](https://arxiv.org/abs/2111.09886) [[Notes](paper_notes/simmim.md)] [MSRA, unsupervised learning, MAE]
@@ -121,7 +121,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/abs/1911.09070) [[Notes](paper_notes/efficientdet.md)] <kbd>CVPR 2020</kbd> [BiFPN, Tesla AI day]
 - [PnPNet: End-to-End Perception and Prediction with Tracking in the Loop](https://arxiv.org/abs/2005.14711) [[Notes](paper_notes/pnpnet.md)] <kbd>CVPR 2020</kbd> [Uber ATG]
 - [MP3: A Unified Model to Map, Perceive, Predict and Plan](https://arxiv.org/abs/2101.06806) [[Notes](paper_notes/mp3.md)] <kbd>CVPR 2021</kbd> [Uber, planning]
-- [BEV-Net: Assessing Social Distancing Compliance by Joint People Localization and Geometric Reasoning]() [[Notes](paper_notes/bevnet_sdca.md)] <kbd>ICCV 2021</kbd> [BEVNet, surveillance]
+- [BEV-Net: Assessing Social Distancing Compliance by Joint People Localization and Geometric Reasoning](http://arxiv.org/abs/2110.04931) [[Notes](paper_notes/bevnet_sdca.md)] <kbd>ICCV 2021</kbd> [BEVNet, surveillance]
 - [LiDAR R-CNN: An Efficient and Universal 3D Object Detector](https://arxiv.org/abs/2103.15297) [[Notes](paper_notes/lidar_rcnn.md)] <kbd>CVPR 2021</kbd> [TuSimple, Naiyan Wang]
 - [Corner Cases for Visual Perception in Automated Driving: Some Guidance on Detection Approaches](https://arxiv.org/abs/2102.05897) [[Notes](paper_notes/corner_case_vision_arxiv.md)] [corner cases]
 - [Systematization of Corner Cases for Visual Perception in Automated Driving](https://ieeexplore.ieee.org/document/9304789) [[Notes](paper_notes/corner_case_vision_iv.md)] <kbd>IV 2020</kbd> [corner cases]
@@ -220,7 +220,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [ZoomNet: Part-Aware Adaptive Zooming Neural Network for 3D Object Detection](https://arxiv.org/abs/2003.00529) <kbd>AAAI 2020 oral</kbd> [mono3D] 
 - [CenterFusion: Center-based Radar and Camera Fusion for 3D Object Detection](https://arxiv.org/abs/2011.04841) [[Notes](paper_notes/centerfusion.md)] <kbd>WACV 2021</kbd> [early fusion, camera, radar]
 - [3D-LaneNet+: Anchor Free Lane Detection using a Semi-Local Representation](https://arxiv.org/abs/2011.01535) [[Notes](paper_notes/3d_lanenet+.md)] <kbd>NeurIPS 2020 workshop</kbd> [GM Israel, 3D LLD]
-- [LSTR: End-to-end Lane Shape Prediction with Transformers](https://arxiv.org/abs/2011.04233) [[Notes](paper_notes/lstr.md)] <kbd>WACV 2011</kbd> [LLD, transformers]
+- [LSTR: End-to-end Lane Shape Prediction with Transformers](https://arxiv.org/abs/2011.04233) [[Notes](paper_notes/lstr.md)] <kbd>WACV 2021</kbd> [LLD, transformers]
 - [PIXOR: Real-time 3D Object Detection from Point Clouds](https://arxiv.org/abs/1902.06326) [[Notes](paper_notes/pixor.md)] <kbd>CVPR 2018</kbd> (birds eye view)
 - [HDNET/PIXOR++: Exploiting HD Maps for 3D Object Detection](http://proceedings.mlr.press/v87/yang18b/yang18b.pdf) [[Notes](paper_notes/pixor++.md)] <kbd>CoRL 2018</kbd>
 - [CPNDet: Corner Proposal Network for Anchor-free, Two-stage Object Detection](https://arxiv.org/abs/2007.13816) <kbd>ECCV 2020</kbd> [anchor free, two stage]

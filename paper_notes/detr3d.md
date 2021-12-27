@@ -5,7 +5,7 @@ _November 2021_
 tl;dr: BEV object detection with DETR structure. 
 
 #### Overall impression
-Inspired by [DETR](detr.md), the paper uses sparse queries in BEV space for BEV object detection. It manipulates prediction directly in BEV space. It does not rely on dense depth prediction and avoids reconstruction errors.
+Inspired by [DETR](detr.md), the paper uses sparse queries in BEV space for BEV object detection. It manipulates prediction directly in BEV space. It does not rely on dense depth prediction and avoids reconstruction errors. It is in a way similar to [STSU](stsu.md).
 
 Mono3D methods have to rely on per-image and global NMS to remove redundant bbox in each view and in the overlap regions.
 

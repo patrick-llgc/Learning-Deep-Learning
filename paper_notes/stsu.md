@@ -7,14 +7,14 @@ tl;dr: DETR-like structure for structured BEV perception of lane line and object
 #### Overall impression
 The paper focuses on the structured representation of the road networks and instance-wise identification of the traffic agents. This is a follow-up work to [BEV feature sticthing](bev_feat_stitching.md).
 
-This paper follows the [DETR](detr.md)-style end to end object detection (extended to structured lane detection), which uses sparse queries in BEV space. This is actually one direction of Tesla's future work as they mentioned in AI Day.
+This paper follows the [DETR](detr.md)-style end to end object detection (extended to structured lane detection), which uses sparse queries in BEV space. This is actually one direction of Tesla's future work as they mentioned in AI Day. This idea is also used in [DETR3D](detr3d.md).
 
 Previous work focuses on semantic segmentation, but this paper not only focuses on instance detection, but in BEV. 
 
 The output results actually does not look super impressive, but this provides a brand new direction for BEV perception.
 
 #### Key ideas
-- [DETR](detr.md) Use two sets of query vectors, one set for centerlines and one for objects.
+- [DETR](detr.md) uses two sets of query vectors, one set for centerlines and one for objects.
 - Lane branch
 	- Detection head: if the lane encoded by the query vector exists
 	- Control head: 2xR control points (R=3)
@@ -27,10 +27,9 @@ The output results actually does not look super impressive, but this provides a 
 	- Half of the channel size is image space PE, and the other half is BEV space PE of that particular pixel (with GT transformation) --> This assumes a fixed camera extrinsics
 	- The top half of BEV PE is not defined.
 	- The PE is then added to the feature map
-- Structured lane detection
 
 #### Technical details
-- Angle loss $L_{angle} = |\cos(2\alpha) - \cos(2\phi)| + |\sin(2\alpha) - \sin (2\phi)|$
+- Angle loss $L_{angle} = |\cos(2\alpha) - \cos(2\phi)| + |\sin(2\alpha) - \sin (2\phi)|$ to disambiguate 180-apart angles.
 - The road are represented in Bezier curves. Each curve has three control points. 
 	- Bezier curves are a good fit for centerline since it allows us to model a curve of arbitrary length with a fixed number of 2D points. 
 - The evaluation metrics of directed lane line graph
