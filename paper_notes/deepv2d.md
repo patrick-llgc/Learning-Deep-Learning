@@ -17,7 +17,7 @@ This work also proposes to use geometric constraint, but instead of minimizing p
 - [DeepV2D](deepv2d.md) decomposes joint optimization into more tractable subproblems of optimization of depth and motion, and do block coordinate descent. It allows the depth estimation module to be more expressive and thus directly estimate per-pixel depth.
 - Performance of [DeepV2D](deepv2d.md) is better than [BA-Net](banet.md) across the board. 
 
-It seems to be more practical than [Consistent Video Depth Estimation](consistent_video_depth.md) as it converges quickly during inference (5-6 iterations).
+It seems to be more practical than [Consistent Video Depth Estimation](cvd.md) as it converges quickly during inference (5-6 iterations).
 
 
 #### Key ideas

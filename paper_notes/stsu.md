@@ -7,7 +7,7 @@ tl;dr: DETR-like structure for structured BEV perception of lane line and object
 #### Overall impression
 The paper focuses on the structured representation of the road networks and instance-wise identification of the traffic agents. This is a follow-up work to [BEV feature sticthing](bev_feat_stitching.md).
 
-This paper follows the [DETR](detr.md)-style end to end object detection (extended to structured lane detection), which uses sparse queries in BEV space. This is actually one direction of Tesla's future work as they mentioned in AI Day. This idea is also used in [DETR3D](detr3d.md).
+This paper follows the [DETR](detr.md)-style end to end object detection (extended to structured lane detection), which uses sparse queries in BEV space. This is actually one direction of Tesla's future work as they mentioned in AI Day. This idea is also used in [DETR3D](detr3d.md), and the results of the dynamic object does not look as good as in [DETR3D](detr3d.md).
 
 Previous work focuses on semantic segmentation, but this paper not only focuses on instance detection, but in BEV. 
 

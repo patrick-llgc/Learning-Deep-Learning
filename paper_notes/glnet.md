@@ -5,7 +5,7 @@ _July 2020_
 tl;dr: Combine monodepth with optical flow with geometric and photometric losses.
 
 #### Overall impression
-The paper proposes two online refinement strategies, one finetuning the model and one finetuning the image. --> cf [Struct2Depth](struc2depth.md) and [Consistent video depth](consistent_video_depth.md).
+The paper proposes two online refinement strategies, one finetuning the model and one finetuning the image. --> cf [Struct2Depth](struc2depth.md) and [Consistent video depth](cvd.md).
 
 It also predicts intrinsics for videos in the wild. --> cf [Depth from Videos in the Wild](learnk.md).
 

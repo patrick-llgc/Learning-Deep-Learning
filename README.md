@@ -62,17 +62,12 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-
-## 2021-12 (2)
-- [BN-FFN-BN: Leveraging Batch Normalization for Vision Transformers](https://openaccess.thecvf.com/content/ICCV2021W/NeurArch/papers/Yao_Leveraging_Batch_Normalization_for_Vision_Transformers_ICCVW_2021_paper.pdf) [[Notes](paper_notes/bn_ffn_bn.md)] <kbd>ICCVW 2021</kbd> [BN, transformers]
-- [PowerNorm: Rethinking Batch Normalization in Transformers](https://arxiv.org/abs/2003.07845) [[Notes](paper_notes/powernorm.md)] <kbd>ICML 2020</kbd> [BN, transformers]
-- [MultiPath++: Efficient Information Fusion and Trajectory Aggregation for Behavior Prediction](https://arxiv.org/abs/2111.14973) [[Notes](paper_notes/multipath++.md)] [Waymo, behavior prediction]
-- [Scene Transformer: A unified architecture for predicting multiple agent trajectories](https://arxiv.org/abs/2106.08417) [prediction, Waymo]
-- [TNT: Target-driveN Trajectory Prediction](https://arxiv.org/abs/2008.08294) [prediction, Waymo]
-- [DenseTNT: End-to-end Trajectory Prediction from Dense Goal Sets](https://arxiv.org/abs/2108.09640) <kbd>ICCV 2021</kbd> [prediction, Waymo, 1st place winner WOMD]
-- [BEVDet: High-performance Multi-camera 3D Object Detection in Bird-Eye-View](https://arxiv.org/abs/2112.11790) [[Notes](paper_note/bevdet.md)]
-- [Translating Images into Maps](https://arxiv.org/abs/2110.00966) [[Notes](paper_notes/translating_images_to_maps.md)] [BEVNet, transformers]
-- [Manydepth: The Temporal Opportunist: Self-Supervised Multi-Frame Monocular Depth](https://github.com/nianticlabs/manydepth) <kbd>CVPR 2021</kbd> [monodepth, Niantic]
+## 2022-01 (1)
+- [Manydepth: The Temporal Opportunist: Self-Supervised Multi-Frame Monocular Depth](https://arxiv.org/abs/2104.14540) [[Notes](paper_notes/manydepth.md)] <kbd>CVPR 2021</kbd> [monodepth, Niantic]
+- [SSIA: Monocular Depth Estimation with Self-supervised Instance Adaptation](https://arxiv.org/abs/2004.05821) [VGG team, TTR, test time refinement, CVD]
+- [CoMoDA: Continuous Monocular Depth Adaptation Using Past Experiences](https://openaccess.thecvf.com/content/WACV2021/papers/Kuznietsov_CoMoDA_Continuous_Monocular_Depth_Adaptation_Using_Past_Experiences_WACV_2021_paper.pdf) <kbd>WACV 2021</kbd>
+- [MonoRec: Semi-supervised dense reconstruction in dynamic environments from a single moving camera](https://arxiv.org/abs/2011.11814) <kbd>CVPR 2021</kbd> [Daniel Cremmers]
+- [Plenoxels: Radiance Fields without Neural Networks](https://arxiv.org/abs/2112.05131)
 - [Lidar with Velocity: Motion Distortion Correction of Point Clouds from Oscillating Scanning Lidars](https://arxiv.org/abs/2111.09497) [Livox, ISEE]
 - [NWD: A Normalized Gaussian Wasserstein Distance for Tiny Object Detection](https://arxiv.org/abs/2110.13389)
 - [Towards Optimal Strategies for Training Self-Driving Perception Models in Simulation](https://arxiv.org/abs/2111.07971) <kbd>NeurIPS 2021</kbd> [Sanja Fidler]
@@ -102,6 +97,17 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [What Makes for End-to-End Object Detection?](https://proceedings.mlr.press/v139/sun21b.html) <kbd>PMLR 2021</kbd>
 - [Instances as Queries](https://arxiv.org/abs/2105.01928) <kbd>ICCV 2021</kbd> [instance segmentation]
 - [One Million Scenes for Autonomous Driving: ONCE Dataset](https://arxiv.org/abs/2106.11037) [Huawei]
+
+
+## 2021-12 (5)
+- [BN-FFN-BN: Leveraging Batch Normalization for Vision Transformers](https://openaccess.thecvf.com/content/ICCV2021W/NeurArch/papers/Yao_Leveraging_Batch_Normalization_for_Vision_Transformers_ICCVW_2021_paper.pdf) [[Notes](paper_notes/bn_ffn_bn.md)] <kbd>ICCVW 2021</kbd> [BN, transformers]
+- [PowerNorm: Rethinking Batch Normalization in Transformers](https://arxiv.org/abs/2003.07845) [[Notes](paper_notes/powernorm.md)] <kbd>ICML 2020</kbd> [BN, transformers]
+- [MultiPath++: Efficient Information Fusion and Trajectory Aggregation for Behavior Prediction](https://arxiv.org/abs/2111.14973) [[Notes](paper_notes/multipath++.md)] [Waymo, behavior prediction]
+- [Scene Transformer: A unified architecture for predicting multiple agent trajectories](https://arxiv.org/abs/2106.08417) [prediction, Waymo]
+- [TNT: Target-driveN Trajectory Prediction](https://arxiv.org/abs/2008.08294) [prediction, Waymo]
+- [DenseTNT: End-to-end Trajectory Prediction from Dense Goal Sets](https://arxiv.org/abs/2108.09640) <kbd>ICCV 2021</kbd> [prediction, Waymo, 1st place winner WOMD]
+- [BEVDet: High-performance Multi-camera 3D Object Detection in Bird-Eye-View](https://arxiv.org/abs/2112.11790) [[Notes](paper_note/bevdet.md)]
+- [Translating Images into Maps](https://arxiv.org/abs/2110.00966) [[Notes](paper_notes/translating_images_to_maps.md)] [BEVNet, transformers]
 
 ## 2021-11 (4)
 - [DETR3D: 3D Object Detection from Multi-view Images via 3D-to-2D Queries](https://arxiv.org/abs/2110.06922) [[Notes](paper_notes/detr3d.md)] <kbd>CoRL 2021</kbd> [BEVNet, transformers]
@@ -366,7 +372,7 @@ Geometrically Constrained Keypoints in Real-Time](https://arxiv.org/abs/2006.130
 - [SpatialEmbedding: Instance Segmentation by Jointly Optimizing Spatial Embeddings and Clustering Bandwidth](https://arxiv.org/abs/1906.11109) [[Notes](paper_notes/spatial_embedding.md)] <kbd>ICCV 2019</kbd> [one-stage, instance segmentation]
 - [BA-Net: Dense Bundle Adjustment Networks](https://arxiv.org/abs/1806.04807) [[Notes](paper_notes/banet.md)] <kbd>ICLR 2019</kbd> [Bundle adjustment, multi-frame monodepth, feature-metric]
 - [DeepSFM: Structure From Motion Via Deep Bundle Adjustment](https://arxiv.org/abs/1912.09697) <kbd>ECCV 2020 oral</kbd> [multi-frame monodepth, indoor scene]
-- [Consistent Video Depth Estimation](https://arxiv.org/abs/2004.15021) [[Notes](paper_notes/consistent_video_depth.md)] <kbd>SIGGRAPH 2020</kbd> [multi-frame monodepth, online finetune]
+- [CVD: Consistent Video Depth Estimation](https://arxiv.org/abs/2004.15021) [[Notes](paper_notes/cvd.md)] <kbd>SIGGRAPH 2020</kbd> [multi-frame monodepth, online finetune]
 - [DeepV2D: Video to Depth with Differentiable Structure from Motion](https://arxiv.org/abs/1812.04605) [[Notes](paper_notes/deepv2d.md)] <kbd>ICLR 2020</kbd> [multi-frame monodepth, Jia Deng]
 - [GeoNet: Unsupervised Learning of Dense Depth, Optical Flow and Camera Pose](https://arxiv.org/abs/1803.02276) [[Notes](paper_notes/geonet.md)] <kbd>CVPR 2018</kbd> [residual optical flow, monodepth, rigid and dynamic motion]
 - [GLNet: Self-supervised Learning with Geometric Constraints in Monocular Video: Connecting Flow, Depth, and Camera](https://arxiv.org/abs/1907.05820) [[Notes](paper_notes/glnet.md)] <kbd>ICCV 2019</kbd> [online finetune, rigid and dynamic motion]
@@ -1135,6 +1141,9 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Canonical Surface Mapping via Geometric Cycle Consistency](https://arxiv.org/abs/1907.10043) <kbd>ICCV 2019</kbd>
 - [TIDE: A General Toolbox for Identifying Object Detection Errors](https://arxiv.org/abs/2008.08115) <kbd>ECCV 2018</kbd> [tools]
 
+### Low level DL
+- [Self-Supervised Camera Self-Calibration from Video](https://arxiv.org/abs/2112.03325) [TRI, intrinsic calibration, fisheye/pinhole]
+
 
 ## Non-DL
 - [Ad推荐系统方向文章汇总](https://github.com/wzhe06/Ad-papers)
@@ -1282,3 +1291,4 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [AutoShape: Real-Time Shape-Aware Monocular 3D Object Detection](https://arxiv.org/abs/2108.11127) <kbd>ICCV 2021</kbd> [mono3D]
 - [BlazePose: On-device Real-time Body Pose tracking](https://arxiv.org/abs/2006.10204)
 
+consistent_video_depth.md
