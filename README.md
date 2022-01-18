@@ -64,6 +64,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 
 ## 2022-01 (1)
 - [Manydepth: The Temporal Opportunist: Self-Supervised Multi-Frame Monocular Depth](https://arxiv.org/abs/2104.14540) [[Notes](paper_notes/manydepth.md)] <kbd>CVPR 2021</kbd> [monodepth, Niantic]
+- [NVS-MonoDepth: Improving Monocular Depth Prediction with Novel View Synthesis](https://arxiv.org/abs/2112.12577) <kbd>3DV 2021</kbd>
 - [SSIA: Monocular Depth Estimation with Self-supervised Instance Adaptation](https://arxiv.org/abs/2004.05821) [VGG team, TTR, test time refinement, CVD]
 - [CoMoDA: Continuous Monocular Depth Adaptation Using Past Experiences](https://openaccess.thecvf.com/content/WACV2021/papers/Kuznietsov_CoMoDA_Continuous_Monocular_Depth_Adaptation_Using_Past_Experiences_WACV_2021_paper.pdf) <kbd>WACV 2021</kbd>
 - [MonoRec: Semi-supervised dense reconstruction in dynamic environments from a single moving camera](https://arxiv.org/abs/2011.11814) <kbd>CVPR 2021</kbd> [Daniel Cremmers]
@@ -938,6 +939,7 @@ Traffic Sign and Light Detection](https://arxiv.org/abs/1806.07987) <kbd>IEEE CR
 - [One Thousand and One Hours: Self-driving Motion Prediction Dataset](https://arxiv.org/abs/2006.14480) [Lyft Level 5, prediction dataset]
 - [Large Scale Interactive Motion Forecasting for Autonomous Driving : The Waymo Open Motion Dataset](https://arxiv.org/abs/2104.10133) [Waymo, prediction dataset]
 - [PANDA: A Gigapixel-level Human-centric Video Dataset](https://arxiv.org/abs/2003.04852) <kbd>CVPR 2020</kbd>
+- [WoodScape: A multi-task, multi-camera fisheye dataset for autonomous driving](https://openaccess.thecvf.com/content_ICCV_2019/papers/Yogamani_WoodScape_A_Multi-Task_Multi-Camera_Fisheye_Dataset_for_Autonomous_Driving_ICCV_2019_paper.pdf) <kbd>ICCV 2019</kbd> [Valeo]
 
 ### Unsupervised depth estimation
 - [Sparse and Dense Data with CNNs: Depth Completion and Semantic Segmentation](https://arxiv.org/pdf/1808.00769.pdf) <kbd>3DV 2018</kbd>
