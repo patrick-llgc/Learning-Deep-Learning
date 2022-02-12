@@ -62,9 +62,11 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2022-01 (1)
-- [Manydepth: The Temporal Opportunist: Self-Supervised Multi-Frame Monocular Depth](https://arxiv.org/abs/2104.14540) [[Notes](paper_notes/manydepth.md)] <kbd>CVPR 2021</kbd> [monodepth, Niantic]
-- [NVS-MonoDepth: Improving Monocular Depth Prediction with Novel View Synthesis](https://arxiv.org/abs/2112.12577) <kbd>3DV 2021</kbd>
+
+## 2022-02 (1)
+- [TNT: Target-driveN Trajectory Prediction](https://arxiv.org/abs/2008.08294) [[Notes](paper_notes/tnt.md)] <kbd>CoRL 2020</kbd> [prediction, Waymo, Hang Zhao]
+- [DenseTNT: End-to-end Trajectory Prediction from Dense Goal Sets](https://arxiv.org/abs/2108.09640) <kbd>ICCV 2021</kbd> [prediction, Waymo, 1st place winner WOMD]
+- [Scene Transformer: A unified architecture for predicting multiple agent trajectories](https://arxiv.org/abs/2106.08417) [prediction, Waymo]
 - [SSIA: Monocular Depth Estimation with Self-supervised Instance Adaptation](https://arxiv.org/abs/2004.05821) [VGG team, TTR, test time refinement, CVD]
 - [CoMoDA: Continuous Monocular Depth Adaptation Using Past Experiences](https://openaccess.thecvf.com/content/WACV2021/papers/Kuznietsov_CoMoDA_Continuous_Monocular_Depth_Adaptation_Using_Past_Experiences_WACV_2021_paper.pdf) <kbd>WACV 2021</kbd>
 - [MonoRec: Semi-supervised dense reconstruction in dynamic environments from a single moving camera](https://arxiv.org/abs/2011.11814) <kbd>CVPR 2021</kbd> [Daniel Cremmers]
@@ -100,13 +102,18 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [One Million Scenes for Autonomous Driving: ONCE Dataset](https://arxiv.org/abs/2106.11037) [Huawei]
 
 
+## 2022-01 (1)
+- [Manydepth: The Temporal Opportunist: Self-Supervised Multi-Frame Monocular Depth](https://arxiv.org/abs/2104.14540) [[Notes](paper_notes/manydepth.md)] <kbd>CVPR 2021</kbd> [monodepth, Niantic]
+- [NVS-MonoDepth: Improving Monocular Depth Prediction with Novel View Synthesis](https://arxiv.org/abs/2112.12577) <kbd>3DV 2021</kbd>
+- [Is 2D Heatmap Representation Even Necessary for Human Pose Estimation?](https://arxiv.org/abs/2107.03332)
+- [Topology Preserving Local Road Network Estimation from Single Onboard Camera Image](https://arxiv.org/abs/2112.10155) [BEV, Luc Van Gool]
+- [DEKR: Bottom-Up Human Pose Estimation Via Disentangled Keypoint Regression](https://arxiv.org/abs/2104.02300) [[Notes](paper_notes/dekr.md)] <kbd>CVPR 2021</kbd>
+
+
 ## 2021-12 (5)
 - [BN-FFN-BN: Leveraging Batch Normalization for Vision Transformers](https://openaccess.thecvf.com/content/ICCV2021W/NeurArch/papers/Yao_Leveraging_Batch_Normalization_for_Vision_Transformers_ICCVW_2021_paper.pdf) [[Notes](paper_notes/bn_ffn_bn.md)] <kbd>ICCVW 2021</kbd> [BN, transformers]
 - [PowerNorm: Rethinking Batch Normalization in Transformers](https://arxiv.org/abs/2003.07845) [[Notes](paper_notes/powernorm.md)] <kbd>ICML 2020</kbd> [BN, transformers]
 - [MultiPath++: Efficient Information Fusion and Trajectory Aggregation for Behavior Prediction](https://arxiv.org/abs/2111.14973) [[Notes](paper_notes/multipath++.md)] [Waymo, behavior prediction]
-- [Scene Transformer: A unified architecture for predicting multiple agent trajectories](https://arxiv.org/abs/2106.08417) [prediction, Waymo]
-- [TNT: Target-driveN Trajectory Prediction](https://arxiv.org/abs/2008.08294) [prediction, Waymo]
-- [DenseTNT: End-to-end Trajectory Prediction from Dense Goal Sets](https://arxiv.org/abs/2108.09640) <kbd>ICCV 2021</kbd> [prediction, Waymo, 1st place winner WOMD]
 - [BEVDet: High-performance Multi-camera 3D Object Detection in Bird-Eye-View](https://arxiv.org/abs/2112.11790) [[Notes](paper_note/bevdet.md)]
 - [Translating Images into Maps](https://arxiv.org/abs/2110.00966) [[Notes](paper_notes/translating_images_to_maps.md)] [BEVNet, transformers]
 
