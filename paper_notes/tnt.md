@@ -17,7 +17,7 @@ TNT has the following advantages
 
 The target, or final state capture most uncertainty of a trajectory. TNT decompose the distribution of futures by conditioning on targets, and then marginalizing over them.
 
-The anchor-based method is improved by [DenseTNT](densetnt.md) to be anchor-free, which also eliminated the NMS process by learning.
+The anchor-based method is improved by [DenseTNT](dense_tnt.md) to be anchor-free, which also eliminated the NMS process by learning.
 
 #### Key ideas
 - Step 1: target prediction, based on manually chosen anchors
@@ -25,7 +25,7 @@ The anchor-based method is improved by [DenseTNT](densetnt.md) to be anchor-free
 - Step 3: Trajectory scoring/selection, with scoring and NMS
 
 #### Technical details
-- Summary of technical details
+- Vectorized (sparse) encoding with [VectorNet](vectornet.md).
 
 #### Notes
 - [CoRL talk on Youtube](https://www.youtube.com/watch?v=iaaCbKncY-8)
