@@ -63,8 +63,8 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
 
-## 2022-04 (0)
-- [BEVDet4D: Exploit Temporal Cues in Multi-camera 3D Object Detection](https://arxiv.org/abs/2203.17054) [BEVNet]
+## 2022-06 (1)
+- [BEVDet4D: Exploit Temporal Cues in Multi-camera 3D Object Detection](https://arxiv.org/abs/2203.17054) [[Notes](paper_notes/bevdet4d.md)] [BEVNet]
 - [PETR: Position Embedding Transformation for Multi-View 3D Object Detection](https://arxiv.org/abs/2203.05625) [BEVNet]
 - [BEVSegFormer: Bird's Eye View Semantic Segmentation From Arbitrary Camera Rigs](https://arxiv.org/abs/2203.04050) [BEVNet]
 - [PersFormer: 3D Lane Detection via Perspective Transformer and the OpenLane Benchmark](https://arxiv.org/abs/2203.11089) [BEVNet]
@@ -74,7 +74,14 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - ["The Pedestrian next to the Lamppost" Adaptive Object Graphs for Better Instantaneous Mapping](https://arxiv.org/abs/2204.02944) <kbd>CVPR 2022</kbd>
 - [M^2BEV: Multi-Camera Joint 3D Detection and Segmentation with Unified Birds-Eye View Representation](https://arxiv.org/abs/2204.05088) [BEVNet, nvidia]
 - [GitNet: Geometric Prior-based Transformation for Birds-Eye-View Segmentation](https://arxiv.org/abs/2204.07733) [BEVNet, Baidu]
-
+- [FUTR3D: A Unified Sensor Fusion Framework for 3D Detection](https://arxiv.org/abs/2203.10642) [Hang Zhao]
+- [GitNet: Geometric Prior-based Transformation for Birds-Eye-View Segmentation](https://arxiv.org/abs/2204.07733) [BEVNet]
+- [MonoFormer: Towards Generalization of self-supervised monocular depth estimation with Transformers](https://arxiv.org/abs/2205.11083) [monodepth]
+- [BEVerse: Unified Perception and Prediction in Birds-Eye-View for Vision-Centric Autonomous Driving](https://arxiv.org/abs/2205.09743) [Jiwen Lu]
+- [BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation](https://arxiv.org/abs/2205.13542)
+- [Cross-view Transformers for real-time Map-view Semantic Segmentation](https://arxiv.org/abs/2205.02833) <kbd>CVPR 2022 oral</kbd>
+- [Time3D: End-to-End Joint Monocular 3D Object Detection and Tracking for Autonomous Driving](https://arxiv.org/abs/2205.14882)
+- [PETRv2: A Unified Framework for 3D Perception from Multi-Camera Images](https://arxiv.org/abs/2206.01256) [BEVNet, MegVii]
 
 
 ## 2022-03 (1)

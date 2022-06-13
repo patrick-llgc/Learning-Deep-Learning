@@ -12,7 +12,10 @@ The BEV detection framework has four components
 - image-view encoder: SwinTransformer, ResNet
 - view transformer: [LSS](lift_splat_shoot.md)
 - BEV encoder: ResNet
-- task specific BEV head: [CenterPoint](centerpoint.md)
+- task specific BEV head: [CenterPoint](centerpoint.md).
+
+
+This work is improved by [BEVDet4D](bevdet4d.md) and [BEVerse](beverse.md).
 
 #### Key ideas
 - Multicam BEVDet has much less data samples and thus suffers severe overfitting issues.
@@ -28,4 +31,4 @@ The BEV detection framework has four components
 - BEVDet exceeded classic lidar based method such as pointPillars.
 
 #### Notes
-- [Github](https://github.com/HuangJunJie2017/BEVDet)
+- [Github](https://github.com/HuangJunJie2017/BEVDet), open sourced in 2022/06.
