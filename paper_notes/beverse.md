@@ -5,7 +5,7 @@ _June 2022_
 tl;dr: One-stage, multi-task BEV perception and prediction.
 
 #### Overall impression
-The paper combines the recent progress in static BEV perception (such as [HDMapNet]()), dynamic BEV perception ([BEVDet](), [BEVFormer]()) and motion prediction ([FIERY](fiery.md)). The motion prediction part largely inherits the spirits of [FIERY](fiery.md).
+The paper combines the recent progress in static BEV perception (such as [HDMapNet](hdmapnet.md)), dynamic BEV perception ([BEVDet](bevdet.md), [BEVFormer](bevformer.md)) and motion prediction ([FIERY](fiery.md)). The motion prediction part largely inherits the spirits of [FIERY](fiery.md).
 
 The paper claims to be the 1st paper that performs joint perception and motion prediction, but actually [FIERY](fiery.md) should be. [BEVerse](beverse.md) also added static perception to FIERY. The joint perception and prediction idea has also been exploited in lidar perception field, such as [FAF](faf.md).
 

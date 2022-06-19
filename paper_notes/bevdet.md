@@ -31,4 +31,4 @@ This work is improved by [BEVDet4D](bevdet4d.md) and [BEVerse](beverse.md).
 - BEVDet exceeded classic lidar based method such as pointPillars.
 
 #### Notes
-- [Github](https://github.com/HuangJunJie2017/BEVDet), open sourced in 2022/06.
+- Code on [Github](https://github.com/HuangJunJie2017/BEVDet)
