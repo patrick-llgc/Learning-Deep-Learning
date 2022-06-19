@@ -11,6 +11,8 @@ This paper is heavily inspired by [Lift Splat Shoot](lift_splat_shoot.md) in lif
 - [FIERY](fiery.md) improves the semantic segmentation of [Lift Splat Shoot](lift_splat_shoot.md) to instance segmentation.
 - [FIERY](fiery.md) also introduced the temporal component and leverages past frames.
 
+[FIERY](fiery.md) also has the capability to handle multimodal prediction.
+
 
 #### Key ideas
 - Center + semantic = instance segmentation + detection. Looks like Baidu's [CNN_seg](cnn_seg.md).
@@ -32,6 +34,7 @@ This paper is heavily inspired by [Lift Splat Shoot](lift_splat_shoot.md) in lif
 
 #### Technical details
 - The BEV backbone of combining multiple cameras has the functionality of sensor fusion. Instead of [Lift Splat Shoot](lift_splat_shoot.md) that does wholistic motion planning directly, [FIERY](fiery.md) actually does the prediction first, and the authors mentioned that they will work on the planning part later. It is a bit like [MP3](https://arxiv.org/abs/2101.06806) by Uber ATG.
+- The VPQ metric seems to be an overkill for motion prediction tasks. The widely used ATE/ADE metrics should be sufficient for multimodal motion prediction.
 - Non-parametric (what?) future trajectories.
 - [Social LSTM](social_lstm.md) is actually done from a surveillance view point (between perspective onboard cameras and BEV).
 - VectorNet and coverNet are good SOTA papers as of 2021 for prediction.
