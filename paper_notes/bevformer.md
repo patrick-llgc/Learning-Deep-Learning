@@ -40,4 +40,4 @@ The introduction of temporal module helps in 3 directions: 1) more accurate velo
 
 
 #### Notes
-- [github](https://github.com/zhiqi-li/BEVFormer) (will open source in 2022/06)
+- [github](https://github.com/zhiqi-li/BEVFormer) (code open sourced in 2022/06)
