@@ -21,4 +21,5 @@ The paper notes correctly that the notion of instance is critical to downstream.
 
 #### Notes
 - [Video](https://www.youtube.com/watch?v=HCJ1Hi_y9x8)
+- [Code](https://github.com/robot-learning-freiburg/PanopticBEV)
 

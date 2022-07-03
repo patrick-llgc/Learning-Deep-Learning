@@ -63,31 +63,39 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
 
+## 2022-07 (1)
+- [PersFormer: 3D Lane Detection via Perspective Transformer and the OpenLane Benchmark](https://arxiv.org/abs/2203.11089) [[Notes](paper_notes/persformer.md)] [BEVNet, lane line]
+- [Learning to Predict 3D Lane Shape and Camera Pose from a Single Image via Geometry Constraints](https://arxiv.org/abs/2112.15351) <kbd>AAAI 2022</kbd>
+- [Detecting Lane and Road Markings at A Distance with Perspective Transformer Layers](https://ieeexplore.ieee.org/document/9294383) <kbd>ICICN 2021</kbd> [BEVNet, lane line]
+- [Unsupervised Labeled Lane Markers Using Maps](https://openaccess.thecvf.com/content_ICCVW_2019/papers/CVRSUAD/Behrendt_Unsupervised_Labeled_Lane_Markers_Using_Maps_ICCVW_2019_paper.pdf) <kbd>ICCV 2019 workshop</kbd> [Bosch, 2D lane line]
+- [M3DeTR: Multi-representation, Multi-scale, Mutual-relation 3D Object Detection with Transformers](https://arxiv.org/abs/2104.11896) [Lidar detection, Waymo open dataset] <kbd>WACV 2022</kbd>
+- [K-Lane: Lidar Lane Dataset and Benchmark for Urban Roads and Highways](https://arxiv.org/abs/2110.11048) [lane line dataset]
+- [UVTR: Unifying Voxel-based Representation with Transformer for 3D Object Detection](https://arxiv.org/abs/2206.00630) [BEVFusion, Megvii, BEVNet, camera + lidar]
+- [Robust Monocular 3D Lane Detection With Dual Attention](https://ieeexplore.ieee.org/abstract/document/9506296) <kbd>ICIP 2021</kbd>
+
 ## 2022-06 (3)
 - [BEVDet4D: Exploit Temporal Cues in Multi-camera 3D Object Detection](https://arxiv.org/abs/2203.17054) [[Notes](paper_notes/bevdet4d.md)] [BEVNet]
 - [BEVerse: Unified Perception and Prediction in Birds-Eye-View for Vision-Centric Autonomous Driving](https://arxiv.org/abs/2205.09743) [[Notes](paper_notes/beverse.md)] [Jiwen Lu, BEVNet, prediction]
 - [BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation](https://arxiv.org/abs/2205.13542) [[Notes](paper_notes/bevfusion.md)] [BEVNet, Han Song]
+- [M^2BEV: Multi-Camera Joint 3D Detection and Segmentation with Unified Birds-Eye View Representation](https://arxiv.org/abs/2204.05088) [BEVNet, nvidia]
 - [VectorMapNet: End-to-end Vectorized HD Map Learning](https://arxiv.org/abs/2206.08920) [Hang Zhao]
 - [BEVDepth: Acquisition of Reliable Depth for Multi-view 3D Object Detection](https://arxiv.org/abs/2206.10092) [BEVNet, NuScenes SOTA, Megvii]
 - [BEVFormer++: Improving BEVFormer for 3D Camera-only Object Detection](https://storage.googleapis.com/waymo-uploads/files/research/3DCam/3DCam_BEVFormer.pdf) [Waymo open dataset challenge 1st place in mono3d]
-- [MTRA: 1st Place Solution for 2022 Waymo Open Dataset Challenge - Motion Prediction](https://storage.googleapis.com/waymo-uploads/files/research/MotionPred/MotionPrediction_MTRA.pdf) [Waymo open dataset challenge 1st place in motion prediction]
 - [PETR: Position Embedding Transformation for Multi-View 3D Object Detection](https://arxiv.org/abs/2203.05625) [BEVNet]
 - [PETRv2: A Unified Framework for 3D Perception from Multi-Camera Images](https://arxiv.org/abs/2206.01256) [BEVNet, MegVii]
+- [MTRA: 1st Place Solution for 2022 Waymo Open Dataset Challenge - Motion Prediction](https://storage.googleapis.com/waymo-uploads/files/research/MotionPred/MotionPrediction_MTRA.pdf) [Waymo open dataset challenge 1st place in motion prediction]
 - [Cross-view Transformers for real-time Map-view Semantic Segmentation](https://arxiv.org/abs/2205.02833) <kbd>CVPR 2022 oral</kbd> [UTAustin]
 - [BEVSegFormer: Bird's Eye View Semantic Segmentation From Arbitrary Camera Rigs](https://arxiv.org/abs/2203.04050) [BEVNet]
-- [PersFormer: 3D Lane Detection via Perspective Transformer and the OpenLane Benchmark](https://arxiv.org/abs/2203.11089) [BEVNet]
 - [Panoptic SegFormer: Delving Deeper into Panoptic Segmentation with Transformers](https://arxiv.org/abs/2109.03814) <kbd>CVPR 2022</kbd> [nVidia]
 - [Efficiently Identifying Task Groupings for Multi-Task Learning](https://arxiv.org/abs/2109.04617) <kbd>NeurIPS 2021 spotlight</kbd> [MTL]
 - [Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time](https://arxiv.org/abs/2203.05482) [Google, Golden Backbone]
 - ["The Pedestrian next to the Lamppost" Adaptive Object Graphs for Better Instantaneous Mapping](https://arxiv.org/abs/2204.02944) <kbd>CVPR 2022</kbd>
-- [M^2BEV: Multi-Camera Joint 3D Detection and Segmentation with Unified Birds-Eye View Representation](https://arxiv.org/abs/2204.05088) [BEVNet, nvidia]
 - [GitNet: Geometric Prior-based Transformation for Birds-Eye-View Segmentation](https://arxiv.org/abs/2204.07733) [BEVNet, Baidu]
 - [FUTR3D: A Unified Sensor Fusion Framework for 3D Detection](https://arxiv.org/abs/2203.10642) [Hang Zhao]
 - [GitNet: Geometric Prior-based Transformation for Birds-Eye-View Segmentation](https://arxiv.org/abs/2204.07733) [BEVNet]
 - [MonoFormer: Towards Generalization of self-supervised monocular depth estimation with Transformers](https://arxiv.org/abs/2205.11083) [monodepth]
 - [Time3D: End-to-End Joint Monocular 3D Object Detection and Tracking for Autonomous Driving](https://arxiv.org/abs/2205.14882)
 - [cosFormer: Rethinking Softmax in Attention](https://arxiv.org/abs/2202.08791) <kbd>ICLR 2022</kbd>
-- [Unifying Voxel-based Representation with Transformer for 3D Object Detection](https://arxiv.org/abs/2206.00630)
 - [StretchBEV: Stretching Future Instance Prediction Spatially and Temporally](https://arxiv.org/abs/2203.13641) [BEVNet, prediction]
 - [MUTR3D: A Multi-camera Tracking Framework via 3D-to-2D Queries](https://arxiv.org/abs/2205.00613) [BEVNet, tracking] <kbd>CVPR 2022 workshop</kbd>
 - [Scene Representation in Bird’s-Eye View from Surrounding Cameras with Transformers](https://openaccess.thecvf.com/content/CVPR2022W/WAD/papers/Zhao_Scene_Representation_in_Birds-Eye_View_From_Surrounding_Cameras_With_Transformers_CVPRW_2022_paper.pdf) [BEVNet, LLD] <kbd>CVPR 2022 workshop</kbd>
@@ -95,7 +103,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [It's About Time: Analog Clock Reading in the Wild](https://arxiv.org/abs/2111.09162) <kbd>CVPR 2022</kbd> [Andrew Zisserman]
 - [Efficient and Robust 2D-to-BEV Representation Learning via Geometry-guided Kernel Transformer](https://arxiv.org/abs/2206.04584) [BEVNet]
 - [StopNet: Scalable Trajectory and Occupancy Prediction for Urban Autonomous Driving](https://arxiv.org/abs/2206.00991) <kbd>ICRA 2022</kbd>
-- [SurroundDepth: Entangling Surrounding Views for Self-Supervised Multi-Camera Depth Estimation](https://arxiv.org/abs/2204.03636)
+- [SurroundDepth: Entangling Surrounding Views for Self-Supervised Multi-Camera Depth Estimation](https://arxiv.org/abs/2204.03636) [Jiwen Lu]
 - [ONCE-3DLanes: Building Monocular 3D Lane Detection](https://arxiv.org/abs/2205.00301) <kbd>CVPR 2022</kbd>
 - [K-Lane: Lidar Lane Dataset and Benchmark for Urban Roads and Highways](https://arxiv.org/abs/2110.11048) <kbd>CVPR 2022 workshop</kbd> [3D LLD]
 - [Multi-modal 3D Human Pose Estimation with 2D Weak Supervision in Autonomous Driving](https://arxiv.org/abs/2112.12141) <kbd>CVPR 2022 workshop</kbd>
@@ -106,6 +114,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [LET-3D-AP: Longitudinal Error Tolerant 3D Average Precision for Camera-Only 3D Detection](https://arxiv.org/abs/2206.07705) [Waymo open dataset challenge official metric]
 - [Safe Local Motion Planning with Self-Supervised Freespace Forecasting](https://openaccess.thecvf.com/content/CVPR2021/papers/Hu_Safe_Local_Motion_Planning_With_Self-Supervised_Freespace_Forecasting_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd>
 - [数据闭环的核心 - Auto-labeling 方案分享](https://zhuanlan.zhihu.com/p/533907821)
+- [K-Lane: Lidar Lane Dataset and Benchmark for Urban Roads and Highways](https://arxiv.org/abs/2110.11048)
 
 
 ## 2022-03 (1)
@@ -114,7 +123,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 ## 2022-02 (1)
 - [TNT: Target-driveN Trajectory Prediction](https://arxiv.org/abs/2008.08294) [[Notes](paper_notes/tnt.md)] <kbd>CoRL 2020</kbd> [prediction, Waymo, Hang Zhao]
 - [DenseTNT: End-to-end Trajectory Prediction from Dense Goal Sets](https://arxiv.org/abs/2108.09640) [[Notes](paper_notes/dense_tnt.md)] <kbd>ICCV 2021</kbd> [prediction, Waymo, 1st place winner WOMD]
-- [Scene Transformer: A unified architecture for predicting multiple agent trajectories](https://arxiv.org/abs/2106.08417) [prediction, Waymo]
+- [Scene Transformer: A unified architecture for predicting multiple agent trajectories](https://arxiv.org/abs/2106.08417) [prediction, Waymo] <kbd>ICLR 2022</kbd>
 - [SSIA: Monocular Depth Estimation with Self-supervised Instance Adaptation](https://arxiv.org/abs/2004.05821) [VGG team, TTR, test time refinement, CVD]
 - [CoMoDA: Continuous Monocular Depth Adaptation Using Past Experiences](https://openaccess.thecvf.com/content/WACV2021/papers/Kuznietsov_CoMoDA_Continuous_Monocular_Depth_Adaptation_Using_Past_Experiences_WACV_2021_paper.pdf) <kbd>WACV 2021</kbd>
 - [MonoRec: Semi-supervised dense reconstruction in dynamic environments from a single moving camera](https://arxiv.org/abs/2011.11814) <kbd>CVPR 2021</kbd> [Daniel Cremmers]
@@ -174,7 +183,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 
 ## 2021-10 (3)
 - [STSU: Structured Bird's-Eye-View Traffic Scene Understanding from Onboard Images](https://arxiv.org/abs/2110.01997) [[Notes](paper_notes/stsu.md)] <kbd>ICCV 2021</kbd> [BEV feat stitching, Luc Van Gool]
-- [PanopticBEV: Bird's-Eye-View Panoptic Segmentation Using Monocular Frontal View Images](https://arxiv.org/abs/2108.03227) [[Notes](paper_notes/panoptic_bev.md)] [BEVNet, vertical/horizontal features]
+- [PanopticBEV: Bird's-Eye-View Panoptic Segmentation Using Monocular Frontal View Images](https://arxiv.org/abs/2108.03227) [[Notes](paper_notes/panoptic_bev.md)] <kbd>RAL 2022</kbd> [BEVNet, vertical/horizontal features]
 - [NEAT: Neural Attention Fields for End-to-End Autonomous Driving](https://arxiv.org/abs/2109.04456) [[Notes](paper_notes/neat.md)] <kbd>ICCV 2021</kbd> [[supplementary](http://www.cvlibs.net/publications/Chitta2021ICCV_supplementary.pdf)] [BEVNet]
 
 
@@ -240,7 +249,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 
 ## 2021-01 (7)
 - [Confluence: A Robust Non-IoU Alternative to Non-Maxima Suppression in Object Detection](https://arxiv.org/abs/2012.00257) [[Notes](paper_notes/confluence.md)] [NMS]
-- [BoxInst: High-Performance Instance Segmentation with Box Annotations](https://arxiv.org/abs/2012.02310) [[Notes](paper_notes/boxinst.md)] [Chunhua Shen, Tian Zhi]
+- [BoxInst: High-Performance Instance Segmentation with Box Annotations](https://arxiv.org/abs/2012.02310) [[Notes](paper_notes/boxinst.md)] <kbd>CVPR 2021</kbd> [Chunhua Shen, Tian Zhi]
 - [3DSSD: Point-based 3D Single Stage Object Detector](https://arxiv.org/abs/2002.10187) [[Notes](paper_notes/3dssd.md)] <kbd>CVPR 2020</kbd>
 - [RepVGG: Making VGG-style ConvNets Great Again](https://arxiv.org/abs/2101.03697) [[Notes](paper_notes/repvgg.md)] [Megvii, Xiangyu Zhang, ACNet]
 - [ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks](https://arxiv.org/abs/1908.03930) [[Notes](paper_notes/acnet.md)] <kbd>ICCV 2019</kbd>
