@@ -19,7 +19,7 @@ One key difference from [Polygon RNN](http://www.cs.toronto.edu/polyrnn/poly_cvp
 [Polyline Loss](hran.md) focuses on easier lane topology on highways, and [DAGMapper](dagmapper.md) focuses on highway driving, and focuses on hard cases like forks and merges. [Polymapper](polymapper.md) only focuses on extracting road network and do not have lane-level information. 
 
 #### Key ideas
-- **Polyline loss (Chamfer distance)**: measures the deviation of the edges of the ground truth polylines and their predictions. This is more suitable than distance on vertices, as there exist many ways to draw equivalent polylines. 
+- **Polyline loss (Chamfer distance)**: measures the deviation of the edges of the ground truth polylines and their predictions. This is more suitable than distance on vertices, as there exist many ways to draw equivalent polylines. This is also used in [DAGMapper](dagmapper.md).
 ![](https://cdn-images-1.medium.com/max/1600/1*NeGg78_hIZfQom5eqUMwmg.png)
 - Why polylines?
 	- In HD Maps, road lanes are structured objects and are typically represented as a set of polylines, one per lane boundary. 

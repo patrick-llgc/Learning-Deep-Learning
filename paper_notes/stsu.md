@@ -13,6 +13,8 @@ Previous work focuses on semantic segmentation, but this paper not only focuses 
 
 The output results actually does not look super impressive, but this provides a brand new direction for BEV perception.
 
+The idea was significantly improved by [VectorMapNet](vectormapnet.md).
+
 #### Key ideas
 - [DETR](detr.md) uses two sets of query vectors, one set for centerlines and one for objects.
 - Lane branch

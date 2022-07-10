@@ -13,7 +13,7 @@ The following work are focused on road network discovery and are NOT focused on 
 - [RoadTracer](road_tracer.md): like an DRL agent
 - [PolyMapper](hran.md): iterate every vertices of a closed polygon
 
-[Polyline loss](polyline_loss.md) and [DAGMapper](dagmapper.md) focuses on HD mapping tasks with lane-level information. 
+[Polyline loss](hran.md) and [DAGMapper](dagmapper.md) focuses on HD mapping tasks with lane-level information. 
 
 Road network extraction is still very helpful for routing purposes, but lack the fine detail and accuracy needed for a safe localization and motion planning of an autonomous car. 
 

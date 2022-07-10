@@ -9,6 +9,8 @@ Ordinal regression is like cls, but the order matters. Directly regressing the n
 
 Ordinal regression converts the convetional one-hot multi-class cls (MCC) into a series of binary classification. 
 
+The idea was also corroborated in other studies such as [VectorMapNet](vectormapnet.md).
+
 #### Key ideas
 - The backbone is a conventional one that yields dense features. 
 	- On dense features, ASPP (atrous spatial pyramid pooling) is used to generate multi-scale features but with the same resolution.
