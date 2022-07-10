@@ -12,37 +12,6 @@ If you are new to deep learning in computer vision and don't know where to start
 Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out of papers to read.
 
 
-### Github repos
-- [MMAction2](https://github.com/open-mmlab/mmaction2) [268 stars]
-- [Kalman and Bayesian Fitlers](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python) [8.7k stars] [ipynb book](https://nbviewer.jupyter.org/github/rlabbe/Kalman-and-Bayesian-Filters-in-Python/blob/master/table_of_contents.ipynb)
-- [simple-faster-rcnn-pytorch](https://github.com/chenyuntc/simple-faster-rcnn-pytorch/) (2.1k stars) [[Notes](code_notes/simple_faster_rcnn.md)]
-- [YOLACT/YOLACT++](https://github.com/dbolya/yolact) [2.1k stars]
-- [Yolov3 ultralytic](https://github.com/ultralytics/yolov3) [4.7k stars]
-- [MonoLoco](https://github.com/vita-epfl/monoloco) [131 stars]
-- [A Baseline for 3D Multi-Object Tracking](https://github.com/xinshuoweng/AB3DMOT) [548 stars]
-- [ROLO: recurrent YOLO](https://github.com/Guanghan/ROLO)
-- [point rend](https://github.com/facebookresearch/detectron2/tree/master/projects/PointRend/point_rend)
-- [Carla data export](https://github.com/Ozzyz/carla-data-export)
-- [openpilot](https://github.com/commaai/openpilot/blob/devel/selfdrive/modeld/models/driving.cc)
-- [3D Lane Dataset](https://github.com/yuliangguo/3D_Lane_Synthetic_Dataset)
-- [MicroGrad](https://github.com/karpathy/micrograd)
-- [OpenVSLAM](https://github.com/xdspacelab/openvslam) (2.3k stars)
-- [ORB SLAM2](https://github.com/raulmur/ORB_SLAM2) and [Docker version](https://github.com/yuyou/ORB_SLAM2#build-docker-image)
-- [PySLAM v2](https://github.com/luigifreda/pyslam)
-
-### Youtube channels
-- [Modern C++ for computer vision](https://www.youtube.com/playlist?list=PLgnQpQtFTOGR50iIOtO36nK6aNPtVq98C)
-- [SLAM by Cyrill Stachniss](https://www.youtube.com/playlist?list=PLgnQpQtFTOGQrZ4O5QzbIHgl3b1JHimN_)
-- [Understanding Sensor Fusion and Tracking by Matlab](https://www.youtube.com/watch?v=6qV3YjFppuc&t=0s)
-- [Understanding Kalman Filters by Matlab](https://www.youtube.com/watch?v=mwn8xhgNpFY&list=PLn8PRpmsu08pzi6EMiYnR-076Mh-q3tWr)
-
-### Talks
-- [Andrej Karpathy's Talks](./talk_notes/andrej.md)
-- [Drago Anguelov: Scale AI’s TransformX Presentation](https://www.youtube.com/watch?v=oJ96bgmSaW0)
-
-### What autonomous driving companies do
-- [Zoox](https://www.youtube.com/watch?&v=BVRMh9NO9Cs)
-
 ## My Review Posts by Topics
 I regularly update [my blog in Toward Data Science](https://medium.com/@patrickllgc).
 
@@ -66,7 +35,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 ## 2022-07 (3)
 - [PersFormer: 3D Lane Detection via Perspective Transformer and the OpenLane Benchmark](https://arxiv.org/abs/2203.11089) [[Notes](paper_notes/persformer.md)] [BEVNet, lane line]
 - [VectorMapNet: End-to-end Vectorized HD Map Learning](https://arxiv.org/abs/2206.08920) [[Notes](paper_notes/vectormapnet.md)] [BEVNet, LLD, Hang Zhao]
-- [PETR: Position Embedding Transformation for Multi-View 3D Object Detection](https://arxiv.org/abs/2203.05625) [[Notes](paper_notes/petr.md)] [BEVNet]
+- [PETR: Position Embedding Transformation for Multi-View 3D Object Detection](https://arxiv.org/abs/2203.05625) [[Notes](paper_notes/petr.md)] <kbd>ECCV 2022</kbd> [BEVNet]
 - [PETRv2: A Unified Framework for 3D Perception from Multi-Camera Images](https://arxiv.org/abs/2206.01256) [BEVNet, MegVii]
 - [LaRa: Latents and Rays for Multi-Camera Bird's-Eye-View Semantic Segmentation](https://arxiv.org/abs/2206.13294) [Valeo]
 - [CVT: Cross-view Transformers for real-time Map-view Semantic Segmentation](https://arxiv.org/abs/2205.02833) <kbd>CVPR 2022 oral</kbd> [UTAustin, Philipp]
