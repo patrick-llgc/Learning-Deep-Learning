@@ -18,6 +18,8 @@ Embedding meta data info into conv:
 
 The basic idea is to convert meta data into pseudo-images suitable for CNNs. Cam conv precomputes pixel wise coord map and fov maps and concat them to original input.
 
+This idea is also extended in [PETR](petr.md), which bridges 2D images with 3D reasoning.
+
 #### Key ideas
 - Centered coordinates map, coordConv - cx
 - FoV map: ccm with focal length np.atan(ccx/fx). As long as the FoV is the same, the FoV map extent is the same. (see fig below)

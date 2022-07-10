@@ -9,6 +9,8 @@ Inspired by [DETR](detr.md), the paper uses sparse queries in BEV space for BEV 
 
 Mono3D methods have to rely on per-image and global NMS to remove redundant bbox in each view and in the overlap regions.
 
+The work is further improved with 3D positional embedding by [PETR](petr.md) and [PETRv2](petrv2.md).
+
 #### Key ideas
 - Iterative refinement of object queries.
 	- The iterative refinement process is similar to [Sparse RCNN](sparse_rcnn.md) and Cascade RCNN. 

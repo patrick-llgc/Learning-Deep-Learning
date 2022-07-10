@@ -2,7 +2,7 @@
 
 _August 2020_
 
-tl;dr: Summary of the main idea.
+tl;dr: Reformulate the depth information with RGB makes a huge difference.
 
 #### Overall impression
 The paper builds on top of the [Frustum-Pointnet](frustum_pointnet.md) version of pseudo-lidar, with a two-step process. First a 2D detector finds the car, and then crop a frustum with the bbox, then a [pointnet](pointnet.md) is used to place a 3D bbox around the point cloud. [PatchNet](patchnet.md) starts from this cropped patch.
