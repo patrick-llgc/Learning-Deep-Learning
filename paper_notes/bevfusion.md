@@ -22,7 +22,7 @@ BEVFusion is single image based, no temporal module.
 	- Camera BEV features may be misaligned with lidar BEV features. The convolutional layers in the BEV encoder can compensate for such local misalignments.
 
 #### Technical details
-- Jointly training different tasks together (detection of dynamic objects and semantic segmentation of static objects) has a negative impact on the performance of each individual task ("negative transfer").
+- **Jointly training** different tasks together (detection of dynamic objects and semantic segmentation of static objects) has a negative impact on the performance of each individual task ("negative transfer"). --> This is also observed in [M2BEV](m2bev.md) and [PETRv2](petrv2.md).
 - The night time performance of camera only performance (BEVFusion version) is worse than lidar-only performance (center point). --> **This is a major risk of BEVNet in production.**
 
 #### Notes
