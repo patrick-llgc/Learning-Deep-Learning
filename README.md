@@ -32,11 +32,11 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
 
-## 2022-07 (3)
+## 2022-07 (5)
 - [PersFormer: 3D Lane Detection via Perspective Transformer and the OpenLane Benchmark](https://arxiv.org/abs/2203.11089) [[Notes](paper_notes/persformer.md)] [BEVNet, lane line]
 - [VectorMapNet: End-to-end Vectorized HD Map Learning](https://arxiv.org/abs/2206.08920) [[Notes](paper_notes/vectormapnet.md)] [BEVNet, LLD, Hang Zhao]
 - [PETR: Position Embedding Transformation for Multi-View 3D Object Detection](https://arxiv.org/abs/2203.05625) [[Notes](paper_notes/petr.md)] <kbd>ECCV 2022</kbd> [BEVNet]
-- [PETRv2: A Unified Framework for 3D Perception from Multi-Camera Images](https://arxiv.org/abs/2206.01256) [BEVNet, MegVii]
+- [PETRv2: A Unified Framework for 3D Perception from Multi-Camera Images](https://arxiv.org/abs/2206.01256) [[Notes](paper_notes/petrv2.md)] [BEVNet, MegVii]
 - [M^2BEV: Multi-Camera Joint 3D Detection and Segmentation with Unified Birds-Eye View Representation](https://arxiv.org/abs/2204.05088) [[Notes](paper_notes/m2bev.md)] [BEVNet, nvidia]
 - [LaRa: Latents and Rays for Multi-Camera Bird's-Eye-View Semantic Segmentation](https://arxiv.org/abs/2206.13294) [Valeo]
 - [CVT: Cross-view Transformers for real-time Map-view Semantic Segmentation](https://arxiv.org/abs/2205.02833) <kbd>CVPR 2022 oral</kbd> [UTAustin, Philipp]

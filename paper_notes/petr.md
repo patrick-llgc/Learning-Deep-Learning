@@ -7,6 +7,8 @@ tl;dr: Improvement of DETR3D with 3D positional embedding.
 #### Overall impression
 [DETR3D](detr3d.md) provides an intuitive solution for end-to-end 3D object detection. However there are several issues. The predicted coordinates of reference point may not be that accurate, making sampled features out of object region. Also the online 2D-to-3D transformation and feature sampling will hinder online deployment. 
 
+The object query initialized from 3D space can directly perceive 3D object information by interacting with the produced 3D position-aware features. 
+
 ![](https://cdn-images-1.medium.com/max/1600/1*IiSaLdbJhlXGzdyJBdm2cw.png)
 
 PETR believes that using explicit 2D-3D projection during feature transformation will hinder network's capability to perform global reasoning (Note: which I do not necessarily agree), thus it **breaks the explicit reprojection operation**. Instead it uses 3D positional embedding to facilitate global reasoning (3D position-aware features), and ask the neural network to learn **implicitly** where to look by supplying the 2D images with 3D positional embedding. **With this embedding, 2D regions corresponding to the same 3D region will have similar 3D embedding.**
