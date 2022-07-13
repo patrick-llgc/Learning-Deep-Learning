@@ -21,6 +21,7 @@ This paper explores the joint BEV perception of dynamic vehicles and static road
 
 #### Technical details
 - [PETRv2](petrv2.md) also observes the regression of tasks performance as compared to single task training. Joint training regresses the static BEV perception more severely. Yet tuning the task weight up (x2) largely eliminates the gap.
+- The channel-to-spatial method provides a way to reduce BEV queries and computation in BEV space. The computation is more tractable when scaling up the detection range.
 
 #### Notes
 - [Code on Github](https://github.com/megvii-research/PETR)
