@@ -32,14 +32,14 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
 
-## 2022-07 (5)
+## 2022-07 (6)
 - [PersFormer: 3D Lane Detection via Perspective Transformer and the OpenLane Benchmark](https://arxiv.org/abs/2203.11089) [[Notes](paper_notes/persformer.md)] [BEVNet, lane line]
 - [VectorMapNet: End-to-end Vectorized HD Map Learning](https://arxiv.org/abs/2206.08920) [[Notes](paper_notes/vectormapnet.md)] [BEVNet, LLD, Hang Zhao]
 - [PETR: Position Embedding Transformation for Multi-View 3D Object Detection](https://arxiv.org/abs/2203.05625) [[Notes](paper_notes/petr.md)] <kbd>ECCV 2022</kbd> [BEVNet]
 - [PETRv2: A Unified Framework for 3D Perception from Multi-Camera Images](https://arxiv.org/abs/2206.01256) [[Notes](paper_notes/petrv2.md)] [BEVNet, MegVii]
 - [M^2BEV: Multi-Camera Joint 3D Detection and Segmentation with Unified Birds-Eye View Representation](https://arxiv.org/abs/2204.05088) [[Notes](paper_notes/m2bev.md)] [BEVNet, nvidia]
 - [LaRa: Latents and Rays for Multi-Camera Bird's-Eye-View Semantic Segmentation](https://arxiv.org/abs/2206.13294) [Valeo]
-- [CVT: Cross-view Transformers for real-time Map-view Semantic Segmentation](https://arxiv.org/abs/2205.02833) <kbd>CVPR 2022 oral</kbd> [UTAustin, Philipp]
+- [CVT: Cross-view Transformers for real-time Map-view Semantic Segmentation](https://arxiv.org/abs/2205.02833) [[Notes](paper_notes/cvt.md)] <kbd>CVPR 2022 oral</kbd> [UTAustin, Philipp]
 - [ImVoxelNet: Image to Voxels Projection for Monocular and Multi-View General-Purpose 3D Object Detection](https://arxiv.org/abs/2106.01178) <kbd>WACV 2022</kbd> [mono3D]
 - [Learning to Predict 3D Lane Shape and Camera Pose from a Single Image via Geometry Constraints](https://arxiv.org/abs/2112.15351) <kbd>AAAI 2022</kbd>
 - [Detecting Lane and Road Markings at A Distance with Perspective Transformer Layers](https://ieeexplore.ieee.org/document/9294383) <kbd>ICICN 2021</kbd> [BEVNet, lane line]
@@ -456,7 +456,7 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [SurfelGAN: Synthesizing Realistic Sensor Data for Autonomous Driving](https://arxiv.org/abs/2005.03844) [[Notes](paper_notes/surfel_gan.md)] <kbd>CVPR 2020 oral</kbd> [Waymo, auto data generation, surfel]
 - [LiDARsim: Realistic LiDAR Simulation by Leveraging the Real World](https://arxiv.org/abs/2006.09348) [[Notes](paper_notes/lidarsim.md)] <kbd>CVPR 2020 oral</kbd> [Uber ATG, auto data generation, surfel]
 - [SuMa++: Efficient LiDAR-based Semantic SLAM](http://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/chen2019iros.pdf) <kbd>IROS 2019</kbd> [semantic segmentation, lidar, SLAM]
-- [PyrOccNet: Predicting Semantic Map Representations from Images using Pyramid Occupancy Networks](https://arxiv.org/abs/2003.13402) [[Notes](paper_notes/pyroccnet.md)] <kbd>CVPR 2020 oral</kbd> [BEV-Net, OFT]
+- [PON/PyrOccNet: Predicting Semantic Map Representations from Images using Pyramid Occupancy Networks](https://arxiv.org/abs/2003.13402) [[Notes](paper_notes/pyroccnet.md)] <kbd>CVPR 2020 oral</kbd> [BEV-Net, OFT]
 - [MonoLayout: Amodal scene layout from a single image](https://arxiv.org/abs/2002.08394) [[Notes](paper_notes/monolayout.md)] <kbd>WACV 2020</kbd> [BEV-Net]
 - [BEV-Seg: Bird’s Eye View Semantic Segmentation Using Geometry and Semantic Point Cloud](https://arxiv.org/abs/2006.11436) [[Notes](paper_notes/bev_seg.md)] <kbd>CVPR 2020 workshop</kbd> [BEV-Net, Mapping]
 - [A Geometric Approach to Obtain a Bird's Eye View from an Image](https://arxiv.org/abs/1905.02231) <kbd>ICCVW 2019</kbd> [mapping, geometry, Andrew Zisserman]
