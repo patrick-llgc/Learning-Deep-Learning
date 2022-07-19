@@ -20,6 +20,8 @@ The basic idea is to convert meta data into pseudo-images suitable for CNNs. Cam
 
 This idea is also extended in [PETR](petr.md), which bridges 2D images with 3D reasoning.
 
+[BEVDepth](bevdepth.md) also proposed a way to do camera aware depth prediciton, with calibration features and Squeeze-and-Excitation-module.
+
 #### Key ideas
 - Centered coordinates map, coordConv - cx
 - FoV map: ccm with focal length np.atan(ccx/fx). As long as the FoV is the same, the FoV map extent is the same. (see fig below)

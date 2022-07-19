@@ -12,6 +12,7 @@ Describe the overall impression of the paper.
 
 #### Technical details
 - **Joint training** slightly hurts the performance of each task. We observe that the location distribution of objects and maps do not have strong correlation, e.g. many cars are not in the drivable area. --> This is also observed in [BEVFusion](bevfusion.md) and [PETRv2](petrv2.md).
+- **Voxel Pooling** is improved to boost efficiency and memory usage. Sinilar improvement has also been seen in [BEVDepth](bevdepth.md) and [BEVFusion](bevfusion.md).
 
 #### Notes
 - Questions and notes on how to improve/revise the current work

@@ -18,6 +18,7 @@ This work can be compared with the concurrent [BEVerse](beverse.md). In comparis
 - Spatiotemporal alignment simplifies the task of velocity estimation 
 	- it removes the need to learn position shifting relevant to ego motion. 
 	- Also after the alignment the velocity estimation and orientation is strongly correlated.
+- Time window is only 2. May be improved if longer time window is used. --> Similar to [BEVDepth](bevdepth.md).
 
 #### Technical details
 - [PETR](petr.md) uses heavy data augmentation, like [BEVDet](bevdet.md). The data augmentation in image view (IV) is a bit puzzling but could lead to more robust behavior during inference. 

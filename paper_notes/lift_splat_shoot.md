@@ -30,6 +30,7 @@ The semantic BEV map prediction need to fuse predictions from all cameras into a
 	- Depth resolution: [4, 45] meters @ 1 meter interval.
 - Frustum pooling via cumsum trick (integral image)
 	- Sum pooling (avg pooling) can be sped up with integral image. So ideally faster than max pooling.
+	- Drawback: This is not fast enough when BEV grid is large. Better Voxel pooling has been proposed in [BEVDepth](bevdepth.md), [BEVFusion](bevfusion.md) and [M2BEV](m2bev.md).
 - Robust training
 	- Camera dropout during training adds to the robustness --> similar to the input dropout of HD maps of [PIXOR++](pixor++.md).
 	- Training with noisy extrinsics leads to more robust network against calibration noise

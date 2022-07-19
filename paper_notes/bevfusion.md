@@ -18,6 +18,7 @@ BEVFusion is single image based, no temporal module.
 - Network acceleration. BEV voxel pooling is surprisingly slow.
 	- Grid association: The mapping between each camera pixel and BEV voxel is fixed (as the distance bin is also fixed), and therefore can be precomputed. [2X Speedup]
 	- Internal reduction: all points within the same BEV are aggregated with some symmetric function (mean, max, sum). [LSS](lift_splat_shoot.md) used the cumsum trick based integral image, but this way is not efficient. To accelerate this, BEVFusion directly assigns a GPU thread to each grid and process that cell. [20X Speedup]
+	- Voxel Pooling is also improved in [BEVDepth](bevdepth.md) and [M2BEV](m2bev.md).
 - Fully convolutional fusion
 	- Camera BEV features may be misaligned with lidar BEV features. The convolutional layers in the BEV encoder can compensate for such local misalignments.
 
