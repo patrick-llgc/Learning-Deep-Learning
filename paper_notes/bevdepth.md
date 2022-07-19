@@ -7,6 +7,8 @@ tl;dr: LSS with explicit depth supervision and Efficient Voxel Pooling.
 #### Overall impression
 In LSS, depth estimation is implicitly learnt without camera info. The accuracy of depth estimation is surprisingly inadequate (pred-gt curve shows very poor correlation). Replacing the depth with ground truth depth will lead to huge improvement, indicating that the quality of intermediate depth is the key to improving multi-view 3D object detection.
 
+The idea is relatively simple, but the engineering effort was executed beautifully, with in-depth analysis.
+
 #### Key ideas
 - Explicit depth supervision: The depth is supervised by projected point clouds, with a *min poling* and a *one-hot* encoding.
 - Depth correction is introduced to account for the error in extrinsics calibration (and online extrinsic disturbance). Instead of finding the exactly correct calibration, BEVDepth proposes to **enlarge the receptive field to compensate for inaccurate lidar-camera alignment**. In this way, the mis-aligned depth GT is able to attend to the feature at right position. --> This is a good point. May be very useful for early fusion.

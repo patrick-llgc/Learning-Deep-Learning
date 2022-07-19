@@ -32,14 +32,15 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
 
-## 2022-07 (6)
+## 2022-07 (7)
 - [PersFormer: 3D Lane Detection via Perspective Transformer and the OpenLane Benchmark](https://arxiv.org/abs/2203.11089) [[Notes](paper_notes/persformer.md)] [BEVNet, lane line]
 - [VectorMapNet: End-to-end Vectorized HD Map Learning](https://arxiv.org/abs/2206.08920) [[Notes](paper_notes/vectormapnet.md)] [BEVNet, LLD, Hang Zhao]
 - [PETR: Position Embedding Transformation for Multi-View 3D Object Detection](https://arxiv.org/abs/2203.05625) [[Notes](paper_notes/petr.md)] <kbd>ECCV 2022</kbd> [BEVNet]
 - [PETRv2: A Unified Framework for 3D Perception from Multi-Camera Images](https://arxiv.org/abs/2206.01256) [[Notes](paper_notes/petrv2.md)] [BEVNet, MegVii]
 - [M^2BEV: Multi-Camera Joint 3D Detection and Segmentation with Unified Birds-Eye View Representation](https://arxiv.org/abs/2204.05088) [[Notes](paper_notes/m2bev.md)] [BEVNet, nvidia]
-- [LaRa: Latents and Rays for Multi-Camera Bird's-Eye-View Semantic Segmentation](https://arxiv.org/abs/2206.13294) [Valeo]
+- [BEVDepth: Acquisition of Reliable Depth for Multi-view 3D Object Detection](https://arxiv.org/abs/2206.10092) [[Notes](paper_notes/bevdepth.md)] [BEVNet, NuScenes SOTA, Megvii]
 - [CVT: Cross-view Transformers for real-time Map-view Semantic Segmentation](https://arxiv.org/abs/2205.02833) [[Notes](paper_notes/cvt.md)] <kbd>CVPR 2022 oral</kbd> [UTAustin, Philipp]
+- [LaRa: Latents and Rays for Multi-Camera Bird's-Eye-View Semantic Segmentation](https://arxiv.org/abs/2206.13294) [Valeo]
 - [ImVoxelNet: Image to Voxels Projection for Monocular and Multi-View General-Purpose 3D Object Detection](https://arxiv.org/abs/2106.01178) <kbd>WACV 2022</kbd> [mono3D]
 - [Learning to Predict 3D Lane Shape and Camera Pose from a Single Image via Geometry Constraints](https://arxiv.org/abs/2112.15351) <kbd>AAAI 2022</kbd>
 - [Detecting Lane and Road Markings at A Distance with Perspective Transformer Layers](https://ieeexplore.ieee.org/document/9294383) <kbd>ICICN 2021</kbd> [BEVNet, lane line]
@@ -58,7 +59,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [BEVDet4D: Exploit Temporal Cues in Multi-camera 3D Object Detection](https://arxiv.org/abs/2203.17054) [[Notes](paper_notes/bevdet4d.md)] [BEVNet]
 - [BEVerse: Unified Perception and Prediction in Birds-Eye-View for Vision-Centric Autonomous Driving](https://arxiv.org/abs/2205.09743) [[Notes](paper_notes/beverse.md)] [Jiwen Lu, BEVNet, prediction]
 - [BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation](https://arxiv.org/abs/2205.13542) [[Notes](paper_notes/bevfusion.md)] [BEVNet, Han Song]
-- [BEVDepth: Acquisition of Reliable Depth for Multi-view 3D Object Detection](https://arxiv.org/abs/2206.10092) [[Notes](paper_notes/bevdepth.md)] [BEVNet, NuScenes SOTA, Megvii]
 - [BEVFormer++: Improving BEVFormer for 3D Camera-only Object Detection](https://storage.googleapis.com/waymo-uploads/files/research/3DCam/3DCam_BEVFormer.pdf) [Waymo open dataset challenge 1st place in mono3d]
 - [MTRA: 1st Place Solution for 2022 Waymo Open Dataset Challenge - Motion Prediction](https://storage.googleapis.com/waymo-uploads/files/research/MotionPred/MotionPrediction_MTRA.pdf) [Waymo open dataset challenge 1st place in motion prediction]
 - [BEVSegFormer: Bird's Eye View Semantic Segmentation From Arbitrary Camera Rigs](https://arxiv.org/abs/2203.04050) [BEVNet]
