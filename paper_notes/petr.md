@@ -29,4 +29,5 @@ The PETR idea resembles [CoordConv](coord_conv.md) and [CamConv](cam_conv.md), b
 - In Fig.3, the FC seems to stand for "fully convolutional". It is actually chosen to be 1x1 in the ablation study in Table5. **What is surprising is that if 3x3 is used instead of 1x1 in the feature blending, the network cannot converge.** --> The authors argue that this breaks the correspondence between 2D feature and 3D position. This is fishy.
 
 #### Notes
+- The attention-based visualization is very interesting. --> We should do this as well for our own experiment.
 - [Code on github](https://github.com/megvii-research/PETR)

@@ -41,6 +41,9 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [BEVDepth: Acquisition of Reliable Depth for Multi-view 3D Object Detection](https://arxiv.org/abs/2206.10092) [[Notes](paper_notes/bevdepth.md)] [BEVNet, NuScenes SOTA, Megvii]
 - [CVT: Cross-view Transformers for real-time Map-view Semantic Segmentation](https://arxiv.org/abs/2205.02833) [[Notes](paper_notes/cvt.md)] <kbd>CVPR 2022 oral</kbd> [UTAustin, Philipp]
 - [LaRa: Latents and Rays for Multi-Camera Bird's-Eye-View Semantic Segmentation](https://arxiv.org/abs/2206.13294) [Valeo]
+- [Wayformer: Motion Forecasting via Simple & Efficient Attention Networks](https://arxiv.org/abs/2207.05844) [[Notes](paper_notes/wayformer.md)] [Behavior prediction, Waymo]
+- [PolarDETR: Polar Parametrization for Vision-based Surround-View 3D Detection](https://arxiv.org/abs/2206.10965) [BEVNet]
+- [Exploring Geometric Consistency for Monocular 3D Object Detection](https://arxiv.org/abs/2104.05858) <kbd>CVPR 2022</kbd>
 - [ImVoxelNet: Image to Voxels Projection for Monocular and Multi-View General-Purpose 3D Object Detection](https://arxiv.org/abs/2106.01178) <kbd>WACV 2022</kbd> [mono3D]
 - [Learning to Predict 3D Lane Shape and Camera Pose from a Single Image via Geometry Constraints](https://arxiv.org/abs/2112.15351) <kbd>AAAI 2022</kbd>
 - [Detecting Lane and Road Markings at A Distance with Perspective Transformer Layers](https://ieeexplore.ieee.org/document/9294383) <kbd>ICICN 2021</kbd> [BEVNet, lane line]
