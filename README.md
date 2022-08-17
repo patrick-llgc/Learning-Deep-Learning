@@ -32,16 +32,10 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
 
-## 2022-07 (7)
-- [PersFormer: 3D Lane Detection via Perspective Transformer and the OpenLane Benchmark](https://arxiv.org/abs/2203.11089) [[Notes](paper_notes/persformer.md)] [BEVNet, lane line]
-- [VectorMapNet: End-to-end Vectorized HD Map Learning](https://arxiv.org/abs/2206.08920) [[Notes](paper_notes/vectormapnet.md)] [BEVNet, LLD, Hang Zhao]
-- [PETR: Position Embedding Transformation for Multi-View 3D Object Detection](https://arxiv.org/abs/2203.05625) [[Notes](paper_notes/petr.md)] <kbd>ECCV 2022</kbd> [BEVNet]
-- [PETRv2: A Unified Framework for 3D Perception from Multi-Camera Images](https://arxiv.org/abs/2206.01256) [[Notes](paper_notes/petrv2.md)] [BEVNet, MegVii]
-- [M^2BEV: Multi-Camera Joint 3D Detection and Segmentation with Unified Birds-Eye View Representation](https://arxiv.org/abs/2204.05088) [[Notes](paper_notes/m2bev.md)] [BEVNet, nvidia]
-- [BEVDepth: Acquisition of Reliable Depth for Multi-view 3D Object Detection](https://arxiv.org/abs/2206.10092) [[Notes](paper_notes/bevdepth.md)] [BEVNet, NuScenes SOTA, Megvii]
-- [CVT: Cross-view Transformers for real-time Map-view Semantic Segmentation](https://arxiv.org/abs/2205.02833) [[Notes](paper_notes/cvt.md)] <kbd>CVPR 2022 oral</kbd> [UTAustin, Philipp]
+## 2022-08 (1)
+- [HOME: Heatmap Output for future Motion Estimation](https://arxiv.org/abs/2105.10968) [[Notes](paper_notes/home.md)] [behavior prediction]
+- [Topology Preserving Local Road Network Estimation from Single Onboard Camera Image](https://arxiv.org/abs/2112.10155) <kbd>CVPR 2022</kbd> [STSU, Luc Van Gool]
 - [LaRa: Latents and Rays for Multi-Camera Bird's-Eye-View Semantic Segmentation](https://arxiv.org/abs/2206.13294) [Valeo]
-- [Wayformer: Motion Forecasting via Simple & Efficient Attention Networks](https://arxiv.org/abs/2207.05844) [[Notes](paper_notes/wayformer.md)] [Behavior prediction, Waymo]
 - [PolarDETR: Polar Parametrization for Vision-based Surround-View 3D Detection](https://arxiv.org/abs/2206.10965) [BEVNet]
 - [Exploring Geometric Consistency for Monocular 3D Object Detection](https://arxiv.org/abs/2104.05858) <kbd>CVPR 2022</kbd>
 - [ImVoxelNet: Image to Voxels Projection for Monocular and Multi-View General-Purpose 3D Object Detection](https://arxiv.org/abs/2106.01178) <kbd>WACV 2022</kbd> [mono3D]
@@ -52,6 +46,16 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [K-Lane: Lidar Lane Dataset and Benchmark for Urban Roads and Highways](https://arxiv.org/abs/2110.11048) [lane line dataset]
 - [UVTR: Unifying Voxel-based Representation with Transformer for 3D Object Detection](https://arxiv.org/abs/2206.00630) [BEVFusion, Megvii, BEVNet, camera + lidar]
 - [Robust Monocular 3D Lane Detection With Dual Attention](https://ieeexplore.ieee.org/abstract/document/9506296) <kbd>ICIP 2021</kbd>
+
+## 2022-07 (8)
+- [PersFormer: 3D Lane Detection via Perspective Transformer and the OpenLane Benchmark](https://arxiv.org/abs/2203.11089) [[Notes](paper_notes/persformer.md)] [BEVNet, lane line]
+- [VectorMapNet: End-to-end Vectorized HD Map Learning](https://arxiv.org/abs/2206.08920) [[Notes](paper_notes/vectormapnet.md)] [BEVNet, LLD, Hang Zhao]
+- [PETR: Position Embedding Transformation for Multi-View 3D Object Detection](https://arxiv.org/abs/2203.05625) [[Notes](paper_notes/petr.md)] <kbd>ECCV 2022</kbd> [BEVNet]
+- [PETRv2: A Unified Framework for 3D Perception from Multi-Camera Images](https://arxiv.org/abs/2206.01256) [[Notes](paper_notes/petrv2.md)] [BEVNet, MegVii]
+- [M^2BEV: Multi-Camera Joint 3D Detection and Segmentation with Unified Birds-Eye View Representation](https://arxiv.org/abs/2204.05088) [[Notes](paper_notes/m2bev.md)] [BEVNet, nvidia]
+- [BEVDepth: Acquisition of Reliable Depth for Multi-view 3D Object Detection](https://arxiv.org/abs/2206.10092) [[Notes](paper_notes/bevdepth.md)] [BEVNet, NuScenes SOTA, Megvii]
+- [CVT: Cross-view Transformers for real-time Map-view Semantic Segmentation](https://arxiv.org/abs/2205.02833) [[Notes](paper_notes/cvt.md)] <kbd>CVPR 2022 oral</kbd> [UTAustin, Philipp]
+- [Wayformer: Motion Forecasting via Simple & Efficient Attention Networks](https://arxiv.org/abs/2207.05844) [[Notes](paper_notes/wayformer.md)] [Behavior prediction, Waymo]
 - [LETR: Line Segment Detection Using Transformers without Edges](https://arxiv.org/abs/2101.01909) <kbd>CVPR 2021 oral</kbd>
 - [HDMapGen: A Hierarchical Graph Generative Model of High Definition Maps](https://openaccess.thecvf.com/content/CVPR2021/papers/Mi_HDMapGen_A_Hierarchical_Graph_Generative_Model_of_High_Definition_Maps_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd> [HD mapping]
 - [SketchRNN: A Neural Representation of Sketch Drawings](https://arxiv.org/abs/1704.03477) [David Ha]

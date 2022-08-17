@@ -1,6 +1,6 @@
 # [Paper Title](link_to_paper)
 
-_July 2022_
+_August 2022_
 
 tl;dr: Summary of the main idea.
 
