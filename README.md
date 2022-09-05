@@ -31,18 +31,19 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2022-09 (1)
+## 2022-09 (2)
 - [ViP3D: End-to-end Visual Trajectory Prediction via 3D Agent Queries](https://arxiv.org/abs/2208.01582) [[Notes](paper_notes/vip3d.md)] [BEV, perception + prediction, Hang Zhao]
+- [MapTR: Structured Modeling and Learning for Online Vectorized HD Map Construction](https://arxiv.org/abs/2208.14437) [[Notes](paper_notes/maptr.md)] [Horizon, BEVNet]
 - [StopNet: Scalable Trajectory and Occupancy Prediction for Urban Autonomous Driving](https://arxiv.org/abs/2206.00991) <kbd>ICRA 2022</kbd>
 - [MOTR: End-to-End Multiple-Object Tracking with Transformer](https://arxiv.org/abs/2105.03247) <kbd>ECCV 2022</kbd> [Megvii, MOT]
 - [Trajectory Forecasting from Detection with Uncertainty-Aware Motion Encoding](https://arxiv.org/abs/2202.01478) [Ouyang Wanli]
+- [Vision-based Uneven BEV Representation Learning with Polar Rasterization and Surface Estimation](https://arxiv.org/abs/2207.01878) [BEVNet, polar]
 - [MUTR3D: A Multi-camera Tracking Framework via 3D-to-2D Queries](https://arxiv.org/abs/2205.00613) [BEVNet, tracking] <kbd>CVPR 2022 workshop</kbd> [Hang Zhao]
 - [ST-P3: End-to-end Vision-based Autonomous Driving via Spatial-Temporal Feature Learning](https://arxiv.org/abs/2207.07601) <kbd>ECCV 2022</kbd> [Hongyang Li]
 - [GKT: Efficient and Robust 2D-to-BEV Representation Learning via Geometry-guided Kernel Transformer](https://arxiv.org/abs/2206.04584) [BEVNet, Horizon]
-- [MapTR: Structured Modeling and Learning for Online Vectorized HD Map Construction](https://arxiv.org/abs/2208.14437) [Horizon, BEVNet]
 - [SiamRPN: High Performance Visual Tracking with Siamese Region Proposal Network](https://yan-junjie.github.io/publication/dblp-confcvpr-li-ywzh-18/dblp-confcvpr-li-ywzh-18.pdf) <kbd>CVPR 2018</kbd>
 - [Topology Preserving Local Road Network Estimation from Single Onboard Camera Image](https://arxiv.org/abs/2112.10155) <kbd>CVPR 2022</kbd> [STSU, Luc Van Gool]
-- [LaRa: Latents and Rays for Multi-Camera Bird's-Eye-View Semantic Segmentation](https://arxiv.org/abs/2206.13294) [Valeo]
+- [LaRa: Latents and Rays for Multi-Camera Bird's-Eye-View Semantic Segmentation](https://arxiv.org/abs/2206.13294) [Valeo, BEVNet, polar]
 - [PolarDETR: Polar Parametrization for Vision-based Surround-View 3D Detection](https://arxiv.org/abs/2206.10965) [BEVNet]
 - [Exploring Geometric Consistency for Monocular 3D Object Detection](https://arxiv.org/abs/2104.05858) <kbd>CVPR 2022</kbd>
 - [ImVoxelNet: Image to Voxels Projection for Monocular and Multi-View General-Purpose 3D Object Detection](https://arxiv.org/abs/2106.01178) <kbd>WACV 2022</kbd> [mono3D]
