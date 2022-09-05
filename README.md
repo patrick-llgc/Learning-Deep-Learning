@@ -34,6 +34,10 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 ## 2022-09 (1)
 - [ViP3D: End-to-end Visual Trajectory Prediction via 3D Agent Queries](https://arxiv.org/abs/2208.01582) [[Notes](paper_notes/vip3d.md)] [BEV, perception + prediction, Hang Zhao]
 - [StopNet: Scalable Trajectory and Occupancy Prediction for Urban Autonomous Driving](https://arxiv.org/abs/2206.00991) <kbd>ICRA 2022</kbd>
+- [MOTR: End-to-End Multiple-Object Tracking with Transformer](https://arxiv.org/abs/2105.03247) <kbd>ECCV 2022</kbd> [Megvii, MOT]
+- [Trajectory Forecasting from Detection with Uncertainty-Aware Motion Encoding](https://arxiv.org/abs/2202.01478) [Ouyang Wanli]
+- [MUTR3D: A Multi-camera Tracking Framework via 3D-to-2D Queries](https://arxiv.org/abs/2205.00613) [BEVNet, tracking] <kbd>CVPR 2022 workshop</kbd> [Hang Zhao]
+- [ST-P3: End-to-end Vision-based Autonomous Driving via Spatial-Temporal Feature Learning](https://arxiv.org/abs/2207.07601) <kbd>ECCV 2022</kbd> [Hongyang Li]
 - [GKT: Efficient and Robust 2D-to-BEV Representation Learning via Geometry-guided Kernel Transformer](https://arxiv.org/abs/2206.04584) [BEVNet, Horizon]
 - [MapTR: Structured Modeling and Learning for Online Vectorized HD Map Construction](https://arxiv.org/abs/2208.14437) [Horizon, BEVNet]
 - [SiamRPN: High Performance Visual Tracking with Siamese Region Proposal Network](https://yan-junjie.github.io/publication/dblp-confcvpr-li-ywzh-18/dblp-confcvpr-li-ywzh-18.pdf) <kbd>CVPR 2018</kbd>
@@ -73,7 +77,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [MVSTER: Epipolar Transformer for Efficient Multi-View Stereo](https://arxiv.org/abs/2204.07346) <kbd>ECCV 2022</bd>
 - [MOVEDepth: Crafting Monocular Cues and Velocity Guidance for Self-Supervised Multi-Frame Depth Learning](https://arxiv.org/abs/2208.09170) [MVS + monodepth]
 - [SurroundDepth: Entangling Surrounding Views for Self-Supervised Multi-Camera Depth Estimation](https://arxiv.org/abs/2204.03636)
-- [ST-P3: End-to-end Vision-based Autonomous Driving via Spatial-Temporal Feature Learning](https://arxiv.org/abs/2207.07601) <kbd>ECCV 2022</kbd>
+
 
 ## 2022-06 (3)
 - [BEVDet4D: Exploit Temporal Cues in Multi-camera 3D Object Detection](https://arxiv.org/abs/2203.17054) [[Notes](paper_notes/bevdet4d.md)] [BEVNet]
@@ -93,7 +97,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Time3D: End-to-End Joint Monocular 3D Object Detection and Tracking for Autonomous Driving](https://arxiv.org/abs/2205.14882)
 - [cosFormer: Rethinking Softmax in Attention](https://arxiv.org/abs/2202.08791) <kbd>ICLR 2022</kbd>
 - [StretchBEV: Stretching Future Instance Prediction Spatially and Temporally](https://arxiv.org/abs/2203.13641) [BEVNet, prediction]
-- [MUTR3D: A Multi-camera Tracking Framework via 3D-to-2D Queries](https://arxiv.org/abs/2205.00613) [BEVNet, tracking] <kbd>CVPR 2022 workshop</kbd>
 - [Scene Representation in Bird’s-Eye View from Surrounding Cameras with Transformers](https://openaccess.thecvf.com/content/CVPR2022W/WAD/papers/Zhao_Scene_Representation_in_Birds-Eye_View_From_Surrounding_Cameras_With_Transformers_CVPRW_2022_paper.pdf) [BEVNet, LLD] <kbd>CVPR 2022 workshop</kbd>
 - [Multi-Frame Self-Supervised Depth with Transformers](https://arxiv.org/abs/2204.07616) <kbd>CVPR 2022</kbd>
 - [It's About Time: Analog Clock Reading in the Wild](https://arxiv.org/abs/2111.09162) <kbd>CVPR 2022</kbd> [Andrew Zisserman]
@@ -112,7 +115,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 
 
 ## 2022-03 (1)
-- [BEVFormer: Learning Bird's-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers](https://arxiv.org/abs/2203.17270) [[Notes](paper_notes/bevformer.md)] [BEVNet]
+- [BEVFormer: Learning Bird's-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers](https://arxiv.org/abs/2203.17270) [[Notes](paper_notes/bevformer.md)] [BEVNet, Hongyang Li, Jifeng Dai]
 
 ## 2022-02 (1)
 - [TNT: Target-driveN Trajectory Prediction](https://arxiv.org/abs/2008.08294) [[Notes](paper_notes/tnt.md)] <kbd>CoRL 2020</kbd> [prediction, Waymo, Hang Zhao]

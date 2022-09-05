@@ -11,6 +11,8 @@ Mono3D methods have to rely on per-image and global NMS to remove redundant bbox
 
 The work is further improved with 3D positional embedding by [PETR](petr.md) and [PETRv2](petrv2.md).
 
+> The extension of [DETR3D](detr3d.md) to temporal domain is relatively straightforwad, using the 3D reference point, transforming to the past timestamps using ego motion, and then project to the images from the past timestamps.
+
 #### Key ideas
 - Iterative refinement of object queries.
 	- The iterative refinement process is similar to [Sparse RCNN](sparse_rcnn.md) and Cascade RCNN. 

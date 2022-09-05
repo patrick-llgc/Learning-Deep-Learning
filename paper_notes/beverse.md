@@ -5,15 +5,15 @@ _June 2022_
 tl;dr: One-stage, multi-task BEV perception and prediction.
 
 #### Overall impression
-The paper combines the recent progress in static BEV perception (such as [HDMapNet](hdmapnet.md)), dynamic BEV perception ([BEVDet](bevdet.md), [BEVFormer](bevformer.md)) and motion prediction ([FIERY](fiery.md)). The motion prediction part largely inherits the spirits of [FIERY](fiery.md).
+This paper combines the recent progress in static BEV perception (such as [HDMapNet](hdmapnet.md)), dynamic BEV perception ([BEVDet](bevdet.md), [BEVFormer](bevformer.md)) and motion prediction ([FIERY](fiery.md)). The motion prediction part largely inherits the spirits of [FIERY](fiery.md).
 
-The paper claims to be the 1st paper that performs joint perception and motion prediction, but actually [FIERY](fiery.md) should be. [BEVerse](beverse.md) also added static perception to FIERY. The joint perception and prediction idea has also been exploited in lidar perception field, such as [FAF](faf.md).
+This paper claims to be the 1st paper that performs joint perception and motion prediction, but actually [FIERY](fiery.md) should be. [BEVerse](beverse.md) also added static perception to FIERY. The joint perception and prediction idea has also been exploited in lidar perception field, such as [FAF](faf.md).
 
 The paper's major contribution seems to be the iterative flow for efficient future prediction. Yet the recurrent roll-out method of future prediction is unfriendly to realtime performance in production. Transformer-based method which can predict multimodal future waypoints all at once may be the way to go.
 
-Although BEVerse achieves highest NDS score, this mainly comes from the improved velocity estimation (reduced mAVE error). The mAP is actually worse than most BEV detection work (BEVDet, PETR). [BEVDet4D](bevdet4d.md) actually achieves better performance in object detection in both mAP and NDS.
+Although BEVerse achieves highest NDS score, this mainly comes from the improved velocity estimation (reduced mAVE error). The mAP is actually worse than most BEV detection work (BEVDet, PETR). [BEVDet4D](bevdet4d.md) achieves better performance in object detection in both mAP and NDS.
 
-The paper reminds me of [BEVDet](bevdet.md), which exhibits great engineering skills with great results from existing technical components. Also the writing of the manuscript can be improved. 
+This paper reminds me of [BEVDet](bevdet.md), which exhibits great engineering skills with great results from existing technical components, but the writing of the manuscript leaves much to be improved. 
 
 
 #### Key ideas
