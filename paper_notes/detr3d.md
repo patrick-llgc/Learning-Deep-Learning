@@ -16,7 +16,7 @@ The work is further improved with 3D positional embedding by [PETR](petr.md) and
 #### Key ideas
 - Iterative refinement of object queries.
 	- The iterative refinement process is similar to [Sparse RCNN](sparse_rcnn.md) and Cascade RCNN. 
-	- Predicts the bbox centers, project centers back to images with IPM, and sample feature points with bilinear interpolation and integrate them into queries.
+	- Predicts the bbox centers (decoded from queries), project centers back to images with IPM, and sample feature points with bilinear interpolation and integrate them into queries.
 	- It also works with only a single pass, but with iterative refinement the results gets better. L=6 in this paper. 
 - Performance are much better in overlap regions where objects are more likely to be cut-off.
 
