@@ -26,6 +26,7 @@ There are many facets of motion forecasting (behavior prediction). This can be c
 - There are two distinctive concepts both denoted as multi-modality in motion forecasting. This also makes modeling for scene understanding challenging. --> Both can be translated as 多模态 in Chinese, which is also unfortunately inconvenient.
 	- Input multimodality: the input to motion forecasting network is **heterogeneous**, such as road geometry, lane connectivity, time-varying traffic light state, and history of a dynamic set of agents and their interactions. 
 	- Output multimodality: the output of motion forecasting need to be **diverse** to reflect many possible underlying intents of the traffic agents, such as going straight, turning right, or making u-turns. 
+	- Output follows [multipath](multipath.md) and [multipath++](multipath++.md), regression based.
 - Overall structure
 	- The scene encoder is one or more attention encoders that summarize the driving space.
 	- The decoder is a stack of standard transformer cross attention blocks, learned initial queries are fed in, and then cross-attended with the scene encoding to produce trajectories.
