@@ -13,7 +13,7 @@ Previous work focuses on semantic segmentation, but this paper not only focuses 
 
 The output results actually does not look super impressive, but this provides a brand new direction for BEV perception.
 
-The idea was significantly improved by [VectorMapNet](vectormapnet.md).
+The idea was significantly improved by [VectorMapNet](vectormapnet.md). This idea was developed further by the authors in CVPR 2022 in [TPLR: Topology Preserving Local Road Network Estimation from Single Onboard Camera Image](https://arxiv.org/abs/2112.10155) <kbd>CVPR 2022</kbd> [STSU, Luc Van Gool].
 
 #### Key ideas
 - [DETR](detr.md) uses two sets of query vectors, one set for centerlines and one for objects.

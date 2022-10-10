@@ -31,6 +31,9 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
+## 2022-10 (1)
+- [Delving into the devils of bird's eye view perception]() [[Notes](paper_notes/delving_bev.md)] [PJLab]
+
 ## 2022-09 (3)
 - [ViP3D: End-to-end Visual Trajectory Prediction via 3D Agent Queries](https://arxiv.org/abs/2208.01582) [[Notes](paper_notes/vip3d.md)] [BEV, perception + prediction, Hang Zhao]
 - [MapTR: Structured Modeling and Learning for Online Vectorized HD Map Construction](https://arxiv.org/abs/2208.14437) [[Notes](paper_notes/maptr.md)] [Horizon, BEVNet]
@@ -47,7 +50,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [ST-P3: End-to-end Vision-based Autonomous Driving via Spatial-Temporal Feature Learning](https://arxiv.org/abs/2207.07601) <kbd>ECCV 2022</kbd> [Hongyang Li]
 - [GKT: Efficient and Robust 2D-to-BEV Representation Learning via Geometry-guided Kernel Transformer](https://arxiv.org/abs/2206.04584) [BEVNet, Horizon]
 - [SiamRPN: High Performance Visual Tracking with Siamese Region Proposal Network](https://yan-junjie.github.io/publication/dblp-confcvpr-li-ywzh-18/dblp-confcvpr-li-ywzh-18.pdf) <kbd>CVPR 2018</kbd>
-- [Topology Preserving Local Road Network Estimation from Single Onboard Camera Image](https://arxiv.org/abs/2112.10155) <kbd>CVPR 2022</kbd> [STSU, Luc Van Gool]
+- [TPLR: Topology Preserving Local Road Network Estimation from Single Onboard Camera Image](https://arxiv.org/abs/2112.10155) <kbd>CVPR 2022</kbd> [STSU, Luc Van Gool]
 - [LaRa: Latents and Rays for Multi-Camera Bird's-Eye-View Semantic Segmentation](https://arxiv.org/abs/2206.13294) [Valeo, BEVNet, polar]
 - [PolarDETR: Polar Parametrization for Vision-based Surround-View 3D Detection](https://arxiv.org/abs/2206.10965) [BEVNet]
 - [Exploring Geometric Consistency for Monocular 3D Object Detection](https://arxiv.org/abs/2104.05858) <kbd>CVPR 2022</kbd>
@@ -60,7 +63,10 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [UVTR: Unifying Voxel-based Representation with Transformer for 3D Object Detection](https://arxiv.org/abs/2206.00630) [BEVFusion, Megvii, BEVNet, camera + lidar]
 - [Robust Monocular 3D Lane Detection With Dual Attention](https://ieeexplore.ieee.org/abstract/document/9506296) <kbd>ICIP 2021</kbd>
 - [OcclusionFusion: Occlusion-aware Motion Estimation for Real-time Dynamic 3D Reconstruction](https://arxiv.org/abs/2203.07977) <kbd>CVPR 2022</kbd>
-
+- [MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer](https://arxiv.org/abs/2110.02178) <kbd>ICLR 2022</kbd> [lightweight Transformers]
+- [XFormer: Lightweight Vision Transformer with Cross Feature Attention](https://arxiv.org/abs/2207.07268) [Samsung]
+- [CenterFormer: Center-based Transformer for 3D Object Detection](https://arxiv.org/abs/2209.05588) <kbd>ECCV 2022 oral</kbd> [TuSimple]
+- [LidarMultiNet: Towards a Unified Multi-task Network for LiDAR Perception](https://arxiv.org/abs/2209.09385) [2022 Waymo Open Dataset, TuSimple]
 
 ## 2022-08 (1)
 - [HOME: Heatmap Output for future Motion Estimation](https://arxiv.org/abs/2105.10968) [[Notes](paper_notes/home.md)] <kbd>ITSC 2021</kbd> [behavior prediction, Huawei Paris]
