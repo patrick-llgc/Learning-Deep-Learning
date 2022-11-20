@@ -31,15 +31,40 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2022-10 (1)
-- [Delving into the devils of bird's eye view perception]() [[Notes](paper_notes/delving_bev.md)] [PJLab]
-
-## 2022-09 (3)
-- [ViP3D: End-to-end Visual Trajectory Prediction via 3D Agent Queries](https://arxiv.org/abs/2208.01582) [[Notes](paper_notes/vip3d.md)] [BEV, perception + prediction, Hang Zhao]
-- [MapTR: Structured Modeling and Learning for Online Vectorized HD Map Construction](https://arxiv.org/abs/2208.14437) [[Notes](paper_notes/maptr.md)] [Horizon, BEVNet]
-- [StopNet: Scalable Trajectory and Occupancy Prediction for Urban Autonomous Driving](https://arxiv.org/abs/2206.00991) <kbd>ICRA 2022</kbd>
-- [MOTR: End-to-End Multiple-Object Tracking with Transformer](https://arxiv.org/abs/2105.03247) <kbd>ECCV 2022</kbd> [Megvii, MOT]
-- [Anchor DETR: Query Design for Transformer-Based Object Detection](https://arxiv.org/abs/2109.07107) [[Notes](paper_notes/anchor_detr.md)] <kbd>AAAI 2022</kbd> [Megvii]
+## 2022-11 (0)
+- [M2I: From Factored Marginal Trajectory Prediction to Interactive Prediction](https://arxiv.org/abs/2202.11884) [[Notes](paper_notes/m2i.md)] <kbd>CVPR 2022</kbd>
+- [Identifying Driver Interactions via Conditional Behavior Prediction](https://arxiv.org/abs/2104.09959) <kbd>ICRA 2021</kbd> [Waymo]
+- [Trajectron++: Dynamically-Feasible Trajectory Forecasting With Heterogeneous Data](https://arxiv.org/abs/2001.03093) <kbd>ECCV 2020</kbd>
+- [TPNet: Trajectory Proposal Network for Motion Prediction](https://arxiv.org/abs/2004.12255) <kbd>CVPR 2020</kbd>
+- [GOHOME: Graph-Oriented Heatmap Output for future Motion Estimation](https://arxiv.org/abs/2109.01827)
+- [PECNet: It Is Not the Journey but the Destination: Endpoint Conditioned Trajectory Prediction](https://arxiv.org/abs/2004.02025) <kbd>ECCV 2020 oral</kbd>
+- [From Goals, Waypoints & Paths To Long Term Human Trajectory Forecasting](https://arxiv.org/abs/2012.01526) <kbd>ICCV 2019</kbd>
+- [PRECOG: PREdiction Conditioned On Goals in Visual Multi-Agent Settings](https://arxiv.org/abs/1905.01296) <kbd>ICCV 2019</kbd>
+- [MultiPath: Multiple Probabilistic Anchor Trajectory Hypotheses for Behavior Prediction](https://arxiv.org/abs/1910.05449) <kbd>CoRL 2019</kbd>
+- [LaPred: Lane-Aware Prediction of Multi-Modal Future Trajectories of Dynamic Agents](https://arxiv.org/abs/2104.00249) <kbd>CVPR 2021</kbd>
+- [PRIME: Learning to Predict Vehicle Trajectories with Model-based Planning](https://arxiv.org/abs/2103.04027) <kbd>CoRL 2021<kbd>
+- [A Flexible and Explainable Vehicle Motion Prediction and Inference Framework Combining Semi-Supervised AOG and ST-LSTM](https://dl.acm.org/doi/abs/10.1109/TITS.2020.3016304) <kbd>TITS 2020</kbd>
+- [Multi-Modal Trajectory Prediction of Surrounding Vehicles with Maneuver based LSTMs](https://arxiv.org/abs/1805.05499) <kbd>IV 2018</kbd> [Trivedi]
+- [HYPER: Learned Hybrid Trajectory Prediction via Factored Inference and Adaptive Sampling](https://arxiv.org/abs/2110.02344) <kbd>ICRA 2022</kbd>
+- [Trajectory Prediction with Linguistic Representations](https://arxiv.org/abs/2110.09741) <kbd>ICRA 2022</kbd>
+- [What-If Motion Prediction for Autonomous Driving](https://arxiv.org/abs/2008.10587)
+- [End-to-end Contextual Perception and Prediction with Interaction Transformer](https://arxiv.org/abs/2008.05927) <kbd>IROS 2020</kbd> [Auxiliary collision loss, scene compliant pred]
+- [SafeCritic: Collision-Aware Trajectory Prediction](https://arxiv.org/abs/1910.06673) <kbd>BMVC 2019</kbd> [IRL, scene compliant pred]
+- [Large Scale Interactive Motion Forecasting for Autonomous Driving: The Waymo Open Motion Dataset](https://arxiv.org/abs/2104.10133) <kbd>ICCV 2021</kbd> [Waymo]
+- [Interaction-Based Trajectory Prediction Over a Hybrid Traffic Graph](https://arxiv.org/abs/2009.12916) <kbd>IROS 2020</kbd>
+- [Joint Interaction and Trajectory Prediction for Autonomous Driving using Graph Neural Networks](https://arxiv.org/abs/1912.07882) <kbd>NeurIPS 2019 workshop</kbd>
+- [Fast Risk Assessment for Autonomous Vehicles Using Learned Models of Agent Futures](https://arxiv.org/abs/2005.13458) <kbd>Robotics: science and systems 2020</kbd>
+- [Monocular 3D Object Detection: An Extrinsic Parameter Free Approach](https://arxiv.org/abs/2106.15796) <kbd>CVPR 2021</kbd> [PJLab]
+- [UniFormer: Unified Multi-view Fusion Transformer for Spatial-Temporal Representation in Bird's-Eye-View](https://arxiv.org/abs/2207.08536) [BEVFormer, BEVNet, Temporal]
+- [GitNet: geometric prior-baesd transformation for birds yee view segmentation]()
+- [WBF: weighted box fusion: ensembling boxes from differnt object detection modules]()
+- [NNI: auto parameter finding algorithm]()
+- [BEVFormer++: Improving BEVFormer for 3D Camera-only Object Detection](https://storage.googleapis.com/waymo-uploads/files/research/3DCam/3DCam_BEVFormer.pdf) [Waymo open dataset challenge 1st place in mono3d]
+- [LET-3D-AP: Longitudinal Error Tolerant 3D Average Precision for Camera-Only 3D Detection](https://arxiv.org/abs/2206.07705) [Waymo open dataset challenge official metric]
+- [High-Level Interpretation of Urban Road Maps Fusing Deep Learning-Based Pixelwise Scene Segmentation and Digital Navigation Maps](https://pdfs.semanticscholar.org/44ac/01c0d356f22e7ee883f8e4ac2cccf199f68d.pdf) <kbd>Journal of Advanced Transportation 2018</kbd>
+- [A Hybrid Vision-Map Method for Urban Road Detection](https://downloads.hindawi.com/journals/jat/2017/7090549.pdf) <kbd>Journal of Advanced Transportation 2017</kbd>
+- [Terminology and Analysis of Map Deviations in Urban Domains: Towards Dependability for HD Maps in Automated Vehicles](https://www.researchgate.net/profile/Christopher-Plachetka/publication/348367176_Terminology_and_Analysis_of_Map_Deviations_in_Urban_Domains_Towards_Dependability_for_HD_Maps_in_Automated_Vehicles/links/607d523f907dcf667babc06b/Terminology-and-Analysis-of-Map-Deviations-in-Urban-Domains-Towards-Dependability-for-HD-Maps-in-Automated-Vehicles.pdf) <kbd>IV 2020</kbd>
+- [TIME WILL TELL: NEW OUTLOOKS AND A BASELINE FOR TEMPORAL MULTI-VIEW 3D OBJECT DETECTION](https://arxiv.org/abs/2210.02443)
 - [Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152) <kbd>ICCV 2021</kbd>
 - [DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR](https://arxiv.org/abs/2201.12329) <kbd>ICLR 2022</kbd>
 - [DN-DETR: Accelerate DETR Training by Introducing Query DeNoising](https://arxiv.org/abs/2203.01305) <kbd>CVPR 2022</kbd>
@@ -68,6 +93,18 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [CenterFormer: Center-based Transformer for 3D Object Detection](https://arxiv.org/abs/2209.05588) <kbd>ECCV 2022 oral</kbd> [TuSimple]
 - [LidarMultiNet: Towards a Unified Multi-task Network for LiDAR Perception](https://arxiv.org/abs/2209.09385) [2022 Waymo Open Dataset, TuSimple]
 
+
+## 2022-10 (1)
+- [Delving into the Devils of Bird's-eye-view Perception: A Review, Evaluation and Recipe](https://arxiv.org/abs/2209.05324) [[Notes](paper_notes/delving_bev.md)] [PJLab]
+
+## 2022-09 (3)
+- [ViP3D: End-to-end Visual Trajectory Prediction via 3D Agent Queries](https://arxiv.org/abs/2208.01582) [[Notes](paper_notes/vip3d.md)] [BEV, perception + prediction, Hang Zhao]
+- [MapTR: Structured Modeling and Learning for Online Vectorized HD Map Construction](https://arxiv.org/abs/2208.14437) [[Notes](paper_notes/maptr.md)] [Horizon, BEVNet]
+- [StopNet: Scalable Trajectory and Occupancy Prediction for Urban Autonomous Driving](https://arxiv.org/abs/2206.00991) <kbd>ICRA 2022</kbd>
+- [MOTR: End-to-End Multiple-Object Tracking with Transformer](https://arxiv.org/abs/2105.03247) <kbd>ECCV 2022</kbd> [Megvii, MOT]
+- [Anchor DETR: Query Design for Transformer-Based Object Detection](https://arxiv.org/abs/2109.07107) [[Notes](paper_notes/anchor_detr.md)] <kbd>AAAI 2022</kbd> [Megvii]
+
+
 ## 2022-08 (1)
 - [HOME: Heatmap Output for future Motion Estimation](https://arxiv.org/abs/2105.10968) [[Notes](paper_notes/home.md)] <kbd>ITSC 2021</kbd> [behavior prediction, Huawei Paris]
 
@@ -95,7 +132,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [BEVDet4D: Exploit Temporal Cues in Multi-camera 3D Object Detection](https://arxiv.org/abs/2203.17054) [[Notes](paper_notes/bevdet4d.md)] [BEVNet]
 - [BEVerse: Unified Perception and Prediction in Birds-Eye-View for Vision-Centric Autonomous Driving](https://arxiv.org/abs/2205.09743) [[Notes](paper_notes/beverse.md)] [Jiwen Lu, BEVNet, perception + prediction]
 - [BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation](https://arxiv.org/abs/2205.13542) [[Notes](paper_notes/bevfusion.md)] [BEVNet, Han Song]
-- [BEVFormer++: Improving BEVFormer for 3D Camera-only Object Detection](https://storage.googleapis.com/waymo-uploads/files/research/3DCam/3DCam_BEVFormer.pdf) [Waymo open dataset challenge 1st place in mono3d]
 - [MTRA: 1st Place Solution for 2022 Waymo Open Dataset Challenge - Motion Prediction](https://storage.googleapis.com/waymo-uploads/files/research/MotionPred/MotionPrediction_MTRA.pdf) [Waymo open dataset challenge 1st place in motion prediction]
 - [BEVSegFormer: Bird's Eye View Semantic Segmentation From Arbitrary Camera Rigs](https://arxiv.org/abs/2203.04050) [BEVNet]
 - [Panoptic SegFormer: Delving Deeper into Panoptic Segmentation with Transformers](https://arxiv.org/abs/2109.03814) <kbd>CVPR 2022</kbd> [nVidia]
@@ -120,7 +156,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Reconstruct from Top View: A 3D Lane Detection Approach based on Geometry Structure Prior](https://openaccess.thecvf.com/content/CVPR2022W/WAD/papers/Li_Reconstruct_From_Top_View_A_3D_Lane_Detection_Approach_Based_CVPRW_2022_paper.pdf) <kbd>CVPR 2022 workshop</kbd>
 - [RIDDLE: Lidar Data Compression with Range Image Deep Delta Encoding](https://arxiv.org/abs/2206.01738) <kbd>CVPR 2022</kbd> [Waymo, Charles Qi]
 - [Occupancy Flow Fields for Motion Forecasting in Autonomous Driving](https://arxiv.org/abs/2203.03875) <kbd>RAL 2022</kbd> [Waymo occupancy flow challenge]
-- [LET-3D-AP: Longitudinal Error Tolerant 3D Average Precision for Camera-Only 3D Detection](https://arxiv.org/abs/2206.07705) [Waymo open dataset challenge official metric]
 - [Safe Local Motion Planning with Self-Supervised Freespace Forecasting](https://openaccess.thecvf.com/content/CVPR2021/papers/Hu_Safe_Local_Motion_Planning_With_Self-Supervised_Freespace_Forecasting_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd>
 - [数据闭环的核心 - Auto-labeling 方案分享](https://zhuanlan.zhihu.com/p/533907821)
 - [K-Lane: Lidar Lane Dataset and Benchmark for Urban Roads and Highways](https://arxiv.org/abs/2110.11048)
@@ -179,9 +214,9 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 ## 2021-12 (5)
 - [BN-FFN-BN: Leveraging Batch Normalization for Vision Transformers](https://openaccess.thecvf.com/content/ICCV2021W/NeurArch/papers/Yao_Leveraging_Batch_Normalization_for_Vision_Transformers_ICCVW_2021_paper.pdf) [[Notes](paper_notes/bn_ffn_bn.md)] <kbd>ICCVW 2021</kbd> [BN, transformers]
 - [PowerNorm: Rethinking Batch Normalization in Transformers](https://arxiv.org/abs/2003.07845) [[Notes](paper_notes/powernorm.md)] <kbd>ICML 2020</kbd> [BN, transformers]
-- [MultiPath++: Efficient Information Fusion and Trajectory Aggregation for Behavior Prediction](https://arxiv.org/abs/2111.14973) [[Notes](paper_notes/multipath++.md)] [Waymo, behavior prediction]
+- [MultiPath++: Efficient Information Fusion and Trajectory Aggregation for Behavior Prediction](https://arxiv.org/abs/2111.14973) [[Notes](paper_notes/multipath++.md)] <kbd>ICRA 2022</kbd> [Waymo, behavior prediction]
 - [BEVDet: High-performance Multi-camera 3D Object Detection in Bird-Eye-View](https://arxiv.org/abs/2112.11790) [[Notes](paper_note/bevdet.md)]
-- [Translating Images into Maps](https://arxiv.org/abs/2110.00966) [[Notes](paper_notes/translating_images_to_maps.md)] [BEVNet, transformers]
+- [Translating Images into Maps](https://arxiv.org/abs/2110.00966) [[Notes](paper_notes/translating_images_to_maps.md)] <kbd>ICRA 2022</kbd> [BEVNet, transformers]
 
 ## 2021-11 (4)
 - [DETR3D: 3D Object Detection from Multi-view Images via 3D-to-2D Queries](https://arxiv.org/abs/2110.06922) [[Notes](paper_notes/detr3d.md)] <kbd>CoRL 2021</kbd> [BEVNet, transformers]
