@@ -33,6 +33,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 
 ## 2023-02 (1)
 - [Will we run out of data? An analysis of the limits of scaling datasets in Machine Learning](https://arxiv.org/abs/2211.04325) [[Notes](paper_notes/out_of_data.md)] [Epoch.ai industry report]
+- [Codex: Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374) [[Notes](paper_notes/codex.md)] [OpenAI]
 
 ## 2023-01 (1)
 - [PPGeo: Policy Pre-training for End-to-end Autonomous Driving via Self-supervised Geometric Modeling](https://arxiv.org/abs/2301.01006) [[Notes](paper_notes/ppgeo.md)] <kbd>ICLR 2023</kbd>
