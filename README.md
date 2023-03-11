@@ -31,16 +31,30 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
+
+## 2023-03 (1)
+- [OpenOccupancy: A Large Scale Benchmark for Surrounding Semantic Occupancy Perception](https://arxiv.org/abs/2303.03991) [[Notes](paper_notes/openoccupancy.md)] [Jiwen Lu]
+- [Point Cloud Forecasting as a Proxy for 4D Occupancy Forecasting](https://arxiv.org/abs/2302.13130)
+- [HDGT: Heterogeneous Driving Graph Transformer for Multi-Agent Trajectory Prediction via Scene Encoding](https://arxiv.org/abs/2205.09753)
+- [VoxFormer: Sparse Voxel Transformer for Camera-based 3D Semantic Scene Completion](https://arxiv.org/abs/2302.12251)
+- [MonoScene: Monocular 3D Semantic Scene Completion](https://arxiv.org/abs/2112.00726) <kbd>CVPR 2022</kbd>
+- [MTR: Motion Transformer with Global Intention Localization and Local Movement Refinement](Motion Transformer with Global Intention Localization and Local Movement Refinement) <kbd>NeurIPS 2022</kbd>
+- [Occupancy Networks: Learning 3D Reconstruction in Function Space](https://arxiv.org/abs/1812.03828) <kbd>CVPR 2019</kbd> [Andreas Geiger]
+- [UVTR: Unifying Voxel-based Representation with Transformer for 3D Object Detection](https://arxiv.org/abs/2206.00630) [BEVFusion, Megvii, BEVNet, camera + lidar]
+- [Don't Use Large Mini-Batches, Use Local SGD](https://arxiv.org/abs/1808.07217) <kbd>ICLR 2020</kbd>
+- [Grokking: Generalization beyond Overfitting on small algorithmic datasets](https://arxiv.org/abs/2201.02177)
+- [Progress measures for grokking via mechanistic interpretability]()
+- [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530) <kbd>ICLR 2017</kbd>
+- [Unifying Grokking and Double DescentDownload](https://openreview.net/forum?id=JqtHMZtqWm)
+- [GraspNet-1Billion: A Large-Scale Benchmark for General Object Grasping](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fang_GraspNet-1Billion_A_Large-Scale_Benchmark_for_General_Object_Grasping_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd> [Cewu Lu]
+- [Deep Interactive Motion Prediction and Planning: Playing Games with Motion Prediction Models](https://arxiv.org/abs/2204.02392) <kbd>L4DC 2022</kbd>
+- [Interactive Prediction and Planning for Autonomous Driving: from Algorithms to Fundamental Aspects](https://escholarship.org/uc/item/0vf4q2x1) [PhD thesis of Wei Zhan, 2019]
+
 ## 2023-02 (1)
 - [Will we run out of data? An analysis of the limits of scaling datasets in Machine Learning](https://arxiv.org/abs/2211.04325) [[Notes](paper_notes/out_of_data.md)] [Epoch.ai industry report]
 - [Codex: Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374) [[Notes](paper_notes/codex.md)] [OpenAI]
 - [InstructGPT: Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) [[Notes](paper_notes/instructgpt.md)] [OpenAI]
 - [TPVFormer: Tri-Perspective View for Vision-Based 3D Semantic Occupancy Prediction](https://arxiv.org/abs/2302.07817) [[Notes](paper_notes/tpvformer.md)] [Jiwen Lu]
-- [VoxFormer: Sparse Voxel Transformer for Camera-based 3D Semantic Scene Completion](https://arxiv.org/abs/2302.12251)
-- [MonoScene: Monocular 3D Semantic Scene Completion](https://arxiv.org/abs/2112.00726) <kbd>CVPR 2022</kbd>
-- [Occupancy Networks: Learning 3D Reconstruction in Function Space](https://arxiv.org/abs/1812.03828) <kbd>CVPR 2019</kbd> [Andreas Geiger]
-- [UVTR: Unifying Voxel-based Representation with Transformer for 3D Object Detection](https://arxiv.org/abs/2206.00630) [BEVFusion, Megvii, BEVNet, camera + lidar]
-
 
 
 ## 2023-01 (1)
