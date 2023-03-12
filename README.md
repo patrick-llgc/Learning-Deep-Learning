@@ -51,6 +51,8 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [GraspNet-1Billion: A Large-Scale Benchmark for General Object Grasping](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fang_GraspNet-1Billion_A_Large-Scale_Benchmark_for_General_Object_Grasping_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd> [Cewu Lu]
 - [Deep Interactive Motion Prediction and Planning: Playing Games with Motion Prediction Models](https://arxiv.org/abs/2204.02392) <kbd>L4DC 2022</kbd>
 - [Interactive Prediction and Planning for Autonomous Driving: from Algorithms to Fundamental Aspects](https://escholarship.org/uc/item/0vf4q2x1) [PhD thesis of Wei Zhan, 2019]
+- [Lyft1001: One Thousand and One Hours: Self-driving Motion Prediction Dataset](https://arxiv.org/abs/2006.14480) [Lyft Level 5, prediction dataset]
+
 
 ## 2023-02 (4)
 - [Will we run out of data? An analysis of the limits of scaling datasets in Machine Learning](https://arxiv.org/abs/2211.04325) [[Notes](paper_notes/out_of_data.md)] [Epoch.ai industry report]
@@ -59,7 +61,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [TPVFormer: Tri-Perspective View for Vision-Based 3D Semantic Occupancy Prediction](https://arxiv.org/abs/2302.07817) [[Notes](paper_notes/tpvformer.md)] [Occupancy Network, Jiwen Lu]
 
 
-## 2023-01 (1)
+## 2023-01 (2)
 - [PPGeo: Policy Pre-training for End-to-end Autonomous Driving via Self-supervised Geometric Modeling](https://arxiv.org/abs/2301.01006) [[Notes](paper_notes/ppgeo.md)] <kbd>ICLR 2023</kbd>
 - [nuPlan: A closed-loop ML-based planning benchmark for autonomous vehicles](https://arxiv.org/abs/2106.11810) [[Notes](paper_notes/nuplan.md)]
 - [CoBEVT: Cooperative Bird's Eye View Semantic Segmentation with Sparse Transformers](https://arxiv.org/abs/2207.02202) <kbd>CoRL 2022</kbd>
@@ -1081,7 +1083,6 @@ Traffic Sign and Light Detection](https://arxiv.org/abs/1806.07987) <kbd>IEEE CR
 - [A Survey on Neural Architecture Search](https://arxiv.org/pdf/1905.01392.pdf)
 - [Network pruning tutorial](https://jacobgil.github.io/deeplearning/pruning-deep-learning) (blog)
 - [GNN tutorial at CVPR 2019](https://xiaolonw.github.io/graphnn/)
-- [One Thousand and One Hours: Self-driving Motion Prediction Dataset](https://arxiv.org/abs/2006.14480) [Lyft Level 5, prediction dataset]
 - [Large Scale Interactive Motion Forecasting for Autonomous Driving : The Waymo Open Motion Dataset](https://arxiv.org/abs/2104.10133) [Waymo, prediction dataset]
 - [PANDA: A Gigapixel-level Human-centric Video Dataset](https://arxiv.org/abs/2003.04852) <kbd>CVPR 2020</kbd>
 - [WoodScape: A multi-task, multi-camera fisheye dataset for autonomous driving](https://openaccess.thecvf.com/content_ICCV_2019/papers/Yogamani_WoodScape_A_Multi-Task_Multi-Camera_Fisheye_Dataset_for_Autonomous_Driving_ICCV_2019_paper.pdf) <kbd>ICCV 2019</kbd> [Valeo]
