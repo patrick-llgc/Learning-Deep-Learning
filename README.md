@@ -32,11 +32,13 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
 
-## 2023-03 (1)
-- [OpenOccupancy: A Large Scale Benchmark for Surrounding Semantic Occupancy Perception](https://arxiv.org/abs/2303.03991) [[Notes](paper_notes/openoccupancy.md)] [Jiwen Lu]
+## 2023-03 (2)
+- [OpenOccupancy: A Large Scale Benchmark for Surrounding Semantic Occupancy Perception](https://arxiv.org/abs/2303.03991) [[Notes](paper_notes/openoccupancy.md)] [Occupancy Network, Jiwen Lu]
+- [VoxFormer: Sparse Voxel Transformer for Camera-based 3D Semantic Scene Completion](https://arxiv.org/abs/2302.12251) [[Note](paper_notes/voxformer.md)] [Occupancy Network, Nvidia]
+- [SSCNet: Semantic Scene Completion from a Single Depth Image](https://arxiv.org/abs/1611.08974) <kbd>CVPR 2017</kbd>
+- [3D Semantic Scene Completion: a Survey](https://arxiv.org/abs/2103.07466) <kbd>IJCV 2023</kbd>
 - [Point Cloud Forecasting as a Proxy for 4D Occupancy Forecasting](https://arxiv.org/abs/2302.13130)
 - [HDGT: Heterogeneous Driving Graph Transformer for Multi-Agent Trajectory Prediction via Scene Encoding](https://arxiv.org/abs/2205.09753)
-- [VoxFormer: Sparse Voxel Transformer for Camera-based 3D Semantic Scene Completion](https://arxiv.org/abs/2302.12251)
 - [MonoScene: Monocular 3D Semantic Scene Completion](https://arxiv.org/abs/2112.00726) <kbd>CVPR 2022</kbd>
 - [MTR: Motion Transformer with Global Intention Localization and Local Movement Refinement](Motion Transformer with Global Intention Localization and Local Movement Refinement) <kbd>NeurIPS 2022</kbd>
 - [Occupancy Networks: Learning 3D Reconstruction in Function Space](https://arxiv.org/abs/1812.03828) <kbd>CVPR 2019</kbd> [Andreas Geiger]
@@ -50,18 +52,18 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Deep Interactive Motion Prediction and Planning: Playing Games with Motion Prediction Models](https://arxiv.org/abs/2204.02392) <kbd>L4DC 2022</kbd>
 - [Interactive Prediction and Planning for Autonomous Driving: from Algorithms to Fundamental Aspects](https://escholarship.org/uc/item/0vf4q2x1) [PhD thesis of Wei Zhan, 2019]
 
-## 2023-02 (1)
+## 2023-02 (4)
 - [Will we run out of data? An analysis of the limits of scaling datasets in Machine Learning](https://arxiv.org/abs/2211.04325) [[Notes](paper_notes/out_of_data.md)] [Epoch.ai industry report]
-- [Codex: Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374) [[Notes](paper_notes/codex.md)] [OpenAI]
-- [InstructGPT: Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) [[Notes](paper_notes/instructgpt.md)] [OpenAI]
-- [TPVFormer: Tri-Perspective View for Vision-Based 3D Semantic Occupancy Prediction](https://arxiv.org/abs/2302.07817) [[Notes](paper_notes/tpvformer.md)] [Jiwen Lu]
+- [Codex: Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374) [[Notes](paper_notes/codex.md)] [GPT, OpenAI]
+- [InstructGPT: Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) [[Notes](paper_notes/instructgpt.md)] [GPT, OpenAI]
+- [TPVFormer: Tri-Perspective View for Vision-Based 3D Semantic Occupancy Prediction](https://arxiv.org/abs/2302.07817) [[Notes](paper_notes/tpvformer.md)] [Occupancy Network, Jiwen Lu]
 
 
 ## 2023-01 (1)
 - [PPGeo: Policy Pre-training for End-to-end Autonomous Driving via Self-supervised Geometric Modeling](https://arxiv.org/abs/2301.01006) [[Notes](paper_notes/ppgeo.md)] <kbd>ICLR 2023</kbd>
 - [nuPlan: A closed-loop ML-based planning benchmark for autonomous vehicles](https://arxiv.org/abs/2106.11810) [[Notes](paper_notes/nuplan.md)]
 - [CoBEVT: Cooperative Bird's Eye View Semantic Segmentation with Sparse Transformers](https://arxiv.org/abs/2207.02202) <kbd>CoRL 2022</kbd>
-- [BEVFormer v2: Adapting Modern Image Backbones to Bird's-Eye-View Recognition via Perspective Supervision](https://arxiv.org/abs/2211.10439) [Jifeng Dai]
+- [BEVFormer v2: Adapting Modern Image Backbones to Bird's-Eye-View Recognition via Perspective Supervision](https://arxiv.org/abs/2211.10439) [BEVNet, Jifeng Dai]
 - [Fast-BEV: Towards Real-time On-vehicle Bird’s-Eye View Perception](https://ml4ad.github.io/files/papers2022/Fast-BEV:%20Towards%20Real-time%20On-vehicle%20Bird's-Eye%20View%20Perception.pdf) <kbd>NeurIPS 2022</kbd>
 - [Traj++: Human Trajectory Forecasting in Crowds: A Deep Learning Perspective](https://arxiv.org/abs/2007.03639) <kbd>TITS 2021</kbd>
 - [Data Driven Prediction Architecture for Autonomous Driving and its Application on Apollo Platform](https://arxiv.org/abs/2006.06715) <kbd>IV 2020</kbd> [Baidu]
@@ -198,7 +200,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [One Million Scenes for Autonomous Driving: ONCE Dataset](https://arxiv.org/abs/2106.11037) [Huawei]
 - [NVS-MonoDepth: Improving Monocular Depth Prediction with Novel View Synthesis](https://arxiv.org/abs/2112.12577) <kbd>3DV 2021</kbd>
 - [Is 2D Heatmap Representation Even Necessary for Human Pose Estimation?](https://arxiv.org/abs/2107.03332)
-- [Topology Preserving Local Road Network Estimation from Single Onboard Camera Image](https://arxiv.org/abs/2112.10155) [BEV, Luc Van Gool]
+- [Topology Preserving Local Road Network Estimation from Single Onboard Camera Image](https://arxiv.org/abs/2112.10155) [BEVNet, Luc Van Gool]
 
 
 

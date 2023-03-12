@@ -17,14 +17,14 @@ The idea of Cascade Occupancy Network (CONet) to improve latency is relevant to 
 	- V_init semantic labels are from lidar semantic segmentation. 
 	- With V_init, a baseline model F_m is trained. The prediction result is V_pseudo.
 	- V_aug is a fusion between V_init and V_pseudo. Specifically, V_pesudo augments V_init, but never overwrites V_init.
-- Evaluation benchmark
+- Evaluation benchmark --> This is pretty much the same as the original KPI proposed for SSC.
 	- IoU: geometric metric, empty or occupied, binary
 	- mIoU: mean IoU of each class, following lidar semantic segmentation
 	- "noise" is ignored in evaluaton. ("For bounding boxes that overlap, we resolve them by labeling the overlapping points as noise. ...less than 0.8%", from [Panoptic nuScenes](https://arxiv.org/abs/2109.03805))
 
 
 #### Technical details
-- Resolution is 0.2 m. Range is 40x512x512. Roughly **50 meters** to all sides. 
+- Resolution is 0.2 m. Range is 40x512x512. Roughly **50 meters** to all sides. --> Same as [VoxFormer](voxformer.md).
 - Two drawbacks of SemanticKITTI
 	- it lacks diversity in urban scenes, which hinders the generalization
 	- only evaluates front-view occupancy predictions.
