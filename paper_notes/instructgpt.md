@@ -33,7 +33,7 @@ The paper is more like an experiment report, without much scientific novelty. Ye
 	- Generalizes to held-out human labelers
 	- NLP dataset does not reflect how LM are used. InstructGPT perform slightly worse than SFT baseline on many task baselines
 	- More **prompt-friendly** and requires less careful prompting.
-	- RLHF is highly effective. GPT-3 uses 3600 petaflops/s-days (8x A100 delivers [5 petaflops](https://nvidianews.nvidia.com/news/nvidia-ships-worlds-most-advanced-ai-system-nvidia-dgx-a100-to-fight-covid-19-third-generation-dgx-packs-record-5-petaflops-of-ai-performance)). SFT uses 5, and PPO-ptx uses 60. This would take 720 8-card-node*day to finish.
+	- RLHF is highly effective. GPT-3 uses 3600 petaflops/s-days (8x A100 delivers [5 petaflops](https://nvidianews.nvidia.com/news/nvidia-ships-worlds-most-advanced-ai-system-nvidia-dgx-a100-to-fight-covid-19-third-generation-dgx-packs-record-5-petaflops-of-ai-performance), [link](https://twitter.com/id_aa_carmack/status/1192513743974019072?lang=en)). SFT uses 5, and PPO-ptx uses 60. This would take 720 8-card-node*day to finish.
 - RM model
 	- Online feedback is hard as it requires human labeling after every model update. We need to build an "environment" for the policy model to interact with. Need to train a model to replace human.
 	- Train a RM (reward model) to rate the output of a policy model. 
