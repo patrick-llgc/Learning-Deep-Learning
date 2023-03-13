@@ -9,7 +9,7 @@ This paper is brilliant! It combines several key innovations in the past year: c
 
 However the way of reprojection without depth estimation perhaps limited the performance of the model, which is significantly below that of [MLF](mlf.md) and [pseudo-lidar](pseudo_lidar.md). For simple depth estimation and 3D reasoning using 2bbox and CV, refer to [Deep3dBox](deep3dbox.md) and [MonoPSR](monopsr.md).
 
-The OFT transformation network inspired future work of [PyrOccNet](pyr_occ_net.md) for monocular bev semantic map prediction.
+The OFT transformation network inspired future work of [PyrOccNet](pyr_occ_net.md) for monocular bev semantic map prediction, and [MonoScene](monoscene.md) for semantic scene completion (although not mentioned explicitly).
 
 The network does not require explicit info about intrinsics, but rather learns the constant mapping. That is why extensive augmentation was required to do this. --> why not injecting intrinsics implicitly?
 

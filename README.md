@@ -32,15 +32,20 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
 
-## 2023-03 (2)
+## 2023-03 (4)
 - [OpenOccupancy: A Large Scale Benchmark for Surrounding Semantic Occupancy Perception](https://arxiv.org/abs/2303.03991) [[Notes](paper_notes/openoccupancy.md)] [Occupancy Network, Jiwen Lu]
 - [VoxFormer: Sparse Voxel Transformer for Camera-based 3D Semantic Scene Completion](https://arxiv.org/abs/2302.12251) [[Note](paper_notes/voxformer.md)] [Occupancy Network, Nvidia]
+- [MonoScene: Monocular 3D Semantic Scene Completion](https://arxiv.org/abs/2112.00726) <kbd>CVPR 2022</kbd> [[Notes](paper_notes/monoscene.md)] [Occupancy Network, single cam]
+- [CoReNet: Coherent 3D scene reconstruction from a single RGB image](https://arxiv.org/abs/2004.12989) [[Notes](paper_notes/corenet.md)] <kbd>ECCV 2020 oral</kbd>
+- [BEVPoolv2: A Cutting-edge Implementation of BEVDet Toward Deployment](https://arxiv.org/abs/2211.17111) [BEVDet, PhiGent]
+- [NVRadarNet: Real-Time Radar Obstacle and Free Space Detection for Autonomous Driving](http://aixpaper.com/view/nvradarnet_realtime_radar_obstacle_and_free_space_detection_for_autonomous_driving)
+- [GraspNet-1Billion: A Large-Scale Benchmark for General Object Grasping](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fang_GraspNet-1Billion_A_Large-Scale_Benchmark_for_General_Object_Grasping_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd> [Cewu Lu]
+- [AnyGrasp: Robust and Efficient Grasp Perception in Spatial and Temporal Domains](https://arxiv.org/abs/2212.08333) [Cewu Lu]
 - [SSCNet: Semantic Scene Completion from a Single Depth Image](https://arxiv.org/abs/1611.08974) <kbd>CVPR 2017</kbd>
 - [3D Semantic Scene Completion: a Survey](https://arxiv.org/abs/2103.07466) <kbd>IJCV 2023</kbd>
 - [Point Cloud Forecasting as a Proxy for 4D Occupancy Forecasting](https://arxiv.org/abs/2302.13130)
 - [HDGT: Heterogeneous Driving Graph Transformer for Multi-Agent Trajectory Prediction via Scene Encoding](https://arxiv.org/abs/2205.09753)
-- [MonoScene: Monocular 3D Semantic Scene Completion](https://arxiv.org/abs/2112.00726) <kbd>CVPR 2022</kbd>
-- [MTR: Motion Transformer with Global Intention Localization and Local Movement Refinement](Motion Transformer with Global Intention Localization and Local Movement Refinement) <kbd>NeurIPS 2022</kbd>
+- [MTR: Motion Transformer with Global Intention Localization and Local Movement Refinement](https://arxiv.org/abs/2209.13508) <kbd>NeurIPS 2022</kbd>
 - [Occupancy Networks: Learning 3D Reconstruction in Function Space](https://arxiv.org/abs/1812.03828) <kbd>CVPR 2019</kbd> [Andreas Geiger]
 - [UVTR: Unifying Voxel-based Representation with Transformer for 3D Object Detection](https://arxiv.org/abs/2206.00630) [BEVFusion, Megvii, BEVNet, camera + lidar]
 - [Don't Use Large Mini-Batches, Use Local SGD](https://arxiv.org/abs/1808.07217) <kbd>ICLR 2020</kbd>
@@ -48,7 +53,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Progress measures for grokking via mechanistic interpretability]()
 - [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530) <kbd>ICLR 2017</kbd>
 - [Unifying Grokking and Double DescentDownload](https://openreview.net/forum?id=JqtHMZtqWm)
-- [GraspNet-1Billion: A Large-Scale Benchmark for General Object Grasping](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fang_GraspNet-1Billion_A_Large-Scale_Benchmark_for_General_Object_Grasping_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd> [Cewu Lu]
 - [Deep Interactive Motion Prediction and Planning: Playing Games with Motion Prediction Models](https://arxiv.org/abs/2204.02392) <kbd>L4DC 2022</kbd>
 - [Interactive Prediction and Planning for Autonomous Driving: from Algorithms to Fundamental Aspects](https://escholarship.org/uc/item/0vf4q2x1) [PhD thesis of Wei Zhan, 2019]
 - [Lyft1001: One Thousand and One Hours: Self-driving Motion Prediction Dataset](https://arxiv.org/abs/2006.14480) [Lyft Level 5, prediction dataset]

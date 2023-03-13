@@ -11,7 +11,7 @@ Even [DesnseTNT](dense_tnt.md) cannot handle two agents, hundred goals for each 
 
 #### Key ideas
 - The system consists of relation predictor, marginal predictor, conditional predictor, sample selector. 
-- Relation predictor: the influencer and the reactor
+- **Relation predictor**: the influencer and the reactor. This is a critic.
 	- The predicted trajectory of the reactor is conditioned on the predicted trajectory of the influencer
 - Pass/yield relation between two agents. 
 	- TrafficGraphNet: pass, yield, none.
