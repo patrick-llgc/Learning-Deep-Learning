@@ -20,7 +20,7 @@ It is exciting to see that "GPT-4 was used for help with wording, formatting, an
 	- The model’s capabilities on exams appear to stem primarily from the **pre-training process** and are not significantly affected by RLHF post-training alignment.
 - Limitation: **Truthfulness** (reliability)
 	- GPT4 still is not fully reliable (it “hallucinates” facts and makes reasoning errors)	
-	- Regarding fact check (on dataset like TruthfulQA) The GPT-4 base model is only slightly better at this task than GPT-3.5; however, after **RLHF post-training** we observe large improvements over GPT-3.5.
+	- Regarding fact check (on dataset like TruthfulQA) The GPT-4 base model is only slightly better at this task than GPT-3.5; however, after **RLHF post-training** we observe large improvements over GPT-3.5 (roughly from 60% to 80% in internal eval).
 	- The model can be **confidently wrong.** The pre-trained model is **highly calibrated** where its confidence in an answer generally matches the probability of being correct). The post-training hurts calibration significantly.
 - Risk ans safety concerns: **Toxicity**/Refuse unsafe inputs
 	- Two ways to reduce toxicity is through Model assisted safety pipeline, which is to make the model itself less toxic, by 1) adding more data, and 2) improve training method.
@@ -47,3 +47,4 @@ It is exciting to see that "GPT-4 was used for help with wording, formatting, an
 
 #### Notes
 - How is predicting large-scale training performance useful? Maybe it is necessary for budgeting, in order to reach a certain KPI goal? Although loss scales more smoothly, it is not easy to connect loss to KPI. 
+- The paper listed interesting org chart of OpenAI. Please refer to [this note](../openai_orgchart/README.md) for further details.
