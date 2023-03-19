@@ -2,7 +2,7 @@
 
 _February 2023_
 
-tl;dr: Align LLM with RLHF.
+tl;dr: Align LLM with RLHF post-training aligment, after large-scale pre-training.
 
 #### Overall impression
 This paper proposes InstructGPT, the backend model that powers [ChatGPT](https://openai.com/blog/chatgpt/). It provided a practical way of making products with generative model.
@@ -11,7 +11,7 @@ The paper showed that from proper finetuning with extra data and RL magic with h
 
 Mis-alignment is a serious issue for LLM, so much so that openAI even has a dedicated team to tackle it. This work is from openAI Alignment Team. We wan the LLM to be "helpful, honest and harmless". InstructGPT is trained to maximize helpfulness, but evaluated for honesty/truthfulness and harmlessness. 
 
-The paper is more like an experiment report, without much scientific novelty. Yet it meticulously demonstrates the details of this ground-breaking engineering feat. 
+The paper is more like an experiment report, without much scientific novelty. Yet it meticulously demonstrates the details of this ground-breaking engineering feat.
 
 #### Key ideas
 - RLHF uses human preferences as a reward signal to finetune the model.

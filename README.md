@@ -33,6 +33,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 
 
 ## 2023-03 (4)
+- [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) [[Notes](paper_notes/gpt4.md)] [OpenAI, GPT]
 - [OpenOccupancy: A Large Scale Benchmark for Surrounding Semantic Occupancy Perception](https://arxiv.org/abs/2303.03991) [[Notes](paper_notes/openoccupancy.md)] [Occupancy Network, Jiwen Lu]
 - [VoxFormer: Sparse Voxel Transformer for Camera-based 3D Semantic Scene Completion](https://arxiv.org/abs/2302.12251) [[Note](paper_notes/voxformer.md)] [Occupancy Network, Nvidia]
 - [MonoScene: Monocular 3D Semantic Scene Completion](https://arxiv.org/abs/2112.00726) <kbd>CVPR 2022</kbd> [[Notes](paper_notes/monoscene.md)] [Occupancy Network, single cam]
