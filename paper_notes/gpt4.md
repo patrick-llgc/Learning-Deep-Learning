@@ -12,6 +12,8 @@ Over GPT-3.5, it is much more capable (through pretraining on a larger scale), m
 
 The technical report did not report the model size due to competitive landscape and safety implications. We know that it uses publicly available data and data licenced from 3rd parties. Also it uses post-training RLHF as in previous work, such a [InstructGPT](instructGPT.md).
 
+The paper presents three major aspects of GPT4, the capabilities, the limitations, and the risks. This is actually a very general framework for analyzing AI systems. For example, for an object detector, this largely translates to TP (capabilities), FN (limitations) and FP (risks).
+
 It is exciting to see that "GPT-4 was used for help with wording, formatting, and styling throughout this [technical report]."
 
 #### Key ideas

@@ -38,6 +38,11 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [VoxFormer: Sparse Voxel Transformer for Camera-based 3D Semantic Scene Completion](https://arxiv.org/abs/2302.12251) [[Note](paper_notes/voxformer.md)] [Occupancy Network, Nvidia]
 - [MonoScene: Monocular 3D Semantic Scene Completion](https://arxiv.org/abs/2112.00726) <kbd>CVPR 2022</kbd> [[Notes](paper_notes/monoscene.md)] [Occupancy Network, single cam]
 - [CoReNet: Coherent 3D scene reconstruction from a single RGB image](https://arxiv.org/abs/2004.12989) [[Notes](paper_notes/corenet.md)] <kbd>ECCV 2020 oral</kbd>
+- [GeoMIM: Towards Better 3D Knowledge Transfer via Masked Image Modeling for Multi-view 3D Understanding](https://arxiv.org/abs/2303.11325)
+- [BEV-LaneDet: a Simple and Effective 3D Lane Detection Baseline](https://arxiv.org/abs/2210.06006) <kbd>CVPR 2023</kbd> [BEVNet]
+- [Exploring Recurrent Long-term Temporal Fusion for Multi-view 3D Perception](https://arxiv.org/abs/2303.05970) [BEVNet, megvii]
+- [VAD: Vectorized Scene Representation for Efficient Autonomous Driving](https://arxiv.org/abs/2303.12077) [Horizon]
+- [A Simple Attempt for 3D Occupancy Estimation in Autonomous Driving](https://arxiv.org/abs/2303.10076)
 - [BEVPoolv2: A Cutting-edge Implementation of BEVDet Toward Deployment](https://arxiv.org/abs/2211.17111) [BEVDet, PhiGent]
 - [NVRadarNet: Real-Time Radar Obstacle and Free Space Detection for Autonomous Driving](http://aixpaper.com/view/nvradarnet_realtime_radar_obstacle_and_free_space_detection_for_autonomous_driving)
 - [GraspNet-1Billion: A Large-Scale Benchmark for General Object Grasping](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fang_GraspNet-1Billion_A_Large-Scale_Benchmark_for_General_Object_Grasping_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd> [Cewu Lu]
