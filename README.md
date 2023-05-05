@@ -31,14 +31,13 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-
-## 2023-03 (4)
-- [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) [[Notes](paper_notes/gpt4.md)] [OpenAI, GPT]
-- [OpenOccupancy: A Large Scale Benchmark for Surrounding Semantic Occupancy Perception](https://arxiv.org/abs/2303.03991) [[Notes](paper_notes/openoccupancy.md)] [Occupancy Network, Jiwen Lu]
-- [VoxFormer: Sparse Voxel Transformer for Camera-based 3D Semantic Scene Completion](https://arxiv.org/abs/2302.12251) [[Note](paper_notes/voxformer.md)] [Occupancy Network, Nvidia]
-- [MonoScene: Monocular 3D Semantic Scene Completion](https://arxiv.org/abs/2112.00726) <kbd>CVPR 2022</kbd> [[Notes](paper_notes/monoscene.md)] [Occupancy Network, single cam]
-- [CoReNet: Coherent 3D scene reconstruction from a single RGB image](https://arxiv.org/abs/2004.12989) [[Notes](paper_notes/corenet.md)] <kbd>ECCV 2020 oral</kbd>
+## 2023-05 
+- [ProphNet: Efficient Agent-Centric Motion Forecasting with Anchor-Informed Proposals](https://arxiv.org/abs/2303.12071) <kbd>CVPR 2023</kbd> [Qcraft, prediction]
+- [SAM: Segment Anything](https://arxiv.org/abs/2304.02643) [FAIR]
 - [GeoMIM: Towards Better 3D Knowledge Transfer via Masked Image Modeling for Multi-view 3D Understanding](https://arxiv.org/abs/2303.11325)
+- [Motion Prediction using Trajectory Sets and Self-Driving Domain Knowledge](https://arxiv.org/abs/2006.04767) [Encode Road requirement to prediction]
+- [Hivt: Hierarchical vector transformer for multi-agent motion prediction]
+- [Transformer Feed-Forward Layers Are Key-Value Memories](https://arxiv.org/abs/2012.14913) <kbd>EMNLP 2021</kbd>
 - [BEV-LaneDet: a Simple and Effective 3D Lane Detection Baseline](https://arxiv.org/abs/2210.06006) <kbd>CVPR 2023</kbd> [BEVNet]
 - [Exploring Recurrent Long-term Temporal Fusion for Multi-view 3D Perception](https://arxiv.org/abs/2303.05970) [BEVNet, megvii]
 - [VAD: Vectorized Scene Representation for Efficient Autonomous Driving](https://arxiv.org/abs/2303.12077) [Horizon]
@@ -62,6 +61,19 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Deep Interactive Motion Prediction and Planning: Playing Games with Motion Prediction Models](https://arxiv.org/abs/2204.02392) <kbd>L4DC 2022</kbd>
 - [Interactive Prediction and Planning for Autonomous Driving: from Algorithms to Fundamental Aspects](https://escholarship.org/uc/item/0vf4q2x1) [PhD thesis of Wei Zhan, 2019]
 - [Lyft1001: One Thousand and One Hours: Self-driving Motion Prediction Dataset](https://arxiv.org/abs/2006.14480) [Lyft Level 5, prediction dataset]
+
+
+## 2023-04 (1)
+- [UniAD: Planning-oriented Autonomous Driving](https://arxiv.org/abs/2212.10156) [[Notes](paper_notes/uniad.md)] [BEV, e2e, Hongyang Li]
+
+
+
+## 2023-03 (5)
+- [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) [[Notes](paper_notes/gpt4.md)] [OpenAI, GPT]
+- [OpenOccupancy: A Large Scale Benchmark for Surrounding Semantic Occupancy Perception](https://arxiv.org/abs/2303.03991) [[Notes](paper_notes/openoccupancy.md)] [Occupancy Network, Jiwen Lu]
+- [VoxFormer: Sparse Voxel Transformer for Camera-based 3D Semantic Scene Completion](https://arxiv.org/abs/2302.12251) [[Note](paper_notes/voxformer.md)] [Occupancy Network, Nvidia]
+- [MonoScene: Monocular 3D Semantic Scene Completion](https://arxiv.org/abs/2112.00726) <kbd>CVPR 2022</kbd> [[Notes](paper_notes/monoscene.md)] [Occupancy Network, single cam]
+- [CoReNet: Coherent 3D scene reconstruction from a single RGB image](https://arxiv.org/abs/2004.12989) [[Notes](paper_notes/corenet.md)] <kbd>ECCV 2020 oral</kbd>
 
 
 ## 2023-02 (4)
