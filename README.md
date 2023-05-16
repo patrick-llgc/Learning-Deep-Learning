@@ -15,6 +15,7 @@ Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out o
 ## My Review Posts by Topics
 I regularly update [my blog in Toward Data Science](https://medium.com/@patrickllgc).
 
+- [Drivable Space in Autonomous Driving: The Concept](https://towardsdatascience.com/drivable-space-in-autonomous-driving-the-concept-df699bb8682f)
 - [Monocular BEV Perception with Transformers in Autonomous Driving](https://towardsdatascience.com/monocular-bev-perception-with-transformers-in-autonomous-driving-c41e4a893944) ([related paper notes](topics/topic_transformers_bev.md))
 - [Illustrated Differences between MLP and Transformers for Tensor Reshaping in Deep Learning](https://towardsdatascience.com/illustrated-difference-between-mlp-and-transformers-for-tensor-reshaping-52569edaf89)
 - [Monocular 3D Lane Line Detection in Autonomous Driving](https://towardsdatascience.com/monocular-3d-lane-line-detection-in-autonomous-driving-4d7cdfabf3b6) ([related paper notes](topics/topic_3d_lld.md))
@@ -32,7 +33,17 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
 ## 2023-05 
+- [SurroundOcc: Multi-Camera 3D Occupancy Prediction for Autonomous Driving](https://arxiv.org/abs/2303.09551) [Occupancy Network, Wei Yi, Jiwen Lu]
+- [Occ3D: A Large-Scale 3D Occupancy Prediction Benchmark for Autonomous Driving](https://arxiv.org/abs/2304.14365) [Occupancy Network, Zhao Hang]
+- [SimpleOccupancy: A Simple Attempt for 3D Occupancy Estimation in Autonomous Driving](https://arxiv.org/abs/2303.10076) [Occupancy Network]
+- [OccDepth: A Depth-Aware Method for 3D Semantic Scene Completion](https://arxiv.org/abs/2302.13540) [Occupancy Network, stereo]
+- [Fast-BEV: Towards Real-time On-vehicle Bird's-Eye View Perception](https://arxiv.org/abs/2301.07870) <kbd>NeurIPS 2022</kbd>
+- [Fast-BEV: A Fast and Strong Bird's-Eye View Perception Baseline](https://arxiv.org/abs/2301.12511) 
 - [ProphNet: Efficient Agent-Centric Motion Forecasting with Anchor-Informed Proposals](https://arxiv.org/abs/2303.12071) <kbd>CVPR 2023</kbd> [Qcraft, prediction]
+- [Motion Transformer with Global Intention Localization and Local Movement Refinement](https://arxiv.org/abs/2209.13508) <kbd>NeurIPS 2022 Oral</kbd>
+- [P4P: Conflict-Aware Motion Prediction for Planning in Autonomous Driving](https://arxiv.org/abs/2211.01634)
+- [MultiPath++: Efficient Information Fusion and Trajectory Aggregation for Behavior Prediction](https://arxiv.org/abs/2111.14973)
+- [ViP3D: End-to-end Visual Trajectory Prediction via 3D Agent Queries](https://arxiv.org/abs/2208.01582)
 - [SAM: Segment Anything](https://arxiv.org/abs/2304.02643) [FAIR]
 - [GeoMIM: Towards Better 3D Knowledge Transfer via Masked Image Modeling for Multi-view 3D Understanding](https://arxiv.org/abs/2303.11325)
 - [Motion Prediction using Trajectory Sets and Self-Driving Domain Knowledge](https://arxiv.org/abs/2006.04767) [Encode Road requirement to prediction]
@@ -305,6 +316,15 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [PYVA: Projecting Your View Attentively: Monocular Road Scene Layout Estimation via Cross-view Transformation](https://openaccess.thecvf.com/content/CVPR2021/html/Yang_Projecting_Your_View_Attentively_Monocular_Road_Scene_Layout_Estimation_via_CVPR_2021_paper.html) [[Notes](paper_notes/pyva.md)] <kbd>CVPR 2021</kbd> [[Supplementary](https://openaccess.thecvf.com/content/CVPR2021/supplemental/Yang_Projecting_Your_View_CVPR_2021_supplemental.zip)] [BEVNet]
 - [YOLOF: You Only Look One-level Feature](https://arxiv.org/abs/2103.09460) [[Notes](paper_notes/yolof.md)] <kbd>CVPR 2021</kbd> [megvii]
 - [Perceiving Humans: from Monocular 3D Localization to Social Distancing](https://arxiv.org/abs/2009.00984) [[Notes](paper_notes/perceiving_humans.md)] <kbd>TITS 2021</kbd> [monoloco++]
+- [PifPaf: Composite Fields for Human Pose Estimation](https://arxiv.org/abs/1903.06593) <kbd>CVPR 2019</kbd>
+- [Bird's-Eye-View Panoptic Segmentation Using Monocular Frontal View Images](https://arxiv.org/abs/2108.03227) [BEVNet]
+- [TransformerFusion: Monocular RGB Scene Reconstruction using Transformers](https://arxiv.org/abs/2107.02191)
+- [Projecting Your View Attentively: Monocular Road Scene Layout Estimation via Cross-view Transformation](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Projecting_Your_View_Attentively_Monocular_Road_Scene_Layout_Estimation_via_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd>
+- [Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/abs/2104.09224) <kbd>CVPR 2021</kbd>
+- [NEAT: Neural Attention Fields for End-to-End Autonomous Driving](https://arxiv.org/abs/2109.04456) <kbd>ICCV 2021</kbd>
+- [Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152)
+- [Probabilistic and Geometric Depth: Detecting Objects in Perspective](https://arxiv.org/abs/2107.14160) <kbd>CoRL 2021</kbd>
+
 
 ## 2021-08 (11)
 - [EgoNet: Exploring Intermediate Representation for Monocular Vehicle Pose Estimation](https://arxiv.org/abs/2011.08464) [[Notes](paper_notes/egonet.md)] <kbd>CVPR 2021</kbd> [mono3D]
