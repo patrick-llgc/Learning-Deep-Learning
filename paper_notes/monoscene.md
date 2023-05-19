@@ -7,7 +7,7 @@ tl;dr: Single-cam semantic scene completion (SSC) with feature line-of-sight pro
 #### Overall impression
 The paper is one of the pioneering papers to expand scene completion from indoor to outdoor. Before this paper most of semantic scene completion work focuses on indoor scenes, such as [CoReNet](corenet.md). It is quite similar to (seems to be a simplified version of) voxel-pooling in [Lift-Splat-Shoot](lift_splat_shoot.md) as well.
 
-The paper proposes a lot of bells and whistles, but seems that only one design choice is critical, **FLoSP (feature LoS projection)**. This is an improved version of the "ray-traced skip connection" proposed by [CoReNet](corenet.md). All other ideas such as Context Relation Prior, and other novel losses (scene-class affinity, local frustum proportion) are not that useful.
+The paper proposes a lot of bells and whistles, but seems that only one design choice is critical, **FLoSP (feature LoS projection)**. This is an improved version of the "ray-traced skip connection" proposed by [CoReNet](corenet.md). All other ideas such as Context Relation Prior, and other novel losses (scene-class affinity, local frustum proportion) are quite esoteric and not that useful.
 
 The paper does not have a lot of novelty in my opinion. However, the engineering project is quite well maintained on github, with a demo on HuggingFace.
 

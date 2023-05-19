@@ -6,7 +6,6 @@ My name is [Patrick Langechuan Liu](https://www.linkedin.com/in/patrick-llgc/). 
 
 
 ## What to read
-### Where to start?
 If you are new to deep learning in computer vision and don't know where to start, I suggest you spend your first month or so dive deep into [this list of papers](start/first_cnn_papers.md). I did so ([see my notes](start/first_cnn_papers_notes.md)) and it served me well.
 
 Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out of papers to read.
@@ -33,10 +32,13 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
 ## 2023-05 
-- [SurroundOcc: Multi-Camera 3D Occupancy Prediction for Autonomous Driving](https://arxiv.org/abs/2303.09551) [Occupancy Network, Wei Yi, Jiwen Lu]
+- [SurroundOcc: Multi-Camera 3D Occupancy Prediction for Autonomous Driving](https://arxiv.org/abs/2303.09551) [[Notes](paper_notes/surroundocc.md)] [Occupancy Network, Wei Yi, Jiwen Lu]
 - [Occ3D: A Large-Scale 3D Occupancy Prediction Benchmark for Autonomous Driving](https://arxiv.org/abs/2304.14365) [Occupancy Network, Zhao Hang]
+- [Atlas: End-to-End 3D Scene Reconstruction from Posed Images](https://github.com/magicleap/Atlas) <kbd>ECCV 2020</kbd>
+- [TransformerFusion: Monocular RGB Scene Reconstruction using Transformers](https://arxiv.org/abs/2107.02191) <kbd>NeurIPS 2021</kbd>
 - [SimpleOccupancy: A Simple Attempt for 3D Occupancy Estimation in Autonomous Driving](https://arxiv.org/abs/2303.10076) [Occupancy Network]
 - [OccDepth: A Depth-Aware Method for 3D Semantic Scene Completion](https://arxiv.org/abs/2302.13540) [Occupancy Network, stereo]
+- [SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences](https://arxiv.org/abs/1904.01416) <kbd>ICCV 2019</kbd>
 - [Fast-BEV: Towards Real-time On-vehicle Bird's-Eye View Perception](https://arxiv.org/abs/2301.07870) <kbd>NeurIPS 2022</kbd>
 - [Fast-BEV: A Fast and Strong Bird's-Eye View Perception Baseline](https://arxiv.org/abs/2301.12511) 
 - [ProphNet: Efficient Agent-Centric Motion Forecasting with Anchor-Informed Proposals](https://arxiv.org/abs/2303.12071) <kbd>CVPR 2023</kbd> [Qcraft, prediction]
@@ -321,7 +323,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [TransformerFusion: Monocular RGB Scene Reconstruction using Transformers](https://arxiv.org/abs/2107.02191)
 - [Projecting Your View Attentively: Monocular Road Scene Layout Estimation via Cross-view Transformation](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Projecting_Your_View_Attentively_Monocular_Road_Scene_Layout_Estimation_via_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd>
 - [Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/abs/2104.09224) <kbd>CVPR 2021</kbd>
-- [NEAT: Neural Attention Fields for End-to-End Autonomous Driving](https://arxiv.org/abs/2109.04456) <kbd>ICCV 2021</kbd>
 - [Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152)
 - [Probabilistic and Geometric Depth: Detecting Objects in Perspective](https://arxiv.org/abs/2107.14160) <kbd>CoRL 2021</kbd>
 
@@ -525,7 +526,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Scale-Aware Trident Networks for Object Detection](https://arxiv.org/abs/1901.01892) <kbd>ICCV 2019</kbd> [different heads for different scales]
 - [Learning Depth from Monocular Videos using Direct Methods](https://arxiv.org/abs/1712.00175)
 - [Vid2Depth: Unsupervised Learning of Depth and Ego-Motion from Monocular Video Using 3D Geometric Constraints](https://arxiv.org/abs/1802.05522) <kbd>CVPR 2018</kbd> [Google]
-- [Atlas: End-to-End 3D Scene Reconstruction from Posed Images](https://github.com/magicleap/Atlas) <kbd>ECCV 2020</kbd>
 - [NeRF in the Wild: Neural Radiance Fields for Unconstrained Photo Collections](https://arxiv.org/abs/2008.02268)
 - [Supervising the new with the old: learning SFM from SFM](http://openaccess.thecvf.com/content_ECCV_2018/papers/Maria_Klodt_Supervising_the_new_ECCV_2018_paper.pdf) [[Notes](paper_notes/learn_sfm_from_sfm.md)] <kbd>ECCV 2018</kbd>
 - [Neural RGB->D Sensing: Depth and Uncertainty from a Video Camera](https://arxiv.org/abs/1901.02571) <kbd>CVPR 2019</kbd> [multi-frame monodepth]
@@ -1381,7 +1381,6 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [PolyTransform: Deep Polygon Transformer for Instance Segmentation](https://arxiv.org/abs/1912.02801) <kbd>CVPR 2020</kbd> [single stage instance segmentation]
 - [ROAD: The ROad event Awareness Dataset for Autonomous Driving](https://arxiv.org/abs/2102.11585)
 - [LidarMTL: A Simple and Efficient Multi-task Network for 3D Object Detection and Road Understanding](https://arxiv.org/abs/2103.04056) [lidar MTL]
-- [SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences](https://arxiv.org/abs/1904.01416) <kbd>ICCV 2019</kbd>
 - [High-Performance Large-Scale Image Recognition Without Normalization](https://arxiv.org/abs/2102.06171) <kbd>ICLR 2021</kbd>
 - [Ground-aware Monocular 3D Object Detection for Autonomous Driving](https://arxiv.org/abs/2102.00690) <kbd>RA-L</kbd> [mono3D]
 - [Demystifying Pseudo-LiDAR for Monocular 3D Object Detection](https://arxiv.org/abs/2012.05796) [mono3d]

@@ -5,9 +5,11 @@ _February 2023_
 tl;dr: Academic alternative to Tesla's Occupancy Network, by lifting BEVFormer to 3D. 
 
 #### Overall impression
-The model uses sparse supervision at training but can predict more consistent and comprehensive volume occupancy for all voxels at inference time.
+The model uses sparse supervision at training but can predict more consistent and comprehensive volume occupancy for all voxels at inference time. (Denser, but not really dense, as compared to [SurroundOcc](surroundocc.md))
 
-TPV extends the idea of BEV to 3 orthogonal axis, and thus models 3D without suppressing any axes and avoiding cubic complexity
+TPV extends the idea of BEV to 3 orthogonal axis, and thus models 3D without suppressing any axes and avoiding cubic complexity.
+
+The architecture is innovative, but the performance suffers from sparse annotation. [SurroundOcc](surroundocc.md) showed that with dense annotation, the performance can be boosted 3x. 
 
 #### Key ideas
 - Two steps of attention
