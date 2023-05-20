@@ -14,7 +14,9 @@ Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out o
 ## My Review Posts by Topics
 I regularly update [my blog in Toward Data Science](https://medium.com/@patrickllgc).
 
-- [Drivable Space in Autonomous Driving: The Concept](https://towardsdatascience.com/drivable-space-in-autonomous-driving-the-concept-df699bb8682f)
+- [Drivable Space in Autonomous Driving — The Industry](https://medium.com/@patrickllgc/drivable-space-in-autonomous-driving-the-industry-7a4624b94d41)
+- [Drivable Space in Autonomous Driving — The Academia](https://towardsdatascience.com/drivable-space-in-autonomous-driving-a-review-of-academia-ef1a6aa4dc15)
+- [Drivable Space in Autonomous Driving - The Concept](https://towardsdatascience.com/drivable-space-in-autonomous-driving-the-concept-df699bb8682f)
 - [Monocular BEV Perception with Transformers in Autonomous Driving](https://towardsdatascience.com/monocular-bev-perception-with-transformers-in-autonomous-driving-c41e4a893944) ([related paper notes](topics/topic_transformers_bev.md))
 - [Illustrated Differences between MLP and Transformers for Tensor Reshaping in Deep Learning](https://towardsdatascience.com/illustrated-difference-between-mlp-and-transformers-for-tensor-reshaping-52569edaf89)
 - [Monocular 3D Lane Line Detection in Autonomous Driving](https://towardsdatascience.com/monocular-3d-lane-line-detection-in-autonomous-driving-4d7cdfabf3b6) ([related paper notes](topics/topic_3d_lld.md))
@@ -34,11 +36,16 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 ## 2023-05 
 - [SurroundOcc: Multi-Camera 3D Occupancy Prediction for Autonomous Driving](https://arxiv.org/abs/2303.09551) [[Notes](paper_notes/surroundocc.md)] [Occupancy Network, Wei Yi, Jiwen Lu]
 - [Occ3D: A Large-Scale 3D Occupancy Prediction Benchmark for Autonomous Driving](https://arxiv.org/abs/2304.14365) [Occupancy Network, Zhao Hang]
+- [OccFormer: Dual-path Transformer for Vision-based 3D Semantic Occupancy Prediction](https://arxiv.org/abs/2304.05316) [Occupancy Network, PhiGent]
+- [SSCNet: Semantic Scene Completion from a Single Depth Image](https://arxiv.org/abs/1611.08974) <kbd>CVPR 2017</kbd>
+- [SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences](https://arxiv.org/abs/1904.01416) <kbd>ICCV 2019</kbd>
+- [MaskFormer: Per-Pixel Classification is Not All You Need for Semantic Segmentation](https://arxiv.org/abs/2107.06278) <kbd>NeurIPS 2021</kbd>
+- [3D Semantic Scene Completion: a Survey](https://arxiv.org/abs/2103.07466) <kbd>IJCV 2022</kbd>
+- [DETIC: Detecting Twenty-thousand Classes using Image-level Supervision](https://arxiv.org/abs/2201.02605) <kbd>ECCV 2022</kbd>
 - [Atlas: End-to-End 3D Scene Reconstruction from Posed Images](https://github.com/magicleap/Atlas) <kbd>ECCV 2020</kbd>
 - [TransformerFusion: Monocular RGB Scene Reconstruction using Transformers](https://arxiv.org/abs/2107.02191) <kbd>NeurIPS 2021</kbd>
 - [SimpleOccupancy: A Simple Attempt for 3D Occupancy Estimation in Autonomous Driving](https://arxiv.org/abs/2303.10076) [Occupancy Network]
 - [OccDepth: A Depth-Aware Method for 3D Semantic Scene Completion](https://arxiv.org/abs/2302.13540) [Occupancy Network, stereo]
-- [SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences](https://arxiv.org/abs/1904.01416) <kbd>ICCV 2019</kbd>
 - [Fast-BEV: Towards Real-time On-vehicle Bird's-Eye View Perception](https://arxiv.org/abs/2301.07870) <kbd>NeurIPS 2022</kbd>
 - [Fast-BEV: A Fast and Strong Bird's-Eye View Perception Baseline](https://arxiv.org/abs/2301.12511) 
 - [ProphNet: Efficient Agent-Centric Motion Forecasting with Anchor-Informed Proposals](https://arxiv.org/abs/2303.12071) <kbd>CVPR 2023</kbd> [Qcraft, prediction]
@@ -59,8 +66,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [NVRadarNet: Real-Time Radar Obstacle and Free Space Detection for Autonomous Driving](http://aixpaper.com/view/nvradarnet_realtime_radar_obstacle_and_free_space_detection_for_autonomous_driving)
 - [GraspNet-1Billion: A Large-Scale Benchmark for General Object Grasping](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fang_GraspNet-1Billion_A_Large-Scale_Benchmark_for_General_Object_Grasping_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd> [Cewu Lu]
 - [AnyGrasp: Robust and Efficient Grasp Perception in Spatial and Temporal Domains](https://arxiv.org/abs/2212.08333) [Cewu Lu]
-- [SSCNet: Semantic Scene Completion from a Single Depth Image](https://arxiv.org/abs/1611.08974) <kbd>CVPR 2017</kbd>
-- [3D Semantic Scene Completion: a Survey](https://arxiv.org/abs/2103.07466) <kbd>IJCV 2023</kbd>
 - [Point Cloud Forecasting as a Proxy for 4D Occupancy Forecasting](https://arxiv.org/abs/2302.13130)
 - [HDGT: Heterogeneous Driving Graph Transformer for Multi-Agent Trajectory Prediction via Scene Encoding](https://arxiv.org/abs/2205.09753)
 - [MTR: Motion Transformer with Global Intention Localization and Local Movement Refinement](https://arxiv.org/abs/2209.13508) <kbd>NeurIPS 2022</kbd>
@@ -84,7 +89,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 ## 2023-03 (5)
 - [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) [[Notes](paper_notes/gpt4.md)] [OpenAI, GPT]
 - [OpenOccupancy: A Large Scale Benchmark for Surrounding Semantic Occupancy Perception](https://arxiv.org/abs/2303.03991) [[Notes](paper_notes/openoccupancy.md)] [Occupancy Network, Jiwen Lu]
-- [VoxFormer: Sparse Voxel Transformer for Camera-based 3D Semantic Scene Completion](https://arxiv.org/abs/2302.12251) [[Note](paper_notes/voxformer.md)] [Occupancy Network, Nvidia]
+- [VoxFormer: Sparse Voxel Transformer for Camera-based 3D Semantic Scene Completion](https://arxiv.org/abs/2302.12251) [[Note](paper_notes/voxformer.md)] <kbd>CVPR 2023 highlight</kbd> [Occupancy Network, Nvidia]
 - [MonoScene: Monocular 3D Semantic Scene Completion](https://arxiv.org/abs/2112.00726) <kbd>CVPR 2022</kbd> [[Notes](paper_notes/monoscene.md)] [Occupancy Network, single cam]
 - [CoReNet: Coherent 3D scene reconstruction from a single RGB image](https://arxiv.org/abs/2004.12989) [[Notes](paper_notes/corenet.md)] <kbd>ECCV 2020 oral</kbd>
 
@@ -93,7 +98,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Will we run out of data? An analysis of the limits of scaling datasets in Machine Learning](https://arxiv.org/abs/2211.04325) [[Notes](paper_notes/out_of_data.md)] [Epoch.ai industry report]
 - [Codex: Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374) [[Notes](paper_notes/codex.md)] [GPT, OpenAI]
 - [InstructGPT: Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) [[Notes](paper_notes/instructgpt.md)] [GPT, OpenAI]
-- [TPVFormer: Tri-Perspective View for Vision-Based 3D Semantic Occupancy Prediction](https://arxiv.org/abs/2302.07817) [[Notes](paper_notes/tpvformer.md)] [Occupancy Network, Jiwen Lu]
+- [TPVFormer: Tri-Perspective View for Vision-Based 3D Semantic Occupancy Prediction](https://arxiv.org/abs/2302.07817) [[Notes](paper_notes/tpvformer.md)] <kbd>CVPR 2023</kbd> [Occupancy Network, Jiwen Lu]
 
 
 ## 2023-01 (2)

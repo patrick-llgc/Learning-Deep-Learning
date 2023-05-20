@@ -29,6 +29,7 @@ The paper performs depth estimation with monodepth methods first, lift to pseudo
 
 
 #### Technical details
+- The architecture heavily borrows the deformable attention idea from [BEVFormer](bevformer.md).
 - Mask tokens are basically learned embeddings, and they are used to pad the sparse queries in spatial domain to form a uniformly shaped dense tensor, before feeding into self-attention. In other words, |Q_p| + |m| = |Q|.
 - 256x256x32, with 0.2m resolution. 20 classes (19 semantic + 1 empty). --> Same as [OpenOccupancy](openoccupancy.md).
 - KPI evaluation: IoU for geometric completion, and mIoU for semantic segmentation.

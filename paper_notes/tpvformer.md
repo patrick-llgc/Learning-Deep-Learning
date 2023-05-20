@@ -5,11 +5,13 @@ _February 2023_
 tl;dr: Academic alternative to Tesla's Occupancy Network, by lifting BEVFormer to 3D. 
 
 #### Overall impression
-The model uses sparse supervision at training but can predict more consistent and comprehensive volume occupancy for all voxels at inference time. (Denser, but not really dense, as compared to [SurroundOcc](surroundocc.md))
+The paper claims that the model uses sparse supervision at training but can predict more consistent and comprehensive volume occupancy for all voxels at inference time. The prediction is indeed denser than the sparse annotation, but not really dense, as compared to [SurroundOcc](surroundocc.md).
 
 TPV extends the idea of BEV to 3 orthogonal axis, and thus models 3D without suppressing any axes and avoiding cubic complexity.
 
 The architecture is innovative, but the performance suffers from sparse annotation. [SurroundOcc](surroundocc.md) showed that with dense annotation, the performance can be boosted 3x. 
+
+The paper tried to differentiate semantic occupancy prediction (SOP) and semantic scene completion (SSC). According to this paper, SOP uses sparse semantic supervision from single-frame lidar point cloud, but SSC is supervised with dense voxel labels. But it can be shown later that denser annotation can be obtained (either by Poisson Recon in [SurroundOcc](surroundocc.md) or Augmenting And Purifying (AAP) in [OpenOccupancy](openoccupancy.md)) the annotation the two tasks are quite similar. 
 
 #### Key ideas
 - Two steps of attention
@@ -37,13 +39,13 @@ The architecture is innovative, but the performance suffers from sparse annotati
 	- Omitting the z-axis has adverse effect on its expressiveness.
 - TPV query maps to a 2D grid cell region of sxs m^2 in the corresponding view, and further to a 3D pillar region extending from the view in the perpendicular direction. --> Just like each BEV query. 
 - A new interesting track of vision-only lidar segmentation: vision to construct the feature volume, and lidar is only used to query features.
-- Segmentation loss is cross entropy + [Lovasz-softmax](https://paperswithcode.com/method/lovasz-softmax). The Lovasz extension is a means by which we can achieve direct optimization of the mean intersection-over-union loss in neural networks. 
-
+- Segmentation loss is cross entropy + [Lovasz-softmax](https://paperswithcode.com/method/lovasz-softmax). The Lovasz extension enables direct optimization of the mean intersection-over-union loss in neural networks. 
+- The paper did not mention specifically the resolution for semantic occupancy prediction task, but it should be similar to that used in [SurroundOcc](surroundocc.md).
 
 #### Notes
 - [Code on github](https://github.com/wzzheng/TPVFormer)
 - Future directions
 	- KPI evaluation of vision-based semantic occupancy prediction needs to be quantified. This will help create a new track for academic and make this work a seminal work in this track.
-	- - "Empty" class: different from lidar semantic segmentation where each point queried is valid, sematnic occupancy prediction needs to predict void voxels as well. The paper simply assigns voxels without any points "empty". --> This fails to differentiate between void and uncertain (due to occlusion, e.g.), and perhaps can explain the weird scanning pattern issue in the demo video.
+	- "Empty" class: different from lidar semantic segmentation where each point queried is valid, semantic occupancy prediction needs to predict void voxels as well. The paper simply assigns voxels without any points "empty". --> This fails to differentiate between void and uncertain (due to occlusion, e.g.), and perhaps can explain the weird scanning pattern issue in the demo video.
 - Q & A 
 	- How is a HCAB block constructed? Looks like it has both ICA and CVHA. --> It is indeed per [config](https://github.com/wzzheng/TPVFormer/blob/27627079bbb87ae1b8e0b3acf9a1a8f4cdc81cfe/config/tpv_lidarseg.py#L151).
