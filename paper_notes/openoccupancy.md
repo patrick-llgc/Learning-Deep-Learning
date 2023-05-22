@@ -7,7 +7,7 @@ tl;dr: A new benchmark of NuScenes-Occupancy, with new KPI and simple baselines.
 #### Overall impression
 The paper used an Augmenting And Purifying (AAP) pipeline for autolabel. This essentially leverages a functional (yet not performing) pretrained baseline model to prelabel. Human labelers are then asked to purify the pre-label. This way it can greatly boost labeling efficiency.
 
-This pipeline aims to provide dense occupancy labels, with semantic information. It invests 4000 human hours to refine the label.
+This pipeline aims to provide dense occupancy labels, with semantic information. It invests 4000 human hours to refine the label. This roughly translates to 4 human hours per 20-s clip. 
 
 The idea of Cascade Occupancy Network (CONet) to improve latency is relevant to industrial deployment. The simple idea of bilinear interpolation seems to work quite well already.
 

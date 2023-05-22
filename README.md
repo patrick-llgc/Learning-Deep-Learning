@@ -35,10 +35,19 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 
 ## 2023-05 
 - [SurroundOcc: Multi-Camera 3D Occupancy Prediction for Autonomous Driving](https://arxiv.org/abs/2303.09551) [[Notes](paper_notes/surroundocc.md)] [Occupancy Network, Wei Yi, Jiwen Lu]
-- [Occ3D: A Large-Scale 3D Occupancy Prediction Benchmark for Autonomous Driving](https://arxiv.org/abs/2304.14365) [Occupancy Network, Zhao Hang]
+- [Occ3D: A Large-Scale 3D Occupancy Prediction Benchmark for Autonomous Driving](https://arxiv.org/abs/2304.14365) [[Notes](paper_notes/occ3d.md)] [Occupancy Network, Zhao Hang]
+- [Occupancy Networks: Learning 3D Reconstruction in Function Space](https://arxiv.org/abs/1812.03828) <kbd>CVPR 2019</kbd> [[Notes](paper_notes/occupancy_networks.md)] [Andreas Geiger]
 - [OccFormer: Dual-path Transformer for Vision-based 3D Semantic Occupancy Prediction](https://arxiv.org/abs/2304.05316) [Occupancy Network, PhiGent]
 - [SSCNet: Semantic Scene Completion from a Single Depth Image](https://arxiv.org/abs/1611.08974) <kbd>CVPR 2017</kbd>
 - [SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences](https://arxiv.org/abs/1904.01416) <kbd>ICCV 2019</kbd>
+- [KEMP: Keyframe-Based Hierarchical End-to-End Deep Model for Long-Term Trajectory Prediction](https://arxiv.org/abs/2205.04624) <kbd>ICRA 2022</kbd> [Planning]
+- [Deep Interactive Motion Prediction and Planning: Playing Games with Motion Prediction Models](https://arxiv.org/abs/2204.02392) <kbd>L4DC</kbd> [Planning]
+- [GameFormer: Game-theoretic Modeling and Learning of Transformer-based Interactive Prediction and Planning for Autonomous Driving](https://arxiv.org/abs/2303.05760) [Planning]
+- [LookOut: Diverse Multi-Future Prediction and Planning for Self-Driving](https://arxiv.org/abs/2101.06547) [Planning, Raquel]
+- [DIPP: Differentiable Integrated Motion Prediction and Planning with Learnable Cost Function for Autonomous Driving](https://arxiv.org/abs/2207.10422) [Planning]
+- [Imitation Is Not Enough: Robustifying Imitation with Reinforcement Learning for Challenging Driving Scenarios](https://arxiv.org/abs/2212.11419) [Planning, Waymo]
+- [Hierarchical Model-Based Imitation Learning for Planning in Autonomous Driving](https://arxiv.org/abs/2210.09539) <kbd>IROS 2022</kbd> [Planning, Waymo]
+- [JFP: Joint Future Prediction with Interactive Multi-Agent Modeling for Autonomous Driving](https://arxiv.org/abs/2212.08710) [Planning, Waymo]
 - [MaskFormer: Per-Pixel Classification is Not All You Need for Semantic Segmentation](https://arxiv.org/abs/2107.06278) <kbd>NeurIPS 2021</kbd>
 - [3D Semantic Scene Completion: a Survey](https://arxiv.org/abs/2103.07466) <kbd>IJCV 2022</kbd>
 - [DETIC: Detecting Twenty-thousand Classes using Image-level Supervision](https://arxiv.org/abs/2201.02605) <kbd>ECCV 2022</kbd>
@@ -69,7 +78,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Point Cloud Forecasting as a Proxy for 4D Occupancy Forecasting](https://arxiv.org/abs/2302.13130)
 - [HDGT: Heterogeneous Driving Graph Transformer for Multi-Agent Trajectory Prediction via Scene Encoding](https://arxiv.org/abs/2205.09753)
 - [MTR: Motion Transformer with Global Intention Localization and Local Movement Refinement](https://arxiv.org/abs/2209.13508) <kbd>NeurIPS 2022</kbd>
-- [Occupancy Networks: Learning 3D Reconstruction in Function Space](https://arxiv.org/abs/1812.03828) <kbd>CVPR 2019</kbd> [Andreas Geiger]
 - [UVTR: Unifying Voxel-based Representation with Transformer for 3D Object Detection](https://arxiv.org/abs/2206.00630) [BEVFusion, Megvii, BEVNet, camera + lidar]
 - [Don't Use Large Mini-Batches, Use Local SGD](https://arxiv.org/abs/1808.07217) <kbd>ICLR 2020</kbd>
 - [Grokking: Generalization beyond Overfitting on small algorithmic datasets](https://arxiv.org/abs/2201.02177)
