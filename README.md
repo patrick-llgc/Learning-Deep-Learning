@@ -39,7 +39,12 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Occupancy Networks: Learning 3D Reconstruction in Function Space](https://arxiv.org/abs/1812.03828) <kbd>CVPR 2019</kbd> [[Notes](paper_notes/occupancy_networks.md)] [Andreas Geiger]
 - [OccFormer: Dual-path Transformer for Vision-based 3D Semantic Occupancy Prediction](https://arxiv.org/abs/2304.05316) [Occupancy Network, PhiGent]
 - [SSCNet: Semantic Scene Completion from a Single Depth Image](https://arxiv.org/abs/1611.08974) <kbd>CVPR 2017</kbd>
-- [SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences](https://arxiv.org/abs/1904.01416) <kbd>ICCV 2019</kbd>
+- [SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences](https://arxiv.org/abs/1904.01416) <kbd>ICCV 2019</kbd> 
+- [VisionLLM: Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks](https://arxiv.org/abs/2305.11175) 
+- [PixPro: Propagate Yourself: Exploring Pixel-Level Consistency for Unsupervised Visual Representation Learning](https://arxiv.org/abs/2011.10043) [self-supervised]
+- [Pixel-Wise Contrastive Distillation](https://arxiv.org/abs/2211.00218) [self-supervised]
+- [VICRegL: Self-Supervised Learning of Local Visual Features](https://arxiv.org/abs/2210.01571) <kbd>NeurIPS 2022</kbd>
+- [ImageBind: One Embedding Space To Bind Them All](https://arxiv.org/abs/2305.05665) <kbd>CVPR 2023</kbd>
 - [KEMP: Keyframe-Based Hierarchical End-to-End Deep Model for Long-Term Trajectory Prediction](https://arxiv.org/abs/2205.04624) <kbd>ICRA 2022</kbd> [Planning]
 - [Deep Interactive Motion Prediction and Planning: Playing Games with Motion Prediction Models](https://arxiv.org/abs/2204.02392) <kbd>L4DC</kbd> [Planning]
 - [GameFormer: Game-theoretic Modeling and Learning of Transformer-based Interactive Prediction and Planning for Autonomous Driving](https://arxiv.org/abs/2303.05760) [Planning]

@@ -11,7 +11,7 @@ In a typical autonomous driving pipeline, perception and prediction modules are 
 
 Previous efforts in joint perception and prediction include [FIERY](fiery.md) and [BEVerse](beverse.md), but ViP3D is the 1st paper to seriously borrows the SOTA approaches of prediction into the BEV perception task. ViP3D also explicitly models instance-wise agent detection, tracking and prediction in a fully differentiable fashion. [FIERY](fiery.md) and [BEVerse](beverse.md) both uses heatmap based method, and makes it inevitable to rely on heuristics and manual postprocessing, leaving these method not end-to-end differentiable.
 
-The query-based methods seems to be the future of end to end autonomous driving.
+The query-based methods seems to be the future of end to end autonomous driving. It is borrowed in [UniAD](uniad.md). The query-centric information processing seems to be inspired by [Perceiver](perceiver.md), which was first proposed to break the scaling of computaiton with input size and save computational cost. 
 
 
 #### Key ideas

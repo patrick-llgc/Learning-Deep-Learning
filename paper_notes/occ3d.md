@@ -5,7 +5,7 @@ _May 2023_
 tl;dr: Creation of two semantic occupancy prediction datasets, Occ3D-Waymo and Occ3D-nuScenes.
 
 #### Overall impression
-Occ3D also proposed a pipeline to generate dense occupancy labels, which includes point cloud aggregation, point labeling, and occlusion handling. 
+Occ3D also proposed a pipeline to generate dense occupancy labels, which includes point cloud aggregation, point labeling, and occlusion handling. The visibility and occlusion reasoning of the label is the main contribution of the paper. 
 
 It does not have the densification process in [SurroundOcc](surroundocc.md) and [OpenOccupancy](openoccupancy.md), which focused on NuScenes dataset. The authors claim that the label is already quite dense even without densification for Waymo dataset, and Poisson Recon leads to inaccurate annotation.
 
@@ -22,8 +22,7 @@ The paper also proposed a neural network architecture Coarse-to-Fine Occupancy (
 	- Lidar visibility describes the completeness in the GT. The GT of Some voxels are not observable, even after multiframe data aggregation.
 	- Camera visibility focuses on the possibility of detection of onboard sensors. 
 	- Eval is only performed on the “observed” voxels in both the LiDAR and camera views.
-	- Note that the LiDAR visibility mask and camera visibility
-mask may differ due to two reasons: (1) LiDAR and cameras have different installation positions; (2) LiDAR visibility is consistent across the whole sequence, while the camera visibility differs at each timestamp.
+	- Note that the LiDAR visibility mask and camera visibility mask may differ due to two reasons: (1) LiDAR and cameras have different installation positions; (2) LiDAR visibility is consistent across the whole sequence, while the camera visibility differs at each timestamp.
 - CTF-Occ
 	- Incremental token selection. Essentially it selects a sparse subset of occupied voxels as token (queries) to reduce computational and memory cost. A binary occupancy classifier is trained, then the top-K most uncertain voxel tokens are selected. 
 	- Spatial cross attention is roughly the same as [BEVFormer](bevformer.md).

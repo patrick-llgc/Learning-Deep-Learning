@@ -17,6 +17,9 @@ Efficient implementation of transformers include [Set Transformer](set_transform
 - Perceiver uses cross-attention over an auxilliary low-dimensional array to reduce the complexity of attention from quadratic to linear in the input size.
 - Linformer produces linear complexity self-attention modules by projecting key and value inputs to arrays with a size smaller than the input.
 
+
+The idea sees great potential in end2end autonomous driving ([ViP3D](vip3d.md) and [UniAD](uniad.md)).
+
 #### Key ideas
 - Computational cost reduction in transformers
 	- Cross attention: Quadratic scaling to input size in transformers --> Linear. Cross attention maps to a fixed-dimension latent variable and also decouples the network depth from the input size.
