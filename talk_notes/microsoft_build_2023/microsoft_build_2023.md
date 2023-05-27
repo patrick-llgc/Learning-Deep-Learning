@@ -146,6 +146,7 @@ research territory and not practical to do in industry.
 # On Autonomous Driving
 
 * How to tokenize a scene?
+	* Some ideas from [DriveGPT](https://leimao.github.io/blog/DriveGPT/)
 
 * How to sample different trajectories?
 
