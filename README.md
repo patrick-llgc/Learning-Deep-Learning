@@ -52,6 +52,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [DIPP: Differentiable Integrated Motion Prediction and Planning with Learnable Cost Function for Autonomous Driving](https://arxiv.org/abs/2207.10422) [Planning]
 - [Imitation Is Not Enough: Robustifying Imitation with Reinforcement Learning for Challenging Driving Scenarios](https://arxiv.org/abs/2212.11419) [Planning, Waymo]
 - [Hierarchical Model-Based Imitation Learning for Planning in Autonomous Driving](https://arxiv.org/abs/2210.09539) <kbd>IROS 2022</kbd> [Planning, Waymo]
+- [Symphony: Learning Realistic and Diverse Agents for Autonomous Driving Simulation](https://arxiv.org/abs/2205.03195) <kbd>ICRA 2022</kbd> [Planning, Waymo]
 - [JFP: Joint Future Prediction with Interactive Multi-Agent Modeling for Autonomous Driving](https://arxiv.org/abs/2212.08710) [Planning, Waymo]
 - [MaskFormer: Per-Pixel Classification is Not All You Need for Semantic Segmentation](https://arxiv.org/abs/2107.06278) <kbd>NeurIPS 2021</kbd>
 - [3D Semantic Scene Completion: a Survey](https://arxiv.org/abs/2103.07466) <kbd>IJCV 2022</kbd>
