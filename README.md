@@ -14,6 +14,7 @@ Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out o
 ## My Review Posts by Topics
 I regularly update [my blog in Toward Data Science](https://medium.com/@patrickllgc).
 
+- [Vision-centric Semantic Occupancy Prediction for Autonomous Driving]() ([related paper notes](topics/topic_occupancy_network.md))
 - [Drivable Space in Autonomous Driving — The Industry](https://medium.com/@patrickllgc/drivable-space-in-autonomous-driving-the-industry-7a4624b94d41)
 - [Drivable Space in Autonomous Driving — The Academia](https://towardsdatascience.com/drivable-space-in-autonomous-driving-a-review-of-academia-ef1a6aa4dc15)
 - [Drivable Space in Autonomous Driving - The Concept](https://towardsdatascience.com/drivable-space-in-autonomous-driving-the-concept-df699bb8682f)
@@ -40,7 +41,8 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [OccFormer: Dual-path Transformer for Vision-based 3D Semantic Occupancy Prediction](https://arxiv.org/abs/2304.05316) [Occupancy Network, PhiGent]
 - [SSCNet: Semantic Scene Completion from a Single Depth Image](https://arxiv.org/abs/1611.08974) <kbd>CVPR 2017</kbd>
 - [SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences](https://arxiv.org/abs/1904.01416) <kbd>ICCV 2019</kbd> 
-- [VisionLLM: Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks](https://arxiv.org/abs/2305.11175) 
+- [Pix2seq: A Language Modeling Framework for Object Detection](https://arxiv.org/abs/2109.10852) <kbd>ICLR 2022</kbd> [Geoffrey Hinton]
+- [VisionLLM: Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks](https://arxiv.org/abs/2305.11175) [Jifeng Dai]
 - [PixPro: Propagate Yourself: Exploring Pixel-Level Consistency for Unsupervised Visual Representation Learning](https://arxiv.org/abs/2011.10043) [self-supervised]
 - [Pixel-Wise Contrastive Distillation](https://arxiv.org/abs/2211.00218) [self-supervised]
 - [VICRegL: Self-Supervised Learning of Local Visual Features](https://arxiv.org/abs/2210.01571) <kbd>NeurIPS 2022</kbd>
@@ -294,7 +296,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation](https://arxiv.org/abs/2205.13542) [[Notes](paper_notes/bevfusion.md)] [BEVNet, Han Song]
 
 ## 2022-03 (1)
-- [BEVFormer: Learning Bird's-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers](https://arxiv.org/abs/2203.17270) [[Notes](paper_notes/bevformer.md)] [BEVNet, Hongyang Li, Jifeng Dai]
+- [BEVFormer: Learning Bird's-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers](https://arxiv.org/abs/2203.17270) [[Notes](paper_notes/bevformer.md)] <kbd>ECCV 2022</kbd> [BEVNet, Hongyang Li, Jifeng Dai]
 
 ## 2022-02 (1)
 - [TNT: Target-driveN Trajectory Prediction](https://arxiv.org/abs/2008.08294) [[Notes](paper_notes/tnt.md)] <kbd>CoRL 2020</kbd> [prediction, Waymo, Hang Zhao]
