@@ -18,9 +18,9 @@
 # Reference
 
 - [MonoScene: Monocular 3D Semantic Scene Completion]([https://arxiv.org/abs/2112.00726](https://arxiv.org/abs/2112.00726)) <kbd>CVPR 2022</kbd> [[Notes](paper_notes/monoscene.md)] [Occupancy Network, single cam]
-- [VoxFormer: Sparse Voxel Transformer for Camera-based 3D Semantic Scene Completion]([https://arxiv.org/abs/2302.12251](https://arxiv.org/abs/2302.12251)), CVPR 2023
-- [TPVFormer: Tri-Perspective View for Vision-Based 3D Semantic Occupancy Prediction]([https://arxiv.org/abs/2302.07817](https://arxiv.org/abs/2302.07817)), CVPR 2023
-- [OpenOccupancy: A Large Scale Benchmark for Surrounding Semantic Occupancy Perception](https://arxiv.org/abs/2303.03991) [[Notes](notion://www.notion.so/paper_notes/openoccupancy.md)] [Occupancy Network, Jiwen Lu]
-- [SurroundOcc: Multi-Camera 3D Occupancy Prediction for Autonomous Driving]([https://arxiv.org/abs/2303.09551](https://arxiv.org/abs/2303.09551)) [Occupancy Network]
-- [Occ3D: A Large-Scale 3D Occupancy Prediction Benchmark for Autonomous Driving](https://arxiv.org/abs/2304.14365) [Occupancy Network, Zhao Hang]
+- [VoxFormer: Sparse Voxel Transformer for Camera-based 3D Semantic Scene Completion](https://arxiv.org/abs/2302.12251) [[Note](paper_notes/voxformer.md)] <kbd>CVPR 2023 highlight</kbd> [Occupancy Network, Nvidia]
+- [TPVFormer: Tri-Perspective View for Vision-Based 3D Semantic Occupancy Prediction](https://arxiv.org/abs/2302.07817) [[Notes](paper_notes/tpvformer.md)] <kbd>CVPR 2023</kbd> [Occupancy Network, Jiwen Lu]
+- [OpenOccupancy: A Large Scale Benchmark for Surrounding Semantic Occupancy Perception](https://arxiv.org/abs/2303.03991) [[Notes](paper_notes/openoccupancy.md)] [Occupancy Network, Jiwen Lu]
+- [SurroundOcc: Multi-Camera 3D Occupancy Prediction for Autonomous Driving](https://arxiv.org/abs/2303.09551) [[Notes](paper_notes/surroundocc.md)] [Occupancy Network, Wei Yi, Jiwen Lu]
+- [Occ3D: A Large-Scale 3D Occupancy Prediction Benchmark for Autonomous Driving](https://arxiv.org/abs/2304.14365) [[Notes](paper_notes/occ3d.md)] [Occupancy Network, Zhao Hang]
 - [OccFormer: Dual-path Transformer for Vision-based 3D Semantic Occupancy Prediction](https://arxiv.org/abs/2304.05316) [Occupancy Network, PhiGent]

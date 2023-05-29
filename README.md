@@ -34,15 +34,16 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2023-05 
+## 2023-05 (4)
 - [SurroundOcc: Multi-Camera 3D Occupancy Prediction for Autonomous Driving](https://arxiv.org/abs/2303.09551) [[Notes](paper_notes/surroundocc.md)] [Occupancy Network, Wei Yi, Jiwen Lu]
 - [Occ3D: A Large-Scale 3D Occupancy Prediction Benchmark for Autonomous Driving](https://arxiv.org/abs/2304.14365) [[Notes](paper_notes/occ3d.md)] [Occupancy Network, Zhao Hang]
 - [Occupancy Networks: Learning 3D Reconstruction in Function Space](https://arxiv.org/abs/1812.03828) <kbd>CVPR 2019</kbd> [[Notes](paper_notes/occupancy_networks.md)] [Andreas Geiger]
 - [OccFormer: Dual-path Transformer for Vision-based 3D Semantic Occupancy Prediction](https://arxiv.org/abs/2304.05316) [Occupancy Network, PhiGent]
+- [Pix2seq: A Language Modeling Framework for Object Detection](https://arxiv.org/abs/2109.10852) [[Notes](paper_notes/pix2seq.md)] <kbd>ICLR 2022</kbd> [Geoffrey Hinton]
+- [VisionLLM: Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks](https://arxiv.org/abs/2305.11175) [Jifeng Dai]
+- [ToT: Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601)
 - [SSCNet: Semantic Scene Completion from a Single Depth Image](https://arxiv.org/abs/1611.08974) <kbd>CVPR 2017</kbd>
 - [SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences](https://arxiv.org/abs/1904.01416) <kbd>ICCV 2019</kbd> 
-- [Pix2seq: A Language Modeling Framework for Object Detection](https://arxiv.org/abs/2109.10852) <kbd>ICLR 2022</kbd> [Geoffrey Hinton]
-- [VisionLLM: Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks](https://arxiv.org/abs/2305.11175) [Jifeng Dai]
 - [PixPro: Propagate Yourself: Exploring Pixel-Level Consistency for Unsupervised Visual Representation Learning](https://arxiv.org/abs/2011.10043) [self-supervised]
 - [Pixel-Wise Contrastive Distillation](https://arxiv.org/abs/2211.00218) [self-supervised]
 - [VICRegL: Self-Supervised Learning of Local Visual Features](https://arxiv.org/abs/2210.01571) <kbd>NeurIPS 2022</kbd>
@@ -202,7 +203,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Scene Representation in Bird’s-Eye View from Surrounding Cameras with Transformers](https://openaccess.thecvf.com/content/CVPR2022W/WAD/papers/Zhao_Scene_Representation_in_Birds-Eye_View_From_Surrounding_Cameras_With_Transformers_CVPRW_2022_paper.pdf) [BEVNet, LLD] <kbd>CVPR 2022 workshop</kbd>
 - [Multi-Frame Self-Supervised Depth with Transformers](https://arxiv.org/abs/2204.07616) <kbd>CVPR 2022</kbd>
 - [It's About Time: Analog Clock Reading in the Wild](https://arxiv.org/abs/2111.09162) <kbd>CVPR 2022</kbd> [Andrew Zisserman]
-- [SurroundDepth: Entangling Surrounding Views for Self-Supervised Multi-Camera Depth Estimation](https://arxiv.org/abs/2204.03636) [Jiwen Lu]
+- [SurroundDepth: Entangling Surrounding Views for Self-Supervised Multi-Camera Depth Estimation](https://arxiv.org/abs/2204.03636) <kbd>CoRL 2022</kbd> [Jiwen Lu]
 - [ONCE-3DLanes: Building Monocular 3D Lane Detection](https://arxiv.org/abs/2205.00301) <kbd>CVPR 2022</kbd>
 - [K-Lane: Lidar Lane Dataset and Benchmark for Urban Roads and Highways](https://arxiv.org/abs/2110.11048) <kbd>CVPR 2022 workshop</kbd> [3D LLD]
 - [Multi-modal 3D Human Pose Estimation with 2D Weak Supervision in Autonomous Driving](https://arxiv.org/abs/2112.12141) <kbd>CVPR 2022 workshop</kbd>
