@@ -40,8 +40,13 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Occupancy Networks: Learning 3D Reconstruction in Function Space](https://arxiv.org/abs/1812.03828) <kbd>CVPR 2019</kbd> [[Notes](paper_notes/occupancy_networks.md)] [Andreas Geiger]
 - [OccFormer: Dual-path Transformer for Vision-based 3D Semantic Occupancy Prediction](https://arxiv.org/abs/2304.05316) [Occupancy Network, PhiGent]
 - [Pix2seq: A Language Modeling Framework for Object Detection](https://arxiv.org/abs/2109.10852) [[Notes](paper_notes/pix2seq.md)] <kbd>ICLR 2022</kbd> [Geoffrey Hinton]
-- [VisionLLM: Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks](https://arxiv.org/abs/2305.11175) [Jifeng Dai]
+- [VisionLLM: Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks](https://arxiv.org/abs/2305.11175) [[Notes](paper_notes/vision_llm.md)] [Jifeng Dai]
+- [HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face](https://arxiv.org/abs/2303.17580) [[Notes](paper_notes/hugging_gpt.md)]
 - [ToT: Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601)
+- [Object as Query: Equipping Any 2D Object Detector with 3D Detection Ability](https://arxiv.org/abs/2301.02364) <kbd>ICCV 2023</kbd> [TuSimple]
+- [EPSILON: An Efficient Planning System for Automated Vehicles in Highly Interactive Environments](https://arxiv.org/abs/2108.07993) <kbd>T-RO 2021</kbd>
+- [Efficient Uncertainty-aware Decision-making for Automated Driving Using Guided Branching](https://arxiv.org/abs/2003.02746) <kbd>ICRA 2020</kbd>
+- [StreamPETR: Exploring Object-Centric Temporal Modeling for Efficient Multi-View 3D Object Detection](https://arxiv.org/abs/2303.11926)
 - [SSCNet: Semantic Scene Completion from a Single Depth Image](https://arxiv.org/abs/1611.08974) <kbd>CVPR 2017</kbd>
 - [SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences](https://arxiv.org/abs/1904.01416) <kbd>ICCV 2019</kbd> 
 - [PixPro: Propagate Yourself: Exploring Pixel-Level Consistency for Unsupervised Visual Representation Learning](https://arxiv.org/abs/2011.10043) [self-supervised]

@@ -13,6 +13,8 @@ It has zero inductive bias/prior knowledge of object detection. True end-to-end,
 
 The underlying methodology of Language modeling has been shown capable of modeling various sequential data. Pix2seq enriches this portfolio and shows that it works for even non-sequential data by turning a set of objects into a sequence of tokens. And the order does not matter with random ordering working best. 
 
+Follow-up work is [Pix2seq v2](pix2seq_v2.md), [Unified-IO]() and [UniTab]().
+
 
 #### Key ideas
 - **Tokenization**: Pix2seq propose a quantization and serialization scheme that converts bboxes and class labels into sequences of discrete **tokens**, **unifying them into a common vocabulary**. Each object is represented by five discrete tokens (ymin, xmin, ymax, xmax, c), with a shared vocabulary for all tokens. Coordinates are quantized to [1, n_bin], and thus vocab size is n_bin + n_class.
@@ -39,6 +41,7 @@ The underlying methodology of Language modeling has been shown capable of modeli
 - Visualization of decoder's cross attention map reveals that, the attention  is very diverse when predicting the first coordinate token (ymin) but then quickly concentrates and fixates on the objects. 
 
 ![](https://picx.zhimg.com/50/v2-48f6e934bd3eead2da449145089ccc75_720w.jpg)
+- There seems to be a list of follow-up work on pix2seq from Google Research, such as [Pix2seq v2: A Unified Sequence Interface for Vision Tasks)(https://arxiv.org/abs/2206.07669).
 
 #### Notes
-- Questions and notes on how to improve/revise the current work
+- [Github link](https://github.com/google-research/pix2seq)
