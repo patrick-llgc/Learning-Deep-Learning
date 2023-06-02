@@ -34,16 +34,12 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2023-05 (4)
-- [SurroundOcc: Multi-Camera 3D Occupancy Prediction for Autonomous Driving](https://arxiv.org/abs/2303.09551) [[Notes](paper_notes/surroundocc.md)] [Occupancy Network, Wei Yi, Jiwen Lu]
-- [Occ3D: A Large-Scale 3D Occupancy Prediction Benchmark for Autonomous Driving](https://arxiv.org/abs/2304.14365) [[Notes](paper_notes/occ3d.md)] [Occupancy Network, Zhao Hang]
-- [Occupancy Networks: Learning 3D Reconstruction in Function Space](https://arxiv.org/abs/1812.03828) <kbd>CVPR 2019</kbd> [[Notes](paper_notes/occupancy_networks.md)] [Andreas Geiger]
-- [OccFormer: Dual-path Transformer for Vision-based 3D Semantic Occupancy Prediction](https://arxiv.org/abs/2304.05316) [Occupancy Network, PhiGent]
-- [Pix2seq: A Language Modeling Framework for Object Detection](https://arxiv.org/abs/2109.10852) [[Notes](paper_notes/pix2seq.md)] <kbd>ICLR 2022</kbd> [Geoffrey Hinton]
-- [VisionLLM: Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks](https://arxiv.org/abs/2305.11175) [[Notes](paper_notes/vision_llm.md)] [Jifeng Dai]
-- [HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face](https://arxiv.org/abs/2303.17580) [[Notes](paper_notes/hugging_gpt.md)]
+## 2023-06 (1)
+- [Pix2seq v2: A Unified Sequence Interface for Vision Tasks](https://arxiv.org/abs/2206.07669) [[Notes](paper_notes/pix2seq_v2.md)] <kbd>NeurIPS 2022</kbd> [Geoffrey Hinton]
 - [ToT: Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601)
 - [Object as Query: Equipping Any 2D Object Detector with 3D Detection Ability](https://arxiv.org/abs/2301.02364) <kbd>ICCV 2023</kbd> [TuSimple]
+- [Speculative Sampling: Accelerating Large Language Model Decoding with Speculative Sampling](https://arxiv.org/abs/2302.01318) [Accelerated LLM, DeepMind]
+- [Inference with Reference: Lossless Acceleration of Large Language Models](https://arxiv.org/abs/2304.04487) [Accelerated LLM, Microsoft]
 - [EPSILON: An Efficient Planning System for Automated Vehicles in Highly Interactive Environments](https://arxiv.org/abs/2108.07993) <kbd>T-RO 2021</kbd>
 - [Efficient Uncertainty-aware Decision-making for Automated Driving Using Guided Branching](https://arxiv.org/abs/2003.02746) <kbd>ICRA 2020</kbd>
 - [StreamPETR: Exploring Object-Centric Temporal Modeling for Efficient Multi-View 3D Object Detection](https://arxiv.org/abs/2303.11926)
@@ -101,6 +97,18 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Deep Interactive Motion Prediction and Planning: Playing Games with Motion Prediction Models](https://arxiv.org/abs/2204.02392) <kbd>L4DC 2022</kbd>
 - [Interactive Prediction and Planning for Autonomous Driving: from Algorithms to Fundamental Aspects](https://escholarship.org/uc/item/0vf4q2x1) [PhD thesis of Wei Zhan, 2019]
 - [Lyft1001: One Thousand and One Hours: Self-driving Motion Prediction Dataset](https://arxiv.org/abs/2006.14480) [Lyft Level 5, prediction dataset]
+
+
+
+
+## 2023-05 (7)
+- [SurroundOcc: Multi-Camera 3D Occupancy Prediction for Autonomous Driving](https://arxiv.org/abs/2303.09551) [[Notes](paper_notes/surroundocc.md)] [Occupancy Network, Wei Yi, Jiwen Lu]
+- [Occ3D: A Large-Scale 3D Occupancy Prediction Benchmark for Autonomous Driving](https://arxiv.org/abs/2304.14365) [[Notes](paper_notes/occ3d.md)] [Occupancy Network, Zhao Hang]
+- [Occupancy Networks: Learning 3D Reconstruction in Function Space](https://arxiv.org/abs/1812.03828) <kbd>CVPR 2019</kbd> [[Notes](paper_notes/occupancy_networks.md)] [Andreas Geiger]
+- [OccFormer: Dual-path Transformer for Vision-based 3D Semantic Occupancy Prediction](https://arxiv.org/abs/2304.05316) [Occupancy Network, PhiGent]
+- [Pix2seq: A Language Modeling Framework for Object Detection](https://arxiv.org/abs/2109.10852) [[Notes](paper_notes/pix2seq.md)] <kbd>ICLR 2022</kbd> [Geoffrey Hinton]
+- [VisionLLM: Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks](https://arxiv.org/abs/2305.11175) [[Notes](paper_notes/vision_llm.md)] [Jifeng Dai]
+- [HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face](https://arxiv.org/abs/2303.17580) [[Notes](paper_notes/hugging_gpt.md)]
 
 
 ## 2023-04 (1)

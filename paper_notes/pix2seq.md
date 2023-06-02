@@ -13,7 +13,7 @@ It has zero inductive bias/prior knowledge of object detection. True end-to-end,
 
 The underlying methodology of Language modeling has been shown capable of modeling various sequential data. Pix2seq enriches this portfolio and shows that it works for even non-sequential data by turning a set of objects into a sequence of tokens. And the order does not matter with random ordering working best. 
 
-Follow-up work is [Pix2seq v2](pix2seq_v2.md), [Unified-IO]() and [UniTab]().
+Follow-up work is [Pix2seq v2](pix2seq_v2.md), [Unified-IO]() and [UniTab](). The author also created the self-supervised learning scheme of [SimCLR]().
 
 
 #### Key ideas
