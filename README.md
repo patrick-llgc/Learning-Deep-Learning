@@ -1374,6 +1374,16 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 ### Low level DL
 - [Self-Supervised Camera Self-Calibration from Video](https://arxiv.org/abs/2112.03325) [TRI, intrinsic calibration, fisheye/pinhole]
 
+### Early NLP papers
+- [A Convolutional Neural Network for Modelling Sentences](https://arxiv.org/pdf/1404.2188.pdf) <kbd>ACL 2014</kbd>
+- [FastText: Bag of Tricks for Efficient Text Classification](https://arxiv.org/pdf/1607.01759.pdf) <kbd>ACL 2017</kbd>
+- [Siamese recurrent architectures for learning sentence similarity](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/12195/12023) <kbd>AAAI 2016</kbd>
+- [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781.pdf) <kbd>ICLR 2013</kbd>
+- [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf) <kbd>ICLR 2015</kbd>
+- [Transformers: Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf) <kbd>NIPS 2017</kbd>
+
+
+
 
 ## Non-DL
 - [Ad推荐系统方向文章汇总](https://github.com/wzhe06/Ad-papers)
@@ -1390,7 +1400,7 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Design Patterns](https://refactoring.guru/design-patterns/python)
 
 
-## CVPR 2021 and ICCV 2021 (the pile to be read)
+## To be organized (CVPR 2021 and ICCV 2021 the pile to be read)
 - [Capturing Omni-Range Context for Omnidirectional Segmentation](https://arxiv.org/abs/2103.05687) <kbd>CVPR 2021</kbd>
 - [UP-DETR: Unsupervised Pre-training for Object Detection with Transformers](https://arxiv.org/abs/2011.09094) <kbd>CVPR 2021</kbd> [transformers]
 - [DCL: Dense Label Encoding for Boundary Discontinuity Free Rotation Detection](https://arxiv.org/abs/2011.09670) <kbd>CVPR 2021</kbd>

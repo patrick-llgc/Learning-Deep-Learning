@@ -2,7 +2,7 @@
 
 _June 2023_
 
-tl;dr: A massive imitation learning multitask LLM that can perform 604 tasks as language modeling.
+tl;dr: A massive multitask multimodal LLM that can perform 604 multi-embodiment tasks as language modeling.
 
 #### Overall impression
 Gato is a generalist model with a single neural network with the same set of weights to perform a massive number of tasks. It can output text, joint torques, button presses and other tokens. --> This is maybe what is used by Tesla's [TeslaBot](https://youtu.be/XiQkeWOFwmk?t=41) which maps images to joint angles.
