@@ -31,7 +31,7 @@ The "output format as query" trick seems a nice way to speed up inference, but i
 - Other related tasks
 	- A different way to manage expert models is via APIs like [HuggingGPT](hugging_gpt.md). It is not quite end-to-end as VisionLLM.
 	- Visual prompt tuning: gives image and masks as demonstrations. The generalization of the task format to various real-world problem is hard. We need a more generalized format. 
-	- Previous works focus on image to text tasks (such as Flamingo, OFA) but not on vision-perception tasks. 
+	- Previous works focus on image to text tasks (such as [Flamingo](flamingo.md), OFA) but not on vision-perception tasks. 
 - Visual grounding: locate objects in an image according to natural language discription.
 - VisionLLM achieves performance on object detection on-par with detection-specific models.
 

@@ -18,6 +18,8 @@ The idea was also corroborated in other studies such as [VectorMapNet](vectormap
 	- 1x1 convs to learn cross channel information.
 - Space increasing discretization (SID)
 	- uniformly spaced in log space. Essentially it is geometric progression (等比数列).
+	- This seems to be a simplified version of [mu-law](https://en.wikipedia.org/wiki/%CE%9C-law_algorithm) ([summary in Chinese](https://baike.baidu.com/item/mu-law/4857952)).
+	- This is improved by LID in [Center3D](center3d.md).
 - Main takeaways
 	- SID Depth bins > UD (uniform bins)
 	- Discretized depth bins > direct regression

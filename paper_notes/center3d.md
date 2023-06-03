@@ -25,6 +25,7 @@ A quick summary of [CenterNet](centernet.md) monocular 3D object detection.
 	- The length of the bins increases linearly in LID (and log-wise in SID).
 	- [DORN](dorn.md) counts the number of bins with proba > 0.5 as ordinal label and use the median value of that bins the estimated depth in meters. 
 	- LID also uses a regression bit to predict the residual value. --> This is very important to ensure good depth estimation as shown in the ablation study.
+	- See also [mu-law](https://en.wikipedia.org/wiki/%CE%9C-law_algorithm).
 - DepJoint: piece wise depth prediction
 	- Breaking the distance into two bins (either overlapping or back-to-back bins)
 	- Eigen's exponential transformation of distance: $\Phi (d) = e ^ {-d}$.

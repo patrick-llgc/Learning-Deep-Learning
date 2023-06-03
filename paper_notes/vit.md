@@ -19,7 +19,7 @@ Transformers lack some inductive biases inherent to CNNs, such as translation eq
 	- Transformer is in a sense a dynamic MLP, where the weights (attention) are generated on the fly.
 
 #### Technical details
-- Each image patch has shape 16x16. Total number can vary.
+- Each image patch has shape 16x16. Total number can vary. The paper title is a bit misleading. It is only true for a 256x256 image, where there would be 16x16 patches.
 - 2D embedding works roughly the same as 1D embedding. Even 1D embedding can learn the 2D image topology row and col wise correlation as visualized in Fig. 7.
 - [class] token in Bert. --> Why do we need this?
 - Note that the transformer encoder can be stacked by layers. Base model has 12 layers, and Huge ViT model has 32 layers. The input are input into the encoder at the same time, not fed autoregressively, like in RNN.
