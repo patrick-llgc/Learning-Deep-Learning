@@ -19,7 +19,7 @@ The "output format as query" trick seems a nice way to speed up inference, but i
 	- LLM-based task decoder. 
 - Architecture details
 	- The visual perception tasks did share one common format (C, P).
-	- Language-guided image tokenizer.  generates language-aware visual features --> How important is this language-awareness? It is important for visual grounding but not for object detection.
+	- The image tokenizer is a bit like [Perceiver](perceiver.md), also adopted by [Flamingo](flamingo.md), and [DETR](detr.md). A predefined number of latent input queries are used to cross-attend the image features. 	- Language-guided image tokenizer.  generates language-aware visual features --> How important is this language-awareness? It is important for visual grounding but not for object detection.
 - Output-format-as-query
 	- this trick in LLM-based task decoder helps solving the slow inference problem of autogressive (or causal, as the paper calls it) models. The output format acts as slots to be filled in, and these queries can generate output all at the same time.
 	- However, this formulation breaks the beauty and simplicity of using next-token supervision, and has to resort to bipartite matching as in [DETR](detr.md).

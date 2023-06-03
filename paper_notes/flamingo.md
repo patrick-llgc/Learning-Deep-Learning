@@ -1,11 +1,11 @@
-# [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198)
+# 🦩 [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198)
 
 _June 2023_
 
 tl;dr: A visually-conditioned autoregressive text generation models. It takes in interleaved text token and images/videos, and produce texts as output.
 
 #### Overall impression
-Need to teach LLM how to "see". A frozen vision encoder and frozen LLM decoder is used, only with adaptor layers learned. 
+Flamingo teaches LLM how to "see". A frozen vision encoder and frozen LLM decoder is used, only with adaptor layers learned. In a way, Flamingo promotes modular design of AGI.
 
 Strong performance with few-shot prompts can be done for image and video understanding tasks such as classification, captioning, or question-answering: these can be cast as **text prediction problems with visual input conditioning**. Note that these vision language tasks have language as the natural form of output. For vision-centric tasks such as object detection, see models such as [pix2seq](pix2seq.md), [pix2seq v2](pix2seq_v2.md) and [VisionLLM](vision_llm.md).
 

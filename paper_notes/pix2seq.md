@@ -19,7 +19,7 @@ Follow-up work is [pix2seq v2](pix2seq_v2.md), [Unified-IO]() and [UniTab](). Th
 #### Key ideas
 - **Tokenization**: Pix2seq propose a quantization and serialization scheme that converts bboxes and class labels into sequences of discrete **tokens**, **unifying them into a common vocabulary**. Each object is represented by five discrete tokens (ymin, xmin, ymax, xmax, c), with a shared vocabulary for all tokens. Coordinates are quantized to [1, n_bin], and thus vocab size is n_bin + n_class.
 	- For object detection, n_bin is chosen as 2000 (500 is enough per ablation), much smaller than NLP n_vocab, typically 32K or higher.
-- Sequence contruction
+- Sequence construction
 	- Random ordering yields the best results, better than multiple hand-crafted, deterministic ordering strategy (order by area, distance to origin, etc).
 	- The authors hypothesizes that with deterministic ordering, the model is hard to recover from mistakes of missing objects made early on. --> This is also mentioned in Andrej's state of GPT talk, which can be mitigated by **ToT (tree of thought)**, essentially **building a system 2 with a lot of sampling from system 1**.
 	- This sequence can be treated as one "dialect", a constructed object detection language.
@@ -36,7 +36,8 @@ Follow-up work is [pix2seq v2](pix2seq_v2.md), [Unified-IO]() and [UniTab](). Th
 	- The model is asked to predict to. max length yield a fixed-sized list of objects. 100 objects per image, a sequence length of 500.
 
 #### Technical details
-- Real-time performance. Can do early stopping to mitigate.
+- Training is done with standard next-token prediction loss, with teacher-forcing procedure (open loop). During inference, it is closed loop and generates results autoregressively.
+- Real-time performance: Can do early stopping to mitigate.
 - [Nucleus sampling](https://towardsdatascience.com/how-to-sample-from-language-models-682bceb97277), aka top p sampling is better than argmax sampling (when p=0, nucleus sampling degenerates to argmax). 
 - Visualization of decoder's cross attention map reveals that, the attention  is very diverse when predicting the first coordinate token (ymin) but then quickly concentrates and fixates on the objects. 
 

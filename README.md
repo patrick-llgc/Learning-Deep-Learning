@@ -36,9 +36,12 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 
 ## 2023-06 (1)
 - [Pix2seq v2: A Unified Sequence Interface for Vision Tasks](https://arxiv.org/abs/2206.07669) [[Notes](paper_notes/pix2seq_v2.md)] <kbd>NeurIPS 2022</kbd> [Geoffrey Hinton]
-- [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) [[Notes](paper_notes/flamingo.md)] <kbd>NeurIPS 2022</kbd> [DeepMind]
-- [Gato: A Generalist Agent](https://arxiv.org/abs/2205.06175) [[Notes](paper_notes/gato.md)] <kbd>TMLR 2022</kbd> [DeepMind]
-- [ToT: Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601)
+- 🦩 [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) [[Notes](paper_notes/flamingo.md)] <kbd>NeurIPS 2022</kbd> [DeepMind]
+- 😼 [Gato: A Generalist Agent](https://arxiv.org/abs/2205.06175) [[Notes](paper_notes/gato.md)] <kbd>TMLR 2022</kbd> [DeepMind]
+- [ToT: Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) [[Notes](paper_notes/tot.md)]
+- [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/abs/2106.01345) <kbd>NeurIPS 2021</kbd> [LLM for planning]
+- [LID: Pre-Trained Language Models for Interactive Decision-Making](https://arxiv.org/abs/2202.01771) <kbd>NeurIPS 2022</kbd> [LLM for planning]
+- [Planning with Large Language Models via Corrective Re-prompting](https://arxiv.org/abs/2211.09935) <kbd>NeurIPS 2022 Workshop</kbd>
 - [Object as Query: Equipping Any 2D Object Detector with 3D Detection Ability](https://arxiv.org/abs/2301.02364) <kbd>ICCV 2023</kbd> [TuSimple]
 - [Speculative Sampling: Accelerating Large Language Model Decoding with Speculative Sampling](https://arxiv.org/abs/2302.01318) [Accelerated LLM, DeepMind]
 - [Inference with Reference: Lossless Acceleration of Large Language Models](https://arxiv.org/abs/2304.04487) [Accelerated LLM, Microsoft]
