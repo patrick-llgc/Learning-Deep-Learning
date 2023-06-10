@@ -34,11 +34,14 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2023-06 (1)
+## 2023-06 (3)
 - [Pix2seq v2: A Unified Sequence Interface for Vision Tasks](https://arxiv.org/abs/2206.07669) [[Notes](paper_notes/pix2seq_v2.md)] <kbd>NeurIPS 2022</kbd> [Geoffrey Hinton]
 - 🦩 [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) [[Notes](paper_notes/flamingo.md)] <kbd>NeurIPS 2022</kbd> [DeepMind]
 - 😼 [Gato: A Generalist Agent](https://arxiv.org/abs/2205.06175) [[Notes](paper_notes/gato.md)] <kbd>TMLR 2022</kbd> [DeepMind]
+- [BC-SAC: Imitation Is Not Enough: Robustifying Imitation with Reinforcement Learning for Challenging Driving Scenarios](https://arxiv.org/abs/2212.11419) [[Notes](paper_notes/bc_sac.md)] <kbd>NeurIPS 2022</kbd> [Waymo]
+- [IL Difficulty Model: Embedding Synthetic Off-Policy Experience for Autonomous Driving via Zero-Shot Curricula](https://arxiv.org/abs/2212.01375) <kbd>CoRL 2022</kbd> [Waymo]
 - [ToT: Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) [[Notes](paper_notes/tot.md)]
+- [CoT: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
 - [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/abs/2106.01345) <kbd>NeurIPS 2021</kbd> [LLM for planning]
 - [LID: Pre-Trained Language Models for Interactive Decision-Making](https://arxiv.org/abs/2202.01771) <kbd>NeurIPS 2022</kbd> [LLM for planning]
 - [Planning with Large Language Models via Corrective Re-prompting](https://arxiv.org/abs/2211.09935) <kbd>NeurIPS 2022 Workshop</kbd>

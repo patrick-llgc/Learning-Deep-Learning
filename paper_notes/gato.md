@@ -33,7 +33,7 @@ LLM training is always open-loop, and inference is always close-loop.
 
 #### Technical details
 - **Tokenization**
-	- There are infinite ways to transform data into tokens, including directly using the raw underlying byte stream. --> Not necessarily DL model friendly though. Essentially this is to say, **anything you can serialize and store on a computer as a file, you can tokenize it and construct a sequence**.
+	- There are infinite ways to transform data into tokens, including directly using the raw underlying byte stream. --> Not necessarily DL model friendly though. Essentially this is to say, **anything you can serialize and store on a computer as a file, you can tokenize it and construct a sequence**. This is actually the idea of [Bytes Are All You Need: Transformers Operating Directly On File Bytes](https://arxiv.org/abs/2306.00238) from Apple.
 	- Text: with [SentencePiece](https://arxiv.org/abs/1808.06226) which implements BPE (byte pair encoding), with a vocab size of 32000
 	- Image: 16x16 patches
 	- Discrete values: e.g. button presses, are flattened into seq of integers, within the range of [0, 1024]
