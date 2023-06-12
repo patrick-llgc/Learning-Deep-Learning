@@ -40,6 +40,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - 😼 [Gato: A Generalist Agent](https://arxiv.org/abs/2205.06175) [[Notes](paper_notes/gato.md)] <kbd>TMLR 2022</kbd> [DeepMind]
 - [BC-SAC: Imitation Is Not Enough: Robustifying Imitation with Reinforcement Learning for Challenging Driving Scenarios](https://arxiv.org/abs/2212.11419) [[Notes](paper_notes/bc_sac.md)] <kbd>NeurIPS 2022</kbd> [Waymo]
 - [IL Difficulty Model: Embedding Synthetic Off-Policy Experience for Autonomous Driving via Zero-Shot Curricula](https://arxiv.org/abs/2212.01375) <kbd>CoRL 2022</kbd> [Waymo]
+- [MGAIL-AD: Hierarchical Model-Based Imitation Learning for Planning in Autonomous Driving](https://arxiv.org/abs/2210.09539) [[Notes](paper_notes/mgail_ad.md)] <kbd>IROS 2022</kbd> [Waymo]
 - [ToT: Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) [[Notes](paper_notes/tot.md)]
 - [CoT: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
 - [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/abs/2106.01345) <kbd>NeurIPS 2021</kbd> [LLM for planning]
@@ -941,12 +942,12 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [Path Aggregation Network for Instance Segmentation](https://arxiv.org/pdf/1803.01534.pdf) [[Notes](paper_notes/panet.md)] <kbd>CVPR 2018 </kbd>
 - [Channel Pruning for Accelerating Very Deep Neural Networks](https://arxiv.org/pdf/1707.06168.pdf) <kbd>ICCV 2017</kbd> (Face++, Yihui He) [[Notes](paper_notes/channel_pruning_megvii.md)]
 - [AMC: AutoML for Model Compression and Acceleration on Mobile Devices](https://arxiv.org/pdf/1802.03494.pdf) <kbd>ECCV 2018</kbd> (Song Han, Yihui He)
-- [MobileNetV3: Searching for MobileNetV3](https://arxiv.org/pdf/1905.02244.pdf) [[Notes](paper_notes/mobilenets_v3.md)]
+- [MobileNetV3: Searching for MobileNetV3](https://arxiv.org/abs/1905.02244) [[Notes](paper_notes/mobilenets_v3.md)] <kbd>ICCV 2019</kbd>
 - [MnasNet: Platform-Aware Neural Architecture Search for Mobile](https://arxiv.org/pdf/1807.11626.pdf) [[Notes](paper_notes/mnasnet.md)] <kbd>CVPR 2019</kbd> 
 - [Rethinking the Value of Network Pruning](https://arxiv.org/pdf/1810.05270.pdf) <kbd>ICLR 2019</kbd>
 
 ## 2019-04 (12)
-- [MobileNetV2: Inverted Residuals and Linear Bottlenecks](https://arxiv.org/pdf/1801.04381.pdf) (MobileNets v2) [[Notes](paper_notes/mobilenets_v2.md)] <kbd>CVPR 2018</kbd>
+- [MobileNetV2: Inverted Residuals and Linear Bottlenecks](https://arxiv.org/abs/1801.04381) (MobileNets v2) [[Notes](paper_notes/mobilenets_v2.md)] <kbd>CVPR 2018</kbd>
 - [A New Performance Measure and Evaluation Benchmark
 for Road Detection Algorithms](http://www.cvlibs.net/publications/Fritsch2013ITSC.pdf) [[Notes](paper_notes/kitti_lane.md)] <kbd>ITSC 2013</kbd>
 - [MultiNet: Real-time Joint Semantic Reasoning for Autonomous Driving](https://arxiv.org/pdf/1612.07695.pdf) [[Notes](paper_notes/multinet_raquel.md)]
@@ -975,7 +976,7 @@ for Road Detection Algorithms](http://www.cvlibs.net/publications/Fritsch2013ITS
 - [PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud](https://arxiv.org/abs/1812.04244) (SOTA for 3D object detection) [[Notes](paper_notes/point_rcnn.md)] <kbd>CVPR 2019</kbd>
 - [MV3D: Multi-View 3D Object Detection Network for Autonomous Driving](https://arxiv.org/abs/1611.07759) [[Notes](paper_notes/mv3d.md)] <kbd>CVPR 2017</kbd> (Baidu, sensor fusion, BV proposal)
 - [AVOD: Joint 3D Proposal Generation and Object Detection from View Aggregation](https://arxiv.org/abs/1712.02294) [[Notes](paper_notes/avod.md)] <kbd>IROS 2018</kbd> (sensor fusion, multiview proposal)
-- [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/pdf/1704.04861.pdf) [[Notes](paper_notes/mobilenets.md)]
+- [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/abs/1704.04861) [[Notes](paper_notes/mobilenets.md)]
 - [Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gafp in 3D Object Detection for Autonomous Driving](https://arxiv.org/abs/1812.07179) [[Notes](paper_notes/pseudo_lidar.md)] <kbd>CVPR 2019</kbd>
 - [VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection](https://arxiv.org/pdf/1711.06396.pdf) <kbd>CVPR 2018</kbd> (Apple, first end-to-end point cloud encoding to grid)
 - [SECOND: Sparsely Embedded Convolutional Detection](https://www.mdpi.com/1424-8220/18/10/3337/pdf) <kbd>Sensors 2018</kbd> (builds on VoxelNet)

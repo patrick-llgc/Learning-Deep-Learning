@@ -1,11 +1,11 @@
-# [Searching for MobileNetV3](https://arxiv.org/pdf/1905.02244.pdf)
+# [Searching for MobileNetV3](https://arxiv.org/abs/1905.02244)
 
 _May 2019_
 
 tl;dr: Combination of automatic search (NAS and NetAdapt) with novel architecture advances (SENet, swish activation function, hard sigmoid) to search for MobileNetv3.
 
 #### Overall impression
-Improved upon [MobileNetsv2](mobilenets_v2.md) (with inverted residuals and linear bottleneck) and [MNasNet](mnasnet.md) (NAS-optimized MobileNetsv2). The paper itself does not dwell too much on NAS, but instead reported the searched result, a deterministic model, similar to MNasNet. In particular, MobileNetV3-large uses MnasNet as baseline and uses net-adapt to finetune.
+Improved upon [MobileNets v2](mobilenets_v2.md) (with inverted residuals and linear bottleneck) and [MNasNet](mnasnet.md) (NAS-optimized MobileNetsv2). The paper itself does not dwell too much on NAS, but instead reported the searched result, a deterministic model, similar to MNasNet. In particular, MobileNetV3-large uses MnasNet as baseline and uses net-adapt to finetune.
 
 The idea of NetAdapt seems to be practical. It is complementary to NAS and finetunes the number of layers, after NAS finalizes the number of blocks.
 
