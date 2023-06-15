@@ -14,7 +14,7 @@ Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out o
 ## My Review Posts by Topics
 I regularly update [my blog in Toward Data Science](https://medium.com/@patrickllgc).
 
-- [Vision-centric Semantic Occupancy Prediction for Autonomous Driving]() ([related paper notes](topics/topic_occupancy_network.md))
+- [Vision-centric Semantic Occupancy Prediction for Autonomous Driving](https://towardsdatascience.com/vision-centric-semantic-occupancy-prediction-for-autonomous-driving-16a46dbd6f65) ([related paper notes](topics/topic_occupancy_network.md))
 - [Drivable Space in Autonomous Driving — The Industry](https://medium.com/@patrickllgc/drivable-space-in-autonomous-driving-the-industry-7a4624b94d41)
 - [Drivable Space in Autonomous Driving — The Academia](https://towardsdatascience.com/drivable-space-in-autonomous-driving-a-review-of-academia-ef1a6aa4dc15)
 - [Drivable Space in Autonomous Driving - The Concept](https://towardsdatascience.com/drivable-space-in-autonomous-driving-the-concept-df699bb8682f)
