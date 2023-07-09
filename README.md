@@ -34,18 +34,13 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2023-06 (3)
-- [Pix2seq v2: A Unified Sequence Interface for Vision Tasks](https://arxiv.org/abs/2206.07669) [[Notes](paper_notes/pix2seq_v2.md)] <kbd>NeurIPS 2022</kbd> [Geoffrey Hinton]
-- 🦩 [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) [[Notes](paper_notes/flamingo.md)] <kbd>NeurIPS 2022</kbd> [DeepMind]
-- 😼 [Gato: A Generalist Agent](https://arxiv.org/abs/2205.06175) [[Notes](paper_notes/gato.md)] <kbd>TMLR 2022</kbd> [DeepMind]
-- [BC-SAC: Imitation Is Not Enough: Robustifying Imitation with Reinforcement Learning for Challenging Driving Scenarios](https://arxiv.org/abs/2212.11419) [[Notes](paper_notes/bc_sac.md)] <kbd>NeurIPS 2022</kbd> [Waymo]
-- [UniSim: A Neural Closed-Loop Sensor Simulator](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_UniSim_A_Neural_Closed-Loop_Sensor_Simulator_CVPR_2023_paper.pdf) <kbd>CVPR 2023</kbd> [simulation, Raquel]
-- [Accelerating Reinforcement Learning for Autonomous Driving using Task-Agnostic and Ego-Centric Motion Skills](https://arxiv.org/abs/2209.12072) [Driving Skill]
-- [Efficient Reinforcement Learning for Autonomous Driving with Parameterized Skills and Priors](https://arxiv.org/abs/2305.04412) <kbd>RSS 2023</kbd> [Driving Skill]
-- [IL Difficulty Model: Embedding Synthetic Off-Policy Experience for Autonomous Driving via Zero-Shot Curricula](https://arxiv.org/abs/2212.01375) <kbd>CoRL 2022</kbd> [Waymo]
-- [MGAIL-AD: Hierarchical Model-Based Imitation Learning for Planning in Autonomous Driving](https://arxiv.org/abs/2210.09539) [[Notes](paper_notes/mgail_ad.md)] <kbd>IROS 2022</kbd> [Waymo]
-- [ToT: Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) [[Notes](paper_notes/tot.md)]
-- [CoT: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
+
+
+## 2023-07 (2)
+- [MILE: Model-Based Imitation Learning for Urban Driving](https://arxiv.org/abs/2210.07729) [[Notes](paper_notes/mile.md)] <kbd>NeurIPS 2022</kbd> [Alex Kendall]
+- [PaLM-E: An embodied multimodal language model](https://arxiv.org/abs/2303.03378) [[Notes](paper_notes/palm_e.md)] [Google Robotics]
+- [Learning from All Vehicles](https://arxiv.org/abs/2203.11934) <kbd>CVPR 2022</kbd>
+- [Roach]
 - [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/abs/2106.01345) <kbd>NeurIPS 2021</kbd> [LLM for planning]
 - [LID: Pre-Trained Language Models for Interactive Decision-Making](https://arxiv.org/abs/2202.01771) <kbd>NeurIPS 2022</kbd> [LLM for planning]
 - [Planning with Large Language Models via Corrective Re-prompting](https://arxiv.org/abs/2211.09935) <kbd>NeurIPS 2022 Workshop</kbd>
@@ -109,6 +104,35 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Deep Interactive Motion Prediction and Planning: Playing Games with Motion Prediction Models](https://arxiv.org/abs/2204.02392) <kbd>L4DC 2022</kbd>
 - [Interactive Prediction and Planning for Autonomous Driving: from Algorithms to Fundamental Aspects](https://escholarship.org/uc/item/0vf4q2x1) [PhD thesis of Wei Zhan, 2019]
 - [Lyft1001: One Thousand and One Hours: Self-driving Motion Prediction Dataset](https://arxiv.org/abs/2006.14480) [Lyft Level 5, prediction dataset]
+- [PCAccumulation: Dynamic 3D Scene Analysis by Point Cloud Accumulation](https://arxiv.org/abs/2207.12394) <kbd>ECCV 2022</kbd>
+- [Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos](https://arxiv.org/abs/2206.11795) <kbd>NeurIPS 2022</kbd>
+- [UniSim: A Neural Closed-Loop Sensor Simulator](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_UniSim_A_Neural_Closed-Loop_Sensor_Simulator_CVPR_2023_paper.pdf) <kbd>CVPR 2023</kbd> [simulation, Raquel]
+- [Accelerating Reinforcement Learning for Autonomous Driving using Task-Agnostic and Ego-Centric Motion Skills](https://arxiv.org/abs/2209.12072) [Driving Skill]
+- [Efficient Reinforcement Learning for Autonomous Driving with Parameterized Skills and Priors](https://arxiv.org/abs/2305.04412) <kbd>RSS 2023</kbd> [Driving Skill]
+- [IL Difficulty Model: Embedding Synthetic Off-Policy Experience for Autonomous Driving via Zero-Shot Curricula](https://arxiv.org/abs/2212.01375) <kbd>CoRL 2022</kbd> [Waymo]
+- [Neural Map Prior for Autonomous Driving](https://arxiv.org/abs/2304.08481) <kbd>CVPR 2023</kbd>
+- [Track Anything: Segment Anything Meets Videos](https://arxiv.org/abs/2304.11968)
+- [Self-Supervised Camera Self-Calibration from Video](https://arxiv.org/abs/2112.03325) <kbd>ICRA 2022</kbd> [TRI, calibration]
+- [Real-time Online Video Detection with Temporal Smoothing Transformers](https://arxiv.org/abs/2209.09236) <kbd>ECCV 2022</kbd> [ConvLSTM-style cross-attention]
+- [NeRF-Supervised Deep Stereo](https://arxiv.org/abs/2303.17603) <kbd>CVPR 2023</kbd>
+- [GET3D: A Generative Model of High Quality 3D Textured Shapes Learned from Images](https://arxiv.org/abs/2209.11163) <kbd>NeurIOS 2022</kbd>
+- [OmniObject3D: Large-Vocabulary 3D Object Dataset for Realistic Perception, Reconstruction and Generation](https://arxiv.org/abs/2301.07525) <kbd>CVPR 2023</kbd>
+- [Ego-Body Pose Estimation via Ego-Head Pose Estimation](https://arxiv.org/abs/2212.04636) <kbd>CVPR 2023</kbd>
+- [FB-OCC: 3D Occupancy Prediction based on Forward-Backward View Transformation](https://opendrivelab.com/e2ead/AD23Challenge/Track_3_NVOCC.pdf?=&linkId=100000205404832)
+- [PanoOcc: Unified Occupancy Representation for Camera-based 3D Panoptic Segmentation](https://arxiv.org/abs/2306.10013)
+- [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597)
+- [Visual Instruction Tuning](https://arxiv.org/abs/2304.08485)
+- [VideoChat: Chat-Centric Video Understanding](https://arxiv.org/abs/2305.06355)
+
+
+## 2023-06 (3)
+- [Pix2seq v2: A Unified Sequence Interface for Vision Tasks](https://arxiv.org/abs/2206.07669) [[Notes](paper_notes/pix2seq_v2.md)] <kbd>NeurIPS 2022</kbd> [Geoffrey Hinton]
+- 🦩 [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) [[Notes](paper_notes/flamingo.md)] <kbd>NeurIPS 2022</kbd> [DeepMind]
+- 😼 [Gato: A Generalist Agent](https://arxiv.org/abs/2205.06175) [[Notes](paper_notes/gato.md)] <kbd>TMLR 2022</kbd> [DeepMind]
+- [BC-SAC: Imitation Is Not Enough: Robustifying Imitation with Reinforcement Learning for Challenging Driving Scenarios](https://arxiv.org/abs/2212.11419) [[Notes](paper_notes/bc_sac.md)] <kbd>NeurIPS 2022</kbd> [Waymo]
+- [MGAIL-AD: Hierarchical Model-Based Imitation Learning for Planning in Autonomous Driving](https://arxiv.org/abs/2210.09539) [[Notes](paper_notes/mgail_ad.md)] <kbd>IROS 2022</kbd> [Waymo]
+- [ToT: Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) [[Notes](paper_notes/tot.md)]
+- [CoT: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
 
 
 
