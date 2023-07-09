@@ -1,6 +1,6 @@
 # [Paper Title](link_to_paper)
 
-_June 2023_
+_July 2023_
 
 tl;dr: Summary of the main idea.
 
