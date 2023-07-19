@@ -63,7 +63,8 @@ Critique:
 - MILE is an IL method, and does not need interaction with the environment. Part of the ability is through hallucination of the future, or driving by imagination. The trianing entirely based on offline driving corpus offer strong potential for real-world application.
 - DAgger proposes iterative dataset aggregation to collect data from trajectories that are likely to be encountered by the policy during deployment. It solve the problem of covariate shift. 
 - Learning latent dynamcis of a world model from image observations was first introduced in video prediction.
-- The ego action does indeed affects the environment. MILE is action-conditioned, allows how other agents respond to ego-action. Previous works often assume that the environment is not affected by ego. This is too strong an assumptioon.
+- The ego action does indeed affects the environment. MILE is action-conditioned, allows how other agents respond to ego-action. Previous works often assume that the environment is not affected by ego. This is too strong an assumption. ("world on rails"). 
+	- "To support learning from pre-recorded logs, we assume that the world is on rails, meaning neither the agent nor its actions influence the environment." -- from "Learning to drive from a world on rails", ICCV 2021
 - Driving score = Route completion (recall) X infraction penalty (precision). The penalty is a cummulative score. The driving score is too coarse. Better use the cumulative reward, which measures the performance at timestep level.
 - Q: is dynamic or static environment more challenging in autonomous driving? 
 	- Initially it is dynamic objects, given that we can use HD map information.

@@ -43,7 +43,7 @@ PaLM-E is also quite data efficient. On the order of 100 examples are needed. Th
 - Frozen or not?
 	- LLMs could be frozen, and encoder has to be trained to produce embedding vectors such that the frozen LLM is grounded on the observations. It is like input-conditioned soft-prompting.
 	- However overall finetuning LLM results in better performance. 
-- Affordance and failure dectection
+- Affordance and failure detection
 	- Affordance: given an image, whether a skill of the low-level policy can be executed in the curr environ.
 	- Failure: given an image, was a skill successful?
 - 3 types of robot tasks: Task and motion planning (TAMP, in simulation), Language-table dataset (multi-object tabletop pushing environment), and SayCan mobile manipulation (kitchen).
