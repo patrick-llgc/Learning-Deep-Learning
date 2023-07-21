@@ -39,14 +39,22 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [MILE: Model-Based Imitation Learning for Urban Driving](https://arxiv.org/abs/2210.07729) [[Notes](paper_notes/mile.md)] <kbd>NeurIPS 2022</kbd> [Alex Kendall]
 - [PaLM-E: An embodied multimodal language model](https://arxiv.org/abs/2303.03378) [[Notes](paper_notes/palm_e.md)] [Google Robotics]
 - [VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models](https://voxposer.github.io/voxposer.pdf) [[Notes](paper_notes/voxposer.md)] [Feifei Li]
-- [Code as Policies: Language Model Programs for Embodied Control](https://arxiv.org/abs/2209.07753)
+- [CaP: Code as Policies: Language Model Programs for Embodied Control](https://arxiv.org/abs/2209.07753) [[Notes/paper_notes/cap.md]]
+- [SayCan: Do As I Can, Not As I Say: Grounding Language in Robotic Affordances](https://arxiv.org/abs/2204.01691)
+- [TidyBot: Personalized Robot Assistance with Large Language Models](https://arxiv.org/abs/2305.05658)
 - [Large Language Models as General Pattern Machines](https://arxiv.org/abs/2307.04721) [Embodied AI]
+- RetinaGAN: An Object-aware Approach to Sim-to-Real Transfer
+- [PlaNet: Learning Latent Dynamics for Planning from Pixels](https://arxiv.org/abs/1811.04551) <kbd>ICML 2019</kbd>
+- [Dreamer: Dream to Control: Learning Behaviors by Latent Imagination](https://arxiv.org/abs/1912.01603) <kbd>ICLR 2020 oral</kbd>
 - [DreamerV2: Mastering Atari with Discrete World Models](https://arxiv.org/abs/2010.02193) <kbd>ICLR 2021</kbd> [World models]
+- [DreamerV3: Mastering Diverse Domains through World Models](https://arxiv.org/abs/2301.04104)
+- [DayDreamer: World Models for Physical Robot Learning](https://arxiv.org/abs/2206.14176) <kbd>CoRL 2022</kbd>
 - [JEPA: A Path Towards Autonomous Machine Intelligence](https://openreview.net/pdf?id=BZ5a1r-kVsf)
 - [I-JEPA: Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture](https://arxiv.org/abs/2301.08243) <kbd>CVPR 2023</kbd>
 - [MAGVIT: Masked Generative Video Transformer](https://arxiv.org/abs/2212.05199) <kbd>CVPR 2023 highlight</kbd> [Video prediction]
 - [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2304.08818) <kbd>CVPR 2023</kbd> [Video prediction]
 - [Runway Gen-1: Structure and Content-Guided Video Synthesis with Diffusion Models](https://arxiv.org/abs/2302.03011)
+- [Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents](https://arxiv.org/abs/2201.07207) <kbd>ICML 2022</kbd>
 - [Learning to drive from a world on rails](https://arxiv.org/abs/2105.00636) <kbd>ICCV 2021 oral</kbd> [Philipp Krähenbühl]
 - [Learning from All Vehicles](https://arxiv.org/abs/2203.11934) <kbd>CVPR 2022</kbd> [Philipp Krähenbühl]
 - [End-to-End Urban Driving by Imitating a Reinforcement Learning Coach](https://arxiv.org/abs/2108.08265) <kbd>ICCV 2021</kbd>

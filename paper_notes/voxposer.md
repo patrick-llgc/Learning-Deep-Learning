@@ -13,7 +13,7 @@ One major drawback of VoxPoser is the **lack of end-to-end differentiability**. 
 
 The model can work with dynamic perturbations, but these perturbations happen much faster than the robot can move, so essentially no active prediction needs to be performed. The robot just needs to adapt to the new environment.
 
-This work seems to be an expansion of [Code as policies](lmp.md), language model generated programs (LMPs).
+This work seems to be an expansion of [Code as policies](cap.md), language model generated programs (LMPs). CaP still relies on manly created 
 
 Key questions: where does the LLM's capability to generate affordance map come from?
 
@@ -39,7 +39,7 @@ Key questions: where does the LLM's capability to generate affordance map come f
 - Prompting structure follows LMP.
 - The system assumes availability of RGBD data. 
 - Value maps: affordance (sink), avoidance (source), end-effector velocity, end-effector rotation, gripper action.
-- [Franka Emika Panda robot](https://www.franka.de/research/) is used. 
+- HW: [Franka Emika Panda robot](https://www.franka.de/research/).
 
 #### Notes
 - Language is a compressed medium through which human distill and communicates their knowledge and experience of the world. LLM has emerged as a promising approach to capture this abstraction. 
