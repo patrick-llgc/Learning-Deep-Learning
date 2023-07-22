@@ -39,9 +39,11 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [MILE: Model-Based Imitation Learning for Urban Driving](https://arxiv.org/abs/2210.07729) [[Notes](paper_notes/mile.md)] <kbd>NeurIPS 2022</kbd> [Alex Kendall]
 - [PaLM-E: An embodied multimodal language model](https://arxiv.org/abs/2303.03378) [[Notes](paper_notes/palm_e.md)] [Google Robotics]
 - [VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models](https://voxposer.github.io/voxposer.pdf) [[Notes](paper_notes/voxposer.md)] [Feifei Li]
-- [CaP: Code as Policies: Language Model Programs for Embodied Control](https://arxiv.org/abs/2209.07753) [[Notes/paper_notes/cap.md]]
+- [CaP: Code as Policies: Language Model Programs for Embodied Control](https://arxiv.org/abs/2209.07753) [[Notes](paper_notes/cap.md)] [[Project](https://code-as-policies.github.io/)]
+- [ProgPrompt: Generating Situated Robot Task Plans using Large Language Models](https://arxiv.org/abs/2209.11302) <kbd>ICRA 2023</kbd>
 - [SayCan: Do As I Can, Not As I Say: Grounding Language in Robotic Affordances](https://arxiv.org/abs/2204.01691)
-- [TidyBot: Personalized Robot Assistance with Large Language Models](https://arxiv.org/abs/2305.05658)
+- [TidyBot: Personalized Robot Assistance with Large Language Models](https://arxiv.org/abs/2305.05658) [[Notes](paper_notes/tidybot.md)] [[Project](https://code-as-policies.github.io/)]
+- [Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language](https://arxiv.org/abs/2204.00598) [Andy Zeng]
 - [Large Language Models as General Pattern Machines](https://arxiv.org/abs/2307.04721) [Embodied AI]
 - RetinaGAN: An Object-aware Approach to Sim-to-Real Transfer
 - [PlaNet: Learning Latent Dynamics for Planning from Pixels](https://arxiv.org/abs/1811.04551) <kbd>ICML 2019</kbd>

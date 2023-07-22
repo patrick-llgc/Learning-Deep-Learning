@@ -2,7 +2,7 @@
 
 _July 2023_
 
-tl;dr: LMP (language model generated programs) that can represent robotics policies, including reactive policies and waypoint-based policies. This is one way to "ground" LLM to the real world. 
+tl;dr: Code gen for robotic control policies. LMP (language model generated programs) that can represent robotics policies, including reactive policies and waypoint-based policies. This is one way to "ground" LLM to the real world. 
 
 #### Overall impression
 This is one way to "ground" LLM to the real world. [VoxPoser](voxposer.md) provides another, more generalized way to generate control. CaP still relies on manually designed motion primitives, while [VoxPoser](voxposer.md) circumvent this via an automatic value map generation.
@@ -14,6 +14,8 @@ CaP alleviates the need to collect data and train a fixed set of predefined skil
 CaP generalizes at a specific layer in the robot stack: interpreting NL instructions processing perception outputs and then parameterize low-dimensional inputs to control primitives. This fits into system with factorized perception and control.
 
 Despite great progress, how to form **data close-loop** to continuously improve CaP is unclear. It is also limited to a handful of named primitive parameters of control API.
+
+The concurrent work is [ProgPrompt](progprompt.md). The comparison can be found in its project [page](https://progprompt.github.io/).
 
 
 #### Key ideas
@@ -30,7 +32,7 @@ Despite great progress, how to form **data close-loop** to continuously improve 
 	- LMP to generate parametrized low-level control APIs
 	- Perception and control APIs ground the LMP to a real-world robot system. 
 	- Improvements to perception and control APIs will improve LMP-based policies. 
-	- 
+
 
 #### Technical details
 - HW: 
