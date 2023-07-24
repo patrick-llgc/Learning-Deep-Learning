@@ -37,6 +37,7 @@ Overall this makes a great high-school project.
 	- obj det: ViLD, OWL-ViT
 	- open vocab obj det sometimes fail to detect foreground object even through it is prominently in the center of the image. 
 	- Open vocab cls always gives a prediction, but sometimes gives the class of the background objects. --> This can be improved with SAM.
+	- ViLD works well with small rigid objects but struggles with larger deformable objects (closthes)
 - Base model LLM: GPT-3. Text-Davinci-003
 - Error breakdown
 	- perception: Object localization

@@ -14,6 +14,8 @@ Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out o
 ## My Review Posts by Topics
 I regularly update [my blog in Toward Data Science](https://medium.com/@patrickllgc).
 
+- [BEV Perception in Mass Production Autonomous Driving](https://towardsdatascience.com/bev-perception-in-mass-production-autonomous-driving-c6e3f1e46ae0)
+- [Challenges of Mass Production Autonomous Driving in China](https://towardsdatascience.com/challenges-of-mass-production-autonomous-driving-in-china-407c7e2dc5d8)
 - [Vision-centric Semantic Occupancy Prediction for Autonomous Driving](https://towardsdatascience.com/vision-centric-semantic-occupancy-prediction-for-autonomous-driving-16a46dbd6f65) ([related paper notes](topics/topic_occupancy_network.md))
 - [Drivable Space in Autonomous Driving — The Industry](https://medium.com/@patrickllgc/drivable-space-in-autonomous-driving-the-industry-7a4624b94d41)
 - [Drivable Space in Autonomous Driving — The Academia](https://towardsdatascience.com/drivable-space-in-autonomous-driving-a-review-of-academia-ef1a6aa4dc15)
@@ -35,133 +37,22 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
 
-## 2023-07 (2)
+## 2023-07 (6)
 - [MILE: Model-Based Imitation Learning for Urban Driving](https://arxiv.org/abs/2210.07729) [[Notes](paper_notes/mile.md)] <kbd>NeurIPS 2022</kbd> [Alex Kendall]
 - [PaLM-E: An embodied multimodal language model](https://arxiv.org/abs/2303.03378) [[Notes](paper_notes/palm_e.md)] [Google Robotics]
 - [VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models](https://voxposer.github.io/voxposer.pdf) [[Notes](paper_notes/voxposer.md)] [Feifei Li]
 - [CaP: Code as Policies: Language Model Programs for Embodied Control](https://arxiv.org/abs/2209.07753) [[Notes](paper_notes/cap.md)] [[Project](https://code-as-policies.github.io/)]
 - [ProgPrompt: Generating Situated Robot Task Plans using Large Language Models](https://arxiv.org/abs/2209.11302) <kbd>ICRA 2023</kbd>
-- [SayCan: Do As I Can, Not As I Say: Grounding Language in Robotic Affordances](https://arxiv.org/abs/2204.01691)
-- [TidyBot: Personalized Robot Assistance with Large Language Models](https://arxiv.org/abs/2305.05658) [[Notes](paper_notes/tidybot.md)] [[Project](https://code-as-policies.github.io/)]
-- [Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language](https://arxiv.org/abs/2204.00598) [Andy Zeng]
-- [Large Language Models as General Pattern Machines](https://arxiv.org/abs/2307.04721) [Embodied AI]
-- RetinaGAN: An Object-aware Approach to Sim-to-Real Transfer
-- [PlaNet: Learning Latent Dynamics for Planning from Pixels](https://arxiv.org/abs/1811.04551) <kbd>ICML 2019</kbd>
-- [Dreamer: Dream to Control: Learning Behaviors by Latent Imagination](https://arxiv.org/abs/1912.01603) <kbd>ICLR 2020 oral</kbd>
-- [DreamerV2: Mastering Atari with Discrete World Models](https://arxiv.org/abs/2010.02193) <kbd>ICLR 2021</kbd> [World models]
-- [DreamerV3: Mastering Diverse Domains through World Models](https://arxiv.org/abs/2301.04104)
-- [DayDreamer: World Models for Physical Robot Learning](https://arxiv.org/abs/2206.14176) <kbd>CoRL 2022</kbd>
-- [JEPA: A Path Towards Autonomous Machine Intelligence](https://openreview.net/pdf?id=BZ5a1r-kVsf)
-- [I-JEPA: Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture](https://arxiv.org/abs/2301.08243) <kbd>CVPR 2023</kbd>
-- [MAGVIT: Masked Generative Video Transformer](https://arxiv.org/abs/2212.05199) <kbd>CVPR 2023 highlight</kbd> [Video prediction]
-- [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2304.08818) <kbd>CVPR 2023</kbd> [Video prediction]
-- [Runway Gen-1: Structure and Content-Guided Video Synthesis with Diffusion Models](https://arxiv.org/abs/2302.03011)
-- [Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents](https://arxiv.org/abs/2201.07207) <kbd>ICML 2022</kbd>
-- [Learning to drive from a world on rails](https://arxiv.org/abs/2105.00636) <kbd>ICCV 2021 oral</kbd> [Philipp Krähenbühl]
-- [Learning from All Vehicles](https://arxiv.org/abs/2203.11934) <kbd>CVPR 2022</kbd> [Philipp Krähenbühl]
-- [End-to-End Urban Driving by Imitating a Reinforcement Learning Coach](https://arxiv.org/abs/2108.08265) <kbd>ICCV 2021</kbd>
-- [End-to-end Autonomous Driving: Challenges and Frontiers](https://arxiv.org/abs/2306.16927)
-- [Pix2seq v2: A Unified Sequence Interface for Vision Tasks](https://arxiv.org/abs/2206.07669) [[Notes](paper_notes/pix2seq_v2.md)] <kbd>NeurIPS 2022</kbd> [Geoffrey Hinton]
-- [BC-SAC: Imitation Is Not Enough: Robustifying Imitation with Reinforcement Learning for Challenging Driving Scenarios](https://arxiv.org/abs/2212.11419) [[Notes](paper_notes/bc_sac.md)] <kbd>NeurIPS 2022</kbd> [Waymo]
-- [IL Difficulty Model: Embedding Synthetic Off-Policy Experience for Autonomous Driving via Zero-Shot Curricula](https://arxiv.org/abs/2212.01375) <kbd>CoRL 2022</kbd> [Waymo]
-- [MGAIL-AD: Hierarchical Model-Based Imitation Learning for Planning in Autonomous Driving](https://arxiv.org/abs/2210.09539) [[Notes](paper_notes/mgail_ad.md)] <kbd>IROS 2022</kbd> [Waymo]
-- [ToT: Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) [[Notes](paper_notes/tot.md)]
-- [CoT: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
-- [UniSim: A Neural Closed-Loop Sensor Simulator](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_UniSim_A_Neural_Closed-Loop_Sensor_Simulator_CVPR_2023_paper.pdf)
-- [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/abs/2106.01345) <kbd>NeurIPS 2021</kbd> [LLM for planning]
-- [LID: Pre-Trained Language Models for Interactive Decision-Making](https://arxiv.org/abs/2202.01771) <kbd>NeurIPS 2022</kbd> [LLM for planning]
-- [Planning with Large Language Models via Corrective Re-prompting](https://arxiv.org/abs/2211.09935) <kbd>NeurIPS 2022 Workshop</kbd>
-- [Object as Query: Equipping Any 2D Object Detector with 3D Detection Ability](https://arxiv.org/abs/2301.02364) <kbd>ICCV 2023</kbd> [TuSimple]
-- [Speculative Sampling: Accelerating Large Language Model Decoding with Speculative Sampling](https://arxiv.org/abs/2302.01318) [Accelerated LLM, DeepMind]
-- [Inference with Reference: Lossless Acceleration of Large Language Models](https://arxiv.org/abs/2304.04487) [Accelerated LLM, Microsoft]
-- [EPSILON: An Efficient Planning System for Automated Vehicles in Highly Interactive Environments](https://arxiv.org/abs/2108.07993) <kbd>T-RO 2021</kbd>
-- [Efficient Uncertainty-aware Decision-making for Automated Driving Using Guided Branching](https://arxiv.org/abs/2003.02746) <kbd>ICRA 2020</kbd>
-- [StreamPETR: Exploring Object-Centric Temporal Modeling for Efficient Multi-View 3D Object Detection](https://arxiv.org/abs/2303.11926)
-- [SSCNet: Semantic Scene Completion from a Single Depth Image](https://arxiv.org/abs/1611.08974) <kbd>CVPR 2017</kbd>
-- [SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences](https://arxiv.org/abs/1904.01416) <kbd>ICCV 2019</kbd> 
-- [PixPro: Propagate Yourself: Exploring Pixel-Level Consistency for Unsupervised Visual Representation Learning](https://arxiv.org/abs/2011.10043) [self-supervised]
-- [Pixel-Wise Contrastive Distillation](https://arxiv.org/abs/2211.00218) [self-supervised]
-- [VICRegL: Self-Supervised Learning of Local Visual Features](https://arxiv.org/abs/2210.01571) <kbd>NeurIPS 2022</kbd>
-- [ImageBind: One Embedding Space To Bind Them All](https://arxiv.org/abs/2305.05665) <kbd>CVPR 2023</kbd>
-- [KEMP: Keyframe-Based Hierarchical End-to-End Deep Model for Long-Term Trajectory Prediction](https://arxiv.org/abs/2205.04624) <kbd>ICRA 2022</kbd> [Planning]
-- [Deep Interactive Motion Prediction and Planning: Playing Games with Motion Prediction Models](https://arxiv.org/abs/2204.02392) <kbd>L4DC</kbd> [Planning]
-- [GameFormer: Game-theoretic Modeling and Learning of Transformer-based Interactive Prediction and Planning for Autonomous Driving](https://arxiv.org/abs/2303.05760) [Planning]
-- [LookOut: Diverse Multi-Future Prediction and Planning for Self-Driving](https://arxiv.org/abs/2101.06547) [Planning, Raquel]
-- [DIPP: Differentiable Integrated Motion Prediction and Planning with Learnable Cost Function for Autonomous Driving](https://arxiv.org/abs/2207.10422) [Planning]
-- [Imitation Is Not Enough: Robustifying Imitation with Reinforcement Learning for Challenging Driving Scenarios](https://arxiv.org/abs/2212.11419) [Planning, Waymo]
-- [Hierarchical Model-Based Imitation Learning for Planning in Autonomous Driving](https://arxiv.org/abs/2210.09539) <kbd>IROS 2022</kbd> [Planning, Waymo]
-- [Symphony: Learning Realistic and Diverse Agents for Autonomous Driving Simulation](https://arxiv.org/abs/2205.03195) <kbd>ICRA 2022</kbd> [Planning, Waymo]
-- [JFP: Joint Future Prediction with Interactive Multi-Agent Modeling for Autonomous Driving](https://arxiv.org/abs/2212.08710) [Planning, Waymo]
-- [MaskFormer: Per-Pixel Classification is Not All You Need for Semantic Segmentation](https://arxiv.org/abs/2107.06278) <kbd>NeurIPS 2021</kbd>
-- [3D Semantic Scene Completion: a Survey](https://arxiv.org/abs/2103.07466) <kbd>IJCV 2022</kbd>
-- [DETIC: Detecting Twenty-thousand Classes using Image-level Supervision](https://arxiv.org/abs/2201.02605) <kbd>ECCV 2022</kbd>
-- [Atlas: End-to-End 3D Scene Reconstruction from Posed Images](https://github.com/magicleap/Atlas) <kbd>ECCV 2020</kbd>
-- [TransformerFusion: Monocular RGB Scene Reconstruction using Transformers](https://arxiv.org/abs/2107.02191) <kbd>NeurIPS 2021</kbd>
-- [SimpleOccupancy: A Simple Attempt for 3D Occupancy Estimation in Autonomous Driving](https://arxiv.org/abs/2303.10076) [Occupancy Network]
-- [OccDepth: A Depth-Aware Method for 3D Semantic Scene Completion](https://arxiv.org/abs/2302.13540) [Occupancy Network, stereo]
-- [Fast-BEV: Towards Real-time On-vehicle Bird's-Eye View Perception](https://arxiv.org/abs/2301.07870) <kbd>NeurIPS 2022</kbd>
-- [Fast-BEV: A Fast and Strong Bird's-Eye View Perception Baseline](https://arxiv.org/abs/2301.12511) 
-- [ProphNet: Efficient Agent-Centric Motion Forecasting with Anchor-Informed Proposals](https://arxiv.org/abs/2303.12071) <kbd>CVPR 2023</kbd> [Qcraft, prediction]
-- [Motion Transformer with Global Intention Localization and Local Movement Refinement](https://arxiv.org/abs/2209.13508) <kbd>NeurIPS 2022 Oral</kbd>
-- [P4P: Conflict-Aware Motion Prediction for Planning in Autonomous Driving](https://arxiv.org/abs/2211.01634)
-- [MultiPath++: Efficient Information Fusion and Trajectory Aggregation for Behavior Prediction](https://arxiv.org/abs/2111.14973)
-- [ViP3D: End-to-end Visual Trajectory Prediction via 3D Agent Queries](https://arxiv.org/abs/2208.01582)
-- [SAM: Segment Anything](https://arxiv.org/abs/2304.02643) [FAIR]
-- [GeoMIM: Towards Better 3D Knowledge Transfer via Masked Image Modeling for Multi-view 3D Understanding](https://arxiv.org/abs/2303.11325)
-- [Motion Prediction using Trajectory Sets and Self-Driving Domain Knowledge](https://arxiv.org/abs/2006.04767) [Encode Road requirement to prediction]
-- [Hivt: Hierarchical vector transformer for multi-agent motion prediction]
-- [Transformer Feed-Forward Layers Are Key-Value Memories](https://arxiv.org/abs/2012.14913) <kbd>EMNLP 2021</kbd>
-- [BEV-LaneDet: a Simple and Effective 3D Lane Detection Baseline](https://arxiv.org/abs/2210.06006) <kbd>CVPR 2023</kbd> [BEVNet]
-- [Exploring Recurrent Long-term Temporal Fusion for Multi-view 3D Perception](https://arxiv.org/abs/2303.05970) [BEVNet, megvii]
-- [VAD: Vectorized Scene Representation for Efficient Autonomous Driving](https://arxiv.org/abs/2303.12077) [Horizon]
-- [A Simple Attempt for 3D Occupancy Estimation in Autonomous Driving](https://arxiv.org/abs/2303.10076)
-- [BEVPoolv2: A Cutting-edge Implementation of BEVDet Toward Deployment](https://arxiv.org/abs/2211.17111) [BEVDet, PhiGent]
-- [NVRadarNet: Real-Time Radar Obstacle and Free Space Detection for Autonomous Driving](http://aixpaper.com/view/nvradarnet_realtime_radar_obstacle_and_free_space_detection_for_autonomous_driving)
-- [GraspNet-1Billion: A Large-Scale Benchmark for General Object Grasping](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fang_GraspNet-1Billion_A_Large-Scale_Benchmark_for_General_Object_Grasping_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd> [Cewu Lu]
-- [AnyGrasp: Robust and Efficient Grasp Perception in Spatial and Temporal Domains](https://arxiv.org/abs/2212.08333) [Cewu Lu]
-- [Point Cloud Forecasting as a Proxy for 4D Occupancy Forecasting](https://arxiv.org/abs/2302.13130)
-- [HDGT: Heterogeneous Driving Graph Transformer for Multi-Agent Trajectory Prediction via Scene Encoding](https://arxiv.org/abs/2205.09753)
-- [MTR: Motion Transformer with Global Intention Localization and Local Movement Refinement](https://arxiv.org/abs/2209.13508) <kbd>NeurIPS 2022</kbd>
-- [UVTR: Unifying Voxel-based Representation with Transformer for 3D Object Detection](https://arxiv.org/abs/2206.00630) [BEVFusion, Megvii, BEVNet, camera + lidar]
-- [Don't Use Large Mini-Batches, Use Local SGD](https://arxiv.org/abs/1808.07217) <kbd>ICLR 2020</kbd>
-- [Grokking: Generalization beyond Overfitting on small algorithmic datasets](https://arxiv.org/abs/2201.02177)
-- [Progress measures for grokking via mechanistic interpretability]()
-- [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530) <kbd>ICLR 2017</kbd>
-- [Unifying Grokking and Double DescentDownload](https://openreview.net/forum?id=JqtHMZtqWm)
-- [Deep Interactive Motion Prediction and Planning: Playing Games with Motion Prediction Models](https://arxiv.org/abs/2204.02392) <kbd>L4DC 2022</kbd>
-- [Interactive Prediction and Planning for Autonomous Driving: from Algorithms to Fundamental Aspects](https://escholarship.org/uc/item/0vf4q2x1) [PhD thesis of Wei Zhan, 2019]
-- [Lyft1001: One Thousand and One Hours: Self-driving Motion Prediction Dataset](https://arxiv.org/abs/2006.14480) [Lyft Level 5, prediction dataset]
-- [PCAccumulation: Dynamic 3D Scene Analysis by Point Cloud Accumulation](https://arxiv.org/abs/2207.12394) <kbd>ECCV 2022</kbd>
-- [Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos](https://arxiv.org/abs/2206.11795) <kbd>NeurIPS 2022</kbd>
-- [UniSim: A Neural Closed-Loop Sensor Simulator](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_UniSim_A_Neural_Closed-Loop_Sensor_Simulator_CVPR_2023_paper.pdf) <kbd>CVPR 2023</kbd> [simulation, Raquel]
-- [Accelerating Reinforcement Learning for Autonomous Driving using Task-Agnostic and Ego-Centric Motion Skills](https://arxiv.org/abs/2209.12072) [Driving Skill]
-- [Efficient Reinforcement Learning for Autonomous Driving with Parameterized Skills and Priors](https://arxiv.org/abs/2305.04412) <kbd>RSS 2023</kbd> [Driving Skill]
-- [IL Difficulty Model: Embedding Synthetic Off-Policy Experience for Autonomous Driving via Zero-Shot Curricula](https://arxiv.org/abs/2212.01375) <kbd>CoRL 2022</kbd> [Waymo]
-- [Neural Map Prior for Autonomous Driving](https://arxiv.org/abs/2304.08481) <kbd>CVPR 2023</kbd>
-- [Track Anything: Segment Anything Meets Videos](https://arxiv.org/abs/2304.11968)
-- [Self-Supervised Camera Self-Calibration from Video](https://arxiv.org/abs/2112.03325) <kbd>ICRA 2022</kbd> [TRI, calibration]
-- [Real-time Online Video Detection with Temporal Smoothing Transformers](https://arxiv.org/abs/2209.09236) <kbd>ECCV 2022</kbd> [ConvLSTM-style cross-attention]
-- [NeRF-Supervised Deep Stereo](https://arxiv.org/abs/2303.17603) <kbd>CVPR 2023</kbd>
-- [GET3D: A Generative Model of High Quality 3D Textured Shapes Learned from Images](https://arxiv.org/abs/2209.11163) <kbd>NeurIOS 2022</kbd>
-- [OmniObject3D: Large-Vocabulary 3D Object Dataset for Realistic Perception, Reconstruction and Generation](https://arxiv.org/abs/2301.07525) <kbd>CVPR 2023</kbd>
-- [Ego-Body Pose Estimation via Ego-Head Pose Estimation](https://arxiv.org/abs/2212.04636) <kbd>CVPR 2023</kbd>
-- [FB-OCC: 3D Occupancy Prediction based on Forward-Backward View Transformation](https://opendrivelab.com/e2ead/AD23Challenge/Track_3_NVOCC.pdf?=&linkId=100000205404832)
-- [PanoOcc: Unified Occupancy Representation for Camera-based 3D Panoptic Segmentation](https://arxiv.org/abs/2306.10013)
-- [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597)
-- [Visual Instruction Tuning](https://arxiv.org/abs/2304.08485)
-- [VideoChat: Chat-Centric Video Understanding](https://arxiv.org/abs/2305.06355)
+- [TidyBot: Personalized Robot Assistance with Large Language Models](https://arxiv.org/abs/2305.05658) [[Notes](paper_notes/tidybot.md)] [[Project](https://tidybot.cs.princeton.edu/)]
+- [SayCan: Do As I Can, Not As I Say: Grounding Language in Robotic Affordances](https://arxiv.org/abs/2204.01691) [[Notes](paper_notes/saycan.md)] [[Project](https://say-can.github.io/)]
 
 
-## 2023-06 (3)
+## 2023-06 (5)
 - [Pix2seq v2: A Unified Sequence Interface for Vision Tasks](https://arxiv.org/abs/2206.07669) [[Notes](paper_notes/pix2seq_v2.md)] <kbd>NeurIPS 2022</kbd> [Geoffrey Hinton]
 - 🦩 [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) [[Notes](paper_notes/flamingo.md)] <kbd>NeurIPS 2022</kbd> [DeepMind]
 - 😼 [Gato: A Generalist Agent](https://arxiv.org/abs/2205.06175) [[Notes](paper_notes/gato.md)] <kbd>TMLR 2022</kbd> [DeepMind]
 - [BC-SAC: Imitation Is Not Enough: Robustifying Imitation with Reinforcement Learning for Challenging Driving Scenarios](https://arxiv.org/abs/2212.11419) [[Notes](paper_notes/bc_sac.md)] <kbd>NeurIPS 2022</kbd> [Waymo]
 - [MGAIL-AD: Hierarchical Model-Based Imitation Learning for Planning in Autonomous Driving](https://arxiv.org/abs/2210.09539) [[Notes](paper_notes/mgail_ad.md)] <kbd>IROS 2022</kbd> [Waymo]
-- [ToT: Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) [[Notes](paper_notes/tot.md)]
-- [CoT: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
-
-
 
 
 ## 2023-05 (7)
@@ -1585,3 +1476,110 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Progressive Coordinate Transforms for Monocular 3D Object Detection](http://arxiv.org/abs/2108.05793) [mono3D]
 - [AutoShape: Real-Time Shape-Aware Monocular 3D Object Detection](https://arxiv.org/abs/2108.11127) <kbd>ICCV 2021</kbd> [mono3D]
 - [BlazePose: On-device Real-time Body Pose tracking](https://arxiv.org/abs/2006.10204)
+
+
+## TODO
+- [Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language](https://arxiv.org/abs/2204.00598) [Andy Zeng]
+- [Large Language Models as General Pattern Machines](https://arxiv.org/abs/2307.04721) [Embodied AI]
+- RetinaGAN: An Object-aware Approach to Sim-to-Real Transfer
+- [PlaNet: Learning Latent Dynamics for Planning from Pixels](https://arxiv.org/abs/1811.04551) <kbd>ICML 2019</kbd>
+- [Dreamer: Dream to Control: Learning Behaviors by Latent Imagination](https://arxiv.org/abs/1912.01603) <kbd>ICLR 2020 oral</kbd>
+- [DreamerV2: Mastering Atari with Discrete World Models](https://arxiv.org/abs/2010.02193) <kbd>ICLR 2021</kbd> [World models]
+- [DreamerV3: Mastering Diverse Domains through World Models](https://arxiv.org/abs/2301.04104)
+- [DayDreamer: World Models for Physical Robot Learning](https://arxiv.org/abs/2206.14176) <kbd>CoRL 2022</kbd>
+- [JEPA: A Path Towards Autonomous Machine Intelligence](https://openreview.net/pdf?id=BZ5a1r-kVsf)
+- [I-JEPA: Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture](https://arxiv.org/abs/2301.08243) <kbd>CVPR 2023</kbd>
+- [MAGVIT: Masked Generative Video Transformer](https://arxiv.org/abs/2212.05199) <kbd>CVPR 2023 highlight</kbd> [Video prediction]
+- [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2304.08818) <kbd>CVPR 2023</kbd> [Video prediction]
+- [Runway Gen-1: Structure and Content-Guided Video Synthesis with Diffusion Models](https://arxiv.org/abs/2302.03011)
+- [Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents](https://arxiv.org/abs/2201.07207) <kbd>ICML 2022</kbd>
+- [Learning to drive from a world on rails](https://arxiv.org/abs/2105.00636) <kbd>ICCV 2021 oral</kbd> [Philipp Krähenbühl]
+- [Learning from All Vehicles](https://arxiv.org/abs/2203.11934) <kbd>CVPR 2022</kbd> [Philipp Krähenbühl]
+- [End-to-End Urban Driving by Imitating a Reinforcement Learning Coach](https://arxiv.org/abs/2108.08265) <kbd>ICCV 2021</kbd>
+- [End-to-end Autonomous Driving: Challenges and Frontiers](https://arxiv.org/abs/2306.16927)
+- [IL Difficulty Model: Embedding Synthetic Off-Policy Experience for Autonomous Driving via Zero-Shot Curricula](https://arxiv.org/abs/2212.01375) <kbd>CoRL 2022</kbd> [Waymo]
+- [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/abs/2106.01345) <kbd>NeurIPS 2021</kbd> [LLM for planning]
+- [LID: Pre-Trained Language Models for Interactive Decision-Making](https://arxiv.org/abs/2202.01771) <kbd>NeurIPS 2022</kbd> [LLM for planning]
+- [Planning with Large Language Models via Corrective Re-prompting](https://arxiv.org/abs/2211.09935) <kbd>NeurIPS 2022 Workshop</kbd>
+- [Object as Query: Equipping Any 2D Object Detector with 3D Detection Ability](https://arxiv.org/abs/2301.02364) <kbd>ICCV 2023</kbd> [TuSimple]
+- [Speculative Sampling: Accelerating Large Language Model Decoding with Speculative Sampling](https://arxiv.org/abs/2302.01318) [Accelerated LLM, DeepMind]
+- [Inference with Reference: Lossless Acceleration of Large Language Models](https://arxiv.org/abs/2304.04487) [Accelerated LLM, Microsoft]
+- [EPSILON: An Efficient Planning System for Automated Vehicles in Highly Interactive Environments](https://arxiv.org/abs/2108.07993) <kbd>T-RO 2021</kbd>
+- [Efficient Uncertainty-aware Decision-making for Automated Driving Using Guided Branching](https://arxiv.org/abs/2003.02746) <kbd>ICRA 2020</kbd>
+- [StreamPETR: Exploring Object-Centric Temporal Modeling for Efficient Multi-View 3D Object Detection](https://arxiv.org/abs/2303.11926)
+- [SSCNet: Semantic Scene Completion from a Single Depth Image](https://arxiv.org/abs/1611.08974) <kbd>CVPR 2017</kbd>
+- [SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences](https://arxiv.org/abs/1904.01416) <kbd>ICCV 2019</kbd> 
+- [PixPro: Propagate Yourself: Exploring Pixel-Level Consistency for Unsupervised Visual Representation Learning](https://arxiv.org/abs/2011.10043) [self-supervised]
+- [Pixel-Wise Contrastive Distillation](https://arxiv.org/abs/2211.00218) [self-supervised]
+- [VICRegL: Self-Supervised Learning of Local Visual Features](https://arxiv.org/abs/2210.01571) <kbd>NeurIPS 2022</kbd>
+- [ImageBind: One Embedding Space To Bind Them All](https://arxiv.org/abs/2305.05665) <kbd>CVPR 2023</kbd>
+- [KEMP: Keyframe-Based Hierarchical End-to-End Deep Model for Long-Term Trajectory Prediction](https://arxiv.org/abs/2205.04624) <kbd>ICRA 2022</kbd> [Planning]
+- [Deep Interactive Motion Prediction and Planning: Playing Games with Motion Prediction Models](https://arxiv.org/abs/2204.02392) <kbd>L4DC</kbd> [Planning]
+- [GameFormer: Game-theoretic Modeling and Learning of Transformer-based Interactive Prediction and Planning for Autonomous Driving](https://arxiv.org/abs/2303.05760) [Planning]
+- [LookOut: Diverse Multi-Future Prediction and Planning for Self-Driving](https://arxiv.org/abs/2101.06547) [Planning, Raquel]
+- [DIPP: Differentiable Integrated Motion Prediction and Planning with Learnable Cost Function for Autonomous Driving](https://arxiv.org/abs/2207.10422) [Planning]
+- [Imitation Is Not Enough: Robustifying Imitation with Reinforcement Learning for Challenging Driving Scenarios](https://arxiv.org/abs/2212.11419) [Planning, Waymo]
+- [Hierarchical Model-Based Imitation Learning for Planning in Autonomous Driving](https://arxiv.org/abs/2210.09539) <kbd>IROS 2022</kbd> [Planning, Waymo]
+- [Symphony: Learning Realistic and Diverse Agents for Autonomous Driving Simulation](https://arxiv.org/abs/2205.03195) <kbd>ICRA 2022</kbd> [Planning, Waymo]
+- [JFP: Joint Future Prediction with Interactive Multi-Agent Modeling for Autonomous Driving](https://arxiv.org/abs/2212.08710) [Planning, Waymo]
+- [MaskFormer: Per-Pixel Classification is Not All You Need for Semantic Segmentation](https://arxiv.org/abs/2107.06278) <kbd>NeurIPS 2021</kbd>
+- [3D Semantic Scene Completion: a Survey](https://arxiv.org/abs/2103.07466) <kbd>IJCV 2022</kbd>
+- [DETIC: Detecting Twenty-thousand Classes using Image-level Supervision](https://arxiv.org/abs/2201.02605) <kbd>ECCV 2022</kbd>
+- [Atlas: End-to-End 3D Scene Reconstruction from Posed Images](https://github.com/magicleap/Atlas) <kbd>ECCV 2020</kbd>
+- [TransformerFusion: Monocular RGB Scene Reconstruction using Transformers](https://arxiv.org/abs/2107.02191) <kbd>NeurIPS 2021</kbd>
+- [SimpleOccupancy: A Simple Attempt for 3D Occupancy Estimation in Autonomous Driving](https://arxiv.org/abs/2303.10076) [Occupancy Network]
+- [OccDepth: A Depth-Aware Method for 3D Semantic Scene Completion](https://arxiv.org/abs/2302.13540) [Occupancy Network, stereo]
+- [Fast-BEV: Towards Real-time On-vehicle Bird's-Eye View Perception](https://arxiv.org/abs/2301.07870) <kbd>NeurIPS 2022</kbd>
+- [Fast-BEV: A Fast and Strong Bird's-Eye View Perception Baseline](https://arxiv.org/abs/2301.12511) 
+- [ProphNet: Efficient Agent-Centric Motion Forecasting with Anchor-Informed Proposals](https://arxiv.org/abs/2303.12071) <kbd>CVPR 2023</kbd> [Qcraft, prediction]
+- [Motion Transformer with Global Intention Localization and Local Movement Refinement](https://arxiv.org/abs/2209.13508) <kbd>NeurIPS 2022 Oral</kbd>
+- [P4P: Conflict-Aware Motion Prediction for Planning in Autonomous Driving](https://arxiv.org/abs/2211.01634)
+- [MultiPath++: Efficient Information Fusion and Trajectory Aggregation for Behavior Prediction](https://arxiv.org/abs/2111.14973)
+- [ViP3D: End-to-end Visual Trajectory Prediction via 3D Agent Queries](https://arxiv.org/abs/2208.01582)
+- [SAM: Segment Anything](https://arxiv.org/abs/2304.02643) [FAIR]
+- [GeoMIM: Towards Better 3D Knowledge Transfer via Masked Image Modeling for Multi-view 3D Understanding](https://arxiv.org/abs/2303.11325)
+- [Motion Prediction using Trajectory Sets and Self-Driving Domain Knowledge](https://arxiv.org/abs/2006.04767) [Encode Road requirement to prediction]
+- [Hivt: Hierarchical vector transformer for multi-agent motion prediction]
+- [Transformer Feed-Forward Layers Are Key-Value Memories](https://arxiv.org/abs/2012.14913) <kbd>EMNLP 2021</kbd>
+- [BEV-LaneDet: a Simple and Effective 3D Lane Detection Baseline](https://arxiv.org/abs/2210.06006) <kbd>CVPR 2023</kbd> [BEVNet]
+- [Exploring Recurrent Long-term Temporal Fusion for Multi-view 3D Perception](https://arxiv.org/abs/2303.05970) [BEVNet, megvii]
+- [VAD: Vectorized Scene Representation for Efficient Autonomous Driving](https://arxiv.org/abs/2303.12077) [Horizon]
+- [A Simple Attempt for 3D Occupancy Estimation in Autonomous Driving](https://arxiv.org/abs/2303.10076)
+- [BEVPoolv2: A Cutting-edge Implementation of BEVDet Toward Deployment](https://arxiv.org/abs/2211.17111) [BEVDet, PhiGent]
+- [NVRadarNet: Real-Time Radar Obstacle and Free Space Detection for Autonomous Driving](http://aixpaper.com/view/nvradarnet_realtime_radar_obstacle_and_free_space_detection_for_autonomous_driving)
+- [GraspNet-1Billion: A Large-Scale Benchmark for General Object Grasping](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fang_GraspNet-1Billion_A_Large-Scale_Benchmark_for_General_Object_Grasping_CVPR_2020_paper.pdf) <kbd>CVPR 2020</kbd> [Cewu Lu]
+- [AnyGrasp: Robust and Efficient Grasp Perception in Spatial and Temporal Domains](https://arxiv.org/abs/2212.08333) [Cewu Lu]
+- [Point Cloud Forecasting as a Proxy for 4D Occupancy Forecasting](https://arxiv.org/abs/2302.13130)
+- [HDGT: Heterogeneous Driving Graph Transformer for Multi-Agent Trajectory Prediction via Scene Encoding](https://arxiv.org/abs/2205.09753)
+- [MTR: Motion Transformer with Global Intention Localization and Local Movement Refinement](https://arxiv.org/abs/2209.13508) <kbd>NeurIPS 2022</kbd>
+- [UVTR: Unifying Voxel-based Representation with Transformer for 3D Object Detection](https://arxiv.org/abs/2206.00630) [BEVFusion, Megvii, BEVNet, camera + lidar]
+- [Don't Use Large Mini-Batches, Use Local SGD](https://arxiv.org/abs/1808.07217) <kbd>ICLR 2020</kbd>
+- [Grokking: Generalization beyond Overfitting on small algorithmic datasets](https://arxiv.org/abs/2201.02177)
+- [Progress measures for grokking via mechanistic interpretability]()
+- [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530) <kbd>ICLR 2017</kbd>
+- [Unifying Grokking and Double DescentDownload](https://openreview.net/forum?id=JqtHMZtqWm)
+- [Deep Interactive Motion Prediction and Planning: Playing Games with Motion Prediction Models](https://arxiv.org/abs/2204.02392) <kbd>L4DC 2022</kbd>
+- [Interactive Prediction and Planning for Autonomous Driving: from Algorithms to Fundamental Aspects](https://escholarship.org/uc/item/0vf4q2x1) [PhD thesis of Wei Zhan, 2019]
+- [Lyft1001: One Thousand and One Hours: Self-driving Motion Prediction Dataset](https://arxiv.org/abs/2006.14480) [Lyft Level 5, prediction dataset]
+- [PCAccumulation: Dynamic 3D Scene Analysis by Point Cloud Accumulation](https://arxiv.org/abs/2207.12394) <kbd>ECCV 2022</kbd>
+- [Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos](https://arxiv.org/abs/2206.11795) <kbd>NeurIPS 2022</kbd>
+- [UniSim: A Neural Closed-Loop Sensor Simulator](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_UniSim_A_Neural_Closed-Loop_Sensor_Simulator_CVPR_2023_paper.pdf) <kbd>CVPR 2023</kbd> [simulation, Raquel]
+- [Accelerating Reinforcement Learning for Autonomous Driving using Task-Agnostic and Ego-Centric Motion Skills](https://arxiv.org/abs/2209.12072) [Driving Skill]
+- [Efficient Reinforcement Learning for Autonomous Driving with Parameterized Skills and Priors](https://arxiv.org/abs/2305.04412) <kbd>RSS 2023</kbd> [Driving Skill]
+- [IL Difficulty Model: Embedding Synthetic Off-Policy Experience for Autonomous Driving via Zero-Shot Curricula](https://arxiv.org/abs/2212.01375) <kbd>CoRL 2022</kbd> [Waymo]
+- [Neural Map Prior for Autonomous Driving](https://arxiv.org/abs/2304.08481) <kbd>CVPR 2023</kbd>
+- [Track Anything: Segment Anything Meets Videos](https://arxiv.org/abs/2304.11968)
+- [Self-Supervised Camera Self-Calibration from Video](https://arxiv.org/abs/2112.03325) <kbd>ICRA 2022</kbd> [TRI, calibration]
+- [Real-time Online Video Detection with Temporal Smoothing Transformers](https://arxiv.org/abs/2209.09236) <kbd>ECCV 2022</kbd> [ConvLSTM-style cross-attention]
+- [NeRF-Supervised Deep Stereo](https://arxiv.org/abs/2303.17603) <kbd>CVPR 2023</kbd>
+- [GET3D: A Generative Model of High Quality 3D Textured Shapes Learned from Images](https://arxiv.org/abs/2209.11163) <kbd>NeurIOS 2022</kbd>
+- [OmniObject3D: Large-Vocabulary 3D Object Dataset for Realistic Perception, Reconstruction and Generation](https://arxiv.org/abs/2301.07525) <kbd>CVPR 2023</kbd>
+- [Ego-Body Pose Estimation via Ego-Head Pose Estimation](https://arxiv.org/abs/2212.04636) <kbd>CVPR 2023</kbd>
+- [FB-OCC: 3D Occupancy Prediction based on Forward-Backward View Transformation](https://opendrivelab.com/e2ead/AD23Challenge/Track_3_NVOCC.pdf?=&linkId=100000205404832)
+- [PanoOcc: Unified Occupancy Representation for Camera-based 3D Panoptic Segmentation](https://arxiv.org/abs/2306.10013)
+- [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597)
+- [Visual Instruction Tuning](https://arxiv.org/abs/2304.08485)
+- [VideoChat: Chat-Centric Video Understanding](https://arxiv.org/abs/2305.06355)
+- [ToT: Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) [[Notes](paper_notes/tot.md)]
+- [CoT: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
+

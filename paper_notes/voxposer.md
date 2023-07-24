@@ -40,6 +40,10 @@ Key questions: where does the LLM's capability to generate affordance map come f
 - The system assumes availability of RGBD data. 
 - Value maps: affordance (sink), avoidance (source), end-effector velocity, end-effector rotation, gripper action.
 - HW: [Franka Emika Panda robot](https://www.franka.de/research/).
+- VLM
+	- OWL-ViT: for open vocab object detection
+	- SAM: for segmentation
+	- XMEM: for tracking
 
 #### Notes
 - Language is a compressed medium through which human distill and communicates their knowledge and experience of the world. LLM has emerged as a promising approach to capture this abstraction. 
