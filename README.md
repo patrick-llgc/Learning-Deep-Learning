@@ -11,7 +11,7 @@ If you are new to deep learning in computer vision and don't know where to start
 Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out of papers to read.
 
 
-## My Review Posts by Topics
+## My review posts by topics
 I regularly update [my blog in Toward Data Science](https://medium.com/@patrickllgc).
 
 - [BEV Perception in Mass Production Autonomous Driving](https://towardsdatascience.com/bev-perception-in-mass-production-autonomous-driving-c6e3f1e46ae0)
@@ -88,145 +88,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 ## 2023-01 (2)
 - [PPGeo: Policy Pre-training for End-to-end Autonomous Driving via Self-supervised Geometric Modeling](https://arxiv.org/abs/2301.01006) [[Notes](paper_notes/ppgeo.md)] <kbd>ICLR 2023</kbd>
 - [nuPlan: A closed-loop ML-based planning benchmark for autonomous vehicles](https://arxiv.org/abs/2106.11810) [[Notes](paper_notes/nuplan.md)]
-- [CoBEVT: Cooperative Bird's Eye View Semantic Segmentation with Sparse Transformers](https://arxiv.org/abs/2207.02202) <kbd>CoRL 2022</kbd>
-- [BEVFormer v2: Adapting Modern Image Backbones to Bird's-Eye-View Recognition via Perspective Supervision](https://arxiv.org/abs/2211.10439) [BEVNet, Jifeng Dai]
-- [Fast-BEV: Towards Real-time On-vehicle Bird’s-Eye View Perception](https://ml4ad.github.io/files/papers2022/Fast-BEV:%20Towards%20Real-time%20On-vehicle%20Bird's-Eye%20View%20Perception.pdf) <kbd>NeurIPS 2022</kbd>
-- [Traj++: Human Trajectory Forecasting in Crowds: A Deep Learning Perspective](https://arxiv.org/abs/2007.03639) <kbd>TITS 2021</kbd>
-- [Data Driven Prediction Architecture for Autonomous Driving and its Application on Apollo Platform](https://arxiv.org/abs/2006.06715) <kbd>IV 2020</kbd> [Baidu]
-- [THOMAS: Trajectory Heatmap Output with learned Multi-Agent Sampling](https://arxiv.org/abs/2110.06607) <kbd>ICLR 2022</kbd>
-- [Learning Lane Graph Representations for Motion Forecasting](https://arxiv.org/abs/2007.13732) <kbd>ECCV 2020 oral</kbd>
-- [Identifying Driver Interactions via Conditional Behavior Prediction](https://arxiv.org/abs/2104.09959) <kbd>ICRA 2021</kbd> [Waymo]
-- [Trajectron++: Dynamically-Feasible Trajectory Forecasting With Heterogeneous Data](https://arxiv.org/abs/2001.03093) <kbd>ECCV 2020</kbd>
-- [TPNet: Trajectory Proposal Network for Motion Prediction](https://arxiv.org/abs/2004.12255) <kbd>CVPR 2020</kbd>
-- [GOHOME: Graph-Oriented Heatmap Output for future Motion Estimation](https://arxiv.org/abs/2109.01827)
-- [PECNet: It Is Not the Journey but the Destination: Endpoint Conditioned Trajectory Prediction](https://arxiv.org/abs/2004.02025) <kbd>ECCV 2020 oral</kbd>
-- [From Goals, Waypoints & Paths To Long Term Human Trajectory Forecasting](https://arxiv.org/abs/2012.01526) <kbd>ICCV 2019</kbd>
-- [PRECOG: PREdiction Conditioned On Goals in Visual Multi-Agent Settings](https://arxiv.org/abs/1905.01296) <kbd>ICCV 2019</kbd>
-- [PiP: Planning-informed Trajectory Prediction for Autonomous Driving](https://arxiv.org/abs/2003.11476) <kbd>ECCV 2020</kbd>
-- [MultiPath: Multiple Probabilistic Anchor Trajectory Hypotheses for Behavior Prediction](https://arxiv.org/abs/1910.05449) <kbd>CoRL 2019</kbd>
-- [LaPred: Lane-Aware Prediction of Multi-Modal Future Trajectories of Dynamic Agents](https://arxiv.org/abs/2104.00249) <kbd>CVPR 2021</kbd>
-- [PRIME: Learning to Predict Vehicle Trajectories with Model-based Planning](https://arxiv.org/abs/2103.04027) <kbd>CoRL 2021<kbd>
-- [A Flexible and Explainable Vehicle Motion Prediction and Inference Framework Combining Semi-Supervised AOG and ST-LSTM](https://dl.acm.org/doi/abs/10.1109/TITS.2020.3016304) <kbd>TITS 2020</kbd>
-- [Multi-Modal Trajectory Prediction of Surrounding Vehicles with Maneuver based LSTMs](https://arxiv.org/abs/1805.05499) <kbd>IV 2018</kbd> [Trivedi]
-- [HYPER: Learned Hybrid Trajectory Prediction via Factored Inference and Adaptive Sampling](https://arxiv.org/abs/2110.02344) <kbd>ICRA 2022</kbd>
-- [Trajectory Prediction with Linguistic Representations](https://arxiv.org/abs/2110.09741) <kbd>ICRA 2022</kbd>
-- [What-If Motion Prediction for Autonomous Driving](https://arxiv.org/abs/2008.10587)
-- [End-to-end Contextual Perception and Prediction with Interaction Transformer](https://arxiv.org/abs/2008.05927) <kbd>IROS 2020</kbd> [Auxiliary collision loss, scene compliant pred]
-- [SafeCritic: Collision-Aware Trajectory Prediction](https://arxiv.org/abs/1910.06673) <kbd>BMVC 2019</kbd> [IRL, scene compliant pred]
-- [Large Scale Interactive Motion Forecasting for Autonomous Driving: The Waymo Open Motion Dataset](https://arxiv.org/abs/2104.10133) <kbd>ICCV 2021</kbd> [Waymo]
-- [Interaction-Based Trajectory Prediction Over a Hybrid Traffic Graph](https://arxiv.org/abs/2009.12916) <kbd>IROS 2020</kbd>
-- [Joint Interaction and Trajectory Prediction for Autonomous Driving using Graph Neural Networks](https://arxiv.org/abs/1912.07882) <kbd>NeurIPS 2019 workshop</kbd>
-- [Fast Risk Assessment for Autonomous Vehicles Using Learned Models of Agent Futures](https://arxiv.org/abs/2005.13458) <kbd>Robotics: science and systems 2020</kbd>
-- [Monocular 3D Object Detection: An Extrinsic Parameter Free Approach](https://arxiv.org/abs/2106.15796) <kbd>CVPR 2021</kbd> [PJLab]
-- [UniFormer: Unified Multi-view Fusion Transformer for Spatial-Temporal Representation in Bird's-Eye-View](https://arxiv.org/abs/2207.08536) [BEVFormer, BEVNet, Temporal]
-- [GitNet: geometric prior-baesd transformation for birds yee view segmentation]()
-- [WBF: weighted box fusion: ensembling boxes from differnt object detection modules]()
-- [NNI: auto parameter finding algorithm]()
-- [BEVFormer++: Improving BEVFormer for 3D Camera-only Object Detection](https://storage.googleapis.com/waymo-uploads/files/research/3DCam/3DCam_BEVFormer.pdf) [Waymo open dataset challenge 1st place in mono3d]
-- [LET-3D-AP: Longitudinal Error Tolerant 3D Average Precision for Camera-Only 3D Detection](https://arxiv.org/abs/2206.07705) [Waymo open dataset challenge official metric]
-- [High-Level Interpretation of Urban Road Maps Fusing Deep Learning-Based Pixelwise Scene Segmentation and Digital Navigation Maps](https://pdfs.semanticscholar.org/44ac/01c0d356f22e7ee883f8e4ac2cccf199f68d.pdf) <kbd>Journal of Advanced Transportation 2018</kbd>
-- [A Hybrid Vision-Map Method for Urban Road Detection](https://downloads.hindawi.com/journals/jat/2017/7090549.pdf) <kbd>Journal of Advanced Transportation 2017</kbd>
-- [Terminology and Analysis of Map Deviations in Urban Domains: Towards Dependability for HD Maps in Automated Vehicles](https://www.researchgate.net/profile/Christopher-Plachetka/publication/348367176_Terminology_and_Analysis_of_Map_Deviations_in_Urban_Domains_Towards_Dependability_for_HD_Maps_in_Automated_Vehicles/links/607d523f907dcf667babc06b/Terminology-and-Analysis-of-Map-Deviations-in-Urban-Domains-Towards-Dependability-for-HD-Maps-in-Automated-Vehicles.pdf) <kbd>IV 2020</kbd>
-- [TIME WILL TELL: NEW OUTLOOKS AND A BASELINE FOR TEMPORAL MULTI-VIEW 3D OBJECT DETECTION](https://arxiv.org/abs/2210.02443)
-- [Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152) <kbd>ICCV 2021</kbd>
-- [DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR](https://arxiv.org/abs/2201.12329) <kbd>ICLR 2022</kbd>
-- [DN-DETR: Accelerate DETR Training by Introducing Query DeNoising](https://arxiv.org/abs/2203.01305) <kbd>CVPR 2022</kbd>
-- [DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection](https://arxiv.org/abs/2203.03605)
-- [Trajectory Forecasting from Detection with Uncertainty-Aware Motion Encoding](https://arxiv.org/abs/2202.01478) [Ouyang Wanli]
-- [Vision-based Uneven BEV Representation Learning with Polar Rasterization and Surface Estimation](https://arxiv.org/abs/2207.01878) [BEVNet, polar]
-- [MUTR3D: A Multi-camera Tracking Framework via 3D-to-2D Queries](https://arxiv.org/abs/2205.00613) [BEVNet, tracking] <kbd>CVPR 2022 workshop</kbd> [Hang Zhao]
-- [ST-P3: End-to-end Vision-based Autonomous Driving via Spatial-Temporal Feature Learning](https://arxiv.org/abs/2207.07601) <kbd>ECCV 2022</kbd> [Hongyang Li]
-- [GKT: Efficient and Robust 2D-to-BEV Representation Learning via Geometry-guided Kernel Transformer](https://arxiv.org/abs/2206.04584) [BEVNet, Horizon]
-- [SiamRPN: High Performance Visual Tracking with Siamese Region Proposal Network](https://yan-junjie.github.io/publication/dblp-confcvpr-li-ywzh-18/dblp-confcvpr-li-ywzh-18.pdf) <kbd>CVPR 2018</kbd>
-- [TPLR: Topology Preserving Local Road Network Estimation from Single Onboard Camera Image](https://arxiv.org/abs/2112.10155) <kbd>CVPR 2022</kbd> [STSU, Luc Van Gool]
-- [LaRa: Latents and Rays for Multi-Camera Bird's-Eye-View Semantic Segmentation](https://arxiv.org/abs/2206.13294) [Valeo, BEVNet, polar]
-- [PolarDETR: Polar Parametrization for Vision-based Surround-View 3D Detection](https://arxiv.org/abs/2206.10965) [BEVNet]
-- [Exploring Geometric Consistency for Monocular 3D Object Detection](https://arxiv.org/abs/2104.05858) <kbd>CVPR 2022</kbd>
-- [ImVoxelNet: Image to Voxels Projection for Monocular and Multi-View General-Purpose 3D Object Detection](https://arxiv.org/abs/2106.01178) <kbd>WACV 2022</kbd> [mono3D]
-- [Learning to Predict 3D Lane Shape and Camera Pose from a Single Image via Geometry Constraints](https://arxiv.org/abs/2112.15351) <kbd>AAAI 2022</kbd>
-- [Detecting Lane and Road Markings at A Distance with Perspective Transformer Layers](https://ieeexplore.ieee.org/document/9294383) <kbd>ICICN 2021</kbd> [BEVNet, lane line]
-- [Unsupervised Labeled Lane Markers Using Maps](https://openaccess.thecvf.com/content_ICCVW_2019/papers/CVRSUAD/Behrendt_Unsupervised_Labeled_Lane_Markers_Using_Maps_ICCVW_2019_paper.pdf) <kbd>ICCV 2019 workshop</kbd> [Bosch, 2D lane line]
-- [M3DeTR: Multi-representation, Multi-scale, Mutual-relation 3D Object Detection with Transformers](https://arxiv.org/abs/2104.11896) [Lidar detection, Waymo open dataset] <kbd>WACV 2022</kbd>
-- [K-Lane: Lidar Lane Dataset and Benchmark for Urban Roads and Highways](https://arxiv.org/abs/2110.11048) [lane line dataset]
-- [Robust Monocular 3D Lane Detection With Dual Attention](https://ieeexplore.ieee.org/abstract/document/9506296) <kbd>ICIP 2021</kbd>
-- [OcclusionFusion: Occlusion-aware Motion Estimation for Real-time Dynamic 3D Reconstruction](https://arxiv.org/abs/2203.07977) <kbd>CVPR 2022</kbd>
-- [MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer](https://arxiv.org/abs/2110.02178) <kbd>ICLR 2022</kbd> [lightweight Transformers]
-- [XFormer: Lightweight Vision Transformer with Cross Feature Attention](https://arxiv.org/abs/2207.07268) [Samsung]
-- [CenterFormer: Center-based Transformer for 3D Object Detection](https://arxiv.org/abs/2209.05588) <kbd>ECCV 2022 oral</kbd> [TuSimple]
-- [LidarMultiNet: Towards a Unified Multi-task Network for LiDAR Perception](https://arxiv.org/abs/2209.09385) [2022 Waymo Open Dataset, TuSimple]
-- [MTRA: 1st Place Solution for 2022 Waymo Open Dataset Challenge - Motion Prediction](https://storage.googleapis.com/waymo-uploads/files/research/MotionPred/MotionPrediction_MTRA.pdf) [Waymo open dataset challenge 1st place in motion prediction]
-- [BEVSegFormer: Bird's Eye View Semantic Segmentation From Arbitrary Camera Rigs](https://arxiv.org/abs/2203.04050) [BEVNet]
-- [Panoptic SegFormer: Delving Deeper into Panoptic Segmentation with Transformers](https://arxiv.org/abs/2109.03814) <kbd>CVPR 2022</kbd> [nVidia]
-- [Efficiently Identifying Task Groupings for Multi-Task Learning](https://arxiv.org/abs/2109.04617) <kbd>NeurIPS 2021 spotlight</kbd> [MTL]
-- [Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time](https://arxiv.org/abs/2203.05482) [Google, Golden Backbone]
-- ["The Pedestrian next to the Lamppost" Adaptive Object Graphs for Better Instantaneous Mapping](https://arxiv.org/abs/2204.02944) <kbd>CVPR 2022</kbd>
-- [GitNet: Geometric Prior-based Transformation for Birds-Eye-View Segmentation](https://arxiv.org/abs/2204.07733) [BEVNet, Baidu]
-- [FUTR3D: A Unified Sensor Fusion Framework for 3D Detection](https://arxiv.org/abs/2203.10642) [Hang Zhao]
-- [GitNet: Geometric Prior-based Transformation for Birds-Eye-View Segmentation](https://arxiv.org/abs/2204.07733) [BEVNet]
-- [MonoFormer: Towards Generalization of self-supervised monocular depth estimation with Transformers](https://arxiv.org/abs/2205.11083) [monodepth]
-- [Time3D: End-to-End Joint Monocular 3D Object Detection and Tracking for Autonomous Driving](https://arxiv.org/abs/2205.14882)
-- [cosFormer: Rethinking Softmax in Attention](https://arxiv.org/abs/2202.08791) <kbd>ICLR 2022</kbd>
-- [StretchBEV: Stretching Future Instance Prediction Spatially and Temporally](https://arxiv.org/abs/2203.13641) [BEVNet, prediction]
-- [Scene Representation in Bird’s-Eye View from Surrounding Cameras with Transformers](https://openaccess.thecvf.com/content/CVPR2022W/WAD/papers/Zhao_Scene_Representation_in_Birds-Eye_View_From_Surrounding_Cameras_With_Transformers_CVPRW_2022_paper.pdf) [BEVNet, LLD] <kbd>CVPR 2022 workshop</kbd>
-- [Multi-Frame Self-Supervised Depth with Transformers](https://arxiv.org/abs/2204.07616) <kbd>CVPR 2022</kbd>
-- [It's About Time: Analog Clock Reading in the Wild](https://arxiv.org/abs/2111.09162) <kbd>CVPR 2022</kbd> [Andrew Zisserman]
-- [SurroundDepth: Entangling Surrounding Views for Self-Supervised Multi-Camera Depth Estimation](https://arxiv.org/abs/2204.03636) <kbd>CoRL 2022</kbd> [Jiwen Lu]
-- [ONCE-3DLanes: Building Monocular 3D Lane Detection](https://arxiv.org/abs/2205.00301) <kbd>CVPR 2022</kbd>
-- [K-Lane: Lidar Lane Dataset and Benchmark for Urban Roads and Highways](https://arxiv.org/abs/2110.11048) <kbd>CVPR 2022 workshop</kbd> [3D LLD]
-- [Multi-modal 3D Human Pose Estimation with 2D Weak Supervision in Autonomous Driving](https://arxiv.org/abs/2112.12141) <kbd>CVPR 2022 workshop</kbd>
-- [A Simple Baseline for BEV Perception Without LiDAR](https://arxiv.org/abs/2206.07959) [TRI, BEVNet, vision+radar]
-- [Reconstruct from Top View: A 3D Lane Detection Approach based on Geometry Structure Prior](https://openaccess.thecvf.com/content/CVPR2022W/WAD/papers/Li_Reconstruct_From_Top_View_A_3D_Lane_Detection_Approach_Based_CVPRW_2022_paper.pdf) <kbd>CVPR 2022 workshop</kbd>
-- [RIDDLE: Lidar Data Compression with Range Image Deep Delta Encoding](https://arxiv.org/abs/2206.01738) <kbd>CVPR 2022</kbd> [Waymo, Charles Qi]
-- [Occupancy Flow Fields for Motion Forecasting in Autonomous Driving](https://arxiv.org/abs/2203.03875) <kbd>RAL 2022</kbd> [Waymo occupancy flow challenge]
-- [Safe Local Motion Planning with Self-Supervised Freespace Forecasting](https://openaccess.thecvf.com/content/CVPR2021/papers/Hu_Safe_Local_Motion_Planning_With_Self-Supervised_Freespace_Forecasting_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd>
-- [数据闭环的核心 - Auto-labeling 方案分享](https://zhuanlan.zhihu.com/p/533907821)
-- [K-Lane: Lidar Lane Dataset and Benchmark for Urban Roads and Highways](https://arxiv.org/abs/2110.11048)
-- [LETR: Line Segment Detection Using Transformers without Edges](https://arxiv.org/abs/2101.01909) <kbd>CVPR 2021 oral</kbd>
-- [HDMapGen: A Hierarchical Graph Generative Model of High Definition Maps](https://openaccess.thecvf.com/content/CVPR2021/papers/Mi_HDMapGen_A_Hierarchical_Graph_Generative_Model_of_High_Definition_Maps_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd> [HD mapping]
-- [SketchRNN: A Neural Representation of Sketch Drawings](https://arxiv.org/abs/1704.03477) [David Ha]
-- [PolyGen: An Autoregressive Generative Model of 3D Meshes](https://arxiv.org/abs/2002.10880) <kbd>ICML 2020</kbd>
-- [SOLQ: Segmenting Objects by Learning Queries](https://arxiv.org/abs/2106.02351) <kbd>NeurlPS 2021</kbd> [Megvii, end-to-end, instance segmentation]
-- [MonoViT: Self-Supervised Monocular Depth Estimation with a Vision Transformer](https://arxiv.org/abs/2208.03543) <kbd>3DV 2022</kbd>
-- [MVSTER: Epipolar Transformer for Efficient Multi-View Stereo](https://arxiv.org/abs/2204.07346) <kbd>ECCV 2022</bd>
-- [MOVEDepth: Crafting Monocular Cues and Velocity Guidance for Self-Supervised Multi-Frame Depth Learning](https://arxiv.org/abs/2208.09170) [MVS + monodepth]
-- [SurroundDepth: Entangling Surrounding Views for Self-Supervised Multi-Camera Depth Estimation](https://arxiv.org/abs/2204.03636)
-- [Scene Transformer: A unified architecture for predicting multiple agent trajectories](https://arxiv.org/abs/2106.08417) [prediction, Waymo] <kbd>ICLR 2022</kbd>
-- [SSIA: Monocular Depth Estimation with Self-supervised Instance Adaptation](https://arxiv.org/abs/2004.05821) [VGG team, TTR, test time refinement, CVD]
-- [CoMoDA: Continuous Monocular Depth Adaptation Using Past Experiences](https://openaccess.thecvf.com/content/WACV2021/papers/Kuznietsov_CoMoDA_Continuous_Monocular_Depth_Adaptation_Using_Past_Experiences_WACV_2021_paper.pdf) <kbd>WACV 2021</kbd>
-- [MonoRec: Semi-supervised dense reconstruction in dynamic environments from a single moving camera](https://arxiv.org/abs/2011.11814) <kbd>CVPR 2021</kbd> [Daniel Cremmers]
-- [Plenoxels: Radiance Fields without Neural Networks](https://arxiv.org/abs/2112.05131)
-- [Lidar with Velocity: Motion Distortion Correction of Point Clouds from Oscillating Scanning Lidars](https://arxiv.org/abs/2111.09497) [Livox, ISEE]
-- [NWD: A Normalized Gaussian Wasserstein Distance for Tiny Object Detection](https://arxiv.org/abs/2110.13389)
-- [Towards Optimal Strategies for Training Self-Driving Perception Models in Simulation](https://arxiv.org/abs/2111.07971) <kbd>NeurIPS 2021</kbd> [Sanja Fidler]
-- [Insta-DM: Learning Monocular Depth in Dynamic Scenes via Instance-Aware Projection Consistency](https://arxiv.org/abs/2102.02629) <kbd>AAAI 2021</kbd>
-- [Instance-wise Depth and Motion Learning from Monocular Videos](https://arxiv.org/abs/1912.09351) <kbd>NeurIPS 2020 workshop</kbd> [[website](https://sites.google.com/site/seokjucv/home/instadm)]
-- [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/abs/2003.08934) <kbd>ECCV 2020 oral</kbd>
-- [BARF: Bundle-Adjusting Neural Radiance Fields](https://arxiv.org/abs/2104.06405) <kbd>ICCV 2021 oral</kbd>
-- [NerfingMVS: Guided Optimization of Neural Radiance Fields for Indoor Multi-view Stereo](https://arxiv.org/abs/2109.01129) <kbd>ICCV 2021 oral</kbd>
-- [Transfuser: Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/abs/2104.09224) <kbd>CVPR 2021</kbd>
-- [YOLinO: Generic Single Shot Polyline Detection in Real Time](https://arxiv.org/abs/2103.14420) <kbd>ICCV 2021 workshop</kbd> [lld]
-- [MonoRCNN: Geometry-based Distance Decomposition for Monocular 3D Object Detection](https://arxiv.org/abs/2104.03775) <kbd>ICCV 2021</kbd>
-- [MonoCInIS: Camera Independent Monocular 3D Object Detection using Instance Segmentation](https://arxiv.org/abs/2110.00464) <kbd>ICCV 2021 workshop</kbd>
-- [PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection](https://arxiv.org/abs/1912.13192) <kbd>CVPR 2020</kbd> [Waymo challenge 2nd place]
-- [Geometry-based Distance Decomposition for Monocular 3D Object Detection](https://arxiv.org/abs/2104.03775) <kbd>ICCV 2021</kbd> [mono3D]
-- [Offboard 3D Object Detection from Point Cloud Sequences](https://arxiv.org/abs/2103.05073) <kbd>CVPR 2021</kbd> [Charles Qi] 
-- [FreeAnchor: Learning to Match Anchors for Visual Object Detection](https://arxiv.org/abs/1909.02466) <kbd>NeurIPS 2019</kbd>
-- [AutoAssign: Differentiable Label Assignment for Dense Object Detection](https://arxiv.org/abs/2007.03496)
-- [Probabilistic Anchor Assignment with IoU Prediction for Object Detection](https://arxiv.org/abs/2007.08103) <kbd>ECCV 2020</kbd>
-- [FOVEA: Foveated Image Magnification for Autonomous Navigation](https://arxiv.org/abs/2108.12102) <kbd>ICCV 2021</kbd> [Argo]
-- [PifPaf: Composite Fields for Human Pose Estimation](https://arxiv.org/abs/1903.06593) <kbd>CVPR 2019</kbd>
-- [Monocular 3D Localization of Vehicles in Road Scenes](https://avvision.xyz/iccv21/papers/1/CameraReady/01.pdf) <kbd>ICCV 2021 workshop</kbd> [mono3D, tracking]
-- [TransformerFusion: Monocular RGB Scene Reconstruction using Transformers](https://arxiv.org/abs/2107.02191)
-- [Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152)
-- [Anchor DETR: Query Design for Transformer-Based Detector](https://arxiv.org/abs/2109.07107) [megvii]
-- [PGD: Probabilistic and Geometric Depth: Detecting Objects in Perspective](https://arxiv.org/abs/2107.14160) <kbd>CoRL 2021</kbd>
-- [Adaptive Wing Loss for Robust Face Alignment via Heatmap Regression](https://arxiv.org/abs/1904.07399) 
-- [What Makes for End-to-End Object Detection?](https://proceedings.mlr.press/v139/sun21b.html) <kbd>PMLR 2021</kbd>
-- [Instances as Queries](https://arxiv.org/abs/2105.01928) <kbd>ICCV 2021</kbd> [instance segmentation]
-- [One Million Scenes for Autonomous Driving: ONCE Dataset](https://arxiv.org/abs/2106.11037) [Huawei]
-- [NVS-MonoDepth: Improving Monocular Depth Prediction with Novel View Synthesis](https://arxiv.org/abs/2112.12577) <kbd>3DV 2021</kbd>
-- [Is 2D Heatmap Representation Even Necessary for Human Pose Estimation?](https://arxiv.org/abs/2107.03332)
-- [Topology Preserving Local Road Network Estimation from Single Onboard Camera Image](https://arxiv.org/abs/2112.10155) [BEVNet, Luc Van Gool]
 
 
 
@@ -1582,4 +1443,142 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [VideoChat: Chat-Centric Video Understanding](https://arxiv.org/abs/2305.06355)
 - [ToT: Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) [[Notes](paper_notes/tot.md)]
 - [CoT: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
-
+- [CoBEVT: Cooperative Bird's Eye View Semantic Segmentation with Sparse Transformers](https://arxiv.org/abs/2207.02202) <kbd>CoRL 2022</kbd>
+- [BEVFormer v2: Adapting Modern Image Backbones to Bird's-Eye-View Recognition via Perspective Supervision](https://arxiv.org/abs/2211.10439) [BEVNet, Jifeng Dai]
+- [Fast-BEV: Towards Real-time On-vehicle Bird’s-Eye View Perception](https://ml4ad.github.io/files/papers2022/Fast-BEV:%20Towards%20Real-time%20On-vehicle%20Bird's-Eye%20View%20Perception.pdf) <kbd>NeurIPS 2022</kbd>
+- [Traj++: Human Trajectory Forecasting in Crowds: A Deep Learning Perspective](https://arxiv.org/abs/2007.03639) <kbd>TITS 2021</kbd>
+- [Data Driven Prediction Architecture for Autonomous Driving and its Application on Apollo Platform](https://arxiv.org/abs/2006.06715) <kbd>IV 2020</kbd> [Baidu]
+- [THOMAS: Trajectory Heatmap Output with learned Multi-Agent Sampling](https://arxiv.org/abs/2110.06607) <kbd>ICLR 2022</kbd>
+- [Learning Lane Graph Representations for Motion Forecasting](https://arxiv.org/abs/2007.13732) <kbd>ECCV 2020 oral</kbd>
+- [Identifying Driver Interactions via Conditional Behavior Prediction](https://arxiv.org/abs/2104.09959) <kbd>ICRA 2021</kbd> [Waymo]
+- [Trajectron++: Dynamically-Feasible Trajectory Forecasting With Heterogeneous Data](https://arxiv.org/abs/2001.03093) <kbd>ECCV 2020</kbd>
+- [TPNet: Trajectory Proposal Network for Motion Prediction](https://arxiv.org/abs/2004.12255) <kbd>CVPR 2020</kbd>
+- [GOHOME: Graph-Oriented Heatmap Output for future Motion Estimation](https://arxiv.org/abs/2109.01827)
+- [PECNet: It Is Not the Journey but the Destination: Endpoint Conditioned Trajectory Prediction](https://arxiv.org/abs/2004.02025) <kbd>ECCV 2020 oral</kbd>
+- [From Goals, Waypoints & Paths To Long Term Human Trajectory Forecasting](https://arxiv.org/abs/2012.01526) <kbd>ICCV 2019</kbd>
+- [PRECOG: PREdiction Conditioned On Goals in Visual Multi-Agent Settings](https://arxiv.org/abs/1905.01296) <kbd>ICCV 2019</kbd>
+- [PiP: Planning-informed Trajectory Prediction for Autonomous Driving](https://arxiv.org/abs/2003.11476) <kbd>ECCV 2020</kbd>
+- [MultiPath: Multiple Probabilistic Anchor Trajectory Hypotheses for Behavior Prediction](https://arxiv.org/abs/1910.05449) <kbd>CoRL 2019</kbd>
+- [LaPred: Lane-Aware Prediction of Multi-Modal Future Trajectories of Dynamic Agents](https://arxiv.org/abs/2104.00249) <kbd>CVPR 2021</kbd>
+- [PRIME: Learning to Predict Vehicle Trajectories with Model-based Planning](https://arxiv.org/abs/2103.04027) <kbd>CoRL 2021<kbd>
+- [A Flexible and Explainable Vehicle Motion Prediction and Inference Framework Combining Semi-Supervised AOG and ST-LSTM](https://dl.acm.org/doi/abs/10.1109/TITS.2020.3016304) <kbd>TITS 2020</kbd>
+- [Multi-Modal Trajectory Prediction of Surrounding Vehicles with Maneuver based LSTMs](https://arxiv.org/abs/1805.05499) <kbd>IV 2018</kbd> [Trivedi]
+- [HYPER: Learned Hybrid Trajectory Prediction via Factored Inference and Adaptive Sampling](https://arxiv.org/abs/2110.02344) <kbd>ICRA 2022</kbd>
+- [Trajectory Prediction with Linguistic Representations](https://arxiv.org/abs/2110.09741) <kbd>ICRA 2022</kbd>
+- [What-If Motion Prediction for Autonomous Driving](https://arxiv.org/abs/2008.10587)
+- [End-to-end Contextual Perception and Prediction with Interaction Transformer](https://arxiv.org/abs/2008.05927) <kbd>IROS 2020</kbd> [Auxiliary collision loss, scene compliant pred]
+- [SafeCritic: Collision-Aware Trajectory Prediction](https://arxiv.org/abs/1910.06673) <kbd>BMVC 2019</kbd> [IRL, scene compliant pred]
+- [Large Scale Interactive Motion Forecasting for Autonomous Driving: The Waymo Open Motion Dataset](https://arxiv.org/abs/2104.10133) <kbd>ICCV 2021</kbd> [Waymo]
+- [Interaction-Based Trajectory Prediction Over a Hybrid Traffic Graph](https://arxiv.org/abs/2009.12916) <kbd>IROS 2020</kbd>
+- [Joint Interaction and Trajectory Prediction for Autonomous Driving using Graph Neural Networks](https://arxiv.org/abs/1912.07882) <kbd>NeurIPS 2019 workshop</kbd>
+- [Fast Risk Assessment for Autonomous Vehicles Using Learned Models of Agent Futures](https://arxiv.org/abs/2005.13458) <kbd>Robotics: science and systems 2020</kbd>
+- [Monocular 3D Object Detection: An Extrinsic Parameter Free Approach](https://arxiv.org/abs/2106.15796) <kbd>CVPR 2021</kbd> [PJLab]
+- [UniFormer: Unified Multi-view Fusion Transformer for Spatial-Temporal Representation in Bird's-Eye-View](https://arxiv.org/abs/2207.08536) [BEVFormer, BEVNet, Temporal]
+- [GitNet: geometric prior-baesd transformation for birds yee view segmentation]()
+- [WBF: weighted box fusion: ensembling boxes from differnt object detection modules]()
+- [NNI: auto parameter finding algorithm]()
+- [BEVFormer++: Improving BEVFormer for 3D Camera-only Object Detection](https://storage.googleapis.com/waymo-uploads/files/research/3DCam/3DCam_BEVFormer.pdf) [Waymo open dataset challenge 1st place in mono3d]
+- [LET-3D-AP: Longitudinal Error Tolerant 3D Average Precision for Camera-Only 3D Detection](https://arxiv.org/abs/2206.07705) [Waymo open dataset challenge official metric]
+- [High-Level Interpretation of Urban Road Maps Fusing Deep Learning-Based Pixelwise Scene Segmentation and Digital Navigation Maps](https://pdfs.semanticscholar.org/44ac/01c0d356f22e7ee883f8e4ac2cccf199f68d.pdf) <kbd>Journal of Advanced Transportation 2018</kbd>
+- [A Hybrid Vision-Map Method for Urban Road Detection](https://downloads.hindawi.com/journals/jat/2017/7090549.pdf) <kbd>Journal of Advanced Transportation 2017</kbd>
+- [Terminology and Analysis of Map Deviations in Urban Domains: Towards Dependability for HD Maps in Automated Vehicles](https://www.researchgate.net/profile/Christopher-Plachetka/publication/348367176_Terminology_and_Analysis_of_Map_Deviations_in_Urban_Domains_Towards_Dependability_for_HD_Maps_in_Automated_Vehicles/links/607d523f907dcf667babc06b/Terminology-and-Analysis-of-Map-Deviations-in-Urban-Domains-Towards-Dependability-for-HD-Maps-in-Automated-Vehicles.pdf) <kbd>IV 2020</kbd>
+- [TIME WILL TELL: NEW OUTLOOKS AND A BASELINE FOR TEMPORAL MULTI-VIEW 3D OBJECT DETECTION](https://arxiv.org/abs/2210.02443)
+- [Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152) <kbd>ICCV 2021</kbd>
+- [DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR](https://arxiv.org/abs/2201.12329) <kbd>ICLR 2022</kbd>
+- [DN-DETR: Accelerate DETR Training by Introducing Query DeNoising](https://arxiv.org/abs/2203.01305) <kbd>CVPR 2022</kbd>
+- [DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection](https://arxiv.org/abs/2203.03605)
+- [Trajectory Forecasting from Detection with Uncertainty-Aware Motion Encoding](https://arxiv.org/abs/2202.01478) [Ouyang Wanli]
+- [Vision-based Uneven BEV Representation Learning with Polar Rasterization and Surface Estimation](https://arxiv.org/abs/2207.01878) [BEVNet, polar]
+- [MUTR3D: A Multi-camera Tracking Framework via 3D-to-2D Queries](https://arxiv.org/abs/2205.00613) [BEVNet, tracking] <kbd>CVPR 2022 workshop</kbd> [Hang Zhao]
+- [ST-P3: End-to-end Vision-based Autonomous Driving via Spatial-Temporal Feature Learning](https://arxiv.org/abs/2207.07601) <kbd>ECCV 2022</kbd> [Hongyang Li]
+- [GKT: Efficient and Robust 2D-to-BEV Representation Learning via Geometry-guided Kernel Transformer](https://arxiv.org/abs/2206.04584) [BEVNet, Horizon]
+- [SiamRPN: High Performance Visual Tracking with Siamese Region Proposal Network](https://yan-junjie.github.io/publication/dblp-confcvpr-li-ywzh-18/dblp-confcvpr-li-ywzh-18.pdf) <kbd>CVPR 2018</kbd>
+- [TPLR: Topology Preserving Local Road Network Estimation from Single Onboard Camera Image](https://arxiv.org/abs/2112.10155) <kbd>CVPR 2022</kbd> [STSU, Luc Van Gool]
+- [LaRa: Latents and Rays for Multi-Camera Bird's-Eye-View Semantic Segmentation](https://arxiv.org/abs/2206.13294) [Valeo, BEVNet, polar]
+- [PolarDETR: Polar Parametrization for Vision-based Surround-View 3D Detection](https://arxiv.org/abs/2206.10965) [BEVNet]
+- [Exploring Geometric Consistency for Monocular 3D Object Detection](https://arxiv.org/abs/2104.05858) <kbd>CVPR 2022</kbd>
+- [ImVoxelNet: Image to Voxels Projection for Monocular and Multi-View General-Purpose 3D Object Detection](https://arxiv.org/abs/2106.01178) <kbd>WACV 2022</kbd> [mono3D]
+- [Learning to Predict 3D Lane Shape and Camera Pose from a Single Image via Geometry Constraints](https://arxiv.org/abs/2112.15351) <kbd>AAAI 2022</kbd>
+- [Detecting Lane and Road Markings at A Distance with Perspective Transformer Layers](https://ieeexplore.ieee.org/document/9294383) <kbd>ICICN 2021</kbd> [BEVNet, lane line]
+- [Unsupervised Labeled Lane Markers Using Maps](https://openaccess.thecvf.com/content_ICCVW_2019/papers/CVRSUAD/Behrendt_Unsupervised_Labeled_Lane_Markers_Using_Maps_ICCVW_2019_paper.pdf) <kbd>ICCV 2019 workshop</kbd> [Bosch, 2D lane line]
+- [M3DeTR: Multi-representation, Multi-scale, Mutual-relation 3D Object Detection with Transformers](https://arxiv.org/abs/2104.11896) [Lidar detection, Waymo open dataset] <kbd>WACV 2022</kbd>
+- [K-Lane: Lidar Lane Dataset and Benchmark for Urban Roads and Highways](https://arxiv.org/abs/2110.11048) [lane line dataset]
+- [Robust Monocular 3D Lane Detection With Dual Attention](https://ieeexplore.ieee.org/abstract/document/9506296) <kbd>ICIP 2021</kbd>
+- [OcclusionFusion: Occlusion-aware Motion Estimation for Real-time Dynamic 3D Reconstruction](https://arxiv.org/abs/2203.07977) <kbd>CVPR 2022</kbd>
+- [MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer](https://arxiv.org/abs/2110.02178) <kbd>ICLR 2022</kbd> [lightweight Transformers]
+- [XFormer: Lightweight Vision Transformer with Cross Feature Attention](https://arxiv.org/abs/2207.07268) [Samsung]
+- [CenterFormer: Center-based Transformer for 3D Object Detection](https://arxiv.org/abs/2209.05588) <kbd>ECCV 2022 oral</kbd> [TuSimple]
+- [LidarMultiNet: Towards a Unified Multi-task Network for LiDAR Perception](https://arxiv.org/abs/2209.09385) [2022 Waymo Open Dataset, TuSimple]
+- [MTRA: 1st Place Solution for 2022 Waymo Open Dataset Challenge - Motion Prediction](https://storage.googleapis.com/waymo-uploads/files/research/MotionPred/MotionPrediction_MTRA.pdf) [Waymo open dataset challenge 1st place in motion prediction]
+- [BEVSegFormer: Bird's Eye View Semantic Segmentation From Arbitrary Camera Rigs](https://arxiv.org/abs/2203.04050) [BEVNet]
+- [Panoptic SegFormer: Delving Deeper into Panoptic Segmentation with Transformers](https://arxiv.org/abs/2109.03814) <kbd>CVPR 2022</kbd> [nVidia]
+- [Efficiently Identifying Task Groupings for Multi-Task Learning](https://arxiv.org/abs/2109.04617) <kbd>NeurIPS 2021 spotlight</kbd> [MTL]
+- [Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time](https://arxiv.org/abs/2203.05482) [Google, Golden Backbone]
+- ["The Pedestrian next to the Lamppost" Adaptive Object Graphs for Better Instantaneous Mapping](https://arxiv.org/abs/2204.02944) <kbd>CVPR 2022</kbd>
+- [GitNet: Geometric Prior-based Transformation for Birds-Eye-View Segmentation](https://arxiv.org/abs/2204.07733) [BEVNet, Baidu]
+- [FUTR3D: A Unified Sensor Fusion Framework for 3D Detection](https://arxiv.org/abs/2203.10642) [Hang Zhao]
+- [GitNet: Geometric Prior-based Transformation for Birds-Eye-View Segmentation](https://arxiv.org/abs/2204.07733) [BEVNet]
+- [MonoFormer: Towards Generalization of self-supervised monocular depth estimation with Transformers](https://arxiv.org/abs/2205.11083) [monodepth]
+- [Time3D: End-to-End Joint Monocular 3D Object Detection and Tracking for Autonomous Driving](https://arxiv.org/abs/2205.14882)
+- [cosFormer: Rethinking Softmax in Attention](https://arxiv.org/abs/2202.08791) <kbd>ICLR 2022</kbd>
+- [StretchBEV: Stretching Future Instance Prediction Spatially and Temporally](https://arxiv.org/abs/2203.13641) [BEVNet, prediction]
+- [Scene Representation in Bird’s-Eye View from Surrounding Cameras with Transformers](https://openaccess.thecvf.com/content/CVPR2022W/WAD/papers/Zhao_Scene_Representation_in_Birds-Eye_View_From_Surrounding_Cameras_With_Transformers_CVPRW_2022_paper.pdf) [BEVNet, LLD] <kbd>CVPR 2022 workshop</kbd>
+- [Multi-Frame Self-Supervised Depth with Transformers](https://arxiv.org/abs/2204.07616) <kbd>CVPR 2022</kbd>
+- [It's About Time: Analog Clock Reading in the Wild](https://arxiv.org/abs/2111.09162) <kbd>CVPR 2022</kbd> [Andrew Zisserman]
+- [SurroundDepth: Entangling Surrounding Views for Self-Supervised Multi-Camera Depth Estimation](https://arxiv.org/abs/2204.03636) <kbd>CoRL 2022</kbd> [Jiwen Lu]
+- [ONCE-3DLanes: Building Monocular 3D Lane Detection](https://arxiv.org/abs/2205.00301) <kbd>CVPR 2022</kbd>
+- [K-Lane: Lidar Lane Dataset and Benchmark for Urban Roads and Highways](https://arxiv.org/abs/2110.11048) <kbd>CVPR 2022 workshop</kbd> [3D LLD]
+- [Multi-modal 3D Human Pose Estimation with 2D Weak Supervision in Autonomous Driving](https://arxiv.org/abs/2112.12141) <kbd>CVPR 2022 workshop</kbd>
+- [A Simple Baseline for BEV Perception Without LiDAR](https://arxiv.org/abs/2206.07959) [TRI, BEVNet, vision+radar]
+- [Reconstruct from Top View: A 3D Lane Detection Approach based on Geometry Structure Prior](https://openaccess.thecvf.com/content/CVPR2022W/WAD/papers/Li_Reconstruct_From_Top_View_A_3D_Lane_Detection_Approach_Based_CVPRW_2022_paper.pdf) <kbd>CVPR 2022 workshop</kbd>
+- [RIDDLE: Lidar Data Compression with Range Image Deep Delta Encoding](https://arxiv.org/abs/2206.01738) <kbd>CVPR 2022</kbd> [Waymo, Charles Qi]
+- [Occupancy Flow Fields for Motion Forecasting in Autonomous Driving](https://arxiv.org/abs/2203.03875) <kbd>RAL 2022</kbd> [Waymo occupancy flow challenge]
+- [Safe Local Motion Planning with Self-Supervised Freespace Forecasting](https://openaccess.thecvf.com/content/CVPR2021/papers/Hu_Safe_Local_Motion_Planning_With_Self-Supervised_Freespace_Forecasting_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd>
+- [数据闭环的核心 - Auto-labeling 方案分享](https://zhuanlan.zhihu.com/p/533907821)
+- [K-Lane: Lidar Lane Dataset and Benchmark for Urban Roads and Highways](https://arxiv.org/abs/2110.11048)
+- [LETR: Line Segment Detection Using Transformers without Edges](https://arxiv.org/abs/2101.01909) <kbd>CVPR 2021 oral</kbd>
+- [HDMapGen: A Hierarchical Graph Generative Model of High Definition Maps](https://openaccess.thecvf.com/content/CVPR2021/papers/Mi_HDMapGen_A_Hierarchical_Graph_Generative_Model_of_High_Definition_Maps_CVPR_2021_paper.pdf) <kbd>CVPR 2021</kbd> [HD mapping]
+- [SketchRNN: A Neural Representation of Sketch Drawings](https://arxiv.org/abs/1704.03477) [David Ha]
+- [PolyGen: An Autoregressive Generative Model of 3D Meshes](https://arxiv.org/abs/2002.10880) <kbd>ICML 2020</kbd>
+- [SOLQ: Segmenting Objects by Learning Queries](https://arxiv.org/abs/2106.02351) <kbd>NeurlPS 2021</kbd> [Megvii, end-to-end, instance segmentation]
+- [MonoViT: Self-Supervised Monocular Depth Estimation with a Vision Transformer](https://arxiv.org/abs/2208.03543) <kbd>3DV 2022</kbd>
+- [MVSTER: Epipolar Transformer for Efficient Multi-View Stereo](https://arxiv.org/abs/2204.07346) <kbd>ECCV 2022</bd>
+- [MOVEDepth: Crafting Monocular Cues and Velocity Guidance for Self-Supervised Multi-Frame Depth Learning](https://arxiv.org/abs/2208.09170) [MVS + monodepth]
+- [SurroundDepth: Entangling Surrounding Views for Self-Supervised Multi-Camera Depth Estimation](https://arxiv.org/abs/2204.03636)
+- [Scene Transformer: A unified architecture for predicting multiple agent trajectories](https://arxiv.org/abs/2106.08417) [prediction, Waymo] <kbd>ICLR 2022</kbd>
+- [SSIA: Monocular Depth Estimation with Self-supervised Instance Adaptation](https://arxiv.org/abs/2004.05821) [VGG team, TTR, test time refinement, CVD]
+- [CoMoDA: Continuous Monocular Depth Adaptation Using Past Experiences](https://openaccess.thecvf.com/content/WACV2021/papers/Kuznietsov_CoMoDA_Continuous_Monocular_Depth_Adaptation_Using_Past_Experiences_WACV_2021_paper.pdf) <kbd>WACV 2021</kbd>
+- [MonoRec: Semi-supervised dense reconstruction in dynamic environments from a single moving camera](https://arxiv.org/abs/2011.11814) <kbd>CVPR 2021</kbd> [Daniel Cremmers]
+- [Plenoxels: Radiance Fields without Neural Networks](https://arxiv.org/abs/2112.05131)
+- [Lidar with Velocity: Motion Distortion Correction of Point Clouds from Oscillating Scanning Lidars](https://arxiv.org/abs/2111.09497) [Livox, ISEE]
+- [NWD: A Normalized Gaussian Wasserstein Distance for Tiny Object Detection](https://arxiv.org/abs/2110.13389)
+- [Towards Optimal Strategies for Training Self-Driving Perception Models in Simulation](https://arxiv.org/abs/2111.07971) <kbd>NeurIPS 2021</kbd> [Sanja Fidler]
+- [Insta-DM: Learning Monocular Depth in Dynamic Scenes via Instance-Aware Projection Consistency](https://arxiv.org/abs/2102.02629) <kbd>AAAI 2021</kbd>
+- [Instance-wise Depth and Motion Learning from Monocular Videos](https://arxiv.org/abs/1912.09351) <kbd>NeurIPS 2020 workshop</kbd> [[website](https://sites.google.com/site/seokjucv/home/instadm)]
+- [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/abs/2003.08934) <kbd>ECCV 2020 oral</kbd>
+- [BARF: Bundle-Adjusting Neural Radiance Fields](https://arxiv.org/abs/2104.06405) <kbd>ICCV 2021 oral</kbd>
+- [NerfingMVS: Guided Optimization of Neural Radiance Fields for Indoor Multi-view Stereo](https://arxiv.org/abs/2109.01129) <kbd>ICCV 2021 oral</kbd>
+- [Transfuser: Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/abs/2104.09224) <kbd>CVPR 2021</kbd>
+- [YOLinO: Generic Single Shot Polyline Detection in Real Time](https://arxiv.org/abs/2103.14420) <kbd>ICCV 2021 workshop</kbd> [lld]
+- [MonoRCNN: Geometry-based Distance Decomposition for Monocular 3D Object Detection](https://arxiv.org/abs/2104.03775) <kbd>ICCV 2021</kbd>
+- [MonoCInIS: Camera Independent Monocular 3D Object Detection using Instance Segmentation](https://arxiv.org/abs/2110.00464) <kbd>ICCV 2021 workshop</kbd>
+- [PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection](https://arxiv.org/abs/1912.13192) <kbd>CVPR 2020</kbd> [Waymo challenge 2nd place]
+- [Geometry-based Distance Decomposition for Monocular 3D Object Detection](https://arxiv.org/abs/2104.03775) <kbd>ICCV 2021</kbd> [mono3D]
+- [Offboard 3D Object Detection from Point Cloud Sequences](https://arxiv.org/abs/2103.05073) <kbd>CVPR 2021</kbd> [Charles Qi] 
+- [FreeAnchor: Learning to Match Anchors for Visual Object Detection](https://arxiv.org/abs/1909.02466) <kbd>NeurIPS 2019</kbd>
+- [AutoAssign: Differentiable Label Assignment for Dense Object Detection](https://arxiv.org/abs/2007.03496)
+- [Probabilistic Anchor Assignment with IoU Prediction for Object Detection](https://arxiv.org/abs/2007.08103) <kbd>ECCV 2020</kbd>
+- [FOVEA: Foveated Image Magnification for Autonomous Navigation](https://arxiv.org/abs/2108.12102) <kbd>ICCV 2021</kbd> [Argo]
+- [PifPaf: Composite Fields for Human Pose Estimation](https://arxiv.org/abs/1903.06593) <kbd>CVPR 2019</kbd>
+- [Monocular 3D Localization of Vehicles in Road Scenes](https://avvision.xyz/iccv21/papers/1/CameraReady/01.pdf) <kbd>ICCV 2021 workshop</kbd> [mono3D, tracking]
+- [TransformerFusion: Monocular RGB Scene Reconstruction using Transformers](https://arxiv.org/abs/2107.02191)
+- [Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152)
+- [Anchor DETR: Query Design for Transformer-Based Detector](https://arxiv.org/abs/2109.07107) [megvii]
+- [PGD: Probabilistic and Geometric Depth: Detecting Objects in Perspective](https://arxiv.org/abs/2107.14160) <kbd>CoRL 2021</kbd>
+- [Adaptive Wing Loss for Robust Face Alignment via Heatmap Regression](https://arxiv.org/abs/1904.07399) 
+- [What Makes for End-to-End Object Detection?](https://proceedings.mlr.press/v139/sun21b.html) <kbd>PMLR 2021</kbd>
+- [Instances as Queries](https://arxiv.org/abs/2105.01928) <kbd>ICCV 2021</kbd> [instance segmentation]
+- [One Million Scenes for Autonomous Driving: ONCE Dataset](https://arxiv.org/abs/2106.11037) [Huawei]
+- [NVS-MonoDepth: Improving Monocular Depth Prediction with Novel View Synthesis](https://arxiv.org/abs/2112.12577) <kbd>3DV 2021</kbd>
+- [Is 2D Heatmap Representation Even Necessary for Human Pose Estimation?](https://arxiv.org/abs/2107.03332)
+- [Topology Preserving Local Road Network Estimation from Single Onboard Camera Image](https://arxiv.org/abs/2112.10155) [BEVNet, Luc Van Gool]
