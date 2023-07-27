@@ -45,7 +45,9 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [ProgPrompt: Generating Situated Robot Task Plans using Large Language Models](https://arxiv.org/abs/2209.11302) <kbd>ICRA 2023</kbd>
 - [TidyBot: Personalized Robot Assistance with Large Language Models](https://arxiv.org/abs/2305.05658) [[Notes](paper_notes/tidybot.md)] [[Project](https://tidybot.cs.princeton.edu/)]
 - [SayCan: Do As I Can, Not As I Say: Grounding Language in Robotic Affordances](https://arxiv.org/abs/2204.01691) [[Notes](paper_notes/saycan.md)] [[Project](https://say-can.github.io/)]
-
+- [ALBEF: Align before Fuse: Vision and Language Representation Learning with Momentum Distillation](https://arxiv.org/abs/2107.07651) <kbd>NeurIPS 2021</kbd> [Junnan Li]
+- [BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://arxiv.org/abs/2201.12086) <kbd>ICML 2022</kbd> [Junnan Li]
+- [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597) [Junnan Li]
 
 ## 2023-06 (5)
 - [Pix2seq v2: A Unified Sequence Interface for Vision Tasks](https://arxiv.org/abs/2206.07669) [[Notes](paper_notes/pix2seq_v2.md)] <kbd>NeurIPS 2022</kbd> [Geoffrey Hinton]
