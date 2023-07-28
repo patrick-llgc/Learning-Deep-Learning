@@ -50,11 +50,13 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597) [Junnan Li]
 
 ## 2023-06 (5)
+- [End-to-end review by Shanghai AI Labs](https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving)
 - [Pix2seq v2: A Unified Sequence Interface for Vision Tasks](https://arxiv.org/abs/2206.07669) [[Notes](paper_notes/pix2seq_v2.md)] <kbd>NeurIPS 2022</kbd> [Geoffrey Hinton]
 - 🦩 [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) [[Notes](paper_notes/flamingo.md)] <kbd>NeurIPS 2022</kbd> [DeepMind]
 - 😼 [Gato: A Generalist Agent](https://arxiv.org/abs/2205.06175) [[Notes](paper_notes/gato.md)] <kbd>TMLR 2022</kbd> [DeepMind]
 - [BC-SAC: Imitation Is Not Enough: Robustifying Imitation with Reinforcement Learning for Challenging Driving Scenarios](https://arxiv.org/abs/2212.11419) [[Notes](paper_notes/bc_sac.md)] <kbd>NeurIPS 2022</kbd> [Waymo]
 - [MGAIL-AD: Hierarchical Model-Based Imitation Learning for Planning in Autonomous Driving](https://arxiv.org/abs/2210.09539) [[Notes](paper_notes/mgail_ad.md)] <kbd>IROS 2022</kbd> [Waymo]
+
 
 
 ## 2023-05 (7)
@@ -1420,7 +1422,7 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [Grokking: Generalization beyond Overfitting on small algorithmic datasets](https://arxiv.org/abs/2201.02177)
 - [Progress measures for grokking via mechanistic interpretability]()
 - [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530) <kbd>ICLR 2017</kbd>
-- [Unifying Grokking and Double DescentDownload](https://openreview.net/forum?id=JqtHMZtqWm)
+- [Unifying Grokking and Double Descent](https://openreview.net/forum?id=JqtHMZtqWm)
 - [Deep Interactive Motion Prediction and Planning: Playing Games with Motion Prediction Models](https://arxiv.org/abs/2204.02392) <kbd>L4DC 2022</kbd>
 - [Interactive Prediction and Planning for Autonomous Driving: from Algorithms to Fundamental Aspects](https://escholarship.org/uc/item/0vf4q2x1) [PhD thesis of Wei Zhan, 2019]
 - [Lyft1001: One Thousand and One Hours: Self-driving Motion Prediction Dataset](https://arxiv.org/abs/2006.14480) [Lyft Level 5, prediction dataset]
