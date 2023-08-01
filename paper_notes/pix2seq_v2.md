@@ -13,6 +13,8 @@ The formulation of various vision-centric tasks have significant differences in 
 
 Many vision-centric tasks can be treated as **image captioning** or **visual question answering (VQA)** in a specific language dialect, a language spoken in the format of specific json schema, for example.
 
+This work is further extended by [Vision LLM](vision_llm.md) which leverages the **pretrained** LLM.
+
 
 #### Key ideas
 - Same architecture with [pix2seq](pix2seq.md), but [pix2seq_v2](pix2seq_v2.md) also conditions on a task prompt so that the model can produce outputs adapted to the task of interest. --> **Essentially it set a start of the sentence and ask the decoder to finish.**

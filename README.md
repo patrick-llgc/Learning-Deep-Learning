@@ -36,6 +36,16 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
+## 2023-08 (1)
+- [ALBEF: Align before Fuse: Vision and Language Representation Learning with Momentum Distillation](https://arxiv.org/abs/2107.07651) <kbd>NeurIPS 2021</kbd> [Junnan Li]
+- [BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://arxiv.org/abs/2201.12086) <kbd>ICML 2022</kbd> [Junnan Li]
+- [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597) [Junnan Li]
+- [RT-1: Robotics Transformer for Real-World Control at Scale](https://arxiv.org/abs/2212.06817) [DeepMind]
+- [RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control](https://robotics-transformer2.github.io/assets/rt2.pdf) [[Notes](paper_notes/rt2.md)] [DeepMind, end-to-end visuomotor]
+- [MOO: Open-World Object Manipulation using Pre-trained Vision-Language Models](https://arxiv.org/abs/2303.00905) [Google Robotics, end-to-end visuomotor]
+- [VC-1: Where are we in the search for an Artificial Visual Cortex for Embodied Intelligence?](https://arxiv.org/abs/2303.18240)
+- [CLIPort: What and Where Pathways for Robotic Manipulation](https://arxiv.org/abs/2109.12098) <kbd>CoRL 2021</kbd> [Nvidia, end-to-end visuomotor]
+- [AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration](https://arxiv.org/abs/2306.00978) [Song Han, LLM Acc]
 
 ## 2023-07 (6)
 - [MILE: Model-Based Imitation Learning for Urban Driving](https://arxiv.org/abs/2210.07729) [[Notes](paper_notes/mile.md)] <kbd>NeurIPS 2022</kbd> [Alex Kendall]
@@ -45,9 +55,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [ProgPrompt: Generating Situated Robot Task Plans using Large Language Models](https://arxiv.org/abs/2209.11302) <kbd>ICRA 2023</kbd>
 - [TidyBot: Personalized Robot Assistance with Large Language Models](https://arxiv.org/abs/2305.05658) [[Notes](paper_notes/tidybot.md)] [[Project](https://tidybot.cs.princeton.edu/)]
 - [SayCan: Do As I Can, Not As I Say: Grounding Language in Robotic Affordances](https://arxiv.org/abs/2204.01691) [[Notes](paper_notes/saycan.md)] [[Project](https://say-can.github.io/)]
-- [ALBEF: Align before Fuse: Vision and Language Representation Learning with Momentum Distillation](https://arxiv.org/abs/2107.07651) <kbd>NeurIPS 2021</kbd> [Junnan Li]
-- [BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://arxiv.org/abs/2201.12086) <kbd>ICML 2022</kbd> [Junnan Li]
-- [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597) [Junnan Li]
+
 
 ## 2023-06 (5)
 - [End-to-end review by Shanghai AI Labs](https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving)

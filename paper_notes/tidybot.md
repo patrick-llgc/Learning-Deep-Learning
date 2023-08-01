@@ -2,7 +2,7 @@
 
 _July 2023_
 
-tl;dr: Use LLM to summarize and apply user preference through few shot learning. This provides a great way to personalize/customize LLM.
+tl;dr: Use LLM to summarize and apply user preference through few shot learning. This clever CoT prompt engineering provides a great way to personalize/customize LLM.
 
 #### Overall impression
 TidyBot achieved personalization of LLM through few-shot summarization. The context learning from few examples enabled some user customization, without fine-tuning of LLM. It is essentially a nice piece of **prompt engineering**, and promotes LLM's [Chain-of-Thought](cot.md).  It is reasonable to enable customization of LLM through prompt engineering rather than fine-tuning the base model.

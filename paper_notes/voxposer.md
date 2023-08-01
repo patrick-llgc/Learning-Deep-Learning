@@ -9,7 +9,7 @@ LLM can be the key components to power embodied AI. Yet two gaps remain: How to 
 
 VoxPoser extracts language-conditioned affordances and constraints from LLMs and grounds them to the perceptual space using VLMs, using a code interface and without training of either components. (Both LLM and VLM is **frozen**). Voxposer leverages LLMs to compose the key aspects for generating robot trajectories (value maps) rather than attempting to train policies on robotic data that are often of limited amount or variability.
 
-One major drawback of VoxPoser is the **lack of end-to-end differentiability**. It is zero-shot, and no finetuning is required. This also limit the improvement close-loop of this pipeline. If we collect some corner case data in the field, there is no clear way to perform data close-loop to improve the performance of the online algorithm.
+One major drawback of VoxPoser is the **lack of end-to-end differentiability**. It is zero-shot, and no finetuning is required. This also limit the improvement close-loop of this pipeline. If we collect some corner case data in the field, there is no clear way to perform data close-loop to improve the performance of the online algorithm. --> Cf [RT-2](rt2.md) the first end-to-end differentiable VLA (vision-language-action) model.
 
 The model can work with dynamic perturbations, but these perturbations happen much faster than the robot can move, so essentially no active prediction needs to be performed. The robot just needs to adapt to the new environment.
 

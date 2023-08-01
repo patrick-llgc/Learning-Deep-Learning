@@ -7,7 +7,7 @@ tl;dr: Use pretrained LLM as flexible and unified manager for a variety of visio
 #### Overall impression
 All vision foundation models are restricted to tasks in a pre-defined form, struggling to match the open-ended task capability. VisionLLM aims to flexibly manage vision-centric tasks (obj det, instance seg, etc) with language instructions.
 
-The main contribution is in the decoder, and seems to be a more user-friendly way to manage/unify multiple tasks than [pix2seq v2](pix2seq_v2.md), and can generate to multi-modal input. Also, VisionLLM uses pretrained LLM, where pix2seq is trained from scratch. 
+The main contribution is in the decoder, and seems to be a more user-friendly way to manage/unify multiple tasks than [pix2seq v2](pix2seq_v2.md), and can generate to multi-modal input. Also, VisionLLM uses **pretrained** LLM, where pix2seq is trained from scratch. 
 
 The "output format as query" trick seems a nice way to speed up inference, but it breaks the beauty of the next-token prediction paradigm and has to resort to inductive bias or prior knowledge of specific tasks.
 
