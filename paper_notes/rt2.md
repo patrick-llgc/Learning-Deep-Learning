@@ -64,6 +64,7 @@ RT-2 direclty outputs action as special tokens. To avoid changing network archit
 
 
 #### Questions
+- Does RT-2 do high level task planning? If not, this may be an overkill. 
 - How much computation was used in RT-2?
 - How is PaLM-E better than Say-Can?
 - World model (such as Daydreamer, [Gato](gato.md), [MILE](mile.md)) may benefit from LLM pretraining as well. 
