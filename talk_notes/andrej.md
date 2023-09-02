@@ -18,7 +18,7 @@
 ## [CVPR 2021](cvpr_2021/cvpr_2021.md)
 - [video](https://www.youtube.com/watch?v=g6bOwQdCJrc)
 
-## [2023/05 Microsoft Build](202305_microsoft_build/state_of_gpt_2023.md)
+## [2023-05 Microsoft Build](state_of_gpt_2023/state_of_gpt_2023.md)
 
 ## Misc
 ### Tesla Patents
