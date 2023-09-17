@@ -15,6 +15,8 @@ RT-1 exhibits good performance and generalization capability, and it can perform
 
 Data is more important than model architecture, and data diversity is more important than data quantity. Breadth > Scale. Tasks should be well connected as well.
 
+The main contribution is the large dataset. But how effective is this dataset when the end effector is changed? Perhaps not that useful.
+
 
 
 #### Key ideas
@@ -25,7 +27,7 @@ Data is more important than model architecture, and data diversity is more impor
 	- 8 skills (verb), 700 tasks (instructions, verb + noun)
 - Model architecture
 	- Transformer: seq2seq. Inputs (language conditioned images) are mapped to a sequence, and output actions are also mapped to a sequence. 
-	- Language conditioning via FiLM (a way to construct VLM, cf [Flamingo](flamingo.md))
+	- Language conditioning via FiLM (a way to construct VLM, cf [Flamingo](flamingo.md). 一种通过语言嵌入来调节视觉活动的经典技术)
 	- Image: no patchify, flattened to 9x9 tokens, reduced to 8 tokens by TokenLearner. 6 images yields 48 tokens. This is the input to the transformer. 
 	- BC (behavior cloning) and capped by human demo
 - Action formulation 13 DoF

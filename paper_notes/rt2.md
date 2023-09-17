@@ -19,6 +19,8 @@ Similar work of integrating pretrained VLMs into end-to-end visuomotor manipulat
 
 RT-2 direclty outputs action as special tokens. To avoid changing network architecture and uses pretraining as much as possible, it repurposes some tokens as action tokens (either individual number tokens or least used tokens in the vocab). This grounds LLM output beyond high level plans and into control action. --> This is quite similar to the idea of extending the natural language vocab in [Vision LLM](vision_llm.md). [Pix2seq v2](pix2seq_v2.md) does not use pretrained LLM and cannot output natural language tokens.
 
+The biggest issue of RT-2 is that it is using the cerebrum 大脑 (rather than cerebellum 小脑 or brainstem 脑干) to carry out low-level actions.
+
 
 #### Key ideas
 - VLA: vision-language-action models.

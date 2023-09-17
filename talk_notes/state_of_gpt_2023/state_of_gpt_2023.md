@@ -33,14 +33,18 @@ judge the power of a model just by the number of parameters.
 ![](media/image009.jpg)
 
 This Shakespeare toy model seems to use letters as tokenization, as many
-words are not in standard vocabulary in modern English.
+words are not in standard vocabulary in modern English. The model learns about words, spaces and punctuations.
 
 ![](media/image010.jpg)
 
 Just in terms of predicting the next token, the model is forced to
 understand a lot about the structure of the text and different concepts.
 
+Starting with GPT-1, base models can be finetuned into multiple downstream tasks. 
+
 ![](media/image011.jpg)
+
+Starting with GPT-2, prompting has repalced finetuning as the mainstream way to interact with a LLM.
 
 ![](media/image012.jpg)
 
