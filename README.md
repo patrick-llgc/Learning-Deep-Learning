@@ -36,12 +36,19 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2023-08 (1)
+## 2023-09 (1)
+- [RetNet: Retentive Network: A Successor to Transformer for Large Language Models](https://arxiv.org/abs/2307.08621) [[Notes](paper_notes/retnet.md)] [MSRA]
+- [FastTransformers: Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention](https://arxiv.org/abs/2006.16236) <kbd>ICML 2020</kbd>
+- [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/abs/2104.09864)
+- [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)
+- [An Attention Free Transformer](https://arxiv.org/abs/2105.14103)
+- [GPT in 60 Lines of NumPy](https://jaykmody.com/blog/gpt-from-scratch/)
+- [Speeding up the GPT - KV cache](https://www.dipkumar.dev/becoming-the-unbeatable/posts/gpt-kvcache/)
+- [LLM Parameter Counting](https://kipp.ly/transformer-param-count/)
+- [Transformer Inference Arithmetic](https://kipp.ly/transformer-inference-arithmetic/#kv-cache)
 - [ALBEF: Align before Fuse: Vision and Language Representation Learning with Momentum Distillation](https://arxiv.org/abs/2107.07651) <kbd>NeurIPS 2021</kbd> [Junnan Li]
 - [BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://arxiv.org/abs/2201.12086) <kbd>ICML 2022</kbd> [Junnan Li]
 - [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597) [Junnan Li]
-- [RT-1: Robotics Transformer for Real-World Control at Scale](https://arxiv.org/abs/2212.06817) [[Notes](paper_notes/rt1.md)] [DeepMind]
-- [RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control](https://robotics-transformer2.github.io/assets/rt2.pdf) [[Notes](paper_notes/rt2.md)] [DeepMind, end-to-end visuomotor]
 - [MOO: Open-World Object Manipulation using Pre-trained Vision-Language Models](https://arxiv.org/abs/2303.00905) [Google Robotics, end-to-end visuomotor]
 - [VC-1: Where are we in the search for an Artificial Visual Cortex for Embodied Intelligence?](https://arxiv.org/abs/2303.18240)
 - [CLIPort: What and Where Pathways for Robotic Manipulation](https://arxiv.org/abs/2109.12098) <kbd>CoRL 2021</kbd> [Nvidia, end-to-end visuomotor]
@@ -49,6 +56,23 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [SAPIEN: A SimulAted Part-based Interactive ENvironment](https://arxiv.org/abs/2003.08515) <kbd>CVPR 2020</kbd>
 - [FiLM conditioned Perez 2018]
 - [TokenLearner]
+- [ChatGPT for robotics]
+- [MineDOJO]
+- [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)
+- [OVO: Open-Vocabulary Occupancy](https://arxiv.org/abs/2305.16133)
+- [Code Llama: Open Foundation Models for Code](https://arxiv.org/abs/2308.12950)
+- [Chinchilla: Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) [DeepMind]
+- [GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints](https://arxiv.org/abs/2305.13245)
+- [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/abs/2104.09864)
+- [RH20T: A Robotic Dataset for Learning Diverse Skills in One-Shot](https://arxiv.org/abs/2307.00595)
+- [Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation]()
+- [VIMA: General Robot Manipulation with Multimodal Prompts]()
+- [An Attention Free Transformer](https://arxiv.org/abs/2105.14103) [Apple]
+
+## 2023-08 (3)
+- [RT-1: Robotics Transformer for Real-World Control at Scale](https://arxiv.org/abs/2212.06817) [[Notes](paper_notes/rt1.md)] [DeepMind]
+- [RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control](https://robotics-transformer2.github.io/assets/rt2.pdf) [[Notes](paper_notes/rt2.md)] [DeepMind, end-to-end visuomotor]
+- [RWKV: Reinventing RNNs for the Transformer Era](https://arxiv.org/abs/2305.13048) [[Notes](paper_notes/rwkv.md)]
 
 ## 2023-07 (6)
 - [MILE: Model-Based Imitation Learning for Urban Driving](https://arxiv.org/abs/2210.07729) [[Notes](paper_notes/mile.md)] <kbd>NeurIPS 2022</kbd> [Alex Kendall]
