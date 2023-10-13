@@ -42,6 +42,7 @@ Attention, as opposed to memory, has constant length between any two positions. 
 	- There is a fixed linear transformation from two embeddings with a fixed distance apart. "We chose this function because we hypothesized it would allow the model to easily learn to attend by relative positions, since for any fixed offset k, PEpos+k can be represented as a linear function of PEpos."
 	- The distance between positions (via dot product) decays symmetrically and smoothly.
 - Positional embedding is added but not concatenated. Basically PE only takes small number of dimensions and large portion of the high dim space is occupied by WE ("Near orthogonality in high dim space" property).
+- Softmax: The term "soft" derives from the fact that the softmax function is continuous and differentiable. The arg max function, with its result represented as a one-hot vector, is not continuous or differentiable. The softmax function thus provides a "softened" version of the arg max. ([Source](https://en.wikipedia.org/wiki/Softmax_function))
 
 
 #### Notes
