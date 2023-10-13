@@ -38,10 +38,10 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 
 ## 2023-09 (1)
 - [RetNet: Retentive Network: A Successor to Transformer for Large Language Models](https://arxiv.org/abs/2307.08621) [[Notes](paper_notes/retnet.md)] [MSRA]
-- [FastTransformers: Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention](https://arxiv.org/abs/2006.16236) <kbd>ICML 2020</kbd>
+- [Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention](https://arxiv.org/abs/2006.16236) [[Notes](paper_notes/transformers_are_rnns.md)] <kbd>ICML 2020</kbd> 
 - [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/abs/2104.09864)
+- [An Attention Free Transformer](https://arxiv.org/abs/2105.14103) [[Notes](paper_notes/aft.md)] [Apple]
 - [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)
-- [An Attention Free Transformer](https://arxiv.org/abs/2105.14103)
 - [GPT in 60 Lines of NumPy](https://jaykmody.com/blog/gpt-from-scratch/)
 - [Speeding up the GPT - KV cache](https://www.dipkumar.dev/becoming-the-unbeatable/posts/gpt-kvcache/)
 - [LLM Parameter Counting](https://kipp.ly/transformer-param-count/)
@@ -52,12 +52,15 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [MOO: Open-World Object Manipulation using Pre-trained Vision-Language Models](https://arxiv.org/abs/2303.00905) [Google Robotics, end-to-end visuomotor]
 - [VC-1: Where are we in the search for an Artificial Visual Cortex for Embodied Intelligence?](https://arxiv.org/abs/2303.18240)
 - [CLIPort: What and Where Pathways for Robotic Manipulation](https://arxiv.org/abs/2109.12098) <kbd>CoRL 2021</kbd> [Nvidia, end-to-end visuomotor]
-- [AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration](https://arxiv.org/abs/2306.00978) [Song Han, LLM Acc]
+- [GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers](https://arxiv.org/abs/2210.17323) <kbd>ICLR 2023</kbd>
+- [SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models](https://arxiv.org/abs/2211.10438) <kbd>ICML 2023</kbd> [Song Han, LLM Quant]
+- [LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/abs/2208.07339) <kbd>NeurIPS 2022</kbd> [LLM Quant]
+- [AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration](https://arxiv.org/abs/2306.00978) [Song Han, LLM Quant]
 - [SAPIEN: A SimulAted Part-based Interactive ENvironment](https://arxiv.org/abs/2003.08515) <kbd>CVPR 2020</kbd>
-- [FiLM conditioned Perez 2018]
-- [TokenLearner]
-- [ChatGPT for robotics]
-- [MineDOJO]
+- [FiLM: Visual Reasoning with a General Conditioning Layer](https://arxiv.org/abs/1709.07871) <kbd>AAAI 2018</kbd>
+- [TokenLearner: What Can 8 Learned Tokens Do for Images and Videos?](https://arxiv.org/abs/2106.11297) <kbd>NeurIPS 2021</kbd>
+- [ChatGPT for Robotics: Design Principles and Model Abilities](https://arxiv.org/abs/2306.17582) [Microsoft]
+- [MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge](https://arxiv.org/abs/2206.08853) <kbd>NeurIPS 2022</kbd> [Outstanding paper award]
 - [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)
 - [OVO: Open-Vocabulary Occupancy](https://arxiv.org/abs/2305.16133)
 - [Code Llama: Open Foundation Models for Code](https://arxiv.org/abs/2308.12950)
@@ -1464,6 +1467,8 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [PCAccumulation: Dynamic 3D Scene Analysis by Point Cloud Accumulation](https://arxiv.org/abs/2207.12394) <kbd>ECCV 2022</kbd>
 - [Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos](https://arxiv.org/abs/2206.11795) <kbd>NeurIPS 2022</kbd>
 - [UniSim: A Neural Closed-Loop Sensor Simulator](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_UniSim_A_Neural_Closed-Loop_Sensor_Simulator_CVPR_2023_paper.pdf) <kbd>CVPR 2023</kbd> [simulation, Raquel]
+- [GeoSim: Realistic Video Simulation via Geometry-Aware Composition for
+Self-Driving](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_GeoSim_Realistic_Video_Simulation_via_Geometry-Aware_Composition_for_Self-Driving_CVPR_2021_paper.pdf) <kbd>CVPR 2023</kbd>
 - [Accelerating Reinforcement Learning for Autonomous Driving using Task-Agnostic and Ego-Centric Motion Skills](https://arxiv.org/abs/2209.12072) [Driving Skill]
 - [Efficient Reinforcement Learning for Autonomous Driving with Parameterized Skills and Priors](https://arxiv.org/abs/2305.04412) <kbd>RSS 2023</kbd> [Driving Skill]
 - [IL Difficulty Model: Embedding Synthetic Off-Policy Experience for Autonomous Driving via Zero-Shot Curricula](https://arxiv.org/abs/2212.01375) <kbd>CoRL 2022</kbd> [Waymo]
