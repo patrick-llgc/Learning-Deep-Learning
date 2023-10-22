@@ -38,9 +38,9 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 
 ## 2023-09 (1)
 - [RetNet: Retentive Network: A Successor to Transformer for Large Language Models](https://arxiv.org/abs/2307.08621) [[Notes](paper_notes/retnet.md)] [MSRA]
-- [Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention](https://arxiv.org/abs/2006.16236) [[Notes](paper_notes/transformers_are_rnns.md)] <kbd>ICML 2020</kbd> 
+- [Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention](https://arxiv.org/abs/2006.16236) [[Notes](paper_notes/transformers_are_rnns.md)] <kbd>ICML 2020</kbd> [Linear attention]
 - [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/abs/2104.09864)
-- [An Attention Free Transformer](https://arxiv.org/abs/2105.14103) [[Notes](paper_notes/aft.md)] [Apple]
+- [AFT: An Attention Free Transformer](https://arxiv.org/abs/2105.14103) [[Notes](paper_notes/aft.md)] [Apple]
 - [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)
 - [GPT in 60 Lines of NumPy](https://jaykmody.com/blog/gpt-from-scratch/)
 - [Speeding up the GPT - KV cache](https://www.dipkumar.dev/becoming-the-unbeatable/posts/gpt-kvcache/)
@@ -71,6 +71,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation]()
 - [VIMA: General Robot Manipulation with Multimodal Prompts]()
 - [An Attention Free Transformer](https://arxiv.org/abs/2105.14103) [Apple]
+- [PDDL Planning with Pretrained Large Language Models]() [MIT Leslie Kaelbling]
 
 ## 2023-08 (3)
 - [RT-1: Robotics Transformer for Real-World Control at Scale](https://arxiv.org/abs/2212.06817) [[Notes](paper_notes/rt1.md)] [DeepMind]
