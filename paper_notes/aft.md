@@ -40,3 +40,4 @@ $$
 #### Notes
 - What keeps the global connectivity if the leanred positonal bias W=0?
 - AFT can be viewed as performning attention where the number of attention heads is the same as the model's feature dimension. --> Why? I did not get it.
+- [Post on Zhihu with very nice illustrations](https://zhuanlan.zhihu.com/p/656636957)

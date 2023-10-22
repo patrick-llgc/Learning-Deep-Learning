@@ -11,11 +11,13 @@ Transformers was initially proposed to overcome sequential training issue of rec
 
 ![](https://pic3.zhimg.com/80/v2-595f377f0e12c3839a0cbbffb9861d0a_1440w.webp)
 
-Linear attention (such as [Fast Transformers](fast_transformer.md)) approximates attention scores exp(q, k) with kernels $\phi(q)$ and $\phi(k)$ so autoregressive inference can be rewritten in a recurrent form. Yet the model capability and performance are worse than Transformers, hindering their popularity. --> How is RetNet better than linear attention?
+Linear attention (such as [Fast Transformers](fast_transformer.md)) approximates attention scores exp(q, k) with kernels $\phi(q)$ and $\phi(k)$ so autoregressive inference can be rerwwritten in a recurrent form. Yet the model capability and performance are worse than Transformers, hindering their popularity. --> How is RetNet better than linear attention?
 
 **RetNet = linear attention + rope + explicit exponential decay（$\gamma$)**
 
 Note that the discussion of transformers in this paper is in the context of decoder-only LLMs, so self-attention.
+
+[RWKV](rwkv.md) is very similar to [RetNet](retnet.md).
 
 #### Key ideas
 - Retention
@@ -25,7 +27,7 @@ $$Retention(X) = (QK^T \odot D)V$$
 	- $D \in R^{|x| \times |x|}$ combines causal masking and exponential decay along relative distance as one matrix. 
 	- In other words, RNNs can be formulated as linear transformers. --> Recurrent caluclulations can be done in a polynomial way.
 	- In comparison, transformers are
-$$Attention(X) = \sigma(QK^T \odot D)V$$. Attetnion has an extra softmax.
+$$Attention(X) = \sigma(QK^T \odot D)V.$$ Attetnion has an extra softmax, which does not allow efficient reordering of computation.
 - Architecture = MSR + FFN
 	- L identical blockes, such as in transformers. 
 	- Multiscale Retention (MSR) Module
