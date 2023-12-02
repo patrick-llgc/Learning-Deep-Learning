@@ -36,11 +36,21 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2023-09 (1)
-- [RetNet: Retentive Network: A Successor to Transformer for Large Language Models](https://arxiv.org/abs/2307.08621) [[Notes](paper_notes/retnet.md)] [MSRA]
-- [Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention](https://arxiv.org/abs/2006.16236) [[Notes](paper_notes/transformers_are_rnns.md)] <kbd>ICML 2020</kbd> [Linear attention]
+
+- [Task and Motion Planning with Large Language Models for Object Rearrangement](https://arxiv.org/abs/2303.06247) <kbd>IROS 2023</kbd>
+
+## 2023-12 (1)
+- [ChatGPT for Robotics: Design Principles and Model Abilities](https://arxiv.org/abs/2306.17582) [[Notes](paper_notes/prompt_craft.md)] [Microsoft]
+- [RoboVQA: Multimodal Long-Horizon Reasoning for Robotics](https://arxiv.org/abs/2311.00899) [Google DeepMind]
+- [Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents](https://arxiv.org/abs/2201.07207) <kbd>ICML 2022</kbd>
+- [ProgPrompt: Generating Situated Robot Task Plans using Large Language Models](https://arxiv.org/abs/2209.11302) <kbd>ICRA 2023</kbd>
+- [CLIPort: What and Where Pathways for Robotic Manipulation](https://arxiv.org/abs/2109.12098) <kbd>CoRL 2021</kbd>
+- [Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation](https://arxiv.org/abs/2209.05451) <kbd>CoRL 2022</kbd>
+- [LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/abs/2208.07339) <kbd>NeurIPS 2022</kbd> [LLM Quant]
+- [AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration](https://arxiv.org/abs/2306.00978) [Song Han, LLM Quant]
 - [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/abs/2104.09864)
-- [AFT: An Attention Free Transformer](https://arxiv.org/abs/2105.14103) [[Notes](paper_notes/aft.md)] [Apple]
+- [CoDi: Any-to-Any Generation via Composable Diffusion](https://arxiv.org/abs/2305.11846) <kbd>NeurIPS 2023</kbd>
+- [What if a Vacuum Robot has an Arm?](https://ieeexplore.ieee.org/abstract/document/10202493) <kbd>UR 2023</kbd>
 - [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)
 - [GPT in 60 Lines of NumPy](https://jaykmody.com/blog/gpt-from-scratch/)
 - [Speeding up the GPT - KV cache](https://www.dipkumar.dev/becoming-the-unbeatable/posts/gpt-kvcache/)
@@ -54,12 +64,9 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [CLIPort: What and Where Pathways for Robotic Manipulation](https://arxiv.org/abs/2109.12098) <kbd>CoRL 2021</kbd> [Nvidia, end-to-end visuomotor]
 - [GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers](https://arxiv.org/abs/2210.17323) <kbd>ICLR 2023</kbd>
 - [SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models](https://arxiv.org/abs/2211.10438) <kbd>ICML 2023</kbd> [Song Han, LLM Quant]
-- [LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/abs/2208.07339) <kbd>NeurIPS 2022</kbd> [LLM Quant]
-- [AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration](https://arxiv.org/abs/2306.00978) [Song Han, LLM Quant]
 - [SAPIEN: A SimulAted Part-based Interactive ENvironment](https://arxiv.org/abs/2003.08515) <kbd>CVPR 2020</kbd>
 - [FiLM: Visual Reasoning with a General Conditioning Layer](https://arxiv.org/abs/1709.07871) <kbd>AAAI 2018</kbd>
 - [TokenLearner: What Can 8 Learned Tokens Do for Images and Videos?](https://arxiv.org/abs/2106.11297) <kbd>NeurIPS 2021</kbd>
-- [ChatGPT for Robotics: Design Principles and Model Abilities](https://arxiv.org/abs/2306.17582) [Microsoft]
 - [MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge](https://arxiv.org/abs/2206.08853) <kbd>NeurIPS 2022</kbd> [Outstanding paper award]
 - [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)
 - [OVO: Open-Vocabulary Occupancy](https://arxiv.org/abs/2305.16133)
@@ -72,6 +79,12 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [VIMA: General Robot Manipulation with Multimodal Prompts]()
 - [An Attention Free Transformer](https://arxiv.org/abs/2105.14103) [Apple]
 - [PDDL Planning with Pretrained Large Language Models]() [MIT Leslie Kaelbling]
+
+## 2023-09 (3)
+- [RetNet: Retentive Network: A Successor to Transformer for Large Language Models](https://arxiv.org/abs/2307.08621) [[Notes](paper_notes/retnet.md)] [MSRA]
+- [Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention](https://arxiv.org/abs/2006.16236) [[Notes](paper_notes/transformers_are_rnns.md)] <kbd>ICML 2020</kbd> [Linear attention]
+- [AFT: An Attention Free Transformer](https://arxiv.org/abs/2105.14103) [[Notes](paper_notes/aft.md)] [Apple]
+
 
 ## 2023-08 (3)
 - [RT-1: Robotics Transformer for Real-World Control at Scale](https://arxiv.org/abs/2212.06817) [[Notes](paper_notes/rt1.md)] [DeepMind]
@@ -1396,7 +1409,6 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [MAGVIT: Masked Generative Video Transformer](https://arxiv.org/abs/2212.05199) <kbd>CVPR 2023 highlight</kbd> [Video prediction]
 - [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2304.08818) <kbd>CVPR 2023</kbd> [Video prediction]
 - [Runway Gen-1: Structure and Content-Guided Video Synthesis with Diffusion Models](https://arxiv.org/abs/2302.03011)
-- [Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents](https://arxiv.org/abs/2201.07207) <kbd>ICML 2022</kbd>
 - [Learning to drive from a world on rails](https://arxiv.org/abs/2105.00636) <kbd>ICCV 2021 oral</kbd> [Philipp Krähenbühl]
 - [Learning from All Vehicles](https://arxiv.org/abs/2203.11934) <kbd>CVPR 2022</kbd> [Philipp Krähenbühl]
 - [End-to-End Urban Driving by Imitating a Reinforcement Learning Coach](https://arxiv.org/abs/2108.08265) <kbd>ICCV 2021</kbd>
