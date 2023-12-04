@@ -37,11 +37,18 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
 
-- [Task and Motion Planning with Large Language Models for Object Rearrangement](https://arxiv.org/abs/2303.06247) <kbd>IROS 2023</kbd>
 
 ## 2023-12 (1)
-- [ChatGPT for Robotics: Design Principles and Model Abilities](https://arxiv.org/abs/2306.17582) [[Notes](paper_notes/prompt_craft.md)] [Microsoft]
-- [RoboVQA: Multimodal Long-Horizon Reasoning for Robotics](https://arxiv.org/abs/2311.00899) [Google DeepMind]
+- [ChatGPT for Robotics: Design Principles and Model Abilities](https://arxiv.org/abs/2306.17582) [[Notes](paper_notes/prompt_craft.md)] [Microsoft, LLM for robotics]
+- [RoboVQA: Multimodal Long-Horizon Reasoning for Robotics](https://arxiv.org/abs/2311.00899) [Google DeepMind, LLM for robotics]
+- [GPT-4V(ision) for Robotics: Multimodal Task Planning from Human Demonstration](https://arxiv.org/abs/2311.12015) [LLM for robotics]
+- [LLM-Brain: LLM as A Robotic Brain: Unifying Egocentric Memory and Control](https://arxiv.org/abs/2304.09349) [[Notes](paper_notes/llm_brain.md)]
+- [LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action](https://arxiv.org/abs/2207.04429) [Sergey Levine]
+- [A Survey of Embodied AI: From Simulators to Research Tasks](https://arxiv.org/abs/2103.04918) <kbd>IEEE TETCI 2021</kbd>
+- [Habitat Challenge 2021](https://aihabitat.org/challenge/2021/)
+- [Video ChatCaptioner: Towards Enriched Spatiotemporal Descriptions](https://arxiv.org/abs/2304.04227)
+- [DoReMi: Grounding Language Model by Detecting and Recovering from Plan-Execution Misalignment](https://arxiv.org/abs/2307.00329) [Jianyu Chen]
+- [The Power of Scale for Parameter-Efficient Prompt Tuning](https://arxiv.org/abs/2104.08691) <kbd>EMNLP 2021</kbd>
 - [Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents](https://arxiv.org/abs/2201.07207) <kbd>ICML 2022</kbd>
 - [ProgPrompt: Generating Situated Robot Task Plans using Large Language Models](https://arxiv.org/abs/2209.11302) <kbd>ICRA 2023</kbd>
 - [CLIPort: What and Where Pathways for Robotic Manipulation](https://arxiv.org/abs/2109.12098) <kbd>CoRL 2021</kbd>
@@ -78,7 +85,9 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation]()
 - [VIMA: General Robot Manipulation with Multimodal Prompts]()
 - [An Attention Free Transformer](https://arxiv.org/abs/2105.14103) [Apple]
-- [PDDL Planning with Pretrained Large Language Models]() [MIT Leslie Kaelbling]
+- [PDDL Planning with Pretrained Large Language Models](https://arxiv.org/abs/2305.11014) [MIT, Leslie Kaelbling]
+- [Task and Motion Planning with Large Language Models for Object Rearrangement](https://arxiv.org/abs/2303.06247) <kbd>IROS 2023</kbd>
+
 
 ## 2023-09 (3)
 - [RetNet: Retentive Network: A Successor to Transformer for Large Language Models](https://arxiv.org/abs/2307.08621) [[Notes](paper_notes/retnet.md)] [MSRA]
