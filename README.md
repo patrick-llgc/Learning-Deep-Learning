@@ -40,7 +40,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 
 ## 2023-12 (1)
 - [ChatGPT for Robotics: Design Principles and Model Abilities](https://arxiv.org/abs/2306.17582) [[Notes](paper_notes/prompt_craft.md)] [Microsoft, LLM for robotics]
-- [RoboVQA: Multimodal Long-Horizon Reasoning for Robotics](https://arxiv.org/abs/2311.00899) [Google DeepMind, LLM for robotics]
+- [RoboVQA: Multimodal Long-Horizon Reasoning for Robotics](https://arxiv.org/abs/2311.00899) [[Notes](paper_notes/robovqa.md)] [Google DeepMind, LLM for robotics]
 - [GPT-4V(ision) for Robotics: Multimodal Task Planning from Human Demonstration](https://arxiv.org/abs/2311.12015) [LLM for robotics]
 - [LLM-Brain: LLM as A Robotic Brain: Unifying Egocentric Memory and Control](https://arxiv.org/abs/2304.09349) [[Notes](paper_notes/llm_brain.md)]
 - [LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action](https://arxiv.org/abs/2207.04429) [Sergey Levine]
