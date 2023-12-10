@@ -41,8 +41,12 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 ## 2023-12 (1)
 - [ChatGPT for Robotics: Design Principles and Model Abilities](https://arxiv.org/abs/2306.17582) [[Notes](paper_notes/prompt_craft.md)] [Microsoft, LLM for robotics]
 - [RoboVQA: Multimodal Long-Horizon Reasoning for Robotics](https://arxiv.org/abs/2311.00899) [[Notes](paper_notes/robovqa.md)] [Google DeepMind, LLM for robotics]
-- [GPT-4V(ision) for Robotics: Multimodal Task Planning from Human Demonstration](https://arxiv.org/abs/2311.12015) [LLM for robotics]
+- [ChatGPT Empowered Long-Step Robot Control in Various Environments: A Case Application](https://ieeexplore.ieee.org/document/10235949) [Microsoft Robotics]
+- [GPT-4V(ision) for Robotics: Multimodal Task Planning from Human Demonstration](https://arxiv.org/abs/2311.12015) [[Notes](paper_notes/gpt4v_robotics.md)] [LLM for robotics, Microsoft Robotics]
 - [LLM-Brain: LLM as A Robotic Brain: Unifying Egocentric Memory and Control](https://arxiv.org/abs/2304.09349) [[Notes](paper_notes/llm_brain.md)]
+- [Language to Rewards for Robotic Skill Synthesis](https://arxiv.org/abs/2306.08647)
+- [Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](https://arxiv.org/abs/2304.13705)
+- [LLM-Grounder: Open-Vocabulary 3D Visual Grounding with Large Language Model as an Agent](https://arxiv.org/abs/2309.12311) [UM]
 - [LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action](https://arxiv.org/abs/2207.04429) [Sergey Levine]
 - [A Survey of Embodied AI: From Simulators to Research Tasks](https://arxiv.org/abs/2103.04918) <kbd>IEEE TETCI 2021</kbd>
 - [Habitat Challenge 2021](https://aihabitat.org/challenge/2021/)
