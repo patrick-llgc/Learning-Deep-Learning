@@ -36,16 +36,34 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
+## 2024-02 (1)
+- [End-to-end Autonomous Driving: Challenges and Frontiers](https://arxiv.org/abs/2306.16927) [[Notes](paper_notes/e2e_review_hongyang.md)]
+- [The Shift from Models to Compound AI Systems](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/)
+- [Roach: End-to-End Urban Driving by Imitating a Reinforcement Learning Coach](https://arxiv.org/abs/2108.08265) <kbd>ICCV 2021</kbd>
+- [Learning from All Vehicles](https://arxiv.org/abs/2203.11934) <kbd>CVPR 2022</kbd>
+- [LBC: Learning by Cheating](https://arxiv.org/abs/1912.12294) <kbd>CoRL 2019</kbd>
+- [Learning to drive from a world on rails](https://arxiv.org/abs/2105.00636) <kbd>ICCV 2021 oral</kbd> [Philipp Krähenbühl]
+- [Learning from All Vehicles](https://arxiv.org/abs/2203.11934) <kbd>CVPR 2022</kbd> [Philipp Krähenbühl]
+- [VADv2: End-to-End Vectorized Autonomous Driving via Probabilistic Planning](https://arxiv.org/abs/2402.13243) [Horizon]
 
-
-## 2023-12 (1)
+## 2023-12 (4)
 - [ChatGPT for Robotics: Design Principles and Model Abilities](https://arxiv.org/abs/2306.17582) [[Notes](paper_notes/prompt_craft.md)] [Microsoft, LLM for robotics]
 - [RoboVQA: Multimodal Long-Horizon Reasoning for Robotics](https://arxiv.org/abs/2311.00899) [[Notes](paper_notes/robovqa.md)] [Google DeepMind, LLM for robotics]
 - [ChatGPT Empowered Long-Step Robot Control in Various Environments: A Case Application](https://ieeexplore.ieee.org/document/10235949) [Microsoft Robotics]
 - [GPT-4V(ision) for Robotics: Multimodal Task Planning from Human Demonstration](https://arxiv.org/abs/2311.12015) [[Notes](paper_notes/gpt4v_robotics.md)] [LLM for robotics, Microsoft Robotics]
 - [LLM-Brain: LLM as A Robotic Brain: Unifying Egocentric Memory and Control](https://arxiv.org/abs/2304.09349) [[Notes](paper_notes/llm_brain.md)]
+- [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) [[Notes](paper_notes/voyager.md)] [Reasoning Critique]
+- [Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine](https://arxiv.org/abs/2311.16452) [Small LLM prompting, Microsoft]
+- [ToT: Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) [[Notes](paper_notes/tot.md)]
+- [CoT: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
+- [Cumulative Reasoning with Large Language Models](https://arxiv.org/abs/2308.04371)
+- [A Survey of Techniques for Maximizing LLM Performance](https://www.youtube.com/watch?v=ahnGLM-RC1Y&ab_channel=OpenAI) [OpenAI]
+- [Drive AGI](https://github.com/OpenDriveLab/DriveAGI)
+- [DriveLM: Drive on Language](https://arxiv.org/abs/2312.14150) [Hongyang Li]
+- [Reimagining an autonomous vehicle](https://arxiv.org/abs/2108.05805) [Wayve]
+- [Harnessing the Power of Multi-Modal LLMs for Autonomy](https://www.ghostautonomy.com/blog/mllms-for-autonomy) [Ghost Autonomy]
 - [Language to Rewards for Robotic Skill Synthesis](https://arxiv.org/abs/2306.08647)
-- [Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](https://arxiv.org/abs/2304.13705)
+- [ALOHA: Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](https://arxiv.org/abs/2304.13705)
 - [LLM-Grounder: Open-Vocabulary 3D Visual Grounding with Large Language Model as an Agent](https://arxiv.org/abs/2309.12311) [UM]
 - [LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action](https://arxiv.org/abs/2207.04429) [Sergey Levine]
 - [A Survey of Embodied AI: From Simulators to Research Tasks](https://arxiv.org/abs/2103.04918) <kbd>IEEE TETCI 2021</kbd>
@@ -1422,10 +1440,6 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [MAGVIT: Masked Generative Video Transformer](https://arxiv.org/abs/2212.05199) <kbd>CVPR 2023 highlight</kbd> [Video prediction]
 - [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2304.08818) <kbd>CVPR 2023</kbd> [Video prediction]
 - [Runway Gen-1: Structure and Content-Guided Video Synthesis with Diffusion Models](https://arxiv.org/abs/2302.03011)
-- [Learning to drive from a world on rails](https://arxiv.org/abs/2105.00636) <kbd>ICCV 2021 oral</kbd> [Philipp Krähenbühl]
-- [Learning from All Vehicles](https://arxiv.org/abs/2203.11934) <kbd>CVPR 2022</kbd> [Philipp Krähenbühl]
-- [End-to-End Urban Driving by Imitating a Reinforcement Learning Coach](https://arxiv.org/abs/2108.08265) <kbd>ICCV 2021</kbd>
-- [End-to-end Autonomous Driving: Challenges and Frontiers](https://arxiv.org/abs/2306.16927)
 - [IL Difficulty Model: Embedding Synthetic Off-Policy Experience for Autonomous Driving via Zero-Shot Curricula](https://arxiv.org/abs/2212.01375) <kbd>CoRL 2022</kbd> [Waymo]
 - [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/abs/2106.01345) <kbd>NeurIPS 2021</kbd> [LLM for planning]
 - [LID: Pre-Trained Language Models for Interactive Decision-Making](https://arxiv.org/abs/2202.01771) <kbd>NeurIPS 2022</kbd> [LLM for planning]
@@ -1511,8 +1525,6 @@ Self-Driving](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_GeoSim_
 - [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597)
 - [Visual Instruction Tuning](https://arxiv.org/abs/2304.08485)
 - [VideoChat: Chat-Centric Video Understanding](https://arxiv.org/abs/2305.06355)
-- [ToT: Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) [[Notes](paper_notes/tot.md)]
-- [CoT: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
 - [CoBEVT: Cooperative Bird's Eye View Semantic Segmentation with Sparse Transformers](https://arxiv.org/abs/2207.02202) <kbd>CoRL 2022</kbd>
 - [BEVFormer v2: Adapting Modern Image Backbones to Bird's-Eye-View Recognition via Perspective Supervision](https://arxiv.org/abs/2211.10439) [BEVNet, Jifeng Dai]
 - [Fast-BEV: Towards Real-time On-vehicle Bird’s-Eye View Perception](https://ml4ad.github.io/files/papers2022/Fast-BEV:%20Towards%20Real-time%20On-vehicle%20Bird's-Eye%20View%20Perception.pdf) <kbd>NeurIPS 2022</kbd>
