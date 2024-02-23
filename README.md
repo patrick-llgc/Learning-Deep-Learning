@@ -37,7 +37,15 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
 ## 2024-02 (1)
-- [End-to-end Autonomous Driving: Challenges and Frontiers](https://arxiv.org/abs/2306.16927) [[Notes](paper_notes/e2e_review_hongyang.md)]
+- [End-to-end Autonomous Driving: Challenges and Frontiers](https://arxiv.org/abs/2306.16927) [[Notes](paper_notes/e2e_review_hongyang.md)] [Hongyang Li, Shanghai AI labs]
+- [DriveVLM: The convergence of Autonomous Driving and Large Vision-Language Models](https://arxiv.org/abs/2402.12289) [[Notes](paper_notes/drivevlm.md)] [Hang Zhao]
+- [X]() [[Notes](paper_notes/x.md)] [E2E planning]
+- [DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model](https://arxiv.org/abs/2310.01412) [TODO]
+- [PlanT: Explainable Planning Transformers via Object-Level Representations](https://arxiv.org/abs/2210.14222) <kbd>CoRL 2022</kbd>
+- [Scene as Occupancy](https://arxiv.org/abs/2306.02851) <kbd>ICCV 2023</kbd>
+- [GAIA-1: A Generative World Model for Autonomous Driving](https://arxiv.org/abs/2309.17080) [Wayve]
+- [AD-MLP: Rethinking the Open-Loop Evaluation of End-to-End Autonomous Driving in
+nuScenes](https://arxiv.org/abs/2305.10430) [Baidu]
 - [The Shift from Models to Compound AI Systems](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/)
 - [Roach: End-to-End Urban Driving by Imitating a Reinforcement Learning Coach](https://arxiv.org/abs/2108.08265) <kbd>ICCV 2021</kbd>
 - [Learning from All Vehicles](https://arxiv.org/abs/2203.11934) <kbd>CVPR 2022</kbd>
@@ -45,6 +53,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Learning to drive from a world on rails](https://arxiv.org/abs/2105.00636) <kbd>ICCV 2021 oral</kbd> [Philipp Krähenbühl]
 - [Learning from All Vehicles](https://arxiv.org/abs/2203.11934) <kbd>CVPR 2022</kbd> [Philipp Krähenbühl]
 - [VADv2: End-to-End Vectorized Autonomous Driving via Probabilistic Planning](https://arxiv.org/abs/2402.13243) [Horizon]
+- [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2304.08818)
 
 ## 2023-12 (4)
 - [ChatGPT for Robotics: Design Principles and Model Abilities](https://arxiv.org/abs/2306.17582) [[Notes](paper_notes/prompt_craft.md)] [Microsoft, LLM for robotics]
