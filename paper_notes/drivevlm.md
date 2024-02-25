@@ -54,3 +54,4 @@ The idea of the paper is very solid and production-oriented. It is also well-exe
 	- Page 12 A1-1: Jumbled sentence.
 	- Navigation information seems also added to the prompt. This is not mentioned in the main text.
 	- Figure 17: the coordinates of the two police are the same? Is this a typo or error by the LLM? Also, the images do not seem to be synchronized. This is particularly obvious in Fig. 17, but same issue happens in other figures too.
+	- It is insufficient to drive the car with front cam only. So in production, it is necessary to scale up to all cameras. 

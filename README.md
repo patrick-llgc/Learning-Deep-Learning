@@ -39,11 +39,15 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 ## 2024-02 (1)
 - [End-to-end Autonomous Driving: Challenges and Frontiers](https://arxiv.org/abs/2306.16927) [[Notes](paper_notes/e2e_review_hongyang.md)] [Hongyang Li, Shanghai AI labs]
 - [DriveVLM: The convergence of Autonomous Driving and Large Vision-Language Models](https://arxiv.org/abs/2402.12289) [[Notes](paper_notes/drivevlm.md)] [Hang Zhao]
+- [DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model](https://arxiv.org/abs/2310.01412) [[Notes](paper_notes/drivegpt4.md)] [HKU]
+- [DriveLM: Drive on Language](https://arxiv.org/abs/2312.14150) [Hongyang Li]
+- [GAIA-1: A Generative World Model for Autonomous Driving](https://arxiv.org/abs/2309.17080) [[Notes](paper_notes/gaia1.md)] [Wayve, vision foundation model]
+- [ADriver-I: A General World Model for Autonomous Driving](https://arxiv.org/abs/2311.13549) [Megvii, Xiangyu]
+- [Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving](https://arxiv.org/abs/2310.01957) [Wayve, LLM + AD]
+- [LingoQA: Video Question Answering for Autonomous Driving](https://arxiv.org/abs/2312.14115) [Wayve, LLM + AD]
 - [X]() [[Notes](paper_notes/x.md)] [E2E planning]
-- [DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model](https://arxiv.org/abs/2310.01412) [TODO]
 - [PlanT: Explainable Planning Transformers via Object-Level Representations](https://arxiv.org/abs/2210.14222) <kbd>CoRL 2022</kbd>
 - [Scene as Occupancy](https://arxiv.org/abs/2306.02851) <kbd>ICCV 2023</kbd>
-- [GAIA-1: A Generative World Model for Autonomous Driving](https://arxiv.org/abs/2309.17080) [Wayve]
 - [AD-MLP: Rethinking the Open-Loop Evaluation of End-to-End Autonomous Driving in
 nuScenes](https://arxiv.org/abs/2305.10430) [Baidu]
 - [The Shift from Models to Compound AI Systems](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/)
@@ -61,14 +65,13 @@ nuScenes](https://arxiv.org/abs/2305.10430) [Baidu]
 - [ChatGPT Empowered Long-Step Robot Control in Various Environments: A Case Application](https://ieeexplore.ieee.org/document/10235949) [Microsoft Robotics]
 - [GPT-4V(ision) for Robotics: Multimodal Task Planning from Human Demonstration](https://arxiv.org/abs/2311.12015) [[Notes](paper_notes/gpt4v_robotics.md)] [LLM for robotics, Microsoft Robotics]
 - [LLM-Brain: LLM as A Robotic Brain: Unifying Egocentric Memory and Control](https://arxiv.org/abs/2304.09349) [[Notes](paper_notes/llm_brain.md)]
-- [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) [[Notes](paper_notes/voyager.md)] [Reasoning Critique]
+- [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) [[Notes](paper_notes/voyager.md)] [Reasoning Critique, Linxi Jim Fan]
 - [Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine](https://arxiv.org/abs/2311.16452) [Small LLM prompting, Microsoft]
 - [ToT: Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) [[Notes](paper_notes/tot.md)]
 - [CoT: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
 - [Cumulative Reasoning with Large Language Models](https://arxiv.org/abs/2308.04371)
 - [A Survey of Techniques for Maximizing LLM Performance](https://www.youtube.com/watch?v=ahnGLM-RC1Y&ab_channel=OpenAI) [OpenAI]
 - [Drive AGI](https://github.com/OpenDriveLab/DriveAGI)
-- [DriveLM: Drive on Language](https://arxiv.org/abs/2312.14150) [Hongyang Li]
 - [Reimagining an autonomous vehicle](https://arxiv.org/abs/2108.05805) [Wayve]
 - [Harnessing the Power of Multi-Modal LLMs for Autonomy](https://www.ghostautonomy.com/blog/mllms-for-autonomy) [Ghost Autonomy]
 - [Language to Rewards for Robotic Skill Synthesis](https://arxiv.org/abs/2306.08647)
