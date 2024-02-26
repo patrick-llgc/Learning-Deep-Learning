@@ -13,7 +13,6 @@ It takes in multiple single-cam images and prompts the LLM to directly output ac
 
 There may be many practical issues with deployment of such a system into production. See Notes session for details.
 
-
 #### Key ideas
 - Architecture: 
 	- Overall an VLA model, tailored to AD
