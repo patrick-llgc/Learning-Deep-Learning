@@ -41,12 +41,18 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [DriveVLM: The convergence of Autonomous Driving and Large Vision-Language Models](https://arxiv.org/abs/2402.12289) [[Notes](paper_notes/drivevlm.md)] [Hang Zhao]
 - [DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model](https://arxiv.org/abs/2310.01412) [[Notes](paper_notes/drivegpt4.md)] [HKU]
 - [DriveLM: Drive on Language](https://arxiv.org/abs/2312.14150) [Hongyang Li]
-- [GAIA-1: A Generative World Model for Autonomous Driving](https://arxiv.org/abs/2309.17080) [[Notes](paper_notes/gaia1.md)] [Wayve, vision foundation model]
-- [ADriver-I: A General World Model for Autonomous Driving](https://arxiv.org/abs/2311.13549) [Megvii, Xiangyu]
+- [GAIA-1: A Generative World Model for Autonomous Driving](https://arxiv.org/abs/2309.17080) [[Notes](paper_notes/gaia_1.md)] [Wayve, vision foundation model]
+- [ADriver-I: A General World Model for Autonomous Driving](https://arxiv.org/abs/2311.13549) [[Notes](paper_notes/adriver_i.md)] [Megvii, Xiangyu]
+- [Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving](https://arxiv.org/abs/2311.17918)
+- [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391)
 - [GenAD: Generative End-to-End Autonomous Driving](https://arxiv.org/abs/2402.11502)
+- [TCP: Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline](https://arxiv.org/abs/2206.08129) <kbd>NeurIPS 2022</kbd> [E2E planning, Hongyang]
+- [Transfuser: Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/abs/2104.09224) <kbd>CVPR 2021</kbd> [E2E planning, Geiger]
 - [Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving](https://arxiv.org/abs/2310.01957) [Wayve, LLM + AD]
 - [LingoQA: Video Question Answering for Autonomous Driving](https://arxiv.org/abs/2312.14115) [Wayve, LLM + AD]
 - [World Model on Million-Length Video And Language With RingAttention](https://arxiv.org/abs/2402.08268) [Pieter Abbeel]
+- [DriveDreamer: Towards Real-world-driven World Models for Autonomous Driving](https://arxiv.org/abs/2309.09777) [Jiwen Lu]
+- [Panacea: Panoramic and Controllable Video Generation for Autonomous Driving](https://arxiv.org/abs/2311.16813) <kbd>CVPR 2024</kbd> [Megvii]
 - [X]() [[Notes](paper_notes/x.md)] [E2E planning]
 - [PlanT: Explainable Planning Transformers via Object-Level Representations](https://arxiv.org/abs/2210.14222) <kbd>CoRL 2022</kbd>
 - [Scene as Occupancy](https://arxiv.org/abs/2306.02851) <kbd>ICCV 2023</kbd>
@@ -58,7 +64,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Learning to drive from a world on rails](https://arxiv.org/abs/2105.00636) <kbd>ICCV 2021 oral</kbd> [Philipp Krähenbühl]
 - [Learning from All Vehicles](https://arxiv.org/abs/2203.11934) <kbd>CVPR 2022</kbd> [Philipp Krähenbühl]
 - [VADv2: End-to-End Vectorized Autonomous Driving via Probabilistic Planning](https://arxiv.org/abs/2402.13243) [Horizon]
-- [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2304.08818) [Nvidia]
+- [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2304.08818) <kbd>CVPR 2023</kbd> [Sanja, Nvidia, VideoLD, Video prediction]
 - [VQ-VAE: Neural Discrete Representation Learning](https://arxiv.org/abs/1711.00937)
 - [Vector-quantized Image Modeling with Improved VQGAN](https://arxiv.org/abs/2110.04627) <kbd>ICLR 2022</kbd>
 
@@ -1453,7 +1459,6 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [JEPA: A Path Towards Autonomous Machine Intelligence](https://openreview.net/pdf?id=BZ5a1r-kVsf)
 - [I-JEPA: Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture](https://arxiv.org/abs/2301.08243) <kbd>CVPR 2023</kbd>
 - [MAGVIT: Masked Generative Video Transformer](https://arxiv.org/abs/2212.05199) <kbd>CVPR 2023 highlight</kbd> [Video prediction]
-- [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2304.08818) <kbd>CVPR 2023</kbd> [Video prediction]
 - [Runway Gen-1: Structure and Content-Guided Video Synthesis with Diffusion Models](https://arxiv.org/abs/2302.03011)
 - [IL Difficulty Model: Embedding Synthetic Off-Policy Experience for Autonomous Driving via Zero-Shot Curricula](https://arxiv.org/abs/2212.01375) <kbd>CoRL 2022</kbd> [Waymo]
 - [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/abs/2106.01345) <kbd>NeurIPS 2021</kbd> [LLM for planning]
@@ -1655,7 +1660,6 @@ Self-Driving](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_GeoSim_
 - [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/abs/2003.08934) <kbd>ECCV 2020 oral</kbd>
 - [BARF: Bundle-Adjusting Neural Radiance Fields](https://arxiv.org/abs/2104.06405) <kbd>ICCV 2021 oral</kbd>
 - [NerfingMVS: Guided Optimization of Neural Radiance Fields for Indoor Multi-view Stereo](https://arxiv.org/abs/2109.01129) <kbd>ICCV 2021 oral</kbd>
-- [Transfuser: Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/abs/2104.09224) <kbd>CVPR 2021</kbd>
 - [YOLinO: Generic Single Shot Polyline Detection in Real Time](https://arxiv.org/abs/2103.14420) <kbd>ICCV 2021 workshop</kbd> [lld]
 - [MonoRCNN: Geometry-based Distance Decomposition for Monocular 3D Object Detection](https://arxiv.org/abs/2104.03775) <kbd>ICCV 2021</kbd>
 - [MonoCInIS: Camera Independent Monocular 3D Object Detection using Instance Segmentation](https://arxiv.org/abs/2110.00464) <kbd>ICCV 2021 workshop</kbd>

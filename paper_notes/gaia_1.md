@@ -17,6 +17,8 @@ Why are world models useful?
 
 This technical report includes tons of training details, reminescent of the Llama series paper.
 
+It does not explicitly predict the action, which is improved by ADriver-I.
+
 #### Key ideas
 - Overall performance
 	- GAIA-1 can perform video rollout based on a video prompt, or video generation purely from text prompt.
