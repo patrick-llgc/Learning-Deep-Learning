@@ -19,7 +19,7 @@ The **biggest drawback** of this paper, as I see it, is the action conditioning 
 - Architecture
 	- World model is a VLM Similar to Llava. The LLM component is based on Vicuna-7B (SFT'ed from Llama2) and 
 	- Video diffusion model (VDM), similar to [VideoLDM](videoldm.md). It is conditioned on historical frames and control signals. 
-		- The text encoder of VDM is not powerful enough to understand the control signal, so it is **transcribed to qualitative descroption by GPT3.5**. --> This needs to be improved.
+		- The text encoder of VDM is not powerful enough to understand the control signal, so it is **transcribed to qualitative descroption by GPT3.5**. --> This is NOT reasonable, and must be improved. See the notes of [Drive into the Future](drive_wm.md) for training tricks.
 
 #### Technical details
 - Training of VLM (MLLM)

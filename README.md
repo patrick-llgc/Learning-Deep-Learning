@@ -43,7 +43,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [DriveLM: Drive on Language](https://arxiv.org/abs/2312.14150) [Hongyang Li]
 - [GAIA-1: A Generative World Model for Autonomous Driving](https://arxiv.org/abs/2309.17080) [[Notes](paper_notes/gaia_1.md)] [Wayve, vision foundation model]
 - [ADriver-I: A General World Model for Autonomous Driving](https://arxiv.org/abs/2311.13549) [[Notes](paper_notes/adriver_i.md)] [Megvii, Xiangyu]
-- [Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving](https://arxiv.org/abs/2311.17918)
+- [Drive-WM: Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving](https://arxiv.org/abs/2311.17918) [[Notes](paper_notes/drive_wm.md)]
 - [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391)
 - [GenAD: Generative End-to-End Autonomous Driving](https://arxiv.org/abs/2402.11502)
 - [TCP: Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline](https://arxiv.org/abs/2206.08129) <kbd>NeurIPS 2022</kbd> [E2E planning, Hongyang]
@@ -65,6 +65,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Learning from All Vehicles](https://arxiv.org/abs/2203.11934) <kbd>CVPR 2022</kbd> [Philipp Krähenbühl]
 - [VADv2: End-to-End Vectorized Autonomous Driving via Probabilistic Planning](https://arxiv.org/abs/2402.13243) [Horizon]
 - [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2304.08818) <kbd>CVPR 2023</kbd> [Sanja, Nvidia, VideoLD, Video prediction]
+- [DriveGAN: Towards a Controllable High-Quality Neural Simulation](https://arxiv.org/abs/2104.15060) <kbd>CVPR 2021 oral</kbd>
 - [VQ-VAE: Neural Discrete Representation Learning](https://arxiv.org/abs/1711.00937)
 - [Vector-quantized Image Modeling with Improved VQGAN](https://arxiv.org/abs/2110.04627) <kbd>ICLR 2022</kbd>
 
