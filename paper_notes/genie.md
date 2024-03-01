@@ -11,6 +11,8 @@ The tech report is very concisely written, as other reports from DeepMind, and t
 
 The model differs from [GAIA-1](gaia_1.md) in that GAIA-1 still uses video data with action and text annotation. Architecture-wise, GAIA-1 uses a dedicated video decoder based on diffusion model, but Genie uses the decoder of the tokenizer. --> Maybe this can explain the poor image quality.
 
+LAM is more generalized than the IDM model in VPT, where some data are labeled first, then the action predictor used to pseudo-label large sets of unlabeled data. --> Yet in a narrow domain such as autonomous driving. This may also be possible.
+
 A world model enables next-frame prediction that is conditioned on action inputs. 
 Genie is a foundation world model, and can be used for training generalist agents without direct environment experience at agent training time.
 
@@ -26,7 +28,7 @@ Genie is a foundation world model, and can be used for training generalist agent
 	- ST-transformer is less prone to overfitting (and thus higher perf) compared with the full blown spatialtempral attention.
 - Latent Action Model (LAM)
 	- 8 unique codes in code book.
-	- Can infer latent action between each pair of frames
+	- Can infer latent action between each pair of frames. It is similar to the  inverse dynamics model (IDM) which aims to uncover the underlying action between timesteps given observations of past and future timesteps, as in [Video Pretraing, VPT](vpt.md).
 	- VQ-VAE, to map continuous actions to a small discrete set of codes. 
 	- At inference time, only the VQ code book is retained in inference time, and the entire LAM is discarded.
 - Dynamics model
@@ -53,8 +55,6 @@ Genie is a foundation world model, and can be used for training generalist agent
 	- An agent is trained to predict the next possible latent action by the expert
 	- Then latent action mapped to real action.
 
-- Scaling law
-
 #### Technical details
 - GAIA-1 and Genie have similar model sizes. GAIA-1 has a total of about 10B (0.3B image tokenizer + 6.5B world model + 2.6B video diffusion model). Genie has a total of about 11B (0.2B image tokenizer + 10.7B dynamic model).
 - Why train LAM on pixels, instead of tokens?
@@ -63,6 +63,9 @@ Genie is a foundation world model, and can be used for training generalist agent
 - The mapping between latent action and real action
 	- Unclear at first, how each latent action will impact next frame gen.
 	- But action remained **consistent** across diff inputs, making it similar experience to learning the buttons on a new controller. 
+- Scaling law: Genie demonstrates nice scaling law wrt model size, measured by CE loss during training
+- Data Quality: 10% High quality data can do better than avg quality data for training foundation models. 
+
 
 #### Notes
 - Questions and notes on how to improve/revise the current work

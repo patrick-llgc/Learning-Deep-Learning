@@ -5,7 +5,7 @@ _February 2024_
 tl;dr: First consistent, controllable, multiview videos generation for autonomous driving.
 
 #### Overall impression
-The main contribution of the paper is **multiview** consistent with video generation, and the application of this world model to planning, through **a tree search**, and **OOD planning recovery**.
+The main contribution of the paper is **multiview** consistent with video generation, and the application of this world model to planning, through **a tree search**, and **OOD planning recovery**. --> [DriveDreamer](drive_dreamer.md) also briefly discussed this topic in its appendix.
 
 Drive-WM generates future videos, conditioned on past videos, text, actions, and vectorized perception results, x_t+1 ~ f(x_t, a_t). It does NOT predicts actions. In this way, it is very similar to [GAIA-1](gaia_1.md), but extends GAIA-1 by multicam video generation. It is also conditioned on vectorized perception output, like [DriveDreamer](drive_dreamer.md).
 
