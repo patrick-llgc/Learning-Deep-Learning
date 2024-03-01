@@ -29,7 +29,7 @@ It seems that the world model heavily depend on external crutches such as view f
 - Unifined conditional generation
 	- initial context frames, text, ego action, 3D bboxes, BEV maps are used to condition/control the generation of multiview videos. All of the info are convereted to d-dim features and concatenated.
 	- BEV Layout is first projected to image space and each class rendered in diff colors. --> BEV Layout is very important to the model's high performance. This means that the video does not necessarily learns the physics rules of the world, such as cars cannot hit the curb, etc.
-	- The generation of future frame videos are not conditioned on previously generated videos. --> **The video generation is NOT autoregressive**. Maybe due to training limitations.
+	- The generation of future frame videos are not conditioned on previously generated videos. --> **The video generation is NOT autoregressive**, due to training limitations. Yet the generated frames are implicitly interdependent through the temporal self-attention in the main network.
 - WM for planning via Tree-based rollout with actions. 
 	- For each sampled action, future frame is generated.
 	- Based on the generated frame, perception is performed and the results are evaluated in terms of map reward (away from the curb and stick to centerline) and object reward (away from other objects).

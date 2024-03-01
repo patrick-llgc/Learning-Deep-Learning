@@ -36,15 +36,8 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2024-02 (2)
-- [End-to-end Autonomous Driving: Challenges and Frontiers](https://arxiv.org/abs/2306.16927) [[Notes](paper_notes/e2e_review_hongyang.md)] [Hongyang Li, Shanghai AI labs]
-- [DriveVLM: The convergence of Autonomous Driving and Large Vision-Language Models](https://arxiv.org/abs/2402.12289) [[Notes](paper_notes/drivevlm.md)] [Hang Zhao]
-- [DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model](https://arxiv.org/abs/2310.01412) [[Notes](paper_notes/drivegpt4.md)] [HKU]
-- [DriveLM: Drive on Language](https://arxiv.org/abs/2312.14150) [Hongyang Li]
-- [GAIA-1: A Generative World Model for Autonomous Driving](https://arxiv.org/abs/2309.17080) [[Notes](paper_notes/gaia_1.md)] [Wayve, vision foundation model]
-- [ADriver-I: A General World Model for Autonomous Driving](https://arxiv.org/abs/2311.13549) [[Notes](paper_notes/adriver_i.md)] [Megvii, Xiangyu]
-- [Drive-WM: Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving](https://arxiv.org/abs/2311.17918) [[Notes](paper_notes/drive_wm.md)]
-- [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391)
+## 2024-03 (1)
+- [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391) [[Notes](paper_notes/genie.md)] [DeepMind]
 - [GenAD: Generative End-to-End Autonomous Driving](https://arxiv.org/abs/2402.11502)
 - [TCP: Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline](https://arxiv.org/abs/2206.08129) <kbd>NeurIPS 2022</kbd> [E2E planning, Hongyang]
 - [Transfuser: Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/abs/2104.09224) <kbd>CVPR 2021</kbd> [E2E planning, Geiger]
@@ -53,7 +46,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [World Model on Million-Length Video And Language With RingAttention](https://arxiv.org/abs/2402.08268) [Pieter Abbeel]
 - [DriveDreamer: Towards Real-world-driven World Models for Autonomous Driving](https://arxiv.org/abs/2309.09777) [Jiwen Lu]
 - [Panacea: Panoramic and Controllable Video Generation for Autonomous Driving](https://arxiv.org/abs/2311.16813) <kbd>CVPR 2024</kbd> [Megvii]
-- [X]() [[Notes](paper_notes/x.md)] [E2E planning]
 - [PlanT: Explainable Planning Transformers via Object-Level Representations](https://arxiv.org/abs/2210.14222) <kbd>CoRL 2022</kbd>
 - [Scene as Occupancy](https://arxiv.org/abs/2306.02851) <kbd>ICCV 2023</kbd>
 - [AD-MLP: Rethinking the Open-Loop Evaluation of End-to-End Autonomous Driving in nuScenes](https://arxiv.org/abs/2305.10430) [Baidu]
@@ -68,6 +60,17 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [DriveGAN: Towards a Controllable High-Quality Neural Simulation](https://arxiv.org/abs/2104.15060) <kbd>CVPR 2021 oral</kbd>
 - [VQ-VAE: Neural Discrete Representation Learning](https://arxiv.org/abs/1711.00937)
 - [Vector-quantized Image Modeling with Improved VQGAN](https://arxiv.org/abs/2110.04627) <kbd>ICLR 2022</kbd>
+
+## 2024-02 (7)
+- [End-to-end Autonomous Driving: Challenges and Frontiers](https://arxiv.org/abs/2306.16927) [[Notes](paper_notes/e2e_review_hongyang.md)] [Hongyang Li, Shanghai AI labs]
+- [DriveVLM: The convergence of Autonomous Driving and Large Vision-Language Models](https://arxiv.org/abs/2402.12289) [[Notes](paper_notes/drivevlm.md)] [Hang Zhao]
+- [DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model](https://arxiv.org/abs/2310.01412) [[Notes](paper_notes/drivegpt4.md)] [HKU]
+- [GAIA-1: A Generative World Model for Autonomous Driving](https://arxiv.org/abs/2309.17080) [[Notes](paper_notes/gaia_1.md)] [Wayve, vision foundation model]
+- [ADriver-I: A General World Model for Autonomous Driving](https://arxiv.org/abs/2311.13549) [[Notes](paper_notes/adriver_i.md)] [Megvii, Xiangyu]
+- [Drive-WM: Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving](https://arxiv.org/abs/2311.17918) [[Notes](paper_notes/drive_wm.md)]
+- [DriveLM: Drive on Language](https://arxiv.org/abs/2312.14150) [Hongyang Li]
+- [X]() [[Notes](paper_notes/x.md)] [E2E planning]
+
 
 ## 2023-12 (4)
 - [ChatGPT for Robotics: Design Principles and Model Abilities](https://arxiv.org/abs/2306.17582) [[Notes](paper_notes/prompt_craft.md)] [Microsoft, LLM for robotics]
