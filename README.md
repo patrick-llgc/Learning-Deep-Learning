@@ -2,14 +2,12 @@
 This repository contains my paper reading notes on deep learning and machine learning. It is inspired by [Denny Britz](https://github.com/dennybritz/deeplearning-papernotes) and [Daniel Takeshi](https://github.com/DanielTakeshi/Paper_Notes). A minimalistic webpage generated with Github io can be found [here](https://patrick-llgc.github.io/Learning-Deep-Learning/).
 
 ## About me
-My name is [Patrick Langechuan Liu](https://www.linkedin.com/in/patrick-llgc/). After about a decade of education and research in physics, I found my passion in deep learning and autonomous driving. Currently I am leading the development of perception features at [Xpeng Motors](https://en.xiaopeng.com/), a fast growing autonomous driving company.
-
+My name is [Patrick Langechuan Liu](https://www.linkedin.com/in/patrick-llgc/). After about a decade of education and research in physics, I found my passion in deep learning and autonomous driving.
 
 ## What to read
 If you are new to deep learning in computer vision and don't know where to start, I suggest you spend your first month or so dive deep into [this list of papers](start/first_cnn_papers.md). I did so ([see my notes](start/first_cnn_papers_notes.md)) and it served me well.
 
 Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out of papers to read.
-
 
 ## My review posts by topics
 I regularly update [my blog in Toward Data Science](https://medium.com/@patrickllgc).
@@ -36,11 +34,12 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2024-03 (2)
+## 2024-03 (4)
 - [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391) [[Notes](paper_notes/genie.md)] [DeepMind, World Model]
 - [DriveDreamer: Towards Real-world-driven World Models for Autonomous Driving](https://arxiv.org/abs/2309.09777) [[Notes](paper_notes/drive_dreamer.md)] [Jiwen Lu, World Model]
 - [WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens](https://arxiv.org/abs/2401.09985) [Jiwen Lu, World Model]
 - [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2304.08818) [[Notes](paper_notes/video_ldm.md)] <kbd>CVPR 2023</kbd> [Sanja, Nvidia, VideoLD, Video prediction]
+- [VideoGPT: Video Generation using VQ-VAE and Transformers](https://arxiv.org/abs/2104.10157) [[Notes](paper_notes/videogpt.md)] [Pieter Abbeel]
 - [OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving](https://arxiv.org/abs/2311.16038) [Jiwen Lu, World Model]
 - [GenAD: Generative End-to-End Autonomous Driving](https://arxiv.org/abs/2402.11502)
 - [Humanoid Locomotion as Next Token Prediction](https://arxiv.org/abs/2402.19469) [E2E, world model]
@@ -86,62 +85,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [GPT-4V(ision) for Robotics: Multimodal Task Planning from Human Demonstration](https://arxiv.org/abs/2311.12015) [[Notes](paper_notes/gpt4v_robotics.md)] [LLM for robotics, Microsoft Robotics]
 - [LLM-Brain: LLM as A Robotic Brain: Unifying Egocentric Memory and Control](https://arxiv.org/abs/2304.09349) [[Notes](paper_notes/llm_brain.md)]
 - [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) [[Notes](paper_notes/voyager.md)] [Reasoning Critique, Linxi Jim Fan]
-- [Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine](https://arxiv.org/abs/2311.16452) [Small LLM prompting, Microsoft]
-- [ToT: Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) [[Notes](paper_notes/tot.md)]
-- [CoT: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
-- [Cumulative Reasoning with Large Language Models](https://arxiv.org/abs/2308.04371)
-- [A Survey of Techniques for Maximizing LLM Performance](https://www.youtube.com/watch?v=ahnGLM-RC1Y&ab_channel=OpenAI) [OpenAI]
-- [Drive AGI](https://github.com/OpenDriveLab/DriveAGI)
-- [Reimagining an autonomous vehicle](https://arxiv.org/abs/2108.05805) [Wayve]
-- [Harnessing the Power of Multi-Modal LLMs for Autonomy](https://www.ghostautonomy.com/blog/mllms-for-autonomy) [Ghost Autonomy]
-- [Language to Rewards for Robotic Skill Synthesis](https://arxiv.org/abs/2306.08647)
-- [ALOHA: Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](https://arxiv.org/abs/2304.13705)
-- [LLM-Grounder: Open-Vocabulary 3D Visual Grounding with Large Language Model as an Agent](https://arxiv.org/abs/2309.12311) [UM]
-- [LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action](https://arxiv.org/abs/2207.04429) [Sergey Levine]
-- [A Survey of Embodied AI: From Simulators to Research Tasks](https://arxiv.org/abs/2103.04918) <kbd>IEEE TETCI 2021</kbd>
-- [Habitat Challenge 2021](https://aihabitat.org/challenge/2021/)
-- [Video ChatCaptioner: Towards Enriched Spatiotemporal Descriptions](https://arxiv.org/abs/2304.04227)
-- [DoReMi: Grounding Language Model by Detecting and Recovering from Plan-Execution Misalignment](https://arxiv.org/abs/2307.00329) [Jianyu Chen]
-- [The Power of Scale for Parameter-Efficient Prompt Tuning](https://arxiv.org/abs/2104.08691) <kbd>EMNLP 2021</kbd>
-- [Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents](https://arxiv.org/abs/2201.07207) <kbd>ICML 2022</kbd>
-- [ProgPrompt: Generating Situated Robot Task Plans using Large Language Models](https://arxiv.org/abs/2209.11302) <kbd>ICRA 2023</kbd>
-- [CLIPort: What and Where Pathways for Robotic Manipulation](https://arxiv.org/abs/2109.12098) <kbd>CoRL 2021</kbd>
-- [Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation](https://arxiv.org/abs/2209.05451) <kbd>CoRL 2022</kbd>
-- [LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/abs/2208.07339) <kbd>NeurIPS 2022</kbd> [LLM Quant]
-- [AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration](https://arxiv.org/abs/2306.00978) [Song Han, LLM Quant]
-- [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/abs/2104.09864)
-- [CoDi: Any-to-Any Generation via Composable Diffusion](https://arxiv.org/abs/2305.11846) <kbd>NeurIPS 2023</kbd>
-- [What if a Vacuum Robot has an Arm?](https://ieeexplore.ieee.org/abstract/document/10202493) <kbd>UR 2023</kbd>
-- [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)
-- [GPT in 60 Lines of NumPy](https://jaykmody.com/blog/gpt-from-scratch/)
-- [Speeding up the GPT - KV cache](https://www.dipkumar.dev/becoming-the-unbeatable/posts/gpt-kvcache/)
-- [LLM Parameter Counting](https://kipp.ly/transformer-param-count/)
-- [Transformer Inference Arithmetic](https://kipp.ly/transformer-inference-arithmetic/#kv-cache)
-- [ALBEF: Align before Fuse: Vision and Language Representation Learning with Momentum Distillation](https://arxiv.org/abs/2107.07651) <kbd>NeurIPS 2021</kbd> [Junnan Li]
-- [BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://arxiv.org/abs/2201.12086) <kbd>ICML 2022</kbd> [Junnan Li]
-- [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597) [Junnan Li]
-- [MOO: Open-World Object Manipulation using Pre-trained Vision-Language Models](https://arxiv.org/abs/2303.00905) [Google Robotics, end-to-end visuomotor]
-- [VC-1: Where are we in the search for an Artificial Visual Cortex for Embodied Intelligence?](https://arxiv.org/abs/2303.18240)
-- [CLIPort: What and Where Pathways for Robotic Manipulation](https://arxiv.org/abs/2109.12098) <kbd>CoRL 2021</kbd> [Nvidia, end-to-end visuomotor]
-- [GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers](https://arxiv.org/abs/2210.17323) <kbd>ICLR 2023</kbd>
-- [SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models](https://arxiv.org/abs/2211.10438) <kbd>ICML 2023</kbd> [Song Han, LLM Quant]
-- [SAPIEN: A SimulAted Part-based Interactive ENvironment](https://arxiv.org/abs/2003.08515) <kbd>CVPR 2020</kbd>
-- [FiLM: Visual Reasoning with a General Conditioning Layer](https://arxiv.org/abs/1709.07871) <kbd>AAAI 2018</kbd>
-- [TokenLearner: What Can 8 Learned Tokens Do for Images and Videos?](https://arxiv.org/abs/2106.11297) <kbd>NeurIPS 2021</kbd>
-- [MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge](https://arxiv.org/abs/2206.08853) <kbd>NeurIPS 2022</kbd> [Outstanding paper award]
-- [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)
-- [OVO: Open-Vocabulary Occupancy](https://arxiv.org/abs/2305.16133)
-- [Code Llama: Open Foundation Models for Code](https://arxiv.org/abs/2308.12950)
-- [Chinchilla: Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) [DeepMind]
-- [GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints](https://arxiv.org/abs/2305.13245)
-- [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/abs/2104.09864)
-- [RH20T: A Robotic Dataset for Learning Diverse Skills in One-Shot](https://arxiv.org/abs/2307.00595)
-- [Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation]()
-- [VIMA: General Robot Manipulation with Multimodal Prompts]()
-- [An Attention Free Transformer](https://arxiv.org/abs/2105.14103) [Apple]
-- [PDDL Planning with Pretrained Large Language Models](https://arxiv.org/abs/2305.11014) [MIT, Leslie Kaelbling]
-- [Task and Motion Planning with Large Language Models for Object Rearrangement](https://arxiv.org/abs/2303.06247) <kbd>IROS 2023</kbd>
-
 
 ## 2023-09 (3)
 - [RetNet: Retentive Network: A Successor to Transformer for Large Language Models](https://arxiv.org/abs/2307.08621) [[Notes](paper_notes/retnet.md)] [MSRA]
@@ -1694,3 +1637,59 @@ Self-Driving](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_GeoSim_
 - [NVS-MonoDepth: Improving Monocular Depth Prediction with Novel View Synthesis](https://arxiv.org/abs/2112.12577) <kbd>3DV 2021</kbd>
 - [Is 2D Heatmap Representation Even Necessary for Human Pose Estimation?](https://arxiv.org/abs/2107.03332)
 - [Topology Preserving Local Road Network Estimation from Single Onboard Camera Image](https://arxiv.org/abs/2112.10155) [BEVNet, Luc Van Gool]
+- [Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine](https://arxiv.org/abs/2311.16452) [Small LLM prompting, Microsoft]
+- [ToT: Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) [[Notes](paper_notes/tot.md)]
+- [CoT: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
+- [Cumulative Reasoning with Large Language Models](https://arxiv.org/abs/2308.04371)
+- [A Survey of Techniques for Maximizing LLM Performance](https://www.youtube.com/watch?v=ahnGLM-RC1Y&ab_channel=OpenAI) [OpenAI]
+- [Drive AGI](https://github.com/OpenDriveLab/DriveAGI)
+- [Reimagining an autonomous vehicle](https://arxiv.org/abs/2108.05805) [Wayve]
+- [Harnessing the Power of Multi-Modal LLMs for Autonomy](https://www.ghostautonomy.com/blog/mllms-for-autonomy) [Ghost Autonomy]
+- [Language to Rewards for Robotic Skill Synthesis](https://arxiv.org/abs/2306.08647)
+- [ALOHA: Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](https://arxiv.org/abs/2304.13705)
+- [LLM-Grounder: Open-Vocabulary 3D Visual Grounding with Large Language Model as an Agent](https://arxiv.org/abs/2309.12311) [UM]
+- [LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action](https://arxiv.org/abs/2207.04429) [Sergey Levine]
+- [A Survey of Embodied AI: From Simulators to Research Tasks](https://arxiv.org/abs/2103.04918) <kbd>IEEE TETCI 2021</kbd>
+- [Habitat Challenge 2021](https://aihabitat.org/challenge/2021/)
+- [Video ChatCaptioner: Towards Enriched Spatiotemporal Descriptions](https://arxiv.org/abs/2304.04227)
+- [DoReMi: Grounding Language Model by Detecting and Recovering from Plan-Execution Misalignment](https://arxiv.org/abs/2307.00329) [Jianyu Chen]
+- [The Power of Scale for Parameter-Efficient Prompt Tuning](https://arxiv.org/abs/2104.08691) <kbd>EMNLP 2021</kbd>
+- [Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents](https://arxiv.org/abs/2201.07207) <kbd>ICML 2022</kbd>
+- [ProgPrompt: Generating Situated Robot Task Plans using Large Language Models](https://arxiv.org/abs/2209.11302) <kbd>ICRA 2023</kbd>
+- [Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation](https://arxiv.org/abs/2209.05451) <kbd>CoRL 2022</kbd>
+- [LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/abs/2208.07339) <kbd>NeurIPS 2022</kbd> [LLM Quant]
+- [AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration](https://arxiv.org/abs/2306.00978) [Song Han, LLM Quant]
+- [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/abs/2104.09864)
+- [CoDi: Any-to-Any Generation via Composable Diffusion](https://arxiv.org/abs/2305.11846) <kbd>NeurIPS 2023</kbd>
+- [What if a Vacuum Robot has an Arm?](https://ieeexplore.ieee.org/abstract/document/10202493) <kbd>UR 2023</kbd>
+- [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)
+- [GPT in 60 Lines of NumPy](https://jaykmody.com/blog/gpt-from-scratch/)
+- [Speeding up the GPT - KV cache](https://www.dipkumar.dev/becoming-the-unbeatable/posts/gpt-kvcache/)
+- [LLM Parameter Counting](https://kipp.ly/transformer-param-count/)
+- [Transformer Inference Arithmetic](https://kipp.ly/transformer-inference-arithmetic/#kv-cache)
+- [ALBEF: Align before Fuse: Vision and Language Representation Learning with Momentum Distillation](https://arxiv.org/abs/2107.07651) <kbd>NeurIPS 2021</kbd> [Junnan Li]
+- [CLIP: Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) <kbd>ICLR 2021</kbd> [OpenAI]
+- [BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://arxiv.org/abs/2201.12086) <kbd>ICML 2022</kbd> [Junnan Li]
+- [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597) [Junnan Li]
+- [MOO: Open-World Object Manipulation using Pre-trained Vision-Language Models](https://arxiv.org/abs/2303.00905) [Google Robotics, end-to-end visuomotor]
+- [VC-1: Where are we in the search for an Artificial Visual Cortex for Embodied Intelligence?](https://arxiv.org/abs/2303.18240)
+- [CLIPort: What and Where Pathways for Robotic Manipulation](https://arxiv.org/abs/2109.12098) <kbd>CoRL 2021</kbd> [Nvidia, end-to-end visuomotor]
+- [GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers](https://arxiv.org/abs/2210.17323) <kbd>ICLR 2023</kbd>
+- [SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models](https://arxiv.org/abs/2211.10438) <kbd>ICML 2023</kbd> [Song Han, LLM Quant]
+- [SAPIEN: A SimulAted Part-based Interactive ENvironment](https://arxiv.org/abs/2003.08515) <kbd>CVPR 2020</kbd>
+- [FiLM: Visual Reasoning with a General Conditioning Layer](https://arxiv.org/abs/1709.07871) <kbd>AAAI 2018</kbd>
+- [TokenLearner: What Can 8 Learned Tokens Do for Images and Videos?](https://arxiv.org/abs/2106.11297) <kbd>NeurIPS 2021</kbd>
+- [MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge](https://arxiv.org/abs/2206.08853) <kbd>NeurIPS 2022</kbd> [Outstanding paper award]
+- [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)
+- [OVO: Open-Vocabulary Occupancy](https://arxiv.org/abs/2305.16133)
+- [Code Llama: Open Foundation Models for Code](https://arxiv.org/abs/2308.12950)
+- [Chinchilla: Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) [DeepMind]
+- [GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints](https://arxiv.org/abs/2305.13245)
+- [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/abs/2104.09864)
+- [RH20T: A Robotic Dataset for Learning Diverse Skills in One-Shot](https://arxiv.org/abs/2307.00595)
+- [Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation]()
+- [VIMA: General Robot Manipulation with Multimodal Prompts]()
+- [An Attention Free Transformer](https://arxiv.org/abs/2105.14103) [Apple]
+- [PDDL Planning with Pretrained Large Language Models](https://arxiv.org/abs/2305.11014) [MIT, Leslie Kaelbling]
+- [Task and Motion Planning with Large Language Models for Object Rearrangement](https://arxiv.org/abs/2303.06247) <kbd>IROS 2023</kbd>
+
