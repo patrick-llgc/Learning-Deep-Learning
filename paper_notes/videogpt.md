@@ -7,7 +7,7 @@ tl;dr: Uses VQ-VAE and Transformers to efficiently and  autoregressively generat
 #### Overall impression
 The paper's main contribution lies in its novel use of VQ-VAE for compressing video data into a manageable latent space, which is then modeled autoregressively using a Transformer-based architecture. 
 
-This method provides a balance between computational efficiency and the ability to generate detailed and diverse video content, improving upon the limitations of previous generative models for video.
+> Natural images and videos contain a lot of spatial and temporal redundancies and hence the reason we use image compression tools such as JPEG (Wallace, 1992) and video codecs such as MPEG (Le Gall, 1991) everyday. --> This is also echoed in [latent diffusion models](ldm.md). Most bits of a digital image correspond to imperceptible details. We can perform perceptual compression up to a great ratio without compressing semantics. 
 
 As a pioneering work, the paper is not published anywhere yet, interestingly. Maybe due to lack of SOTA results. The design is simplistic, with single scale of discrete latents and transformers for the autoregressive priors, a design choice also adopted in DALL-E.
 
