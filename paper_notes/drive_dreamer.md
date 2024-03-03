@@ -7,7 +7,7 @@ tl;dr: World model for autonomous driving, conditioned on structured traffic con
 #### Overall impression
 First real-world world model, contemporary with [GAIA-1](gaia_1.md). Yet the controllability of the dynamics is different.
 
-Typically the controllability of world model is only quantitative as it is hard to do (close to) pixel accurate generation with difussion models. DriveDreamer alleviates this problem and reaches near pixel accurate control with structured traffic constraints (vectorized wireframes of perception results, or `perception vectors` for short).
+Typically the controllability of world model is only quantitative as it is hard to do (close to) pixel accurate generation with difussion models. DriveDreamer alleviates this problem and reaches near pixel accurate control with structured traffic constraints (vectorized wireframes of perception results, or `perception vectors` for short). This inspiration may be taken from [Align Your Latents](video_ldm.md).
 
 The model takes in video, text, action and perception vectors, and rolls out videos and actions. It can be seen as a world model as the video generation is conditioned on action.
 

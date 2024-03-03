@@ -20,7 +20,7 @@ It seems that the world model heavily depend on external crutches such as view f
 #### Key ideas
 - Multiview Video Diffusion Model
 	- Image diffusion model, trained first. Initialized from Stable Diffusion ckpt.
-	- Temporal encoding layers (as in VideoLDM), and multiview encoding layers. These two are trained later with image diffusion model frozen.
+	- Temporal encoding layers (as in [VideoLDM](video_ldm.md)), and multiview encoding layers. These two are trained later with image diffusion model frozen.
 	- Principle, to ensure consistency across one dimention (temeporal or cross camera) there must be info exchange along that dim.
 - **Factorization** of joint multiview modeling
 	- Divde all frames into reference (anchor) views and stiched (interpolated) views. Views belonging to the same type do not overlap with each other and can be generated independently. --> Sort of, actually some cars will span across more than 2 camras.
@@ -44,9 +44,10 @@ It seems that the world model heavily depend on external crutches such as view f
 
 #### Technical details
 - It shows an example of how to drive on a road with puddles, very similar to the [tesla FSD V12 demo](https://x.com/AIDRIVR/status/1760841783708418094).
+- A lot of the details regarding how the tensors are reshaped, directly comes from [VideoLDM](video_ldm.md).
 
 #### Notes
 - The paper includes a nice summary of the Dreamer series paper on P3.
 - The code initiates from that of [VideoLDM](video_ldm.md) (Align Your Latents). 
-- The cross view consistency is very nice (showcaing the effectiveness of factorized multiview modeling), but the temporal consistency is not that great, with the appearance of vechiles change througout the video. This may be related to the fact that the future frame geenration is only conditioned on the first frame but not genrated frame. 
+- The cross view consistency is very nice (showcaing the effectiveness of factorized multiview modeling), but the temporal consistency is not that great, with the appearance of vechiles change througout the video. This may be related to the fact that the future frame geenration is only conditioned on the first frame but not genrated frame. --> Similar to those in the original [Video LDM](video_ldm.md) work.
 - Q: I wonder how much the controllablity from action is from the BEV vectorized results. --> The BEV layout was given as a static resutls and will not change with diff action. So indeed the video generation is conditioned on the action. Yet the action is very hard to learn, and can only be learned when video difusion model is convered. 

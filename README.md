@@ -37,15 +37,18 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
 ## 2024-03 (2)
-- [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391) [[Notes](paper_notes/genie.md)] [DeepMind]
-- [DriveDreamer: Towards Real-world-driven World Models for Autonomous Driving](https://arxiv.org/abs/2309.09777) [[Notes](paper_notes/drive_dreamer.md)] [Jiwen Lu]
-- [WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens](https://arxiv.org/abs/2401.09985) [Jiwen Lu]
+- [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391) [[Notes](paper_notes/genie.md)] [DeepMind, World Model]
+- [DriveDreamer: Towards Real-world-driven World Models for Autonomous Driving](https://arxiv.org/abs/2309.09777) [[Notes](paper_notes/drive_dreamer.md)] [Jiwen Lu, World Model]
+- [WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens](https://arxiv.org/abs/2401.09985) [Jiwen Lu, World Model]
+- [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2304.08818) [[Notes](paper_notes/video_ldm.md)] <kbd>CVPR 2023</kbd> [Sanja, Nvidia, VideoLD, Video prediction]
+- [OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving](https://arxiv.org/abs/2311.16038) [Jiwen Lu, World Model]
 - [GenAD: Generative End-to-End Autonomous Driving](https://arxiv.org/abs/2402.11502)
+- [Humanoid Locomotion as Next Token Prediction](https://arxiv.org/abs/2402.19469) [E2E, world model]
 - [TCP: Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline](https://arxiv.org/abs/2206.08129) <kbd>NeurIPS 2022</kbd> [E2E planning, Hongyang]
 - [Transfuser: Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/abs/2104.09224) <kbd>CVPR 2021</kbd> [E2E planning, Geiger]
 - [Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving](https://arxiv.org/abs/2310.01957) [Wayve, LLM + AD]
 - [LingoQA: Video Question Answering for Autonomous Driving](https://arxiv.org/abs/2312.14115) [Wayve, LLM + AD]
-- [World Model on Million-Length Video And Language With RingAttention](https://arxiv.org/abs/2402.08268) [Pieter Abbeel]
+- [LWM: World Model on Million-Length Video And Language With RingAttention](https://arxiv.org/abs/2402.08268) [Pieter Abbeel, World Model]
 - [Panacea: Panoramic and Controllable Video Generation for Autonomous Driving](https://arxiv.org/abs/2311.16813) <kbd>CVPR 2024</kbd> [Megvii]
 - [PlanT: Explainable Planning Transformers via Object-Level Representations](https://arxiv.org/abs/2210.14222) <kbd>CoRL 2022</kbd>
 - [Scene as Occupancy](https://arxiv.org/abs/2306.02851) <kbd>ICCV 2023</kbd>
@@ -57,10 +60,13 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Learning to drive from a world on rails](https://arxiv.org/abs/2105.00636) <kbd>ICCV 2021 oral</kbd> [Philipp Krähenbühl]
 - [Learning from All Vehicles](https://arxiv.org/abs/2203.11934) <kbd>CVPR 2022</kbd> [Philipp Krähenbühl]
 - [VADv2: End-to-End Vectorized Autonomous Driving via Probabilistic Planning](https://arxiv.org/abs/2402.13243) [Horizon]
-- [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2304.08818) <kbd>CVPR 2023</kbd> [Sanja, Nvidia, VideoLD, Video prediction]
 - [DriveGAN: Towards a Controllable High-Quality Neural Simulation](https://arxiv.org/abs/2104.15060) <kbd>CVPR 2021 oral</kbd>
-- [VQ-VAE: Neural Discrete Representation Learning](https://arxiv.org/abs/1711.00937)
-- [Vector-quantized Image Modeling with Improved VQGAN](https://arxiv.org/abs/2110.04627) <kbd>ICLR 2022</kbd>
+- [VQ-VAE: Neural Discrete Representation Learning](https://arxiv.org/abs/1711.00937) <kbd>NeurIPS 2017</kbd> [Image Tokenizer]
+- [VQ-GAN: Taming Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2012.09841) <kbd>CVPR 2021</kbd> [Image Tokenizer]
+- [ViT-VQGAN: Vector-quantized Image Modeling with Improved VQGAN](https://arxiv.org/abs/2110.04627) <kbd>ICLR 2022</kbd> [Image Tokenizer]
+- [MAGVIT-v2: Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation](https://arxiv.org/abs/2310.05737) <kbd>ICLR 2024</kbd> [Image Tokenizer]
+- [VideoPoet: A Large Language Model for Zero-Shot Video Generation](https://arxiv.org/abs/2312.14125) [Like sora, but LLM, NOT world model]
+- [Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models](https://arxiv.org/abs/2402.17177) [Reverse Engineering of Sora]
 
 ## 2024-02 (7)
 - [End-to-end Autonomous Driving: Challenges and Frontiers](https://arxiv.org/abs/2306.16927) [[Notes](paper_notes/e2e_review_hongyang.md)] [Hongyang Li, Shanghai AI labs]

@@ -27,8 +27,6 @@ It does not explicitly predict the action, which is improved by ADriver-I.
 	- The world model is an **autoregressive transformer** that predicts next image token conditioned on past images, text and action tokens.
 	- The world model reasons about the scenes high level components and dynamics. This aligns with Yan LeCun's famous argument on performing prediction in latent space, not pixel space.
 	- The video decoder translates back to high quality video space, for interpretability, and also for supervision of the representation.
-- Tokenizer
-	- Image tokenizer: **1 image = 18x32 tokens with vocab size = 8192 = 2^13 (13 bit at the min)**. However it is stored in d(=4096)-dim vector. 
 - Dataset: diff **sampling strategy** for diff components
 	- 200 days, 25 Hz data, 400 M images.
 	- For tokenizer, balance over lat, long, weather conditions.
@@ -37,7 +35,8 @@ It does not explicitly predict the action, which is improved by ADriver-I.
 	- Image tokenizer: 4x32 GPU-days
 		- Map video, text and action into a shared d(=4096)-dim space. 
 		- Text tokenizer: pretrained T5 to generate 32 token per time step (what?). Then mapped to d-dim.
-		- Image tokenizer: **VQ-VAE**
+		- Image tokenizer: **VQ-VAE**, **1 image = 18x32 tokens with vocab size = 8192 = 2^13 (13 bit at the min)**. However it is stored in d(=4096)-dim vector. 
+
 		- Loss: image recon loss + quantization loss (VQ-VAE) + distillation from DINO (inductive bias)
 	- World model: 15x64 GPU-days
 		- CE loss to predict next token (out of the 2^13 vocab codebook). Predicts at 6.25 Hz, upsampled later by decoder. 
