@@ -38,7 +38,8 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391) [[Notes](paper_notes/genie.md)] [DeepMind, World Model]
 - [DriveDreamer: Towards Real-world-driven World Models for Autonomous Driving](https://arxiv.org/abs/2309.09777) [[Notes](paper_notes/drive_dreamer.md)] [Jiwen Lu, World Model]
 - [WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens](https://arxiv.org/abs/2401.09985) [Jiwen Lu, World Model]
-- [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2304.08818) [[Notes](paper_notes/video_ldm.md)] <kbd>CVPR 2023</kbd> [Sanja, Nvidia, VideoLD, Video prediction]
+- [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2304.08818) [[Notes](paper_notes/video_ldm.md)] <kbd>CVPR 2023</kbd> [Sanja, Nvidia, VideoLDM, Video prediction]
+- [DriveGAN: Towards a Controllable High-Quality Neural Simulation](https://arxiv.org/abs/2104.15060) [[Notes](paper_notes/drive_gan.md)] <kbd>CVPR 2021 oral</kbd> [Nvidia, Sanja]
 - [VideoGPT: Video Generation using VQ-VAE and Transformers](https://arxiv.org/abs/2104.10157) [[Notes](paper_notes/videogpt.md)] [Pieter Abbeel]
 - [OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving](https://arxiv.org/abs/2311.16038) [Jiwen Lu, World Model]
 - [GenAD: Generative End-to-End Autonomous Driving](https://arxiv.org/abs/2402.11502)
@@ -59,7 +60,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Learning to drive from a world on rails](https://arxiv.org/abs/2105.00636) <kbd>ICCV 2021 oral</kbd> [Philipp Krähenbühl]
 - [Learning from All Vehicles](https://arxiv.org/abs/2203.11934) <kbd>CVPR 2022</kbd> [Philipp Krähenbühl]
 - [VADv2: End-to-End Vectorized Autonomous Driving via Probabilistic Planning](https://arxiv.org/abs/2402.13243) [Horizon]
-- [DriveGAN: Towards a Controllable High-Quality Neural Simulation](https://arxiv.org/abs/2104.15060) <kbd>CVPR 2021 oral</kbd>
 - [VQ-VAE: Neural Discrete Representation Learning](https://arxiv.org/abs/1711.00937) <kbd>NeurIPS 2017</kbd> [Image Tokenizer]
 - [VQ-GAN: Taming Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2012.09841) <kbd>CVPR 2021</kbd> [Image Tokenizer]
 - [ViT-VQGAN: Vector-quantized Image Modeling with Improved VQGAN](https://arxiv.org/abs/2110.04627) <kbd>ICLR 2022</kbd> [Image Tokenizer]
