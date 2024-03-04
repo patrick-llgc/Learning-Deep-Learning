@@ -22,7 +22,7 @@ The model is mainly focused on single cam scenarios, but the authors demo'ed in 
 		- Then train video diffusion model
 		- Text conditioning via cross attention
 	- Stage 2: Add action condition (interaction) and action prediction.
-		- **ActionFormer** is an RNN (GRU) that autoregressively predicts  future road structural features in the latent space. **ActionFormer models the dynamics of the world model.**
+		- **ActionFormer** is an RNN (GRU) that autoregressively predicts  future road structural features in the latent space. **ActionFormer models the dynamics of the world model**, but in a vectorized wireframe representation.
 - Eval 
 	- Image/Video quality: FID and FVD
 	- Perception boosting: mAP of model trained on a mixture of real and virtual data.

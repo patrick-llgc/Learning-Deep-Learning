@@ -39,9 +39,11 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [DriveDreamer: Towards Real-world-driven World Models for Autonomous Driving](https://arxiv.org/abs/2309.09777) [[Notes](paper_notes/drive_dreamer.md)] [Jiwen Lu, World Model]
 - [WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens](https://arxiv.org/abs/2401.09985) [Jiwen Lu, World Model]
 - [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2304.08818) [[Notes](paper_notes/video_ldm.md)] <kbd>CVPR 2023</kbd> [Sanja, Nvidia, VideoLDM, Video prediction]
-- [Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos](https://arxiv.org/abs/2206.11795) <kbd>NeurIPS 2022</kbd> [OpenAI]
+- [Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos](https://arxiv.org/abs/2206.11795) <kbd>NeurIPS 2022</kbd> [[Notes](paper_notes/vpt.md)] [OpenAI]
+- [MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge](https://arxiv.org/abs/2206.08853) <kbd>NeurIPS 2022</kbd> [NVidia, Outstanding paper award]
 - [DriveGAN: Towards a Controllable High-Quality Neural Simulation](https://arxiv.org/abs/2104.15060) [[Notes](paper_notes/drive_gan.md)] <kbd>CVPR 2021 oral</kbd> [Nvidia, Sanja]
 - [VideoGPT: Video Generation using VQ-VAE and Transformers](https://arxiv.org/abs/2104.10157) [[Notes](paper_notes/videogpt.md)] [Pieter Abbeel]
+- [Humanoid Locomotion as Next Token Prediction](https://arxiv.org/abs/2402.19469) [Berkeley, EAI]
 - [OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving](https://arxiv.org/abs/2311.16038) [Jiwen Lu, World Model]
 - [GenAD: Generative End-to-End Autonomous Driving](https://arxiv.org/abs/2402.11502)
 - [Humanoid Locomotion as Next Token Prediction](https://arxiv.org/abs/2402.19469) [E2E, world model]
@@ -1679,7 +1681,6 @@ Self-Driving](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_GeoSim_
 - [SAPIEN: A SimulAted Part-based Interactive ENvironment](https://arxiv.org/abs/2003.08515) <kbd>CVPR 2020</kbd>
 - [FiLM: Visual Reasoning with a General Conditioning Layer](https://arxiv.org/abs/1709.07871) <kbd>AAAI 2018</kbd>
 - [TokenLearner: What Can 8 Learned Tokens Do for Images and Videos?](https://arxiv.org/abs/2106.11297) <kbd>NeurIPS 2021</kbd>
-- [MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge](https://arxiv.org/abs/2206.08853) <kbd>NeurIPS 2022</kbd> [Outstanding paper award]
 - [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)
 - [OVO: Open-Vocabulary Occupancy](https://arxiv.org/abs/2305.16133)
 - [Code Llama: Open Foundation Models for Code](https://arxiv.org/abs/2308.12950)

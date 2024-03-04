@@ -21,6 +21,9 @@ Genie is a foundation world model, and can be used for training generalist agent
 	- Video tokenizer
 	- Latent Action Model (LAM)
 	- Dynamic Model
+- Data
+	- [Genie](genie.md) crawled 244k hours of platform gameplays and filtered into 30k hours, about half of the size of VPT. 160x90 resolution.
+	- [VPT](vpt.md) crawled 270k hours of Minecraft gameplay data and filtered into 70k hours. 128x128 resolution.
 - Spatiotemporal video tokenizer
 	- VQ-VAE, MaskViT. 1024 unique codes in code book.
 	- Memory efficient ST-transformer, with interleaved spatial and temporal attention. In a way it is factorized attention.
