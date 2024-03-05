@@ -41,10 +41,12 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2304.08818) [[Notes](paper_notes/video_ldm.md)] <kbd>CVPR 2023</kbd> [Sanja, Nvidia, VideoLDM, Video prediction]
 - [Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos](https://arxiv.org/abs/2206.11795) <kbd>NeurIPS 2022</kbd> [[Notes](paper_notes/vpt.md)] [OpenAI]
 - [MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge](https://arxiv.org/abs/2206.08853) <kbd>NeurIPS 2022</kbd> [NVidia, Outstanding paper award]
+- [Humanoid Locomotion as Next Token Prediction](https://arxiv.org/abs/2402.19469) [[Notes](paper_notes/locomotion_next_token_pred.md)] [Berkeley, EAI]
+- [RPT: Robot Learning with Sensorimotor Pre-training](https://arxiv.org/abs/2306.10007) <kbd>CoRL 2023 Oral</kbd>
 - [DriveGAN: Towards a Controllable High-Quality Neural Simulation](https://arxiv.org/abs/2104.15060) [[Notes](paper_notes/drive_gan.md)] <kbd>CVPR 2021 oral</kbd> [Nvidia, Sanja]
 - [VideoGPT: Video Generation using VQ-VAE and Transformers](https://arxiv.org/abs/2104.10157) [[Notes](paper_notes/videogpt.md)] [Pieter Abbeel]
+- [LLM and vision intelligence, by Lu Jiang](https://mp.weixin.qq.com/s/Hamz5XMT1tSZHKdPaCBTKg) [Interview]
 - [LVM: Sequential Modeling Enables Scalable Learning for Large Vision Models](https://arxiv.org/abs/2312.00785) [Large Vision Models]
-- [Humanoid Locomotion as Next Token Prediction](https://arxiv.org/abs/2402.19469) [[Notes](paper_notes/locomotion_next_token_pred.md)] [Berkeley, EAI]
 - [OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving](https://arxiv.org/abs/2311.16038) [Jiwen Lu, World Model]
 - [GenAD: Generative End-to-End Autonomous Driving](https://arxiv.org/abs/2402.11502)
 - [Humanoid Locomotion as Next Token Prediction](https://arxiv.org/abs/2402.19469) [E2E, world model]
@@ -67,7 +69,9 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [VQ-VAE: Neural Discrete Representation Learning](https://arxiv.org/abs/1711.00937) <kbd>NeurIPS 2017</kbd> [Image Tokenizer]
 - [VQ-GAN: Taming Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2012.09841) <kbd>CVPR 2021</kbd> [Image Tokenizer]
 - [ViT-VQGAN: Vector-quantized Image Modeling with Improved VQGAN](https://arxiv.org/abs/2110.04627) <kbd>ICLR 2022</kbd> [Image Tokenizer]
-- [MAGVIT-v2: Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation](https://arxiv.org/abs/2310.05737) <kbd>ICLR 2024</kbd> [Image Tokenizer]
+- [MaskGIT: Masked Generative Image Transformer](https://arxiv.org/abs/2202.04200) <kbd>CVPR 2022</kbd> [LLM, non-autoregressive]
+- [MAGVIT: Masked Generative Video Transformer](https://arxiv.org/abs/2212.05199) <kbd>CVPR 2023 highlight</kbd> [Video Tokenizer]
+- [MAGVIT-v2: Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation](https://arxiv.org/abs/2310.05737) <kbd>ICLR 2024</kbd> [Video Tokenizer]
 - [VideoPoet: A Large Language Model for Zero-Shot Video Generation](https://arxiv.org/abs/2312.14125) [Like sora, but LLM, NOT world model]
 - [Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models](https://arxiv.org/abs/2402.17177) [Reverse Engineering of Sora]
 - [GLaM: Efficient Scaling of Language Models with Mixture-of-Experts]()
@@ -1419,7 +1423,6 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [DayDreamer: World Models for Physical Robot Learning](https://arxiv.org/abs/2206.14176) <kbd>CoRL 2022</kbd>
 - [JEPA: A Path Towards Autonomous Machine Intelligence](https://openreview.net/pdf?id=BZ5a1r-kVsf)
 - [I-JEPA: Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture](https://arxiv.org/abs/2301.08243) <kbd>CVPR 2023</kbd>
-- [MAGVIT: Masked Generative Video Transformer](https://arxiv.org/abs/2212.05199) <kbd>CVPR 2023 highlight</kbd> [Video prediction]
 - [Runway Gen-1: Structure and Content-Guided Video Synthesis with Diffusion Models](https://arxiv.org/abs/2302.03011)
 - [IL Difficulty Model: Embedding Synthetic Off-Policy Experience for Autonomous Driving via Zero-Shot Curricula](https://arxiv.org/abs/2212.01375) <kbd>CoRL 2022</kbd> [Waymo]
 - [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/abs/2106.01345) <kbd>NeurIPS 2021</kbd> [LLM for planning]
