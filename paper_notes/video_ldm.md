@@ -13,7 +13,7 @@ Two main advantages of video LDM is the computationally efficiency, and ability 
 
 It is also cited by Sora as one comparison baseline. Video LDM is widely used in research projects due to its simplicity and compute efficiency.
 
-The temporal consistency of the long drive video is still not very good, without fixed appearances for a given object. Similar to that in [Drive into the Future](drive_wm.md).
+The temporal consistency of the long drive video is still NOT good, without fixed appearances for a given object. Similar to that in [Drive into the Future](drive_wm.md). --> This is significantly improved by [SVD: Stable Video Diffusion](https://arxiv.org/abs/2311.15127), which is a native video model.
 
 Video generation displays multimodality, but not controllability (it is conditioned on simple weather conditions, and crowdedness, and optionally bbox). In this sense it is NOT a world model.
 

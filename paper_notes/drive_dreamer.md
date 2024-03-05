@@ -15,6 +15,8 @@ The dynamics of the world model is actually controlled by a simplistic RNN model
 
 The model is mainly focused on single cam scenarios, but the authors demo'ed in the appendix that it can be easily expanded to multicam scenario. --> The first solid multicam work is [Drive WM (Drive into the Future)](drive_wm.md).
 
+[WorldDreamer](world_dreamer.md) from the same group seems to be the extension of [DriveDreamer](drive_dreamer.md). Yet disappointingly [WorldDreamer](world_dreamer.md) seems unfinished and rushed to release on Arxiv, without much comparison with contemporary work.
+
 #### Key ideas
 - Training is multi-stage. --> Seems that this is the norm for all world models, like GAIA-1.
 	- Stage 1: AutoDM (Autonomous driving diffusion model)

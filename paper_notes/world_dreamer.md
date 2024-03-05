@@ -9,9 +9,7 @@ The model takes in a variety of modalities such as image/video, text, actions, a
 
 World models hold great promise for learning motion and physics in the genral world, essential for coherent and reasonable video generation.
 
-> During training, MaskGIT is trained on a similar proxy task to the mask prediction in BERT. At inference time, MaskGIT adopts a novel non-autoregressive decoding method to synthesize an image in constant number of steps.
-
-The paper seems unfinished and rushed to release on Arxiv, without much comparison with contemporary work. The paper is also heavily inspired by MaskGIT, especially the masked token prediction and parallel decoding.
+[WorldDreamer](world_dreamer.md) seems to be the extension of [DriveDreamer](drive_dreamer.md). Yet disappointingly [WorldDreamer](world_dreamer.md) seems unfinished and rushed to release on Arxiv, without much comparison with contemporary work. The paper is also heavily inspired by MaskGIT, especially the masked token prediction and parallel decoding.
 
 #### Key ideas
 - Architecture
@@ -34,7 +32,7 @@ The paper seems unfinished and rushed to release on Arxiv, without much comparis
 - The key assumption underlying the effectiveness of the parallel decoding is a Markovian
 property that many tokens are conditionally independent given other tokens. (From [MaskGIT](https://masked-generative-image-transformer.github.io/) and Muse)
 - [PySceneDetect](https://github.com/Breakthrough/PySceneDetect) to detect scene switching
-
+- The idea of using masked language model for video prediction is first proposed in MaskGIT, then extended by Muse to text-to-image generation. During training, MaskGIT is trained on a similar proxy task to the mask prediction in BERT. At inference time, MaskGIT adopts a novel non-autoregressive decoding method to synthesize an image in constant number of steps.
 
 #### Notes
 - Questions and notes on how to improve/revise the current work

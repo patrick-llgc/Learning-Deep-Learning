@@ -34,7 +34,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2024-03 (7)
+## 2024-03 (8)
 - [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391) [[Notes](paper_notes/genie.md)] [DeepMind, World Model]
 - [DriveDreamer: Towards Real-world-driven World Models for Autonomous Driving](https://arxiv.org/abs/2309.09777) [[Notes](paper_notes/drive_dreamer.md)] [Jiwen Lu, World Model]
 - [WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens](https://arxiv.org/abs/2401.09985) [[Notes](paper_notes/world_dreamer.md)] [Jiwen Lu, World Model]
@@ -45,7 +45,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [RPT: Robot Learning with Sensorimotor Pre-training](https://arxiv.org/abs/2306.10007) <kbd>CoRL 2023 Oral</kbd>
 - [DriveGAN: Towards a Controllable High-Quality Neural Simulation](https://arxiv.org/abs/2104.15060) [[Notes](paper_notes/drive_gan.md)] <kbd>CVPR 2021 oral</kbd> [Nvidia, Sanja]
 - [VideoGPT: Video Generation using VQ-VAE and Transformers](https://arxiv.org/abs/2104.10157) [[Notes](paper_notes/videogpt.md)] [Pieter Abbeel]
-- [LLM and vision intelligence, by Lu Jiang](https://mp.weixin.qq.com/s/Hamz5XMT1tSZHKdPaCBTKg) [Interview]
+- [LLM, Vision Tokenizer and Vision Intelligence, by Lu Jiang](https://mp.weixin.qq.com/s/Hamz5XMT1tSZHKdPaCBTKg) [[Notes](paper_notes/llm_vision_intel.md)] [Interview Lu Jiang]
 - [LVM: Sequential Modeling Enables Scalable Learning for Large Vision Models](https://arxiv.org/abs/2312.00785) [Large Vision Models]
 - [OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving](https://arxiv.org/abs/2311.16038) [Jiwen Lu, World Model]
 - [GenAD: Generative End-to-End Autonomous Driving](https://arxiv.org/abs/2402.11502)
