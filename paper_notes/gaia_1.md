@@ -34,10 +34,10 @@ It does not explicitly predict the action, which is improved by ADriver-I.
 - Model training: 3 components trained separately
 	- Image tokenizer: 4x32 GPU-days
 		- Map video, text and action into a shared d(=4096)-dim space. 
-		- Text tokenizer: pretrained T5 to generate 32 token per time step (what?). Then mapped to d-dim.
 		- Image tokenizer: **VQ-VAE**, **1 image = 18x32 tokens with vocab size = 8192 = 2^13 (13 bit at the min)**. However it is stored in d(=4096)-dim vector. 
 
 		- Loss: image recon loss + quantization loss (VQ-VAE) + distillation from DINO (inductive bias)
+	- Text tokenizer: pretrained T5 to generate 32 token per time step (what?). Then mapped to d-dim.
 	- World model: 15x64 GPU-days
 		- CE loss to predict next token (out of the 2^13 vocab codebook). Predicts at 6.25 Hz, upsampled later by decoder. 
 	- Video decoder: 15x32 GPU-days

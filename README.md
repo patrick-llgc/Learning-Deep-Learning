@@ -17,7 +17,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Vision-centric Semantic Occupancy Prediction for Autonomous Driving](https://towardsdatascience.com/vision-centric-semantic-occupancy-prediction-for-autonomous-driving-16a46dbd6f65) ([related paper notes](topics/topic_occupancy_network.md))
 - [Drivable Space in Autonomous Driving — The Industry](https://medium.com/@patrickllgc/drivable-space-in-autonomous-driving-the-industry-7a4624b94d41)
 - [Drivable Space in Autonomous Driving — The Academia](https://towardsdatascience.com/drivable-space-in-autonomous-driving-a-review-of-academia-ef1a6aa4dc15)
-- [Drivable Space in Autonomous Driving - The Concept](https://towardsdatascience.com/drivable-space-in-autonomous-driving-the-concept-df699bb8682f)
+- [Drivable Space in Autonomous Driving — The Concept](https://towardsdatascience.com/drivable-space-in-autonomous-driving-the-concept-df699bb8682f)
 - [Monocular BEV Perception with Transformers in Autonomous Driving](https://towardsdatascience.com/monocular-bev-perception-with-transformers-in-autonomous-driving-c41e4a893944) ([related paper notes](topics/topic_transformers_bev.md))
 - [Illustrated Differences between MLP and Transformers for Tensor Reshaping in Deep Learning](https://towardsdatascience.com/illustrated-difference-between-mlp-and-transformers-for-tensor-reshaping-52569edaf89)
 - [Monocular 3D Lane Line Detection in Autonomous Driving](https://towardsdatascience.com/monocular-3d-lane-line-detection-in-autonomous-driving-4d7cdfabf3b6) ([related paper notes](topics/topic_3d_lld.md))
@@ -34,16 +34,17 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2024-03 (5)
+## 2024-03 (7)
 - [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391) [[Notes](paper_notes/genie.md)] [DeepMind, World Model]
 - [DriveDreamer: Towards Real-world-driven World Models for Autonomous Driving](https://arxiv.org/abs/2309.09777) [[Notes](paper_notes/drive_dreamer.md)] [Jiwen Lu, World Model]
-- [WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens](https://arxiv.org/abs/2401.09985) [Jiwen Lu, World Model]
+- [WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens](https://arxiv.org/abs/2401.09985) [[Notes](paper_notes/world_dreamer.md)] [Jiwen Lu, World Model]
 - [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2304.08818) [[Notes](paper_notes/video_ldm.md)] <kbd>CVPR 2023</kbd> [Sanja, Nvidia, VideoLDM, Video prediction]
 - [Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos](https://arxiv.org/abs/2206.11795) <kbd>NeurIPS 2022</kbd> [[Notes](paper_notes/vpt.md)] [OpenAI]
 - [MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge](https://arxiv.org/abs/2206.08853) <kbd>NeurIPS 2022</kbd> [NVidia, Outstanding paper award]
 - [DriveGAN: Towards a Controllable High-Quality Neural Simulation](https://arxiv.org/abs/2104.15060) [[Notes](paper_notes/drive_gan.md)] <kbd>CVPR 2021 oral</kbd> [Nvidia, Sanja]
 - [VideoGPT: Video Generation using VQ-VAE and Transformers](https://arxiv.org/abs/2104.10157) [[Notes](paper_notes/videogpt.md)] [Pieter Abbeel]
-- [Humanoid Locomotion as Next Token Prediction](https://arxiv.org/abs/2402.19469) [Berkeley, EAI]
+- [LVM: Sequential Modeling Enables Scalable Learning for Large Vision Models](https://arxiv.org/abs/2312.00785) [Large Vision Models]
+- [Humanoid Locomotion as Next Token Prediction](https://arxiv.org/abs/2402.19469) [[Notes](paper_notes/locomotion_next_token_pred.md)] [Berkeley, EAI]
 - [OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving](https://arxiv.org/abs/2311.16038) [Jiwen Lu, World Model]
 - [GenAD: Generative End-to-End Autonomous Driving](https://arxiv.org/abs/2402.11502)
 - [Humanoid Locomotion as Next Token Prediction](https://arxiv.org/abs/2402.19469) [E2E, world model]
@@ -69,6 +70,9 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [MAGVIT-v2: Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation](https://arxiv.org/abs/2310.05737) <kbd>ICLR 2024</kbd> [Image Tokenizer]
 - [VideoPoet: A Large Language Model for Zero-Shot Video Generation](https://arxiv.org/abs/2312.14125) [Like sora, but LLM, NOT world model]
 - [Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models](https://arxiv.org/abs/2402.17177) [Reverse Engineering of Sora]
+- [GLaM: Efficient Scaling of Language Models with Mixture-of-Experts]()
+- [Lifelong Language Pretraining with Distribution-Specialized Experts]()
+
 
 ## 2024-02 (7)
 - [End-to-end Autonomous Driving: Challenges and Frontiers](https://arxiv.org/abs/2306.16927) [[Notes](paper_notes/e2e_review_hongyang.md)] [Hongyang Li, Shanghai AI labs]
