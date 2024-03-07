@@ -38,6 +38,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391) [[Notes](paper_notes/genie.md)] [DeepMind, World Model]
 - [DriveDreamer: Towards Real-world-driven World Models for Autonomous Driving](https://arxiv.org/abs/2309.09777) [[Notes](paper_notes/drive_dreamer.md)] [Jiwen Lu, World Model]
 - [WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens](https://arxiv.org/abs/2401.09985) [[Notes](paper_notes/world_dreamer.md)] [Jiwen Lu, World Model]
+- [VideoPoet: A Large Language Model for Zero-Shot Video Generation](https://arxiv.org/abs/2312.14125) [Like sora, but LLM, NOT world model]
 - [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2304.08818) [[Notes](paper_notes/video_ldm.md)] <kbd>CVPR 2023</kbd> [Sanja, Nvidia, VideoLDM, Video prediction]
 - [Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos](https://arxiv.org/abs/2206.11795) <kbd>NeurIPS 2022</kbd> [[Notes](paper_notes/vpt.md)] [OpenAI]
 - [MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge](https://arxiv.org/abs/2206.08853) <kbd>NeurIPS 2022</kbd> [NVidia, Outstanding paper award]
@@ -46,15 +47,16 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [DriveGAN: Towards a Controllable High-Quality Neural Simulation](https://arxiv.org/abs/2104.15060) [[Notes](paper_notes/drive_gan.md)] <kbd>CVPR 2021 oral</kbd> [Nvidia, Sanja]
 - [VideoGPT: Video Generation using VQ-VAE and Transformers](https://arxiv.org/abs/2104.10157) [[Notes](paper_notes/videogpt.md)] [Pieter Abbeel]
 - [LLM, Vision Tokenizer and Vision Intelligence, by Lu Jiang](https://mp.weixin.qq.com/s/Hamz5XMT1tSZHKdPaCBTKg) [[Notes](paper_notes/llm_vision_intel.md)] [Interview Lu Jiang]
-- [LVM: Sequential Modeling Enables Scalable Learning for Large Vision Models](https://arxiv.org/abs/2312.00785) [Large Vision Models]
+- [AV2.0: Reimagining an autonomous vehicle](https://arxiv.org/abs/2108.05805) [[Notes](paper_notes/av20.md)] [Wayve, Alex Kendall]
+- [Learning and Leveraging World Models in Visual Representation Learning](https://arxiv.org/abs/2403.00504) [LeCun, JEPA series]
+- [LVM: Sequential Modeling Enables Scalable Learning for Large Vision Models](https://arxiv.org/abs/2312.00785) [Large Vision Models, Jitendra Malik]
+- [LWM: World Model on Million-Length Video And Language With RingAttention](https://arxiv.org/abs/2402.08268) [Pieter Abbeel]
 - [OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving](https://arxiv.org/abs/2311.16038) [Jiwen Lu, World Model]
 - [GenAD: Generative End-to-End Autonomous Driving](https://arxiv.org/abs/2402.11502)
-- [Humanoid Locomotion as Next Token Prediction](https://arxiv.org/abs/2402.19469) [E2E, world model]
 - [TCP: Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline](https://arxiv.org/abs/2206.08129) <kbd>NeurIPS 2022</kbd> [E2E planning, Hongyang]
 - [Transfuser: Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/abs/2104.09224) <kbd>CVPR 2021</kbd> [E2E planning, Geiger]
 - [Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving](https://arxiv.org/abs/2310.01957) [Wayve, LLM + AD]
 - [LingoQA: Video Question Answering for Autonomous Driving](https://arxiv.org/abs/2312.14115) [Wayve, LLM + AD]
-- [LWM: World Model on Million-Length Video And Language With RingAttention](https://arxiv.org/abs/2402.08268) [Pieter Abbeel, World Model]
 - [Panacea: Panoramic and Controllable Video Generation for Autonomous Driving](https://arxiv.org/abs/2311.16813) <kbd>CVPR 2024</kbd> [Megvii]
 - [PlanT: Explainable Planning Transformers via Object-Level Representations](https://arxiv.org/abs/2210.14222) <kbd>CoRL 2022</kbd>
 - [Scene as Occupancy](https://arxiv.org/abs/2306.02851) <kbd>ICCV 2023</kbd>
@@ -72,11 +74,13 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [MaskGIT: Masked Generative Image Transformer](https://arxiv.org/abs/2202.04200) <kbd>CVPR 2022</kbd> [LLM, non-autoregressive]
 - [MAGVIT: Masked Generative Video Transformer](https://arxiv.org/abs/2212.05199) <kbd>CVPR 2023 highlight</kbd> [Video Tokenizer]
 - [MAGVIT-v2: Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation](https://arxiv.org/abs/2310.05737) <kbd>ICLR 2024</kbd> [Video Tokenizer]
-- [VideoPoet: A Large Language Model for Zero-Shot Video Generation](https://arxiv.org/abs/2312.14125) [Like sora, but LLM, NOT world model]
 - [Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models](https://arxiv.org/abs/2402.17177) [Reverse Engineering of Sora]
-- [GLaM: Efficient Scaling of Language Models with Mixture-of-Experts]()
-- [Lifelong Language Pretraining with Distribution-Specialized Experts]()
-
+- [GLaM: Efficient Scaling of Language Models with Mixture-of-Experts](https://arxiv.org/abs/2112.06905) <kbd>ICML 2022</kbd> [MoE, LLM]
+- [Lifelong Language Pretraining with Distribution-Specialized Experts](https://arxiv.org/abs/2305.12281) <kbd>ICML 2023</kbd> [MoE, LLM]
+- [DriveLM: Drive on Language](https://arxiv.org/abs/2312.14150) [Hongyang Li]
+- [MotionLM: Multi-Agent Motion Forecasting as Language Modeling](https://arxiv.org/abs/2309.16534) <kbd>ICCV 2023</kbd> [Waymo, LLM + AD]
+- [Parting with Misconceptions about Learning-based Vehicle Motion Planning](https://arxiv.org/abs/2306.07962) <kbd>CoRL 2023</kbd> [Simple non-learning based baseline]
+- [AD-MLP: Rethinking the Open-Loop Evaluation of End-to-End Autonomous Driving in nuScenes](https://arxiv.org/abs/2305.10430) [No perception]
 
 ## 2024-02 (7)
 - [End-to-end Autonomous Driving: Challenges and Frontiers](https://arxiv.org/abs/2306.16927) [[Notes](paper_notes/e2e_review_hongyang.md)] [Hongyang Li, Shanghai AI labs]
@@ -85,7 +89,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [GAIA-1: A Generative World Model for Autonomous Driving](https://arxiv.org/abs/2309.17080) [[Notes](paper_notes/gaia_1.md)] [Wayve, vision foundation model]
 - [ADriver-I: A General World Model for Autonomous Driving](https://arxiv.org/abs/2311.13549) [[Notes](paper_notes/adriver_i.md)] [Megvii, Xiangyu]
 - [Drive-WM: Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving](https://arxiv.org/abs/2311.17918) [[Notes](paper_notes/drive_wm.md)]
-- [DriveLM: Drive on Language](https://arxiv.org/abs/2312.14150) [Hongyang Li]
 - [X]() [[Notes](paper_notes/x.md)] [E2E planning]
 
 
@@ -1466,7 +1469,7 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [SAM: Segment Anything](https://arxiv.org/abs/2304.02643) [FAIR]
 - [GeoMIM: Towards Better 3D Knowledge Transfer via Masked Image Modeling for Multi-view 3D Understanding](https://arxiv.org/abs/2303.11325)
 - [Motion Prediction using Trajectory Sets and Self-Driving Domain Knowledge](https://arxiv.org/abs/2006.04767) [Encode Road requirement to prediction]
-- [Hivt: Hierarchical vector transformer for multi-agent motion prediction]
+- [Hivt: Hierarchical vector transformer for multi-agent motion prediction](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhou_HiVT_Hierarchical_Vector_Transformer_for_Multi-Agent_Motion_Prediction_CVPR_2022_paper.pdf) <kbd>CVPR 2022</kbd>
 - [Transformer Feed-Forward Layers Are Key-Value Memories](https://arxiv.org/abs/2012.14913) <kbd>EMNLP 2021</kbd>
 - [BEV-LaneDet: a Simple and Effective 3D Lane Detection Baseline](https://arxiv.org/abs/2210.06006) <kbd>CVPR 2023</kbd> [BEVNet]
 - [Exploring Recurrent Long-term Temporal Fusion for Multi-view 3D Perception](https://arxiv.org/abs/2303.05970) [BEVNet, megvii]
@@ -1652,7 +1655,6 @@ Self-Driving](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_GeoSim_
 - [Cumulative Reasoning with Large Language Models](https://arxiv.org/abs/2308.04371)
 - [A Survey of Techniques for Maximizing LLM Performance](https://www.youtube.com/watch?v=ahnGLM-RC1Y&ab_channel=OpenAI) [OpenAI]
 - [Drive AGI](https://github.com/OpenDriveLab/DriveAGI)
-- [Reimagining an autonomous vehicle](https://arxiv.org/abs/2108.05805) [Wayve]
 - [Harnessing the Power of Multi-Modal LLMs for Autonomy](https://www.ghostautonomy.com/blog/mllms-for-autonomy) [Ghost Autonomy]
 - [Language to Rewards for Robotic Skill Synthesis](https://arxiv.org/abs/2306.08647)
 - [ALOHA: Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](https://arxiv.org/abs/2304.13705)

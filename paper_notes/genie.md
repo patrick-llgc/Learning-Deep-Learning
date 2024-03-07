@@ -13,6 +13,8 @@ The model differs from [GAIA-1](gaia_1.md) in that GAIA-1 still uses video data 
 
 LAM is more generalized than the IDM model in VPT, where some data are labeled first, then the action predictor used to pseudo-label large sets of unlabeled data. --> Yet in a narrow domain such as autonomous driving. This may also be possible.
 
+The way to learn two networks at the same time is like the self-supervsed depth estimation paper [SfM learner](sfm_learner.md).
+
 A world model enables next-frame prediction that is conditioned on action inputs. 
 Genie is a foundation world model, and can be used for training generalist agents without direct environment experience at agent training time.
 

@@ -7,7 +7,7 @@ tl;dr: Multimodal world model via masked token prediction.
 #### Overall impression
 The model takes in a variety of modalities such as image/video, text, actions, and generate videos conditioned on these multimodal prompts.
 
-World models hold great promise for learning motion and physics in the genral world, essential for coherent and reasonable video generation.
+World models hold great promise for learning motion and physics in the genral world, essential for coherent and reasonable video generation. It draws strong aspiration from [VideoPoet](video_poet.md) and adds action condition on top of it, making VideoPoet a world model.
 
 [WorldDreamer](world_dreamer.md) seems to be the extension of [DriveDreamer](drive_dreamer.md). Yet disappointingly [WorldDreamer](world_dreamer.md) seems unfinished and rushed to release on Arxiv, without much comparison with contemporary work. The paper is also heavily inspired by MaskGIT, especially the masked token prediction and parallel decoding.
 
