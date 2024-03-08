@@ -34,7 +34,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2024-03 (8)
+## 2024-03 (11)
 - [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391) [[Notes](paper_notes/genie.md)] [DeepMind, World Model]
 - [DriveDreamer: Towards Real-world-driven World Models for Autonomous Driving](https://arxiv.org/abs/2309.09777) [[Notes](paper_notes/drive_dreamer.md)] [Jiwen Lu, World Model]
 - [WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens](https://arxiv.org/abs/2401.09985) [[Notes](paper_notes/world_dreamer.md)] [Jiwen Lu, World Model]
@@ -43,8 +43,8 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos](https://arxiv.org/abs/2206.11795) <kbd>NeurIPS 2022</kbd> [[Notes](paper_notes/vpt.md)] [OpenAI]
 - [MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge](https://arxiv.org/abs/2206.08853) <kbd>NeurIPS 2022</kbd> [NVidia, Outstanding paper award]
 - [Humanoid Locomotion as Next Token Prediction](https://arxiv.org/abs/2402.19469) [[Notes](paper_notes/locomotion_next_token_pred.md)] [Berkeley, EAI]
-- [RPT: Robot Learning with Sensorimotor Pre-training](https://arxiv.org/abs/2306.10007) [[Notes](paper_notes/rpt.md)] <kbd>CoRL 2023 Oral</kbd>
-- [MVP: Real-World Robot Learning with Masked Visual Pre-training](https://arxiv.org/abs/2210.03109) [[Notes](paper_notes/mvp.md)] <kbd>CoRL 2022</kbd>
+- [RPT: Robot Learning with Sensorimotor Pre-training](https://arxiv.org/abs/2306.10007) [[Notes](paper_notes/rpt.md)] <kbd>CoRL 2023 Oral</kbd> [Berkeley, EAI]
+- [MVP: Real-World Robot Learning with Masked Visual Pre-training](https://arxiv.org/abs/2210.03109) [[Notes](paper_notes/mvp.md)] <kbd>CoRL 2022</kbd> [Berkeley, EAI]
 - [BC-Z: Zero-Shot Task Generalization with Robotic Imitation Learning](https://arxiv.org/abs/2202.02005) [[Notes](paper_notes/bc_z.md)] <kbd>CoRL 2021</kbd> [Eric Jang, 1X]
 - [HG-DAgger: Interactive Imitation Learning with Human Experts](https://arxiv.org/abs/1810.02890) [DAgger]
 - [DriveGAN: Towards a Controllable High-Quality Neural Simulation](https://arxiv.org/abs/2104.15060) [[Notes](paper_notes/drive_gan.md)] <kbd>CVPR 2021 oral</kbd> [Nvidia, Sanja]
