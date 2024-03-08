@@ -43,11 +43,16 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos](https://arxiv.org/abs/2206.11795) <kbd>NeurIPS 2022</kbd> [[Notes](paper_notes/vpt.md)] [OpenAI]
 - [MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge](https://arxiv.org/abs/2206.08853) <kbd>NeurIPS 2022</kbd> [NVidia, Outstanding paper award]
 - [Humanoid Locomotion as Next Token Prediction](https://arxiv.org/abs/2402.19469) [[Notes](paper_notes/locomotion_next_token_pred.md)] [Berkeley, EAI]
-- [RPT: Robot Learning with Sensorimotor Pre-training](https://arxiv.org/abs/2306.10007) <kbd>CoRL 2023 Oral</kbd>
+- [RPT: Robot Learning with Sensorimotor Pre-training](https://arxiv.org/abs/2306.10007) [[Notes](paper_notes/rpt.md)] <kbd>CoRL 2023 Oral</kbd>
+- [MVP: Real-World Robot Learning with Masked Visual Pre-training](https://arxiv.org/abs/2210.03109) [[Notes](paper_notes/mvp.md)] <kbd>CoRL 2022</kbd>
+- [BC-Z: Zero-Shot Task Generalization with Robotic Imitation Learning](https://arxiv.org/abs/2202.02005) [[Notes](paper_notes/bc_z.md)] <kbd>CoRL 2021</kbd> [Eric Jang, 1X]
+- [HG-DAgger: Interactive Imitation Learning with Human Experts](https://arxiv.org/abs/1810.02890) [DAgger]
 - [DriveGAN: Towards a Controllable High-Quality Neural Simulation](https://arxiv.org/abs/2104.15060) [[Notes](paper_notes/drive_gan.md)] <kbd>CVPR 2021 oral</kbd> [Nvidia, Sanja]
 - [VideoGPT: Video Generation using VQ-VAE and Transformers](https://arxiv.org/abs/2104.10157) [[Notes](paper_notes/videogpt.md)] [Pieter Abbeel]
 - [LLM, Vision Tokenizer and Vision Intelligence, by Lu Jiang](https://mp.weixin.qq.com/s/Hamz5XMT1tSZHKdPaCBTKg) [[Notes](paper_notes/llm_vision_intel.md)] [Interview Lu Jiang]
 - [AV2.0: Reimagining an autonomous vehicle](https://arxiv.org/abs/2108.05805) [[Notes](paper_notes/av20.md)] [Wayve, Alex Kendall]
+- [Simulation for E2E AD](https://www.youtube.com/watch?v=8fivoXbT1Ao&ab_channel=Wayve) [Wayve, Tech Sharing, E2E]
+- [E2E lateral planning](https://blog.comma.ai/end-to-end-lateral-planning/) [Comma.ai, E2E planning]
 - [Learning and Leveraging World Models in Visual Representation Learning](https://arxiv.org/abs/2403.00504) [LeCun, JEPA series]
 - [LVM: Sequential Modeling Enables Scalable Learning for Large Vision Models](https://arxiv.org/abs/2312.00785) [Large Vision Models, Jitendra Malik]
 - [LWM: World Model on Million-Length Video And Language With RingAttention](https://arxiv.org/abs/2402.08268) [Pieter Abbeel]
