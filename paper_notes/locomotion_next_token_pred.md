@@ -2,7 +2,7 @@
 
 _March 2024_
 
-tl;dr: A motion controller based on next token prediction of sensorimotor tokens for bipedal humanoid locomotion.
+tl;dr: A motion controller based on next token prediction of sensorimotor tokens for bipedal humanoid locomotion. The most obvious advantage over prev methods is scaling.
 
 #### Overall impression
 The paper tackles humanoid control, specifically humanoid locomotion (standing upright and moving legs) as an e2e control problem. The sequence of sensory observations and motor actions makes up **sensorimotor trajectories**, as the sentence of the physical world. Note that there is NO images or perception involved, but only streams of relatively sparse, structured output.
@@ -19,6 +19,8 @@ It rolls out observation and action jointly, and in this way, it is a world mode
 
 The model can transfer to real world when trained with ONLY 27 hours of data. Another interesting fact is that the transformer based policy is smoother and more accurate than the RL policy, although the model is trained with trajectories produced by this RL policy. (青出于蓝? Why?)
 
+[Locomotion as next token](locomotion_next_token_pred.md) deals with missing modality with masked modeling, [Genie](genie.md) with LAM (latent action space), and [VPT](vpt.md) with IDM (inverse dynamics model).
+
 #### Key ideas
 - Data source: diverse dataset with potentially missing modalities. Scraped from the internet and simulators.
 	- Prior RL policies (o + a)
@@ -31,6 +33,7 @@ The model can transfer to real world when trained with ONLY 27 hours of data. An
 		- Generates torque, not consistent with action space, so dropped out actions.
 	- Motion capture (o only)
 		- MoCap capture human keypoints in 3D, and inverse kinematics are used to find corresponding robot pose.
+		- Fitted joint position as observation, actuated trajectory is used as grounding.
 	- Youtube videos (o only, much noisier)
 		- Reconstruct human videos by using CV techniques and retarget both motion capture and youtube trajectories via inverse kinematics. 
 - HW: Agility Robotics
@@ -67,5 +70,32 @@ The model can transfer to real world when trained with ONLY 27 hours of data. An
 - Why still continuous tokens, not discrete tokens? Or can it even be called tokens?
 - How large is the youtube dataset?
 - What is the freq in Hz is the sensorimotor trajectory?
+
+
+#### Notes taken during tech sharing with co-author
+* Motion planning: Given gait (classical), but now not anymore, output motor torque.
+* HW: 
+    * Digit: Oregon State, spring loaded 
+    * Underactuated dof, 6 DoF floating base
+    * Foot placement: 3 camera in hip. Used for detecting ground (slope, gravel)
+    * Ostrich-inspired: cannot sit. Cannot modify to be driver. 
+    * Intel nuc: GPU options cap out at the Nvidia 2060 in the NUC.
+* Dataset: MoCap and internet much bigger. 
+    * NN-based: joint position. 30-50 Hz. Downsampled view. NN + PID = MBC.
+    * Model based controller: output joint torque. Already converged. High freq (1000 Hz). Cannot be achieve this freq. 
+    * Model based: 10w line of code to unscrew bottle cap. Model base runs fast needs a lot of compute optimization (simpler dynamics, linearization).
+    * Now no image. Short term go straight, adapt to slope and ground condition. Terrain in the wild. 
+* model 2 M parameter. 
+* Misc
+    * Typically Cherrypick. In public, tolerance is low. 
+    * Poincare map (phase portrait): stability dynamic system. Periodic motion indicates laps. 
+    * Locomotion —> Manipulation. Adhere to evolution of human being.
+    * Can be transferred to manipulation. Rt1, Rt2, aloha, all based on llm, but different methods. 
+    * How to Learn from 3rd person view video.
+    * Methodology: RL —> self-supervised + IL. Dataset collection must be large scale.
+    * Manipulation: Tactile. Last 1 mm. TRI has related work.
+    * RL as boot-loader to LLM-based IL.
+    * Psycology, Verbal imitation. 
+    * RPT: several steps, short term look-ahead. Stanford paper (which?). Step 16 steps. Diffusion-based. 
 
 
