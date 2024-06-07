@@ -103,7 +103,45 @@
     - Trajectory prediction: forward simulator, basically IDM (with acc), more friendly with interaction, more advanced format of traj geneartion.
 
     
-## Misc
-- 路径轨迹规划三板斧：搜索，采样，优化。
-- 搜索
-    - A-star
+# Path and Trajectory planning
+
+- 路径轨迹规划三板斧：搜索，采样，优化. Typical planning methods, search, sampling, optimization)
+- trajectory = path + speed
+
+## Search
+
+- Route/mission planning: 全局路径规划，巡进.
+    - Find preferred route over road networks.
+    - Graph search methods (Dijkstra, A*), DP in essence.
+    - Input: start, end, lane graph, with cost function constraint
+- Dijkstra's algorithm explores all possible paths to find the shortest one, making it a blind (uninformed) search algorithm (”天女散花”). It guarantees shortest path.
+- A* algorithm is informed by using heuristics to prioritize paths that appear to be leading closer to the goal, making it more efficient (faster) by reducing the number of explored paths.
+    - Uses a cost of cost so far (Dijkstra) + cost to go (heuristics, greedy best-first).
+    - Only guarantees shortest path if the heuristic is admissible and consistent. If heuristics is bad, then it will make A-star worse than Dijkstra baseline, and will degenerate to greedy best-first.
+    - [Very good visualization of A-star](https://www.redblobgames.com/pathfinding/a-star/introduction.html)
+    - A-star cons:  may not satisfy kinematics and cannot be tracked. E.g. steering angle typically 40deg.
+- Hybrid A-star algo (A-star reflecting kinematics)
+    - A-star maintains state and action both in grid space.
+    - Why hybrid? It separates state and action.
+    - Action: continuous space conforming with kinematics.
+    - State (openset, cost): in discrete grid, more coarse.
+- Extension of nodes in path in hybrid A-star
+    - Need N discrete control action, e.g., discrete curvature.
+    - Pruning: Multiple action history may lead to the same grid. Need pruning of action history to keep the lowest cost one.
+    - Early stopping (analytical expansion, shot to goal): This is another key innovation in hybrid A-star. The analogy in A-star search algorithm is if we can connect the last popped node to the goal using a non-colliding straight line, we have found the solution. In hybrid A-star, the straight line is replaced by Dubins and RS (Reeds Shepp) curves. Maybe suboptimal but it focuses more on the feasibility on the further side. (近端要求最优性，远端要求可行性。)
+- Dubins and RS curves
+    - Dubins is essentially (arch-line-arch). RS curve improves Dubins curve by adding reverse motion.
+- Holonomic vs non-holonomic (完整约束和非完整约束）
+    - A holonomic constraint can be expressed as algebraic equations involving only the coordinates and time.
+    - A holonomic constraint can be used to reduce one DoF of the system.
+- Good review article https://medium.com/@junbs95/gentle-introduction-to-hybrid-a-star-9ce93c0d7869
+- hybrid a-star is very useful in semi- or unstructured environment such as parking, or mapless driving.
+- Define heuristics and cost needs heavy handcrafting.
+- Cost = Progress cost g(n) + heuristics costs h(n)
+    - Progress cost: length, steering change, conformation to centerline, penalty to use inverse lane and touching solid line, etc
+    - heuristics is much more difficult. Two classical examples would be 1) kinematics constraints and neglecting obstacles and 2) obstacles and neglecting kinematics. —> Learning based heuristics?
+
+## Sampling
+- Safety and comfort
+- How to guarantee consistency right from the design stage
+- Why Frenet frame? Longitudinal vs lateral dynamics are very different.
