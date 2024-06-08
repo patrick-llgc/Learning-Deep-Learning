@@ -129,6 +129,7 @@
     - Need N discrete control action, e.g., discrete curvature.
     - Pruning: Multiple action history may lead to the same grid. Need pruning of action history to keep the lowest cost one.
     - Early stopping (analytical expansion, shot to goal): This is another key innovation in hybrid A-star. The analogy in A-star search algorithm is if we can connect the last popped node to the goal using a non-colliding straight line, we have found the solution. In hybrid A-star, the straight line is replaced by Dubins and RS (Reeds Shepp) curves. Maybe suboptimal but it focuses more on the feasibility on the further side. (近端要求最优性，远端要求可行性。)
+    - Hybrid A-star: Path Planning for Autonomous Vehicles in Unknown Semi-structured Environments <kbd>IJRR 2010</kbd> [Dolgov, Thrun, Searching]
 - Dubins and RS curves
     - Dubins is essentially (arch-line-arch). RS curve improves Dubins curve by adding reverse motion.
 - Holonomic vs non-holonomic (完整约束和非完整约束）
@@ -142,6 +143,28 @@
     - heuristics is much more difficult. Two classical examples would be 1) kinematics constraints and neglecting obstacles and 2) obstacles and neglecting kinematics. —> Learning based heuristics?
 
 ## Sampling
-- Safety and comfort
-- How to guarantee consistency right from the design stage
-- Why Frenet frame? Longitudinal vs lateral dynamics are very different.
+- Safety and comfort, and how to guarantee consistency right from the design stage
+- Frenet frame
+    - Why? Longitudinal vs lateral dynamics are very different.
+    - Decoupling based on reference line (RL).
+    - SL coord system (SLT, or SDT): l_dot wrt t vs l_prime wrt s (curvature).
+    - Pros: low/mid curvature.
+    - Cons: Need to satisfy kinematics constraints in cartesian coord system. Hard to guarantee so when RL in extreme curvature.
+- Transformation/projection Cartesian —> Frenet (SL coordinates)
+    - Solve for projected point on RL, closest to CoM of the car.
+    - Depends on the formulation of RL (For polyline, use brute-force iteration or binary search. For polynomial: optimization)
+    - Need to pay attention to singularity.
+    - [Optimal Trajectory Generation for Dynamic Street Scenarios in a Frenet Frame](https://www.semanticscholar.org/paper/Optimal-trajectory-generation-for-dynamic-street-in-Werling-Ziegler/6bda8fc13bda8cffb3bb426a73ce5c12cc0a1760) <kbd>ICRA 2010</kbd> [Werling, Thrun]
+- Consistency
+    - Bellman's principle of optimality. In any optimal policy for a given problem, the remaining steps must also form an optimal policy for the remaining problem.
+    - Replanned path should be temporally consistent. For every step in the planning, follow the remainder of the calculated trajectory, to provide temporal consistency.
+    - OBVP (optimal bounded value problem), with initial state (position, v, a) and end state (pos, v, a), and min cost of integral of jerk squared. The solution to the optimal control problem is 5th order polynomial.
+        - actually 5th polynomial (wrt time, not y wrt x!) is the optimal solution to a much more broader range of control problem.
+    - Optimization by sampling. If we already know 5th polynomial is optimal, we can sample in this space and find the one with min cost to get the approximate solution.
+    - Speed scenarios
+        - High speed traj (5-6 m/s+): lateral s(t) and longitudinal d(t) can be treated as decoupled, and can be calculated independently.
+        - Low speed traj: lateral and longitudianal are tightly coupled, and bounded by kinematics. If sampled independently, curv may not be physically possible. Remedy: focus on s(t) and d(s(t)).
+    - Eval and check after sampling
+        - Selection based on min Cost
+        - speed/acc/jerk limit, collision check.
+    - Cons: simple road structure, short time horizon.
