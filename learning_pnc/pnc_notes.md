@@ -163,8 +163,44 @@
     - Optimization by sampling. If we already know 5th polynomial is optimal, we can sample in this space and find the one with min cost to get the approximate solution.
     - Speed scenarios
         - High speed traj (5-6 m/s+): lateral s(t) and longitudinal d(t) can be treated as decoupled, and can be calculated independently.
-        - Low speed traj: lateral and longitudianal are tightly coupled, and bounded by kinematics. If sampled independently, curv may not be physically possible. Remedy: focus on s(t) and d(s(t)).
+        - Low speed traj: lateral and longitudinal are tightly coupled, and bounded by kinematics. If sampled independently, curvature may not be physically possible. Remedy: focus on s(t) and d(s(t)).
     - Eval and check after sampling
         - Selection based on min Cost
         - speed/acc/jerk limit, collision check.
     - Cons: simple road structure, short time horizon.
+
+## Optimization
+- Convex vs non-convex
+    - convex: optimization (QP)
+    - non-convex: DP searching or sampling, or nonlinear optimization (ILQR)
+- QP: Apollo EM Planner
+    - generate RL for each lane, perform optimization in parallel, and select optimal
+    - decoupled path (space) and speed (temporal)
+        - Cons: 窄道会车，空间轨迹会有交错，需要横纵联合优化。
+    - [Baidu Apollo EM Motion Planner](https://arxiv.org/abs/1807.08048)
+    - Optimization
+        - SL projection (E)
+        - Path Planning (M)
+        - ST projection (E)
+        - Speed planning (M)
+    - In each M step, we have DP and QP step.
+        - DP is to generate convex space
+        - QP is to solve in convex space
+    - M-step DP path: DP is essentially search, and it is necessary to solve non-convex problem (nudge, two local optima). If convex, then QP optimization should be sufficient.
+        - Cost = smooth cost + obstacle（避障） + guidance (RL，贴线)
+        - Obstacle avoidance typically introduces non-convex problems. If we know nudging direction, then it is an convex optimization problem (converting to lower and upper bound constraint). If we don’t know, then use DP to search.
+    - M-step QP path: refine DP path
+        - Linearize constraints by approxmization
+        - the coarse solution from searching or sampling can only satisfy hard boundaries.
+    - M-step DP speed optimizer
+        - Cost = smooth cost + obstacle（避障, non-convex） + guidance (V_ref，交通规则)
+        - DP converts to local optimization
+        - forward-only search in ST graph (S and T is monotonous), as compared to SL 2D search
+        - project predicted path of other agents into ego path SL, and into ST graph
+    - M-step QP speed optimizer
+        - refines DP speed as initial input
+        - additional constraints such as jerk and acc limit
+        - suppresses large acc and large jerk
+
+
+# Joint spatiotemporal optimization
