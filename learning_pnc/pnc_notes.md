@@ -204,3 +204,89 @@
 
 
 # Joint spatiotemporal optimization
+
+- lat/long decoupled: short temporal horizon.
+- Previous basics can solve 95% of the case. Joint opt can solve the rest 5%.
+- Why?
+    - Decoupled solution in challenging dynamic interaction cases will lead to suboptimal trajectory.
+    - Those 5% cases can show intelligence.
+    - Current very hot topic.
+- Methods
+    - Search under spatiotemporal place
+    - Iteration
+    - spatiotemporal corridor
+- Concrete example: Narrow space passing
+    - optimal behavior: decel to yield or accel to pass
+    - optimal behavior is not in the decoupled solution space, and need joint opt
+- Challenges
+    - high dimension, and non-convex —> time consuming
+    - interaction —> even more complex, and denies brute-force methods. Not the focus of this course yet.
+
+### Brute-force Search
+
+- in xyt or slt
+    - xyt: suitable for intersection, semi-structured (parking lot, or mapless) and unstructured (rural road).
+    - slt: non-intersection, slt can save compute
+- SLT space, 3D spatio-temporal map
+    - long and flat. Like an energy bar. The visualization looks amazing!
+    - projection to reference frame
+    - SSC (state space corridor) in EPSILON
+    - grid size: delta_t = 0.2 s
+    - Expansion constraints in xot, yot and xoy plane. This leads to action space. Then we can use hybrid A-star.
+    - Reference
+        - [基于改进混合A*的智能汽车时空联合规划方法](https://www.qichegongcheng.com/CN/abstract/abstract1500.shtml)
+        - [Enable Faster and Smoother
+        Spatio-temporal Trajectory Planning for
+        Autonomous Vehicles in Constrained
+        Dynamic Environment](https://www.researchgate.net/publication/340516864_Enable_faster_and_smoother_spatio-temporal_trajectory_planning_for_autonomous_vehicles_in_constrained_dynamic_environment)
+- Hybrid A star
+    - Action space. Discretize steering and acceleration —> similar to tokenization
+    - initial state (s, l, t, theta, v)
+    - State update equations
+    - Cost = g (progress cost) + h (cost to go, heuristics)
+        - progress cost: collison, coherence with center line, etc.
+        - heuristics
+    - Issues with cost:
+        - Can be 10+ items in a production systems.
+        - The cost design will determine how “human-like” the trajectory will be.
+    - search constraints: t time cannot reverse, and s cannot reverse.
+    - how to optimize/recycle cost compute (eg., D-star)
+
+## Iteration
+
+- path → speed → path → speed (alternating minimization), like EM planner (E, M, E, M)
+    - recognization of nudging point in next round
+- improve brute-force search: can we focus on most probable part of the solution space? Get to the local opt first.
+    - [Focused Trajectory Planning for Autonomous On-Road Driving](https://www.ri.cmu.edu/pub_files/2013/6/IV2013-Tianyu.pdf) <kbd>IV 2013</kbd>
+    - Reference traj first (road shape, obstacle), tracking traj (kinematics and dynamics constraits, in perturbed neighborhood)
+    - Reference traj (non-parametric)
+        - Ref path: optimization of scattered points (v, a, kr are back calculated)
+        - speed allocation, or speed optimization (highly nonlinear though)
+    - (optional) linkage: reparameterize path with spirals
+    - Tracking traj
+        - sampling with 3rd polynomial, around reference traj
+        - rate of traj based on cost wrt to ref traj
+        - How much perturb is needed, is tradeoff
+    - multitask extension: multiple ref trajectory, scale to multiple scenarios.
+
+## Spatiotemporal semantic corridor (SSC)
+- Elements of SSC
+    - SLT space, static obstacle, dynamic obstacle
+    - Abstraction: All semantic constraint can be converted to the constraint in SLT space.
+    - SSC converts all semantic elements into constraint and converts traj generation into a optimization QP.
+    - Reference
+        - [SSC: Safe Trajectory Generation for Complex Urban Environments Using Spatio-Temporal Semantic Corridor](https://arxiv.org/abs/1906.09788) <kbd>RAL 2019</kbd> [Wenchao Ding]
+        - [MPDM: Multipolicy Decision-Making for Autonomous Driving via Changepoint-based Behavior Prediction](https://www.roboticsproceedings.org/rss11/p43.pdf) <kbd>RSS 2011</kbd>
+    - SSC is part of the [EPSILON codebase](https://github.com/HKUST-Aerial-Robotics/EPSILON)
+- SSC generation Process
+    - Seed generation, by projection of based on initial solution by BP (MPDM)
+    - Cube inflation based on all seeds. This will create week links.
+    - Cube relaxation to dilate week links.
+- Generate trajectory based on QP optimization
+    - parameterized optimization, use bazel and bernstein polynomials as basis. Adjust these points to generate bezel curve.
+    - It is guaranteed that all curve is contained within the position convex hull extended by control points.
+    - A piece of Bezel curve within each cube of the spatiotemporal corridor.
+- For each cube of the corridor, then QP optimization
+    - cost: jerk ** 2, very simple. It converts the complex cost design into semantic corridor generation.
+    - continuous constraints for each piece.
+- [Question] how was the narrow space passing solved in SSC? I feel SSC generation basically gets the DP done.
