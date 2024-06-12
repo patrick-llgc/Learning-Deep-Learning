@@ -34,6 +34,28 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
+## 2024-06 (0)
+- [OccNeRF: Advancing 3D Occupancy Prediction in LiDAR-Free Environments](https://arxiv.org/abs/2312.09243) [Jiwen Lu]
+- [RenderOcc: Vision-Centric 3D Occupancy Prediction with 2D Rendering Supervision](https://arxiv.org/abs/2309.09502) <kbd>ICRA 2024</kbd>
+- [EmerNeRF: Emergent Spatial-Temporal Scene Decomposition via Self-Supervision](https://arxiv.org/pdf/2311.02077) [Sanja, Marco, NV]
+- [FB-OCC: 3D Occupancy Prediction based on Forward-Backward View Transformation](https://opendrivelab.com/e2ead/AD23Challenge/Track_3_NVOCC.pdf?=&linkId=100000205404832)
+- [Trajeglish: Traffic Modeling as Next-Token Prediction](https://arxiv.org/abs/2312.04535) <kbd>ICLR 2024</kbd>
+- [Autonomous Driving Strategies at Intersections: Scenarios, State-of-the-Art, and Future Outlooks](https://arxiv.org/pdf/2106.13052) <kbd>ITSC 2021</kbd>
+- [Learning-Based Approach for Online Lane Change Intention Prediction](https://ieeexplore.ieee.org/document/6629564/) <kbd>IV 2013</kbd> [SVM, LC intention prediction]
+- [Traffic Flow-Based Crowdsourced Mapping in Complex Urban Scenario](https://ieeexplore.ieee.org/document/10171417) <kbd>RAL 2023</kbd> [Wenchao Ding, Huawei, crowdsourced map]
+- [FlowMap: Path Generation for Automated Vehicles in Open Space Using Traffic Flow](https://arxiv.org/abs/2305.01622) <kbd>ICRA 2023</kbd>
+- [EPSILON: An Efficient Planning System for Automated Vehicles in Highly Interactive Environments](https://arxiv.org/abs/2108.07993) <kbd>TRO 2021</kbd> [Wenchao Ding, encyclopedia of pnc]
+- [Hybrid A-star: Path Planning for Autonomous Vehicles in Unknown Semi-structured Environments](https://www.semanticscholar.org/paper/Path-Planning-for-Autonomous-Vehicles-in-Unknown-Dolgov-Thrun/0e8c927d9c2c46b87816a0f8b7b8b17ed1263e9c) <kbd>IJRR 2010</kbd> [Dolgov, Thrun, Searching]
+- [Optimal Trajectory Generation for Dynamic Street Scenarios in a Frenet Frame](https://www.semanticscholar.org/paper/Optimal-trajectory-generation-for-dynamic-street-in-Werling-Ziegler/6bda8fc13bda8cffb3bb426a73ce5c12cc0a1760) <kbd>ICRA 2010</kbd> [Werling, Thrun, Sampling]
+- [Baidu Apollo EM Motion Planner](https://arxiv.org/abs/1807.08048) [[Notes](paper_notes/apollo_em_planner.md)][Optimization]
+- [基于改进混合A*的智能汽车时空联合规划方法](https://www.qichegongcheng.com/CN/abstract/abstract1500.shtml) <kbd>汽车工程: 规划&决策2023年</kbd> [Joint optimization, search]
+- [Enable Faster and Smoother Spatio-temporal Trajectory Planning for Autonomous Vehicles in Constrained Dynamic Environment](https://journals.sagepub.com/doi/abs/10.1177/0954407020906627) <kbd>JAE 2020</kbd> [Joint optimization, search]
+- [Focused Trajectory Planning for Autonomous On-Road Driving](https://www.ri.cmu.edu/pub_files/2013/6/IV2013-Tianyu.pdf) <kbd>IV 2013</kbd> [Joint optimization, Iteration]
+- [SSC: Safe Trajectory Generation for Complex Urban Environments Using Spatio-Temporal Semantic Corridor](https://arxiv.org/abs/1906.09788) <kbd>RAL 2019</kbd> [Joint optimization, SSC, Wenchao Ding]
+- [EUDM: Efficient Uncertainty-aware Decision-making for Automated Driving Using Guided Branching](https://arxiv.org/abs/2003.02746) <kbd>ICRA 2020</kbd> [Wenchao Ding]
+- [MPDM: Multipolicy Decision-Making for Autonomous Driving via Changepoint-based Behavior Prediction](https://www.roboticsproceedings.org/rss11/p43.pdf) <kbd>RSS 2011</kbd>
+
+
 ## 2024-03 (11)
 - [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391) [[Notes](paper_notes/genie.md)] [DeepMind, World Model]
 - [DriveDreamer: Towards Real-world-driven World Models for Autonomous Driving](https://arxiv.org/abs/2309.09777) [[Notes](paper_notes/drive_dreamer.md)] [Jiwen Lu, World Model]
@@ -46,6 +68,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [RPT: Robot Learning with Sensorimotor Pre-training](https://arxiv.org/abs/2306.10007) [[Notes](paper_notes/rpt.md)] <kbd>CoRL 2023 Oral</kbd> [Berkeley, EAI]
 - [MVP: Real-World Robot Learning with Masked Visual Pre-training](https://arxiv.org/abs/2210.03109) [[Notes](paper_notes/mvp.md)] <kbd>CoRL 2022</kbd> [Berkeley, EAI]
 - [BC-Z: Zero-Shot Task Generalization with Robotic Imitation Learning](https://arxiv.org/abs/2202.02005) [[Notes](paper_notes/bc_z.md)] <kbd>CoRL 2021</kbd> [Eric Jang, 1X]
+- [GenAD: Generalized Predictive Model for Autonomous Driving](https://arxiv.org/abs/2403.09630) [[Notes](paper_notes/genad.md)] <kbd>CVPR 2024</kbd>
 - [HG-DAgger: Interactive Imitation Learning with Human Experts](https://arxiv.org/abs/1810.02890) [DAgger]
 - [DriveGAN: Towards a Controllable High-Quality Neural Simulation](https://arxiv.org/abs/2104.15060) [[Notes](paper_notes/drive_gan.md)] <kbd>CVPR 2021 oral</kbd> [Nvidia, Sanja]
 - [VideoGPT: Video Generation using VQ-VAE and Transformers](https://arxiv.org/abs/2104.10157) [[Notes](paper_notes/videogpt.md)] [Pieter Abbeel]
@@ -86,6 +109,13 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [MotionLM: Multi-Agent Motion Forecasting as Language Modeling](https://arxiv.org/abs/2309.16534) <kbd>ICCV 2023</kbd> [Waymo, LLM + AD]
 - [Parting with Misconceptions about Learning-based Vehicle Motion Planning](https://arxiv.org/abs/2306.07962) <kbd>CoRL 2023</kbd> [Simple non-learning based baseline]
 - [AD-MLP: Rethinking the Open-Loop Evaluation of End-to-End Autonomous Driving in nuScenes](https://arxiv.org/abs/2305.10430) [No perception]
+- CubeLLM: align 2D/3D with language
+- EmerNeRF: ICLR 2024
+- A Language Agent for Autonomous Driving
+- [Toward Driving Scene Understanding: A Dataset for Learning Driver Behavior and Causal]
+- [DriveDreamer-2: LLM-Enhanced World Models for Diverse Driving Video Generation](https://arxiv.org/abs/2403.06845)
+- [DriveWorld: 4D Pre-trained Scene Understanding via World Models for Autonomous Driving](https://arxiv.org/abs/2405.04390) <kbd>CVPR 2024</kbd> [Zheng Zhu]
+- [Is Sora a World Simulator? A Comprehensive Survey on General World Models and Beyond](https://arxiv.org/abs/2405.03520) [Zheng Zhu]
 
 ## 2024-02 (7)
 - [End-to-end Autonomous Driving: Challenges and Frontiers](https://arxiv.org/abs/2306.16927) [[Notes](paper_notes/e2e_review_hongyang.md)] [Hongyang Li, Shanghai AI labs]
@@ -1243,7 +1273,6 @@ Environments](https://arxiv.org/abs/1909.11944) <kbd>WACV 2020</kbd> (perspectiv
 - [Safe Trajectory Generation For Complex Urban Environments Using Spatio-temporal Semantic Corridor](https://arxiv.org/abs/1906.09788) <kbd>LRA 2019</kbd> [Motion planning]
 - [DAgger: Driving Policy Transfer via Modularity and Abstraction](https://arxiv.org/abs/1804.09364) <kbd>CoRL 2018</kbd> [DAgger, Immitation Learning]
 - [Efficient Uncertainty-aware Decision-making for Automated Driving Using Guided Branching](https://arxiv.org/abs/2003.02746) <kbd>ICRA 2020</kbd> [Motion planning]
-- [Baidu Apollo EM Motion Planner](https://arxiv.org/abs/1807.08048)
 - [Calibration of Heterogeneous Sensor Systems](https://arxiv.org/pdf/1812.11445.pdf)
 - [Intro：Sensor Fusion for Adas 无人驾驶中的数据融合 (from 知乎)](https://zhuanlan.zhihu.com/p/40967227) (Up to CVPR 2018)
 - [YUVMultiNet: Real-time YUV multi-task CNN for autonomous driving](https://arxiv.org/pdf/1904.05673.pdf) <kbd>CVPR 2019</kbd> (Real Time, Low Power)
@@ -1511,7 +1540,6 @@ Self-Driving](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_GeoSim_
 - [GET3D: A Generative Model of High Quality 3D Textured Shapes Learned from Images](https://arxiv.org/abs/2209.11163) <kbd>NeurIOS 2022</kbd>
 - [OmniObject3D: Large-Vocabulary 3D Object Dataset for Realistic Perception, Reconstruction and Generation](https://arxiv.org/abs/2301.07525) <kbd>CVPR 2023</kbd>
 - [Ego-Body Pose Estimation via Ego-Head Pose Estimation](https://arxiv.org/abs/2212.04636) <kbd>CVPR 2023</kbd>
-- [FB-OCC: 3D Occupancy Prediction based on Forward-Backward View Transformation](https://opendrivelab.com/e2ead/AD23Challenge/Track_3_NVOCC.pdf?=&linkId=100000205404832)
 - [PanoOcc: Unified Occupancy Representation for Camera-based 3D Panoptic Segmentation](https://arxiv.org/abs/2306.10013)
 - [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597)
 - [Visual Instruction Tuning](https://arxiv.org/abs/2304.08485)

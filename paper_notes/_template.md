@@ -1,6 +1,6 @@
 # [Paper Title](link_to_paper)
 
-_March 2024_
+_June 2024_
 
 tl;dr: Summarize the the main idea of the paper with one sentence.
 
