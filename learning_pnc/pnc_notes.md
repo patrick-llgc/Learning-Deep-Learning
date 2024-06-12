@@ -290,3 +290,55 @@
     - cost: jerk ** 2, very simple. It converts the complex cost design into semantic corridor generation.
     - continuous constraints for each piece.
 - [Question] how was the narrow space passing solved in SSC? I feel SSC generation basically gets the DP done.
+
+
+
+# Decision Making
+## Markov Decision Process
+
+- Why do we need decision making since we have planning already?
+    - keywords: interaction and uncertainty. This makes the world probabilistic
+    - If the world is deterministic (geometry), there is no decision making needed. Searching, sampling, and optimization should be good enough.
+    - For stochastic strategy, then MDP or POMDP.
+    - Like RL, need to understand the entire problem setting to design S, A, R, and E.
+    - To do e2e, we need to understand the decision making system first.
+- Every decision is a bunch/cluster of planning.
+- “Freezing robot”: prediction fills the entire S-T. 华山挤出一条路。Geometry —> Probability to the rescue.
+- Markov process (MP)
+    - stochastic process vs probability: dynamic random phenomenon, vs static
+    - Markov only depend on current state, the current state is sufficient to predict the future.
+    - For AD, maybe only last 1sec of state. Expand state space to trade for a shorter history window.
+- Markov decision process (MDP)
+    - can be modeled with 5 factors (State, Action, Reward, Probability of transfer, gamma)
+    - extends a Markov Process to include decisions. It models decision-making process where outcomes are partly random and partly under the control of a decision maker.
+    - It defines current state and action.
+    - The state of other agents can be modeled as ego state or environment.
+- Bellman’s equation
+    - The best decision in any state is the one that maximizes your immediate reward plus the expected future rewards from the new state you reach.
+    - $V(s) = \max_{a}[R(s,a) + \gamma \sum_{s'}P(s'|s,a)V(s')]$
+- V and Q in RL
+    - Value function (V) assesses the quality of states. Sum of expected return if you start with a state and play optimally.
+    - Action-value function (Q) assesses the quality of actions within states.
+
+## Value iteration and Policy iteration
+- Value iteration
+    - Value iteration is a method used in reinforcement learning to find the best strategy (or policy) by repeatedly updating the value of each state until it stabilizes.
+    - How does this work if all states are initialized as zero? Immediate reward in Bellman’s equation is the key to brings in non-zero information. Value propagate throughout state space like a virus.
+    - Value iteration is guarantee to converge for finite state. If gamma the discount factor = 0, then the value iteration will converge after 1 iteration. A smaller gamma leads to faster convergence as the consideration horizon is shorter.
+    - Cons
+        - ALL states needs to be considered!
+        - ALL action needs to be evaluated: max a in the action space
+        - Transition probability may contain uncertainty (slippage, etc).
+    - Value iteration as the vanilla approach and gives the feasibility (like Dijkstra) but typically not useful in practice.
+    - Reward is typically certain, but discount factor (far-sighted or short-sighted) and uncertainty would affect policy severely.
+    - Value iteration to optimal policy: Use the optimal value function to determine the best action in each state, thereby obtaining the optimal policy. A policy spells out an action (or probability distribution) given a state, pi(s) = a.
+    - $\pi^*(s) = \arg \max_a \left[R(s,a) + \gamma \sum_{s'} P(s' \mid s,a) V^*(s')\right]$
+- Policy iteration (the improved version)
+    - Value iteration requires to take the optimal action at each iteration. Policy iteration decouples policy evaluation and policy improvement. (每天进步一点点。)
+    - Policy evaluation evaluates V^pi, basically V based on policy (without max a! This is faster). Any initial policy would do. This is an iterative step, but faster as each step is taken based on a given policy instead of exploring all possible actions (max a).
+    - Policy improvement improves pi by generating pi’: greedily improve policy.
+    - Pros of Policy Iteration
+        - Can be more adaptable to changes in the environment. Once the initial policy evaluation step is done, the policy improvement step can quickly adjust to new data or changes in the urban environment.
+        - Convergence speed: Practically policy iteration is faster than value iteration. Each iteration of policy iteration can be more computationally intensive than value iteration due to the policy evaluation step but fewer iterations are needed overall.
+    
+## AlphaGo
