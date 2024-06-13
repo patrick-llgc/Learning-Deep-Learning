@@ -297,7 +297,7 @@
 ## Markov Decision Process
 
 - Why do we need decision making since we have planning already?
-    - keywords: interaction and uncertainty. This makes the world probabilistic
+    - keywords: interaction and uncertainty. This makes the world probabilistic. Mainly from dynamic objects. —> **Interaction is actually the most difficult part of autonomous driving**, making it harder than robotics. It is like playing a game with probabilistic world model.
     - If the world is deterministic (geometry), there is no decision making needed. Searching, sampling, and optimization should be good enough.
     - For stochastic strategy, then MDP or POMDP.
     - Like RL, need to understand the entire problem setting to design S, A, R, and E.
@@ -342,3 +342,54 @@
         - Convergence speed: Practically policy iteration is faster than value iteration. Each iteration of policy iteration can be more computationally intensive than value iteration due to the policy evaluation step but fewer iterations are needed overall.
     
 ## AlphaGo
+
+- Why MCTS? Why not value iteration and policy iteration?
+    - Value iteration is a systematic, iterative method that updates the value of EVERY state based on expected future rewards (or a search tree that has unlimited breadth and width like Dijkstra), whereas MCTS dynamically builds and explores a subset of the search tree through simulations, focusing on promising future actions.
+- MCTS vs value iteration
+    - MCTS balances exploration and exploitation (via UCB definition), where value iteration focuses only on exploitation, in an exhaustive search way for a controlled known environment.
+    - Value iteration is to MCTS as Dijkstra's algorithm is to (hybrid) A*: both value iteration and Dijkstra's systematically consider all possibilities (covering the entire search space) without heuristics, while MCTS and A* use heuristics to focus on the most promising options, making them more efficient for large and complex problems.
+    - Value iteration aims to find an optimal policy for all states. MCTS focuses on decision-making from the current state. MCTS terminates based on practical constraints like time or iterations.
+    - The fast rollout step in MCTS and the early termination (analytical expansion) in hybrid A* both serve to speed up their respective search processes by providing quick, approximate evaluations,
+- MCTS: Tree search
+    - Node: state
+    - root node: current stage
+    - leaf node: terminal or unexplored state
+    - edge: action leading to another node
+- MCTS: policy estimation, focuses on decision-making from the current state. It has 4 steps process of selection-expansion-simulation-backprop.
+    - **Selection**: Follow the most promising path based on previous simulations until you reach a leaf node (a position that hasn’t been fully explored yet).
+    - **Expansion**: add one or more child nodes to represent the possible next moves.
+    - **Simulation**: From the new node, play out a random game until the end (this is called a “rollout”).
+    - **Backpropagation**: Go back through the nodes on the path you took and update their values based on the result of the game. If you won, increase the value; if you lost, decrease it.
+- MCTS guided by value network and policy network.
+    - Value network reduce the search depth by summarizing values of sub-trees, so we can avoid going deep for good estimations. Policy network to prune search space. Balanced breadth and width.
+    - MCTS used both value network and reward from rollout.
+    - Policy network reduce the breadth of the search tree by identifying sensible moves, so we can avoid non-sensible moves.
+    - Value network V evaluates winning rate from a state (棋面).
+    - Trained with state-outcome pairs. Trained with much more self-play data to reduce overfit.
+    - Policy network evaluates action distribution
+    - Value network is more like instinct (heuristic), value network provides policy gradient to update policy network. Tesla learned collision network, and heuristic network for hybrid A-star.
+- With autonomous driving
+    - World model
+    - AlphaGo tells us how to extract very good policy with a good world model (simulation)
+    - Autonomous driving still needs a very good simulation to be able to leverage alphaGo algorithm. —> It this a dead end, vs FSD v12?
+    - Tesla AI day 2021 and 2022 are heavily affected by AlphaGo. FSDv12 is a totally different ballgame though.
+    - Go is limited and noiseless.
+- Policy networks
+    - P_s trained with SL, more like e2e
+    - P_p trained with SL, shallower for fast rollout in MCTS
+    - P_r trained with RL to play with P_s
+- Training vs Inference
+    - Training: PN + VN
+    - Inference: MCTS + PN + VN
+- Question: PN is essentially already e2e, why need VN and MCTS?
+    - My guess: Small scale SL generate PN not strong enough, so need RL and MCTS to boost performance.
+    - E2E demonstrates that with enough data, e2e SL can generate strong enough PN itself.
+    - Maybe later MCTS will come back again to generate superhuman behavior for driving.
+- Question: How to handle Prediction?
+    - Conventionally people convert it to geometry (predicted waypoints)
+    - A better way maybe treat it as the transition model and treat it in the decision making process. It can handle interaction quite well, but slow in compute.
+
+![](https://pic4.zhimg.com/80/v2-d12f62f37b841e68e87802f80db861d7_1440w.webp)
+- Alpha zero does not need SL to boostrap but purely relies on self-play to generate enough data.
+
+## Safe RL
