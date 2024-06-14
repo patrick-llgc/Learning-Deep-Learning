@@ -388,8 +388,42 @@
 - Question: How to handle Prediction?
     - Conventionally people convert it to geometry (predicted waypoints)
     - A better way maybe treat it as the transition model and treat it in the decision making process. It can handle interaction quite well, but slow in compute.
-
-![](https://pic4.zhimg.com/80/v2-d12f62f37b841e68e87802f80db861d7_1440w.webp)
 - Alpha zero does not need SL to boostrap but purely relies on self-play to generate enough data.
+- Reference
+    - very good [review at Zhihu](https://zhuanlan.zhihu.com/p/650009275)
+    - ![](https://pic4.zhimg.com/80/v2-d12f62f37b841e68e87802f80db861d7_1440w.webp)
 
-## Safe RL
+## Safe RL (from MobileEye)
+
+- How to guarantee safety? E2E or other SL-trained systems will lead to out of distribution prediction
+- AD is a multi-agent system.
+    - We can model it as a POMDP, as we cannot observe many states of the other agents.
+    - We can also model it as a MDP, if we build the other agents into the stochastic environment and the state transfer probability.
+- Safety RL
+    - RL learns desires (classification)
+    - Use desires for trajectory via opt with hard safety constraints. Thus safety.
+    - Option graph (DAG) to control lifecycle of desires.
+- Micro-action (steer, acc) typically has sparse reward: low signal to noise ratio, hard to learn. “Desire” macro action level goals can help stablize learning.
+
+## MPDM (multipolicy decision making)
+- Framework
+    - Multipolicy, policy is more like “desire” in safe RL, or semantic action.
+    - Forward simulation (like fast rollout in MCTS): Almost deterministic rollout.
+    - Evaluation: selection based on cost (progress cost + tail cost)
+- Hierarchical design: Desire + backend (trajectory optimizer or model based planner, e.g., IDM)
+    - State space explodes. Desire can improve SNR.
+- models other vehicles’ states as well. Action space also contains action from other vehicles.
+- States of each car 瞬时独立
+- How to simplify a complex decision system to some RT system
+    - Assuming if the “policy” of a vehicle is decided, then the action (trajectory) is determined.
+    - We need to have a prior distribution of how other car would choose each policy.
+- Cons:
+    - lifetime of policies.
+    - combinatorial explosion. need to find out key scenarios.
+- Maths tools
+    - Process: MDP, POMDP
+    - Problems: Decision making and planning
+    - Tools: research, sampling, optimization, Value iteration, policy iteration
+- Q: what is the relation between decision and planning?
+
+
