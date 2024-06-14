@@ -63,6 +63,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [AlphaZero: A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play](https://www.science.org/doi/full/10.1126/science.aar6404) <kbd>Science 2017</kbd> [DeepMind]
 - [MuZero: Mastering Atari, Go, chess and shogi by planning with a learned model](https://www.nature.com/articles/s41586-020-03051-4) <kbd>Nature 2020</kbd> [DeepMind]
 - [Safe, Multi-Agent, Reinforcement Learning for Autonomous Driving](https://arxiv.org/abs/1610.03295) [MobileEye, desire and traj optimization]
+- [Comprehensive Reactive Safety: No Need For A Trajectory If You Have A Strategy](https://arxiv.org/abs/2207.00198) <kbd>IROS 2022</kbd> [Da Fang, Qcraft]
 
 ## 2024-03 (11)
 - [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391) [[Notes](paper_notes/genie.md)] [DeepMind, World Model]

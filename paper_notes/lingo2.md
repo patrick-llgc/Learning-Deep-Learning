@@ -15,9 +15,13 @@ The paper claims that is is a strong first indication of the alignment between e
 
 
 #### Key ideas
-- Why languages? 
-	- Language opens up new possibilities for accelerating learning by incorporating a description of driving actions and causal reasoning into the model’s training. 
-	- Natural language interfaces could, even in the future, allow users to engage in conversations with the driving model, making it easier for people to understand these systems and build trust.
+- Why language?
+	- Accelerates training
+	- Offers explanability of E2E one model
+	- Offers controllability of E2E one model
+	
+> Language opens up new possibilities for accelerating learning by incorporating a description of driving actions and causal reasoning into the model’s training. In addition, natural language interfaces could, even in the future, allow users to engage in conversations with the driving model, making it easier for people to understand these systems and build trust.
+
 - Architecture
 	- the Wayve vision model processes camera images of consecutive timestamps into a sequence of tokens
 	- Auto-regressive language model. 
