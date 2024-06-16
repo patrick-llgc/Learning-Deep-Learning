@@ -67,3 +67,4 @@ The paper does have some drawbacks, such as limited discussion on handling highl
 #### Notes
 - The paper did not mention how reference lines are generated. Most likely hybrid A-star?
 - How is multimodal prediciton handled in ST-graph?
+- [Explanation by first author 樊昊阳](https://zhuanlan.zhihu.com/p/199719517)

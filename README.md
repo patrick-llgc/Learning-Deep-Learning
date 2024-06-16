@@ -37,6 +37,11 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 ## 2024-06 (0)
 - [LINGO-1: Exploring Natural Language for Autonomous Driving](https://wayve.ai/thinking/lingo-natural-language-autonomous-driving/) [[Notes](paper_notes/lingo1.md)] [Wayve, open-loop world model]
 - [LINGO-2: Driving with Natural Language](https://wayve.ai/thinking/lingo-2-driving-with-language/) [[Notes](paper_notes/lingo2.md)] [Wayve, closed-loop world model]
+- [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246) [open source RT-2]
+- [Parting with Misconceptions about Learning-based Vehicle Motion Planning](https://arxiv.org/abs/2306.07962) <kbd>CoRL 2023</kbd> [Simple non-learning based baseline]
+- [QuAD: Query-based Interpretable Neural Motion Planning for Autonomous Driving](https://arxiv.org/abs/2404.01486) [Waabi]
+- [Optimal Vehicle Trajectory Planning for Static Obstacle Avoidance using Nonlinear Optimization](https://arxiv.org/abs/2307.09466) [Xpeng]
+- [Jointly Learnable Behavior and Trajectory Planning for Self-Driving Vehicles](https://arxiv.org/abs/1910.04586) [[Notes](paper_notes/joint_learned_bptp.md)] <kbd>IROS 2019 Oral</kbd> [Uber ATG, behavioral planning, motion planning]
 - [Enhancing End-to-End Autonomous Driving with Latent World Model](https://arxiv.org/abs/2406.08481)
 - [OccNeRF: Advancing 3D Occupancy Prediction in LiDAR-Free Environments](https://arxiv.org/abs/2312.09243) [Jiwen Lu]
 - [RenderOcc: Vision-Centric 3D Occupancy Prediction with 2D Rendering Supervision](https://arxiv.org/abs/2309.09502) <kbd>ICRA 2024</kbd>
@@ -64,6 +69,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [MuZero: Mastering Atari, Go, chess and shogi by planning with a learned model](https://www.nature.com/articles/s41586-020-03051-4) <kbd>Nature 2020</kbd> [DeepMind]
 - [Safe, Multi-Agent, Reinforcement Learning for Autonomous Driving](https://arxiv.org/abs/1610.03295) [MobileEye, desire and traj optimization]
 - [Comprehensive Reactive Safety: No Need For A Trajectory If You Have A Strategy](https://arxiv.org/abs/2207.00198) <kbd>IROS 2022</kbd> [Da Fang, Qcraft]
+- [BEVGPT: Generative Pre-trained Large Model for Autonomous Driving Prediction, Decision-Making, and Planning](https://arxiv.org/abs/2310.10357) <kbd>AAAI 2024</kbd>
 
 ## 2024-03 (11)
 - [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391) [[Notes](paper_notes/genie.md)] [DeepMind, World Model]
@@ -116,7 +122,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Lifelong Language Pretraining with Distribution-Specialized Experts](https://arxiv.org/abs/2305.12281) <kbd>ICML 2023</kbd> [MoE, LLM]
 - [DriveLM: Drive on Language](https://arxiv.org/abs/2312.14150) [Hongyang Li]
 - [MotionLM: Multi-Agent Motion Forecasting as Language Modeling](https://arxiv.org/abs/2309.16534) <kbd>ICCV 2023</kbd> [Waymo, LLM + AD]
-- [Parting with Misconceptions about Learning-based Vehicle Motion Planning](https://arxiv.org/abs/2306.07962) <kbd>CoRL 2023</kbd> [Simple non-learning based baseline]
 - [AD-MLP: Rethinking the Open-Loop Evaluation of End-to-End Autonomous Driving in nuScenes](https://arxiv.org/abs/2305.10430) [No perception]
 - CubeLLM: align 2D/3D with language
 - EmerNeRF: ICLR 2024
@@ -626,7 +631,6 @@ Crosswalk Behavior](http://openaccess.thecvf.com/content_ICCV_2017_workshops/pap
 - [NMP: End-to-end Interpretable Neural Motion Planner](http://www.cs.toronto.edu/~wenjie/papers/cvpr19/nmp.pdf) [[Notes](paper_notes/nmp.md)] <kbd>CVPR 2019 oral</kbd> [Uber ATG]
 - [Multimodal Trajectory Predictions for Autonomous Driving using Deep Convolutional Networks](https://arxiv.org/abs/1809.10732) [[Notes](paper_notes/multipath_uber.md)] <kbd>ICRA 2019</kbd> [Henggang Cui, Multimodal, Uber ATG Pittsburgh]
 - [Uncertainty-aware Short-term Motion Prediction of Traffic Actors for Autonomous Driving](https://arxiv.org/abs/1808.05819) <kbd>WACV 2020</kbd> [Uber ATG Pittsburgh] 
-- [Jointly Learnable Behavior and Trajectory Planning for Self-Driving Vehicles](https://arxiv.org/abs/1910.04586) <kbd>IROS 2019 Oral</kbd> [Uber ATG, behavioral planning, motion planning]
 - [TensorMask: A Foundation for Dense Object Segmentation](https://arxiv.org/abs/1903.12174) [[Notes](paper_notes/tensormask.md)] <kbd>ICCV 2019</kbd> [single-stage instance seg]
 - [BlendMask: Top-Down Meets Bottom-Up for Instance Segmentation](https://arxiv.org/abs/2001.00309) [[Notes](paper_notes/blendmask.md)] <kbd>CVPR 2020 oral</kbd>
 - [Mask Encoding for Single Shot Instance Segmentation](https://arxiv.org/abs/2003.11712) [[Notes](paper_notes/meinst.md)] <kbd>CVPR 2020 oral</kbd> [single-stage instance seg, Chunhua Shen]

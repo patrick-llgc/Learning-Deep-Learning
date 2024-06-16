@@ -7,6 +7,8 @@ tl;dr: World model capable of multi-future video generation for autonomous drivi
 #### Overall impression
 A critical problem lies in effectively predicting the various potential outcomes that may emerge in response to the vehicle's action as the world evolves.One possible solution is to learn a world model. A **world model** is a predictive model of the future that learns a general representation of the world in order to understandn the consequences of its actions (or in other words, captures expected future events). **World modeling** has been used as a pretraining task to learn a compact and general representation in a self-supervised way. 
 
+GAIA-1's output is still limited to video domain. The input can be conditioned on action, making it a world model. In contrast, the follow-up work of [Lingo-2](lingo2.md) can output actions.
+
 Note that some generative models excel at generating visually convincing content, but they may fall short in learning representaing of the evolving world dynamics that are crucial for precissse and robust decision makeing in complex scenarios. --> Sora
 
 Why are world models useful?
