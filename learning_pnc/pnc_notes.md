@@ -406,6 +406,7 @@
 - Micro-action (steer, acc) typically has sparse reward: low signal to noise ratio, hard to learn. “Desire” macro action level goals can help stablize learning.
 
 ## MPDM (multipolicy decision making)
+- MPDM is a simplified MDP
 - Framework
     - Multipolicy, policy is more like “desire” in safe RL, or semantic action.
     - Forward simulation (like fast rollout in MCTS): Almost deterministic rollout.
@@ -420,10 +421,94 @@
 - Cons:
     - lifetime of policies.
     - combinatorial explosion. need to find out key scenarios.
-- Maths tools
+- General maths tools
     - Process: MDP, POMDP
     - Problems: Decision making and planning
     - Tools: research, sampling, optimization, Value iteration, policy iteration
-- Q: what is the relation between decision and planning?
 
+    
+    
+    
+# Decision under uncertainty
 
+- POMDP:
+    - curse of dimensionality
+    - curse of history: belief (not in MDP)
+- POMDP is a good formulation, but not necesariliy a good solution
+- EPSILON and MARC
+- Partial observability
+    - state (x, v, yaw, etc)
+    - hidden state (intention, pass/yield, etc): this needs to be estimated from measurement, with a filter.
+
+## POMDP problem formulation
+
+- MDP targets to find a policy that maximizes the expected cumulative reward over time.
+- POMDP can be formulated as MDP if the uncertainty is baked into transition probability.
+- Additional elements
+    - observation, that can be used to estimate state
+- MDP is a special kind of POMDP where observation is state.
+- Belief: state prob distribution
+- Example: tiger behind closed door.
+    - Action space: listen, open left, open right.
+    - What is the best strategy? Tipping point: expected reward changes.
+    - Belief update: filtering with handcrafted observation model.
+- Analogy:
+    - autonomous driving unprotected left turn, yield or pass. We can listen and observe.
+    - The game of Go is a perfect information game where all players have complete knowledge of the entire game state at all times. This is why it can be address as MDP.
+    - The game of Poker or starcraft are Imperfect Information games where they can only be modelled as POMDP where some information is hidden from one or more players.
+
+## Typical solutions to POMDP
+
+- Continuous state with belief MDP
+    - Put complexity into state transition, and solve with ML.
+- Normal solution: MPC, with limited lookup ahead (forward simulation).
+    - MCTS
+- Plan in MDP
+    - Assuming the most likely belief is the real state. In the ULT case, assuming the most likely behavior of the other car to be reality, and act accordingly.
+    - Cannot actively collect information. This is actually the charm of POMDP’s intelligence. POMDP will lead to some action that actively collects information.
+
+## EPSILON
+
+- 2019, perception even without BEV
+- Interactivity and uncertainty.
+    - In the context of motion planning, uncertainty typically refers to detection noise and the discrepancy between the actual state and its measurements.
+    - Interactivity refers to the dynamic and responsive nature of the environment or other agents within it, where the actions of one agent can directly influence the actions and decisions of others. In AD, the other traffic agents are noisily rationale.
+- Guided branching into POMDP to make it more efficient.
+- Background: lack of hard-core work in academia. 稀疏车流重拳出击，密集车流唯唯诺诺。
+- Formulation is complete, but solution can be more practical.
+    - Formulation要打满，然后solution再做近似。
+- Behavior planning and motion planning.
+    - BP
+        - guided branching: action branching and obs branching
+        - Scenario realization: forward simulation
+        - Evaluation: policy selection
+    - MP
+        - Generate a spatial temporal corridor (SSC): very good consistency
+        - Optimization
+        - Re-planning
+- Pros: Decision making, guided branching (most of work using State Machine at the time of 2019)
+- Formulation: POMDP for completeness, but complex math
+- Prediction model: intention prediction with LSTM
+- Tree structure driving policy
+    - MPDM: only one step, or tree with depth=1.
+- simplicity
+    - Ego: tree search with pruning
+    - Interaction: key scenario identification
+    - Agent: decouple intention out, controller for fine-grained control
+- Once we have branching, we can take risks, as long as we have a backup plan. —> Brilliant!
+- Prediction and planning are tightly coupled and hard to decouple.
+- Question:
+    - what is Guided?
+    - how is fine grained control or forward simulation achieved?
+- Cons:
+    - belief update (hidden states) of other agents are not updated.
+    - ML is not heavy.
+- Schools of planning
+    - Learning-based
+        - Complete end-to-end
+        - Hybrid system with model-based
+    - Model-based
+
+    
+    
+## MARC    
