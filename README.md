@@ -43,7 +43,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [MPDM: Multipolicy decision-making in dynamic, uncertain environments for autonomous driving](https://ieeexplore.ieee.org/document/7139412) <kbd>ICRA 2015</kbd> [Behavior planning]
 - [MPDM2: Multipolicy Decision-Making for Autonomous Driving via Changepoint-based Behavior Prediction](https://www.roboticsproceedings.org/rss11/p43.pdf) <kbd>RSS 2015</kbd> [Behavior planning]
 - [MPDM3: Multipolicy decision-making for autonomous driving via changepoint-based behavior prediction: Theory and experiment](https://link.springer.com/article/10.1007/s10514-017-9619-z) <kbd>RSS 2017</kbd> [Behavior planning]
-- [EUDM: Efficient Uncertainty-aware Decision-making for Automated Driving Using Guided Branching](https://arxiv.org/abs/2003.02746) <kbd>ICRA 2020</kbd> [Wenchao Ding, Shaojie Shen, Behavior planning]
+- [EUDM: Efficient Uncertainty-aware Decision-making for Automated Driving Using Guided Branching](https://arxiv.org/abs/2003.02746) [[Notes](paper_notes/eudm.md)] <kbd>ICRA 2020</kbd> [Wenchao Ding, Shaojie Shen, Behavior planning]
 - [TPP: Tree-structured Policy Planning with Learned Behavior Models](https://arxiv.org/abs/2301.11902) <kbd>ICRA 2023</kbd> [Marco Pavone, Nvidia, Behavior planning]
 - [MARC: Multipolicy and Risk-aware Contingency Planning for Autonomous Driving](https://arxiv.org/abs/2308.12021) [[Notes](paper_notes/marc.md)] <kbd>RAL 2023</kbd> [Shaojie Shen, Behavior planning]
 - [trajdata: A Unified Interface to Multiple Human Trajectory Datasets](https://arxiv.org/abs/2307.13924) <kbd>NeurIPS 2023</kbd> [Marco Pavone, Nvidia]
