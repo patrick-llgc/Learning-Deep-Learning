@@ -302,6 +302,7 @@
     - For stochastic strategy, then MDP or POMDP.
     - Like RL, need to understand the entire problem setting to design S, A, R, and E.
     - To do e2e, we need to understand the decision making system first.
+- Does it mean that for dynamic objects we must need decision? Not necessarily. Consider objects moving on known rails with constant known speed (or if we treat multimodal prediction as certainty hard constraint), then pure planning methods can solve it and we do not need decision making at all.
 - Every decision is a bunch/cluster of planning.
 - “Freezing robot”: prediction fills the entire S-T. 华山挤出一条路。Geometry —> Probability to the rescue.
 - Markov process (MP)
@@ -511,4 +512,34 @@
 
     
     
-## MARC    
+## MARC
+
+- Improvement to EPSILON, safer.
+    - Added ability to handle multimodal interaction
+    - Consider risk preference in planning (driving style, such as defensive driving)
+        - Risk-aware contingency planning (RCP)
+        - More aggressive policy generation
+- Architecture
+    - Perception and prediction
+    - Scenario set and scenario tree generation (key scenario)
+    - RCP
+    - Evaluation to select the best one
+- Motivating example: Defensive driving, nudge but do not slow down.
+- Consolidate scenarios where ego trajectory is similar. Postpone bifurcation point.
+- Traditional planning, min expectation of scenarios, and can take risk actions
+    - solution: introduce risk evaluation, to adjust driving behavior.
+- Cons
+    - scenarios still suffers from combination explosion
+    - limited capability to forward simulation to handle complex interaction.
+
+    
+# Q&A for model-based planning
+
+- Epsilon and Marc: generate coarse trajectory, then feed into optimization for refinement.
+- Epsilon: forward simulation suitable for structured road. For parking scenario, the forward simulation model needs to be replaced.
+- After optimization, typically we should add constraint not to derivate too much from behavior planning.
+- End-to-end does not have explicit decision making or behavior planning module.
+- The ML trend of planning is unavoidable. What is the degree of end-to-end depends on the definition.
+- Agent behavior: PP (pure pursuit), IDM or NPC AI.
+    - Waymo Simulation challenge
+    - https://waymo.com/open/challenges/2024/sim-agents/    
