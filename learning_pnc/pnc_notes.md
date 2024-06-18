@@ -543,3 +543,36 @@
 - Agent behavior: PP (pure pursuit), IDM or NPC AI.
     - Waymo Simulation challenge
     - https://waymo.com/open/challenges/2024/sim-agents/    
+
+    
+    
+# Tesla AI day
+
+## 2021
+
+- Why ML?
+    - It is really tedious and hard to design globally optimal heuristic
+    - We want the NN to give it for us
+    - MuZero and alphaZero
+- Hybrid planning system
+    - vector space —> coarse search —> convex corridor —> continuous optimization —> smooth trajectory
+    - goal: balancing comfort, safety and making the turn
+- Plan for ego and all agents.
+
+## 2022
+
+- “...and humans are really good at this we look at a scene understand all the possible interactions evaluate the most promising ones and generally end up choosing a reasonable one.”
+- Assert to or yield to a traffic agent.
+- Starting with goals, generate seed trajectories, and evaluate key scenarios, then branch out to have more scenario variants.
+- For each node, use physics based optimization and neural planner. 10 ms vs 100 us. x10-x100 order improvement
+    - neural network is trained with expert demos and offline optimzers
+- Efficiently prune the search space
+- Trajectory scoring
+    - classical: collision checks, comfort analysis
+    - intervention likelihood
+    - human likeness
+- Pruning helps the compute on the most promising outcomes.
+- Hybrid system with data-driven and physics-based checks.
+- My takeaways:
+    - Most people would argue that ML should be applied to high level decision making, but Tesla actually used ML in the most fundamental way to accelerate optimization and thus tree search.
+    - The MCTS methods seems to be the ultimate tool to decision making. It seems that people studying LLM are trying to get MCTS into LLM, but people working on AD are trying to get rid of MCTS for LLM.
