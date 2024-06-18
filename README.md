@@ -40,6 +40,13 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246) [open source RT-2]
 - [Parting with Misconceptions about Learning-based Vehicle Motion Planning](https://arxiv.org/abs/2306.07962) <kbd>CoRL 2023</kbd> [Simple non-learning based baseline]
 - [QuAD: Query-based Interpretable Neural Motion Planning for Autonomous Driving](https://arxiv.org/abs/2404.01486) [Waabi]
+- [MPDM: Multipolicy decision-making in dynamic, uncertain environments for autonomous driving](https://ieeexplore.ieee.org/document/7139412) <kbd>ICRA 2015</kbd> [Behavior planning]
+- [MPDM2: Multipolicy Decision-Making for Autonomous Driving via Changepoint-based Behavior Prediction](https://www.roboticsproceedings.org/rss11/p43.pdf) <kbd>RSS 2015</kbd> [Behavior planning]
+- [MPDM3: Multipolicy decision-making for autonomous driving via changepoint-based behavior prediction: Theory and experiment](https://link.springer.com/article/10.1007/s10514-017-9619-z) <kbd>RSS 2017</kbd> [Behavior planning]
+- [EUDM: Efficient Uncertainty-aware Decision-making for Automated Driving Using Guided Branching](https://arxiv.org/abs/2003.02746) <kbd>ICRA 2020</kbd> [Wenchao Ding, Shaojie Shen, Behavior planning]
+- [TPP: Tree-structured Policy Planning with Learned Behavior Models](https://arxiv.org/abs/2301.11902) <kbd>ICRA 2023</kbd> [Marco Pavone, Nvidia, Behavior planning]
+- [MARC: Multipolicy and Risk-aware Contingency Planning for Autonomous Driving](https://arxiv.org/abs/2308.12021) [[Notes](paper_notes/marc.md)] <kbd>RAL 2023</kbd> [Shaojie Shen, Behavior planning]
+- [trajdata: A Unified Interface to Multiple Human Trajectory Datasets](https://arxiv.org/abs/2307.13924) <kbd>NeurIPS 2023</kbd> [Marco Pavone, Nvidia]
 - [Optimal Vehicle Trajectory Planning for Static Obstacle Avoidance using Nonlinear Optimization](https://arxiv.org/abs/2307.09466) [Xpeng]
 - [Jointly Learnable Behavior and Trajectory Planning for Self-Driving Vehicles](https://arxiv.org/abs/1910.04586) [[Notes](paper_notes/joint_learned_bptp.md)] <kbd>IROS 2019 Oral</kbd> [Uber ATG, behavioral planning, motion planning]
 - [Enhancing End-to-End Autonomous Driving with Latent World Model](https://arxiv.org/abs/2406.08481)
@@ -59,11 +66,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [基于改进混合A*的智能汽车时空联合规划方法](https://www.qichegongcheng.com/CN/abstract/abstract1500.shtml) <kbd>汽车工程: 规划&决策2023年</kbd> [Joint optimization, search]
 - [Enable Faster and Smoother Spatio-temporal Trajectory Planning for Autonomous Vehicles in Constrained Dynamic Environment](https://journals.sagepub.com/doi/abs/10.1177/0954407020906627) <kbd>JAE 2020</kbd> [Joint optimization, search]
 - [Focused Trajectory Planning for Autonomous On-Road Driving](https://www.ri.cmu.edu/pub_files/2013/6/IV2013-Tianyu.pdf) <kbd>IV 2013</kbd> [Joint optimization, Iteration]
-- [SSC: Safe Trajectory Generation for Complex Urban Environments Using Spatio-Temporal Semantic Corridor](https://arxiv.org/abs/1906.09788) <kbd>RAL 2019</kbd> [Joint optimization, SSC, Wenchao Ding]
-- [MPDM: Multipolicy decision-making in dynamic, uncertain environments for autonomous driving](https://ieeexplore.ieee.org/document/7139412) <kbd>ICRA 2015</kbd>
-- [MPDM2: Multipolicy Decision-Making for Autonomous Driving via Changepoint-based Behavior Prediction](https://www.roboticsproceedings.org/rss11/p43.pdf) <kbd>RSS 2015</kbd>
-- [MPDM3: Multipolicy decision-making for autonomous driving via changepoint-based behavior prediction: Theory and experiment](https://link.springer.com/article/10.1007/s10514-017-9619-z) <kbd>RSS 2017</kbd>
-- [EUDM: Efficient Uncertainty-aware Decision-making for Automated Driving Using Guided Branching](https://arxiv.org/abs/2003.02746) <kbd>ICRA 2020</kbd> [Wenchao Ding]
+- [SSC: Safe Trajectory Generation for Complex Urban Environments Using Spatio-Temporal Semantic Corridor](https://arxiv.org/abs/1906.09788) <kbd>RAL 2019</kbd> [Joint optimization, SSC, Wenchao Ding, Motion planning]
 - [AlphaGo: Mastering the game of Go with deep neural networks and tree search](https://www.nature.com/articles/nature16961) <kbd>Nature 2016</kbd> [DeepMind, MTCS]
 - [AlphaZero: A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play](https://www.science.org/doi/full/10.1126/science.aar6404) <kbd>Science 2017</kbd> [DeepMind]
 - [MuZero: Mastering Atari, Go, chess and shogi by planning with a learned model](https://www.nature.com/articles/s41586-020-03051-4) <kbd>Nature 2020</kbd> [DeepMind]
