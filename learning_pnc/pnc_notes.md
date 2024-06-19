@@ -12,7 +12,7 @@
     - Model-inspired leanring methods
 - Planning of ego for next 8-10s. Need to do prediction.
 - Prediction KPI
-    - recall and precision on instance/event level, and their tradeoff.  误抢，误让
+    - recall and precision on instance/event level, and their tradeoff. 误抢，误让，误绕
     - ADE and FDE not good metrics.
     - The tradeoff typically calls for a hybrid system model, learning vs model-based.
 - Interaction: multimodality and uncertainty
@@ -29,7 +29,7 @@
         - scenarios
     - Agent to map, agent to agent interaction.
 
-# Constant velocity
+## Constant velocity
 
 - System evolution
     - 1st: CV and CT, baseline for fallback
@@ -106,6 +106,7 @@
 # Path and Trajectory planning
 
 - 路径轨迹规划三板斧：搜索，采样，优化. Typical planning methods, search, sampling, optimization)
+- PNC三大目标：安全，舒适，高效 (safety, comfort and efficiency)
 - trajectory = path + speed
 
 ## Search
@@ -129,7 +130,7 @@
     - Need N discrete control action, e.g., discrete curvature.
     - Pruning: Multiple action history may lead to the same grid. Need pruning of action history to keep the lowest cost one.
     - Early stopping (analytical expansion, shot to goal): This is another key innovation in hybrid A-star. The analogy in A-star search algorithm is if we can connect the last popped node to the goal using a non-colliding straight line, we have found the solution. In hybrid A-star, the straight line is replaced by Dubins and RS (Reeds Shepp) curves. Maybe suboptimal but it focuses more on the feasibility on the further side. (近端要求最优性，远端要求可行性。)
-    - Hybrid A-star: Path Planning for Autonomous Vehicles in Unknown Semi-structured Environments <kbd>IJRR 2010</kbd> [Dolgov, Thrun, Searching]
+    - [Hybrid A-star: Path Planning for Autonomous Vehicles in Unknown Semi-structured Environments](https://www.semanticscholar.org/paper/Path-Planning-for-Autonomous-Vehicles-in-Unknown-Dolgov-Thrun/0e8c927d9c2c46b87816a0f8b7b8b17ed1263e9c) <kbd>IJRR 2010</kbd> [Dolgov, Thrun, Searching]
 - Dubins and RS curves
     - Dubins is essentially (arch-line-arch). RS curve improves Dubins curve by adding reverse motion.
 - Holonomic vs non-holonomic (完整约束和非完整约束）
@@ -162,7 +163,7 @@
         - actually 5th polynomial (wrt time, not y wrt x!) is the optimal solution to a much more broader range of control problem.
     - Optimization by sampling. If we already know 5th polynomial is optimal, we can sample in this space and find the one with min cost to get the approximate solution.
     - Speed scenarios
-        - High speed traj (5-6 m/s+): lateral s(t) and longitudinal d(t) can be treated as decoupled, and can be calculated independently.
+        - High speed traj (5-6 m/s+): lateral d(t) and longitudinal s(t) (station) can be treated as decoupled, and can be calculated independently.
         - Low speed traj: lateral and longitudinal are tightly coupled, and bounded by kinematics. If sampled independently, curvature may not be physically possible. Remedy: focus on s(t) and d(s(t)).
     - Eval and check after sampling
         - Selection based on min Cost
@@ -295,13 +296,13 @@
 
 # Decision Making
 ## Markov Decision Process
-
 - Why do we need decision making since we have planning already?
     - keywords: interaction and uncertainty. This makes the world probabilistic. Mainly from dynamic objects. —> **Interaction is actually the most difficult part of autonomous driving**, making it harder than robotics. It is like playing a game with probabilistic world model.
-    - If the world is deterministic (geometry), there is no decision making needed. Searching, sampling, and optimization should be good enough.
+    - If the world is deterministic (geometry), there is no decision making needed, and planning itself (searching, sampling, and optimization) should be good enough.
     - For stochastic strategy, then MDP or POMDP.
-    - Like RL, need to understand the entire problem setting to design S, A, R, and E.
+    - Like RL, need to understand the entire problem setting to design S, A, R, and E. Need to understand the problem and then design RL system.
     - To do e2e, we need to understand the decision making system first.
+	- The problem with prediction-then-plan: the world is deterministic, this will lead to reckless behavior. Prediction actually has motion-level and even intent-level uncertainty.
 - Does it mean that for dynamic objects we must need decision? Not necessarily. Consider objects moving on known rails with constant known speed (or if we treat multimodal prediction as certainty hard constraint), then pure planning methods can solve it and we do not need decision making at all.
 - Every decision is a bunch/cluster of planning.
 - “Freezing robot”: prediction fills the entire S-T. 华山挤出一条路。Geometry —> Probability to the rescue.
@@ -333,7 +334,7 @@
     - Value iteration as the vanilla approach and gives the feasibility (like Dijkstra) but typically not useful in practice.
     - Reward is typically certain, but discount factor (far-sighted or short-sighted) and uncertainty would affect policy severely.
     - Value iteration to optimal policy: Use the optimal value function to determine the best action in each state, thereby obtaining the optimal policy. A policy spells out an action (or probability distribution) given a state, pi(s) = a.
-    - $\pi^*(s) = \arg \max_a \left[R(s,a) + \gamma \sum_{s'} P(s' \mid s,a) V^*(s')\right]$
+        - $\pi^*(s) = \arg \max_a \left[R(s,a) + \gamma \sum_{s'} P(s' \mid s,a) V^*(s')\right]$
 - Policy iteration (the improved version)
     - Value iteration requires to take the optimal action at each iteration. Policy iteration decouples policy evaluation and policy improvement. (每天进步一点点。)
     - Policy evaluation evaluates V^pi, basically V based on policy (without max a! This is faster). Any initial policy would do. This is an iterative step, but faster as each step is taken based on a given policy instead of exploring all possible actions (max a).
