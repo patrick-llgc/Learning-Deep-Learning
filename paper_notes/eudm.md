@@ -11,16 +11,18 @@ In order to make POMDP more tractable it is essential to incorporate domain know
 
 In EUDM, ego behavior is allowed to change, allowing more flexible decision making than MPDM. This allows EUDM can make a lane-change decision even before passing the blocking vehicle (accelerate, then lane change).
 
+EUDM does guided branching in both action (of ego) and intention (of others).
+
 EUDM couples prediction and planning module. 
 
 It is further improved by [MARC](marc.md) where it considers risk-aware contingency planning.
 
 #### Key ideas
-- DCP-Tree (domain specific closed-loop policy tree)
+- DCP-Tree (domain specific closed-loop policy tree), ego-centric
 	- Guided branching in action space
 	- Each trace only contains ONE change of action (more flexible than MPDM but still manageable).
 	- Each semantic action is 2s, 4 levels deep, so planning horizon of 8s.
-- CFB (conditional focused branching)
+- CFB (conditional focused branching), for other agents
 	- conditioned on ego intention
 	- Pick out the potentially risky scenarios using **open loop** safety assement. (Open loop ignores interaction among agents, and allows checking of how serious the situation wil be if surrounding agents are completely uncoorpoerates and does not react to other agents.)
 	- select key vehicles first, only a subset of all vehicles. --> Like Tesla's AI day 2022.

@@ -27,6 +27,7 @@ POMDP provides a theoretically sounds framework to handle dynamic interaction, b
 - Trajectory tree generation with RCP
 	- RCP (risk-aware contingency planning) considers tradeoff beween conservativeness and efficiency.
 	- RCP generates trajectories that are optimal in multiple future scenarios under user-defined risk-averse levels. --> This can mimic human preference.
+	- Risk tolerance levels of the users is controlled by a hyperpraram alpha.
 - Evalution
 	- Selection based on both policy tree and trajectory tree (new!), ensuring consistency of policies
 - MARC are more robust under uncertain interactions and fewer unexpected policy switches

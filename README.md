@@ -34,13 +34,13 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2024-06 (0)
+## 2024-06 (7)
 - [LINGO-1: Exploring Natural Language for Autonomous Driving](https://wayve.ai/thinking/lingo-natural-language-autonomous-driving/) [[Notes](paper_notes/lingo1.md)] [Wayve, open-loop world model]
 - [LINGO-2: Driving with Natural Language](https://wayve.ai/thinking/lingo-2-driving-with-language/) [[Notes](paper_notes/lingo2.md)] [Wayve, closed-loop world model]
 - [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246) [open source RT-2]
 - [Parting with Misconceptions about Learning-based Vehicle Motion Planning](https://arxiv.org/abs/2306.07962) <kbd>CoRL 2023</kbd> [Simple non-learning based baseline]
 - [QuAD: Query-based Interpretable Neural Motion Planning for Autonomous Driving](https://arxiv.org/abs/2404.01486) [Waabi]
-- [MPDM: Multipolicy decision-making in dynamic, uncertain environments for autonomous driving](https://ieeexplore.ieee.org/document/7139412) <kbd>ICRA 2015</kbd> [Behavior planning]
+- [MPDM: Multipolicy decision-making in dynamic, uncertain environments for autonomous driving](https://ieeexplore.ieee.org/document/7139412) <kbd>ICRA 2015</kbd> [Behavior planning, UMich, May Autonomy]
 - [MPDM2: Multipolicy Decision-Making for Autonomous Driving via Changepoint-based Behavior Prediction](https://www.roboticsproceedings.org/rss11/p43.pdf) <kbd>RSS 2015</kbd> [Behavior planning]
 - [MPDM3: Multipolicy decision-making for autonomous driving via changepoint-based behavior prediction: Theory and experiment](https://link.springer.com/article/10.1007/s10514-017-9619-z) <kbd>RSS 2017</kbd> [Behavior planning]
 - [EUDM: Efficient Uncertainty-aware Decision-making for Automated Driving Using Guided Branching](https://arxiv.org/abs/2003.02746) [[Notes](paper_notes/eudm.md)] <kbd>ICRA 2020</kbd> [Wenchao Ding, Shaojie Shen, Behavior planning]
