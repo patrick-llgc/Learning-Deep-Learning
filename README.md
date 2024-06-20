@@ -34,7 +34,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
-## 2024-06 (7)
+## 2024-06 (8)
 - [LINGO-1: Exploring Natural Language for Autonomous Driving](https://wayve.ai/thinking/lingo-natural-language-autonomous-driving/) [[Notes](paper_notes/lingo1.md)] [Wayve, open-loop world model]
 - [LINGO-2: Driving with Natural Language](https://wayve.ai/thinking/lingo-2-driving-with-language/) [[Notes](paper_notes/lingo2.md)] [Wayve, closed-loop world model]
 - [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246) [open source RT-2]
@@ -49,6 +49,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [trajdata: A Unified Interface to Multiple Human Trajectory Datasets](https://arxiv.org/abs/2307.13924) <kbd>NeurIPS 2023</kbd> [Marco Pavone, Nvidia]
 - [Optimal Vehicle Trajectory Planning for Static Obstacle Avoidance using Nonlinear Optimization](https://arxiv.org/abs/2307.09466) [Xpeng]
 - [Jointly Learnable Behavior and Trajectory Planning for Self-Driving Vehicles](https://arxiv.org/abs/1910.04586) [[Notes](paper_notes/joint_learned_bptp.md)] <kbd>IROS 2019 Oral</kbd> [Uber ATG, behavioral planning, motion planning]
+- [HiVT: Hierarchical Vector Transformer for Multi-Agent Motion Prediction]
 - [Enhancing End-to-End Autonomous Driving with Latent World Model](https://arxiv.org/abs/2406.08481)
 - [OccNeRF: Advancing 3D Occupancy Prediction in LiDAR-Free Environments](https://arxiv.org/abs/2312.09243) [Jiwen Lu]
 - [RenderOcc: Vision-Centric 3D Occupancy Prediction with 2D Rendering Supervision](https://arxiv.org/abs/2309.09502) <kbd>ICRA 2024</kbd>
@@ -246,6 +247,8 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [BEVDepth: Acquisition of Reliable Depth for Multi-view 3D Object Detection](https://arxiv.org/abs/2206.10092) [[Notes](paper_notes/bevdepth.md)] [BEVNet, NuScenes SOTA, Megvii]
 - [CVT: Cross-view Transformers for real-time Map-view Semantic Segmentation](https://arxiv.org/abs/2205.02833) [[Notes](paper_notes/cvt.md)] <kbd>CVPR 2022 oral</kbd> [UTAustin, Philipp]
 - [Wayformer: Motion Forecasting via Simple & Efficient Attention Networks](https://arxiv.org/abs/2207.05844) [[Notes](paper_notes/wayformer.md)] [Behavior prediction, Waymo]
+- [Hivt: Hierarchical vector transformer for multi-agent motion prediction](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhou_HiVT_Hierarchical_Vector_Transformer_for_Multi-Agent_Motion_Prediction_CVPR_2022_paper.pdf) <kbd>CVPR 2022</kbd> [Zikang Zhou, agent-centric, motion prediction]
+- [QCNet: Query-Centric Trajectory Prediction](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_Query-Centric_Trajectory_Prediction_CVPR_2023_paper.pdf) <kbd>CVPR 2023</kbd> [Zikang Zhou, scene-centric, motion prediction]
 
 ## 2022-06 (3)
 - [BEVDet4D: Exploit Temporal Cues in Multi-camera 3D Object Detection](https://arxiv.org/abs/2203.17054) [[Notes](paper_notes/bevdet4d.md)] [BEVNet]
@@ -1519,7 +1522,6 @@ Feature Extraction](https://arxiv.org/abs/2010.02893) [monodepth, semantics, Nav
 - [SAM: Segment Anything](https://arxiv.org/abs/2304.02643) [FAIR]
 - [GeoMIM: Towards Better 3D Knowledge Transfer via Masked Image Modeling for Multi-view 3D Understanding](https://arxiv.org/abs/2303.11325)
 - [Motion Prediction using Trajectory Sets and Self-Driving Domain Knowledge](https://arxiv.org/abs/2006.04767) [Encode Road requirement to prediction]
-- [Hivt: Hierarchical vector transformer for multi-agent motion prediction](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhou_HiVT_Hierarchical_Vector_Transformer_for_Multi-Agent_Motion_Prediction_CVPR_2022_paper.pdf) <kbd>CVPR 2022</kbd>
 - [Transformer Feed-Forward Layers Are Key-Value Memories](https://arxiv.org/abs/2012.14913) <kbd>EMNLP 2021</kbd>
 - [BEV-LaneDet: a Simple and Effective 3D Lane Detection Baseline](https://arxiv.org/abs/2210.06006) <kbd>CVPR 2023</kbd> [BEVNet]
 - [Exploring Recurrent Long-term Temporal Fusion for Multi-view 3D Perception](https://arxiv.org/abs/2303.05970) [BEVNet, megvii]

@@ -33,5 +33,4 @@ Despite simple design, MPDM is a pioneering work in decision making, and improve
 - Summary of technical details, such as important training details, or bugs of previous benchmarks.
 
 #### Notes
-- Questions and notes on how to improve/revise the current work
-
+- The white paper from [May Mobility](https://maymobility.com/resources/autonomy-at-scale-white-paper/) explains the idea with more plain language and examples. 

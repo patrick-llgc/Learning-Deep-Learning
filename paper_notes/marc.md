@@ -7,18 +7,25 @@ tl;dr: Generating safe and non-conservative behaviors in dense dynamic environme
 #### Overall impression
 This is a continuation of work in [MPDM](mpdm.md) and [EUDM](eudm.md). It introduces dynamic branching based on scene-level divergence, and risk-aware contingency planning based on user-defined risk tolerance.
 
-POMDP provides a theoretically sounds framework to handle dynamic interaction, but it suffers from curse of dimensionality and making it infeasible to solve in realtime.
+POMDP provides a theoretically sounds framework to handle dynamic interaction, but it suffers from curse of dimensionality and making it infeasible to solve in realtime. 
 
-* [MPDM](mpdm.md) prunes belief trees heavily and decomposes POMDP into a limited number of closed-loop policy evaluations. MPDM has only one ego policy over planning horizon (8s). Mainly BP. 
-* EUDM improves by having multiple (2) policy in planning horizon, and performs DCP-Tree and CFB (conditoned focused branching) to use domain specific knowledge to guide branching in both action and intention space. Mainly BP.
-* MARC performs risk-aware contigency planning based on multiple scenarios. And it combines BP and MP.
-	* All previous MPDM-like methods consider the optimal policy and single trajectory generation over all scenarios, resulting in lack of gurantee of policy consistency and loss of multimodality info.
+[MPDM](mpdm.md) and [EUDM](eudm.md) are mainly BP models, but [MARC](marc.md) combines BP and MP.
+
+ belief trees heavily and decomposes POMDP into a limited number of closed-loop policy evaluations.
+
+For the policy tree (or policy-conditioned scenario tree) building, we can see how the tree got built with more and more careful pruning process with improvements from different works. 
+
+* [MPDM](mpdm.md) is the pioneering work prunes belief trees heavily and decomposes POMDP into a limited number of closed-loop policy evaluations. MPDM has only one ego policy over planning horizon (8s).
+* [MPDM](mpdm.md) iterates over all ego policies, and uses the most likely one policy given road structure and pose of vehicle.
+* [MPDM2](mpdm2.md) iterates over all ego policies, and iterate over (a set of) possible policies of other agents predicted by a motion prediction model.
+* [EUDM](eudm.md) itrates all ego policies, and then iterate over all possible policies of other agents to identify **critical scenarios** (CFB, conditioned filtered branching). Guide branching in both action and intention space. [EPSILON](epsilon.md) used the same method.
+* [MARC](marc.md) iterates all ego policies, iterates over a set of predicted policies of other agents, identifies **key agents** (and ignores other agents even in critical scenarios). 
+
+
+All previous MPDM-like methods consider the optimal policy and single trajectory generation over all scenarios, resulting in lack of gurantee of policy consistency and loss of multimodality info.
 
 #### Key ideas
-- Planning is hard from uncertainty and interaction (inherently multimodal intentions). 
-	- For interactive decision making, MDP or POMDP are mathematically rigorous formulations for decision processes in stochastic environments. 
-	- For static (non-interactive) decision making, the normal trioka of planninig (sampling, searching, optimization) would suffice.
-- *Contigency planning* generates deterministic behavior for mulutiple future scenarios. In other words, it plans a short-term trajectory that ensures safety for all potential scenarios.
+- *Contigency planning* generates deterministic behavior for mulutiple future scenarios. In other words, it plans a short-term trajectory that ensures safety for all potential scenarios. --> This is very similar to the idea of *backup plan* in [EPSILON](epsilon.md).
 - Scenario tree construction
 	- generating policy-conditioned critical scenario sets via closed-loop forward simulation (similar to CFB in EUDM?).
 	- building scenario tree with scene-level divergence assessment. Determine the latest timestamp at which the scenario diverge. Delaying branching time as much as possble.
@@ -35,7 +42,9 @@ POMDP provides a theoretically sounds framework to handle dynamic interaction, b
 	- with better effiency (avg speed) and riding comfort (max decel/acc).
 
 #### Technical details
-- Summary of technical details, such as important training details, or bugs of previous benchmarks.
+- Planning is hard from uncertainty and interaction (inherently multimodal intentions). 
+	- For interactive decision making, MDP or POMDP are mathematically rigorous formulations for decision processes in stochastic environments. 
+	- For static (non-interactive) decision making, the normal trioka of planninig (sampling, searching, optimization) would suffice.
 
 #### Notes
 - Questions and notes on how to improve/revise the current work

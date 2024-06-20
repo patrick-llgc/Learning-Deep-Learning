@@ -5,18 +5,9 @@ _June 2024_
 tl;dr: Improvement of MPDM in predicting the intention of other vehicles.
 
 #### Overall impression
-The majority is the same as the previous work [MPDM](mpdm.md). 
+The majority is the same as the previous work [MPDM](mpdm.md). There is a follow up article on this as well [MPDM3](https://link.springer.com/article/10.1007/s10514-017-9619-z) which expands [MPDM2](mpdm2.md) with more experiments, but with the same methodology.
 
-For the policy tree (or policy-conditioned scenario tree) building, we can see how the tree got built with more and more careful pruning process with improvements from different works.
-
-* [MPDM](mpdm.md) iterates over all ego policies, and uses the most likely one policy given road structure and pose of vehicle.
-* [MPDM2](mpdm2.md) iterates over all ego policies, and iterate over (a set of) possible policies of other agents predicted by a motion prediction model.
-* [EUDM](eudm.md) itrates all ego policies, and then iterate over all possible policies of other agents to identify **critical scenarios** (CFB, conditioned filtered branching). [EPSILON](epsilon.md) used the same method.
-* [MARC](marc.md) iterates all ego policies, iterates over a set of predicted policies of other agents, identifies **key agents** (and ignores other agents even in critical scenarios). 
-
-
-![](https://pic3.zhimg.com/80/v2-a7778368cbf39f083ef5ad5a2f931a4e_1440w.webp)
-
+So the main idea of MPDM is already covered in the original short paper [MPDM](mpdm.md).
 
 #### Key ideas
 - Motion prediction of other agents with a classical ML methods (Maximum likelihood estimation).

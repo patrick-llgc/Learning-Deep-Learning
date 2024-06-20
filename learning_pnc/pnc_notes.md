@@ -2,7 +2,7 @@
 
 ## Introduction
 - The notes were taken for the [Prediction, Decision and Planning for Autonomous driving](https://www.shenlanxueyuan.com/course/671) from Shenlan Xueyuan mooc course.
-- The lecturer is [Wenchao Ding](website: https://wenchaoding.github.io/personal/index.html), former engineer at Huawei and not AP at Fudan University.
+- The lecturer is [Wenchao Ding](website: https://wenchaoding.github.io/personal/index.html), former engineer at Huawei and now AP at Fudan University.
 
 # Model-based Prediction
 ## Overview
@@ -463,11 +463,13 @@
 
 - Continuous state with belief MDP
     - Put complexity into state transition, and solve with ML.
-- Normal solution: MPC, with limited lookup ahead (forward simulation).
-    - MCTS
+- Normal solution: MPC-like , with limited lookup ahead (forward simulation).
+    - MCTS with forward simulation
+    - The complexity lies in multi-agent interaction roll out, and branching out
+    - MPC: receding horizon planning
 - Plan in MDP
-    - Assuming the most likely belief is the real state. In the ULT case, assuming the most likely behavior of the other car to be reality, and act accordingly.
-    - Cannot actively collect information. This is actually the charm of POMDP’s intelligence. POMDP will lead to some action that actively collects information.
+    - Approximate POMDP as MDP. Assuming the most likely belief argmax(b) is the real state. In the ULT case, assuming the most likely behavior of the other car to be reality, and act accordingly.
+    - MDP cannot actively collect information. This is actually the charm of POMDP’s intelligence. POMDP will lead to some action that actively collects information.
 
 ## EPSILON
 

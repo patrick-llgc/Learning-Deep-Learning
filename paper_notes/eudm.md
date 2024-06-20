@@ -11,6 +11,9 @@ In order to make POMDP more tractable it is essential to incorporate domain know
 
 In EUDM, ego behavior is allowed to change, allowing more flexible decision making than MPDM. This allows EUDM can make a lane-change decision even before passing the blocking vehicle (accelerate, then lane change).
 
+![](https://pic3.zhimg.com/80/v2-a7778368cbf39f083ef5ad5a2f931a4e_1440w.webp)
+
+
 EUDM does guided branching in both action (of ego) and intention (of others).
 
 EUDM couples prediction and planning module. 
@@ -20,7 +23,7 @@ It is further improved by [MARC](marc.md) where it considers risk-aware continge
 #### Key ideas
 - DCP-Tree (domain specific closed-loop policy tree), ego-centric
 	- Guided branching in action space
-	- Each trace only contains ONE change of action (more flexible than MPDM but still manageable).
+	- Each trace only contains ONE change of action (more flexible than MPDM but still manageable). This is a tree with pruning mechanism built-in. [MCDM](mcdm.md) essentially has a much more aggressive pruning as only one type of action is allowed (KKK, RRR, LLL, etc)
 	- Each semantic action is 2s, 4 levels deep, so planning horizon of 8s.
 - CFB (conditional focused branching), for other agents
 	- conditioned on ego intention
