@@ -62,13 +62,14 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [FlowMap: Path Generation for Automated Vehicles in Open Space Using Traffic Flow](https://arxiv.org/abs/2305.01622) <kbd>ICRA 2023</kbd>
 - [EPSILON: An Efficient Planning System for Automated Vehicles in Highly Interactive Environments](https://arxiv.org/abs/2108.07993) <kbd>TRO 2021</kbd> [Wenchao Ding, encyclopedia of pnc]
 - [Hybrid A-star: Path Planning for Autonomous Vehicles in Unknown Semi-structured Environments](https://www.semanticscholar.org/paper/Path-Planning-for-Autonomous-Vehicles-in-Unknown-Dolgov-Thrun/0e8c927d9c2c46b87816a0f8b7b8b17ed1263e9c) <kbd>IJRR 2010</kbd> [Dolgov, Thrun, Searching]
-- [Optimal Trajectory Generation for Dynamic Street Scenarios in a Frenet Frame](https://www.semanticscholar.org/paper/Optimal-trajectory-generation-for-dynamic-street-in-Werling-Ziegler/6bda8fc13bda8cffb3bb426a73ce5c12cc0a1760) <kbd>ICRA 2010</kbd> [Werling, Thrun, Sampling]
+- [Optimal Trajectory Generation for Dynamic Street Scenarios in a Frenet Frame](https://www.semanticscholar.org/paper/Optimal-trajectory-generation-for-dynamic-street-in-Werling-Ziegler/6bda8fc13bda8cffb3bb426a73ce5c12cc0a1760) <kbd>ICRA 2010</kbd> [Werling, Thrun, Sampling] [MUST READ for planning folks]
+- [Autonomous Driving on Curvy Roads Without Reliance on Frenet Frame: A Cartesian-Based Trajectory Planning Method](https://ieeexplore.ieee.org/document/9703250) <kbd>TITS 2022</kbd>
 - [Baidu Apollo EM Motion Planner](https://arxiv.org/abs/1807.08048) [[Notes](paper_notes/apollo_em_planner.md)][Optimization]
 - [基于改进混合A*的智能汽车时空联合规划方法](https://www.qichegongcheng.com/CN/abstract/abstract1500.shtml) <kbd>汽车工程: 规划&决策2023年</kbd> [Joint optimization, search]
 - [Enable Faster and Smoother Spatio-temporal Trajectory Planning for Autonomous Vehicles in Constrained Dynamic Environment](https://journals.sagepub.com/doi/abs/10.1177/0954407020906627) <kbd>JAE 2020</kbd> [Joint optimization, search]
 - [Focused Trajectory Planning for Autonomous On-Road Driving](https://www.ri.cmu.edu/pub_files/2013/6/IV2013-Tianyu.pdf) <kbd>IV 2013</kbd> [Joint optimization, Iteration]
 - [SSC: Safe Trajectory Generation for Complex Urban Environments Using Spatio-Temporal Semantic Corridor](https://arxiv.org/abs/1906.09788) <kbd>RAL 2019</kbd> [Joint optimization, SSC, Wenchao Ding, Motion planning]
-- [AlphaGo: Mastering the game of Go with deep neural networks and tree search](https://www.nature.com/articles/nature16961) <kbd>Nature 2016</kbd> [DeepMind, MTCS]
+- [AlphaGo: Mastering the game of Go with deep neural networks and tree search](https://www.nature.com/articles/nature16961) [[Notes](paper_notes/alphago.md)] <kbd>Nature 2016</kbd> [DeepMind, MTCS]
 - [AlphaZero: A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play](https://www.science.org/doi/full/10.1126/science.aar6404) <kbd>Science 2017</kbd> [DeepMind]
 - [MuZero: Mastering Atari, Go, chess and shogi by planning with a learned model](https://www.nature.com/articles/s41586-020-03051-4) <kbd>Nature 2020</kbd> [DeepMind]
 - [Safe, Multi-Agent, Reinforcement Learning for Autonomous Driving](https://arxiv.org/abs/1610.03295) [MobileEye, desire and traj optimization]

@@ -23,19 +23,18 @@ It is further improved by [MARC](marc.md) where it considers risk-aware continge
 #### Key ideas
 - DCP-Tree (domain specific closed-loop policy tree), ego-centric
 	- Guided branching in action space
-	- Each trace only contains ONE change of action (more flexible than MPDM but still manageable). This is a tree with pruning mechanism built-in. [MCDM](mcdm.md) essentially has a much more aggressive pruning as only one type of action is allowed (KKK, RRR, LLL, etc)
+	- Each trace only contains ONE change of action (more flexible than MPDM but still manageable). This is a tree with pruning mechanism built-in. [MPDM](mpdm.md) essentially has a much more aggressive pruning as only one type of action is allowed (KKK, RRR, LLL, etc)
 	- Each semantic action is 2s, 4 levels deep, so planning horizon of 8s.
 - CFB (conditional focused branching), for other agents
 	- conditioned on ego intention
 	- Pick out the potentially risky scenarios using **open loop** safety assement. (Open loop ignores interaction among agents, and allows checking of how serious the situation wil be if surrounding agents are completely uncoorpoerates and does not react to other agents.)
 	- select key vehicles first, only a subset of all vehicles. --> Like Tesla's AI day 2022.
-- Forward simulation
-	- IDM for longitudinal simulation
-	- PP (Pure pursuit) for lateral simulation
 - EUDM output the best policy represented by ego waypoints (0.4s apart). Then it is sent to motion planner (such as [SCC](scc.md)) for trajectory generation.
 
 #### Technical details
-- Summary of technical details, such as important training details, or bugs of previous benchmarks.
+- Forward simulation
+	- IDM for longitudinal simulation
+	- PP (Pure pursuit) for lateral simulation
 
 #### Notes
 - What are the predictions are fed into MP alongside the BP results from EUDM?

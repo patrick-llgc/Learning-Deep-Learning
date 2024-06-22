@@ -27,10 +27,10 @@ Despite simple design, MPDM is a pioneering work in decision making, and improve
 	- The decoupling of vehicle behavior as the instantaneous behavior is independent of each other.
 	- The formulation is highly inspiring and is the foundation of [EPSILON](epsilon.md) and all follow-up works.
 	- The horizon is 10s with 0.25s timesteps, so a 40-layer deep tree. 
-- MPDM How important is the closed-loop realism? The paper seems to argue that the inaccuracy in closed-loop simulation does not affect final algorithm performance that much. Close-loop or not is the key.
 
 #### Technical details
-- Summary of technical details, such as important training details, or bugs of previous benchmarks.
+- MPDM How important is the closed-loop realism? The paper seems to argue that the inaccuracy in closed-loop simulation does not affect final algorithm performance that much. Close-loop or not seems to be the key.
+
 
 #### Notes
 - The white paper from [May Mobility](https://maymobility.com/resources/autonomy-at-scale-white-paper/) explains the idea with more plain language and examples. 
