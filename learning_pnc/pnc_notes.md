@@ -161,6 +161,8 @@
     - Replanned path should be temporally consistent. For every step in the planning, follow the remainder of the calculated trajectory, to provide temporal consistency.
     - OBVP (optimal bounded value problem), with initial state (position, v, a) and end state (pos, v, a), and min cost of integral of jerk squared. The solution to the optimal control problem is 5th order polynomial.
         - actually 5th polynomial (wrt time, not y wrt x!) is the optimal solution to a much more broader range of control problem.
+- Methodology
+    - Sample in solution space, and choose the best. Similar to Monte Carlo.
     - Optimization by sampling. If we already know 5th polynomial is optimal, we can sample in this space and find the one with min cost to get the approximate solution.
     - Speed scenarios
         - High speed traj (5-6 m/s+): lateral d(t) and longitudinal s(t) (station) can be treated as decoupled, and can be calculated independently.
@@ -317,9 +319,9 @@
     - The state of other agents can be modeled as ego state or environment.
 - Bellman’s equation
     - The best decision in any state is the one that maximizes your immediate reward plus the expected future rewards from the new state you reach.
-    - $V(s) = \max_{a}[R(s,a) + \gamma \sum_{s'}P(s'|s,a)V(s')]$
+$$V^*(s) = \max_{a}[R(s,a) + \gamma \sum_{s'}P(s'|s,a)V^*(s')]$$
 - V and Q in RL
-    - Value function (V) assesses the quality of states. Sum of expected return if you start with a state and play optimally.
+    - Value function (V) assesses the quality of states. Sum of expected return if you start with a state and play according to a policy. Value functions are defined according to policies. Optimal value functions 
     - Action-value function (Q) assesses the quality of actions within states.
 
 ## Value iteration and Policy iteration
@@ -333,7 +335,7 @@
         - Transition probability may contain uncertainty (slippage, etc).
     - Value iteration as the vanilla approach and gives the feasibility (like Dijkstra) but typically not useful in practice.
     - Reward is typically certain, but discount factor (far-sighted or short-sighted) and uncertainty would affect policy severely.
-    - Value iteration to optimal policy: Use the optimal value function to determine the best action in each state, thereby obtaining the optimal policy. A policy spells out an action (or probability distribution) given a state, pi(s) = a.
+    - Value iteration to optimal policy: Use the optimal value function to determine the best action in each state, thereby obtaining the optimal policy. A policy spells out an action (or probability distribution) given a state, pi(s) = a. We can change the max to argmax.
         - $\pi^*(s) = \arg \max_a \left[R(s,a) + \gamma \sum_{s'} P(s' \mid s,a) V^*(s')\right]$
 - Policy iteration (the improved version)
     - Value iteration requires to take the optimal action at each iteration. Policy iteration decouples policy evaluation and policy improvement. (每天进步一点点。)
@@ -408,12 +410,13 @@
 - Micro-action (steer, acc) typically has sparse reward: low signal to noise ratio, hard to learn. “Desire” macro action level goals can help stablize learning.
 
 ## MPDM (multipolicy decision making)
-- MPDM is a simplified MDP
+- MPDM is a simplified POMDP, focusing on BP.
 - Framework
     - Multipolicy, policy is more like “desire” in safe RL, or semantic action.
-    - Forward simulation (like fast rollout in MCTS): Almost deterministic rollout.
+    - Forward simulation (like fast rollout in MCTS): Almost deterministic rollout. This reduced uncertainty comes from the assumption that agents are rationale.
     - Evaluation: selection based on cost (progress cost + tail cost)
-- Hierarchical design: Desire + backend (trajectory optimizer or model based planner, e.g., IDM)
+- Hierarchical design
+    - Desire + backend (trajectory optimizer or model based planner, e.g., IDM)
     - State space explodes. Desire can improve SNR.
 - models other vehicles’ states as well. Action space also contains action from other vehicles.
 - States of each car 瞬时独立
@@ -426,13 +429,9 @@
 - General maths tools
     - Process: MDP, POMDP
     - Problems: Decision making and planning
-    - Tools: research, sampling, optimization, Value iteration, policy iteration
-
-    
-    
+    - Tools: research, sampling, optimization, Value iteration, policy iteration    
     
 # Decision under uncertainty
-
 - POMDP:
     - curse of dimensionality
     - curse of history: belief (not in MDP)
