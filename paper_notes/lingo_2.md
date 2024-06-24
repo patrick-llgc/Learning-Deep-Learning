@@ -2,14 +2,14 @@
 
 _June 2024_
 
-tl;dr: First closed-loop world model that can output action for autonomous driving.
+tl;dr: First closed-loop world model that can output action for autonomous driving via modification of an LLM.
 
 #### Overall impression
-This is perhaps the second world-model driven autonomous drving system deployed in real world, other than FSDv12. Another example is [ApolloFM (from AIR Tsinghua, blog in Chinese)](https://mp.weixin.qq.com/s/8d1qXTm5v4H94HxAibp1dA).
+This is perhaps the second world-model driven autonomous drving system deployed in real world, other than FSDv12. Another example is [ApolloFM (from AIR Tsinghua, blog in Chinese)](https://mp.weixin.qq.com/s/8d1qXTm5v4H94HxAibp1dA). [Lingo-2](lingo_2.md) are more like [RT2](rt2.md) in the sense that they piggy back on a LLM as a starting point and add multimodality adaptors to it. It is not native vision nor native action as [GAIA-1](gaia_1.md). FSD v12 is highly speculated to be native vision and action.
 
-Wayve call this model a VLAM (vision-language-action model). It improves upon the previous work of [Lingo-1](lingo1.md), which is an open-loop driving commentator, and [Lingo-1-X](https://wayve.ai/thinking/lingo-1-referential-segmentation/) which can outputing reference segmentations. Lingo-1-X extends vision-language model to VLX (vision-language-X) domain. Lingo-2 now officially dives into the new domain of decision making and include action as the X output.
+Wayve call this model a VLAM (vision-language-action model). It improves upon the previous work of [Lingo-1](lingo_1.md), which is an open-loop driving commentator, and [Lingo-1-X](https://wayve.ai/thinking/lingo-1-referential-segmentation/) which can outputing reference segmentations. Lingo-1-X extends vision-language model to VLX (vision-language-X) domain. Lingo-2 now officially dives into the new domain of decision making and include action as the X output.
 
-The action output from Lingo-2's VLAM is a bit different from that of RT-2. Lingo-2 predicts traejctory waypoints (like ApolloFM) vs actions (as in FSD).
+The action output from Lingo-2's VLAM is a bit different from that of [RT-2](rt2.md). Lingo-2 predicts traejctory waypoints (like ApolloFM) vs actions (as in FSD).
 
 The paper claims that is is a strong first indication of the alignment between explanations and decision-making. --> Lingo-2 is outputing driving behavior and textual predictions in real-time, but I feel the "alignment" claim needs to be examined further. 
 

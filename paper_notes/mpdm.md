@@ -26,7 +26,7 @@ Despite simple design, MPDM is a pioneering work in decision making, and improve
 	- Approximate interaction with deterministic closed-loop simulation. Given a sampled policy and the driver model, the behaviors of other agents are deterministic.
 	- The decoupling of vehicle behavior as the instantaneous behavior is independent of each other.
 	- The formulation is highly inspiring and is the foundation of [EPSILON](epsilon.md) and all follow-up works.
-	- The horizon is 10s with 0.25s timesteps, so a 40-layer deep tree. 
+	- The horizon is 10s with 0.25s timesteps. 
 
 #### Technical details
 - MPDM How important is the closed-loop realism? The paper seems to argue that the inaccuracy in closed-loop simulation does not affect final algorithm performance that much. Close-loop or not seems to be the key.

@@ -35,8 +35,8 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
 ## 2024-06 (8)
-- [LINGO-1: Exploring Natural Language for Autonomous Driving](https://wayve.ai/thinking/lingo-natural-language-autonomous-driving/) [[Notes](paper_notes/lingo1.md)] [Wayve, open-loop world model]
-- [LINGO-2: Driving with Natural Language](https://wayve.ai/thinking/lingo-2-driving-with-language/) [[Notes](paper_notes/lingo2.md)] [Wayve, closed-loop world model]
+- [LINGO-1: Exploring Natural Language for Autonomous Driving](https://wayve.ai/thinking/lingo-natural-language-autonomous-driving/) [[Notes](paper_notes/lingo_1.md)] [Wayve, open-loop world model]
+- [LINGO-2: Driving with Natural Language](https://wayve.ai/thinking/lingo-2-driving-with-language/) [[Notes](paper_notes/lingo_2.md)] [Wayve, closed-loop world model]
 - [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246) [open source RT-2]
 - [Parting with Misconceptions about Learning-based Vehicle Motion Planning](https://arxiv.org/abs/2306.07962) <kbd>CoRL 2023</kbd> [Simple non-learning based baseline]
 - [QuAD: Query-based Interpretable Neural Motion Planning for Autonomous Driving](https://arxiv.org/abs/2404.01486) [Waabi]
@@ -46,10 +46,10 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [EUDM: Efficient Uncertainty-aware Decision-making for Automated Driving Using Guided Branching](https://arxiv.org/abs/2003.02746) [[Notes](paper_notes/eudm.md)] <kbd>ICRA 2020</kbd> [Wenchao Ding, Shaojie Shen, Behavior planning]
 - [TPP: Tree-structured Policy Planning with Learned Behavior Models](https://arxiv.org/abs/2301.11902) <kbd>ICRA 2023</kbd> [Marco Pavone, Nvidia, Behavior planning]
 - [MARC: Multipolicy and Risk-aware Contingency Planning for Autonomous Driving](https://arxiv.org/abs/2308.12021) [[Notes](paper_notes/marc.md)] <kbd>RAL 2023</kbd> [Shaojie Shen, Behavior planning]
+- [EPSILON: An Efficient Planning System for Automated Vehicles in Highly Interactive Environments](https://arxiv.org/abs/2108.07993) <kbd>TRO 2021</kbd> [Wenchao Ding, encyclopedia of pnc]
 - [trajdata: A Unified Interface to Multiple Human Trajectory Datasets](https://arxiv.org/abs/2307.13924) <kbd>NeurIPS 2023</kbd> [Marco Pavone, Nvidia]
 - [Optimal Vehicle Trajectory Planning for Static Obstacle Avoidance using Nonlinear Optimization](https://arxiv.org/abs/2307.09466) [Xpeng]
 - [Jointly Learnable Behavior and Trajectory Planning for Self-Driving Vehicles](https://arxiv.org/abs/1910.04586) [[Notes](paper_notes/joint_learned_bptp.md)] <kbd>IROS 2019 Oral</kbd> [Uber ATG, behavioral planning, motion planning]
-- [HiVT: Hierarchical Vector Transformer for Multi-Agent Motion Prediction]
 - [Enhancing End-to-End Autonomous Driving with Latent World Model](https://arxiv.org/abs/2406.08481)
 - [OccNeRF: Advancing 3D Occupancy Prediction in LiDAR-Free Environments](https://arxiv.org/abs/2312.09243) [Jiwen Lu]
 - [RenderOcc: Vision-Centric 3D Occupancy Prediction with 2D Rendering Supervision](https://arxiv.org/abs/2309.09502) <kbd>ICRA 2024</kbd>
@@ -60,7 +60,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Learning-Based Approach for Online Lane Change Intention Prediction](https://ieeexplore.ieee.org/document/6629564/) <kbd>IV 2013</kbd> [SVM, LC intention prediction]
 - [Traffic Flow-Based Crowdsourced Mapping in Complex Urban Scenario](https://ieeexplore.ieee.org/document/10171417) <kbd>RAL 2023</kbd> [Wenchao Ding, Huawei, crowdsourced map]
 - [FlowMap: Path Generation for Automated Vehicles in Open Space Using Traffic Flow](https://arxiv.org/abs/2305.01622) <kbd>ICRA 2023</kbd>
-- [EPSILON: An Efficient Planning System for Automated Vehicles in Highly Interactive Environments](https://arxiv.org/abs/2108.07993) <kbd>TRO 2021</kbd> [Wenchao Ding, encyclopedia of pnc]
 - [Hybrid A-star: Path Planning for Autonomous Vehicles in Unknown Semi-structured Environments](https://www.semanticscholar.org/paper/Path-Planning-for-Autonomous-Vehicles-in-Unknown-Dolgov-Thrun/0e8c927d9c2c46b87816a0f8b7b8b17ed1263e9c) <kbd>IJRR 2010</kbd> [Dolgov, Thrun, Searching]
 - [Optimal Trajectory Generation for Dynamic Street Scenarios in a Frenet Frame](https://www.semanticscholar.org/paper/Optimal-trajectory-generation-for-dynamic-street-in-Werling-Ziegler/6bda8fc13bda8cffb3bb426a73ce5c12cc0a1760) <kbd>ICRA 2010</kbd> [Werling, Thrun, Sampling] [MUST READ for planning folks]
 - [Autonomous Driving on Curvy Roads Without Reliance on Frenet Frame: A Cartesian-Based Trajectory Planning Method](https://ieeexplore.ieee.org/document/9703250) <kbd>TITS 2022</kbd>
@@ -72,9 +71,13 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [AlphaGo: Mastering the game of Go with deep neural networks and tree search](https://www.nature.com/articles/nature16961) [[Notes](paper_notes/alphago.md)] <kbd>Nature 2016</kbd> [DeepMind, MTCS]
 - [AlphaZero: A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play](https://www.science.org/doi/full/10.1126/science.aar6404) <kbd>Science 2017</kbd> [DeepMind]
 - [MuZero: Mastering Atari, Go, chess and shogi by planning with a learned model](https://www.nature.com/articles/s41586-020-03051-4) <kbd>Nature 2020</kbd> [DeepMind]
+- [Grandmaster-Level Chess Without Search](https://arxiv.org/abs/2402.04494) [DeepMind]
 - [Safe, Multi-Agent, Reinforcement Learning for Autonomous Driving](https://arxiv.org/abs/1610.03295) [MobileEye, desire and traj optimization]
 - [Comprehensive Reactive Safety: No Need For A Trajectory If You Have A Strategy](https://arxiv.org/abs/2207.00198) <kbd>IROS 2022</kbd> [Da Fang, Qcraft]
 - [BEVGPT: Generative Pre-trained Large Model for Autonomous Driving Prediction, Decision-Making, and Planning](https://arxiv.org/abs/2310.10357) <kbd>AAAI 2024</kbd>
+- [LLM-MCTS: Large Language Models as Commonsense Knowledge for Large-Scale Task Planning](https://arxiv.org/abs/2305.14078) <kbd>NeurIPS 2023</kbd>
+- [Hivt: Hierarchical vector transformer for multi-agent motion prediction](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhou_HiVT_Hierarchical_Vector_Transformer_for_Multi-Agent_Motion_Prediction_CVPR_2022_paper.pdf) <kbd>CVPR 2022</kbd> [Zikang Zhou, agent-centric, motion prediction]
+- [QCNet: Query-Centric Trajectory Prediction](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_Query-Centric_Trajectory_Prediction_CVPR_2023_paper.pdf) [[Notes](paper_notes/qcnet.md)] <kbd>CVPR 2023</kbd> [Zikang Zhou, scene-centric, motion prediction]
 
 ## 2024-03 (11)
 - [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391) [[Notes](paper_notes/genie.md)] [DeepMind, World Model]
@@ -248,8 +251,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [BEVDepth: Acquisition of Reliable Depth for Multi-view 3D Object Detection](https://arxiv.org/abs/2206.10092) [[Notes](paper_notes/bevdepth.md)] [BEVNet, NuScenes SOTA, Megvii]
 - [CVT: Cross-view Transformers for real-time Map-view Semantic Segmentation](https://arxiv.org/abs/2205.02833) [[Notes](paper_notes/cvt.md)] <kbd>CVPR 2022 oral</kbd> [UTAustin, Philipp]
 - [Wayformer: Motion Forecasting via Simple & Efficient Attention Networks](https://arxiv.org/abs/2207.05844) [[Notes](paper_notes/wayformer.md)] [Behavior prediction, Waymo]
-- [Hivt: Hierarchical vector transformer for multi-agent motion prediction](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhou_HiVT_Hierarchical_Vector_Transformer_for_Multi-Agent_Motion_Prediction_CVPR_2022_paper.pdf) <kbd>CVPR 2022</kbd> [Zikang Zhou, agent-centric, motion prediction]
-- [QCNet: Query-Centric Trajectory Prediction](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_Query-Centric_Trajectory_Prediction_CVPR_2023_paper.pdf) <kbd>CVPR 2023</kbd> [Zikang Zhou, scene-centric, motion prediction]
 
 ## 2022-06 (3)
 - [BEVDet4D: Exploit Temporal Cues in Multi-camera 3D Object Detection](https://arxiv.org/abs/2203.17054) [[Notes](paper_notes/bevdet4d.md)] [BEVNet]
@@ -1702,8 +1703,8 @@ Self-Driving](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_GeoSim_
 - [Is 2D Heatmap Representation Even Necessary for Human Pose Estimation?](https://arxiv.org/abs/2107.03332)
 - [Topology Preserving Local Road Network Estimation from Single Onboard Camera Image](https://arxiv.org/abs/2112.10155) [BEVNet, Luc Van Gool]
 - [Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine](https://arxiv.org/abs/2311.16452) [Small LLM prompting, Microsoft]
-- [ToT: Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) [[Notes](paper_notes/tot.md)]
-- [CoT: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
+- [CoT: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903) <kbd>NeurIPS 2022</kbd>
+- [ToT: Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) [[Notes](paper_notes/tot.md)] <kbd>NeurIPS 2023 Oral</kbd>
 - [Cumulative Reasoning with Large Language Models](https://arxiv.org/abs/2308.04371)
 - [A Survey of Techniques for Maximizing LLM Performance](https://www.youtube.com/watch?v=ahnGLM-RC1Y&ab_channel=OpenAI) [OpenAI]
 - [Drive AGI](https://github.com/OpenDriveLab/DriveAGI)
