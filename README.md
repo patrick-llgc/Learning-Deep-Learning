@@ -34,6 +34,9 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
+## 2024-11 (1)
+- [On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258) [[Notes](paper_notes/opportunities_foundation_models.md)]
+
 ## 2024-06 (8)
 - [LINGO-1: Exploring Natural Language for Autonomous Driving](https://wayve.ai/thinking/lingo-natural-language-autonomous-driving/) [[Notes](paper_notes/lingo_1.md)] [Wayve, open-loop world model]
 - [LINGO-2: Driving with Natural Language](https://wayve.ai/thinking/lingo-2-driving-with-language/) [[Notes](paper_notes/lingo_2.md)] [Wayve, closed-loop world model]
@@ -199,7 +202,7 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 
 
 ## 2023-04 (1)
-- [UniAD: Planning-oriented Autonomous Driving](https://arxiv.org/abs/2212.10156) [[Notes](paper_notes/uniad.md)] [BEV, e2e, Hongyang Li]
+- [UniAD: Planning-oriented Autonomous Driving](https://arxiv.org/abs/2212.10156) [[Notes](paper_notes/uniad.md)] <kbd>CVPR 2023 best paper</kbd> [BEV, e2e, Hongyang Li]
 
 
 
