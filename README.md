@@ -36,12 +36,16 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 
 
 
-## 2025-06
+## 2025-06 (1)
 - [Tokenize the World into Object-level Knowledge to Address Long-tail Events in Autonomous Driving](https://arxiv.org/abs/2407.00959) [[Notes](paper_notes/token_ad.md)] [Marco Pavone, Nvidia]
+- [SparseDrive: End-to-End Autonomous Driving via Sparse Scene Representation](https://arxiv.org/abs/2405.19620) [[Notes](sparse_drive.md)] <kbd>ICRA 2025</kbd> [Horizon]
 - [GPT-Driver: Learning to Drive with GPT](https://arxiv.org/abs/2310.01415) [NeurIPS 2023, Hang Zhao]
 - [Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving](https://arxiv.org/abs/2310.01957) [[Notes](paper_notes/driving_with_llms.md)] <kbd>ICRA 2024</kbd> [Wayve]
 - [PARA-Drive: Parallelized Architecture for Real-time Autonomous Driving](https://openaccess.thecvf.com/content/CVPR2024/html/Weng_PARA-Drive_Parallelized_Architecture_for_Real-time_Autonomous_Driving_CVPR_2024_paper.html) <kbd>CVPR 2024</kbd> [Marco Pavone, NVidia]
 - [PDM-Closed: Parting with Misconceptions about Learning-based Vehicle Motion Planning](https://arxiv.org/abs/2306.07962) <kbd>CoRL 2023</kbd>
+- [Ego-MLP: Is Ego Status All You Need for Open-Loop End-to-End Autonomous Driving?](https://arxiv.org/abs/2312.03031) <kbd>CVPR 2024</kbd>
+- [AD-MLP: Rethinking the Open-Loop Evaluation of End-to-End Autonomous Driving in nuScenes](https://arxiv.org/abs/2305.10430) [Baidu]
+- [GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving](https://arxiv.org/abs/2503.20523) [Wayve]
 
 ## 2025-04
 - [Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments](https://arxiv.org/abs/2503.22496) <kbd>CVPR 2025</kbd>
@@ -91,8 +95,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Depth Anything V2](https://arxiv.org/abs/2406.09414) <kbd>NeurIPS 2024</kbd>
 - [CarLLaVA: Vision language models for camera-only closed-loop driving](https://arxiv.org/abs/2406.10165)
 - [LVSM: A Large View Synthesis Model with Minimal 3D Inductive Bias](https://arxiv.org/abs/2410.17242) [Scene tokenization]
-- [Ego-MLP: Is Ego Status All You Need for Open-Loop End-to-End Autonomous Driving?](https://arxiv.org/abs/2312.03031) <kbd>CVPR 2024</kbd>
-- [AD-MLP: Rethinking the Open-Loop Evaluation of End-to-End Autonomous Driving in nuScenes](https://arxiv.org/abs/2305.10430) [Baidu]
 - [NAVSIM: Data-Driven Non-Reactive Autonomous Vehicle Simulation and Benchmarking](https://arxiv.org/abs/2406.15349) <kbd>NeurIPS 2024</kbd>
 - [Driving Everywhere with Large Language Model Policy Adaptation](https://arxiv.org/abs/2402.05932) <kbd>CVPR 2024</kbd> [Marco Pavone]
 - [Consistency Models](https://arxiv.org/abs/2303.01469) [difusion speedup, OpenAI, Yang Song]
