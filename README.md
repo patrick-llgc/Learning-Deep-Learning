@@ -34,8 +34,70 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 - [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
 
+
+
+## 2025-06
+- [Tokenize the World into Object-level Knowledge to Address Long-tail Events in Autonomous Driving](https://arxiv.org/abs/2407.00959) [[Notes](paper_notes/token_ad.md)] [Marco Pavone, Nvidia]
+- [GPT-Driver: Learning to Drive with GPT](https://arxiv.org/abs/2310.01415) [NeurIPS 2023, Hang Zhao]
+- [Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving](https://arxiv.org/abs/2310.01957) [[Notes](paper_notes/driving_with_llms.md)] <kbd>ICRA 2024</kbd> [Wayve]
+- [PARA-Drive: Parallelized Architecture for Real-time Autonomous Driving](https://openaccess.thecvf.com/content/CVPR2024/html/Weng_PARA-Drive_Parallelized_Architecture_for_Real-time_Autonomous_Driving_CVPR_2024_paper.html) <kbd>CVPR 2024</kbd> [Marco Pavone, NVidia]
+- [PDM-Closed: Parting with Misconceptions about Learning-based Vehicle Motion Planning](https://arxiv.org/abs/2306.07962) <kbd>CoRL 2023</kbd>
+
+## 2025-04
+- [Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments](https://arxiv.org/abs/2503.22496) <kbd>CVPR 2025</kbd>
+- [Hi Robot: Open-Ended Instruction Following with Hierarchical Vision-Language-Action Models](https://arxiv.org/abs/2502.19417) [Physical Intelligence]
+- [Finetuning Generative Trajectory Model with Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2503.10434) [Li Auto, RLHF]
+- [TokenFLEX: Unified VLM Training for Flexible Visual Tokens Inference](https://arxiv.org/abs/2504.03154) [Li Auto]
+- [Fast-in-Slow: A Dual-System Foundation Model Unifying Fast Manipulation within Slow Reasoning](https://arxiv.org/abs/2506.01953)
+- [STORM: Spatio-Temporal Reconstruction Model for Large-Scale Outdoor Scenes](https://arxiv.org/abs/2501.00602)
+
+
+## 2024-12 (0)
+- [VLM-AD: End-to-End Autonomous Driving through Vision-Language Model Supervision](https://arxiv.org/abs/2412.14446) [Cruise]
+- [GPD-1: Generative Pre-training for Driving](https://arxiv.org/abs/2412.08643) [PhiGent]
+- [Transformers Inference Optimization Toolset](https://astralord.github.io/posts/transformer-inference-optimization-toolset/)
+- [Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces](https://arxiv.org/abs/2412.14171) [Fei-fei Li]
+- [Probing the 3D Awareness of Visual Foundation Models](https://arxiv.org/abs/2404.08636) <kbd>CVPR 2024</kbd>
+- [iVideoGPT: Interactive VideoGPTs are Scalable World Models](https://arxiv.org/abs/2405.15223) <kbd>NeurIPS 2024</kbd>
+- [CarLLaVA: Vision language models for camera-only closed-loop driving](https://arxiv.org/abs/2406.10165) [Wayve]
+- [Hints of Prompt: Enhancing Visual Representation for Multimodal LLMs in Autonomous Driving](https://arxiv.org/abs/2411.13076) [DeepRoute]
+- [LAW: Enhancing End-to-End Autonomous Driving with Latent World Model](https://arxiv.org/abs/2406.08481)
+- [TCP: Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline](https://arxiv.org/abs/2206.08129) <kbd>NeurIPS 2022</kbd> [E2E planning, Hongyang]
+- [When Worse is Better: Navigating the compression-generation tradeoff in visual tokenization](https://arxiv.org/abs/2412.16326)
+- [RoGs: Large Scale Road Surface Reconstruction with Meshgrid Gaussian](https://arxiv.org/abs/2405.14342)
+- [RoMe: Towards Large Scale Road Surface Reconstruction via Mesh Representation](https://arxiv.org/abs/2306.11368)
+- [SLEDGE: Synthesizing Driving Environments with Generative Models and Rule-Based Traffic](https://arxiv.org/abs/2403.17933) <kbd>ECCV 2024</kbd>
+- [Lookahead: Break the Sequential Dependency of LLM Inference Using Lookahead Decoding](https://arxiv.org/abs/2402.02057) [specdec]
+- [EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty](https://arxiv.org/abs/2401.15077) [specdec]
+- [EAGLE-2: Faster Inference of Language Models with Dynamic Draft Trees](https://arxiv.org/abs/2406.16858) [specdec]
+- [Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads](https://arxiv.org/abs/2401.10774)
+- [RealGen: Retrieval Augmented Generation for Controllable Traffic Scenarios](https://arxiv.org/abs/2312.13303) <kbd>ECCV 2024</kbd>
+- [MobileVLM V2: Faster and Stronger Baseline for Vision Language Model](https://arxiv.org/abs/2402.03766)
+- [Open Sourcing π0](https://www.physicalintelligence.company/blog/openpi) [PI, Industry]
+- [Helix: A Vision-Language-Action Model for Generalist Humanoid Control](https://www.figure.ai/news/helix) [Figure, Industry]
+- [AM-RADIO: Agglomerative Vision Foundation Model -- Reduce All Domains Into One](https://arxiv.org/abs/2312.06709v5) <kbd>CVPR 2024</kbd>
+- [Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model](https://arxiv.org/abs/2408.11039)
+- [iVideoGPT: Interactive VideoGPTs are Scalable World Models](https://arxiv.org/abs/2405.15223) <kbd>NeurIPS 2024</kbd>
+- [MetaMorph: Multimodal Understanding and Generation via Instruction Tuning](https://arxiv.org/abs/2412.14164)
+- [WORLDMEM: Long-term Consistent World Simulation with Memory](https://arxiv.org/abs/2504.12369) [long term memory]
+- [PADriver: Towards Personalized Autonomous Driving](https://arxiv.org/pdf/2505.05240) [megvii, personalized driving]
+
+
 ## 2024-11 (1)
 - [On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258) [[Notes](paper_notes/opportunities_foundation_models.md)]
+- [π0: A Vision-Language-Action Flow Model for General Robot Control](https://arxiv.org/abs/2410.24164) [Physical Intelligence, VLA]
+- [EMMA: End-to-End Multimodal Model for Autonomous Driving](https://arxiv.org/abs/2410.23262) [Waymo, VLA]
+- [Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data](https://arxiv.org/abs/2401.10891) <kbd>CVPR 2024</kbd>
+- [Depth Anything V2](https://arxiv.org/abs/2406.09414) <kbd>NeurIPS 2024</kbd>
+- [CarLLaVA: Vision language models for camera-only closed-loop driving](https://arxiv.org/abs/2406.10165)
+- [LVSM: A Large View Synthesis Model with Minimal 3D Inductive Bias](https://arxiv.org/abs/2410.17242) [Scene tokenization]
+- [Ego-MLP: Is Ego Status All You Need for Open-Loop End-to-End Autonomous Driving?](https://arxiv.org/abs/2312.03031) <kbd>CVPR 2024</kbd>
+- [AD-MLP: Rethinking the Open-Loop Evaluation of End-to-End Autonomous Driving in nuScenes](https://arxiv.org/abs/2305.10430) [Baidu]
+- [NAVSIM: Data-Driven Non-Reactive Autonomous Vehicle Simulation and Benchmarking](https://arxiv.org/abs/2406.15349) <kbd>NeurIPS 2024</kbd>
+- [Driving Everywhere with Large Language Model Policy Adaptation](https://arxiv.org/abs/2402.05932) <kbd>CVPR 2024</kbd> [Marco Pavone]
+- [Consistency Models](https://arxiv.org/abs/2303.01469) [difusion speedup, OpenAI, Yang Song]
+- [VILA: On Pre-training for Visual Language Models](https://arxiv.org/abs/2312.07533) <kbd>CVPR 2024</kbd> [Song Han, Yao Lu]
+
 
 ## 2024-06 (8)
 - [LINGO-1: Exploring Natural Language for Autonomous Driving](https://wayve.ai/thinking/lingo-natural-language-autonomous-driving/) [[Notes](paper_notes/lingo_1.md)] [Wayve, open-loop world model]
@@ -107,14 +169,12 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [LWM: World Model on Million-Length Video And Language With RingAttention](https://arxiv.org/abs/2402.08268) [Pieter Abbeel]
 - [OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving](https://arxiv.org/abs/2311.16038) [Jiwen Lu, World Model]
 - [GenAD: Generative End-to-End Autonomous Driving](https://arxiv.org/abs/2402.11502)
-- [TCP: Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline](https://arxiv.org/abs/2206.08129) <kbd>NeurIPS 2022</kbd> [E2E planning, Hongyang]
 - [Transfuser: Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/abs/2104.09224) <kbd>CVPR 2021</kbd> [E2E planning, Geiger]
 - [Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving](https://arxiv.org/abs/2310.01957) [Wayve, LLM + AD]
 - [LingoQA: Video Question Answering for Autonomous Driving](https://arxiv.org/abs/2312.14115) [Wayve, LLM + AD]
 - [Panacea: Panoramic and Controllable Video Generation for Autonomous Driving](https://arxiv.org/abs/2311.16813) <kbd>CVPR 2024</kbd> [Megvii]
 - [PlanT: Explainable Planning Transformers via Object-Level Representations](https://arxiv.org/abs/2210.14222) <kbd>CoRL 2022</kbd>
 - [Scene as Occupancy](https://arxiv.org/abs/2306.02851) <kbd>ICCV 2023</kbd>
-- [AD-MLP: Rethinking the Open-Loop Evaluation of End-to-End Autonomous Driving in nuScenes](https://arxiv.org/abs/2305.10430) [Baidu]
 - [The Shift from Models to Compound AI Systems](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/)
 - [Roach: End-to-End Urban Driving by Imitating a Reinforcement Learning Coach](https://arxiv.org/abs/2108.08265) <kbd>ICCV 2021</kbd>
 - [Learning from All Vehicles](https://arxiv.org/abs/2203.11934) <kbd>CVPR 2022</kbd>
@@ -133,7 +193,6 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 - [Lifelong Language Pretraining with Distribution-Specialized Experts](https://arxiv.org/abs/2305.12281) <kbd>ICML 2023</kbd> [MoE, LLM]
 - [DriveLM: Drive on Language](https://arxiv.org/abs/2312.14150) [Hongyang Li]
 - [MotionLM: Multi-Agent Motion Forecasting as Language Modeling](https://arxiv.org/abs/2309.16534) <kbd>ICCV 2023</kbd> [Waymo, LLM + AD]
-- [AD-MLP: Rethinking the Open-Loop Evaluation of End-to-End Autonomous Driving in nuScenes](https://arxiv.org/abs/2305.10430) [No perception]
 - CubeLLM: align 2D/3D with language
 - EmerNeRF: ICLR 2024
 - A Language Agent for Autonomous Driving
