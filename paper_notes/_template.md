@@ -1,15 +1,13 @@
 # [Paper Title](link_to_paper)
 
-_June 2025_
+_September 2025_
 
 tl;dr: Summarize the the main idea of the paper with one sentence.
 
 #### Overall impression
 Describe the overall impression of the paper. 
 
-Main contribution.
-
-Pros and cons compared with previous methods.
+Main contribution. Pros and cons compared with previous methods.
 
 #### Key ideas
 - Summaries of the key ideas in nested bullet point. The main areas to focus on model architecture, data, eval.

@@ -36,16 +36,46 @@ I regularly update [my blog in Toward Data Science](https://medium.com/@patrickl
 
 
 
+## 2025-09 (1)
+- [CoVLA: Comprehensive Vision-Language-Action Dataset for Autonomous Driving](https://arxiv.org/abs/2408.10845) [[Notes](paper_notes/covla.md)] <kbd>WACV 2025</kbd> [~80 h real-world driving videos with paired language and trajectory annotations; largest VLA-for-driving dataset]
+- [SimLingo: Vision-Only Closed-Loop Autonomous Driving with Language-Action Alignment](https://arxiv.org/abs/2503.09594) <kbd>CVPR 2025</kbd> [1st Place @ CARLA Challenge 2024; SOTA on CARLA LB 2.0 and Bench2Drive; cited by AutoVLA]
+- [AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning](https://arxiv.org/abs/2506.13757) <kbd>arXiv 2025-06</kbd> [Trajectory tokenization; dual-thinking (fast vs slow CoT) modes; GRPO fine-tuning; evaluated on nuPlan, nuScenes, Waymo, CARLA; cites SimLingo]
+- [DriveAgent-R1: Advancing VLM-based Autonomous Driving with Hybrid Thinking and Active Perception](https://arxiv.org/abs/2507.20879) <kbd>arXiv 2025-07</kbd> [Hybrid Thinking (text vs tool based CoT) + Active Perception; 3-stage RL training; built on DriveVLM lineage]
+- [VERDI: VLM-Embedded Reasoning for Autonomous Driving](https://arxiv.org/abs/2505.15925) <kbd>arXiv 2025-05</kbd> [Distills VLM reasoning into a modular AD stack; aligns perception, prediction, planning; improves nuScenes performance with no VLM inference cost]
+- [Poutine: Vision-Language-Trajectory Pre-Training and Reinforcement Post-Training Enable Robust End-to-End Autonomous Driving](https://arxiv.org/abs/2506.11234) <kbd>arXiv 2025-06</kbd> [3B-param VLM trained on 83 h CoVLA + 11 h Waymo long-tail; RL fine-tuned (GRPO); 1st Place in Waymo Vision-Based E2E Driving Challenge (RFS=7.99)]
+- [ReasonPlan: Unified Scene Prediction and Decision Reasoning for Closed-Loop Autonomous Driving](https://arxiv.org/abs/2505.20024) <kbd>arXiv 2025-05</kbd> [Chain-of-Thought planning; significant closed-loop improvements on Bench2Drive]
+- [DiffVLA: Vision-Language-Guided Diffusion Planning for Autonomous Driving](https://arxiv.org/abs/2505.19381) <kbd>arXiv 2025-05</kbd> [VLM-guided diffusion trajectory planning; top performance in Autonomous Grand Challenge 2025]
+- [VLAD: A VLM-Augmented Autonomous Driving Framework](https://arxiv.org/abs/2507.01284) <kbd>ITSC 2025</kbd> [VLM generates high-level commands for E2E controller; enhances interpretability and planning safety]
+- [DriveAction (benchmark): DriveAction: A Benchmark for Exploring Human-like Driving Decisions in VLA Models](https://arxiv.org/abs/2506.24044) <kbd>arXiv 2025-06</kbd> [Action-rooted evaluation with QA pairs across driving scenarios; cited by VLA4AD survey; gaining traction]
+- [DINOv3](https://arxiv.org/abs/2508.10104) [High res Dino]
+- [LiveVLM: Efficient Online Video Understanding via Streaming-Oriented KV Cache and Retrieval](https://arxiv.org/abs/2505.15269)
+- [DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation](https://arxiv.org/abs/2505.21864) [dextrous hand data collection, Shuran Song, Jim Fan]
+- [DEXOP: A Device for Robotic Transfer of Dexterous Human Manipulation](https://arxiv.org/abs/2509.04441) [Best Paper Award @ RSS 2025]
+- [HAD dataset: Grounding Human-to-Vehicle Advice for Self-driving Vehicles](https://arxiv.org/abs/1911.06978) <kbd>CVPR 2019</kbd> [John Canny, Honda reesarch institute, 2019, VLA OG]
+
+
+
 ## 2025-06 (1)
+- [V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning](https://arxiv.org/abs/2506.09985) [LeCun]
+- [V-JEPA: Revisiting Feature Prediction for Learning Visual Representations from Video](https://arxiv.org/abs/2404.08471) <kbd>ICLR 2025</kbd>
+- [I-JEPA: Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture](https://arxiv.org/abs/2301.08243) <kbd>ICCV 2023</kbd>
+- [PlaNet: Learning Latent Dynamics for Planning from Pixels](https://arxiv.org/abs/1811.04551)
+- [DreamerV1: Dream to Control: Learning Behaviors by Latent Imagination](https://arxiv.org/abs/1912.01603)
+- [DreamerV2: Mastering Atari with Discrete World Models](https://arxiv.org/abs/2010.02193) <kbd>ICLR 2021</kbd>
+- [DreamerV3: Mastering Diverse Domains through World Models](https://arxiv.org/abs/2301.04104) <kbd>Nature 2025</kbd>
+- [DayDreamer: World Models for Physical Robot Learning](https://arxiv.org/abs/2206.14176) <kbd>CoRL 2022</kbd>
+- [Dynalang: Learning to Model the World with Language](https://arxiv.org/abs/2308.01399) <kbd>ICML 2024</kbd>
 - [Tokenize the World into Object-level Knowledge to Address Long-tail Events in Autonomous Driving](https://arxiv.org/abs/2407.00959) [[Notes](paper_notes/token_ad.md)] [Marco Pavone, Nvidia]
 - [SparseDrive: End-to-End Autonomous Driving via Sparse Scene Representation](https://arxiv.org/abs/2405.19620) [[Notes](sparse_drive.md)] <kbd>ICRA 2025</kbd> [Horizon]
+- [HE-Drive: Human-Like End-to-End Driving with Vision Language Models](https://arxiv.org/abs/2410.05051) <kbd>IROS 2025</kbd> [Horizon]
 - [GPT-Driver: Learning to Drive with GPT](https://arxiv.org/abs/2310.01415) [NeurIPS 2023, Hang Zhao]
 - [Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving](https://arxiv.org/abs/2310.01957) [[Notes](paper_notes/driving_with_llms.md)] <kbd>ICRA 2024</kbd> [Wayve]
 - [PARA-Drive: Parallelized Architecture for Real-time Autonomous Driving](https://openaccess.thecvf.com/content/CVPR2024/html/Weng_PARA-Drive_Parallelized_Architecture_for_Real-time_Autonomous_Driving_CVPR_2024_paper.html) <kbd>CVPR 2024</kbd> [Marco Pavone, NVidia]
-- [PDM-Closed: Parting with Misconceptions about Learning-based Vehicle Motion Planning](https://arxiv.org/abs/2306.07962) <kbd>CoRL 2023</kbd>
+- [PDM-Closed: Parting with Misconceptions about Learning-based Vehicle Motion Planning](https://arxiv.org/abs/2306.07962) [[Notes](paper_notes/pdm_closed.md)] <kbd>CoRL 2023</kbd>
 - [Ego-MLP: Is Ego Status All You Need for Open-Loop End-to-End Autonomous Driving?](https://arxiv.org/abs/2312.03031) <kbd>CVPR 2024</kbd>
 - [AD-MLP: Rethinking the Open-Loop Evaluation of End-to-End Autonomous Driving in nuScenes](https://arxiv.org/abs/2305.10430) [Baidu]
 - [GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving](https://arxiv.org/abs/2503.20523) [Wayve]
+- [Cameras as Relative Positional Encoding](https://arxiv.org/abs/2507.10496)
 
 ## 2025-04
 - [Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments](https://arxiv.org/abs/2503.22496) <kbd>CVPR 2025</kbd>
