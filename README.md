@@ -10,29 +10,29 @@ If you are new to deep learning in computer vision and don't know where to start
 Here is [a list of trustworthy sources of papers](trusty.md) in case I ran out of papers to read.
 
 ## My review posts by topics
-I regularly update [my blog in Toward Data Science](https://medium.com/@patrickllgc).
+I regularly update my blog column [the Thinking Car](https://medium.com/the-thinking-car).
 
-- [BEV Perception in Mass Production Autonomous Driving](https://towardsdatascience.com/bev-perception-in-mass-production-autonomous-driving-c6e3f1e46ae0)
-- [Challenges of Mass Production Autonomous Driving in China](https://towardsdatascience.com/challenges-of-mass-production-autonomous-driving-in-china-407c7e2dc5d8)
-- [Vision-centric Semantic Occupancy Prediction for Autonomous Driving](https://towardsdatascience.com/vision-centric-semantic-occupancy-prediction-for-autonomous-driving-16a46dbd6f65) ([related paper notes](topics/topic_occupancy_network.md))
-- [Drivable Space in Autonomous Driving — The Industry](https://medium.com/@patrickllgc/drivable-space-in-autonomous-driving-the-industry-7a4624b94d41)
-- [Drivable Space in Autonomous Driving — The Academia](https://towardsdatascience.com/drivable-space-in-autonomous-driving-a-review-of-academia-ef1a6aa4dc15)
-- [Drivable Space in Autonomous Driving — The Concept](https://towardsdatascience.com/drivable-space-in-autonomous-driving-the-concept-df699bb8682f)
-- [Monocular BEV Perception with Transformers in Autonomous Driving](https://towardsdatascience.com/monocular-bev-perception-with-transformers-in-autonomous-driving-c41e4a893944) ([related paper notes](topics/topic_transformers_bev.md))
-- [Illustrated Differences between MLP and Transformers for Tensor Reshaping in Deep Learning](https://towardsdatascience.com/illustrated-difference-between-mlp-and-transformers-for-tensor-reshaping-52569edaf89)
-- [Monocular 3D Lane Line Detection in Autonomous Driving](https://towardsdatascience.com/monocular-3d-lane-line-detection-in-autonomous-driving-4d7cdfabf3b6) ([related paper notes](topics/topic_3d_lld.md))
-- [Deep-Learning based Object detection in Crowded Scenes](https://towardsdatascience.com/deep-learning-based-object-detection-in-crowded-scenes-1c9fddbd7bc4) ([related paper notes](topics/topic_crowd_detection.md))
-- [Monocular Bird’s-Eye-View Semantic Segmentation for Autonomous Driving](https://towardsdatascience.com/monocular-birds-eye-view-semantic-segmentation-for-autonomous-driving-ee2f771afb59) ([related paper notes](topics/topic_bev_segmentation.md))
-- [Deep Learning in Mapping for Autonomous Driving](https://towardsdatascience.com/deep-learning-in-mapping-for-autonomous-driving-9e33ee951a44)
-- [Monocular Dynamic Object SLAM in Autonomous Driving](https://towardsdatascience.com/monocular-dynamic-object-slam-in-autonomous-driving-f12249052bf1)
-- [Monocular 3D Object Detection in Autonomous Driving — A Review](https://towardsdatascience.com/monocular-3d-object-detection-in-autonomous-driving-2476a3c7f57e)
-- [Self-supervised Keypoint Learning — A Review](https://towardsdatascience.com/self-supervised-keypoint-learning-aade18081fc3)
-- [Single Stage Instance Segmentation — A Review](https://towardsdatascience.com/single-stage-instance-segmentation-a-review-1eeb66e0cc49)
-- [Self-paced Multitask Learning — A Review](https://towardsdatascience.com/self-paced-multitask-learning-76c26e9532d0)
-- [Convolutional Neural Networks with Heterogeneous Metadata](https://towardsdatascience.com/convolutional-neural-networks-with-heterogeneous-metadata-2af9241218a9)
-- [Lifting 2D object detection to 3D in autonomous driving](https://towardsdatascience.com/geometric-reasoning-based-cuboid-generation-in-monocular-3d-object-detection-5ee2996270d1)
-- [Multimodal Regression](https://towardsdatascience.com/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
-- [Paper Reading in 2019](https://towardsdatascience.com/the-200-deep-learning-papers-i-read-in-2019-7fb7034f05f7?source=friends_link&sk=7628c5be39f876b2c05e43c13d0b48a3)
+- [A Crash Course of Planning for Perception Engineers in Autonomous Driving](https://medium.com/the-thinking-car/a-crash-course-of-planning-for-perception-engineers-in-autonomous-driving-ede324d78717)
+- [BEV Perception in Mass Production Autonomous Driving](https://medium.com/the-thinking-car/bev-perception-in-mass-production-autonomous-driving-c6e3f1e46ae0)
+- [Challenges of Mass Production Autonomous Driving in China](https://medium.com/the-thinking-car/challenges-of-mass-production-autonomous-driving-in-china-407c7e2dc5d8)
+- [Vision-centric Semantic Occupancy Prediction for Autonomous Driving](https://medium.com/the-thinking-car/vision-centric-semantic-occupancy-prediction-for-autonomous-driving-16a46dbd6f65) ([related paper notes](topics/topic_occupancy_network.md))
+- [Drivable Space in Autonomous Driving — The Industry](https://medium.com/the-thinking-car/drivable-space-in-autonomous-driving-the-industry-7a4624b94d41)
+- [Drivable Space in Autonomous Driving — The Academia](https://medium.com/the-thinking-car/drivable-space-in-autonomous-driving-a-review-of-academia-ef1a6aa4dc15)
+- [Drivable Space in Autonomous Driving — The Concept](https://medium.com/the-thinking-car/drivable-space-in-autonomous-driving-the-concept-df699bb8682f)
+- [Monocular BEV Perception with Transformers in Autonomous Driving](https://medium.com/the-thinking-car/monocular-bev-perception-with-transformers-in-autonomous-driving-c41e4a893944) ([related paper notes](topics/topic_transformers_bev.md))
+- [Illustrated Differences between MLP and Transformers for Tensor Reshaping in Deep Learning](https://medium.com/the-thinking-car/illustrated-difference-between-mlp-and-transformers-for-tensor-reshaping-52569edaf89)
+- [Monocular 3D Lane Line Detection in Autonomous Driving](https://medium.com/the-thinking-car/monocular-3d-lane-line-detection-in-autonomous-driving-4d7cdfabf3b6) ([related paper notes](topics/topic_3d_lld.md))
+- [Deep-Learning based Object detection in Crowded Scenes](https://medium.com/the-thinking-car/deep-learning-based-object-detection-in-crowded-scenes-1c9fddbd7bc4) ([related paper notes](topics/topic_crowd_detection.md))
+- [Monocular Bird’s-Eye-View Semantic Segmentation for Autonomous Driving](https://medium.com/the-thinking-car/monocular-birds-eye-view-semantic-segmentation-for-autonomous-driving-ee2f771afb59) ([related paper notes](topics/topic_bev_segmentation.md))
+- [Deep Learning in Mapping for Autonomous Driving](https://medium.com/the-thinking-car/deep-learning-in-mapping-for-autonomous-driving-9e33ee951a44)
+- [Monocular Dynamic Object SLAM in Autonomous Driving](https://medium.com/the-thinking-car/monocular-dynamic-object-slam-in-autonomous-driving-f12249052bf1)
+- [Monocular 3D Object Detection in Autonomous Driving — A Review](https://medium.com/the-thinking-car/monocular-3d-object-detection-in-autonomous-driving-2476a3c7f57e)
+- [Self-supervised Keypoint Learning — A Review](https://medium.com/the-thinking-car/self-supervised-keypoint-learning-aade18081fc3)
+- [Single Stage Instance Segmentation — A Review](https://medium.com/the-thinking-car/single-stage-instance-segmentation-a-review-1eeb66e0cc49)
+- [Self-paced Multitask Learning — A Review](https://medium.com/the-thinking-car/self-paced-multitask-learning-76c26e9532d0)
+- [Convolutional Neural Networks with Heterogeneous Metadata](https://medium.com/the-thinking-car/convolutional-neural-networks-with-heterogeneous-metadata-2af9241218a9)
+- [Lifting 2D object detection to 3D in autonomous driving](https://medium.com/the-thinking-car/geometric-reasoning-based-cuboid-generation-in-monocular-3d-object-detection-5ee2996270d1)
+- [Multimodal Regression](https://medium.com/the-thinking-car/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 
 
 
