@@ -42,6 +42,7 @@ The idea of the paper is very solid and production-oriented. It is also well-exe
 	- meta-action eval: generate semantically equivalent alternatives and then do a max common length match.
 
 #### Technical details
+- Key frame selection logic: In most challenging scenarios, a **keyframe** is the moment before a significant change in speed or direction is required. We select this keyframe 0.5s to 1s earlier than the actual maneuver, based on comprehensive testing, to guarantee an optimal reaction time for decision-making.
 - Dense cost maps is unreliable as it heavily depends on costs tailored through human experience and the trajectory sampling distribution.
 - Driving caption datasets: most only focusing on perception and does not cover planning, and the scenarios are typically easy.
 
