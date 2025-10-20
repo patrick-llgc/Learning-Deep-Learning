@@ -1,0 +1,55 @@
+# Building Fondation Mdels for Autonomous Vehicle and Robotics at Tesla 
+
+
+- ICCV 2025 Workshop on [Distillation of Foundation Models for Autonomous Driving](https://wdfm-ad.github.io/iccv25/)
+	- Oct 20, 2025, Honolulu, Hawai
+	- Ashok Elluswamy@Tesla
+	- ![](./assets/01_cover.jpeg)
+- Arch
+	- runs at 36 hz
+	- has audio
+	- ![](./assets/02_e2e_arch.jpeg)
+	
+
+- reason for e2e 	
+	- codify human values is difficult
+	- interaface between modules is ill defined
+	- homogeneous compute with determinstic latency
+	- Overall, on the correct side of scaling wrt the bitter lesson
+	- ![](./assets/03_why_e2e.jpeg)
+- Cofiying human values
+	- ![](./assets/04_codify_human_value_is_hard.jpeg)
+	- Going over the small puddle
+- interface is hard
+	- ![](./assets/05_interface_is_hard.jpeg)
+	- intension understanding is hard, very hard to write explicit code
+- Main challenges
+	- ![](./assets/06_3_challenges.jpeg)
+	- Curse of dimensionality: 2 billion tokens input to 2 tokens
+	- ![](./assets/07_curse_of_dim.jpeg)
+	- ![](./assets/08_curse_of_dim2.jpeg)
+	- ![](./assets/09_curse_of_dim3.jpeg)
+	- Large data gives extreme generalization --> Brute force
+- Foundation models also predicts manay interpretable outptus
+	- ![](./assets/10_interpretability.jpeg)
+	- ![](./assets/11_arch_aux_signals.jpeg)
+	- 3DGS, feedforward generates 3d gaussian splats, 30 min --> 220 ms.
+		- This could be an interesting sim topic. 
+		- 3DGS is the new occupancy network.
+	- ![](./assets/12_feedforward_3dgs.jpeg)
+	- Natural language. --> Uses template
+	- ![](./assets/13_language_and_reasoning.jpeg)
+- Evaluation: the hardest problem of the three
+	- ![](./assets/14_eval.jpeg)
+	- ![](./assets/15_eval_arch.jpeg)
+	- Policy network and WM/closed loop simulator. A tale of two large foundation models. 
+	- ![](./assets/16_tale_of_two_models.jpeg)
+	- close loop simulator
+	- reevaluate old issues
+	- ![](./assets/17_eval_replay.jpeg)
+	- Create adversarial new issues
+	- ![](./assets/18_eval_editing.jpeg)
+	- Driving game in the extra low-latency nurec --> This is really a cool sim demo
+- One more thing
+	- All stack from AV can be translated to Robotics, the Optimus
+	- ![](./assets/19_humanoid.jpeg)
