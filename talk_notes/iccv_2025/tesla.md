@@ -1,9 +1,9 @@
 # Building Fondation Mdels for Autonomous Vehicle and Robotics at Tesla 
 
-
 - ICCV 2025 Workshop on [Distillation of Foundation Models for Autonomous Driving](https://wdfm-ad.github.io/iccv25/)
 	- Oct 20, 2025, Honolulu, Hawai
 	- Ashok Elluswamy@Tesla
+	- [Youtube video](https://www.youtube.com/watch?v=wHK8GMc9O5A)
 	- ![](./assets/01_cover.jpeg)
 - Arch
 	- runs at 36 hz
