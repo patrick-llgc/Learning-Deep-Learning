@@ -2,7 +2,9 @@
 This repository contains my paper reading notes on deep learning and machine learning. It is inspired by [Denny Britz](https://github.com/dennybritz/deeplearning-papernotes) and [Daniel Takeshi](https://github.com/DanielTakeshi/Paper_Notes). A minimalistic webpage generated with Github io can be found [here](https://patrick-llgc.github.io/Learning-Deep-Learning/).
 
 ## About me
-My name is [Patrick Langechuan Liu](https://www.linkedin.com/in/patrick-llgc/). After about a decade of education and research in physics, I found my passion in deep learning and autonomous driving.
+My name is [Patrick Langechuan Liu](https://www.linkedin.com/in/patrick-llgc/). After about a decade of training and research in physics, I found my passion in deep learning and autonomous driving. 
+
+I am currently Director of AI at Nvidia, leading the ML modeling effort for Nvidia's end-to-end autonomous driving project, Alpamayo.
 
 ## What to read
 If you are new to deep learning in computer vision and don't know where to start, I suggest you spend your first month or so dive deep into [this list of papers](start/first_cnn_papers.md). I did so ([see my notes](start/first_cnn_papers_notes.md)) and it served me well.
@@ -34,13 +36,33 @@ I regularly update my blog column [the Thinking Car](https://medium.com/the-thin
 - [Lifting 2D object detection to 3D in autonomous driving](https://medium.com/the-thinking-car/geometric-reasoning-based-cuboid-generation-in-monocular-3d-object-detection-5ee2996270d1)
 - [Multimodal Regression](https://medium.com/the-thinking-car/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 
+## 2025-01
+- [SD3: Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://arxiv.org/pdf/2403.03206) [Patrick Esser, Stable Diffusion]
+- [Wan: Open and Advanced Large-Scale Video Generative Models](https://arxiv.org/abs/2503.20314) [通义万象]
 
 
-## 2025-09 (1)
+## 2025-12 (0)
+- [DDPM: Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239) [Berkeley, Jonathan Ho, Pieter Abbeel]
+- [DDIM: Denoising Diffusion Implicit Models](https://arxiv.org/abs/2010.02502) <kbd>ICLR 2021</kbd> [Stanford, Stefano Ermon]
+- [score SDE: Score-Based Generative Modeling through Stochastic Differential Equations](https://arxiv.org/abs/2011.13456) <kbd>ICLR 2021 Oral</kbd> [Stanford, Yang Song, Stefano Ermon]
+- [Improved DDPM: Improved Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2102.09672) [OpenAI, Prafulla Dhariwal]
+- [Classifier Guidance: Diffusion Models Beat GANs on Image Synthesis](https://arxiv.org/abs/2105.05233) [OpenAI, Prafulla Dhariwal]
+- [LDM: Latent Diffusion Model: High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752) <kbd>CVPR 2022</kbd> [Stable Diffusion v1, Patrick Esser]
+- [CFG: Classifier-Free Diffusion Guidance](https://arxiv.org/abs/2207.12598) <kbd>NeurIPS 2021</kbd> [Jonathan Ho, Google Brain]
+- [Rectified flow: Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow](https://arxiv.org/abs/2209.03003) [Xingchao Liu, UT Austin, even earlier than flow matching paper]
+- [Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747) [FAIR]
+- [DiT: Scalable Diffusion Models with Transformers](https://arxiv.org/abs/2212.09748) [Saining Xie]
+- [OT-CFM: Improving and generalizing flow-based generative models with minibatch optimal transport](https://arxiv.org/abs/2302.00482) <kbd>TMLR 2023</kbd> [Alex Tong]
+- [Mean Flows for One-step Generative Modeling](https://arxiv.org/abs/2505.13447) [Kaiming He]
+- [iMF: Improved Mean Flows: On the Challenges of Fastforward Generative Models](https://arxiv.org/abs/2512.02012) [Kaiming He]
+
+## 2025-09 (2)
+- [Cosmos-Reason1: From Physical Common Sense To Embodied Reasoning](https://arxiv.org/abs/2503.15558) [[Notes](paper_notes/cosmos_reason1.md)] [Nvidia]
 - [CoVLA: Comprehensive Vision-Language-Action Dataset for Autonomous Driving](https://arxiv.org/abs/2408.10845) [[Notes](paper_notes/covla.md)] <kbd>WACV 2025</kbd> [~80 h real-world driving videos with paired language and trajectory annotations; largest VLA-for-driving dataset]
 - [SimLingo: Vision-Only Closed-Loop Autonomous Driving with Language-Action Alignment](https://arxiv.org/abs/2503.09594) <kbd>CVPR 2025</kbd> [1st Place @ CARLA Challenge 2024; SOTA on CARLA LB 2.0 and Bench2Drive; cited by AutoVLA]
 - [AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning](https://arxiv.org/abs/2506.13757) <kbd>arXiv 2025-06</kbd> [Trajectory tokenization; dual-thinking (fast vs slow CoT) modes; GRPO fine-tuning; evaluated on nuPlan, nuScenes, Waymo, CARLA; cites SimLingo]
 - [DriveAgent-R1: Advancing VLM-based Autonomous Driving with Hybrid Thinking and Active Perception](https://arxiv.org/abs/2507.20879) <kbd>arXiv 2025-07</kbd> [Hybrid Thinking (text vs tool based CoT) + Active Perception; 3-stage RL training; built on DriveVLM lineage]
+- [AgentThink: A Unified Framework for Tool-Augmented Chain-of-Thought Reasoning in Vision-Language Models for Autonomous Driving](https://arxiv.org/abs/2505.15298) [Kangan Qian, Sicong Jiang, Xiaomi] <kbd>EMNLP25</kbd>
 - [VERDI: VLM-Embedded Reasoning for Autonomous Driving](https://arxiv.org/abs/2505.15925) <kbd>arXiv 2025-05</kbd> [Distills VLM reasoning into a modular AD stack; aligns perception, prediction, planning; improves nuScenes performance with no VLM inference cost]
 - [Poutine: Vision-Language-Trajectory Pre-Training and Reinforcement Post-Training Enable Robust End-to-End Autonomous Driving](https://arxiv.org/abs/2506.11234) <kbd>arXiv 2025-06</kbd> [3B-param VLM trained on 83 h CoVLA + 11 h Waymo long-tail; RL fine-tuned (GRPO); 1st Place in Waymo Vision-Based E2E Driving Challenge (RFS=7.99)]
 - [ReasonPlan: Unified Scene Prediction and Decision Reasoning for Closed-Loop Autonomous Driving](https://arxiv.org/abs/2505.20024) <kbd>arXiv 2025-05</kbd> [Chain-of-Thought planning; significant closed-loop improvements on Bench2Drive]
@@ -52,7 +74,15 @@ I regularly update my blog column [the Thinking Car](https://medium.com/the-thin
 - [DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation](https://arxiv.org/abs/2505.21864) [dextrous hand data collection, Shuran Song, Jim Fan]
 - [DEXOP: A Device for Robotic Transfer of Dexterous Human Manipulation](https://arxiv.org/abs/2509.04441) [Best Paper Award @ RSS 2025]
 - [HAD dataset: Grounding Human-to-Vehicle Advice for Self-driving Vehicles](https://arxiv.org/abs/1911.06978) <kbd>CVPR 2019</kbd> [John Canny, Honda reesarch institute, 2019, VLA OG]
-
+- [RAD: Training an End-to-End Driving Policy via Large-Scale 3DGS-based Reinforcement Learning](https://arxiv.org/abs/2502.13144) <kbd>NeurIPS 2025</kbd> [Horizon]
+- [PerceptionLM: Open-Access Data and Models for Detailed Visual Understanding](https://arxiv.org/abs/2504.13180) [FAIR]
+- [Difix3D+: Improving 3D Reconstructions with Single-Step Diffusion Models](https://arxiv.org/abs/2503.01774) <kbd>CVPR 2025 best paper candidates</kbd> [Nvidia, Sanja Fidler]
+- [π∗0.6: a VLA That Learns From Experience](https://arxiv.org/abs/2511.14759) [VLA + RL]
+- [π𝚁𝙻: Online RL Fine-tuning for Flow-based Vision-Language-Action Models](https://arxiv.org/abs/2510.25889) [VLA + RL]
+- [VLA-RL: Towards Masterful and General Robotic Manipulation with Scalable Reinforcement Learning](https://arxiv.org/abs/2505.18719) [VLA + RL]
+- [GR-RL: Going Dexterous and Precise for Long-Horizon Robotic Manipulation](https://arxiv.org/abs/2512.01801) [VLA + RL]
+- [GR-3 Technical Report](https://arxiv.org/abs/2507.15493) [VLA, Bytedance]
+- [Mixture of Horizons in Action Chunking](https://arxiv.org/abs/2511.19433)
 
 
 ## 2025-06 (1)
