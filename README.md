@@ -36,9 +36,9 @@ I regularly update my blog column [the Thinking Car](https://medium.com/the-thin
 - [Lifting 2D object detection to 3D in autonomous driving](https://medium.com/the-thinking-car/geometric-reasoning-based-cuboid-generation-in-monocular-3d-object-detection-5ee2996270d1)
 - [Multimodal Regression](https://medium.com/the-thinking-car/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 
-## 2025-01
+## 2025-01 (1)
 - [Stepwise Internalization: From Explicit CoT to Implicit CoT: Learning to Internalize CoT Step by Step](https://arxiv.org/abs/2405.14838) [Yejin Choi, latent CoT]
-- [Coconut: Training Large Language Models to Reason in a Continuous Latent Space](https://arxiv.org/abs/2412.06769) <kbd>COLM 2025</kbd> [Yuandong Tian, latent CoT]
+- [Coconut: Training Large Language Models to Reason in a Continuous Latent Space](https://arxiv.org/abs/2412.06769) [[Notes](paper_notes/coconut.md)] <kbd>COLM 2025</kbd> [Yuandong Tian, latent CoT]
 - [DLCM: Dynamic Large Concept Models: Latent Reasoning in an Adaptive Semantic Space](https://arxiv.org/abs/2512.24617) [Xingwei Qu, ByteDance]
 - [A Survey on Latent Reasoning](https://arxiv.org/abs/2507.06203) [[Notes](paper_notes/latent_cot_horizon.md)] [Xingwei Qu, ByteDance]
 - [SD3: Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://arxiv.org/pdf/2403.03206) [Patrick Esser, Stable Diffusion]
