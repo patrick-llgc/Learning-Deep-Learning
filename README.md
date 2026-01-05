@@ -39,7 +39,7 @@ I regularly update my blog column [the Thinking Car](https://medium.com/the-thin
 ## 2025-01 (1)
 - [Stepwise Internalization: From Explicit CoT to Implicit CoT: Learning to Internalize CoT Step by Step](https://arxiv.org/abs/2405.14838) [Yejin Choi, latent CoT]
 - [Coconut: Training Large Language Models to Reason in a Continuous Latent Space](https://arxiv.org/abs/2412.06769) [[Notes](paper_notes/coconut.md)] <kbd>COLM 2025</kbd> [Yuandong Tian, latent CoT]
-- [DLCM: Dynamic Large Concept Models: Latent Reasoning in an Adaptive Semantic Space](https://arxiv.org/abs/2512.24617) [Xingwei Qu, ByteDance]
+- [DLCM: Dynamic Large Concept Models: Latent Reasoning in an Adaptive Semantic Space](https://arxiv.org/abs/2512.24617) [[Notes](paper_notes/dlcm.md)] [Xingwei Qu, ByteDance]
 - [A Survey on Latent Reasoning](https://arxiv.org/abs/2507.06203) [[Notes](paper_notes/latent_cot_horizon.md)] [Xingwei Qu, ByteDance]
 - [SD3: Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://arxiv.org/pdf/2403.03206) [Patrick Esser, Stable Diffusion]
 - [Wan: Open and Advanced Large-Scale Video Generative Models](https://arxiv.org/abs/2503.20314) [通义万象]

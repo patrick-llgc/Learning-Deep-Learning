@@ -19,6 +19,7 @@ One possible drawback is that this cannot decode into human language and is hard
 - Induces BFS
 	- Standard LLMs are DFS as every time a word is generated, the model's internal probability distribution collapses into a single token. And LLM cannot do backtrack easily (only explcitly with CoT at grammatically correct tuning point).
 	- Entropy analysis: in early latent steps, the model assigns high and nearly equal probabilities to multiple different valid next steps.
+	- Performs well on ProsQA, PrOntoQA, where early assumptions are ambiguous, and DFS gets stuck. Explicit CoT (DFS) fails even when lengthened.
 	- Latent Coconut recovers.
 
 #### Technical details
