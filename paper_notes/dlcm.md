@@ -2,9 +2,11 @@
 
 _January 2026_
 
-tl;dr: Collapse multiple language token into one "concept", reasons in concept space, and then decode back into language tokens.
+tl;dr: Concept models are latent CoT models with intrpretability.
 
 #### Overall impression
+Collapse multiple language token into one "concept", reasons in concept space, and then decode back into language tokens.
+
 This is better than latent CoT methods such as [Coconut](coconut.md) in that it can be decoded back into langauge space where latent CoT cannot explicitly be decoded into language tokens.
 
 Concpet models essentially are doing specdec not only in last output space but also in model space. 

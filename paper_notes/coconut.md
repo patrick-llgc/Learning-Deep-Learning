@@ -23,7 +23,8 @@ One possible drawback is that this cannot decode into human language and is hard
 	- Latent Coconut recovers.
 
 #### Technical details
-- <!--Summary of technical details, such as important training details, or bugs of previous benchmarks.-->
+- The training process is heavily inspired by the concept from [Stepwise Internalization](stepwise_internalization.md).
+
 
 #### Notes
 - The iterative nature of latent token is very similar to diffusio language models. The connection is also highlighted in the [latent CoT survey](latent_cot_horizon.md).
