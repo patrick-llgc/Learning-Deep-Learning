@@ -41,8 +41,10 @@ I regularly update my blog column [the Thinking Car](https://medium.com/the-thin
 - [Coconut: Training Large Language Models to Reason in a Continuous Latent Space](https://arxiv.org/abs/2412.06769) [[Notes](paper_notes/coconut.md)] <kbd>COLM 2025</kbd> [Yuandong Tian, latent CoT]
 - [DLCM: Dynamic Large Concept Models: Latent Reasoning in an Adaptive Semantic Space](https://arxiv.org/abs/2512.24617) [[Notes](paper_notes/dlcm.md)] [Xingwei Qu, ByteDance, latent CoT --> concept models with interpretability]
 - [A Survey on Latent Reasoning](https://arxiv.org/abs/2507.06203) [[Notes](paper_notes/latent_cot_horizon.md)] [Xingwei Qu, ByteDance]
+- [Efficient-DLM: From Autoregressive to Diffusion Language Models, and Beyond in Speed](https://arxiv.org/abs/2512.14067) [[Notes](paper_notes/efficient_dlm.md)] [Pavlo, Song Han, Nvidia]
 - [SD3: Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://arxiv.org/pdf/2403.03206) [Patrick Esser, Stable Diffusion]
 - [Wan: Open and Advanced Large-Scale Video Generative Models](https://arxiv.org/abs/2503.20314) [通义万象]
+- [RHO-1: Not All Tokens Are What You Need](https://arxiv.org/abs/2404.07965) [[Notes](paper_notes/rho1.md)] <kbd>NeurIPS 2024 Oral</kbd>
 
 
 ## 2025-12 (0)
