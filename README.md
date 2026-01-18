@@ -40,6 +40,7 @@ I regularly update my blog column [the Thinking Car](https://medium.com/the-thin
 This session contains quick notes (like git-gist) to my future self.
 
 - [Compute Hardware](gist/compute_hardware.md)
+- [Attention masks](gist/attention_mask.md)
 
 ## 2025-01 (8)
 - [Stepwise Internalization: From Explicit CoT to Implicit CoT: Learning to Internalize CoT Step by Step](https://arxiv.org/abs/2405.14838) [[Notes](paper_notes/stepwise_internalization.md)] [Yejin Choi, latent CoT]

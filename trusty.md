@@ -1,5 +1,8 @@
 # Source of papers
 
+## Courses
+- [LLM course on Github](https://github.com/mlabonne/llm-course) with [paper back book version](https://www.amazon.com/LLM-Engineers-Handbook-engineering-production/dp/1836200072)
+
 ## Researchers' webpage
 - [Kaiming He](http://kaiminghe.com/) [FAIR]
 - [Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/publications/publications.html) [Uber ATG]
