@@ -38,7 +38,8 @@ I regularly update my blog column [the Thinking Car](https://medium.com/the-thin
 
 ## Scratchpad by Topics
 This session contains quick notes (like git-gist) to my future self.
-- [Requirements to compute hardware between training and inference](gist/compute_hardware.md)
+
+- [Compute Hardware](gist/compute_hardware.md)
 
 ## 2025-01 (8)
 - [Stepwise Internalization: From Explicit CoT to Implicit CoT: Learning to Internalize CoT Step by Step](https://arxiv.org/abs/2405.14838) [[Notes](paper_notes/stepwise_internalization.md)] [Yejin Choi, latent CoT]
