@@ -7,7 +7,7 @@ tl;dr: Self-sepeculative decoding, train in AR + augment with diffusion + deploy
 #### Overall impression
 Uses the general idea of specdec, but the draft model is a diffusion model version of the AR base model.
 
-In the same forward pass, we can do AR check (verification of the last block) and diffusion drafting of next block. Both verification and diffuison geenration can be in parallel.
+In the same forward pass, TiDAR can do AR check (verification of the last block) and diffusion drafting of next block. Both verification and diffuison geenration can be in parallel.
 
 Key insight: we are NOT using up all the GPU as we are compute bound.
 
@@ -19,7 +19,7 @@ Key insight: we are NOT using up all the GPU as we are compute bound.
 	- Proposal 2: ABC + DE  (accepted draft) + FGH (generated pre-draft) 
 	- Proposal 3: ABC + D   (accepted draft) + EFG (generated pre-draft)
 	- No matter how many tokens are accepted in verification, we will always have a ready-made draft for the next phase.
-- Careful design of attention mask for traning and inference
+- Specially designed structured attention mask for traning and inference
 ![](https://pic1.zhimg.com/v2-0920d745e94d899ad23702d3b73a6f3e_r.jpg)
 - Same model is used to decode in both diffusion and also AR.
 	- This may degrade the model's AR performance a bit. 

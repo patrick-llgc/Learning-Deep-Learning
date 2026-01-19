@@ -42,7 +42,7 @@ This session contains quick notes (like git-gist) to my future self.
 - [Compute Hardware](gist/compute_hardware.md)
 - [Attention masks](gist/attention_mask.md)
 
-## 2025-01 (8)
+## 2025-01 (9)
 - [Stepwise Internalization: From Explicit CoT to Implicit CoT: Learning to Internalize CoT Step by Step](https://arxiv.org/abs/2405.14838) [[Notes](paper_notes/stepwise_internalization.md)] [Yejin Choi, latent CoT]
 - [Coconut: Training Large Language Models to Reason in a Continuous Latent Space](https://arxiv.org/abs/2412.06769) [[Notes](paper_notes/coconut.md)] <kbd>COLM 2025</kbd> [Yuandong Tian, latent CoT]
 - [DLCM: Dynamic Large Concept Models: Latent Reasoning in an Adaptive Semantic Space](https://arxiv.org/abs/2512.24617) [[Notes](paper_notes/dlcm.md)] [Xingwei Qu, ByteDance, latent CoT --> concept models with interpretability]
@@ -51,7 +51,7 @@ This session contains quick notes (like git-gist) to my future self.
 - [Dream 7B: Diffusion Large Language Models](https://arxiv.org/abs/2508.15487)
 - [Seed Diffusion: A Large-Scale Diffusion Language Model with High-Speed Inference](https://arxiv.org/abs/2508.02193) [Bytedance Seed]
 - [MMaDA: Multimodal Large Diffusion Language Models](https://arxiv.org/abs/2505.15809) [Bytedance Seed]
-- [Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding](https://arxiv.org/abs/2505.22618)
+- [Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding](https://arxiv.org/abs/2505.22618) [[Notes](paper_notes/fast_dllm.md)] [Song Han, Enze Xie]
 - [Fast-dLLM v2: Efficient Block-Diffusion LLM](https://arxiv.org/abs/2509.26328)
 - [Efficient-DLM: From Autoregressive to Diffusion Language Models, and Beyond in Speed](https://arxiv.org/abs/2512.14067) [[Notes](paper_notes/efficient_dlm.md)] [Pavlo, Song Han, Nvidia]
 - [TiDAR: Think in Diffusion, Talk in Autoregression](https://arxiv.org/abs/2511.08923) [[Notes](paper_notes/tidar.md)]
