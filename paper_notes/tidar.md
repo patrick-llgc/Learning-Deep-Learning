@@ -5,6 +5,8 @@ _January 2026_
 tl;dr: Self-sepeculative decoding, train in AR + augment with diffusion + deploy as hybrid.
 
 #### Overall impression
+**Note**: TiDAR is actually NOT a `diffusion` model at all, but an `multitoken prediction autoregressive` model. **The paper confuses `diffusion` with `MTP AR`.**
+
 Uses the general idea of specdec, but the draft model is a diffusion model version of the AR base model.
 
 In the same forward pass, TiDAR can do AR check (verification of the last block) and diffusion drafting of next block. Both verification and diffuison geenration can be in parallel.

@@ -36,13 +36,16 @@ I regularly update my blog column [the Thinking Car](https://medium.com/the-thin
 - [Lifting 2D object detection to 3D in autonomous driving](https://medium.com/the-thinking-car/geometric-reasoning-based-cuboid-generation-in-monocular-3d-object-detection-5ee2996270d1)
 - [Multimodal Regression](https://medium.com/the-thinking-car/anchors-and-multi-bin-loss-for-multi-modal-target-regression-647ea1974617)
 
+## Notes of AI Podcasts
+- [Interview of Jiali Weng at OpenAI by WhynotTV](https://www.bilibili.com/video/BV1darmBcE4A/) [[Notes](podcast/jialiweng.md)] [Interview, Jiali Weng/翁家笠, OpenAI, WhynotTV]
+
 ## Scratchpad by Topics
 This session contains quick notes (like git-gist) to my future self.
 
 - [Compute Hardware](gist/compute_hardware.md)
 - [Attention masks](gist/attention_mask.md)
 
-## 2025-01 (9)
+## 2025-01 (10)
 - [Stepwise Internalization: From Explicit CoT to Implicit CoT: Learning to Internalize CoT Step by Step](https://arxiv.org/abs/2405.14838) [[Notes](paper_notes/stepwise_internalization.md)] [Yejin Choi, latent CoT]
 - [Coconut: Training Large Language Models to Reason in a Continuous Latent Space](https://arxiv.org/abs/2412.06769) [[Notes](paper_notes/coconut.md)] <kbd>COLM 2025</kbd> [Yuandong Tian, latent CoT]
 - [DLCM: Dynamic Large Concept Models: Latent Reasoning in an Adaptive Semantic Space](https://arxiv.org/abs/2512.24617) [[Notes](paper_notes/dlcm.md)] [Xingwei Qu, ByteDance, latent CoT --> concept models with interpretability]
@@ -52,11 +55,12 @@ This session contains quick notes (like git-gist) to my future self.
 - [Seed Diffusion: A Large-Scale Diffusion Language Model with High-Speed Inference](https://arxiv.org/abs/2508.02193) [Bytedance Seed]
 - [MMaDA: Multimodal Large Diffusion Language Models](https://arxiv.org/abs/2505.15809) [Bytedance Seed]
 - [Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding](https://arxiv.org/abs/2505.22618) [[Notes](paper_notes/fast_dllm.md)] [Song Han, Enze Xie]
-- [Fast-dLLM v2: Efficient Block-Diffusion LLM](https://arxiv.org/abs/2509.26328)
+- [Fast-dLLM v2: Efficient Block-Diffusion LLM](https://arxiv.org/abs/2509.26328) [[Notes](paper_notes/fast_dllm_v2.md)] [Song Han, Enze Xie]
 - [Efficient-DLM: From Autoregressive to Diffusion Language Models, and Beyond in Speed](https://arxiv.org/abs/2512.14067) [[Notes](paper_notes/efficient_dlm.md)] [Pavlo, Song Han, Nvidia]
-- [TiDAR: Think in Diffusion, Talk in Autoregression](https://arxiv.org/abs/2511.08923) [[Notes](paper_notes/tidar.md)]
+- [TiDAR: Think in Diffusion, Talk in Autoregression](https://arxiv.org/abs/2511.08923) [[Notes](paper_notes/tidar.md)] [Nvidia, Pavlo]
 - [DFlash: Block Diffusion for Flash Speculative Decoding](https://z-lab.ai/projects/dflash/)
 - [Dream 7B: Diffusion Large Language Models](https://arxiv.org/abs/2508.15487)
+- [Block Diffusion: Interpolating Between Autoregressive and Diffusion Language Models](https://arxiv.org/abs/2503.09573) <kbd>ICLR 2025 Oral</kbd>
 - [SD3: Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://arxiv.org/pdf/2403.03206) [Patrick Esser, Stable Diffusion]
 - [Wan: Open and Advanced Large-Scale Video Generative Models](https://arxiv.org/abs/2503.20314) [通义万象]
 - [RHO-1: Not All Tokens Are What You Need](https://arxiv.org/abs/2404.07965) [[Notes](paper_notes/rho1.md)] <kbd>NeurIPS 2024 Oral</kbd>
