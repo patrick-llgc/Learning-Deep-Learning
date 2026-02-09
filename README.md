@@ -45,6 +45,10 @@ This session contains quick notes (like git-gist) to my future self.
 - [Compute Hardware](gist/compute_hardware.md)
 - [Attention masks](gist/attention_mask.md)
 
+
+## 2025-02 (0)
+- [DFlash: Block Diffusion for Flash Speculative Decoding](https://arxiv.org/abs/2602.06036)
+
 ## 2025-01 (10)
 - [Stepwise Internalization: From Explicit CoT to Implicit CoT: Learning to Internalize CoT Step by Step](https://arxiv.org/abs/2405.14838) [[Notes](paper_notes/stepwise_internalization.md)] [Yejin Choi, latent CoT]
 - [Coconut: Training Large Language Models to Reason in a Continuous Latent Space](https://arxiv.org/abs/2412.06769) [[Notes](paper_notes/coconut.md)] <kbd>COLM 2025</kbd> [Yuandong Tian, latent CoT]
@@ -65,6 +69,12 @@ This session contains quick notes (like git-gist) to my future self.
 - [Wan: Open and Advanced Large-Scale Video Generative Models](https://arxiv.org/abs/2503.20314) [通义万象]
 - [RHO-1: Not All Tokens Are What You Need](https://arxiv.org/abs/2404.07965) [[Notes](paper_notes/rho1.md)] <kbd>NeurIPS 2024 Oral</kbd>
 - [WOD-E2E: Waymo Open Dataset for End-to-End Driving in Challenging Long-tail Scenarios](https://arxiv.org/abs/2510.26125) [[Notes](paper_notes/wod_e2e.md)] [Waymo]
+- [LVP: Large Video Planner Enables Generalizable Robot Control](https://arxiv.org/abs/2512.15840) [[Notes](paper_notes/lvp.md)]
+- [Robust Finetuning of Vision-Language-Action Robot Policies via Parameter Merging](https://arxiv.org/abs/2512.08333)
+- [Epona: Autoregressive Diffusion World Model for Autonomous Driving](https://arxiv.org/abs/2506.24113) <kbd>ICCV 2025</kbd> [Horizonp]
+- [HaMeR: Reconstructing Hands in 3D with Transformers](https://arxiv.org/abs/2312.05251) [hand mesh recovery, Berkeley, mono recon of MANO parameterization]
+- [MegaSaM: Accurate, Fast, and Robust Structure and Motion from
+Casual Dynamic Videos](https://arxiv.org/abd/2412.04463) <kbd>CVPR 2025 Best Paper Shortlist</kbd> [SaM: structure and Motion] 
 
 
 ## 2025-12 (0)
