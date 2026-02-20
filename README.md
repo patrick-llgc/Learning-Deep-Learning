@@ -46,8 +46,9 @@ This session contains quick notes (like git-gist) to my future self.
 - [Attention masks](gist/attention_mask.md)
 
 
-## 2025-02 (0)
+## 2025-02 (1)
 - [DFlash: Block Diffusion for Flash Speculative Decoding](https://arxiv.org/abs/2602.06036)
+- [VLM4VLA: Revisiting Vision-Language-Models in Vision-Language-Action Models](https://arxiv.org/abs/2601.03309) [[Notes](paper_notes/vlm4vla.md)] [Qwen team]
 
 ## 2025-01 (10)
 - [Stepwise Internalization: From Explicit CoT to Implicit CoT: Learning to Internalize CoT Step by Step](https://arxiv.org/abs/2405.14838) [[Notes](paper_notes/stepwise_internalization.md)] [Yejin Choi, latent CoT]
