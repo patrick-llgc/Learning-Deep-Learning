@@ -97,7 +97,7 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 		* hard clear (redact tool output entirely)
 * Best practice: important stuff to write to system prompt, not only in context. Context compression will sometimes lose the info.
 
-# Takeaways
+# Thinking tidbits
 - Prompt caching is essentially prefill kv caching.
 	- By caching frequently used instructions, context, or long documents, it reduces latency by up to 85% and cuts input token costs by up to 90% for subsequent requests.
 	- Drastically improves Time to First Token (TTFT) by skipping processing of the cached prefix.
