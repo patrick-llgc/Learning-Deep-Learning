@@ -46,6 +46,10 @@ This session contains quick notes (like git-gist) to my future self.
 - [Attention masks](gist/attention_mask.md)
 
 
+## 2025-04 (1)
+- [FlashDrive: Flash Vision-Language-Action Inference For Autonomous Driving](https://openreview.net/pdf?id=kuZrNI5oZM) [[Notes](paper_notes/flashdrive.md)] <kbd>ICLR 2026</kbd>
+- [Fast-WAM: Do World Action Models Need Test-time Future Imagination?](https://arxiv.org/abs/2603.16666) [Hang Zhao]
+
 ## 2025-02 (1)
 - [DFlash: Block Diffusion for Flash Speculative Decoding](https://arxiv.org/abs/2602.06036)
 - [VLM4VLA: Revisiting Vision-Language-Models in Vision-Language-Action Models](https://arxiv.org/abs/2601.03309) [[Notes](paper_notes/vlm4vla.md)] [Qwen team]
@@ -59,11 +63,11 @@ This session contains quick notes (like git-gist) to my future self.
 - [Dream 7B: Diffusion Large Language Models](https://arxiv.org/abs/2508.15487)
 - [Seed Diffusion: A Large-Scale Diffusion Language Model with High-Speed Inference](https://arxiv.org/abs/2508.02193) [Bytedance Seed]
 - [MMaDA: Multimodal Large Diffusion Language Models](https://arxiv.org/abs/2505.15809) [Bytedance Seed]
+- [DFlash: Block Diffusion for Flash Speculative Decoding](https://z-lab.ai/projects/dflash/)
 - [Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding](https://arxiv.org/abs/2505.22618) [[Notes](paper_notes/fast_dllm.md)] [Song Han, Enze Xie]
 - [Fast-dLLM v2: Efficient Block-Diffusion LLM](https://arxiv.org/abs/2509.26328) [[Notes](paper_notes/fast_dllm_v2.md)] [Song Han, Enze Xie]
 - [Efficient-DLM: From Autoregressive to Diffusion Language Models, and Beyond in Speed](https://arxiv.org/abs/2512.14067) [[Notes](paper_notes/efficient_dlm.md)] [Pavlo, Song Han, Nvidia]
 - [TiDAR: Think in Diffusion, Talk in Autoregression](https://arxiv.org/abs/2511.08923) [[Notes](paper_notes/tidar.md)] [Nvidia, Pavlo]
-- [DFlash: Block Diffusion for Flash Speculative Decoding](https://z-lab.ai/projects/dflash/)
 - [Dream 7B: Diffusion Large Language Models](https://arxiv.org/abs/2508.15487)
 - [Block Diffusion: Interpolating Between Autoregressive and Diffusion Language Models](https://arxiv.org/abs/2503.09573) <kbd>ICLR 2025 Oral</kbd>
 - [SD3: Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://arxiv.org/pdf/2403.03206) [Patrick Esser, Stable Diffusion]
