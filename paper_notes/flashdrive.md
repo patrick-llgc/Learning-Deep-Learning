@@ -13,6 +13,8 @@ The paper broke down the inference pipeline into four parts: vision ecnoder, pre
 	- Example: Old window: [A, B, C, D], Next window: [B, C, D, E]
 	- Cached D still carries some influence from A, fresh D would not. So reused K/V is stale.
 	- This would lead to a train/inference mismatch.
+- streaming fine-tuning means:
+	- “Train the action head on these approximate caches until it becomes robust to them.”
 
 #### Technical details
 - <!--Summary of technical details, such as important training details, or bugs of previous benchmarks.-->

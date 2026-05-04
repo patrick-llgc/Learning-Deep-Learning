@@ -46,15 +46,20 @@ This session contains quick notes (like git-gist) to my future self.
 - [Attention masks](gist/attention_mask.md)
 
 
-## 2025-04 (1)
+## 2026-04 (1)
+- [VLASH: Real-Time VLAs via Future-State-Aware Asynchronous Inference](https://arxiv.org/abs/2512.01031) [[Notes](paper_notes/vlash.md)] [Async infer, Song Han, Zhijian Liu]
+- [RTC: Real-Time Execution of Action Chunking Flow Policies](https://arxiv.org/abs/2506.07339) [Async infer, Physical Intelligence]
+- [Running VLAs at Real-time Speed](https://arxiv.org/abs/2510.26742) [Async infer, Dexmal]
+- [Leave No Observation Behind: Real-time Correction for VLA Action Chunks](https://arxiv.org/abs/2509.23224) [Async infer]
+- [SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics](https://arxiv.org/abs/2506.01844) [Async infer]
 - [FlashDrive: Flash Vision-Language-Action Inference For Autonomous Driving](https://openreview.net/pdf?id=kuZrNI5oZM) [[Notes](paper_notes/flashdrive.md)] <kbd>ICLR 2026</kbd>
 - [Fast-WAM: Do World Action Models Need Test-time Future Imagination?](https://arxiv.org/abs/2603.16666) [Hang Zhao]
 
-## 2025-02 (1)
+## 2026-02 (1)
 - [DFlash: Block Diffusion for Flash Speculative Decoding](https://arxiv.org/abs/2602.06036)
 - [VLM4VLA: Revisiting Vision-Language-Models in Vision-Language-Action Models](https://arxiv.org/abs/2601.03309) [[Notes](paper_notes/vlm4vla.md)] [Qwen team]
 
-## 2025-01 (10)
+## 2026-01 (10)
 - [Stepwise Internalization: From Explicit CoT to Implicit CoT: Learning to Internalize CoT Step by Step](https://arxiv.org/abs/2405.14838) [[Notes](paper_notes/stepwise_internalization.md)] [Yejin Choi, latent CoT]
 - [Coconut: Training Large Language Models to Reason in a Continuous Latent Space](https://arxiv.org/abs/2412.06769) [[Notes](paper_notes/coconut.md)] <kbd>COLM 2025</kbd> [Yuandong Tian, latent CoT]
 - [DLCM: Dynamic Large Concept Models: Latent Reasoning in an Adaptive Semantic Space](https://arxiv.org/abs/2512.24617) [[Notes](paper_notes/dlcm.md)] [Xingwei Qu, ByteDance, latent CoT --> concept models with interpretability]
