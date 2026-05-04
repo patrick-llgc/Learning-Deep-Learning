@@ -37,3 +37,13 @@ Textbook by Frank Chongwoo Park and Kevin M. Lynch
 - Topological equivalency: one can be smoothly deformed to the other without **cutting and gluing**.
 - Surface of a donut: torus
 - C-space with the same dimension can have diff topology.
+
+
+
+## Additional Q&A
+- Difference between kinematics (运动学) and dynmaics (动力学)
+	- Kinematics talks about how to move, and dynamics talks about the why of moving
+	- Kinematics is an extension of Newton's 1st Law of Motion, that motion can be characterized without talking about force. 
+	- Dynamics is an extention of Newton's 2nd Law of Motion, that forces changes motion.
+- Kinematics/Dynamics and Authonomous driving
+	- Most algorithm talks about kinematics (how to move) and does not care about dynamics at all.
