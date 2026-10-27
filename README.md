@@ -45,6 +45,14 @@ This session contains quick notes (like git-gist) to my future self.
 - [Compute Hardware](gist/compute_hardware.md)
 - [Attention masks](gist/attention_mask.md)
 
+## 2026-10 (0)
+- [MEM: Multi-Scale Embodied Memory for Vision Language Action Models](https://arxiv.org/abs/2603.03596) [physical intelligence]
+
+## 2026-06 (0)
+- [VLM3: Vision Language Models Are Native 3D Learners](https://arxiv.org/abs/2605.30561) [Meta]
+- [Vision Banana: Image Generators are Generalist Vision Learners](https://arxiv.org/abs/2604.20329)
+- [3D-MIX for VLA: A Plug-and-Play Module for Integrating VGGT-based 3D Information into Vision-Language-Action Models](https://arxiv.org/abs/2603.24393) [tons of ablation study]
+
 
 ## 2026-04 (1)
 - [VLASH: Real-Time VLAs via Future-State-Aware Asynchronous Inference](https://arxiv.org/abs/2512.01031) [[Notes](paper_notes/vlash.md)] [Async infer, Song Han, Zhijian Liu]

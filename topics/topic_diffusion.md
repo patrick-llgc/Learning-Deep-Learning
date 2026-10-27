@@ -23,6 +23,7 @@
 	- [The Rise of Single-Step Generative Models [MeanFlow]](https://www.youtube.com/watch?v=swKdn-- QT47- Q), Jia-Bin Huang
 	- [台大李宏毅教授扩散模型](https://www.bilibili.com/video/BV14c411J7f2/), bilibili, in Chinese
 	- [FlowMatching的直观理解](https://www.bilibili.com/video/BV142C2BSEbm/)
+	- [Flow Matching | Explanation + PyTorch Implementation](https://www.youtube.com/watch?v=7cMzfkWFWhI)
 - Blogs
     - [生成扩散模型漫谈（四）：DDIM = 高观点DDPM](https://spaces.ac.cn/archives/9181), 苏剑林
 博客
@@ -30,7 +31,7 @@
 博客
 	- [[ICLR2023] 扩散生成模型新方法：极度简化，一步生成](https://zhuanlan.zhihu.com/p/603740431), in Chinese on 知乎 by Xingchen Liu, 1st author of Rectified Flow, now at deepseek 
 	- [通俗易懂的Flow Matching原理解读（附核心公式推导和源代码）](https://zhuanlan.zhihu.com/p/4116861550), in Chinese on 知乎
-	- [笔记: 扩散模型，流匹配，一步生成MeanFlow](https://mp.weixin.- Q- Q.com/s/- QvD- QeLL3H7z6KF4pb1Pf7g), in Chinese on 微信公众号
+	- [笔记: 扩散模型，流匹配，一步生成MeanFlow](https://mp.weixin.com/s/- QvD- QeLL3H7z6KF4pb1Pf7g), in Chinese on 微信公众号
 	- [An introduction to Flow Matching](https://mlg.eng.cam.ac.uk/blog/2024/01/20/flow-matching.html), Cambridge
 
 - Notebooks	
@@ -229,6 +230,13 @@ The prob path p_t(x|x_1) connects p(x) starting point and true data distribution
 - Q: FM trains faster and samples faster
 - A: Not necessarily but only with Optimal transport (OT). Flow matching with diffusion objectives will be the same as score matching with diffusin objective (DDPM).
 
+- Q: flow matching pairs are sampled randomly?
+- A: Generally yes. For example, optimal transport flow matching tries to pair noise and data samples more intelligently, so the path is still often straight, but the chosen pairs are less arbitrary. That can reduce path crossing and make the vector field easier to learn.
+
+- Q: The network learns the order/pattern through averaged messy traj?
+- A: Yes. That averaging is part of why the learned marginal vector field can be curved and time-dependent even though every individual training path is straight with constant velocity.
+
+
 - Q: what are the popular solvers for FM?
 - A: once we reformulate the problem as solving an ODE, then better methods are available, such as the Heun (RK2, runge-kutta-2nd-order) = best practical tradeoff (Euler = cheap, rough, or RK1 method). 
 - Specifically, SD3 and MovieGen used Euler as sampling method. 
@@ -238,7 +246,8 @@ The prob path p_t(x|x_1) connects p(x) starting point and true data distribution
 - Also stochasticity means that overshooting is necessary. It is expected behavior. 
 
 - Q: why is the vector field constant in time?
-- A: is because the vector field is a time derivative of the flow phi ψ. The flow is defined as a constant move toward the target in a straight line, and thus the vector field is constant wrt t. 
+- A: This is true for each sample pair (or each trajectory). This is because the vector field is a time derivative of the flow phi ψ. The flow is defined as a constant move toward the target in a straight line, and thus the vector field is constant wrt t. 
+- However this is not true globally after averaging.
 
 - Q: is x0 and x1 in FM paired?
 - A: In Flow Matching, x_0 and x_1 are independently sampled; the model learns a global transport field, not pointwise correspondences.
@@ -262,8 +271,8 @@ The prob path p_t(x|x_1) connects p(x) starting point and true data distribution
 - Q: training and inference impact of RF
 - A: Rectified Flow (RF) trades extra training cost for much cheaper, faster, and more stable inference.
 
-- Q: what other ways to straighten the flow?
-- A: OT-CFM proposed to solve minibatch OT. Essentially, Step 1: π ← OT(x1, x0), Step2: (x0, x1) ~ π. OT using sinkhorn algorithm (a soft and GPU friendly version of hard Hungarian matching). OT minimizes the cost, which is L2 distance between the samples. 
+- Q: What other ways to straighten the flow?
+- A: OT-CFM proposed to solve minibatch OT. Essentially, Step 1: π ← OT(x1, x0), Step2: (x0, x1) ~ π. OT using sinkhorn algorithm (a soft and GPU friendly version of hard Hungarian matching). OT minimizes the cost, which is L2 distance between the samples.
 
 ### Meanflow, iMF (latest as of 12/2025)
 - Q: what is mean flow doing that RF cannot do?
